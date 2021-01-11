@@ -26,6 +26,7 @@
          <div id="mapid"></div>
          <!-- THE SEARCH BOX  -->
          <!-- Search <input type="text" ng-model="search" placeholder="Enter some text to search"/> -->
+         <h3 id="visitCount"></h3>
          <table class="table">
             <tr>
                <th>Resort Name</th>
@@ -90,11 +91,17 @@
         shadowSize: [41, 41]
       });
 
-      for (var i = 0; i<allData.length; i++) {
+      var visitedCount = 0;
 
-        var icon = allData[i].videos.length > 0 ? greenIcon : redIcon;
+      for (var i = 0; i < allData.length; i++) {
 
-        var videoLinks = allData[i].videos.length > 0 ? `<p>Here ${allData[i].videos.length === 1 ? 'is the only video' : 'are ' + allData[i].videos.length + ' videos (in a playlist)' }  of Johathan from this location!<p><p><iframe width="400" height="336" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` : '<p>Johnathan hasn\'t traveled here yet! Check back soon</p>';
+        var visited = allData[i].videos.length > 0;
+
+        visited ? visitedCount++ : undefined;
+
+        var icon = visited > 0 ? greenIcon : redIcon;   
+
+        var videoLinks = visited ? `<p>Here ${allData[i].videos.length === 1 ? 'is the only video' : 'are ' + allData[i].videos.length + ' videos (in a playlist)' }  of Johathan from this location!<p><p><iframe width="400" height="336" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` : '<p>Johnathan hasn\'t traveled here yet! Check back soon</p>';
 
         // var videoLinks = allData[i].videos.map(val => `<p><iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/${val}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`).slice(0, 3).join('');
         // var moreVideos = `<iframe width="560" height="315" src="http://www.youtube.com/embed/${allData[i].videos[4]}?playlist=${allData[i].videos.slice(4).join(',')}" frameborder="0" allowfullscreen></iframe>`;
@@ -119,7 +126,7 @@
         .bindTooltip(allData[i].resortName);
       }
 
-
+      document.getElementById("visitCount").innerText = "Johnathan has visited " + visitedCount + " out of " + allData.length + " resorts so far!"  
       
  </script>
 </html>

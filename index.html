@@ -94,7 +94,7 @@
 
         var icon = allData[i].videos.length > 0 ? greenIcon : redIcon;
 
-        var videoLinks = allData[i].videos.length > 0 ? `<p>Here ${allData[i].videos.length === 1 ? 'is the only video' : 'are ' + allData[i].videos.length + ' videos (in a playlist)' }  of Johathan from this location!<p><p><iframe width="400" height="336" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` : '<p>Johnathan hasn\'t travled here yet! Check back soon</p>';
+        var videoLinks = allData[i].videos.length > 0 ? `<p>Here ${allData[i].videos.length === 1 ? 'is the only video' : 'are ' + allData[i].videos.length + ' videos (in a playlist)' }  of Johathan from this location!<p><p><iframe width="400" height="336" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` : '<p>Johnathan hasn\'t traveled here yet! Check back soon</p>';
 
         // var videoLinks = allData[i].videos.map(val => `<p><iframe width="300" height="169" src="https://www.youtube-nocookie.com/embed/${val}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`).slice(0, 3).join('');
         // var moreVideos = `<iframe width="560" height="315" src="http://www.youtube.com/embed/${allData[i].videos[4]}?playlist=${allData[i].videos.slice(4).join(',')}" frameborder="0" allowfullscreen></iframe>`;

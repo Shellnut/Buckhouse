@@ -3560,6 +3560,7 @@ var allData = [
       "region": "Rocky Mountains",
       "city": "Keystone",
       "videos": [
+        "2MncCuCC5vA",
         "OD8MMsVw45A",
         "c6JkkT1VEtM",
         "r9_h4sLGbbg",
@@ -4531,6 +4532,7 @@ var allData = [
       "region": "Rocky Mountains",
       "city": "Park City",
       "videos": [
+        "iBM8QoUD7Ec",
         "sq_LFhyqXbg"
       ],
       "position": {
@@ -4543,7 +4545,9 @@ var allData = [
       "state": "Utah",
       "region": "Rocky Mountains",
       "city": "Eden",
-      "videos": [],
+      "videos": [
+        "ngg25NA9CyE"
+      ],
       "position": {
         "lat": 41.37994174775305,
         "lng": -111.78019592340156
@@ -4682,7 +4686,9 @@ var allData = [
       "state": "Wyoming",
       "region": "Rocky Mountains",
       "city": "Centennial",
-      "videos": [],
+      "videos": [
+        "Jx-yuXNbsqE"
+      ],
       "position": {
         "lat": 41.34136677078399,
         "lng": -106.18344170000124

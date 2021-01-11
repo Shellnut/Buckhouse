@@ -35,7 +35,7 @@
                <th>City</th>
                <th>Number of Videos</th>
             </tr>
-            <tr ng-repeat="data in allData | filter : search">
+            <tr ng-repeat="data in allData | filter : search" onclick="tableRowClick(this)">
                <td>
                   <i ng-show="data.videos.length>0" class="fa fa-check-square"></i> 
                   <i ng-show="data.videos.length===0" class="fa fa-square"></i>
@@ -126,7 +126,26 @@
         .bindTooltip(allData[i].resortName);
       }
 
-      document.getElementById("visitCount").innerText = "Johnathan has visited " + visitedCount + " out of " + allData.length + " resorts so far!"  
+      document.getElementById("visitCount").innerText = "Johnathan has visited " + visitedCount + " out of " + allData.length + " resorts so far!";
       
+      //Pans to corresponding resort
+      function tableRowClick(x) {
+         var clickedResortInfoArray = (x.innerText.trim()).split("	");
+         
+         for (i = 0; i < allData.length; ++i) {
+            var resort = allData[i];
+            if(resort.resortName == clickedResortInfoArray[0] && resort.region == clickedResortInfoArray[1] && resort.city == clickedResortInfoArray[3]) {
+               
+               var coords = L.latLng(resort.position.lat, resort.position.lng);
+
+               mymap.panTo(coords);
+
+               //Wanted to open the narjer but it doesn't work
+               //mymap.fireEvent('click', {latlng: coords});
+            }
+         }
+
+      }
+
  </script>
 </html>

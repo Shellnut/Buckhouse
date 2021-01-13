@@ -5,18 +5,18 @@
       <title>Buckhouse</title>
       <link rel="shortcut icon" type="image/png" href="favicon.png">
       <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45198036-2"></script>
+      <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45198036-2"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-45198036-2');
-      </script>
+      </script> -->
       <!-- Angular -->
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
       <!-- Font awesome -->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <!-- Leaflet CSS -->
@@ -47,6 +47,18 @@
             position: sticky;
             top: 0;
          }
+         .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
       </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
@@ -239,14 +251,16 @@
 
         // Generate the video link html
         var videoLinks;
+        var videoWidth = 400;
+        var videoHeight = 336;
         if (allData[i].videos.length === 0) {
           videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
         }
         else if (allData[i].videos.length === 1) {
-          videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe width="400" height="336" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+          videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
         }
         else if (allData[i].videos.length > 1) {
-          videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe width="400" height="336" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+          videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
         }
 
         // Disclaimer for unofficial ski resorts
@@ -255,11 +269,25 @@
           officialSkiResortWarning = '<p><b>Note</b>: this is not an official ski resort</p>';
         }
 
+        // Link to the website
+        var modalTitle = '';
+        if (allData[i].website) {
+            if (allData[i].id) {
+                modalTitle = `<h3 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a> <a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a></h3>`;
+            }
+            else {
+                modalTitle = `<h3 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a></h3>`;
+            }
+        }
+        else {
+            modalTitle = `<h3 id="firstHeading" class="firstHeading">${allData[i].resortName}, ${allData[i].state}</h3>`;
+        }
+
         // HTML popup content
         var popupContent = '<div id="content">' +
                    '<div id="siteNotice">' +
                    '</div>' +
-                   `<h3 id="firstHeading" class="firstHeading">${allData[i].resortName}, ${allData[i].state}</h3>` +
+                   modalTitle +
                    '<div id="bodyContent">' +
                    officialSkiResortWarning +
                    videoLinks +

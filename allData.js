@@ -4598,7 +4598,7 @@ var allData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Denver",
-    "officialSkiResort": true,
+    "officialSkiResort": false,
     "videos": [
       "vQs0pbVZ9HQ"
     ],

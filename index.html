@@ -72,7 +72,7 @@
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
       <div class="container-fluid">
-         <h3>Johnathan's Ski Resort challenge</h1>
+         <h3>Johnathan's Ski Resort challenge</h3>
          <div id="mapid"></div>
          <!-- THE SEARCH BOX  -->
          <br>
@@ -146,13 +146,22 @@
                         </span>
                      </a>
                   </th>
+                  <th>
+                     <a ng-click="orderByField='resortReviewScore'; reverseSort = !reverseSort">
+                        <span>Score</span> 
+                        <span ng-show="orderByField == 'resortReviewScore'">
+                           <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                           <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                        </span>
+                     </a>
+                  </th>
                </tr>
                <tr ng-repeat="data in allData | orderBy : orderByField : reverseSort | filter : search" onclick="tableRowClick(this)">
                   <td>
                      <i ng-show="data.videos.length>0" class="fa fa-check-square"></i> 
                      <i ng-show="data.videos.length===0" class="fa fa-square"></i>
                      <span>{{data.resortName}}</span>
-                     <span ng-show="!data.officialSkiResort">(unofficial ski resort)</span>
+                     <!-- <span ng-show="!data.officialSkiResort">(unofficial ski resort)</span> -->
                   </td>
                   <td>{{data.region}}</td>
                   <td>{{data.state}}</td>
@@ -162,6 +171,12 @@
                      <span ng-show="data.videos.length===0">{{data.videos.length}}</span>
                      <span ng-show="data.videos.length>0">
                         <a target="_blank" ng-href="https://www.youtube.com/watch_videos?video_ids={{data.videos.join(',')}}">{{data.videos.length}}</a>
+                     </span>
+                  </td>
+                  <td>
+                     <span ng-show="!data.resortReviewScore">N/A</span>
+                     <span ng-show="data.resortReviewScore">
+                           <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReviewLink}}">{{data.resortReviewScore}}/100</a>
                      </span>
                   </td>
                </tr>
@@ -302,12 +317,19 @@
             modalTitle = `<h3 id="firstHeading" class="firstHeading">${allData[i].resortName}, ${allData[i].state}</h3>`;
         }
 
+        // Link to the score
+        var resortReview = '';
+        if (allData[i].resortReviewScore) {
+          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allData[i].resortReviewLink}">${allData[i].resortReviewScore}/100</a></p>`;
+        }
+
         // HTML popup content
         var popupContent = '<div id="content">' +
                    '<div id="siteNotice">' +
                    '</div>' +
                    modalTitle +
                    '<div id="bodyContent">' +
+                   resortReview +
                    officialSkiResortWarning +
                    videoLinks +
                    '</div>' +

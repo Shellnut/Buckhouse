@@ -1160,6 +1160,8 @@ var allData = [
       "lat": 42.969241583262686,
       "lng": -72.89617860130123
     },
+    "resortReviewScore": "56",
+    "resortReviewLink": "SvYeSrOyf_c",
     "officialSkiResort": true,
     "id": "210",
     "website": "http://mountsnow.com/"
@@ -1337,6 +1339,8 @@ var allData = [
       "lat": 40.80972110512825,
       "lng": -74.07089431436135
     },
+    "resortReviewScore": "47",
+    "resortReviewLink": "gpsfxa1XqPc",
     "officialSkiResort": true,
     "id": "2658",
     "website": "https://www.bigsnowamericandream.com/"
@@ -3245,6 +3249,8 @@ var allData = [
       "lat": 44.84426865923526,
       "lng": -93.36352519746762
     },
+    "resortReviewScore": "55",
+    "resortReviewLink": "NfBk_WQM7PM",
     "officialSkiResort": true,
     "id": "389",
     "website": "http://hylandski.com/"
@@ -4527,6 +4533,8 @@ var allData = [
       "lat": 39.48049884182705,
       "lng": -106.06667208881282
     },
+    "resortReviewScore": "72",
+    "resortReviewLink": "_tSdgrJk3h8",
     "officialSkiResort": true,
     "id": "510",
     "website": "https://www.breckenridge.com/"
@@ -5017,6 +5025,8 @@ var allData = [
       "lat": 39.60856586489557,
       "lng": -105.94363711538396
     },
+    "resortReviewLink": "28gC3Ea-imo",
+    "resortReviewScore": "69",
     "officialSkiResort": true,
     "id": "519",
     "website": "http://www.keystone.snow.com"
@@ -5470,7 +5480,7 @@ var allData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Denver",
-    "officialSkiResort": true,
+    "officialSkiResort": false,
     "videos": [
       "vQs0pbVZ9HQ"
     ],
@@ -6270,6 +6280,8 @@ var allData = [
       "lat": 40.653755293189285,
       "lng": -111.50955073373208
     },
+    "resortReviewScore": "74",
+    "resortReviewLink": "sq_LFhyqXbg",
     "officialSkiResort": true,
     "id": "229",
     "website": "http://parkcitymountain.com"
@@ -6958,6 +6970,8 @@ var allData = [
       "lat": 39.27475880391958,
       "lng": -120.12112558840658
     },
+    "resortReviewScore": "62",
+    "resortReviewLink": "PXdEWAuTKEU",
     "officialSkiResort": true,
     "id": "531",
     "website": "http://www.northstarcalifornia.com"

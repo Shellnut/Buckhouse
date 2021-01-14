@@ -59,6 +59,9 @@
             width: 100%;
             height: 100%;
         }
+        /* #content {
+           overflow-y: scroll;
+        } */
       </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
@@ -70,7 +73,7 @@
 
             <!-- Progress bar  -->
             <div>
-               <p>Johnathan has visited {{visitedCount}} out of {{skiResortCount}} resorts so far! (last updated: {{lastUpdated}}. <i>Missing data from Seasons 1-3</i>)</p>
+               <p>Johnathan has visited {{visitedCount}} out of {{skiResortCount}} resorts so far! <i>last updated: {{lastUpdated}}</i></p>
                <!-- <div class="progress">
                   <div class="progress-bar" role="progressbar" aria-valuenow="70"
                   aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -130,7 +133,7 @@
                   </th>
                   <th>
                      <a ng-click="orderByField='videos.length'; reverseSort = !reverseSort">
-                        <span># of Videos</span> 
+                        <span>Videos</span> 
                         <span ng-show="orderByField == 'videos.length'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
                            <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
@@ -152,7 +155,7 @@
                   <td> 
                      <span ng-show="data.videos.length===0">{{data.videos.length}}</span>
                      <span ng-show="data.videos.length>0">
-                        <a target="_blank" ng-href="https://www.youtube.com/watch/{{data.videos[0]}}?playlist={{data.videos.slice(1).join(',')}}">{{data.videos.length}}</a>
+                        <a target="_blank" ng-href="https://www.youtube.com/watch_videos?video_ids={{data.videos.join(',')}}">{{data.videos.length}}</a>
                      </span>
                   </td>
                </tr>
@@ -187,7 +190,7 @@
           $scope.skiResortCount = allData.filter(val => val.officialSkiResort).length; 
           $scope.lastUpdated = '01/13/2021';
           $scope.orderByField = '';
-          $scope.reverseSort = false;
+          $scope.reverseSort = true;
       }]);
 
       // Set the default view
@@ -252,7 +255,7 @@
         // Generate the video link html
         var videoLinks;
         var videoWidth = 400;
-        var videoHeight = 336;
+        var videoHeight = 225;
         if (allData[i].videos.length === 0) {
           videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
         }
@@ -260,7 +263,14 @@
           videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
         }
         else if (allData[i].videos.length > 1) {
-          videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+           if (allData[i].videos.length > 200) {
+             videoHeight = 150;
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
+             `<p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[200]}?playlist=${allData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
+           }
+           else {
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
+           }
         }
 
         // Disclaimer for unofficial ski resorts

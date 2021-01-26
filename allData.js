@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '01/22/2021';
+var lastUpdated = '01/25/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4398,6 +4398,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
+      "XnoWEKhU_4M",
       "-o0BGbY47rE",
       "HhGPdIlKAHc",
       "mb6W6-sAT-U",
@@ -4692,6 +4693,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "Xz0MdQOWeZc",
       "PglRgXSccUU",
       "C4XgzBFUDKU"
     ],
@@ -5529,6 +5531,20 @@ var allData = [
     "position": {
       "lat": 39.616663843391365,
       "lng": -106.14252201307508
+    }
+  },
+  {
+    "resortName": "Vail Pass",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Silverthorne",
+    "officialSkiResort": false,
+    "videos": [
+      "KT_qMrCUnTs"
+    ],
+    "position": {
+      "lat": 39.52935522361592,
+      "lng": -106.21762991587998
     }
   },
   {

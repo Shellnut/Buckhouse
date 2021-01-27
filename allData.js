@@ -5100,20 +5100,20 @@ var allData = [
     "id": "511",
     "website": "http://www.skimonarch.com/"
   },
-  {
-    "resortName": "Otter Mountain",
-    "state": "Colorado",
-    "region": "Rocky Mountains",
-    "city": "Georgetown",
-    "videos": [],
-    "position": {
-      "lat": 39.62876783506184,
-      "lng": -105.71198935956295
-    },
-    "officialSkiResort": true,     
-    "id": "",     
-    "website": "https://www.summitpost.org/otter-mountain/745850"  
-  },
+  // {
+  //   "resortName": "Otter Mountain",
+  //   "state": "Colorado",
+  //   "region": "Rocky Mountains",
+  //   "city": "Georgetown",
+  //   "videos": [],
+  //   "position": {
+  //     "lat": 39.62876783506184,
+  //     "lng": -105.71198935956295
+  //   },
+  //   "officialSkiResort": true,     
+  //   "id": "",     
+  //   "website": "https://www.summitpost.org/otter-mountain/745850"  
+  // },
   {
     "resortName": "Powderhorn Resort",
     "state": "Colorado",
@@ -5141,6 +5141,20 @@ var allData = [
     "officialSkiResort": true,     
     "id": "518",     
     "website": "http://www.durangomountainresort.com/"  
+  },
+  {
+    "resortName": "Lee's Ski Hill",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Ouray",
+    "videos": [],
+    "position": {
+      "lat": 38.01938861057263,
+      "lng": -107.66914151607332
+    },
+    "officialSkiResort": true,     
+    "id": "3299",     
+    "website": "https://www.ci.ouray.co.us/city_offices/city_resources/lee_s_ski_hill.php"  
   },
   {
     "resortName": "Silverton Mountain",

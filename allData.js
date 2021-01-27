@@ -5664,20 +5664,6 @@ var allData = [
     "website": "http://www.skilookout.com/"
   },
   {
-    "resortName": "Lost Trail Powder Mountain",
-    "state": "Idaho",
-    "region": "Rocky Mountains",
-    "city": "North Fork",
-    "videos": [],
-    "position": {
-      "lat": 45.69243724589031,
-      "lng": -113.95203571523894
-    },
-    "officialSkiResort": true,
-    "id": "4378",
-    "website": "http://www.losttrail.com/"
-  },
-  {
     "resortName": "Magic Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",

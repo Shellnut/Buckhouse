@@ -262,12 +262,38 @@
         shadowSize: [41, 41]
       });
 
+      // Green Ski Icon (visited)
+      var greenSkiIcon = new L.Icon({
+        iconUrl: 'jb_been_to_ski.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [35, 57],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
+      // Red Ski Icon (not yet visited)
+      var redSkiIcon = new L.Icon({
+        iconUrl: 'jb_ski.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [35, 57],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
       for (var i = 0; i<allData.length; i++) {
 
         // Assign the icon color (visited or not)   
         var icon;
         if (!allData[i].officialSkiResort) {
            icon = blackIcon; // unofficial ski resort
+        }
+        else if (allData[i].skiOnly && allData[i].videos.length > 0) {
+           icon = greenSkiIcon; // visited ski only resort
+        }
+        else if (allData[i].skiOnly && allData[i].videos.length === 0) {
+           icon = redSkiIcon; // not yet visited for ski only resort
         }
         else if (allData[i].videos.length > 0) {
            icon = greenIcon; // visited
@@ -284,16 +310,16 @@
           videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
         }
         else if (allData[i].videos.length === 1) {
-          videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+          videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
         }
         else if (allData[i].videos.length > 1) {
            if (allData[i].videos.length > 200) {
              videoHeight = 150;
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
              `<p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[200]}?playlist=${allData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
            }
            else {
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(1).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
            }
         }
 

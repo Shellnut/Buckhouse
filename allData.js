@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '01/25/2021';
+var lastUpdated = '01/27/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1109,6 +1109,7 @@ var allData = [
     "state": "Vermont",
     "region": "New England",
     "city": "Fayston (ski only)",
+    "skiOnly": true,
     "videos": [],
     "position": {
       "lat": 44.202645696018386,
@@ -4398,6 +4399,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
+      "EMBZnbWkm4E",
       "XnoWEKhU_4M",
       "-o0BGbY47rE",
       "HhGPdIlKAHc",
@@ -6172,6 +6174,7 @@ var allData = [
     "state": "Utah",
     "region": "Rocky Mountains",
     "city": "Alta (ski only)",
+    "skiOnly": true,
     "videos": [],
     "position": {
       "lat": 40.58861731925453,
@@ -6244,6 +6247,7 @@ var allData = [
     "state": "Utah",
     "region": "Rocky Mountains",
     "city": "Park City (ski only)",
+    "skiOnly": true,
     "videos": [],
     "position": {
       "lat": 40.63755095147229,

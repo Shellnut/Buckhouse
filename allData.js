@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '01/29/2021';
+var lastUpdated = '01/30/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5151,6 +5151,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Ouray",
     "videos": [
+      "LFPk8tirHl8",
       "FK3LaCiJ0IY"
     ],
     "position": {

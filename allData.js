@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '01/30/2021';
+var lastUpdated = '02/01/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4756,6 +4756,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "6a7H05dTLF8",
       "D8aHShpQCQ0",
       "ujdx1Hdcy5c",
       "2MncCuCC5vA",

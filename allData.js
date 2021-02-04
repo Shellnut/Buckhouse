@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/02/2021';
+var lastUpdated = '02/03/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5170,6 +5170,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "pCLVipvn2Zs",
       "gY7ZEkHocWU",
       "et1kev7SItY",
       "0ko1FQgcUos",

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/03/2021';
+var lastUpdated = '02/07/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4163,6 +4163,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "fzRgmIUXGBk",
       "rAsi52kg-P0",
       "n7Kh1YH_OLM",
       "57av97ZthLA",
@@ -4652,8 +4653,10 @@ var allData = [
     "resortName": "Cranor Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
-    "city": "",
-    "videos": [],
+    "city": "Gunnison",
+    "videos": [
+      "7accKVSZDbc"
+    ],
     "position": {
       "lat": 38.587159592238294,
       "lng": -106.89600754424221
@@ -5170,6 +5173,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "V727drc0E8k",
       "pCLVipvn2Zs",
       "gY7ZEkHocWU",
       "et1kev7SItY",

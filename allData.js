@@ -4568,6 +4568,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "b7Y7UiVEXgI",
       "1nabD5qiQSY",
       "BVTarcS69kY",
       "yM_8jlOpiKE",

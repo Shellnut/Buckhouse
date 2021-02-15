@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/11/2021';
+var lastUpdated = '02/14/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4163,6 +4163,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "82TPXnW_p58",
       "A8B2VdjRUk0",
       "fzRgmIUXGBk",
       "rAsi52kg-P0",
@@ -7425,7 +7426,9 @@ var allData = [
     "state": "Washington",
     "region": "West Coast",
     "city": "near Enumclaw",
-    "videos": [],
+    "videos": [
+      "DLHZ-143s_s"
+    ],
     "position": {
       "lat": 46.935457448813246,
       "lng": -121.47477475938616
@@ -7643,5 +7646,19 @@ var allData = [
     "officialSkiResort": true,
     "id": "184",
     "website": "http://www.skiwhitepass.com"
+  },
+  {
+    "resortName": "McChord Skatepark",
+    "state": "Washington",
+    "region": "West Coast",
+    "city": "McChord AFB",
+    "videos": [
+      "nq_nd1ZvKtA"
+    ],
+    "position": {
+      "lat": 47.129648041353164,
+      "lng": -122.52345578183599
+    },
+    "officialSkiResort": false
   }
 ]

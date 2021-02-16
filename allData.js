@@ -7610,7 +7610,9 @@ var allData = [
     "state": "Washington",
     "region": "West Coast",
     "city": "Snoqualmie Pass",
-    "videos": [],
+    "videos": [
+      "5_moso8-_gQ"
+    ],
     "position": {
       "lat": 47.42114703020923,
       "lng": -121.42104739524534

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/16/2021';
+var lastUpdated = '02/18/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4734,7 +4734,9 @@ var allData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
-    "videos": [],
+    "videos": [
+      "TTX7ZdaigO0"
+    ],
     "position": {
       "lat": 40.48357228637695,
       "lng": -106.83796137303607

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/18/2021';
+var lastUpdated = '02/19/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1352,7 +1352,9 @@ var allData = [
     "state": "New Jersey",
     "region": "Mid-Atlantic",
     "city": "Mahwah",
-    "videos": [],
+    "videos": [
+      "WaGdIsCQdvc"
+    ],
     "position": {
       "lat": 41.059356280224485,
       "lng": -74.19500664495334

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/19/2021';
+var lastUpdated = '02/20/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1410,7 +1410,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "Highmount",
-    "videos": [],
+    "videos": [
+      "UOMfbbJoK6Y"
+    ],
     "position": {
       "lat": 42.14197859167307,
       "lng": -74.50222554454848

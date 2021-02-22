@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/21/2021';
+var lastUpdated = '02/22/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -424,7 +424,8 @@ var allData = [
     "state": "Massachusetts",
     "region": "New England",
     "city": "Hancock",
-    "videos": [],
+    "videos": [
+      "kgZtJ0__uVA",
     "position": {
       "lat": 42.55537784801918,
       "lng": -73.2922293595082

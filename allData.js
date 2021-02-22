@@ -425,7 +425,8 @@ var allData = [
     "region": "New England",
     "city": "Hancock",
     "videos": [
-      "kgZtJ0__uVA",
+      "kgZtJ0__uVA"
+    ],
     "position": {
       "lat": 42.55537784801918,
       "lng": -73.2922293595082

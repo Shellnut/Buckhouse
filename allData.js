@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/22/2021';
+var lastUpdated = '02/24/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -972,7 +972,9 @@ var allData = [
     "state": "Vermont",
     "region": "New England",
     "city": "Peru",
-    "videos": [],
+    "videos": [
+      "MDIUtXK_vDg"
+    ],
     "position": {
       "lat": 43.21361675115109,
       "lng": -72.9349254241979

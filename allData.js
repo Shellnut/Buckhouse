@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/25/2021';
+var lastUpdated = '02/26/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1081,6 +1081,21 @@ var allData = [
     "officialSkiResort": true,
     "id": "211",
     "website": "http://www.killington.com"
+  },
+  {
+    "resortName": "Dark Park at Darkside Snowboard Shop",
+    "state": "Vermont",
+    "region": "New England",
+    "city": "Killington",
+    "videos": [
+      "Ym2MVTRKNPY"
+    ],
+    "position": {
+      "lat": 43.646509245137636,
+      "lng": -72.7896801091444
+    },
+    "officialSkiResort": false,
+    "website": "http://darksidesnowboards.com/"
   },
   {
     "resortName": "Living Memorial Park",

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/24/2021';
+var lastUpdated = '02/25/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1071,7 +1071,9 @@ var allData = [
     "state": "Vermont",
     "region": "New England",
     "city": "Killington",
-    "videos": [],
+    "videos": [
+      "ZOeCwntoVtE"
+    ],
     "position": {
       "lat": 43.626463482520855,
       "lng": -72.79673079000918

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '02/26/2021';
+var lastUpdated = '02/28/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1531,7 +1531,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "North Creek",
-    "videos": [],
+    "videos": [
+      "aSBHRrFU1Og"
+    ],
     "position": {
       "lat": 43.67414698551106,
       "lng": -74.00667386724834
@@ -1855,7 +1857,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "Wilmington",
-    "videos": [],
+    "videos": [
+      "g-ZA8FpJCnU"
+    ],
     "position": {
       "lat": 44.35393325780303,
       "lng": -73.86172634787795

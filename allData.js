@@ -1829,7 +1829,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "Glens Falls",
-    "videos": [],
+    "videos": [
+      "l6978o4mw1g"
+    ],
     "position": {
       "lat": 43.286431660901286,
       "lng": -73.72507045205768

@@ -24,6 +24,8 @@
        <!-- Make sure you put this AFTER Leaflet's CSS -->
       <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
       <script src="allData.js"></script>
+      <script src="graphicalData.js"></script>
+      <!-- <script src="graphicalData.js"></script> -->
       <style type="text/css">
          /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
@@ -182,6 +184,19 @@
                </tr>
             </table>
          </div>
+
+         <div>
+            <h4>Stats (last updated {{newResortStatsLastUpdated}})</h4>
+            <p><i>Currently a work in progress...</i></p>
+            <ul>
+               <li>Season 0 New Resorts: {{season0NewResorts.length}}</li>
+               <li>Season 1 New Resorts: {{season1NewResorts.length}}</li>
+               <li>Season 2 New Resorts: {{season2NewResorts.length}}</li>
+               <li>Season 3 New Resorts: {{season3NewResorts.length}}</li>
+               <li>Season 4 New Resorts: {{season4NewResorts.length}}</li>
+               <li>Season 5 New Resorts: {{season5NewResorts.length}}</li>
+            </ul> 
+         </div>
       </div>
 
       <br>
@@ -215,6 +230,16 @@
           $scope.lastUpdated = lastUpdated;
           $scope.orderByField = 'videos.length';
           $scope.reverseSort = true;
+
+          // New Resorts
+          $scope.newResortStatsLastUpdated = '03/03/21';
+          $scope.season0NewResorts = season0NewResorts;
+          $scope.season1NewResorts = season1NewResorts;
+          $scope.season2NewResorts = season2NewResorts;
+          $scope.season3NewResorts = season3NewResorts;
+          $scope.season4NewResorts = season4NewResorts;
+          $scope.season5NewResorts = season5NewResorts;
+
       }]);
 
       // Set the default view

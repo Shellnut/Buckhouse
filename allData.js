@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/01/2021';
+var lastUpdated = '03/02/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1875,7 +1875,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "Windham",
-    "videos": [],
+    "videos": [
+      "b8025jQTa68"
+    ],
     "position": {
       "lat": 42.299825491696716,
       "lng": -74.25610128421872

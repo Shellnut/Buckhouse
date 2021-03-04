@@ -5563,31 +5563,338 @@ var videoData = [
     }
   ];
 
-// Search only official ski resorts
-var officialData = allData.filter(val=>val.officialSkiResort);
+// Season start dates
+var s1Start = '2016-10-22T16:44:04Z';
+var s2Start = '2017-10-13T23:57:51Z';
+var s3Start = '2018-10-10T01:59:30Z';
+var s4Start = '2019-10-12T03:45:14Z';
+var s5Start = '2020-10-25T22:45:12Z';
+  
+// Season resorts
+var s0Resorts = [];
+var s1Resorts = [];
+var s2Resorts = [];
+var s3Resorts = [];
+var s4Resorts = [];
+var s5Resorts = [];
 
-for (var i=0; i<videoData.length; i++) {
-    var myLocation = officialData.filter(val => val.videos.includes(videoData[i].id));
-    if (myLocation.length > 0) {
-        videoData[i].myLocation = myLocation[0].resortName;
-    }
-}
+// Sort the video data
 var videoDataSorted = videoData.sort((a,b)=>new Date(a.date).getTime()-new Date(b.date).getTime());
 
-var season1Start = '2016-10-22T16:44:04Z';
-var season2Start = '2017-10-13T23:57:51Z';
-var season3Start = '2018-10-10T01:59:30Z';
-var season4Start = '2019-10-12T03:45:14Z';
-var season5Start = '2020-10-25T22:45:12Z';
+// Get all new resorts for all seasons
+for (var i=0; i<videoDataSorted.length; i++) {
 
-var season0NewResorts = [... new Set(videoDataSorted.filter(val=>new Date(val.date).getTime() < new Date(season1Start).getTime()).map(val=>val.myLocation))];
-var season1NewResorts = [... new Set(videoDataSorted.filter(val=>new Date(val.date).getTime() < new Date(season2Start).getTime()).map(val=>val.myLocation))]
-                            .filter(val=>!season0NewResorts.includes(val));
-var season2NewResorts = [... new Set(videoDataSorted.filter(val=>new Date(val.date).getTime() < new Date(season3Start).getTime()).map(val=>val.myLocation))]
-                            .filter(val=>!season0NewResorts.concat(season1NewResorts).includes(val));
-var season3NewResorts = [... new Set(videoDataSorted.filter(val=>new Date(val.date).getTime() < new Date(season4Start).getTime()).map(val=>val.myLocation))]
-                            .filter(val=>!season0NewResorts.concat(season1NewResorts).concat(season2NewResorts).includes(val));
-var season4NewResorts = [... new Set(videoDataSorted.filter(val=>new Date(val.date).getTime() < new Date(season5Start).getTime()).map(val=>val.myLocation))]
-                            .filter(val=>!season0NewResorts.concat(season1NewResorts).concat(season2NewResorts).concat(season3NewResorts).includes(val));
-var season5NewResorts = [... new Set(videoDataSorted.map(val=>val.myLocation))]
-                            .filter(val=>!season0NewResorts.concat(season1NewResorts).concat(season2NewResorts).concat(season3NewResorts).concat(season4NewResorts).includes(val));
+  // Get resort name of the official ski resorts
+  var resortName;
+  var validResort = allData.filter(val => val.officialSkiResort)
+                           .filter(val => val.videos.includes(videoDataSorted[i].id));
+
+  // Only count valid resorts
+  if (validResort.length > 0) {
+    resortName = validResort[0].resortName;
+    // Get new resorts traveled to for season 0
+    if (new Date(videoDataSorted[i].date) < new Date(s1Start)) {
+      var visitedResorts = s0Resorts;
+      if (!visitedResorts.includes(resortName)) {
+        s0Resorts.push(resortName);
+      }
+    }
+    // Get new resorts traveled to for season 1
+    else if (new Date(videoDataSorted[i].date) >= new Date(s1Start) && new Date(videoDataSorted[i].date) < new Date(s2Start)) {
+      var visitedResorts = s0Resorts.concat(s1Resorts);
+      if (!visitedResorts.includes(resortName)) {
+        s1Resorts.push(resortName);
+      }
+    }
+    // Get new resorts traveled to for season 2
+    else if (new Date(videoDataSorted[i].date) >= new Date(s2Start) && new Date(videoDataSorted[i].date) < new Date(s3Start)) {
+      var visitedResorts = s0Resorts.concat(s1Resorts).concat(s2Resorts);
+      if (!visitedResorts.includes(resortName)) {
+        s2Resorts.push(resortName);
+      }
+    }
+    // Get new resorts traveled to for season 3
+    else if (new Date(videoDataSorted[i].date) >= new Date(s3Start) && new Date(videoDataSorted[i].date) < new Date(s4Start)) {
+      var visitedResorts = s0Resorts.concat(s1Resorts).concat(s2Resorts).concat(s3Resorts);
+      if (!visitedResorts.includes(resortName)) {
+        s3Resorts.push(resortName);
+      }
+    }
+    // Get new resorts traveled to for season 4
+    else if (new Date(videoDataSorted[i].date) >= new Date(s4Start) && new Date(videoDataSorted[i].date) < new Date(s5Start)) {
+      var visitedResorts = s0Resorts.concat(s1Resorts).concat(s2Resorts).concat(s3Resorts).concat(s4Resorts);
+      if (!visitedResorts.includes(resortName)) {
+        s4Resorts.push(resortName);
+      }
+    }
+    // Get new resorts traveled to for season 5
+    else if (new Date(videoDataSorted[i].date) >= new Date(s5Start)) {
+      var visitedResorts = s0Resorts.concat(s1Resorts).concat(s2Resorts).concat(s3Resorts).concat(s4Resorts).concat(s5Resorts);
+      if (!visitedResorts.includes(resortName)) {
+        s5Resorts.push(resortName);
+      }
+    }
+  }
+
+}
+
+// Get view stats per season
+var s0Views = [];
+var s1Views = [];
+var s2Views = [];
+var s3Views = [];
+var s4Views = [];
+var s5Views = [];
+
+// Mertics by season
+var s0Metrics = [];
+var s1Metrics = [];
+var s2Metrics = [];
+var s3Metrics = [];
+var s4Metrics = [];
+var s5Metrics = [];
+
+// Get all new resorts for all seasons
+for (var i=0; i<videoDataSorted.length; i++) {
+
+  videoViews = Number(videoDataSorted[i].views);
+
+  // Get new resorts traveled to for season 0
+  if (new Date(videoDataSorted[i].date) < new Date(s1Start)) {
+    s0Views.push(videoViews);
+    s0Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
+  // Get new resorts traveled to for season 1
+  else if (new Date(videoDataSorted[i].date) >= new Date(s1Start) && new Date(videoDataSorted[i].date) < new Date(s2Start)) {
+    s1Views.push(videoViews);
+    s1Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
+  // Get new resorts traveled to for season 2
+  else if (new Date(videoDataSorted[i].date) >= new Date(s2Start) && new Date(videoDataSorted[i].date) < new Date(s3Start)) {
+    s2Views.push(videoViews);
+    s2Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
+  // Get new resorts traveled to for season 3
+  else if (new Date(videoDataSorted[i].date) >= new Date(s3Start) && new Date(videoDataSorted[i].date) < new Date(s4Start)) {
+    s3Views.push(videoViews);
+    s3Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
+  // Get new resorts traveled to for season 4
+  else if (new Date(videoDataSorted[i].date) >= new Date(s4Start) && new Date(videoDataSorted[i].date) < new Date(s5Start)) {
+    s4Views.push(videoViews);
+    s4Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
+  // Get new resorts traveled to for season 5
+  else if (new Date(videoDataSorted[i].date) >= new Date(s5Start)) {
+    s5Views.push(videoViews);
+    s5Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
+
+}
+
+// -------------------
+// Graphs
+// -------------------
+
+// Resorts by season
+var resortsBySeasonTrace = {
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+  y: [s0Resorts.length, s1Resorts.length, s2Resorts.length, s3Resorts.length, s4Resorts.length, s5Resorts.length],
+  type: 'bar'
+};
+
+var resortBySeasonData = [resortsBySeasonTrace];
+
+var resortBySeasonLayout = {
+  title:'Number of New Resorts Traveled to by Season',
+  yaxis: {
+    title: '# of New Resorts'
+  }
+};
+
+Plotly.newPlot('newResortsBySeason', resortBySeasonData, resortBySeasonLayout);
+
+// Views by season
+var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;
+
+var s0Avg = avg(s0Views);
+var s0Min = Math.min(...s0Views);
+var s0Max = Math.max(...s0Views);
+var s1Avg = avg(s1Views);
+var s1Min = Math.min(...s1Views);
+var s1Max = Math.max(...s1Views);
+var s2Avg = avg(s2Views);
+var s2Min = Math.min(...s2Views);
+var s2Max = Math.max(...s2Views);
+var s3Avg = avg(s3Views);
+var s3Min = Math.min(...s3Views);
+var s3Max = Math.max(...s3Views);
+var s4Avg = avg(s4Views);
+var s4Min = Math.min(...s4Views);
+var s4Max = Math.max(...s4Views);
+var s5Avg = avg(s5Views);
+var s5Min = Math.min(...s5Views);
+var s5Max = Math.max(...s5Views);
+
+var viewsBySeasonTraceAvg = {
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+  y: [s0Avg, s1Avg, s2Avg, s3Avg, s4Avg, s5Avg],
+  type: 'bar'
+};
+// var viewsBySeasonTraceMin = {
+//   x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+//   y: [s0Min, s1Min, s2Min, s3Min, s4Min, s5Min],
+//   type: 'scatter'
+// };
+// var viewsBySeasonTraceMax = {
+//   x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+//   y: [s0Max, s1Max, s2Max, s3Max, s4Max, s5Max],
+//   type: 'scatter'
+// };
+
+var viewsBySeasonData = [viewsBySeasonTraceAvg];
+// var viewsBySeasonData = [viewsBySeasonTraceAvg, viewsBySeasonTraceMin, viewsBySeasonTraceMax];
+
+var viewsBySeasonLayout = {
+  title:'Average Video Views by Season',
+  yaxis: {
+    title: 'Average Video Views'
+  }
+};
+
+Plotly.newPlot('viewsBySeason', viewsBySeasonData, viewsBySeasonLayout);
+
+
+
+// Views by Month by Season
+function getAvgViewsByMonth(sData) {
+
+  var oct = [];
+  var nov = [];
+  var dec = [];
+  var jan = [];
+  var feb = [];
+  var mar = [];
+  var apr = [];
+  var may = [];
+  var jun = [];
+  var jul = [];
+  var aug = [];
+  var sep = [];
+
+  for (var i=0; i<sData.length; i++) {
+    var myMonth = new Date(sData[i].date).getMonth();
+    if (myMonth === 0) {
+      jan.push(sData[i].views);
+    }
+    else if (myMonth === 1) {
+      feb.push(sData[i].views);
+    }
+    else if (myMonth === 2) {
+      mar.push(sData[i].views);
+    }
+    else if (myMonth === 3) {
+      apr.push(sData[i].views);
+    }
+    else if (myMonth === 4) {
+      may.push(sData[i].views);
+    }
+    else if (myMonth === 5) {
+      jun.push(sData[i].views);
+    }
+    else if (myMonth === 6) {
+      jul.push(sData[i].views);
+    }
+    else if (myMonth === 7) {
+      aug.push(sData[i].views);
+    }
+    else if (myMonth === 8) {
+      sep.push(sData[i].views);
+    }
+    else if (myMonth === 9) {
+      oct.push(sData[i].views);
+    }
+    else if (myMonth === 10) {
+      nov.push(sData[i].views);
+    }
+    else if (myMonth === 11) {
+      dec.push(sData[i].views);
+    }
+  }
+  return [avg(oct), avg(nov), avg(dec), avg(jan), avg(feb), avg(mar), avg(apr), avg(may), avg(jun), avg(jul), avg(aug), avg(sep)]
+
+}
+
+var monthsX = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'];
+
+var viewsSeason1Trace = {
+  x: monthsX,
+  y: getAvgViewsByMonth(s1Metrics),
+  type: 'scatter',
+  name: 'Season 1'
+};
+var viewsSeason2Trace = {
+  x: monthsX,
+  y: getAvgViewsByMonth(s2Metrics),
+  type: 'scatter',
+  name: 'Season 2'
+};
+var viewsSeason3Trace = {
+  x: monthsX,
+  y: getAvgViewsByMonth(s3Metrics),
+  type: 'scatter',
+  name: 'Season 3'
+};
+var viewsSeason4Trace = {
+  x: monthsX,
+  y: getAvgViewsByMonth(s4Metrics),
+  type: 'scatter',
+  name: 'Season 4'
+};
+var viewsSeason5Trace = {
+  x: monthsX,
+  y: getAvgViewsByMonth(s5Metrics),
+  type: 'scatter',
+  name: 'Season 5'
+};
+
+var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsSeason4Trace, viewsSeason5Trace];
+
+var monthLayout = {
+  title:'Avg Views Per Month',
+  yaxis: {
+    title: '# of Views'
+  }
+};
+
+Plotly.newPlot('videoViewsByMonth', monthData, monthLayout);

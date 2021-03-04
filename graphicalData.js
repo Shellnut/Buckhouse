@@ -5793,7 +5793,7 @@ var viewsBySeasonData = [viewsBySeasonTraceAvg];
 var viewsBySeasonLayout = {
   title:'Average Video Views by Season',
   yaxis: {
-    title: 'Average Video Views',
+    title: '# Video Views',
     fixedrange: true
   },
   xaxis: {

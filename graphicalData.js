@@ -5738,7 +5738,11 @@ var resortBySeasonData = [resortsBySeasonTrace];
 var resortBySeasonLayout = {
   title:'Number of New Resorts Traveled to by Season',
   yaxis: {
-    title: '# of New Resorts'
+    title: '# of New Resorts',
+    fixedrange: true
+  },
+  xaxis: {
+    fixedrange: true
   }
 };
 
@@ -5788,7 +5792,11 @@ var viewsBySeasonData = [viewsBySeasonTraceAvg];
 var viewsBySeasonLayout = {
   title:'Average Video Views by Season',
   yaxis: {
-    title: 'Average Video Views'
+    title: 'Average Video Views',
+    fixedrange: true
+  },
+  xaxis: {
+    fixedrange: true
   }
 };
 
@@ -5893,7 +5901,11 @@ var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsS
 var monthLayout = {
   title:'Avg Views Per Month',
   yaxis: {
-    title: '# of Views'
+    title: '# of Views',
+    fixedrange: true
+  },
+  xaxis: {
+    fixedrange: true
   }
 };
 

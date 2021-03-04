@@ -5748,7 +5748,8 @@ var resortBySeasonLayout = {
 
 Plotly.newPlot('newResortsBySeason', resortBySeasonData, resortBySeasonLayout);
 
-// Views by season
+// Views by season AVG
+const sum = (arr) => arr.reduce((a, b) => a + b, 0);
 var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;
 
 var s0Avg = avg(s0Views);
@@ -5802,6 +5803,37 @@ var viewsBySeasonLayout = {
 
 Plotly.newPlot('viewsBySeason', viewsBySeasonData, viewsBySeasonLayout);
 
+// Views by season TOTAL
+var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;
+
+var s0Tot = sum(s0Views);
+var s1Tot = sum(s1Views);
+var s2Tot = sum(s2Views);
+var s3Tot = sum(s3Views);
+var s4Tot = sum(s4Views);
+var s5Tot = sum(s5Views);
+
+var viewsTotalBySeasonTrace = {
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+  y: [s0Tot, s1Tot, s2Tot, s3Tot, s4Tot, s5Tot],
+  type: 'bar'
+};
+
+var viewsTotalBySeasonData = [viewsTotalBySeasonTrace];
+// var viewsBySeasonData = [viewsBySeasonTraceAvg, viewsBySeasonTraceMin, viewsBySeasonTraceMax];
+
+var viewsTotalBySeasonLayout = {
+  title:'Total Video Views by Season',
+  yaxis: {
+    title: '# Video Views',
+    fixedrange: true
+  },
+  xaxis: {
+    fixedrange: true
+  }
+};
+
+Plotly.newPlot('viewsTotalBySeason', viewsTotalBySeasonData, viewsTotalBySeasonLayout);
 
 
 // Views by Month by Season
@@ -5899,7 +5931,7 @@ var viewsSeason5Trace = {
 var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsSeason4Trace, viewsSeason5Trace];
 
 var monthLayout = {
-  title:'Avg Views Per Month',
+  title:'Avg Views Per Video Per Month',
   yaxis: {
     title: '# of Views',
     fixedrange: true
@@ -5910,3 +5942,108 @@ var monthLayout = {
 };
 
 Plotly.newPlot('videoViewsByMonth', monthData, monthLayout);
+
+// Views by Month by Season
+function getTotalViewsByMonth(sData) {
+
+  var oct = [];
+  var nov = [];
+  var dec = [];
+  var jan = [];
+  var feb = [];
+  var mar = [];
+  var apr = [];
+  var may = [];
+  var jun = [];
+  var jul = [];
+  var aug = [];
+  var sep = [];
+
+  for (var i=0; i<sData.length; i++) {
+    var myMonth = new Date(sData[i].date).getMonth();
+    if (myMonth === 0) {
+      jan.push(sData[i].views);
+    }
+    else if (myMonth === 1) {
+      feb.push(sData[i].views);
+    }
+    else if (myMonth === 2) {
+      mar.push(sData[i].views);
+    }
+    else if (myMonth === 3) {
+      apr.push(sData[i].views);
+    }
+    else if (myMonth === 4) {
+      may.push(sData[i].views);
+    }
+    else if (myMonth === 5) {
+      jun.push(sData[i].views);
+    }
+    else if (myMonth === 6) {
+      jul.push(sData[i].views);
+    }
+    else if (myMonth === 7) {
+      aug.push(sData[i].views);
+    }
+    else if (myMonth === 8) {
+      sep.push(sData[i].views);
+    }
+    else if (myMonth === 9) {
+      oct.push(sData[i].views);
+    }
+    else if (myMonth === 10) {
+      nov.push(sData[i].views);
+    }
+    else if (myMonth === 11) {
+      dec.push(sData[i].views);
+    }
+  }
+  return [sum(oct), sum(nov), sum(dec), sum(jan), sum(feb), sum(mar), sum(apr), sum(may), sum(jun), sum(jul), sum(aug), sum(sep)]
+
+}
+
+var viewsTotalSeason1Trace = {
+  x: monthsX,
+  y: getTotalViewsByMonth(s1Metrics),
+  type: 'scatter',
+  name: 'Season 1'
+};
+var viewsTotalSeason2Trace = {
+  x: monthsX,
+  y: getTotalViewsByMonth(s2Metrics),
+  type: 'scatter',
+  name: 'Season 2'
+};
+var viewsTotalSeason3Trace = {
+  x: monthsX,
+  y: getTotalViewsByMonth(s3Metrics),
+  type: 'scatter',
+  name: 'Season 3'
+};
+var viewsTotalSeason4Trace = {
+  x: monthsX,
+  y: getTotalViewsByMonth(s4Metrics),
+  type: 'scatter',
+  name: 'Season 4'
+};
+var viewsTotalSeason5Trace = {
+  x: monthsX,
+  y: getTotalViewsByMonth(s5Metrics),
+  type: 'scatter',
+  name: 'Season 5'
+};
+
+var monthTotalData = [viewsTotalSeason1Trace, viewsTotalSeason2Trace, viewsTotalSeason3Trace, viewsTotalSeason4Trace, viewsTotalSeason5Trace];
+
+var monthTotalLayout = {
+  title:'Total Views Per Month',
+  yaxis: {
+    title: '# of Views',
+    fixedrange: true
+  },
+  xaxis: {
+    fixedrange: true
+  }
+};
+
+Plotly.newPlot('totalViewsPerMonth', monthTotalData, monthTotalLayout);

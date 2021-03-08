@@ -3295,6 +3295,20 @@ var allData = [
     "website": "http://hylandski.com/"
   },
   {
+    "resortName": "Elm Creek Winter Recreation Area",
+    "state": "Minnesota",
+    "region": "Midwest",
+    "city": "Maple Grove",
+    "videos": [],
+    "position": {
+      "lat": 45.13950018178829,
+      "lng": -93.43891807280477
+    },
+    "officialSkiResort": true,
+    "id": "5246",
+    "website": "https://www.threeriversparks.org/location/elm-creek-winter-recreation-area/"
+  },
+  {
     "resortName": "Lutsen Mountains",
     "state": "Minnesota",
     "region": "Midwest",

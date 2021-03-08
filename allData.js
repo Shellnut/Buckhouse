@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/06/2021';
+var lastUpdated = '03/07/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5612,6 +5612,7 @@ var allData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "C9P5o4ZW3LU",
       "KT_qMrCUnTs"
     ],
     "position": {

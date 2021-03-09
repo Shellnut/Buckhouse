@@ -79,15 +79,9 @@
          <!-- THE SEARCH BOX  -->
          <br>
 
-            <!-- Progress bar  -->
+            <!-- Progress -->
             <div>
                <p>Johnathan has visited {{visitedCount}} out of {{skiResortCount}} resorts so far! <i>last updated: {{lastUpdated}}</i></p>
-               <!-- <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                  aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                     {{(visitedCount / allData.length)*100 | number:1 }}%
-                  </div>
-               </div>  -->
             </div>
 
             <!-- Search column -->
@@ -188,8 +182,65 @@
          <div>
             <hr>
             <hr>
-            <h3>Johnathan's Stats (On YouTube)</h3>
+            <h3>Johnathan's Stats</h3>
             <p><i>Last updated: {{newResortStatsLastUpdated}}</i></p>
+
+            <p><b>Every U.S. Ski Resort Progress</b></p>
+            <div class="row">
+                  <my-progress-bar title="Overall" progress="{{(visitedCount / skiResortCount)*100}}"></my-progress-bar>
+            </div>
+
+            <p><b>State Visited Progress</b></p>
+            <div class="row">
+               <my-progress-bar title="Alabama" progress="{{stateData.alabama}}"></my-progress-bar>
+               <my-progress-bar title="Alaska" progress="{{stateData.alaska}}"></my-progress-bar>
+               <my-progress-bar title="Arizona" progress="{{stateData.arizona}}"></my-progress-bar>
+               <my-progress-bar title="California" progress="{{stateData.california}}"></my-progress-bar>
+               <my-progress-bar title="Colorado" progress="{{stateData.colorado}}"></my-progress-bar>
+               <my-progress-bar title="Connecticut" progress="{{stateData.connecticut}}"></my-progress-bar>
+               <my-progress-bar title="Idaho" progress="{{stateData.idaho}}"></my-progress-bar>
+               <my-progress-bar title="Illinois" progress="{{stateData.illinois}}"></my-progress-bar>
+               <my-progress-bar title="Indiana" progress="{{stateData.indiana}}"></my-progress-bar>
+               <my-progress-bar title="Iowa" progress="{{stateData.iowa}}"></my-progress-bar>
+               <my-progress-bar title="Maine" progress="{{stateData.maine}}"></my-progress-bar>
+               <my-progress-bar title="Maryland" progress="{{stateData.maryland}}"></my-progress-bar>
+               <my-progress-bar title="Massachusetts" progress="{{stateData.massachusetts}}"></my-progress-bar>
+               <my-progress-bar title="Michigan" progress="{{stateData.michigan}}"></my-progress-bar>
+               <my-progress-bar title="Minnesota" progress="{{stateData.minnesota}}"></my-progress-bar>
+               <my-progress-bar title="Missouri" progress="{{stateData.missouri}}"></my-progress-bar>
+               <my-progress-bar title="Montana" progress="{{stateData.montana}}"></my-progress-bar>
+               <my-progress-bar title="Nevada" progress="{{stateData.nevada}}"></my-progress-bar>
+               <my-progress-bar title="New Hampshire" progress="{{stateData.newHampshire}}"></my-progress-bar>
+               <my-progress-bar title="New Jersey" progress="{{stateData.newJersey}}"></my-progress-bar>
+               <my-progress-bar title="New Mexico" progress="{{stateData.newMexico}}"></my-progress-bar>
+               <my-progress-bar title="New York" progress="{{stateData.newYork}}"></my-progress-bar>
+               <my-progress-bar title="North Carolina" progress="{{stateData.northCarolina}}"></my-progress-bar>
+               <my-progress-bar title="North Dakota" progress="{{stateData.northDakota}}"></my-progress-bar>
+               <my-progress-bar title="Ohio" progress="{{stateData.ohio}}"></my-progress-bar>
+               <my-progress-bar title="Oregon" progress="{{stateData.oregon}}"></my-progress-bar>
+               <my-progress-bar title="Pennsylvania" progress="{{stateData.pennsylvania}}"></my-progress-bar>
+               <my-progress-bar title="Rhode Island" progress="{{stateData.rhodeIsland}}"></my-progress-bar>
+               <my-progress-bar title="South Dakota" progress="{{stateData.southDakota}}"></my-progress-bar>
+               <my-progress-bar title="Tennessee" progress="{{stateData.tennessee}}"></my-progress-bar>
+               <my-progress-bar title="Texas" progress="{{stateData.texas}}"></my-progress-bar>
+               <my-progress-bar title="Utah" progress="{{stateData.utah}}"></my-progress-bar>
+               <my-progress-bar title="Vermont" progress="{{stateData.vermont}}"></my-progress-bar>
+               <my-progress-bar title="Virginia" progress="{{stateData.virginia}}"></my-progress-bar>
+               <my-progress-bar title="Washington" progress="{{stateData.washington}}"></my-progress-bar>
+               <my-progress-bar title="West Virginia" progress="{{stateData.westVirginia}}"></my-progress-bar>
+               <my-progress-bar title="Wisconsin" progress="{{stateData.wisconsin}}"></my-progress-bar>
+               <my-progress-bar title="Wyoming" progress="{{stateData.wyoming}}"></my-progress-bar>
+            </div>
+
+            <p><b>Region Visited Progress</b></p>
+            <div class="row">
+               <my-progress-bar title="Midwest" progress="{{regionData.midwest}}"></my-progress-bar>
+               <my-progress-bar title="West Coast" progress="{{regionData.westCoast}}"></my-progress-bar>
+               <my-progress-bar title="Rocky Mountain" progress="{{regionData.rockyMountain}}"></my-progress-bar>
+               <my-progress-bar title="New England" progress="{{regionData.newEngland}}"></my-progress-bar>
+               <my-progress-bar title="Mid-Atlantic" progress="{{regionData.midAtlantic}}"></my-progress-bar>
+               <my-progress-bar title="Southeast" progress="{{regionData.southeast}}"></my-progress-bar>
+            </div>
 
             <div id='newResortsBySeason'></div>
             <div id='viewsBySeason'></div>
@@ -206,7 +257,6 @@
                <li>If you have any suggestions or questions, feel free to email me (see bottom right of this page).</li>
             </ul>
 
-         </div>
       </div>
 
       <br>
@@ -233,6 +283,22 @@
 
       // Code goes here
       var app = angular.module('myApp', []);
+
+      // Progress bar component
+      app.component('myProgressBar', {
+         template: `<div class="col-xs-2">{{$ctrl.title}}</div>
+                     <div class="col-xs-10">
+                        <div class="progress">
+                           <div class="progress-bar" role="progressbar" aria-valuenow="{{$ctrl.progress | number:1}}" aria-valuemin="0" aria-valuemax="100" style="width:{{$ctrl.progress | number:1}}%">
+                           <span>{{$ctrl.progress | number:1}}%</span>
+                           </div>
+                        </div>
+                     </div>`,
+         bindings: {
+            title: '@',
+            progress: '@'
+         }
+      });
       
       // Governing app controller
       app.controller('myCtrl', ['$scope', function($scope) {
@@ -246,6 +312,8 @@
 
           // New Resorts
           $scope.newResortStatsLastUpdated = newResortStatsLastUpdated;
+          $scope.regionData = regionData;
+          $scope.stateData = stateData;
 
       }]);
 

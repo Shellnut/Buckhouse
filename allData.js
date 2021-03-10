@@ -4432,20 +4432,6 @@ var allData = [
     "website": "http://www.buttermilkresort.com/"
   },
   {
-    "resortName": "Snowmass",
-    "state": "Colorado",
-    "region": "Rocky Mountains",
-    "city": "",
-    "videos": [],
-    "position": {
-      "lat": 39.18631092975681,
-      "lng": -106.8182403657454
-    },
-    "officialSkiResort": true,
-    "id": "1033",
-    "website": "http://www.aspensnowmass.com"
-  },
-  {
     "resortName": "Beaver Creek Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",

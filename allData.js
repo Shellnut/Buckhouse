@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/11/2021';
+var lastUpdated = '03/13/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3195,7 +3195,9 @@ var allData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Burnsville",
-    "videos": [],
+    "videos": [
+      "uQ4_fewP7-Q"
+    ],
     "position": {
       "lat": 44.724632484858674,
       "lng": -93.28610667422542
@@ -5221,6 +5223,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "E5VMAqSPTe8",
       "V727drc0E8k",
       "pCLVipvn2Zs",
       "gY7ZEkHocWU",

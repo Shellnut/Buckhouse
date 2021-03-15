@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/13/2021';
+var lastUpdated = '03/15/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3282,6 +3282,7 @@ var allData = [
     "region": "Midwest",
     "city": "Bloomington",
     "videos": [
+      "piO2Qq-UJu0",
       "NfBk_WQM7PM",
       "gcvMTBF3lYU",
       "SdhESMcpxnk"
@@ -3301,7 +3302,9 @@ var allData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Maple Grove",
-    "videos": [],
+    "videos": [
+      "MAjfZMHFlmk"
+    ],
     "position": {
       "lat": 45.13950018178829,
       "lng": -93.43891807280477
@@ -7711,4 +7714,4 @@ var allData = [
     },
     "officialSkiResort": false
   }
-]
+];

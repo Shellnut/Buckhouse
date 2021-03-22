@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/17/2021';
+var lastUpdated = '03/21/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1899,6 +1899,20 @@ var allData = [
     "officialSkiResort": true,     
     "id": "327",     
     "website": "http://www.woodsvalleyskiarea.com/"  
+  },
+  {
+    "resortName": "Peek'n Peak Resort",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "city": "Clymer",
+    "videos": [],
+    "position": {
+      "lat": 42.06263637525066,
+      "lng": -79.73562846528858
+    },
+    "officialSkiResort": true,     
+    "id": "302",     
+    "website": "http://www.pknpk.com/"  
   },
   {
     "resortName": "Bear Creek Mountain Resort",
@@ -4217,6 +4231,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "2p0Q0nGH1P0",
       "rGzekXW4Sdo",
       "82TPXnW_p58",
       "A8B2VdjRUk0",
@@ -4610,6 +4625,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "XdI_Wn2-Fd4",
       "xrUQFDvOhYM",
       "KkILh_wcPro",
       "xIsAyLkurXU",
@@ -6358,7 +6374,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Park City",
     "videos": [
-      "iBM8QoUD7Ec",
       "sq_LFhyqXbg",
       "cGf2K3kd7AE",
       "d3DKF2Q1JZU",
@@ -6379,6 +6394,22 @@ var allData = [
     "officialSkiResort": true,
     "id": "229",
     "website": "http://parkcitymountain.com"
+  },
+  {
+    "resortName": "Woodward Park City",
+    "state": "Utah",
+    "region": "Rocky Mountains",
+    "city": "Park City",
+    "videos": [
+      "iBM8QoUD7Ec"
+    ],
+    "position": {
+      "lat": 40.75506564993516,
+      "lng": -111.58585457671353
+    },
+    "officialSkiResort": true,
+    "id": "5123",
+    "website": "https://www.woodwardparkcity.com/"
   },
   {
     "resortName": "Powder Mountain",
@@ -6780,7 +6811,10 @@ var allData = [
     "state": "California",
     "region": "West Coast",
     "city": "Big Bear Lake",
-    "videos": [],
+    "videos": [
+      "vV92iw_Oe7A",
+      "E3WBEpboWgA"
+    ],
     "position": {
       "lat": 34.22911371690905,
       "lng": -116.86084113187107

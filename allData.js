@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/21/2021';
+var lastUpdated = '03/23/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7223,7 +7223,9 @@ var allData = [
     "state": "Nevada",
     "region": "West Coast",
     "city": "Las Vegas",
-    "videos": [],
+    "videos": [
+      "PlwA08EGj20"
+    ],
     "position": {
       "lat": 36.303883351345306,
       "lng": -115.67969707497707

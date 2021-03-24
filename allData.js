@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/23/2021';
+var lastUpdated = '03/24/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7066,7 +7066,9 @@ var allData = [
     "state": "California",
     "region": "West Coast",
     "city": "Wrightwood",
-    "videos": [],
+    "videos": [
+      "_TKsy9lo8CM"
+    ],
     "position": {
       "lat": 34.377172008800834,
       "lng": -117.69144910014853

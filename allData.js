@@ -6488,8 +6488,8 @@ var allData = [
       "lng": -111.57875516358368
     },
     "officialSkiResort": true,
-    "id": "5358",
-    "website": ""
+    "id": "230",
+    "website": "https://www.sundanceresort.com/"
   },
   {
     "resortName": "Big Horn (Meadowlark)",
@@ -6503,7 +6503,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14055",
-    "website": "https://www.sundanceresort.com/"
+    "website": ""
   },
   {
     "resortName": "Grand Targhee",

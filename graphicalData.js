@@ -5898,302 +5898,302 @@ var resortBySeasonLayout = {
 
 Plotly.newPlot('newResortsBySeason', resortBySeasonData, resortBySeasonLayout);
 
-// Views by season AVG
-const sum = (arr) => arr.reduce((a, b) => a + b, 0);
-var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;
+// // Views by season AVG
+// const sum = (arr) => arr.reduce((a, b) => a + b, 0);
+// var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;
 
-var s0Avg = avg(s0Views);
-var s0Min = Math.min(...s0Views);
-var s0Max = Math.max(...s0Views);
-var s1Avg = avg(s1Views);
-var s1Min = Math.min(...s1Views);
-var s1Max = Math.max(...s1Views);
-var s2Avg = avg(s2Views);
-var s2Min = Math.min(...s2Views);
-var s2Max = Math.max(...s2Views);
-var s3Avg = avg(s3Views);
-var s3Min = Math.min(...s3Views);
-var s3Max = Math.max(...s3Views);
-var s4Avg = avg(s4Views);
-var s4Min = Math.min(...s4Views);
-var s4Max = Math.max(...s4Views);
-var s5Avg = avg(s5Views);
-var s5Min = Math.min(...s5Views);
-var s5Max = Math.max(...s5Views);
+// var s0Avg = avg(s0Views);
+// var s0Min = Math.min(...s0Views);
+// var s0Max = Math.max(...s0Views);
+// var s1Avg = avg(s1Views);
+// var s1Min = Math.min(...s1Views);
+// var s1Max = Math.max(...s1Views);
+// var s2Avg = avg(s2Views);
+// var s2Min = Math.min(...s2Views);
+// var s2Max = Math.max(...s2Views);
+// var s3Avg = avg(s3Views);
+// var s3Min = Math.min(...s3Views);
+// var s3Max = Math.max(...s3Views);
+// var s4Avg = avg(s4Views);
+// var s4Min = Math.min(...s4Views);
+// var s4Max = Math.max(...s4Views);
+// var s5Avg = avg(s5Views);
+// var s5Min = Math.min(...s5Views);
+// var s5Max = Math.max(...s5Views);
 
-var viewsBySeasonTraceAvg = {
-  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
-  y: [s0Avg, s1Avg, s2Avg, s3Avg, s4Avg, s5Avg],
-  type: 'bar'
-};
-// var viewsBySeasonTraceMin = {
+// var viewsBySeasonTraceAvg = {
 //   x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
-//   y: [s0Min, s1Min, s2Min, s3Min, s4Min, s5Min],
-//   type: 'scatter'
+//   y: [s0Avg, s1Avg, s2Avg, s3Avg, s4Avg, s5Avg],
+//   type: 'bar'
 // };
-// var viewsBySeasonTraceMax = {
+// // var viewsBySeasonTraceMin = {
+// //   x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+// //   y: [s0Min, s1Min, s2Min, s3Min, s4Min, s5Min],
+// //   type: 'scatter'
+// // };
+// // var viewsBySeasonTraceMax = {
+// //   x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+// //   y: [s0Max, s1Max, s2Max, s3Max, s4Max, s5Max],
+// //   type: 'scatter'
+// // };
+
+// var viewsBySeasonData = [viewsBySeasonTraceAvg];
+// // var viewsBySeasonData = [viewsBySeasonTraceAvg, viewsBySeasonTraceMin, viewsBySeasonTraceMax];
+
+// var viewsBySeasonLayout = {
+//   title:'Average Video Views by Season',
+//   yaxis: {
+//     title: '# Video Views',
+//     fixedrange: true
+//   },
+//   xaxis: {
+//     fixedrange: true
+//   }
+// };
+
+// Plotly.newPlot('viewsBySeason', viewsBySeasonData, viewsBySeasonLayout);
+
+// // Views by season TOTAL
+// var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;
+
+// var s0Tot = sum(s0Views);
+// var s1Tot = sum(s1Views);
+// var s2Tot = sum(s2Views);
+// var s3Tot = sum(s3Views);
+// var s4Tot = sum(s4Views);
+// var s5Tot = sum(s5Views);
+
+// var viewsTotalBySeasonTrace = {
 //   x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
-//   y: [s0Max, s1Max, s2Max, s3Max, s4Max, s5Max],
-//   type: 'scatter'
+//   y: [s0Tot, s1Tot, s2Tot, s3Tot, s4Tot, s5Tot],
+//   type: 'bar'
 // };
 
-var viewsBySeasonData = [viewsBySeasonTraceAvg];
-// var viewsBySeasonData = [viewsBySeasonTraceAvg, viewsBySeasonTraceMin, viewsBySeasonTraceMax];
+// var viewsTotalBySeasonData = [viewsTotalBySeasonTrace];
+// // var viewsBySeasonData = [viewsBySeasonTraceAvg, viewsBySeasonTraceMin, viewsBySeasonTraceMax];
 
-var viewsBySeasonLayout = {
-  title:'Average Video Views by Season',
-  yaxis: {
-    title: '# Video Views',
-    fixedrange: true
-  },
-  xaxis: {
-    fixedrange: true
-  }
-};
+// var viewsTotalBySeasonLayout = {
+//   title:'Total Video Views by Season',
+//   yaxis: {
+//     title: '# Video Views',
+//     fixedrange: true
+//   },
+//   xaxis: {
+//     fixedrange: true
+//   }
+// };
 
-Plotly.newPlot('viewsBySeason', viewsBySeasonData, viewsBySeasonLayout);
-
-// Views by season TOTAL
-var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;
-
-var s0Tot = sum(s0Views);
-var s1Tot = sum(s1Views);
-var s2Tot = sum(s2Views);
-var s3Tot = sum(s3Views);
-var s4Tot = sum(s4Views);
-var s5Tot = sum(s5Views);
-
-var viewsTotalBySeasonTrace = {
-  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
-  y: [s0Tot, s1Tot, s2Tot, s3Tot, s4Tot, s5Tot],
-  type: 'bar'
-};
-
-var viewsTotalBySeasonData = [viewsTotalBySeasonTrace];
-// var viewsBySeasonData = [viewsBySeasonTraceAvg, viewsBySeasonTraceMin, viewsBySeasonTraceMax];
-
-var viewsTotalBySeasonLayout = {
-  title:'Total Video Views by Season',
-  yaxis: {
-    title: '# Video Views',
-    fixedrange: true
-  },
-  xaxis: {
-    fixedrange: true
-  }
-};
-
-Plotly.newPlot('viewsTotalBySeason', viewsTotalBySeasonData, viewsTotalBySeasonLayout);
+// Plotly.newPlot('viewsTotalBySeason', viewsTotalBySeasonData, viewsTotalBySeasonLayout);
 
 
-// Views by Month by Season
-function getAvgViewsByMonth(sData) {
+// // Views by Month by Season
+// function getAvgViewsByMonth(sData) {
 
-  var oct = [];
-  var nov = [];
-  var dec = [];
-  var jan = [];
-  var feb = [];
-  var mar = [];
-  var apr = [];
-  var may = [];
-  var jun = [];
-  var jul = [];
-  var aug = [];
-  var sep = [];
+//   var oct = [];
+//   var nov = [];
+//   var dec = [];
+//   var jan = [];
+//   var feb = [];
+//   var mar = [];
+//   var apr = [];
+//   var may = [];
+//   var jun = [];
+//   var jul = [];
+//   var aug = [];
+//   var sep = [];
 
-  for (var i=0; i<sData.length; i++) {
-    var myMonth = new Date(sData[i].date).getMonth();
-    if (myMonth === 0) {
-      jan.push(sData[i].views);
-    }
-    else if (myMonth === 1) {
-      feb.push(sData[i].views);
-    }
-    else if (myMonth === 2) {
-      mar.push(sData[i].views);
-    }
-    else if (myMonth === 3) {
-      apr.push(sData[i].views);
-    }
-    else if (myMonth === 4) {
-      may.push(sData[i].views);
-    }
-    else if (myMonth === 5) {
-      jun.push(sData[i].views);
-    }
-    else if (myMonth === 6) {
-      jul.push(sData[i].views);
-    }
-    else if (myMonth === 7) {
-      aug.push(sData[i].views);
-    }
-    else if (myMonth === 8) {
-      sep.push(sData[i].views);
-    }
-    else if (myMonth === 9) {
-      oct.push(sData[i].views);
-    }
-    else if (myMonth === 10) {
-      nov.push(sData[i].views);
-    }
-    else if (myMonth === 11) {
-      dec.push(sData[i].views);
-    }
-  }
-  return [avg(oct), avg(nov), avg(dec), avg(jan), avg(feb), avg(mar), avg(apr), avg(may), avg(jun), avg(jul), avg(aug), avg(sep)]
+//   for (var i=0; i<sData.length; i++) {
+//     var myMonth = new Date(sData[i].date).getMonth();
+//     if (myMonth === 0) {
+//       jan.push(sData[i].views);
+//     }
+//     else if (myMonth === 1) {
+//       feb.push(sData[i].views);
+//     }
+//     else if (myMonth === 2) {
+//       mar.push(sData[i].views);
+//     }
+//     else if (myMonth === 3) {
+//       apr.push(sData[i].views);
+//     }
+//     else if (myMonth === 4) {
+//       may.push(sData[i].views);
+//     }
+//     else if (myMonth === 5) {
+//       jun.push(sData[i].views);
+//     }
+//     else if (myMonth === 6) {
+//       jul.push(sData[i].views);
+//     }
+//     else if (myMonth === 7) {
+//       aug.push(sData[i].views);
+//     }
+//     else if (myMonth === 8) {
+//       sep.push(sData[i].views);
+//     }
+//     else if (myMonth === 9) {
+//       oct.push(sData[i].views);
+//     }
+//     else if (myMonth === 10) {
+//       nov.push(sData[i].views);
+//     }
+//     else if (myMonth === 11) {
+//       dec.push(sData[i].views);
+//     }
+//   }
+//   return [avg(oct), avg(nov), avg(dec), avg(jan), avg(feb), avg(mar), avg(apr), avg(may), avg(jun), avg(jul), avg(aug), avg(sep)]
 
-}
+// }
 
-var monthsX = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'];
+// var monthsX = ['Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'];
 
-var viewsSeason1Trace = {
-  x: monthsX,
-  y: getAvgViewsByMonth(s1Metrics),
-  type: 'scatter',
-  name: 'Season 1'
-};
-var viewsSeason2Trace = {
-  x: monthsX,
-  y: getAvgViewsByMonth(s2Metrics),
-  type: 'scatter',
-  name: 'Season 2'
-};
-var viewsSeason3Trace = {
-  x: monthsX,
-  y: getAvgViewsByMonth(s3Metrics),
-  type: 'scatter',
-  name: 'Season 3'
-};
-var viewsSeason4Trace = {
-  x: monthsX,
-  y: getAvgViewsByMonth(s4Metrics),
-  type: 'scatter',
-  name: 'Season 4'
-};
-var viewsSeason5Trace = {
-  x: monthsX,
-  y: getAvgViewsByMonth(s5Metrics),
-  type: 'scatter',
-  name: 'Season 5'
-};
+// var viewsSeason1Trace = {
+//   x: monthsX,
+//   y: getAvgViewsByMonth(s1Metrics),
+//   type: 'scatter',
+//   name: 'Season 1'
+// };
+// var viewsSeason2Trace = {
+//   x: monthsX,
+//   y: getAvgViewsByMonth(s2Metrics),
+//   type: 'scatter',
+//   name: 'Season 2'
+// };
+// var viewsSeason3Trace = {
+//   x: monthsX,
+//   y: getAvgViewsByMonth(s3Metrics),
+//   type: 'scatter',
+//   name: 'Season 3'
+// };
+// var viewsSeason4Trace = {
+//   x: monthsX,
+//   y: getAvgViewsByMonth(s4Metrics),
+//   type: 'scatter',
+//   name: 'Season 4'
+// };
+// var viewsSeason5Trace = {
+//   x: monthsX,
+//   y: getAvgViewsByMonth(s5Metrics),
+//   type: 'scatter',
+//   name: 'Season 5'
+// };
 
-var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsSeason4Trace, viewsSeason5Trace];
+// var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsSeason4Trace, viewsSeason5Trace];
 
-var monthLayout = {
-  title:'Avg Views Per Video Per Month',
-  yaxis: {
-    title: '# of Views',
-    fixedrange: true
-  },
-  xaxis: {
-    fixedrange: true
-  }
-};
+// var monthLayout = {
+//   title:'Avg Views Per Video Per Month',
+//   yaxis: {
+//     title: '# of Views',
+//     fixedrange: true
+//   },
+//   xaxis: {
+//     fixedrange: true
+//   }
+// };
 
-Plotly.newPlot('videoViewsByMonth', monthData, monthLayout);
+// Plotly.newPlot('videoViewsByMonth', monthData, monthLayout);
 
-// Views by Month by Season
-function getTotalViewsByMonth(sData) {
+// // Views by Month by Season
+// function getTotalViewsByMonth(sData) {
 
-  var oct = [];
-  var nov = [];
-  var dec = [];
-  var jan = [];
-  var feb = [];
-  var mar = [];
-  var apr = [];
-  var may = [];
-  var jun = [];
-  var jul = [];
-  var aug = [];
-  var sep = [];
+//   var oct = [];
+//   var nov = [];
+//   var dec = [];
+//   var jan = [];
+//   var feb = [];
+//   var mar = [];
+//   var apr = [];
+//   var may = [];
+//   var jun = [];
+//   var jul = [];
+//   var aug = [];
+//   var sep = [];
 
-  for (var i=0; i<sData.length; i++) {
-    var myMonth = new Date(sData[i].date).getMonth();
-    if (myMonth === 0) {
-      jan.push(sData[i].views);
-    }
-    else if (myMonth === 1) {
-      feb.push(sData[i].views);
-    }
-    else if (myMonth === 2) {
-      mar.push(sData[i].views);
-    }
-    else if (myMonth === 3) {
-      apr.push(sData[i].views);
-    }
-    else if (myMonth === 4) {
-      may.push(sData[i].views);
-    }
-    else if (myMonth === 5) {
-      jun.push(sData[i].views);
-    }
-    else if (myMonth === 6) {
-      jul.push(sData[i].views);
-    }
-    else if (myMonth === 7) {
-      aug.push(sData[i].views);
-    }
-    else if (myMonth === 8) {
-      sep.push(sData[i].views);
-    }
-    else if (myMonth === 9) {
-      oct.push(sData[i].views);
-    }
-    else if (myMonth === 10) {
-      nov.push(sData[i].views);
-    }
-    else if (myMonth === 11) {
-      dec.push(sData[i].views);
-    }
-  }
-  return [sum(oct), sum(nov), sum(dec), sum(jan), sum(feb), sum(mar), sum(apr), sum(may), sum(jun), sum(jul), sum(aug), sum(sep)]
+//   for (var i=0; i<sData.length; i++) {
+//     var myMonth = new Date(sData[i].date).getMonth();
+//     if (myMonth === 0) {
+//       jan.push(sData[i].views);
+//     }
+//     else if (myMonth === 1) {
+//       feb.push(sData[i].views);
+//     }
+//     else if (myMonth === 2) {
+//       mar.push(sData[i].views);
+//     }
+//     else if (myMonth === 3) {
+//       apr.push(sData[i].views);
+//     }
+//     else if (myMonth === 4) {
+//       may.push(sData[i].views);
+//     }
+//     else if (myMonth === 5) {
+//       jun.push(sData[i].views);
+//     }
+//     else if (myMonth === 6) {
+//       jul.push(sData[i].views);
+//     }
+//     else if (myMonth === 7) {
+//       aug.push(sData[i].views);
+//     }
+//     else if (myMonth === 8) {
+//       sep.push(sData[i].views);
+//     }
+//     else if (myMonth === 9) {
+//       oct.push(sData[i].views);
+//     }
+//     else if (myMonth === 10) {
+//       nov.push(sData[i].views);
+//     }
+//     else if (myMonth === 11) {
+//       dec.push(sData[i].views);
+//     }
+//   }
+//   return [sum(oct), sum(nov), sum(dec), sum(jan), sum(feb), sum(mar), sum(apr), sum(may), sum(jun), sum(jul), sum(aug), sum(sep)]
 
-}
+// }
 
-var viewsTotalSeason1Trace = {
-  x: monthsX,
-  y: getTotalViewsByMonth(s1Metrics),
-  type: 'scatter',
-  name: 'Season 1'
-};
-var viewsTotalSeason2Trace = {
-  x: monthsX,
-  y: getTotalViewsByMonth(s2Metrics),
-  type: 'scatter',
-  name: 'Season 2'
-};
-var viewsTotalSeason3Trace = {
-  x: monthsX,
-  y: getTotalViewsByMonth(s3Metrics),
-  type: 'scatter',
-  name: 'Season 3'
-};
-var viewsTotalSeason4Trace = {
-  x: monthsX,
-  y: getTotalViewsByMonth(s4Metrics),
-  type: 'scatter',
-  name: 'Season 4'
-};
-var viewsTotalSeason5Trace = {
-  x: monthsX,
-  y: getTotalViewsByMonth(s5Metrics),
-  type: 'scatter',
-  name: 'Season 5'
-};
+// var viewsTotalSeason1Trace = {
+//   x: monthsX,
+//   y: getTotalViewsByMonth(s1Metrics),
+//   type: 'scatter',
+//   name: 'Season 1'
+// };
+// var viewsTotalSeason2Trace = {
+//   x: monthsX,
+//   y: getTotalViewsByMonth(s2Metrics),
+//   type: 'scatter',
+//   name: 'Season 2'
+// };
+// var viewsTotalSeason3Trace = {
+//   x: monthsX,
+//   y: getTotalViewsByMonth(s3Metrics),
+//   type: 'scatter',
+//   name: 'Season 3'
+// };
+// var viewsTotalSeason4Trace = {
+//   x: monthsX,
+//   y: getTotalViewsByMonth(s4Metrics),
+//   type: 'scatter',
+//   name: 'Season 4'
+// };
+// var viewsTotalSeason5Trace = {
+//   x: monthsX,
+//   y: getTotalViewsByMonth(s5Metrics),
+//   type: 'scatter',
+//   name: 'Season 5'
+// };
 
-var monthTotalData = [viewsTotalSeason1Trace, viewsTotalSeason2Trace, viewsTotalSeason3Trace, viewsTotalSeason4Trace, viewsTotalSeason5Trace];
+// var monthTotalData = [viewsTotalSeason1Trace, viewsTotalSeason2Trace, viewsTotalSeason3Trace, viewsTotalSeason4Trace, viewsTotalSeason5Trace];
 
-var monthTotalLayout = {
-  title:'Total Views Per Month',
-  yaxis: {
-    title: '# of Views',
-    fixedrange: true
-  },
-  xaxis: {
-    fixedrange: true
-  }
-};
+// var monthTotalLayout = {
+//   title:'Total Views Per Month',
+//   yaxis: {
+//     title: '# of Views',
+//     fixedrange: true
+//   },
+//   xaxis: {
+//     fixedrange: true
+//   }
+// };
 
-Plotly.newPlot('totalViewsPerMonth', monthTotalData, monthTotalLayout);
+// Plotly.newPlot('totalViewsPerMonth', monthTotalData, monthTotalLayout);

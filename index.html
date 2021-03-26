@@ -70,11 +70,31 @@
          .fa-instagram {
             color: #517fa4;
          }
+         .icon-radios {
+            margin-top: 25px;
+            margin-bottom: 0px;
+         }
       </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
       <div class="container-fluid">
-         <h3>Johnathan's Ski Resort challenge</h3>
+         <div class="row">
+               <div class="col-sm-9">
+                  <h3>Johnathan's Ski Resort challenge</h3>
+               </div>
+               <div class="col-sm-3">
+                  <p class="pull-right icon-radios">
+                     <label class="radio-inline">
+                        <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
+                        <img src="img/snowboard_marker/not_visited.png" alt="snowboard marker" width="12" height="20"> 
+                     </label>
+                     <label class="radio-inline">
+                        <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="true">
+                        <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20"> 
+                     </label>
+                  </p>
+               </div>
+         </div>
          <div id="mapid"></div>
          <!-- THE SEARCH BOX  -->
          <br>
@@ -322,6 +342,20 @@
           $scope.regionData = regionData;
           $scope.stateData = stateData;
 
+          // Get truthy or falsy value from localStorage
+          $scope.plainMarker = !!localStorage.getItem('plainMarker');
+
+          $scope.updateMarker = function() {
+               if ($scope.plainMarker) {
+                  localStorage.setItem('plainMarker', '1');
+                  location.reload(); 
+               }
+               else {
+                  localStorage.setItem('plainMarker', '');
+                  location.reload();
+               }
+          }
+
       }]);
 
       // Set the default view
@@ -339,10 +373,13 @@
         zoomOffset: -1
       }).addTo(mymap);
 
+      // Load the icon preference
+      var iconPreference = !!localStorage.getItem('plainMarker') ? 'plain_marker' : 'snowboard_marker';
+
       // Green Icon (visited)
       var greenIcon = new L.Icon({
-        iconUrl: 'jb_been_to.png',
-        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconUrl: `img/${iconPreference}/visited.png`,
+        shadowUrl: 'img/marker_shadow.png',
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
@@ -351,8 +388,8 @@
 
       // black Icon (unofficial ski resort)
       var blackIcon = new L.Icon({
-        iconUrl: 'jb_unofficial.png',
-        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconUrl: `img/${iconPreference}/unofficial.png`,
+        shadowUrl: 'img/marker_shadow.png',
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
@@ -361,8 +398,8 @@
 
       // Red Icon (not yet visited)
       var redIcon = new L.Icon({
-        iconUrl: 'jb.png',
-        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconUrl: `img/${iconPreference}/not_visited.png`,
+        shadowUrl: 'img/marker_shadow.png',
         iconSize: [25, 41],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
@@ -371,9 +408,9 @@
 
       // Green Ski Icon (visited)
       var greenSkiIcon = new L.Icon({
-        iconUrl: 'jb_been_to_ski.png',
-        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-        iconSize: [35, 57],
+        iconUrl: `img/${iconPreference}/visited_ski.png`,
+        shadowUrl: 'img/marker_shadow.png',
+        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
         shadowSize: [41, 41]
@@ -381,9 +418,9 @@
 
       // Red Ski Icon (not yet visited)
       var redSkiIcon = new L.Icon({
-        iconUrl: 'jb_ski.png',
-        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
-        iconSize: [35, 57],
+        iconUrl: `img/${iconPreference}/not_visited_ski.png`,
+        shadowUrl: 'img/marker_shadow.png',
+        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
         shadowSize: [41, 41]

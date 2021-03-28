@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/26/2021';
+var lastUpdated = '03/27/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4750,7 +4750,9 @@ var allData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Evergreen",
-    "videos": [],
+    "videos": [
+      "ZlIiWYVypZE"
+    ],
     "position": {
       "lat": 39.68472204161028,
       "lng": -105.51940353072584

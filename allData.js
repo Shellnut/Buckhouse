@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/29/2021';
+var lastUpdated = '03/30/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4626,6 +4626,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "zyt8FPW1pns",
       "r1-TwbpN8-c",
       "XdI_Wn2-Fd4",
       "xrUQFDvOhYM",

@@ -4108,8 +4108,8 @@ var allData = [
       "lng": -92.61822227100298
     },
     "officialSkiResort": true,
-    "id": "565",
-    "website": "http://www.trollskiresort.com"
+    "id": "159",
+    "website": "https://www.trollhaugen.com/"
   },
   {
     "resortName": "Tyrol Basin",
@@ -6825,8 +6825,8 @@ var allData = [
       "lng": -116.86084113187107
     },
     "officialSkiResort": true,
-    "id": "2202",
-    "website": "http://www.bearmountainskihill.com/"
+    "id": "536",
+    "website": "http://www.bearmountain.com"
   },
   {
     "resortName": "Bear Valley",

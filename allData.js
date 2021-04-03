@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '03/30/2021';
+var lastUpdated = '04/02/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1913,6 +1913,20 @@ var allData = [
     "officialSkiResort": true,     
     "id": "302",     
     "website": "http://www.pknpk.com/"  
+  },
+  {
+    "resortName": "Victor Constant Ski Area",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "city": "West Point",
+    "videos": [],
+    "position": {
+      "lat": 41.39560173530888,
+      "lng": -73.98356132208971
+    },
+    "officialSkiResort": true,     
+    "id": "5003",     
+    "website": "https://westpoint.armymwr.com/programs/victor-constant-ski-area"  
   },
   {
     "resortName": "Bear Creek Mountain Resort",
@@ -4832,6 +4846,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "-3pQCvVuNcU",
       "LPRABi5BhKM",
       "QWZJlriQa6I",
       "I08wCQ5WvIQ",
@@ -6543,7 +6558,9 @@ var allData = [
     "state": "Wyoming",
     "region": "Rocky Mountains",
     "city": "Teton Village",
-    "videos": [],
+    "videos": [
+      "K3CBFvCU43Y"
+    ],
     "position": {
       "lat": 43.59828801471585,
       "lng": -110.84759647219776

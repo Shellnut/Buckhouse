@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '04/02/2021';
+var lastUpdated = '04/03/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6559,6 +6559,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Teton Village",
     "videos": [
+      "yAEpyrBHbbE",
       "K3CBFvCU43Y"
     ],
     "position": {

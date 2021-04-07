@@ -7724,7 +7724,7 @@ var allData = [
     "website": "http://www.stevenspass.com"
   },
   {
-    "resortName": "The Summit at Snoqualmie",
+    "resortName": "The Summit at Snoqualmie (Summit Central, East and West)",
     "state": "Washington",
     "region": "West Coast",
     "city": "Snoqualmie Pass",
@@ -7732,12 +7732,12 @@ var allData = [
       "5_moso8-_gQ"
     ],
     "position": {
-      "lat": 47.42114703020923,
-      "lng": -121.42104739524534
+      "lat": 47.4103197355071,
+      "lng": -121.41349281526888
     },
     "officialSkiResort": true,
     "id": "194",
-    "website": "http://www.summit-at-snoqualmie.com"
+    "website": "https://summitatsnoqualmie.com/summit-central"
   },
   {
     "resortName": "Alpental",
@@ -7750,8 +7750,8 @@ var allData = [
       "lng": -121.42582350355228
     },
     "officialSkiResort": true,
-    "id": "14439",
-    "website": "https://www.aalski.no/"
+    "id": "194",
+    "website": "https://summitatsnoqualmie.com/alpental"
   },
   {
     "resortName": "White Pass",

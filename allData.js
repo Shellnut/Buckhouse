@@ -6095,7 +6095,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "372",
-    "website": "http://tetonpassresort.com/"
+    "website": "https://www.skitetonmt.com/"
   },
   {
     "resortName": "Turner Mountain",

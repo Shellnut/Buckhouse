@@ -2681,8 +2681,8 @@ var allData = [
       "lng": -83.52338785174727
     },
     "officialSkiResort": true,
-    "id": "14439",
-    "website": "https://www.aalski.no/"
+    "id": "415",
+    "website": "https://skialpinevalley.com/"
   },
   {
     "resortName": "Apple Mountain Ski Resort",
@@ -3555,8 +3555,8 @@ var allData = [
       "lng": -81.25974502943757
     },
     "officialSkiResort": true,
-    "id": "14439",
-    "website": "https://www.aalski.no/"
+    "id": "277",
+    "website": "https://www.alpinevalleyohio.com/"
   },
   {
     "resortName": "Boston Mills/Brandywine Ski Resort",
@@ -3669,8 +3669,8 @@ var allData = [
       "lng": -88.427878267612
     },
     "officialSkiResort": true,
-    "id": "14439",
-    "website": "https://www.aalski.no/"
+    "id": "169",
+    "website": "https://www.alpinevalleyresort.com/"
   },
   {
     "resortName": "Ausblick Ski Club",
@@ -6806,8 +6806,8 @@ var allData = [
       "lng": -120.23869010841588
     },
     "officialSkiResort": true,
-    "id": "14439",
-    "website": "https://www.aalski.no/"
+    "id": "522",
+    "website": "https://www.squawalpine.com/explore/alpine-meadows-ski-resort"
   },
   {
     "resortName": "Alta Sierra",

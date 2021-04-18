@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '04/15/2021';
+var lastUpdated = '04/17/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7460,6 +7460,7 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "2AgHpI1Tab8",
       "g1FlWFSGGGA",
       "Eq7TKyVN_-o",
       "YmjtC2lfnXQ",
@@ -7488,6 +7489,8 @@ var allData = [
       "lng": -121.71099567291978
     },
     "officialSkiResort": true,
+    "resortReviewScore": "(Summer) 71",
+    "resortReviewLink": "2AgHpI1Tab8",
     "id": "5019",
     "website": "https://www.timberlinelodge.com"
   },

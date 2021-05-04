@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '05/02/2021';
+var lastUpdated = '05/04/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4515,6 +4515,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "cGtFNU-YkkY",
       "f5LkSrM38Nk",
       "gRY-ZBM0F94",
       "_tSdgrJk3h8",
@@ -5647,6 +5648,7 @@ var allData = [
     "city": "Frisco",
     "officialSkiResort": true,
     "videos": [
+      "SDIMKBhCGE0",
       "agIeWZPpAZs",
       "rqB5LVrZv-M",
       "B2xVDz3xnKQ",

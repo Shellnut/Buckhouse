@@ -26,6 +26,7 @@
        <!-- Make sure you put this AFTER Leaflet's CSS -->
       <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
       <script src="allData.js"></script>
+      <script src="geoJsonData.js"></script>
       <style type="text/css">
          /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
@@ -70,7 +71,7 @@
          .fa-instagram {
             color: #517fa4;
          }
-         .icon-radios {
+         .icons-right {
             margin-top: 25px;
             margin-bottom: 0px;
          }
@@ -83,15 +84,16 @@
                   <h3>Johnathan's Ski Resort challenge</h3>
                </div>
                <div class="col-sm-3">
-                  <p class="pull-right icon-radios">
+                  <p class="pull-right icons-right">
                      <label class="radio-inline">
                         <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
                         <img src="img/snowboard_marker/not_visited.png" alt="snowboard marker" width="12" height="20"> 
                      </label>
                      <label class="radio-inline">
                         <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="true">
-                        <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20"> 
+                        <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20"> &nbsp;|&nbsp;
                      </label>
+                     <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateRegions()" ng-model="showRegions"> Show Regions?</label>
                   </p>
                </div>
          </div>
@@ -357,6 +359,20 @@
                }
           }
 
+         // Get truthy or falsy value from localStorage
+         $scope.showRegions = !!localStorage.getItem('showRegions');
+
+         $scope.updateRegions = function() {
+            if ($scope.showRegions) {
+               localStorage.setItem('showRegions', '1');
+               location.reload(); 
+            }
+            else {
+               localStorage.setItem('showRegions', '');
+               location.reload();
+            }
+         }
+
       }]);
 
       // Set the default view
@@ -376,6 +392,42 @@
 
       // Load the icon preference
       var iconPreference = !!localStorage.getItem('plainMarker') ? 'plain_marker' : 'snowboard_marker';
+
+      // Load the region line preference
+      var regionPreference = !!localStorage.getItem('showRegions');
+
+      // If the user wants to see the region
+      if (regionPreference) {
+         var regionColor = {
+            'New England': 'red',
+            'Mid-Atlantic': 'orange',
+            'Southeast': 'yellow',
+            'Midwest': 'green',
+            'Rocky Mountains': 'blue',
+            'West Coast': 'purple'
+         }
+         // Loop over geo json data
+         for (var i=0; i<geoJsonData.features.length; i++) {
+            var geoColor = regionColor[geoJsonData.features[i].properties.region];
+            // loop over sets of geo json data (ex: hawaii has several sets b.c. of the islands)
+            if (geoJsonData.features[i].geometry.type === 'Polygon') {
+               var myCoords = geoJsonData.features[i].geometry.coordinates[0].map(val => [val[1], val[0]]);
+               L.polygon(myCoords, {color: geoColor})
+                  .addTo(mymap)
+                  .bindPopup(geoJsonData.features[i].properties.region + ' Region');
+            }
+            // Multi Polygon arrays are organized super weird!!
+            else if (geoJsonData.features[i].geometry.type === 'MultiPolygon') {
+               var myArray = geoJsonData.features[i].geometry.coordinates.map(val => val[0]);
+               for (var j=0; j<myArray.length; j++) {
+                  var myCoords = myArray[j].map(val => [val[1], val[0]]);
+                  L.polygon(myCoords, {color: geoColor})
+                   .addTo(mymap)
+                   .bindPopup(geoJsonData.features[i].properties.region + ' Region');
+               }
+            }
+         } 
+      }
 
       // Green Icon (visited)
       var greenIcon = new L.Icon({

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '05/12/2021';
+var lastUpdated = '05/15/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3662,7 +3662,8 @@ var allData = [
     "region": "Midwest",
     "city": "East Troy",
     "videos": [
-      "jpFaLyNq-qI"
+      "jpFaLyNq-qI",
+      "6a--suhNwak"
     ],
     "position": {
       "lat": 42.73670694583553,
@@ -3670,6 +3671,8 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "169",
+    "resortReviewScore": "49",
+    "resortReviewLink": "6a--suhNwak",
     "website": "https://www.alpinevalleyresort.com/"
   },
   {
@@ -4245,6 +4248,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "C7Ir17CBotI",
       "5NuCJa1vYGk",
       "HkvbT5fivek",
       "LzD06f9oQH4",

@@ -349,20 +349,20 @@ var allData = [
     "officialSkiResort": true,
     "website": "https://berkshireeast.com/"
   },
-  {
-    "resortName": "Blandford Ski Area",
-    "state": "Massachusetts",
-    "region": "New England",
-    "city": "Blandford",
-    "videos": [],
-    "position": {
-      "lat": 42.200658271605704,
-      "lng": -72.91711617348383
-    },
-    "officialSkiResort": true,
-    "id": "438",
-    "website": "https://skiblandford.com/"
-  },
+  // {
+  //   "resortName": "Blandford Ski Area",
+  //   "state": "Massachusetts",
+  //   "region": "New England",
+  //   "city": "Blandford",
+  //   "videos": [],
+  //   "position": {
+  //     "lat": 42.200658271605704,
+  //     "lng": -72.91711617348383
+  //   },
+  //   "officialSkiResort": true,
+  //   "id": "438",
+  //   "website": "https://skiblandford.com/"
+  // },
   {
     "resortName": "Blue Hills Ski Area",
     "state": "Massachusetts",

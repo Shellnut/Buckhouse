@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '05/20/2021';
+var lastUpdated = '05/23/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2300,15 +2300,18 @@ var allData = [
     "region": "Southeast",
     "city": "Beech Mountain",
     "videos": [
-      "W4wR6QML3XE"
+      "W4wR6QML3XE",
+      "8zvrlaf4Utg"
     ],
     "position": {
       "lat": 36.195625208901824,
       "lng": -81.87785788527373
     },
-    "officialSkiResort": true,     
+    "officialSkiResort": true,    
+    "resortReviewScore": "56",
+    "resortReviewLink": "8zvrlaf4Utg",
     "id": "287",     
-    "website": "https://www.beechmountainresort.com/"  
+    "website": "https://www.beechmountainresort.com/"
   },
   {
     "resortName": "Sugar Mountain",
@@ -4525,6 +4528,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "MK_j-15wG4Q",
       "mQnjJSEfJgw",
       "cGtFNU-YkkY",
       "f5LkSrM38Nk",

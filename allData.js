@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '05/26/2021';
+var lastUpdated = '05/28/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7292,6 +7292,7 @@ var allData = [
     "city": "Las Vegas",
     "videos": [
       "FOHDFI5JmcU",
+      "UZGgJmE1o3g",
       "5wfE3GL8tQ4",
       "PlwA08EGj20"
     ],
@@ -7301,6 +7302,8 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "360",
+    "resortReviewScore": "55",
+    "resortReviewLink": "UZGgJmE1o3g",
     "website": "http://www.leecanyonlv.com/site"
   },
   {

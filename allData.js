@@ -26,7 +26,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "493",
-    "website": "http://www.mohawkmtn.com/"
+    "website": "http://www.mohawkmtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Southington",
@@ -40,7 +45,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "494",
-    "website": "http://www.mountsouthington.com/"
+    "website": "http://www.mountsouthington.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Powder Ridge Ski Area",
@@ -54,7 +64,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "492",
-    "website": "http://www.powderridgepark.com/"
+    "website": "http://www.powderridgepark.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Sundown",
@@ -68,7 +83,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "496",
-    "website": "http://www.skisundown.com/"
+    "website": "http://www.skisundown.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Baker Mountain",
@@ -82,7 +102,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3216",
-    "website": "https://www.facebook.com/Baker-Mt-Ski-Tow-Club-211892185489436/"
+    "website": "https://www.facebook.com/Baker-Mt-Ski-Tow-Club-211892185489436/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Rock",
@@ -96,7 +121,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "455",
-    "website": "http://www.bigrockmaine.com/"
+    "website": "http://www.bigrockmaine.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Squaw",
@@ -110,7 +140,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "457",
-    "website": "http://www.skibigsquaw.com/"
+    "website": "http://www.skibigsquaw.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Black Mountain of Maine",
@@ -124,7 +159,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "454",
-    "website": "http://www.skiblackmountain.org/"
+    "website": "http://www.skiblackmountain.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Camden Snow Bowl",
@@ -138,7 +178,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2907",
-    "website": "http://www.camdensnowbowl.com/"
+    "website": "http://www.camdensnowbowl.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Eaton Mountain",
@@ -152,7 +197,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "451",
-    "website": "http://www.eatonmountain.com/home.html"
+    "website": "http://www.eatonmountain.com/home.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hermon Mountain",
@@ -166,7 +216,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "453",
-    "website": "http://skihermonmountain.com/"
+    "website": "http://skihermonmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Lonesome Pine Trails",
@@ -180,7 +235,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3204",
-    "website": "http://www.lonesomepines.org/"
+    "website": "http://www.lonesomepines.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Lost Valley",
@@ -194,7 +254,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "449",
-    "website": "http://www.lostvalleyski.com/"
+    "website": "http://www.lostvalleyski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Abram",
@@ -208,7 +273,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "447",
-    "website": "http://www.mtabram.com/"
+    "website": "http://www.mtabram.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Jefferson Ski Area",
@@ -222,7 +292,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "450",
-    "website": "http://www.skimtjefferson.com/"
+    "website": "http://www.skimtjefferson.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pinnacle Ski Club",
@@ -236,7 +311,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3275",
-    "website": "http://pinnacleskiclub.wordpress.com/"
+    "website": "http://pinnacleskiclub.wordpress.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Powderhouse Hill",
@@ -250,7 +330,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3210",
-    "website": "http://www.powderhousehill.com/"
+    "website": "http://www.powderhousehill.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Quoggy Jo",
@@ -264,7 +349,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3211",
-    "website": "http://www.skiquoggyjo.org/"
+    "website": "http://www.skiquoggyjo.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Saddleback Maine",
@@ -278,7 +368,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "446",
-    "website": "http://www.saddlebackmaine.com/"
+    "website": "http://www.saddlebackmaine.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Shawnee Peak",
@@ -292,7 +387,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "456",
-    "website": "http://www.shawneepeak.com/"
+    "website": "http://www.shawneepeak.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sugarloaf",
@@ -306,7 +406,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "448",
-    "website": "http://www.sugarloaf.com"
+    "website": "http://www.sugarloaf.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sunday River",
@@ -320,7 +425,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "459",
-    "website": "http://www.sundayriver.com/"
+    "website": "http://www.sundayriver.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Titcomb Mountain",
@@ -334,7 +444,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "458",
-    "website": "http://www.titcombmountain.com/"
+    "website": "http://www.titcombmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Berkshire East Ski Resort",
@@ -347,22 +462,13 @@ var allData = [
       "lng": -72.87717791717822
     },
     "officialSkiResort": true,
-    "website": "https://berkshireeast.com/"
+    "website": "https://berkshireeast.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
-  // {
-  //   "resortName": "Blandford Ski Area",
-  //   "state": "Massachusetts",
-  //   "region": "New England",
-  //   "city": "Blandford",
-  //   "videos": [],
-  //   "position": {
-  //     "lat": 42.200658271605704,
-  //     "lng": -72.91711617348383
-  //   },
-  //   "officialSkiResort": true,
-  //   "id": "438",
-  //   "website": "https://skiblandford.com/"
-  // },
   {
     "resortName": "Blue Hills Ski Area",
     "state": "Massachusetts",
@@ -375,7 +481,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "440",
-    "website": "https://www.bluehillsboston.com/"
+    "website": "https://www.bluehillsboston.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bousquet Ski Area",
@@ -389,7 +500,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "444",
-    "website": "https://bousquetmountain.com/"
+    "website": "https://bousquetmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Butternut",
@@ -403,7 +519,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "441",
-    "website": "http://www.skibutternut.com/"
+    "website": "http://www.skibutternut.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Easton Ski Area at Eaglebrook School (private)",
@@ -417,7 +538,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2997",
-    "website": "http://www.eaglebrook.org"
+    "website": "http://www.eaglebrook.org",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Jiminy Peak",
@@ -433,7 +559,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "443",
-    "website": "http://www.jiminypeak.com"
+    "website": "http://www.jiminypeak.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Greylock Ski Club",
@@ -447,7 +578,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3225",
-    "website": "http://www.mtgreylockskiclub.com/"
+    "website": "http://www.mtgreylockskiclub.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Nashoba Valley Ski Area",
@@ -461,7 +597,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "436",
-    "website": "https://skinashoba.com/"
+    "website": "https://skinashoba.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Otis Ridge",
@@ -475,7 +616,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "434",
-    "website": "http://www.otisridge.com/"
+    "website": "http://www.otisridge.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Bradford",
@@ -489,7 +635,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "439",
-    "website": "https://skibradford.com/"
+    "website": "https://skibradford.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Ward",
@@ -503,7 +654,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "442",
-    "website": "https://www.skiward.com/"
+    "website": "https://www.skiward.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wachusett Mountain",
@@ -517,7 +673,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "437",
-    "website": "https://www.wachusett.com/"
+    "website": "https://www.wachusett.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Abenaki Ski Area",
@@ -531,7 +692,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4091",
-    "website": "http://www.wolfeboronh.us/abenaki-ski-area"
+    "website": "http://www.wolfeboronh.us/abenaki-ski-area",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Arrowhead",
@@ -545,7 +711,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "15010",
-    "website": "https://www.beavercreek.com/"
+    "website": "https://www.beavercreek.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Attitash",
@@ -559,7 +730,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "349",
-    "website": "https://www.attitash.com/"
+    "website": "https://www.attitash.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Black Mountain",
@@ -573,7 +749,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "454",
-    "website": "http://www.skiblackmountain.org/"
+    "website": "http://www.skiblackmountain.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bretton Woods",
@@ -587,7 +768,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "346",
-    "website": "https://www.brettonwoods.com/"
+    "website": "https://www.brettonwoods.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cannon Mountain",
@@ -601,7 +787,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "347",
-    "website": "http://www.cannonmt.com/"
+    "website": "http://www.cannonmt.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Campton Mountain",
@@ -615,7 +806,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3044",
-    "website": "https://www.camptonmountain.com/"
+    "website": "https://www.camptonmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cranmore Mountain Resort",
@@ -629,7 +825,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "344",
-    "website": "http://www.cranmore.com/"
+    "website": "http://www.cranmore.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Crotched Mountain",
@@ -643,7 +844,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "343",
-    "website": "https://www.crotchedmtn.com/"
+    "website": "https://www.crotchedmtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Dartmouth Skiway",
@@ -657,7 +863,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "345",
-    "website": "https://sites.dartmouth.edu/skiway/"
+    "website": "https://sites.dartmouth.edu/skiway/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Franklin Veterans Memorial Recreation Area",
@@ -671,7 +882,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4092",
-    "website": "http://www.franklinoutingclub.org/vmra.html"
+    "website": "http://www.franklinoutingclub.org/vmra.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Granite Gorge",
@@ -685,7 +901,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1076",
-    "website": "http://www.granitegorge.com/"
+    "website": "http://www.granitegorge.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Gunstock Mountain Resort",
@@ -699,7 +920,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": 342,
-    "website": "https://www.gunstock.com/"
+    "website": "https://www.gunstock.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Kanc Rec Area",
@@ -713,7 +939,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "13097",
-    "website": "https://www.lincolnnh.org/recreation"
+    "website": "https://www.lincolnnh.org/recreation",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "King Pine",
@@ -727,7 +958,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "354",
-    "website": "https://www.kingpine.com/"
+    "website": "https://www.kingpine.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Loon Mountain",
@@ -741,7 +977,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "352",
-    "website": "https://www.loonmtn.com/"
+    "website": "https://www.loonmtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "McIntyre Ski Area",
@@ -755,7 +996,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3012",
-    "website": "http://mcintyreskiarea.com/"
+    "website": "http://mcintyreskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Eustis - Littleton",
@@ -769,7 +1015,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2686",
-    "website": "http://www.mteustis.org"
+    "website": "http://www.mteustis.org",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Prospect",
@@ -783,7 +1034,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3224",
-    "website": "http://www.skiprospect.com/"
+    "website": "http://www.skiprospect.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Sunapee Resort",
@@ -797,7 +1053,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "357",
-    "website": "https://www.mountsunapee.com/"
+    "website": "https://www.mountsunapee.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pats Peak",
@@ -811,7 +1072,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "355",
-    "website": "https://www.patspeak.com/"
+    "website": "https://www.patspeak.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ragged Mountain",
@@ -825,7 +1091,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "351",
-    "website": "https://raggedmountainresort.com/"
+    "website": "https://raggedmountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Red Hill Ski Club",
@@ -839,7 +1110,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4158",
-    "website": "http://www.redhillskiclub.org/"
+    "website": "http://www.redhillskiclub.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Storrs Hill",
@@ -853,7 +1129,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4118",
-    "website": "http://www.storrshill.com"
+    "website": "http://www.storrshill.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Tenney Mountain Ski Resort",
@@ -867,7 +1148,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1077",
-    "website": "https://www.skitenney.com/"
+    "website": "https://www.skitenney.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "The Balsams Wilderness",
@@ -881,7 +1167,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "350",
-    "website": "https://thebalsamsresort.com/vision/ski-expansion/"
+    "website": "https://thebalsamsresort.com/vision/ski-expansion/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Waterville Valley Resort",
@@ -895,7 +1186,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "353",
-    "website": "https://www.waterville.com/"
+    "website": "https://www.waterville.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Whaleback",
@@ -909,7 +1205,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3043",
-    "website": "http://whalebacknordic.com/"
+    "website": "http://whalebacknordic.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wildcat Mountain",
@@ -923,7 +1224,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "356",
-    "website": "https://www.skiwildcat.com/"
+    "website": "https://www.skiwildcat.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Yawgoo Valley",
@@ -937,7 +1243,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "236",
-    "website": "http://www.yawgoo.com"
+    "website": "http://www.yawgoo.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bellows Falls Ski Tow",
@@ -951,7 +1262,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "13027",
-    "website": "https://www.facebook.com/Bellows-Falls-Rope-tow-191875957504078/"
+    "website": "https://www.facebook.com/Bellows-Falls-Rope-tow-191875957504078/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bolton Valley Resort",
@@ -965,7 +1281,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "216",
-    "website": "http://www.boltonvalley.com"
+    "website": "http://www.boltonvalley.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bromley Mountain",
@@ -981,7 +1302,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "217",
-    "website": "https://www.bromley.com/"
+    "website": "https://www.bromley.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Burke Mountain",
@@ -995,7 +1321,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2247",
-    "website": "https://skiburke.com/"
+    "website": "https://skiburke.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cochran's Ski Area",
@@ -1009,7 +1340,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "207",
-    "website": "http://www.cochranskiarea.org/"
+    "website": "http://www.cochranskiarea.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Harrington Hill",
@@ -1022,7 +1358,12 @@ var allData = [
       "lng": -72.36656731411041
     },
     "officialSkiResort": true,
-    "website": "https://www.newenglandskihistory.com/maps/mapsbyarea.php?filename=harringtonhill&state=vt"
+    "website": "https://www.newenglandskihistory.com/maps/mapsbyarea.php?filename=harringtonhill&state=vt",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hard 'Ack",
@@ -1036,7 +1377,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "12835",
-    "website": "https://www.facebook.com/HardAckInc/"
+    "website": "https://www.facebook.com/HardAckInc/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Haystack",
@@ -1050,7 +1396,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2133",
-    "website": "http://hermitageclub.com"
+    "website": "http://hermitageclub.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Jay Peak Resort",
@@ -1064,7 +1415,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "202",
-    "website": "http://jaypeakresort.com/"
+    "website": "http://jaypeakresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Killington Ski Resort",
@@ -1080,7 +1436,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "211",
-    "website": "http://www.killington.com"
+    "website": "http://www.killington.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Dark Park at Darkside Snowboard Shop",
@@ -1095,7 +1456,12 @@ var allData = [
       "lng": -72.7896801091444
     },
     "officialSkiResort": false,
-    "website": "http://darksidesnowboards.com/"
+    "website": "http://darksidesnowboards.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Living Memorial Park",
@@ -1109,7 +1475,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4101",
-    "website": "http://www.vtsnowsports.org/"
+    "website": "http://www.vtsnowsports.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Lyndon Outing Club",
@@ -1123,7 +1494,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3962",
-    "website": "http://www.skilyndon.com/"
+    "website": "http://www.skilyndon.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mad River Glen",
@@ -1138,7 +1514,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "200",
-    "website": "http://www.madriverglen.com"
+    "website": "http://www.madriverglen.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Magic Mountain",
@@ -1152,7 +1533,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14790",
-    "website": "https://magicmtn.com/"
+    "website": "https://magicmtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Middlebury College Snow Bowl",
@@ -1166,7 +1552,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2907",
-    "website": "https://www.middleburysnowbowl.com/"
+    "website": "https://www.middleburysnowbowl.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Snow",
@@ -1183,11 +1574,14 @@ var allData = [
       "lat": 42.969241583262686,
       "lng": -72.89617860130123
     },
-    "resortReviewScore": "56",
-    "resortReviewLink": "SvYeSrOyf_c",
     "officialSkiResort": true,
     "id": "210",
-    "website": "http://mountsnow.com/"
+    "website": "http://mountsnow.com/",
+    "resortReview": {
+      "score": 56,
+      "link": "SvYeSrOyf_c",
+      "note": ""
+    }
   },
   {
     "resortName": "Northeast Slopes",
@@ -1201,7 +1595,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4159",
-    "website": "http://www.northeastslopes.org/"
+    "website": "http://www.northeastslopes.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Okemo Mountain",
@@ -1215,7 +1614,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "204",
-    "website": "http://okemo.com"
+    "website": "http://okemo.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pico Mountain",
@@ -1229,7 +1633,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1091",
-    "website": "https://www.picomountain.com/"
+    "website": "https://www.picomountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Plymouth Notch",
@@ -1243,7 +1652,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1090",
-    "website": "http://www.skithenotch.com/"
+    "website": "http://www.skithenotch.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Quechee Lakes Ski Area",
@@ -1257,7 +1671,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "215",
-    "website": "http://www.quecheeclub.com/"
+    "website": "http://www.quecheeclub.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Smugglers' Notch",
@@ -1271,7 +1690,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "209",
-    "website": "http://www.smuggs.com/"
+    "website": "http://www.smuggs.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Stowe Mountain Resort",
@@ -1285,7 +1709,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "212",
-    "website": "http://www.stowe.com"
+    "website": "http://www.stowe.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Stratton Mountain Resort",
@@ -1299,7 +1728,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "213",
-    "website": "https://www.stratton.com/"
+    "website": "https://www.stratton.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sugarbush Resort",
@@ -1313,7 +1747,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "205",
-    "website": "https://www.sugarbush.com/"
+    "website": "https://www.sugarbush.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Suicide Six",
@@ -1327,7 +1766,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "203",
-    "website": "https://www.woodstockinn.com/ski-area"
+    "website": "https://www.woodstockinn.com/ski-area",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wisp Ski Resort",
@@ -1341,7 +1785,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "445",
-    "website": "https://www.wispresort.com/"
+    "website": "https://www.wispresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Snow American Dream",
@@ -1362,11 +1811,14 @@ var allData = [
       "lat": 40.80972110512825,
       "lng": -74.07089431436135
     },
-    "resortReviewScore": "47",
-    "resortReviewLink": "gpsfxa1XqPc",
     "officialSkiResort": true,
     "id": "2658",
-    "website": "https://www.bigsnowamericandream.com/"
+    "website": "https://www.bigsnowamericandream.com/",
+    "resortReview": {
+      "score": 47,
+      "link": "gpsfxa1XqPc",
+      "note": ""
+    }
   },
   {
     "resortName": "Campgaw Mountain",
@@ -1382,7 +1834,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "340",
-    "website": "https://www.skicampgaw.com/"
+    "website": "https://www.skicampgaw.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hidden Valley",
@@ -1396,7 +1853,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5231",
-    "website": "http://www.doublehranch.org/"
+    "website": "http://www.doublehranch.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mountain Creek",
@@ -1410,7 +1872,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "339",
-    "website": "http://www.mountaincreek.com"
+    "website": "http://www.mountaincreek.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Beartown Ski Area",
@@ -1424,7 +1891,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14913",
-    "website": "https://www.newenglandskihistory.com/Massachusetts/beartownmtn.php"
+    "website": "https://www.newenglandskihistory.com/Massachusetts/beartownmtn.php",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Belleayre Ski Center",
@@ -1440,7 +1912,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "324",
-    "website": "http://www.belleayre.com/"
+    "website": "http://www.belleayre.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Tupper Ski Area",
@@ -1454,7 +1931,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2779",
-    "website": "http://skibigtupper.org/"
+    "website": "http://skibigtupper.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Brantling Ski Slopes",
@@ -1468,7 +1950,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "309",
-    "website": "http://www.brantling.com/"
+    "website": "http://www.brantling.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bristol Mountain Ski Resort",
@@ -1482,7 +1969,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "313",
-    "website": "http://www.bristolmountain.com/"
+    "website": "http://www.bristolmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Buffalo Ski Club",
@@ -1496,7 +1988,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3228",
-    "website": "http://www.bscskiarea.com/"
+    "website": "http://www.bscskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Catamount Ski Area",
@@ -1510,7 +2007,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "323",
-    "website": "http://www.catamountski.com/"
+    "website": "http://www.catamountski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Dry Hill Ski Area",
@@ -1524,7 +2026,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "304",
-    "website": "http://skidryhill.com"
+    "website": "http://skidryhill.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Gore Mountain",
@@ -1540,7 +2047,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "320",
-    "website": "http://www.goremountain.com"
+    "website": "http://www.goremountain.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Greek Peak",
@@ -1554,7 +2066,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "297",
-    "website": "http://www.greekpeak.net/"
+    "website": "http://www.greekpeak.net/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hickory Ski Center",
@@ -1568,7 +2085,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "298",
-    "website": "http://www.hickoryskicenter.com/"
+    "website": "http://www.hickoryskicenter.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Holiday Valley",
@@ -1582,7 +2104,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "318",
-    "website": "http://www.holidayvalley.com/"
+    "website": "http://www.holidayvalley.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Holiday Mountain Ski & Fun",
@@ -1596,7 +2123,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "311",
-    "website": "https://holidaymtn.com/"
+    "website": "https://holidaymtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Holimont",
@@ -1610,7 +2142,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "312",
-    "website": "https://holimont.com"
+    "website": "https://holimont.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hunter Mountain",
@@ -1626,7 +2163,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "315",
-    "website": "http://www.huntermtn.com/"
+    "website": "http://www.huntermtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Kissing Bridge",
@@ -1640,7 +2182,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "292",
-    "website": "https://www.kbski.com/"
+    "website": "https://www.kbski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Labrador Mountain",
@@ -1654,7 +2201,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "306",
-    "website": "https://www.skicny.com/labrador/"
+    "website": "https://www.skicny.com/labrador/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Peter Ski Area",
@@ -1668,7 +2220,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "307",
-    "website": "http://mtpeter.com/"
+    "website": "http://mtpeter.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "McCauley Mountain",
@@ -1682,7 +2239,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "328",
-    "website": "http://www.mccauleyny.com/"
+    "website": "http://www.mccauleyny.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Oak Mountain",
@@ -1696,7 +2258,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "294",
-    "website": "http://oakmountainski.com/oak/"
+    "website": "http://oakmountainski.com/oak/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Plattekill Mountain",
@@ -1710,7 +2277,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "",
-    "website": "https://www.plattekill.com/"
+    "website": "https://www.plattekill.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Royal Mountain",
@@ -1724,7 +2296,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "291",
-    "website": "https://www.royalmountain.com/"
+    "website": "https://www.royalmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Song Mountain Resort",
@@ -1738,7 +2315,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "308",
-    "website": "https://www.skicny.com/song/"
+    "website": "https://www.skicny.com/song/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snow Ridge Ski Resort",
@@ -1752,7 +2334,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "312",
-    "website": "https://snowridge.com"
+    "website": "https://snowridge.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Swain",
@@ -1766,7 +2353,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "310",
-    "website": "http://www.swain.com/"
+    "website": "http://www.swain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sugar Hill",
@@ -1780,7 +2372,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "",
-    "website": "https://www.dec.ny.gov/lands/37446.html"
+    "website": "https://www.dec.ny.gov/lands/37446.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Thunder Ridge Ski Area",
@@ -1794,7 +2391,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "300",
-    "website": "https://thunderridgeski.com/"
+    "website": "https://thunderridgeski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Titus Mountain",
@@ -1808,7 +2410,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "316",
-    "website": "https://www.titusmountain.com/"
+    "website": "https://www.titusmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Toggenburg Mountain",
@@ -1820,9 +2427,14 @@ var allData = [
       "lat": 42.8269876850396,
       "lng": -75.96028862099682
     },
-    "officialSkiResort": true,     
+    "officialSkiResort": true,
     "id": "305",
-    "website": "https://www.skitog.com/"  
+    "website": "https://www.skitog.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "West Mountain",
@@ -1838,7 +2450,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "317",
-    "website": "https://westmountain.com/"
+    "website": "https://westmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Willard Mountain",
@@ -1852,7 +2469,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "326",
-    "website": "http://www.willardmountain.com/"
+    "website": "http://www.willardmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Whiteface Mountain",
@@ -1868,7 +2490,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "295",
-    "website": "http://www.whiteface.com"
+    "website": "http://www.whiteface.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Windham Mountain",
@@ -1884,7 +2511,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "330",
-    "website": "https://www.windhammountain.com/"
+    "website": "https://www.windhammountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Woods Valley Ski Resort",
@@ -1896,9 +2528,14 @@ var allData = [
       "lat": 43.303541134858555,
       "lng": -75.38493309012867
     },
-    "officialSkiResort": true,     
-    "id": "327",     
-    "website": "http://www.woodsvalleyskiarea.com/"  
+    "officialSkiResort": true,
+    "id": "327",
+    "website": "http://www.woodsvalleyskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Peek'n Peak Resort",
@@ -1910,9 +2547,14 @@ var allData = [
       "lat": 42.06263637525066,
       "lng": -79.73562846528858
     },
-    "officialSkiResort": true,     
-    "id": "302",     
-    "website": "http://www.pknpk.com/"  
+    "officialSkiResort": true,
+    "id": "302",
+    "website": "http://www.pknpk.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Victor Constant Ski Area",
@@ -1924,9 +2566,14 @@ var allData = [
       "lat": 41.39560173530888,
       "lng": -73.98356132208971
     },
-    "officialSkiResort": true,     
-    "id": "5003",     
-    "website": "https://westpoint.armymwr.com/programs/victor-constant-ski-area"  
+    "officialSkiResort": true,
+    "id": "5003",
+    "website": "https://westpoint.armymwr.com/programs/victor-constant-ski-area",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bear Creek Mountain Resort",
@@ -1938,9 +2585,14 @@ var allData = [
       "lat": 40.47995733199577,
       "lng": -75.6217672991399
     },
-    "officialSkiResort": true,     
-    "id": "256",     
-    "website": "https://www.bcmountainresort.com/"  
+    "officialSkiResort": true,
+    "id": "256",
+    "website": "https://www.bcmountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Blue Knob All Seasons Resort",
@@ -1954,7 +2606,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/"
+    "website": "https://www.aalski.no/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Blue Mountain Ski Area",
@@ -1968,7 +2625,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4685",
-    "website": "https://www.skibluemt.com/"
+    "website": "https://www.skibluemt.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Boyce Park",
@@ -1982,7 +2644,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4110",
-    "website": "https://alleghenycounty.us/special-events/boyce-park-skiing---snow-tubing.aspx"
+    "website": "https://alleghenycounty.us/special-events/boyce-park-skiing---snow-tubing.aspx",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Camelback Ski Area",
@@ -1996,7 +2663,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "238",
-    "website": "https://www.camelbackresort.com/ski-tube/poconos-ski-resorts/"
+    "website": "https://www.camelbackresort.com/ski-tube/poconos-ski-resorts/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Eagle Rock Resort",
@@ -2010,7 +2682,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4699",
-    "website": "https://ddresorts.com/eagle-rock/on-property/snow-sports/"
+    "website": "https://ddresorts.com/eagle-rock/on-property/snow-sports/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Elk Mountain",
@@ -2024,7 +2701,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "251",
-    "website": "http://www.elkskier.com/"
+    "website": "http://www.elkskier.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hidden Valley Four Seasons Resort",
@@ -2038,7 +2720,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5025",
-    "website": "http://www.hiddenvalleyresort.com/"
+    "website": "http://www.hiddenvalleyresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Jack Frost Big Boulder",
@@ -2052,7 +2739,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "13603",
-    "website": "http://www.jfbb.com"
+    "website": "http://www.jfbb.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Laurel Mountain Ski Resort",
@@ -2066,7 +2758,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4114",
-    "website": "http://www.skilaurelmountain.com/"
+    "website": "http://www.skilaurelmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Liberty Mountain Resort",
@@ -2080,7 +2777,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "243",
-    "website": "https://www.libertymountainresort.com/"
+    "website": "https://www.libertymountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mountain View at Edinboro",
@@ -2094,7 +2796,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "122",
-    "website": "http://www.mountainviewmidland.com/"
+    "website": "http://www.mountainviewmidland.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Seven Springs Mountain Resort",
@@ -2108,7 +2815,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "240",
-    "website": "https://www.7springs.com/"
+    "website": "https://www.7springs.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Shawnee Mountain Ski Area",
@@ -2122,7 +2834,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "246",
-    "website": "https://www.shawneemt.com/"
+    "website": "https://www.shawneemt.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Big Bear",
@@ -2136,7 +2853,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "15259",
-    "website": "http://ski-bigbear.com/"
+    "website": "http://ski-bigbear.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Denton",
@@ -2150,7 +2872,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "244",
-    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/DentonHillStatePark/Pages/Skiing.aspx"
+    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/DentonHillStatePark/Pages/Skiing.aspx",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Roundtop",
@@ -2164,7 +2891,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "242",
-    "website": "https://www.skiroundtop.com/"
+    "website": "https://www.skiroundtop.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Spring Mountain",
@@ -2178,7 +2910,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "261",
-    "website": "https://springmountainadventures.com/"
+    "website": "https://springmountainadventures.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Sawmill",
@@ -2192,7 +2929,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "262",
-    "website": "http://skisawmill.com/"
+    "website": "http://skisawmill.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Montage Mountain Ski Resort",
@@ -2206,7 +2948,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "248",
-    "website": "http://montagemountainresorts.com/"
+    "website": "http://montagemountainresorts.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Tussey Mountain Ski Area",
@@ -2220,7 +2967,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "257",
-    "website": "https://www.tusseymountain.com/"
+    "website": "https://www.tusseymountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Whitetail Ski Resort",
@@ -2234,7 +2986,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "260",
-    "website": "https://www.tusseymountain.com/"
+    "website": "https://www.tusseymountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cloudmont Ski & Golf Resort",
@@ -2246,9 +3003,14 @@ var allData = [
       "lat": 34.53616855817681,
       "lng": -85.60297698579936
     },
-    "officialSkiResort": true,     
-    "id": "276",     
-    "website": "https://www.cloudmont.com/"  
+    "officialSkiResort": true,
+    "id": "276",
+    "website": "https://www.cloudmont.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Appalachian Ski Mountain",
@@ -2264,7 +3026,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4637",
-    "website": "https://www.appskimtn.com/"
+    "website": "https://www.appskimtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cataloochee Ski Area",
@@ -2278,7 +3045,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "288",
-    "website": "http://cataloochee.com/index-home.php"
+    "website": "http://cataloochee.com/index-home.php",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sapphire Valley",
@@ -2292,7 +3064,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "284",
-    "website": "http://www.sapphirevalley.com/Sapphire_Ski_Area.php"
+    "website": "http://www.sapphirevalley.com/Sapphire_Ski_Area.php",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Beech Mountain Resort",
@@ -2307,11 +3084,14 @@ var allData = [
       "lat": 36.195625208901824,
       "lng": -81.87785788527373
     },
-    "officialSkiResort": true,    
-    "resortReviewScore": "56",
-    "resortReviewLink": "8zvrlaf4Utg",
-    "id": "287",     
-    "website": "https://www.beechmountainresort.com/"
+    "officialSkiResort": true,
+    "id": "287",
+    "website": "https://www.beechmountainresort.com/",
+    "resortReview": {
+      "score": 56,
+      "link": "8zvrlaf4Utg",
+      "note": ""
+    }
   },
   {
     "resortName": "Sugar Mountain",
@@ -2327,7 +3107,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "290",
-    "website": "http://skisugar.com/trailmap/"
+    "website": "http://skisugar.com/trailmap/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wolf Ridge",
@@ -2341,7 +3126,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "289",
-    "website": "https://skiwolfridgenc.com/"
+    "website": "https://skiwolfridgenc.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ober Gatlinburg",
@@ -2355,7 +3145,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "232",
-    "website": "https://obergatlinburg.com/"
+    "website": "https://obergatlinburg.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bryce Resort",
@@ -2369,7 +3164,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "196",
-    "website": "http://www.bryceresort.com/Home.aspx"
+    "website": "http://www.bryceresort.com/Home.aspx",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Massanutten Ski Resort",
@@ -2381,9 +3181,14 @@ var allData = [
       "lat": 38.40361364690672,
       "lng": -78.75475907320906
     },
-    "officialSkiResort": true,     
-    "id": "197",     
-    "website": "https://www.massresort.com/"  
+    "officialSkiResort": true,
+    "id": "197",
+    "website": "https://www.massresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "The Homestead",
@@ -2397,7 +3202,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "",
-    "website": ""
+    "website": "",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wintergreen Resort",
@@ -2411,7 +3221,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4694",
-    "website": "https://www.wintergreenresort.com/"
+    "website": "https://www.wintergreenresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Liberty Snowflex",
@@ -2431,9 +3246,14 @@ var allData = [
       "lat": 37.352932264382524,
       "lng": -79.16673525951036
     },
-    "officialSkiResort": true,     
-    "id": "3413",     
-    "website": "https://www.liberty.edu/campusrec/snowflex/"  
+    "officialSkiResort": true,
+    "id": "3413",
+    "website": "https://www.liberty.edu/campusrec/snowflex/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Canaan Valley Resort",
@@ -2447,7 +3267,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "180",
-    "website": "http://www.canaanresort.com/winter/"
+    "website": "http://www.canaanresort.com/winter/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Oglebay Resort",
@@ -2459,9 +3284,14 @@ var allData = [
       "lat": 40.105860190453946,
       "lng": -80.65872672065514
     },
-    "officialSkiResort": true,     
-    "id": "3267",     
-    "website": "http://ski.oglebay-resort.com/index.cfm"  
+    "officialSkiResort": true,
+    "id": "3267",
+    "website": "http://ski.oglebay-resort.com/index.cfm",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snowshoe Mountain",
@@ -2475,7 +3305,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "181",
-    "website": "http://www.snowshoemtn.com/"
+    "website": "http://www.snowshoemtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Timberline Four Seasons Resort",
@@ -2489,7 +3324,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5019",
-    "website": "https://timberlinemountain.com/"
+    "website": "https://timberlinemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Winterplace",
@@ -2503,7 +3343,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "182",
-    "website": "https://www.winterplace.com/"
+    "website": "https://www.winterplace.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Chestnut Mountain Resort",
@@ -2517,7 +3362,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "471",
-    "website": "https://www.chestnutmtn.com/"
+    "website": "https://www.chestnutmtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Four Lakes",
@@ -2529,9 +3379,14 @@ var allData = [
       "lat": 41.78319919365947,
       "lng": -88.08364236002583
     },
-    "officialSkiResort": true,     
-    "id": "472",     
-    "website": "https://www.fourlakessnowsports.com/"  
+    "officialSkiResort": true,
+    "id": "472",
+    "website": "https://www.fourlakessnowsports.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Raging Buffalo Snowboard Park",
@@ -2545,7 +3400,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "475",
-    "website": "http://www.ragingbuffalo.com/"
+    "website": "http://www.ragingbuffalo.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Snowstar",
@@ -2559,7 +3419,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "473",
-    "website": "http://www.skisnowstar.com"
+    "website": "http://www.skisnowstar.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Villa Olivia",
@@ -2573,7 +3438,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "474",
-    "website": "http://www.villaolivia.com/"
+    "website": "http://www.villaolivia.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Paoli Peaks",
@@ -2587,7 +3457,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "468",
-    "website": "http://www.paolipeaks.com/"
+    "website": "http://www.paolipeaks.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Perfect North Slopes",
@@ -2601,7 +3476,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "470",
-    "website": "http://www.perfectnorth.com/"
+    "website": "http://www.perfectnorth.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. Crescent Ski Area",
@@ -2615,7 +3495,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "463",
-    "website": "https://www.skicrescent.com/"
+    "website": "https://www.skicrescent.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Seven Oaks Snow Ski Area",
@@ -2627,9 +3512,14 @@ var allData = [
       "lat": 42.03162279152231,
       "lng": -93.95380978266793
     },
-    "officialSkiResort": true,     
-    "id": "465",     
-    "website": "https://sevenoaksrec.com/"  
+    "officialSkiResort": true,
+    "id": "465",
+    "website": "https://sevenoaksrec.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sleepy Hollow Sports Park",
@@ -2643,7 +3533,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "464",
-    "website": "https://sleepyhollowevents.com/"
+    "website": "https://sleepyhollowevents.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sundown Mountain",
@@ -2657,7 +3552,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "466",
-    "website": "https://www.sundownmtn.com/"
+    "website": "https://www.sundownmtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Al Quaal Recreation Ski Area",
@@ -2671,7 +3571,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/"
+    "website": "https://www.aalski.no/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alpine Valley",
@@ -2685,7 +3590,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "415",
-    "website": "https://skialpinevalley.com/"
+    "website": "https://skialpinevalley.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Apple Mountain Ski Resort",
@@ -2699,7 +3609,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "412",
-    "website": "http://applemountain.com/"
+    "website": "http://applemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Powderhorn Ski Area",
@@ -2711,9 +3626,14 @@ var allData = [
       "lat": 46.51033317645471,
       "lng": -90.09424565815416
     },
-    "officialSkiResort": true,     
-    "id": "420",     
-    "website": "https://bigpowderhorn.net/"  
+    "officialSkiResort": true,
+    "id": "420",
+    "website": "https://bigpowderhorn.net/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bittersweet Ski Resort",
@@ -2725,9 +3645,14 @@ var allData = [
       "lat": 42.46788677653153,
       "lng": -85.75871902908267
     },
-    "officialSkiResort": true,     
-    "id": "400",     
-    "website": "https://www.skibittersweet.com/"  
+    "officialSkiResort": true,
+    "id": "400",
+    "website": "https://www.skibittersweet.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Blackjack Ski Resort",
@@ -2741,7 +3666,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "394",
-    "website": "https://www.bigsnow.com/"
+    "website": "https://www.bigsnow.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Boyne Highlands Resort",
@@ -2755,7 +3685,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "407",
-    "website": "http://www.boyne.com/boynehighlands"
+    "website": "http://www.boyne.com/boynehighlands",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Boyne Mountain",
@@ -2769,7 +3704,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "421",
-    "website": "https://www.boynemountain.com/"
+    "website": "https://www.boynemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Caberfae Peaks Ski & Golf Resort",
@@ -2783,7 +3723,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "404",
-    "website": "https://caberfaepeaks.com/"
+    "website": "https://caberfaepeaks.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cannonsburg Ski Area",
@@ -2797,7 +3742,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "413",
-    "website": "https://cannonsburg.com/"
+    "website": "https://cannonsburg.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Challenge Mountain",
@@ -2811,7 +3761,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3271",
-    "website": "http://cmski.org/"
+    "website": "http://cmski.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Crystal Mountain Resort & Spa",
@@ -2825,7 +3780,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "429",
-    "website": "https://www.crystalmountain.com/"
+    "website": "https://www.crystalmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Garland Resort",
@@ -2839,7 +3799,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "13026",
-    "website": "https://www.garlandusa.com/winter-activities/"
+    "website": "https://www.garlandusa.com/winter-activities/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hickory Hills Ski Area",
@@ -2853,7 +3818,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "398",
-    "website": "https://www.traversecitymi.gov/hickory_hills.asp"
+    "website": "https://www.traversecitymi.gov/hickory_hills.asp",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "The Homestead",
@@ -2867,7 +3837,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "414",
-    "website": "https://www.thehomesteadresort.com"
+    "website": "https://www.thehomesteadresort.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Indianhead Mountain Resort",
@@ -2881,7 +3856,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "422",
-    "website": "https://www.bigsnow.com/"
+    "website": "https://www.bigsnow.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Marquette Mountain",
@@ -2895,7 +3875,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "419",
-    "website": "https://marquettemountain.com/"
+    "website": "https://marquettemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mont Ripley Ski Resort",
@@ -2909,7 +3894,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "427",
-    "website": "https://www.mtu.edu/mont-ripley/"
+    "website": "https://www.mtu.edu/mont-ripley/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Bohemia",
@@ -2923,7 +3913,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "428",
-    "website": "http://www.mtbohemia.com/"
+    "website": "http://www.mtbohemia.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. Brighton Ski Resort",
@@ -2937,7 +3932,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "430",
-    "website": "https://www.mtbrighton.com/"
+    "website": "https://www.mtbrighton.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. Holiday",
@@ -2951,7 +3951,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "411",
-    "website": "http://mt-holiday.com/"
+    "website": "http://mt-holiday.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. Holly Ski and Snowboard Resort",
@@ -2963,9 +3968,14 @@ var allData = [
       "lat": 42.83136625290648,
       "lng": -83.56421822894333
     },
-    "officialSkiResort": true,     
-    "id": "431",     
-    "website": "https://skimtholly.com/"  
+    "officialSkiResort": true,
+    "id": "431",
+    "website": "https://skimtholly.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. McSauba Recreation Area",
@@ -2979,7 +3989,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "424",
-    "website": "https://www.visitcharlevoix.com/Mt-McSauba-Recreational-Area"
+    "website": "https://www.visitcharlevoix.com/Mt-McSauba-Recreational-Area",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. Zion Ski Area",
@@ -2993,7 +4008,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "396",
-    "website": "https://www.gogebic.edu/Welcome/StudentLife/mtzion.html"
+    "website": "https://www.gogebic.edu/Welcome/StudentLife/mtzion.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mulligan's Hollow Ski Bowl",
@@ -3007,7 +4027,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "395",
-    "website": "https://www.mulliganshollow.com/"
+    "website": "https://www.mulliganshollow.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Norway Mountain Ski and Snowboard Resort",
@@ -3021,7 +4046,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "410",
-    "website": "https://www.facebook.com/skinorwaymountain/"
+    "website": "https://www.facebook.com/skinorwaymountain/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Nub's Nob",
@@ -3033,9 +4063,14 @@ var allData = [
       "lat": 45.47258432044578,
       "lng": -84.9040093972135
     },
-    "officialSkiResort": true,     
-    "id": "406",     
-    "website": "http://www.nubsnob.com/"  
+    "officialSkiResort": true,
+    "id": "406",
+    "website": "http://www.nubsnob.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Otsego Club & Resort",
@@ -3049,7 +4084,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3272",
-    "website": "http://otsegoclub.com/"
+    "website": "http://otsegoclub.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Petoskey Winter Sports Park",
@@ -3061,9 +4101,14 @@ var allData = [
       "lat": 45.37689933222665,
       "lng": -84.94591696601385
     },
-    "officialSkiResort": true,     
-    "id": "",     
-    "website": "https://www.petoskey.us/winter/"  
+    "officialSkiResort": true,
+    "id": "",
+    "website": "https://www.petoskey.us/winter/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pine Knob Ski Resort",
@@ -3077,7 +4122,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "425",
-    "website": "https://www.skipineknob.com/"
+    "website": "https://www.skipineknob.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pine Mountain Resort",
@@ -3091,7 +4141,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "433",
-    "website": "https://www.pinemountainresort.com/"
+    "website": "https://www.pinemountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Porcupine Mountains",
@@ -3105,7 +4160,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "426",
-    "website": "https://porkies.ski/"
+    "website": "https://porkies.ski/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Shanty Creek Resorts",
@@ -3119,7 +4179,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "416",
-    "website": "http://www.shantycreek.com"
+    "website": "http://www.shantycreek.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Brule",
@@ -3133,7 +4198,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "399",
-    "website": "https://skibrule.com/"
+    "website": "https://skibrule.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snow Snake Ski & Golf",
@@ -3145,9 +4215,14 @@ var allData = [
       "lat": 43.95627960720074,
       "lng": -84.7940080978213
     },
-    "officialSkiResort": true,     
-    "id": "409",     
-    "website": "https://snowsnake.net///"  
+    "officialSkiResort": true,
+    "id": "409",
+    "website": "https://snowsnake.net///",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Swiss Valley Ski and Snowboard Area",
@@ -3159,9 +4234,14 @@ var allData = [
       "lat": 41.95346045143822,
       "lng": -85.8067961446197
     },
-    "officialSkiResort": true,     
-    "id": "401",    
-    "website": "http://skiswissvalley.com/"  
+    "officialSkiResort": true,
+    "id": "401",
+    "website": "http://skiswissvalley.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Timber Ridge Ski Area",
@@ -3175,7 +4255,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2173",
-    "website": "https://www.facebook.com/pg/skitimberridge/about/?tab=page_info"
+    "website": "https://www.facebook.com/pg/skitimberridge/about/?tab=page_info",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Treetops Resort",
@@ -3187,9 +4272,14 @@ var allData = [
       "lat": 45.03346873096141,
       "lng": -84.58906305136551
     },
-    "officialSkiResort": true,     
-    "id": "423",     
-    "website": "https://treetops.com/"  
+    "officialSkiResort": true,
+    "id": "423",
+    "website": "https://treetops.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Afton Alps",
@@ -3205,7 +4295,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/"
+    "website": "https://www.aalski.no/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Andes Tower Hills",
@@ -3219,7 +4314,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "391",
-    "website": "https://www.andestowerhills.com/"
+    "website": "https://www.andestowerhills.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Buck Hill",
@@ -3235,7 +4335,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5187",
-    "website": "https://buckhill.com/"
+    "website": "https://buckhill.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Buena Vista Ski Area",
@@ -3249,7 +4354,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "384",
-    "website": "https://www.bvskiarea.com/"
+    "website": "https://www.bvskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Chester Bowl Park",
@@ -3263,7 +4373,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "382",
-    "website": "http://www.chesterbowl.org/"
+    "website": "http://www.chesterbowl.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Coffee Mill Ski Area",
@@ -3277,7 +4392,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "378",
-    "website": "http://www.coffeemillski.com/"
+    "website": "http://www.coffeemillski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Detroit Mountain",
@@ -3291,7 +4411,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4463",
-    "website": "http://detroitmountain.com/"
+    "website": "http://detroitmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Giants Ridge",
@@ -3305,7 +4430,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "388",
-    "website": "http://www.giantsridge.com/"
+    "website": "http://www.giantsridge.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hyland Ski and Snowboard Area",
@@ -3322,11 +4452,14 @@ var allData = [
       "lat": 44.84426865923526,
       "lng": -93.36352519746762
     },
-    "resortReviewScore": "55",
-    "resortReviewLink": "NfBk_WQM7PM",
     "officialSkiResort": true,
     "id": "389",
-    "website": "http://hylandski.com/"
+    "website": "http://hylandski.com/",
+    "resortReview": {
+      "score": 55,
+      "link": "NfBk_WQM7PM",
+      "note": ""
+    }
   },
   {
     "resortName": "Elm Creek Winter Recreation Area",
@@ -3342,7 +4475,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5246",
-    "website": "https://www.threeriversparks.org/location/elm-creek-winter-recreation-area/"
+    "website": "https://www.threeriversparks.org/location/elm-creek-winter-recreation-area/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Lutsen Mountains",
@@ -3356,7 +4494,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "381",
-    "website": "http://www.lutsen.com"
+    "website": "http://www.lutsen.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Itasca",
@@ -3370,7 +4513,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5026",
-    "website": "http://www.mtitasca.com/"
+    "website": "http://www.mtitasca.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Kato",
@@ -3384,7 +4532,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "387",
-    "website": "Mount Kato"
+    "website": "Mount Kato",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Powder Ridge",
@@ -3398,7 +4551,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "492",
-    "website": "http://www.powderridgepark.com/"
+    "website": "http://www.powderridgepark.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Gull",
@@ -3412,7 +4570,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3031",
-    "website": "http://skigull.com/"
+    "website": "http://skigull.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Spirit Mountain",
@@ -3426,7 +4589,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "383",
-    "website": "http://www.spiritmt.com/"
+    "website": "http://www.spiritmt.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Welch Village",
@@ -3440,7 +4608,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "379",
-    "website": "http://www.welchvillage.com/"
+    "website": "http://www.welchvillage.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wild Mountain",
@@ -3456,7 +4629,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "380",
-    "website": "http://www.wildmountain.com/"
+    "website": "http://www.wildmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Canterbury Park",
@@ -3473,9 +4651,14 @@ var allData = [
       "lat": 44.79138856443794,
       "lng": -93.48308841164287
     },
-    "officialSkiResort": false,     
-    "id": "",     
-    "website": "https://www.canterburypark.com/events/extreme-horse-skijoring/"  
+    "officialSkiResort": false,
+    "id": "",
+    "website": "https://www.canterburypark.com/events/extreme-horse-skijoring/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hidden Valley Ski Area",
@@ -3489,7 +4672,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5025",
-    "website": "https://www.hiddenvalleyski.com/"
+    "website": "https://www.hiddenvalleyski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snow Creek",
@@ -3503,7 +4691,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "376",
-    "website": "http://skisnowcreek.com/"
+    "website": "http://skisnowcreek.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bottineau Winter Park",
@@ -3517,7 +4710,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "280",
-    "website": "http://skibwp.com/"
+    "website": "http://skibwp.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Frost Fire",
@@ -3531,7 +4729,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "283",
-    "website": "http://frostfireskiarea.com/"
+    "website": "http://frostfireskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Huff Hills",
@@ -3545,7 +4748,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "282",
-    "website": "https://www.huffhills.com/"
+    "website": "https://www.huffhills.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alpine Valley Ski Area",
@@ -3559,7 +4767,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "277",
-    "website": "https://www.alpinevalleyohio.com/"
+    "website": "https://www.alpinevalleyohio.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Boston Mills/Brandywine Ski Resort",
@@ -3573,7 +4786,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2987",
-    "website": "http://www.bmbw.com/"
+    "website": "http://www.bmbw.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mad River Mountain",
@@ -3587,7 +4805,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "278",
-    "website": "https://www.skimadriver.com/"
+    "website": "https://www.skimadriver.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snow Trails Ski Resort",
@@ -3601,7 +4824,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "279",
-    "website": "https://www.snowtrails.com/"
+    "website": "https://www.snowtrails.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Creek Ski Area",
@@ -3615,7 +4843,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3269",
-    "website": "http://www.bigcreekski.org/"
+    "website": "http://www.bigcreekski.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Deer Mountain",
@@ -3629,7 +4862,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "235",
-    "website": "http://skimystic.com"
+    "website": "http://skimystic.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Great Bear",
@@ -3643,7 +4881,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "234",
-    "website": "https://www.greatbearpark.com/"
+    "website": "https://www.greatbearpark.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Terry Peak",
@@ -3657,7 +4900,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "233",
-    "website": "https://terrypeak.com/"
+    "website": "https://terrypeak.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alpine Valley Resort",
@@ -3674,9 +4922,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "169",
-    "resortReviewScore": "49",
-    "resortReviewLink": "6a--suhNwak",
-    "website": "https://www.alpinevalleyresort.com/"
+    "website": "https://www.alpinevalleyresort.com/",
+    "resortReview": {
+      "score": 49,
+      "link": "6a--suhNwak",
+      "note": ""
+    }
   },
   {
     "resortName": "Ausblick Ski Club",
@@ -3690,7 +4941,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3279",
-    "website": "http://www.ausblick.org/"
+    "website": "http://www.ausblick.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Badlands Sno-Park",
@@ -3704,7 +4960,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4824",
-    "website": "https://www.badlands-snopark.com/"
+    "website": "https://www.badlands-snopark.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Book Across the Bay",
@@ -3716,9 +4977,14 @@ var allData = [
       "lat": 46.79294206602874,
       "lng": -90.89816974070875
     },
-    "officialSkiResort": true,     
-    "id": "",     
-    "website": "https://www.batb.org/"  
+    "officialSkiResort": true,
+    "id": "",
+    "website": "https://www.batb.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Blackhawk Ski Club",
@@ -3732,7 +4998,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3280",
-    "website": "http://www.blackhawkskiclub.org/"
+    "website": "http://www.blackhawkskiclub.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bruce Mound Winter Sports Area",
@@ -3744,9 +5015,14 @@ var allData = [
       "lat": 44.44626832055582,
       "lng": -90.78487605104652
     },
-    "officialSkiResort": true,     
-    "id": "164",     
-    "website": "http://clarkcountywi.org/visit-clark-county/outdoors/bruce-mound.php"  
+    "officialSkiResort": true,
+    "id": "164",
+    "website": "http://clarkcountywi.org/visit-clark-county/outdoors/bruce-mound.php",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Camp 10",
@@ -3760,7 +5036,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2990",
-    "website": "http://www.camp10skiandsnowboard.com/"
+    "website": "http://www.camp10skiandsnowboard.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cascade Mountain",
@@ -3777,7 +5058,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4791",
-    "website": "http://www.dcski.com/lostareas/viewlostprofile.php?id=8"
+    "website": "http://www.dcski.com/lostareas/viewlostprofile.php?id=8",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Christie Mountain",
@@ -3791,7 +5077,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "178",
-    "website": "https://www.christiemountain.com/"
+    "website": "https://www.christiemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Christmas Mountain Village",
@@ -3805,7 +5096,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "166",
-    "website": "https://www.christmasmountainvillage.com/"
+    "website": "https://www.christmasmountainvillage.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Crystal Ridge (The Rock Snowpark)",
@@ -3821,7 +5117,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "15253",
-    "website": "https://www.rocksnowpark.com/"
+    "website": "https://www.rocksnowpark.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Devils Head Resort",
@@ -3833,9 +5134,14 @@ var allData = [
       "lat": 43.41872021633558,
       "lng": -89.62702597184295
     },
-    "officialSkiResort": true,     
-    "id": "179",     
-    "website": "https://www.devilsheadresort.com/"  
+    "officialSkiResort": true,
+    "id": "179",
+    "website": "https://www.devilsheadresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Fox Hill Ski Area",
@@ -3849,7 +5155,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3281",
-    "website": "http://www.foxhill.org/"
+    "website": "http://www.foxhill.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Granite Peak",
@@ -3865,7 +5176,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "170",
-    "website": "https://www.skigranitepeak.com/"
+    "website": "https://www.skigranitepeak.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Heiliger Huegel Ski Club",
@@ -3879,7 +5195,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3282",
-    "website": "http://www.hhskiclub.com/"
+    "website": "http://www.hhskiclub.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Kettlebowl",
@@ -3893,7 +5214,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3285",
-    "website": "http://www.langladecounty.org/"
+    "website": "http://www.langladecounty.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Kewaunee County Winter Park Ski Hill",
@@ -3907,7 +5233,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3286",
-    "website": "https://www.visitkewauneecounty.com/explore/parks-and-trails/winter-park-recreation/"
+    "website": "https://www.visitkewauneecounty.com/explore/parks-and-trails/winter-park-recreation/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Keyes Peak",
@@ -3921,7 +5252,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "177",
-    "website": "https://www.florencecountywi.com/departments/page_18ec7c8fa753/?department=b911d343d487&subdepartment=f28c7bf9208f"
+    "website": "https://www.florencecountywi.com/departments/page_18ec7c8fa753/?department=b911d343d487&subdepartment=f28c7bf9208f",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Little Switzerland Ski Area",
@@ -3937,7 +5273,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "161",
-    "website": "http://www.littleswitz.com/"
+    "website": "http://www.littleswitz.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mont Du Lac",
@@ -3951,7 +5292,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5450",
-    "website": "http://mdlresort.com/winter/"
+    "website": "http://mdlresort.com/winter/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "The Mountain Top at Grand Geneva Resort",
@@ -3965,7 +5311,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "163",
-    "website": "https://www.grandgeneva.com/ski-snow-sports"
+    "website": "https://www.grandgeneva.com/ski-snow-sports",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. Ashwabay",
@@ -3979,7 +5330,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "168",
-    "website": "http://www.mtashwabay.org/"
+    "website": "http://www.mtashwabay.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. LaCrosse",
@@ -3993,7 +5349,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "171",
-    "website": "http://www.mtlacrosse.com/"
+    "website": "http://www.mtlacrosse.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Navarino Slopes",
@@ -4005,9 +5366,14 @@ var allData = [
       "lat": 44.61105679207712,
       "lng": -88.58547962529671
     },
-    "officialSkiResort": true,     
-    "id": "3017",     
-    "website": "http://www.skinavarino.com/"  
+    "officialSkiResort": true,
+    "id": "3017",
+    "website": "http://www.skinavarino.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Nordic Mountain",
@@ -4023,7 +5389,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "157",
-    "website": "https://www.nordicmountain.com/"
+    "website": "https://www.nordicmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Nutt Hill",
@@ -4037,7 +5408,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3287",
-    "website": "http://www.ciplywi.com/citizen-info/parks-and-recreation/nutt-hill-ski-area/"
+    "website": "http://www.ciplywi.com/citizen-info/parks-and-recreation/nutt-hill-ski-area/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Powers Bluff",
@@ -4051,7 +5427,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3288",
-    "website": "http://www.co.wood.wi.us/departments/parks/PowersBluff.aspx"
+    "website": "http://www.co.wood.wi.us/departments/parks/PowersBluff.aspx",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Standing Rocks",
@@ -4065,7 +5446,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "160",
-    "website": "https://www.co.portage.wi.us/department/parks/standing-rocks-park"
+    "website": "https://www.co.portage.wi.us/department/parks/standing-rocks-park",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sunburst Ski Area",
@@ -4082,7 +5468,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "173",
-    "website": "https://skisunburst.com/"
+    "website": "https://skisunburst.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Telemark Lodge",
@@ -4094,9 +5485,14 @@ var allData = [
       "lat": 46.19093229134234,
       "lng": -91.24765629391035
     },
-    "officialSkiResort": true,     
-    "id": "172",     
-    "website": "https://midwestweekends.com/plan_a_trip/stay/lodges_resorts/skiing_telemark_resort_cable.html"  
+    "officialSkiResort": true,
+    "id": "172",
+    "website": "https://midwestweekends.com/plan_a_trip/stay/lodges_resorts/skiing_telemark_resort_cable.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Triangle Sports Area",
@@ -4110,7 +5506,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3289",
-    "website": "http://greenbaywi.gov/parks/recreation/winter-activities-2/321-2/"
+    "website": "http://greenbaywi.gov/parks/recreation/winter-activities-2/321-2/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Trollhaugen",
@@ -4129,7 +5530,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "159",
-    "website": "https://www.trollhaugen.com/"
+    "website": "https://www.trollhaugen.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Tyrol Basin",
@@ -4145,7 +5551,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4984",
-    "website": "https://tyrolbasin.com/"
+    "website": "https://tyrolbasin.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Whitecap Mountains",
@@ -4159,7 +5570,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "158",
-    "website": "https://whitecapresort.com/"
+    "website": "https://whitecapresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Whitetail Ridge",
@@ -4173,7 +5589,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3290",
-    "website": "https://www.skiwhitetail.com/"
+    "website": "https://www.skiwhitetail.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wilmot Mountain",
@@ -4187,7 +5608,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "165",
-    "website": "https://www.wilmotmountain.com/"
+    "website": "https://www.wilmotmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Arizona Snowbowl",
@@ -4201,7 +5627,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "548",
-    "website": "http://www.arizonasnowbowl.com"
+    "website": "http://www.arizonasnowbowl.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Elk Ridge Ski Area",
@@ -4215,7 +5646,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "551",
-    "website": "http://www.elkridgeski.com/"
+    "website": "http://www.elkridgeski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Lemmon Ski Valley",
@@ -4229,7 +5665,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4528",
-    "website": "https://www.skithelemmon.com/"
+    "website": "https://www.skithelemmon.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sunrise Park Resort",
@@ -4243,7 +5684,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4061",
-    "website": "https://www.sunriseskipark.com/"
+    "website": "https://www.sunriseskipark.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Arapahoe Basin",
@@ -4431,7 +5877,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "513",
-    "website": "http://www.arapahoebasin.com"
+    "website": "http://www.arapahoebasin.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Aspen/Snowmass",
@@ -4445,7 +5896,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1033",
-    "website": "http://www.aspensnowmass.com"
+    "website": "http://www.aspensnowmass.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Aspen Highlands",
@@ -4459,7 +5915,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1032",
-    "website": "http://www.aspensnowmass.com"
+    "website": "http://www.aspensnowmass.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Aspen Mountain",
@@ -4473,7 +5934,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1031",
-    "website": "http://www.aspensnowmass.com"
+    "website": "http://www.aspensnowmass.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Buttermilk",
@@ -4487,7 +5953,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2352",
-    "website": "http://www.buttermilkresort.com/"
+    "website": "http://www.buttermilkresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Beaver Creek Resort",
@@ -4524,7 +5995,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "497",
-    "website": "https://www.beavercreek.com/"
+    "website": "https://www.beavercreek.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Breckenridge Ski Resort",
@@ -4599,7 +6075,7 @@ var allData = [
       "Rs49VAoPBiQ",
       "-3a65QpY2gs",
       "pBLw5zUElOg",
-      "L3dwxViWW7M",      
+      "L3dwxViWW7M",
       "8i-SGKmqnJs",
       "AxHBd6RJ0Ss",
       "kAMXvXoexvs",
@@ -4641,11 +6117,14 @@ var allData = [
       "lat": 39.48049884182705,
       "lng": -106.06667208881282
     },
-    "resortReviewScore": "72",
-    "resortReviewLink": "_tSdgrJk3h8",
     "officialSkiResort": true,
     "id": "510",
-    "website": "https://www.breckenridge.com/"
+    "website": "https://www.breckenridge.com/",
+    "resortReview": {
+      "score": 72,
+      "link": "_tSdgrJk3h8",
+      "note": ""
+    }
   },
   {
     "resortName": "Chapman Hill Ski Area",
@@ -4659,7 +6138,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3296",
-    "website": "http://www.durangogov.org/index.aspx?NID=544"
+    "website": "http://www.durangogov.org/index.aspx?NID=544",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Copper Mountain Resort",
@@ -4772,7 +6256,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "509",
-    "website": "http://www.coppercolorado.com"
+    "website": "http://www.coppercolorado.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cranor Ski Area",
@@ -4786,9 +6275,14 @@ var allData = [
       "lat": 38.587159592238294,
       "lng": -106.89600754424221
     },
-    "officialSkiResort": true,     
-    "id": "3297",     
-    "website": "https://www.facebook.com/Gunnison-Parks-Recreation-168602499819692/"  
+    "officialSkiResort": true,
+    "id": "3297",
+    "website": "https://www.facebook.com/Gunnison-Parks-Recreation-168602499819692/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Crested Butte Mountain Resort",
@@ -4802,7 +6296,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "514",
-    "website": "http://www.skicb.com/"
+    "website": "http://www.skicb.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Echo Mountain Resort",
@@ -4818,7 +6317,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1034",
-    "website": "https://www.echomountainresort.com/"
+    "website": "https://www.echomountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Eldora Mountain Resort",
@@ -4836,7 +6340,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "508",
-    "website": "http://www.eldora.com/"
+    "website": "http://www.eldora.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hesperus Ski Area",
@@ -4850,7 +6359,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1035",
-    "website": "http://ski-hesperus.com/"
+    "website": "http://ski-hesperus.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Howelsen Hill Ski Area",
@@ -4866,7 +6380,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "498",
-    "website": "http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area"
+    "website": "http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Kendall Mountain Ski Area",
@@ -4880,7 +6399,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "499",
-    "website": "http://www.skikendall.com/"
+    "website": "http://www.skikendall.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Keystone Resort",
@@ -5173,11 +6697,14 @@ var allData = [
       "lat": 39.60856586489557,
       "lng": -105.94363711538396
     },
-    "resortReviewLink": "28gC3Ea-imo",
-    "resortReviewScore": "69",
     "officialSkiResort": true,
     "id": "519",
-    "website": "http://www.keystone.snow.com"
+    "website": "http://www.keystone.snow.com",
+    "resortReview": {
+      "score": 69,
+      "link": "28gC3Ea-imo",
+      "note": ""
+    }
   },
   {
     "resortName": "Lake City Ski Hill",
@@ -5191,7 +6718,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3298",
-    "website": "http://www.townoflakecity.co/lake-city-ski-hill.html"
+    "website": "http://www.townoflakecity.co/lake-city-ski-hill.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Loveland Ski Area",
@@ -5219,7 +6751,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "515",
-    "website": "http://www.skiloveland.com/"
+    "website": "http://www.skiloveland.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Monarch Ski Area",
@@ -5238,22 +6775,13 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "511",
-    "website": "http://www.skimonarch.com/"
+    "website": "http://www.skimonarch.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
-  // {
-  //   "resortName": "Otter Mountain",
-  //   "state": "Colorado",
-  //   "region": "Rocky Mountains",
-  //   "city": "Georgetown",
-  //   "videos": [],
-  //   "position": {
-  //     "lat": 39.62876783506184,
-  //     "lng": -105.71198935956295
-  //   },
-  //   "officialSkiResort": true,     
-  //   "id": "",     
-  //   "website": "https://www.summitpost.org/otter-mountain/745850"  
-  // },
   {
     "resortName": "Powderhorn Resort",
     "state": "Colorado",
@@ -5266,7 +6794,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "520",
-    "website": "http://www.powderhorn.com/"
+    "website": "http://www.powderhorn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Purgatory Resort",
@@ -5278,9 +6811,14 @@ var allData = [
       "lat": 37.63276792551556,
       "lng": -107.81421306654117
     },
-    "officialSkiResort": true,     
-    "id": "518",     
-    "website": "http://www.durangomountainresort.com/"  
+    "officialSkiResort": true,
+    "id": "518",
+    "website": "http://www.durangomountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Lee's Ski Hill",
@@ -5295,9 +6833,14 @@ var allData = [
       "lat": 38.01938861057263,
       "lng": -107.66914151607332
     },
-    "officialSkiResort": true,     
-    "id": "3299",     
-    "website": "https://www.ci.ouray.co.us/city_offices/city_resources/lee_s_ski_hill.php"  
+    "officialSkiResort": true,
+    "id": "3299",
+    "website": "https://www.ci.ouray.co.us/city_offices/city_resources/lee_s_ski_hill.php",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Silverton Mountain",
@@ -5320,7 +6863,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2280",
-    "website": "http://www.silvertonmountain.com/page/home"
+    "website": "http://www.silvertonmountain.com/page/home",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Cooper",
@@ -5339,7 +6887,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "512",
-    "website": "https://www.skicooper.com/"
+    "website": "https://www.skicooper.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Granby Ranch",
@@ -5353,7 +6906,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "516",
-    "website": "http://www.granbyranch.com/"
+    "website": "http://www.granbyranch.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Steamboat Ski Resort",
@@ -5374,7 +6932,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "500",
-    "website": "http://www.steamboat.com"
+    "website": "http://www.steamboat.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sunlight Ski Area",
@@ -5386,9 +6949,14 @@ var allData = [
       "lat": 39.39993959991575,
       "lng": -107.33867887120918
     },
-    "officialSkiResort": true,    
-    "id": "506",     
-    "website": "https://sunlightmtn.com/"  
+    "officialSkiResort": true,
+    "id": "506",
+    "website": "https://sunlightmtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Telluride Ski Resort",
@@ -5406,7 +6974,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "517",
-    "website": "http://tellurideskiresort.com/"
+    "website": "http://tellurideskiresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Vail Ski Resort",
@@ -5433,7 +7006,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "507",
-    "website": "http://www.vail.snow.com"
+    "website": "http://www.vail.snow.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Winter Park Resort",
@@ -5455,7 +7033,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "503",
-    "website": "http://www.winterparkresort.com/"
+    "website": "http://www.winterparkresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Wolf Creek ski area",
@@ -5476,9 +7059,14 @@ var allData = [
       "lat": 37.47244179734956,
       "lng": -106.79304353077356
     },
-    "officialSkiResort": true,     
-    "id": "505",     
-    "website": "http://www.wolfcreekski.com/"  
+    "officialSkiResort": true,
+    "id": "505",
+    "website": "http://www.wolfcreekski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Loveland Pass",
@@ -5524,6 +7112,11 @@ var allData = [
     "position": {
       "lat": 39.664983552666754,
       "lng": -105.8787492562817
+    },
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
     }
   },
   {
@@ -5542,7 +7135,12 @@ var allData = [
     },
     "officialSkiResort": false,
     "id": "4663",
-    "website": "https://www.facebook.com/stmarysglacierco/"
+    "website": "https://www.facebook.com/stmarysglacierco/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Farm in Colorado Springs",
@@ -5558,7 +7156,12 @@ var allData = [
     },
     "officialSkiResort": false,
     "id": "",
-    "website": "https://www.visitcos.com/"
+    "website": "https://www.visitcos.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Colorado Mountain College Rail Jam",
@@ -5571,12 +7174,17 @@ var allData = [
       "c9uLVLyyBp0"
     ],
     "position": {
-      "lat": 39.23879814438246, 
+      "lat": 39.23879814438246,
       "lng": -106.30335758286941
     },
     "officialSkiResort": false,
     "id": "",
-    "website": "https://educationatelevation.com/2019/03/27/2019-cloud-city-rail-jam-results/"
+    "website": "https://educationatelevation.com/2019/03/27/2019-cloud-city-rail-jam-results/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hoosier Pass",
@@ -5592,7 +7200,12 @@ var allData = [
     },
     "officialSkiResort": false,
     "id": "14835",
-    "website": "http://www.coloradoskihistory.com/lost/hoosierpass.html"
+    "website": "http://www.coloradoskihistory.com/lost/hoosierpass.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Backyard Parks in Summit County",
@@ -5643,7 +7256,12 @@ var allData = [
       "lng": -106.09567554187014
     },
     "id": "",
-    "website": ""
+    "website": "",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ruby Hill",
@@ -5659,7 +7277,12 @@ var allData = [
       "lng": -105.00359721854255
     },
     "id": "",
-    "website": "https://www.rubyhilldenver.com/ruby-hill-park/"
+    "website": "https://www.rubyhilldenver.com/ruby-hill-park/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Frisco Adventure Park",
@@ -5679,7 +7302,12 @@ var allData = [
       "lng": -106.07759352892558
     },
     "id": "4904",
-    "website": "https://www.townoffrisco.com/play/frisco-adventure-park-winter/general-info/"
+    "website": "https://www.townoffrisco.com/play/frisco-adventure-park-winter/general-info/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Buffalo Mountain",
@@ -5693,6 +7321,11 @@ var allData = [
     "position": {
       "lat": 39.616663843391365,
       "lng": -106.14252201307508
+    },
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
     }
   },
   {
@@ -5708,6 +7341,11 @@ var allData = [
     "position": {
       "lat": 39.52935522361592,
       "lng": -106.21762991587998
+    },
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
     }
   },
   {
@@ -5722,7 +7360,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2768",
-    "website": "http://www.skibaldmountain.com/"
+    "website": "http://www.skibaldmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bogus Basin",
@@ -5740,7 +7383,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "487",
-    "website": "http://www.bogusbasin.org/"
+    "website": "http://www.bogusbasin.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Brundage Mountain",
@@ -5754,7 +7402,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "483",
-    "website": "http://www.brundage.com/"
+    "website": "http://www.brundage.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cottonwood Butte",
@@ -5768,7 +7421,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "484",
-    "website": "https://www.cottonwoodbutte.org/"
+    "website": "https://www.cottonwoodbutte.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Kelly Canyon",
@@ -5782,7 +7440,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "486",
-    "website": "http://www.skikelly.com/"
+    "website": "http://www.skikelly.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Little Ski Hill",
@@ -5796,7 +7459,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3009",
-    "website": "http://www.littleskihill.org/"
+    "website": "http://www.littleskihill.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Lookout Pass",
@@ -5810,7 +7478,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "482",
-    "website": "http://www.skilookout.com/"
+    "website": "http://www.skilookout.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Magic Mountain",
@@ -5824,7 +7497,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14790",
-    "website": "https://magicmountainresort.com/"
+    "website": "https://magicmountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pebble Creek",
@@ -5838,7 +7516,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "478",
-    "website": "http://www.pebblecreekskiarea.com/"
+    "website": "http://www.pebblecreekskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pomerelle",
@@ -5852,7 +7535,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "477",
-    "website": "http://www.pomerelle-mtn.com/"
+    "website": "http://www.pomerelle-mtn.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Rotarun",
@@ -5866,7 +7554,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3306",
-    "website": "http://rotarunskiarea.org/"
+    "website": "http://rotarunskiarea.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Schweitzer Mountain",
@@ -5880,7 +7573,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "476",
-    "website": "http://www.schweitzer.com/"
+    "website": "http://www.schweitzer.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Silver Mountain",
@@ -5894,7 +7592,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5272",
-    "website": "https://silvermt.com/"
+    "website": "https://silvermt.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snowhaven",
@@ -5908,7 +7611,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "489",
-    "website": "http://www.grangeville.us/idahocounty/snowhaven/index.htm"
+    "website": "http://www.grangeville.us/idahocounty/snowhaven/index.htm",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Soldier Mountain",
@@ -5922,7 +7630,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "485",
-    "website": "http://www.soldiermountain.com/"
+    "website": "http://www.soldiermountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sun Valley",
@@ -5936,7 +7649,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2768",
-    "website": "http://www.skibaldmountain.com/"
+    "website": "http://www.skibaldmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Tamarack",
@@ -5950,7 +7668,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5230",
-    "website": "https://tamarackidaho.com/"
+    "website": "https://tamarackidaho.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bear Paw Ski Bowl - Havre",
@@ -5964,7 +7687,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2982",
-    "website": "http://skibearpaw.com/"
+    "website": "http://skibearpaw.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Sky",
@@ -5978,7 +7706,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "361",
-    "website": "http://www.bigskyresort.com"
+    "website": "http://www.bigskyresort.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Blacktail Mountain",
@@ -5992,7 +7725,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "363",
-    "website": "https://blacktailmountain.com/"
+    "website": "https://blacktailmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bridger Bowl",
@@ -6006,7 +7744,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "375",
-    "website": "https://bridgerbowl.com/"
+    "website": "https://bridgerbowl.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Discovery",
@@ -6020,7 +7763,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "366",
-    "website": "http://www.skidiscovery.com/"
+    "website": "http://www.skidiscovery.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Great Divide",
@@ -6034,7 +7782,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "371",
-    "website": "http://www.skigd.com/"
+    "website": "http://www.skigd.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Lost Trail Powder Mountain",
@@ -6048,7 +7801,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4378",
-    "website": "http://www.losttrail.com/"
+    "website": "http://www.losttrail.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Maverick Mountain",
@@ -6062,7 +7820,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "370",
-    "website": ""
+    "website": "",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Montana Snowbowl",
@@ -6076,7 +7839,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "368",
-    "website": "https://skimaverick.com/"
+    "website": "https://skimaverick.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Moonlight Basin",
@@ -6090,7 +7858,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "373",
-    "website": "http://www.moonlightbasin.com"
+    "website": "http://www.moonlightbasin.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Red Lodge Mountain",
@@ -6104,7 +7877,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "364",
-    "website": "https://www.redlodgemountain.com/"
+    "website": "https://www.redlodgemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Showdown",
@@ -6118,7 +7896,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "365",
-    "website": "https://www.showdownmontana.com/"
+    "website": "https://www.showdownmontana.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Teton Pass",
@@ -6132,7 +7915,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "372",
-    "website": "https://www.skitetonmt.com/"
+    "website": "https://www.skitetonmt.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Turner Mountain",
@@ -6146,7 +7934,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "369",
-    "website": "https://www.skiturner.com/"
+    "website": "https://www.skiturner.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Whitefish Mountain Resort",
@@ -6160,7 +7953,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "367",
-    "website": "https://skiwhitefish.com/"
+    "website": "https://skiwhitefish.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Yellowstone Club",
@@ -6174,7 +7972,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1025",
-    "website": "http://www.theyellowstoneclub.com"
+    "website": "http://www.theyellowstoneclub.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Angel Fire Resort",
@@ -6188,7 +7991,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "331",
-    "website": "https://www.angelfireresort.com/"
+    "website": "https://www.angelfireresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pajarito Mountain",
@@ -6202,7 +8010,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "336",
-    "website": "https://www.pajarito.ski/"
+    "website": "https://www.pajarito.ski/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Red River Ski Area",
@@ -6216,7 +8029,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "333",
-    "website": "https://www.redriverskiarea.com/"
+    "website": "https://www.redriverskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sandia Peak",
@@ -6230,7 +8048,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "332",
-    "website": "https://sandiapeak.com/"
+    "website": "https://sandiapeak.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sipapu",
@@ -6244,7 +8067,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "337",
-    "website": "https://www.sipapu.ski/"
+    "website": "https://www.sipapu.ski/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Apache",
@@ -6258,7 +8086,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "334",
-    "website": "https://www.skiapache.com/"
+    "website": "https://www.skiapache.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Cloudcroft",
@@ -6272,7 +8105,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2604",
-    "website": "http://www.skicloudcroft.net/"
+    "website": "http://www.skicloudcroft.net/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Santa Fe",
@@ -6286,7 +8124,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "335",
-    "website": "http://www.skisantafe.com/"
+    "website": "http://www.skisantafe.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Taos Ski Valley",
@@ -6300,7 +8143,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4528",
-    "website": "https://www.skitaos.com/"
+    "website": "https://www.skitaos.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Aggie Ski Slope",
@@ -6314,7 +8162,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3196",
-    "website": "http://hlknweb.tamu.edu/mt-aggie"
+    "website": "http://hlknweb.tamu.edu/mt-aggie",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alta",
@@ -6329,7 +8182,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/"
+    "website": "https://www.aalski.no/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Beaver Mountain",
@@ -6343,7 +8201,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "220",
-    "website": "https://www.skithebeav.com/"
+    "website": "https://www.skithebeav.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Brian Head",
@@ -6357,7 +8220,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "227",
-    "website": "https://www.brianhead.com/"
+    "website": "https://www.brianhead.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Brighton",
@@ -6373,7 +8241,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "430",
-    "website": "https://www.skiutah.com/members/brighton"
+    "website": "https://www.skiutah.com/members/brighton",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cherry Peak Resort",
@@ -6387,7 +8260,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4337",
-    "website": "http://skicpr.com/index.html"
+    "website": "http://skicpr.com/index.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Deer Valley",
@@ -6402,7 +8280,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "223",
-    "website": "https://www.deervalley.com/"
+    "website": "https://www.deervalley.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Eagle Point Ski Resort",
@@ -6416,7 +8299,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "231",
-    "website": "http://www.skieaglepoint.com"
+    "website": "http://www.skieaglepoint.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Nordic Valley",
@@ -6430,7 +8318,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "221",
-    "website": "http://nordicvalley.com/"
+    "website": "http://nordicvalley.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Park City Mountain Resort",
@@ -6453,11 +8346,14 @@ var allData = [
       "lat": 40.653755293189285,
       "lng": -111.50955073373208
     },
-    "resortReviewScore": "74",
-    "resortReviewLink": "sq_LFhyqXbg",
     "officialSkiResort": true,
     "id": "229",
-    "website": "http://parkcitymountain.com"
+    "website": "http://parkcitymountain.com",
+    "resortReview": {
+      "score": 74,
+      "link": "sq_LFhyqXbg",
+      "note": ""
+    }
   },
   {
     "resortName": "Woodward Park City",
@@ -6473,7 +8369,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5123",
-    "website": "https://www.woodwardparkcity.com/"
+    "website": "https://www.woodwardparkcity.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Powder Mountain",
@@ -6490,7 +8391,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "374",
-    "website": "https://www.powdermountain.com/visit-powder-mountain"
+    "website": "https://www.powdermountain.com/visit-powder-mountain",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snowbasin",
@@ -6506,7 +8412,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "219",
-    "website": "http://www.snowbasin.com/"
+    "website": "http://www.snowbasin.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snowbird",
@@ -6523,7 +8434,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "226",
-    "website": "http://www.snowbird.com"
+    "website": "http://www.snowbird.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Solitude",
@@ -6539,7 +8455,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "225",
-    "website": "https://solitudemountain.com/"
+    "website": "https://solitudemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sundance",
@@ -6553,7 +8474,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "230",
-    "website": "https://www.sundanceresort.com/"
+    "website": "https://www.sundanceresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Big Horn (Meadowlark)",
@@ -6567,7 +8493,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14055",
-    "website": ""
+    "website": "",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Grand Targhee",
@@ -6581,7 +8512,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "150",
-    "website": "https://www.grandtarghee.com/"
+    "website": "https://www.grandtarghee.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hogadon",
@@ -6595,7 +8531,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "152",
-    "website": "http://hogadon.net/"
+    "website": "http://hogadon.net/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Jackson Hole",
@@ -6612,7 +8553,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "151",
-    "website": "http://www.jacksonhole.com"
+    "website": "http://www.jacksonhole.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Pine Creek",
@@ -6626,7 +8572,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1038",
-    "website": "https://www.facebook.com/PineCreekSkiResort/"
+    "website": "https://www.facebook.com/PineCreekSkiResort/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sleeping Giant Ski Resort",
@@ -6638,9 +8589,14 @@ var allData = [
       "lat": 44.49313787043031,
       "lng": -109.93947558828435
     },
-    "officialSkiResort": true,     
-    "id": "154",     
-    "website": "https://www.skisg.com/"  
+    "officialSkiResort": true,
+    "id": "154",
+    "website": "https://www.skisg.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snow King Mountain",
@@ -6652,9 +8608,14 @@ var allData = [
       "lat": 43.47301111288248,
       "lng": -110.75606748830944
     },
-    "officialSkiResort": true,     
-    "id": "325",     
-    "website": "https://snowkingmountain.com/"  
+    "officialSkiResort": true,
+    "id": "325",
+    "website": "https://snowkingmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snowy Range",
@@ -6670,7 +8631,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "155",
-    "website": "https://www.snowyrangeski.com/"
+    "website": "https://www.snowyrangeski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "White Pine",
@@ -6684,7 +8650,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "148",
-    "website": "http://www.whitepineski.com/"
+    "website": "http://www.whitepineski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Beartooth Basin",
@@ -6703,7 +8674,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4875",
-    "website": "http://beartoothbasin.com/"
+    "website": "http://beartoothbasin.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Antelope Butte",
@@ -6715,9 +8691,14 @@ var allData = [
       "lat": 44.612628480589066,
       "lng": -107.5145999035046
     },
-    "officialSkiResort": true,     
-    "id": "153",     
-    "website": "https://www.antelopebuttefoundation.org/"  
+    "officialSkiResort": true,
+    "id": "153",
+    "website": "https://www.antelopebuttefoundation.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Arctic Valley",
@@ -6731,7 +8712,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14918",
-    "website": "http://www.alsap.org/ArcticValley/ArcticValley.htm"
+    "website": "http://www.alsap.org/ArcticValley/ArcticValley.htm",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alyeska",
@@ -6745,7 +8731,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/"
+    "website": "https://www.aalski.no/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Eaglecrest",
@@ -6759,7 +8750,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "553",
-    "website": "http://www.skijuneau.com"
+    "website": "http://www.skijuneau.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hilltop",
@@ -6773,7 +8769,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "556",
-    "website": "http://www.hilltopskiarea.org/"
+    "website": "http://www.hilltopskiarea.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Majestic Heli Ski",
@@ -6787,7 +8788,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4695",
-    "website": "https://majesticheliski.com/"
+    "website": "https://majesticheliski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Moose Mountain",
@@ -6801,7 +8807,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "4936",
-    "website": "https://shredthemoose.com/"
+    "website": "https://shredthemoose.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Eyak",
@@ -6815,7 +8826,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "554",
-    "website": "https://www.mteyak.org/"
+    "website": "https://www.mteyak.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Skiland",
@@ -6829,7 +8845,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2134",
-    "website": "http://www.skiland.org"
+    "website": "http://www.skiland.org",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alpine Meadows",
@@ -6843,7 +8864,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "522",
-    "website": "https://www.squawalpine.com/explore/alpine-meadows-ski-resort"
+    "website": "https://www.squawalpine.com/explore/alpine-meadows-ski-resort",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alta Sierra",
@@ -6857,7 +8883,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/"
+    "website": "https://www.aalski.no/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Badger Pass",
@@ -6871,7 +8902,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "547",
-    "website": "http://www.travelyosemite.com/winter/yosemite-ski-snowboard-area/"
+    "website": "http://www.travelyosemite.com/winter/yosemite-ski-snowboard-area/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bear Mountain",
@@ -6888,7 +8924,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "536",
-    "website": "http://www.bearmountain.com"
+    "website": "http://www.bearmountain.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Bear Valley",
@@ -6902,7 +8943,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1767",
-    "website": "http://ww51.tiki.ne.jp/~bear-ski/index.html"
+    "website": "http://ww51.tiki.ne.jp/~bear-ski/index.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Boreal Mountain",
@@ -6916,7 +8962,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "523",
-    "website": "http://www.borealski.com"
+    "website": "http://www.borealski.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Buckhorn Ski Club",
@@ -6930,7 +8981,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2989",
-    "website": "http://www.orgsites.com/ca/buckhorn/"
+    "website": "http://www.orgsites.com/ca/buckhorn/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "China Peak",
@@ -6944,7 +9000,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "527",
-    "website": "http://www.skichinapeak.com/"
+    "website": "http://www.skichinapeak.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Dodge Ridge",
@@ -6958,7 +9019,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "533",
-    "website": "http://www.dodgeridge.com"
+    "website": "http://www.dodgeridge.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Donner Ski Ranch",
@@ -6972,7 +9038,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "542",
-    "website": "http://www.donnerskiranch.com/"
+    "website": "http://www.donnerskiranch.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Granlibakken",
@@ -6986,7 +9057,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "535",
-    "website": "http://www.granlibakken.com/"
+    "website": "http://www.granlibakken.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Heavenly Mountain",
@@ -7008,9 +9084,14 @@ var allData = [
       "lat": 38.93578766770377,
       "lng": -119.93972411256449
     },
-    "officialSkiResort": true,     
-    "id": "544",     
-    "website": "http://www.skiheavenly.com/"  
+    "officialSkiResort": true,
+    "id": "544",
+    "website": "http://www.skiheavenly.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Homewood Mountain",
@@ -7024,7 +9105,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "545",
-    "website": "http://www.skihomewood.com/"
+    "website": "http://www.skihomewood.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "June Mountain",
@@ -7038,7 +9124,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "540",
-    "website": "http://www.junemountain.com/"
+    "website": "http://www.junemountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Kirkwood Mountain",
@@ -7063,7 +9154,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "537",
-    "website": "http://www.kirkwood.com/"
+    "website": "http://www.kirkwood.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mammoth Mountain",
@@ -7076,7 +9172,7 @@ var allData = [
       "ZI7mzBa-3OE",
       "ViDxTEDjgw8",
       "cDP3gzP9eLM",
-      "bsjjcH9uR-0",
+      "bsjjcH9uR-0"
     ],
     "position": {
       "lat": 37.651960114071905,
@@ -7084,7 +9180,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "530",
-    "website": "http://www.mammothmountain.com/"
+    "website": "http://www.mammothmountain.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Baldy Ski Lifts",
@@ -7098,7 +9199,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "541",
-    "website": "http://www.mtbaldy.com/"
+    "website": "http://www.mtbaldy.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Shasta Ski Park",
@@ -7112,7 +9218,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "532",
-    "website": "http://www.skipark.com/"
+    "website": "http://www.skipark.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Waterman",
@@ -7126,7 +9237,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1029",
-    "website": "http://www.mtwaterman.org/"
+    "website": "http://www.mtwaterman.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mountain High",
@@ -7142,7 +9258,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "521",
-    "website": "http://www.mthigh.com/"
+    "website": "http://www.mthigh.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Northstar California",
@@ -7167,11 +9288,14 @@ var allData = [
       "lat": 39.27475880391958,
       "lng": -120.12112558840658
     },
-    "resortReviewScore": "62",
-    "resortReviewLink": "PXdEWAuTKEU",
     "officialSkiResort": true,
     "id": "531",
-    "website": "http://www.northstarcalifornia.com"
+    "website": "http://www.northstarcalifornia.com",
+    "resortReview": {
+      "score": 62,
+      "link": "PXdEWAuTKEU",
+      "note": ""
+    }
   },
   {
     "resortName": "Sierra at Tahoe",
@@ -7183,9 +9307,14 @@ var allData = [
       "lat": 38.80038532257699,
       "lng": -120.08036138656583
     },
-    "officialSkiResort": true,     
-    "id": "525",     
-    "website": "http://www.sierraattahoe.com/"  
+    "officialSkiResort": true,
+    "id": "525",
+    "website": "http://www.sierraattahoe.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snow Summit",
@@ -7199,7 +9328,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "546",
-    "website": "http://www.snowsummit.com/"
+    "website": "http://www.snowsummit.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Snow Valley",
@@ -7213,7 +9347,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "13023",
-    "website": "https://snow-valley.com/"
+    "website": "https://snow-valley.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Soda Springs",
@@ -7227,7 +9366,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "524",
-    "website": "http://www.skisodasprings.com"
+    "website": "http://www.skisodasprings.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Squaw Valley",
@@ -7243,7 +9387,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "538",
-    "website": "http://www.squaw.com/"
+    "website": "http://www.squaw.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sugar Bowl",
@@ -7257,7 +9406,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "543",
-    "website": "http://www.sugarbowl.com/"
+    "website": "http://www.sugarbowl.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Tahoe Donner Downhill",
@@ -7271,7 +9425,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "529",
-    "website": "http://www.tahoedonner.com/"
+    "website": "http://www.tahoedonner.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Diamond Peak",
@@ -7285,7 +9444,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "359",
-    "website": "http://www.diamondpeak.com/"
+    "website": "http://www.diamondpeak.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Las Vegas Ski and Snowboard Resort (Lee Canyon)",
@@ -7304,9 +9468,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "360",
-    "resortReviewScore": "55",
-    "resortReviewLink": "UZGgJmE1o3g",
-    "website": "http://www.leecanyonlv.com/site"
+    "website": "http://www.leecanyonlv.com/site",
+    "resortReview": {
+      "score": 55,
+      "link": "UZGgJmE1o3g",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Rose",
@@ -7320,7 +9487,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "358",
-    "website": "http://www.mtrose.com/"
+    "website": "http://www.mtrose.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sky Tavern Ski Area",
@@ -7334,7 +9506,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2260",
-    "website": "http://www.skytavern.com/"
+    "website": "http://www.skytavern.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Elko Snobowl Ski and Bike Park",
@@ -7346,9 +9523,14 @@ var allData = [
       "lat": 40.91006398366915,
       "lng": -115.852797107156
     },
-    "officialSkiResort": true,     
-    "id": "2261",     
-    "website": "https://www.facebook.com/snobowl/"  
+    "officialSkiResort": true,
+    "id": "2261",
+    "website": "https://www.facebook.com/snobowl/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Anthony Lakes",
@@ -7362,7 +9544,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "264",
-    "website": "https://anthonylakes.com/"
+    "website": "https://anthonylakes.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Cooper Spur",
@@ -7376,7 +9563,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "272",
-    "website": "http://cooperspur.com/"
+    "website": "http://cooperspur.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ferguson Ridge",
@@ -7390,7 +9582,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "265",
-    "website": "https://www.skifergi.com/"
+    "website": "https://www.skifergi.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hoodoo",
@@ -7404,7 +9601,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "268",
-    "website": "https://skihoodoo.com/"
+    "website": "https://skihoodoo.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Ashland",
@@ -7418,7 +9620,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "274",
-    "website": "https://www.mtashland.com/"
+    "website": "https://www.mtashland.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Bachelor",
@@ -7432,7 +9639,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "270",
-    "website": "https://www.mtbachelor.com/"
+    "website": "https://www.mtbachelor.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Hood Meadows",
@@ -7446,7 +9658,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "271",
-    "website": "https://www.skihood.com/"
+    "website": "https://www.skihood.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Hood Skibowl",
@@ -7458,9 +9675,14 @@ var allData = [
       "lat": 45.30439426477286,
       "lng": -121.77210270288523
     },
-    "officialSkiResort": true,     
-    "id": "263",     
-    "website": "https://www.skibowl.com/"  
+    "officialSkiResort": true,
+    "id": "263",
+    "website": "https://www.skibowl.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Spout Springs",
@@ -7474,7 +9696,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "269",
-    "website": "http://www.spoutspringsskiarea.com/"
+    "website": "http://www.spoutspringsskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Summit Ski Area",
@@ -7488,7 +9715,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "273",
-    "website": "https://summitskiarea.com/"
+    "website": "https://summitskiarea.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Timberline Lodge",
@@ -7525,10 +9757,13 @@ var allData = [
       "lng": -121.71099567291978
     },
     "officialSkiResort": true,
-    "resortReviewScore": "(Summer) 71",
-    "resortReviewLink": "2AgHpI1Tab8",
     "id": "5019",
-    "website": "https://www.timberlinelodge.com"
+    "website": "https://www.timberlinelodge.com",
+    "resortReview": {
+      "score": 71,
+      "link": "2AgHpI1Tab8",
+      "note": "This score reflects this resort in the summer."
+    }
   },
   {
     "resortName": "Warner Canyon",
@@ -7542,7 +9777,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "2279",
-    "website": "https://www.warnercanyonski.com/"
+    "website": "https://www.warnercanyonski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Willamette Pass",
@@ -7556,7 +9796,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "267",
-    "website": "http://www.willamettepass.com/"
+    "website": "http://www.willamettepass.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "49 Degrees North",
@@ -7570,7 +9815,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "195",
-    "website": "http://www.ski49n.com"
+    "website": "http://www.ski49n.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Badger Mountain",
@@ -7584,7 +9834,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "187",
-    "website": "http://www.ci.waterville.wa.us/ski%20hill.htm"
+    "website": "http://www.ci.waterville.wa.us/ski%20hill.htm",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Crystal Mountain",
@@ -7600,7 +9855,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "429",
-    "website": "https://www.crystalmountainresort.com/"
+    "website": "https://www.crystalmountainresort.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Echo Valley",
@@ -7614,7 +9874,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3322",
-    "website": "http://www.echovalley.org/"
+    "website": "http://www.echovalley.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Hurricane Ridge",
@@ -7628,7 +9893,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "1024",
-    "website": "http://hurricaneridge.com/"
+    "website": "http://hurricaneridge.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Leavenworth Ski Hill",
@@ -7642,7 +9912,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3323",
-    "website": "http://www.skileavenworth.com/"
+    "website": "http://www.skileavenworth.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Loup Loup Ski Bowl",
@@ -7656,7 +9931,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "192",
-    "website": "http://www.skitheloup.com"
+    "website": "http://www.skitheloup.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Meany Lodge",
@@ -7670,7 +9950,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3324",
-    "website": "https://www.mountaineers.org/locations-lodges/meany-lodge"
+    "website": "https://www.mountaineers.org/locations-lodges/meany-lodge",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mission Ridge",
@@ -7684,7 +9969,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "186",
-    "website": "http://www.missionridge.com"
+    "website": "http://www.missionridge.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mt. Baker",
@@ -7698,7 +9988,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "191",
-    "website": "http://www.mtbaker.us"
+    "website": "http://www.mtbaker.us",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Mount Spokane",
@@ -7712,7 +10007,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "189",
-    "website": "https://www.mtspokane.com/"
+    "website": "https://www.mtspokane.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sahalie Ski Club",
@@ -7726,7 +10026,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "3325",
-    "website": "http://www.sahalie.org/chair2/Home.aspx"
+    "website": "http://www.sahalie.org/chair2/Home.aspx",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Sitzmark Lifts",
@@ -7738,9 +10043,14 @@ var allData = [
       "lat": 48.86409802799545,
       "lng": -119.16506573049902
     },
-    "officialSkiResort": true,     
-    "id": "188",     
-    "website": "http://gositzmark.org/"  
+    "officialSkiResort": true,
+    "id": "188",
+    "website": "http://gositzmark.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Ski Bluewood",
@@ -7754,7 +10064,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "185",
-    "website": "http://www.bluewood.com"
+    "website": "http://www.bluewood.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Stevens Pass",
@@ -7768,7 +10083,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "190",
-    "website": "http://www.stevenspass.com"
+    "website": "http://www.stevenspass.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "The Summit at Snoqualmie (Summit Central, East and West)",
@@ -7784,7 +10104,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "194",
-    "website": "https://summitatsnoqualmie.com/summit-central"
+    "website": "https://summitatsnoqualmie.com/summit-central",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "Alpental",
@@ -7798,7 +10123,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "194",
-    "website": "https://summitatsnoqualmie.com/alpental"
+    "website": "https://summitatsnoqualmie.com/alpental",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "White Pass",
@@ -7812,7 +10142,12 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "184",
-    "website": "http://www.skiwhitepass.com"
+    "website": "http://www.skiwhitepass.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   },
   {
     "resortName": "McChord Skatepark",
@@ -7826,6 +10161,11 @@ var allData = [
       "lat": 47.129648041353164,
       "lng": -122.52345578183599
     },
-    "officialSkiResort": false
+    "officialSkiResort": false,
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    }
   }
 ];

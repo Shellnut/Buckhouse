@@ -126,7 +126,7 @@
             <table class="table table-hover">
                <tr>
                   <th>
-                     <a ng-click="orderByField='resortName'; reverseSort = !reverseSort">
+                     <a ng-click="myOrder('resortName'); reverseSort = !reverseSort">
                         <span>Resort Name</span> 
                         <span ng-show="orderByField == 'resortName'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
@@ -135,7 +135,7 @@
                      </a>
                   </th>
                   <th>
-                     <a ng-click="orderByField='region'; reverseSort = !reverseSort">
+                     <a ng-click="myOrder('region'); reverseSort = !reverseSort">
                         <span>Region</span> 
                         <span ng-show="orderByField == 'region'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
@@ -144,7 +144,7 @@
                      </a>
                   </th>
                   <th>
-                     <a ng-click="orderByField='state'; reverseSort = !reverseSort">
+                     <a ng-click="myOrder('state'); reverseSort = !reverseSort">
                         <span>State</span> 
                         <span ng-show="orderByField == 'state'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
@@ -153,7 +153,7 @@
                      </a>
                   </th>
                   <th>
-                     <a ng-click="orderByField='city'; reverseSort = !reverseSort">
+                     <a ng-click="myOrder('city'); reverseSort = !reverseSort">
                         <span>City</span> 
                         <span ng-show="orderByField == 'city'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
@@ -162,7 +162,7 @@
                      </a>
                   </th>
                   <th>
-                     <a ng-click="orderByField='videos.length'; reverseSort = !reverseSort">
+                     <a ng-click="myOrder('videos.length'); reverseSort = !reverseSort">
                         <span>Videos</span> 
                         <span ng-show="orderByField == 'videos.length'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
@@ -171,9 +171,9 @@
                      </a>
                   </th>
                   <th>
-                     <a ng-click="orderByField='resortReviewScore'; reverseSort = !reverseSort">
+                     <a ng-click="myOrder('resortReview.score'); reverseSort = !reverseSort">
                         <span>Score</span> 
-                        <span ng-show="orderByField == 'resortReviewScore'">
+                        <span ng-show="orderByField == 'resortReview.score'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
                            <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
                         </span>
@@ -198,10 +198,13 @@
                      </span>
                   </td>
                   <td>
-                     <span ng-show="!data.resortReviewScore">N/A</span>
-                     <span ng-show="data.resortReviewScore">
-                           <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReviewLink}}">{{data.resortReviewScore}}/100</a>
+                     <span ng-show="!data.resortReview.score">N/A</span>
+                     <span ng-show="data.resortReview.score && !data.resortReview.note">
+                           <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}">{{data.resortReview.score}}/100</a>
                      </span>
+                     <span ng-show="data.resortReview.score && data.resortReview.note">
+                        <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}" uib-tooltip="{{data.resortReview.note}}">{{data.resortReview.score}}/100*</a>
+                  </span>
                   </td>
                </tr>
             </table>
@@ -380,6 +383,30 @@
             }
          }
 
+         // Custom sort for table
+         $scope.myOrder = function(field) {
+            // Sort the resort review score by excluding the N/A's
+            if (field === 'resortReview.score' && !$scope.reverseSort) {
+               $scope.allData.map(val=> {
+                  if (!val.resortReview.score) {
+                     val.resortReview.score = 0;
+                  }
+                  return val;
+               })
+            }
+            // Reset resort review score for proper sorting
+            else {
+               $scope.allData.map(val=> {
+                  if (!val.resortReview.score) {
+                     val.resortReview.score = '';
+                  }
+                  return val;
+               })
+            }
+            // Set the order by field for the table
+            $scope.orderByField = field;
+         }
+
       }]);
 
       // Set the default view
@@ -549,8 +576,11 @@
 
         // Link to the score
         var resortReview = '';
-        if (allData[i].resortReviewScore) {
-          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allData[i].resortReviewLink}">${allData[i].resortReviewScore}/100</a></p>`;
+        if (allData[i].resortReview.score && !allData[i].resortReview.note) {
+          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allData[i].resortReview.link}">${allData[i].resortReview.score}/100</a></p>`;
+        }
+        else if (allData[i].resortReview.score && allData[i].resortReview.note) {
+          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allData[i].resortReview.link}">${allData[i].resortReview.score}/100</a>*<br/><small>*${allData[i].resortReview.note}</small></p>`;
         }
 
         // HTML popup content

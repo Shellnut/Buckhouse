@@ -2606,7 +2606,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/",
+    "website": "https://blueknob.com/resort/",
     "resortReview": {
       "score": "",
       "link": "",

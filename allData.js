@@ -2605,7 +2605,7 @@ var allData = [
       "lng": -78.54366102989
     },
     "officialSkiResort": true,
-    "id": "14439",
+    "id": "241",
     "website": "https://blueknob.com/resort/",
     "resortReview": {
       "score": "",

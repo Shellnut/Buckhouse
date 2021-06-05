@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '06/01/2021';
+var lastUpdated = '06/04/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3570,8 +3570,8 @@ var allData = [
       "lng": -87.66038546086844
     },
     "officialSkiResort": true,
-    "id": "14439",
-    "website": "https://www.aalski.no/",
+    "id": "5258",
+    "website": "https://ishpemingcity.org/departments/parks-and-recreation/al-quaal-recreation-area-2/",
     "resortReview": {
       "score": "",
       "link": "",
@@ -4294,7 +4294,7 @@ var allData = [
       "lng": -92.78835875081165
     },
     "officialSkiResort": true,
-    "id": "14439",
+    "id": "393",
     "website": "https://www.aftonalps.com/",
     "resortReview": {
       "score": "",
@@ -4532,7 +4532,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "387",
-    "website": "Mount Kato",
+    "website": "https://www.mountkato.com/",
     "resortReview": {
       "score": "",
       "link": "",
@@ -5697,6 +5697,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "jCSMoGaxA44",
       "uzyn5QnD0iM",
       "xfm7kM5jgjI",
       "LL0KYpE6eSA",
@@ -8181,7 +8182,7 @@ var allData = [
       "lng": -111.63858070186969
     },
     "officialSkiResort": true,
-    "id": "14439",
+    "id": "224",
     "website": "https://www.alta.com/",
     "resortReview": {
       "score": "",
@@ -8730,7 +8731,7 @@ var allData = [
       "lng": -149.09843629945024
     },
     "officialSkiResort": true,
-    "id": "14439",
+    "id": "552",
     "website": "https://alyeskaresort.com/skiing-riding-at-alyeska/",
     "resortReview": {
       "score": "",
@@ -8882,7 +8883,7 @@ var allData = [
       "lng": -118.56027247498899
     },
     "officialSkiResort": true,
-    "id": "14439",
+    "id": "528",
     "website": "https://www.altasierra.com/",
     "resortReview": {
       "score": "",

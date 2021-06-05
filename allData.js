@@ -4295,7 +4295,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/",
+    "website": "https://www.aftonalps.com/",
     "resortReview": {
       "score": "",
       "link": "",
@@ -8182,7 +8182,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/",
+    "website": "https://www.alta.com/",
     "resortReview": {
       "score": "",
       "link": "",
@@ -8731,7 +8731,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/",
+    "website": "https://alyeskaresort.com/skiing-riding-at-alyeska/",
     "resortReview": {
       "score": "",
       "link": "",
@@ -8883,7 +8883,7 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "14439",
-    "website": "https://www.aalski.no/",
+    "website": "https://www.altasierra.com/",
     "resortReview": {
       "score": "",
       "link": "",

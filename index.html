@@ -139,6 +139,15 @@
                      </a>
                   </th>
                   <th>
+                     <a ng-click="myOrder('skiPass'); reverseSort = !reverseSort">
+                        <span title="See ski pass website for more information.">Ski Pass</span> 
+                        <span ng-show="orderByField == 'skiPass'">
+                           <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                           <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                        </span>
+                     </a>
+                  </th>
+                  <th>
                      <a ng-click="myOrder('region'); reverseSort = !reverseSort">
                         <span>Region</span> 
                         <span ng-show="orderByField == 'region'">
@@ -190,6 +199,22 @@
                      <i ng-show="data.videos.length===0" class="fa fa-square"></i>
                      <span>{{data.resortName}}</span>
                      <!-- <span ng-show="!data.officialSkiResort">(unofficial ski resort)</span> -->
+                  </td>
+                  <td>
+                     <span ng-repeat="pass in data.skiPass track by $index">
+                        <span ng-show="pass==='Epic'">
+                           <a target="_blank" href="https://www.epicpass.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                        </span>
+                        <span ng-show="pass==='Ikon'">
+                           <a target="_blank" href="https://www.ikonpass.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                        </span>
+                        <span ng-show="pass==='Mountain Collective'">
+                           <a target="_blank" href="https://www.mountaincollective.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                        </span>
+                        <span ng-show="pass==='Powder Alliance'">
+                           <a target="_blank" href="https://www.powederalliance.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                        </span>
+                     </span>
                   </td>
                   <td>{{data.region}}</td>
                   <td>{{data.state}}</td>
@@ -595,6 +620,30 @@
           resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allData[i].resortReview.link}">${allData[i].resortReview.score}/100</a>*<br/><small>*${allData[i].resortReview.note}</small></p>`;
         }
 
+        // Link to the ski pass(es)
+        var skiPasses = '';
+        if (allData[i].skiPass.length > 0) {
+         var passes = [
+            {
+               name: 'Epic',
+               link: `<a target="_blank" href="https://www.epicpass.com">Epic</a>`
+            },
+            {
+               name: 'Ikon',
+               link: `<a target="_blank" href="https://www.ikonpass.com">Ikon</a>`
+            },
+            {
+               name: 'Mountain Collective',
+               link: `<a target="_blank" href="https://www.mountaincollective.com">Mountain Collective</a>`
+            },
+            {
+               name: 'Powder Alliance',
+               link: `<a target="_blank" href="https://www.powderalliance.com">Powder Alliance</a>`
+            }
+         ];
+         skiPasses = `<p>${(allData[i].skiPass.length>1) ? 'Ski Passes:' : 'Ski Pass:'} ${passes.filter(val => allData[i].skiPass.includes(val.name)).map(val => val.link).join(', ')}`;
+        }
+
         // HTML popup content
         var popupContent = '<div id="content">' +
                    '<div id="siteNotice">' +
@@ -602,6 +651,7 @@
                    modalTitle +
                    '<div id="bodyContent">' +
                    resortReview +
+                   skiPasses +
                    officialSkiResortWarning +
                    videoLinks +
                    '</div>' +
@@ -625,7 +675,7 @@
          
          for (i = 0; i < allData.length; ++i) {
             var resort = allData[i];
-            if(resort.resortName == clickedResortInfoArray[0] && resort.region == clickedResortInfoArray[1] && resort.city == clickedResortInfoArray[3]) {
+            if(resort.resortName == clickedResortInfoArray[0] && resort.region == clickedResortInfoArray[2] && resort.city == clickedResortInfoArray[4]) {
                
                var coords = L.latLng(resort.position.lat, resort.position.lng);
 

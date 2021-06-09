@@ -893,7 +893,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Dartmouth Skiway",
@@ -1954,7 +1954,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Mountain Creek",
@@ -2646,7 +2646,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Ikon"]
   },
   {
     "resortName": "Woods Valley Ski Resort",
@@ -2886,7 +2886,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Laurel Mountain Ski Resort",
@@ -2926,7 +2926,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Mountain View at Edinboro",
@@ -3146,7 +3146,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Cloudmont Ski & Golf Resort",
@@ -3641,7 +3641,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Perfect North Slopes",
@@ -3781,7 +3781,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Apple Mountain Ski Resort",
@@ -3881,7 +3881,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Ikon"]
   },
   {
     "resortName": "Boyne Mountain",
@@ -3901,7 +3901,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Ikon"]
   },
   {
     "resortName": "Caberfae Peaks Ski & Golf Resort",
@@ -4939,7 +4939,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Bottineau Winter Park",
@@ -5039,7 +5039,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Mad River Mountain",
@@ -5903,7 +5903,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Arizona Snowbowl",
@@ -7259,7 +7259,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Ikon"]
   },
   {
     "resortName": "Sunlight Ski Area",
@@ -7927,7 +7927,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": ["Powder Alliance"]
+    "skiPass": ["Ikon", "Powder Alliance"]
   },
   {
     "resortName": "Silver Mountain",
@@ -10097,7 +10097,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Ikon"]
   },
   {
     "resortName": "Mount Hood Meadows",
@@ -10566,7 +10566,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "The Summit at Snoqualmie (Summit Central, East and West)",

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '06/08/2021';
+var lastUpdated = '06/13/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6573,7 +6573,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Gunnison",
     "videos": [
-      "7accKVSZDbc"
+      "7accKVSZDbc",
+      "kdpqtPvSQfs"
     ],
     "position": {
       "lat": 38.587159592238294,
@@ -6583,8 +6584,8 @@ var allData = [
     "id": "3297",
     "website": "https://www.facebook.com/Gunnison-Parks-Recreation-168602499819692/",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": "31",
+      "link": "kdpqtPvSQfs",
       "note": ""
     },
     "skiPass": []
@@ -10185,6 +10186,8 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "0mhXCBZhZPI",
+      "yUi_UzzW-cE",
       "jflhB6SSGA8",
       "47uD20WbmE4",
       "xFcRhLtXm2A",

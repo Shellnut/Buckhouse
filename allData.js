@@ -6584,7 +6584,7 @@ var allData = [
     "id": "3297",
     "website": "https://www.facebook.com/Gunnison-Parks-Recreation-168602499819692/",
     "resortReview": {
-      "score": "31",
+      "score": 31,
       "link": "kdpqtPvSQfs",
       "note": ""
     },

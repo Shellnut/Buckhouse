@@ -2709,6 +2709,26 @@ var allData = [
     "skiPass": []
   },
   {
+    "resortName": "Mount Pisgah",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "city": "Saranac Lake",
+    "videos": [],
+    "position": {
+      "lat": 44.34566948981706,
+      "lng": -74.12563945229611
+    },
+    "officialSkiResort": true,
+    "id": "314",
+    "website": "https://www.saranaclake.com/alpine-skiing/mt-pisgah-recreation-center",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": []
+  },
+  {
     "resortName": "Bear Creek Mountain Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",

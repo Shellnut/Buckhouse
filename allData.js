@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '07/02/2021';
+var lastUpdated = '07/08/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4571,7 +4571,8 @@ var allData = [
     "region": "Midwest",
     "city": "Burnsville",
     "videos": [
-      "uQ4_fewP7-Q"
+      "uQ4_fewP7-Q",
+      "pPRYAx7GMfs"
     ],
     "position": {
       "lat": 44.724632484858674,
@@ -4581,8 +4582,8 @@ var allData = [
     "id": "5187",
     "website": "https://buckhill.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 51,
+      "link": "pPRYAx7GMfs",
       "note": ""
     },
     "skiPass": []
@@ -6331,6 +6332,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "Brj8ltoENhg",
+      "gKRmHV4XH_U",
       "3SjtwgbjQUU",
       "4i6YBgU2avw",
       "p2KMz3pjwzw",
@@ -7432,6 +7435,7 @@ var allData = [
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "s3fHFj5QvdM",
       "x8P1B9hncv0",
       "EnIoeo--GZ0",
       "-6bphZ0PFEg",

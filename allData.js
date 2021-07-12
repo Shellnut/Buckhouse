@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '07/08/2021';
+var lastUpdated = '07/11/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2144,7 +2144,8 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "North Creek",
     "videos": [
-      "aSBHRrFU1Og"
+      "aSBHRrFU1Og",
+      "ALt-VpjRQew"
     ],
     "position": {
       "lat": 43.67414698551106,
@@ -2154,8 +2155,8 @@ var allData = [
     "id": "320",
     "website": "http://www.goremountain.com",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 45,
+      "link": "ALt-VpjRQew",
       "note": ""
     },
     "skiPass": []
@@ -6332,6 +6333,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "IDd0xuGIciQ",
       "Brj8ltoENhg",
       "gKRmHV4XH_U",
       "3SjtwgbjQUU",

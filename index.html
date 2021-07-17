@@ -24,6 +24,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <!-- jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- Bootstrap js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <!-- Leaflet CSS -->
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
        <!-- Make sure you put this AFTER Leaflet's CSS -->
@@ -89,24 +93,40 @@
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
       <div class="container-fluid">
-         <div class="row">
-               <div class="col-sm-9">
-                  <h3>Johnathan's Ski Resort challenge</h3>
-               </div>
-               <div class="col-sm-3">
-                  <p class="pull-right icons-right">
-                     <label class="radio-inline">
-                        <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
-                        <img src="img/snowboard_marker/not_visited.png" alt="snowboard marker" width="12" height="20"> 
-                     </label>
-                     <label class="radio-inline">
-                        <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="true">
-                        <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20"> &nbsp;|&nbsp;
-                     </label>
-                     <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateRegions()" ng-model="showRegions"> Show Regions?</label>
-                  </p>
-               </div>
-         </div>
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="javascript:void(0);"><span class="text-primary"><b>The Buckhouse Ski Map</b></span></a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <a href="javascript:void(0);">
+                        <label class="radio-inline">
+                           <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
+                           <img src="img/snowboard_marker/not_visited.png" alt="snowboard marker" width="12" height="20"> 
+                        </label>
+                        <label class="radio-inline">
+                           <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="true">
+                           <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20"> &nbsp;|&nbsp;
+                        </label>
+                        <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateRegions()" ng-model="showRegions"> Show Regions?</label>
+                     </a>
+                  </li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
          <div id="mapid"></div>
          <!-- THE SEARCH BOX  -->
          <br>
@@ -573,8 +593,6 @@
 
         // Generate the video link html
         var videoLinks;
-        var videoWidth = 400;
-        var videoHeight = 225;
         if (allData[i].videos.length === 0) {
           videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
         }
@@ -583,7 +601,6 @@
         }
         else if (allData[i].videos.length > 1) {
            if (allData[i].videos.length > 200) {
-             videoHeight = 150;
              videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
              `<p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[200]}?playlist=${allData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
            }

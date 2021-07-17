@@ -159,6 +159,15 @@
                      </a>
                   </th>
                   <th>
+                     <a ng-click="myOrder('resortReview.score'); reverseSort = !reverseSort">
+                        <span>Score</span> 
+                        <span ng-show="orderByField == 'resortReview.score'">
+                           <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                           <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                        </span>
+                     </a>
+                  </th>
+                  <th>
                      <a ng-click="myOrder('skiPass'); reverseSort = !reverseSort">
                         <span title="See ski pass website for more information.">Ski Pass</span> 
                         <span ng-show="orderByField == 'skiPass'">
@@ -203,15 +212,6 @@
                         </span>
                      </a>
                   </th>
-                  <th>
-                     <a ng-click="myOrder('resortReview.score'); reverseSort = !reverseSort">
-                        <span>Score</span> 
-                        <span ng-show="orderByField == 'resortReview.score'">
-                           <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
-                           <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
-                        </span>
-                     </a>
-                  </th>
                </tr>
                <tr ng-repeat="data in allData | orderBy : orderByField : reverseSort | filter : search" onclick="tableRowClick(this)">
                   <td>
@@ -219,6 +219,15 @@
                      <i ng-show="data.videos.length===0" class="fa fa-square"></i>
                      <span>{{data.resortName}}</span>
                      <!-- <span ng-show="!data.officialSkiResort">(unofficial ski resort)</span> -->
+                  </td>
+                  <td>
+                     <span ng-show="!data.resortReview.score">N/A</span>
+                     <span ng-show="data.resortReview.score && !data.resortReview.note">
+                           <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}">{{data.resortReview.score}}/100</a>
+                     </span>
+                     <span ng-show="data.resortReview.score && data.resortReview.note">
+                        <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}" uib-tooltip="{{data.resortReview.note}}">{{data.resortReview.score}}/100*</a>
+                     </span>
                   </td>
                   <td>
                      <span ng-repeat="pass in data.skiPass track by $index">
@@ -245,15 +254,6 @@
                      <span ng-show="data.videos.length>0">
                         <a target="_blank" ng-href="https://www.youtube.com/watch_videos?video_ids={{data.videos.join(',')}}">{{data.videos.length}}</a>
                      </span>
-                  </td>
-                  <td>
-                     <span ng-show="!data.resortReview.score">N/A</span>
-                     <span ng-show="data.resortReview.score && !data.resortReview.note">
-                           <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}">{{data.resortReview.score}}/100</a>
-                     </span>
-                     <span ng-show="data.resortReview.score && data.resortReview.note">
-                        <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}" uib-tooltip="{{data.resortReview.note}}">{{data.resortReview.score}}/100*</a>
-                  </span>
                   </td>
                </tr>
             </table>

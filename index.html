@@ -1,4 +1,4 @@
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=1.0, user-scalable=no" >
 <!DOCTYPE html>
 <html>
    <head>
@@ -38,7 +38,7 @@
          /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
          #mapid { 
-            height: 50% 
+            height: 60% 
          }
          .pane {
             /* display: inline-block; */
@@ -579,16 +579,16 @@
           videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
         }
         else if (allData[i].videos.length === 1) {
-          videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+          videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
         }
         else if (allData[i].videos.length > 1) {
            if (allData[i].videos.length > 200) {
              videoHeight = 150;
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
-             `<p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[200]}?playlist=${allData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
+             `<p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[200]}?playlist=${allData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
            }
            else {
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe width="${videoWidth}" height="${videoHeight}" src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
            }
         }
 
@@ -602,14 +602,14 @@
         var modalTitle = '';
         if (allData[i].website) {
             if (allData[i].id) {
-                modalTitle = `<h3 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a> <a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a></h3>`;
+                modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a> <a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a></h4>`;
             }
             else {
-                modalTitle = `<h3 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a></h3>`;
+                modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a></h4>`;
             }
         }
         else {
-            modalTitle = `<h3 id="firstHeading" class="firstHeading">${allData[i].resortName}, ${allData[i].state}</h3>`;
+            modalTitle = `<h4 id="firstHeading" class="firstHeading">${allData[i].resortName}, ${allData[i].state}</h4>`;
         }
 
         // Link to the score
@@ -661,7 +661,7 @@
         // Popup otions for the leaflet map library
         var popupOptions = {
           // maxHeight: 600,
-          minWidth: 400
+          // minWidth: 400
         };
 
         // Marker options

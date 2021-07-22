@@ -1,4 +1,4 @@
-<meta http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=1.0, user-scalable=no" >
+<meta charset="utf-8" http-equiv="Content-Type" name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=1.0, user-scalable=no">
 <!DOCTYPE html>
 <html>
    <head>
@@ -73,6 +73,11 @@
             width: 100%;
             height: 100%;
         }
+
+        /* .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
+
+        .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } */
+
         .fa-twitter, .fa-twitter-square {
             color: #00aced
          }
@@ -218,17 +223,17 @@
                      <i ng-show="data.videos.length>0" class="fa fa-check-square"></i> 
                      <i ng-show="data.videos.length===0" class="fa fa-square"></i>
                      <span>{{data.resortName}}</span>
-                     <!-- <span ng-show="!data.officialSkiResort">(unofficial ski resort)</span> -->
                   </td>
                   <td>
-                     <span ng-show="!data.resortReview.score">N/A</span>
-                     <span ng-show="data.resortReview.score && !data.resortReview.note">
-                           <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}">{{data.resortReview.score}}/100</a>
-                     </span>
-                     <span ng-show="data.resortReview.score && data.resortReview.note">
-                        <a target="_blank" ng-href="https://youtube.com/watch/{{data.resortReview.link}}" uib-tooltip="{{data.resortReview.note}}">{{data.resortReview.score}}/100*</a>
-                     </span>
-                  </td>
+                        <span ng-show="!data.resortReview.score && data.id"><a ng-click="openModal(data)" onclick="return false;">N/A</a></span>
+                        <span ng-show="!data.resortReview.score && !data.id">N/A</span>
+                        <span ng-show="data.resortReview.score && !data.resortReview.note">
+                              <a ng-click="openModal(data)" onclick="return false;">{{data.resortReview.score}}/100</a>
+                        </span>
+                        <span ng-show="data.resortReview.score && data.resortReview.note">
+                           <a ng-click="openModal(data)" onclick="return false;" uib-tooltip="{{data.resortReview.note}}">{{data.resortReview.score}}/100*</a>
+                        </span>
+                     </td>
                   <td>
                      <span ng-repeat="pass in data.skiPass track by $index">
                         <span ng-show="pass==='Epic'">
@@ -341,7 +346,7 @@
             <ul>
                <li>The original U.S. resort list came from <a href="https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States" target="_blank">Wikipedia</a>. The list on this site will continue to be fine tuned as time goes on.</li>
                <li>6/16/21 - Added Mount Pisgah Ski Area.</li>
-	       <li>5/24/21 - Removed Ski Blandford (a resort in western Massachusetts) because they shut down permanently last year. <a href="https://en.wikipedia.org/wiki/Blandford_Ski_Area" target="_blank">Wikipedia</a>, <a href="https://skiblandford.com/" target="_blank">skiblandford.com</a>.</li>
+	            <li>5/24/21 - Removed Ski Blandford (a resort in western Massachusetts) because they shut down permanently last year. <a href="https://en.wikipedia.org/wiki/Blandford_Ski_Area" target="_blank">Wikipedia</a>, <a href="https://skiblandford.com/" target="_blank">skiblandford.com</a>.</li>
                <li>4/07/21 - Added clarity to the name of the Snoqualmie resort. The resort are 3 resorts in one (Summit East, West and Central).</li>
                <li>3/22/21 - Added Peek'N Peak Ski Resort.</li>
                <li>3/22/21 - Separated Woodward Park City from Park City.</li>
@@ -391,7 +396,7 @@
       });
       
       // Governing app controller
-      app.controller('myCtrl', ['$scope', function($scope) {
+      app.controller('myCtrl', ['$scope', '$uibModal', '$http', function($scope, $uibModal, $http) {
          // Assign the data to the view
           $scope.allData = JSON.parse(JSON.stringify(allData));
           $scope.visitedCount = allData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
@@ -457,7 +462,113 @@
             $scope.orderByField = field;
          }
 
+
+         // MODAL!!!!
+         $scope.animationsEnabled = true;
+         $scope.openModal = function (modalData) {
+
+            $scope.modalData = modalData;
+
+            var modalInstance = $uibModal.open({
+               animation: $scope.animationsEnabled,
+               template: `<div class="modal-header">
+                              <h3 class="modal-title">
+                                 <a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.resortName}, ${modalData.state}</a>
+                                 <a ng-show="${!!modalData.id}" href="https://skimap.org/SkiAreas/view/${modalData.id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
+                              </h3>
+                           </div>
+                           <div class="modal-body">
+
+                              <!-- 16:9 aspect ratio -->
+                              <h4 ng-show="${!!modalData.resortReview.link}">Johnathan's Resort Review</h4>
+                              <div ng-show="${!!modalData.resortReview.link}" class="embed-responsive embed-responsive-16by9">
+                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${modalData.resortReview.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              </div>
+                              <br ng-show="${!!modalData.resortReview.link}">
+                              <h4>Ski Resort Infomation</h4>
+                              <dl class="dl-horizontal">
+                                 <dt ng-show=${!!modalData.website}>Official Website:</dt>
+                                 <dd ng-show=${!!modalData.website}><a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.website}</a><dd>
+
+                                 <dt ng-show="!!modalResortData.data.annual_snowfall">Annual Snowfall:</dt> 
+                                 <dd ng-show="!!modalResortData.data.annual_snowfall">{{modalResortData.data.annual_snowfall*0.393701 | number:0}}in</dd>
+
+                                 <dt ng-show="!!modalResortData.data.bottom_elevation">Bottom Elevation:</dt>
+                                 <dd ng-show="!!modalResortData.data.bottom_elevation">{{modalResortData.data.bottom_elevation*3.28084 | number:0}}ft</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.hourly_lift_capacity">Hourly Lift Capacity:</dt>
+                                 <dd ng-show="!!modalResortData.data.hourly_lift_capacity">{{modalResortData.data.hourly_lift_capacity | number}}</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.lift_count">Lift Count:</dt>
+                                 <dd ng-show="!!modalResortData.data.lift_count">{{modalResortData.data.lift_count | number}}</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.longest_run">Longest Run:</dt>
+                                 <dd ng-show="!!modalResortData.data.longest_run">{{modalResortData.data.longest_run*3.28084 | number:0}}ft</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.night_skiing">Night Skiing:</dt>
+                                 <dd ng-show="!!modalResortData.data.night_skiing">{{modalResortData.data.night_skiing}}</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.opening_year">Opening Year:</dt>
+                                 <dd ng-show="!!modalResortData.data.opening_year">{{modalResortData.data.opening_year}}</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.owner">Owner:</dt>
+                                 <dd ng-show="!!modalResortData.data.owner">{{modalResortData.data.owner}}</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.run_count">Run Count:</dt>
+                                 <dd ng-show="!!modalResortData.data.run_count">{{modalResortData.data.run_count | number}}</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.skiable_acreage">Skiable Acreage:</dt>
+                                 <dd ng-show="!!modalResortData.data.skiable_acreage">{{modalResortData.data.skiable_acreage | number}} acres</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.terrain_park">Terrain Park:</dt>
+                                 <dd ng-show="!!modalResortData.data.terrain_park">{{modalResortData.data.terrain_park}}</li></dd>
+
+                                 <dt ng-show="!!modalResortData.data.top_elevation">Top Elevation:</dt>
+                                 <dd ng-show="!!modalResortData.data.top_elevation">{{modalResortData.data.top_elevation*3.28084 | number:0}}ft</li></dd>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="modal-footer">
+                              <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>
+                           </div>`,
+               controller: 'ModalInstanceCtrl',
+               resolve: {
+                  modalData: function () {
+                     return $scope.modalData;
+                  }
+               }
+            });
+
+            modalInstance.result.then(function (selectedItem) {
+               $scope.selected = selectedItem;
+            }, function () {
+               // console.log('modal closed');
+            });
+         };
+
+         $scope.toggleAnimation = function () {
+            $scope.animationsEnabled = !$scope.animationsEnabled;
+         };
       }]);
+
+      // Modal controller      
+      app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, modalData) {
+         // Get data from skimap API
+         $http({
+            method: 'GET',
+            url: `https://skimap.org/SkiAreas/view/${modalData.id}.json`,
+         }).then(function success(response) {
+            $scope.modalResortData = response;
+         }, function error(response) {
+            // this function will be called when the request returned error status
+            console.log(`I'm sorry. Something went wrong`, response);            
+         });
+
+         // Close Modal
+         $scope.ok = function () {
+            $uibModalInstance.close();
+         };
+      });
 
       // Set the default view
       var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords
@@ -597,15 +708,15 @@
           videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
         }
         else if (allData[i].videos.length === 1) {
-          videoLinks = `<p>Here is the only video of Johnathan from this location <p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+          videoLinks = `<p>Here is the only video of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
         }
         else if (allData[i].videos.length > 1) {
            if (allData[i].videos.length > 200) {
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
              `<p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[200]}?playlist=${allData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
            }
            else {
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
+             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
            }
         }
 
@@ -615,15 +726,10 @@
           officialSkiResortWarning = '<p><b>Note</b>: this is not an official ski resort</p>';
         }
 
-        // Link to the website
+        // Link to the website 
         var modalTitle = '';
         if (allData[i].website) {
-            if (allData[i].id) {
-                modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a> <a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a></h4>`;
-            }
-            else {
-                modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a></h4>`;
-            }
+          modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a></h4>`;
         }
         else {
             modalTitle = `<h4 id="firstHeading" class="firstHeading">${allData[i].resortName}, ${allData[i].state}</h4>`;

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '07/15/2021';
+var lastUpdated = '07/21/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7201,6 +7201,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "plOiwtuIaxg",
       "S_SGcnR_00E",
       "E5VMAqSPTe8",
       "V727drc0E8k",
@@ -8787,7 +8788,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Park City",
     "videos": [
-      "iBM8QoUD7Ec"
+      "iBM8QoUD7Ec",
+      "J80SzgL-N1Y"
     ],
     "position": {
       "lat": 40.75506564993516,
@@ -8797,8 +8799,8 @@ var allData = [
     "id": "5123",
     "website": "https://www.woodwardparkcity.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 50,
+      "link": "J80SzgL-N1Y",
       "note": ""
     },
     "skiPass": []
@@ -10222,6 +10224,7 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "Lg2FpeQc12w",
       "48RyOiNR7AM",
       "0mhXCBZhZPI",
       "yUi_UzzW-cE",

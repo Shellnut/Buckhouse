@@ -42,7 +42,7 @@
          /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
          #mapid { 
-            height: 60% 
+            height: 55%;
          }
          .pane {
             /* display: inline-block; */
@@ -73,11 +73,6 @@
             width: 100%;
             height: 100%;
         }
-
-        /* .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
-
-        .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } */
-
         .fa-twitter, .fa-twitter-square {
             color: #00aced
          }
@@ -93,6 +88,15 @@
          }
          .disclaimer-count {
             cursor: pointer;
+         }
+         dt {
+            float: left;
+            clear: left;
+            margin-right: 5px;
+            font-weight: bold;
+         }
+         dd {
+            margin-left: 0px;
          }
       </style>
    </head>
@@ -479,12 +483,52 @@
                            </div>
                            <div class="modal-body">
 
-                              <!-- 16:9 aspect ratio -->
-                              <h4 ng-show="${!!modalData.resortReview.link}">Johnathan's Resort Review</h4>
-                              <div ng-show="${!!modalData.resortReview.link}" class="embed-responsive embed-responsive-16by9">
-                                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${modalData.resortReview.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                              <div ng-show="${!!modalData.resortReview.link}">
+                                 <h4>Johnathan's Resort Review</h4>
+                                 <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${modalData.resortReview.link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                 </div>
+                                 <br>
+                                 <h4>Johnathan's Score</h4>
+                                 <dl class="dl-horizontal">
+                                    
+                                    <dt>Overall Score:</dt>
+                                    <dd>${modalData.resortReview.score}/100</dd>
+
+                                    <dt ng-show="${!!modalData.resortReview.note}">Note:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.note}">${modalData.resortReview.note}</dd>
+
+                                    <dt ng-show="${!!modalData.resortReview.price}">Price:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.price}"><uib-rating ng-model="${modalData.resortReview.price/2}" max="5"></uib-rating> (${modalData.resortReview.price}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.easeOfAccess}">Ease Of Access:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.easeOfAccess}"><uib-rating ng-model="${modalData.resortReview.easeOfAccess/2}" max="5"></uib-rating> (${modalData.resortReview.easeOfAccess}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.lodging}">Lodging:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.lodging}"><uib-rating ng-model="${modalData.resortReview.lodging/2}" max="5"></uib-rating> (${modalData.resortReview.lodging}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.charLifts}">Char Lifts:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.charLifts}"><uib-rating ng-model="${modalData.resortReview.charLifts/2}" max="5"></uib-rating> (${modalData.resortReview.charLifts}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.runs}">Runs:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.runs}"><uib-rating ng-model="${modalData.resortReview.runs/2}" max="5"></uib-rating> (${modalData.resortReview.runs}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.terrainPark}">Terrain Park:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.terrainPark}"><uib-rating ng-model="${modalData.resortReview.terrainPark/2}" max="5"></uib-rating> (${modalData.resortReview.terrainPark}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.food}">Food:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.food}"><uib-rating ng-model="${modalData.resortReview.food/2}" max="5"></uib-rating> (${modalData.resortReview.food}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.employees}">Employees:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.employees}"><uib-rating ng-model="${modalData.resortReview.employees/2}" max="5"></uib-rating> (${modalData.resortReview.employees}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.views}">Views:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.views}"><uib-rating ng-model="${modalData.resortReview.views/2}" max="5"></uib-rating> (${modalData.resortReview.views}/10)</dd>
+                                    
+                                    <dt ng-show="${!!modalData.resortReview.wouldIGoBack}">Would I Go Back:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.wouldIGoBack}"><uib-rating ng-model="${modalData.resortReview.wouldIGoBack/2}" max="5"></uib-rating> (${modalData.resortReview.wouldIGoBack}/10)</dd>
+                                 </dl>
                               </div>
-                              <br ng-show="${!!modalData.resortReview.link}">
                               <h4>Ski Resort Infomation</h4>
                               <dl class="dl-horizontal">
                                  <dt ng-show=${!!modalData.website}>Official Website:</dt>

@@ -7049,7 +7049,17 @@ var allData = [
     "resortReview": {
       "score": 69,
       "link": "28gC3Ea-imo",
-      "note": ""
+      "note": "",
+      "price": 5,
+      "easeOfAccess": 7,
+      "lodging": 8,
+      "charLifts": 9,
+      "runs": 7,
+      "terrainPark": 9,
+      "food": 7,
+      "employees": 3,
+      "views": 7,
+      "wouldIGoBack": 7
     },
     "skiPass": ["Epic"]
   },

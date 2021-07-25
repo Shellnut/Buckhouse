@@ -541,41 +541,41 @@
                                  <dt ng-show=${!!modalData.website}>Official Website:</dt>
                                  <dd ng-show=${!!modalData.website}><a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.website}</a><dd>
 
-                                 <dt ng-show="!!modalResortData.data.annual_snowfall">Annual Snowfall:</dt> 
-                                 <dd ng-show="!!modalResortData.data.annual_snowfall">{{modalResortData.data.annual_snowfall*0.393701 | number:0}}in</dd>
+                                 <dt ng-show="!!modalResortData.data.annual_snowfall && modalResortData.data.annual_snowfall!='Unknown'">Annual Snowfall:</dt> 
+                                 <dd ng-show="!!modalResortData.data.annual_snowfall && modalResortData.data.annual_snowfall!='Unknown'">{{modalResortData.data.annual_snowfall*0.393701 | number:0}}in</dd>
 
-                                 <dt ng-show="!!modalResortData.data.bottom_elevation">Bottom Elevation:</dt>
-                                 <dd ng-show="!!modalResortData.data.bottom_elevation">{{modalResortData.data.bottom_elevation*3.28084 | number:0}}ft</li></dd>
+                                 <dt ng-show="!!modalResortData.data.bottom_elevation && modalResortData.data.bottom_elevation!='Unknown'">Bottom Elevation:</dt>
+                                 <dd ng-show="!!modalResortData.data.bottom_elevation && modalResortData.data.bottom_elevation!='Unknown'">{{modalResortData.data.bottom_elevation*3.28084 | number:0}}ft</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.hourly_lift_capacity">Hourly Lift Capacity:</dt>
-                                 <dd ng-show="!!modalResortData.data.hourly_lift_capacity">{{modalResortData.data.hourly_lift_capacity | number}}</li></dd>
+                                 <dt ng-show="!!modalResortData.data.hourly_lift_capacity && modalResortData.data.hourly_lift_capacity!='Unknown'">Hourly Lift Capacity:</dt>
+                                 <dd ng-show="!!modalResortData.data.hourly_lift_capacity && modalResortData.data.hourly_lift_capacity!='Unknown'">{{modalResortData.data.hourly_lift_capacity | number}}</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.lift_count">Lift Count:</dt>
-                                 <dd ng-show="!!modalResortData.data.lift_count">{{modalResortData.data.lift_count | number}}</li></dd>
+                                 <dt ng-show="!!modalResortData.data.lift_count && modalResortData.data.lift_count!='Unknown'">Lift Count:</dt>
+                                 <dd ng-show="!!modalResortData.data.lift_count && modalResortData.data.lift_count!='Unknown'">{{modalResortData.data.lift_count | number}}</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.longest_run">Longest Run:</dt>
-                                 <dd ng-show="!!modalResortData.data.longest_run">{{modalResortData.data.longest_run*3.28084 | number:0}}ft</li></dd>
+                                 <dt ng-show="!!modalResortData.data.longest_run && modalResortData.data.longest_run!='Unknown'">Longest Run:</dt>
+                                 <dd ng-show="!!modalResortData.data.longest_run && modalResortData.data.longest_run!='Unknown'">{{modalResortData.data.longest_run*3.28084 | number:0}}ft</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.night_skiing">Night Skiing:</dt>
-                                 <dd ng-show="!!modalResortData.data.night_skiing">{{modalResortData.data.night_skiing}}</li></dd>
+                                 <dt ng-show="!!modalResortData.data.night_skiing && modalResortData.data.night_skiing!='Unknown'">Night Skiing:</dt>
+                                 <dd ng-show="!!modalResortData.data.night_skiing && modalResortData.data.night_skiing!='Unknown'">{{modalResortData.data.night_skiing}}</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.opening_year">Opening Year:</dt>
-                                 <dd ng-show="!!modalResortData.data.opening_year">{{modalResortData.data.opening_year}}</li></dd>
+                                 <dt ng-show="!!modalResortData.data.opening_year && modalResortData.data.opening_year!='Unknown'">Opening Year:</dt>
+                                 <dd ng-show="!!modalResortData.data.opening_year && modalResortData.data.opening_year!='Unknown'">{{modalResortData.data.opening_year}}</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.owner">Owner:</dt>
-                                 <dd ng-show="!!modalResortData.data.owner">{{modalResortData.data.owner}}</li></dd>
+                                 <dt ng-show="!!modalResortData.data.owner && modalResortData.data.owner!='Unknown'">Owner:</dt>
+                                 <dd ng-show="!!modalResortData.data.owner && modalResortData.data.owner!='Unknown'">{{modalResortData.data.owner}}</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.run_count">Run Count:</dt>
-                                 <dd ng-show="!!modalResortData.data.run_count">{{modalResortData.data.run_count | number}}</li></dd>
+                                 <dt ng-show="!!modalResortData.data.run_count && modalResortData.data.run_count!='Unknown'">Run Count:</dt>
+                                 <dd ng-show="!!modalResortData.data.run_count && modalResortData.data.run_count!='Unknown'">{{modalResortData.data.run_count | number}}</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.skiable_acreage">Skiable Acreage:</dt>
-                                 <dd ng-show="!!modalResortData.data.skiable_acreage">{{modalResortData.data.skiable_acreage | number}} acres</li></dd>
+                                 <dt ng-show="!!modalResortData.data.skiable_acreage && modalResortData.data.skiable_acreage!='Unknown'">Skiable Acreage:</dt>
+                                 <dd ng-show="!!modalResortData.data.skiable_acreage && modalResortData.data.skiable_acreage!='Unknown'">{{modalResortData.data.skiable_acreage | number}} acres</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.terrain_park">Terrain Park:</dt>
-                                 <dd ng-show="!!modalResortData.data.terrain_park">{{modalResortData.data.terrain_park}}</li></dd>
+                                 <dt ng-show="!!modalResortData.data.terrain_park && modalResortData.data.terrain_park!='Unknown'">Terrain Park:</dt>
+                                 <dd ng-show="!!modalResortData.data.terrain_park && modalResortData.data.terrain_park!='Unknown'">{{modalResortData.data.terrain_park}}</li></dd>
 
-                                 <dt ng-show="!!modalResortData.data.top_elevation">Top Elevation:</dt>
-                                 <dd ng-show="!!modalResortData.data.top_elevation">{{modalResortData.data.top_elevation*3.28084 | number:0}}ft</li></dd>
+                                 <dt ng-show="!!modalResortData.data.top_elevation && modalResortData.data.top_elevation!='Unknown'">Top Elevation:</dt>
+                                 <dd ng-show="!!modalResortData.data.top_elevation && modalResortData.data.top_elevation!='Unknown'">{{modalResortData.data.top_elevation*3.28084 | number:0}}ft</li></dd>
                                  </li>
                               </ul>
                            </div>

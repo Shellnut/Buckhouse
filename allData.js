@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '07/21/2021';
+var lastUpdated = '07/24/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1661,7 +1661,17 @@ var allData = [
     "resortReview": {
       "score": 56,
       "link": "SvYeSrOyf_c",
-      "note": ""
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "4",
+      "chairLifts": "6",
+      "runs": "4",
+      "terrainPark": "10",
+      "food": "5",
+      "employees": "5",
+      "views": "4",
+      "wouldIGoBack": "8",
     },
     "skiPass": ["Epic"]
   },
@@ -1910,7 +1920,18 @@ var allData = [
     "resortReview": {
       "score": 47,
       "link": "gpsfxa1XqPc",
-      "note": ""
+      "note": "Johnathan scored this one out of 11 categories. He included 'fun' and 'parking' categories instead of an 'employees' category. Technically this should be scored 47/110 (or 42.7/100)",
+      "price": "6",
+      "easeOfAccess": "7",
+      "parking": "4",
+      "lodging": "0",
+      "chairLifts": "7",
+      "runs": "2",
+      "terrainPark": "6",
+      "food": "1",
+      "views": "0",
+      "fun": "7",
+      "wouldIGoBack": "7"
     },
     "skiPass": []
   },
@@ -2157,7 +2178,17 @@ var allData = [
     "resortReview": {
       "score": 45,
       "link": "ALt-VpjRQew",
-      "note": ""
+      "note": "Johnathan rated this 45/100 in the video, but it the points actually add up to 46.",
+      "price": "5",
+      "easeOfAccess": "4",
+      "lodging": "1",
+      "chairLifts": "7",
+      "runs": "4",
+      "terrainPark": "6",
+      "food": "5",
+      "employees": "6",
+      "views": "3",
+      "wouldIGoBack": "5",
     },
     "skiPass": []
   },
@@ -3270,7 +3301,17 @@ var allData = [
     "resortReview": {
       "score": 56,
       "link": "8zvrlaf4Utg",
-      "note": ""
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "5",
+      "lodging": "2",
+      "chairLifts": "6",
+      "runs": "4",
+      "terrainPark": "6",
+      "food": "5",
+      "employees": "7",
+      "views": "6",
+      "wouldIGoBack": "8"
     },
     "skiPass": []
   },
@@ -3428,7 +3469,8 @@ var allData = [
       "B_rNQNIoBLU",
       "8Ua7njpZBLc",
       "rkA9nxTJIvU",
-      "TW_aCTT7UYw"
+      "TW_aCTT7UYw",
+      "DGvkcX8QI-g"
     ],
     "position": {
       "lat": 37.352932264382524,
@@ -3438,9 +3480,19 @@ var allData = [
     "id": "3413",
     "website": "https://www.liberty.edu/campusrec/snowflex/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 49,
+      "link": "DGvkcX8QI-g",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "8",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "1",
+      "terrainPark": "7",
+      "food": "2",
+      "employees": "8",
+      "views": "8",
+      "wouldIGoBack": "7",
     },
     "skiPass": []
   },
@@ -4585,7 +4637,17 @@ var allData = [
     "resortReview": {
       "score": 51,
       "link": "pPRYAx7GMfs",
-      "note": ""
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "10",
+      "lodging": "0",
+      "chairLifts": "6",
+      "runs": "2",
+      "terrainPark": "6",
+      "food": "6",
+      "employees": "7",
+      "views": "1",
+      "wouldIGoBack": "6",
     },
     "skiPass": []
   },
@@ -4710,7 +4772,17 @@ var allData = [
     "resortReview": {
       "score": 55,
       "link": "NfBk_WQM7PM",
-      "note": ""
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "8", 
+      "lodging": "0",
+      "chairLifts": "7",
+      "runs": "2",
+      "terrainPark": "8",
+      "food": "5",
+      "employees": "4",
+      "views": "6",
+      "wouldIGoBack": "9"
     },
     "skiPass": []
   },
@@ -5202,7 +5274,17 @@ var allData = [
     "resortReview": {
       "score": 49,
       "link": "6a--suhNwak",
-      "note": ""
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "8",
+      "lodging": "5",
+      "chairLifts": "6",
+      "runs": "4",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "4",
+      "views": "2",
+      "wouldIGoBack": "4"
     },
     "skiPass": []
   },
@@ -6455,7 +6537,17 @@ var allData = [
     "resortReview": {
       "score": 72,
       "link": "_tSdgrJk3h8",
-      "note": ""
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "3",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "8",
+      "terrainPark": "9",
+      "food": "6",
+      "employees": "5",
+      "views": "7",
+      "wouldIGoBack": "10"
     },
     "skiPass": ["Epic"]
   },
@@ -6620,7 +6712,17 @@ var allData = [
     "resortReview": {
       "score": 31,
       "link": "kdpqtPvSQfs",
-      "note": ""
+      "note": "",
+      "price": "9",
+      "easeOfAccess": "3",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "1",
+      "food": "2",
+      "employees": "5",
+      "views": "4",
+      "wouldIGoBack": "2",
     },
     "skiPass": []
   },
@@ -7050,16 +7152,16 @@ var allData = [
       "score": 69,
       "link": "28gC3Ea-imo",
       "note": "",
-      "price": 5,
-      "easeOfAccess": 7,
-      "lodging": 8,
-      "charLifts": 9,
-      "runs": 7,
-      "terrainPark": 9,
-      "food": 7,
-      "employees": 3,
-      "views": 7,
-      "wouldIGoBack": 7
+      "price": "5",
+      "easeOfAccess": "7",
+      "lodging": "8",
+      "charLifts": "9",
+      "runs": "7",
+      "terrainPark": "9",
+      "food": "7",
+      "employees": "3",
+      "views": "7",
+      "wouldIGoBack": "7"
     },
     "skiPass": ["Epic"]
   },
@@ -8788,7 +8890,17 @@ var allData = [
     "resortReview": {
       "score": 74,
       "link": "sq_LFhyqXbg",
-      "note": ""
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "9",
+      "lodging": "9",
+      "chairLifts": "10",
+      "runs": "8",
+      "terrainPark": "8",
+      "food": "8",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "6",
     },
     "skiPass": []
   },
@@ -8811,7 +8923,17 @@ var allData = [
     "resortReview": {
       "score": 50,
       "link": "J80SzgL-N1Y",
-      "note": ""
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "8",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "1",
+      "terrainPark": "10",
+      "food": "5",
+      "employees": "5",
+      "views": "2",
+      "wouldIGoBack": "8",
     },
     "skiPass": []
   },
@@ -9777,7 +9899,17 @@ var allData = [
     "resortReview": {
       "score": 62,
       "link": "PXdEWAuTKEU",
-      "note": ""
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "7",
+      "lodging": "7",
+      "chairLifts": "8",
+      "runs": "5",
+      "terrainPark": "6",
+      "food": "7",
+      "employees": "4",
+      "views": "5",
+      "wouldIGoBack": "8",
     },
     "skiPass": ["Epic"]
   },
@@ -9964,7 +10096,17 @@ var allData = [
     "resortReview": {
       "score": 55,
       "link": "UZGgJmE1o3g",
-      "note": ""
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "5",
+      "terrainPark": "6",
+      "food": "5",
+      "employees": "5",
+      "views": "7",
+      "wouldIGoBack": "10"
     },
     "skiPass": []
   },
@@ -10275,7 +10417,17 @@ var allData = [
     "resortReview": {
       "score": 71,
       "link": "2AgHpI1Tab8",
-      "note": "This score reflects this resort in the summer."
+      "note": "This score reflects this resort in the summer.",
+      "price": "8",
+      "easeOfAccess": "7",
+      "lodging": "5",
+      "chairLifts": "5",
+      "runs": "5",
+      "terrainPark": "10",
+      "food": "6",
+      "employees": "5",
+      "views": "10",
+      "wouldIGoBack": "10"
     },
     "skiPass": ["Powder Alliance"]
   },

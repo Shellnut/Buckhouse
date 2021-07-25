@@ -142,7 +142,7 @@
 
             <!-- Progress -->
             <div>
-               <p>Johnathan has visited {{visitedCount}} out of {{skiResortCount}}<a class="disclaimer-count" href="#change-log" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">**</a> resorts so far! <i>last updated: {{lastUpdated}}</i></p>
+               <p>Johnathan has visited {{visitedCount}} out of the {{skiResortCount}}<a class="disclaimer-count" href="#change-log" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> U.S. ski resorts so far! <i>last updated: {{lastUpdated}}</i></p>
             </div>
 
             <!-- Search column -->
@@ -507,8 +507,8 @@
                                     <dt ng-show="${!!modalData.resortReview.lodging}">Lodging:</dt>
                                     <dd ng-show="${!!modalData.resortReview.lodging}"><uib-rating ng-model="${modalData.resortReview.lodging/2}" max="5"></uib-rating> (${modalData.resortReview.lodging}/10)</dd>
                                     
-                                    <dt ng-show="${!!modalData.resortReview.charLifts}">Char Lifts:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.charLifts}"><uib-rating ng-model="${modalData.resortReview.charLifts/2}" max="5"></uib-rating> (${modalData.resortReview.charLifts}/10)</dd>
+                                    <dt ng-show="${!!modalData.resortReview.chairLifts}">Chair Lifts:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.chairLifts}"><uib-rating ng-model="${modalData.resortReview.chairLifts/2}" max="5"></uib-rating> (${modalData.resortReview.chairLifts}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.runs}">Runs:</dt>
                                     <dd ng-show="${!!modalData.resortReview.runs}"><uib-rating ng-model="${modalData.resortReview.runs/2}" max="5"></uib-rating> (${modalData.resortReview.runs}/10)</dd>
@@ -524,6 +524,12 @@
                                     
                                     <dt ng-show="${!!modalData.resortReview.views}">Views:</dt>
                                     <dd ng-show="${!!modalData.resortReview.views}"><uib-rating ng-model="${modalData.resortReview.views/2}" max="5"></uib-rating> (${modalData.resortReview.views}/10)</dd>
+                                                                        
+                                    <dt ng-show="${!!modalData.resortReview.fun}">Fun:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.fun}"><uib-rating ng-model="${modalData.resortReview.fun/2}" max="5"></uib-rating> (${modalData.resortReview.fun}/10)</dd>
+                                                                        
+                                    <dt ng-show="${!!modalData.resortReview.parking}">Parking:</dt>
+                                    <dd ng-show="${!!modalData.resortReview.parking}"><uib-rating ng-model="${modalData.resortReview.parking/2}" max="5"></uib-rating> (${modalData.resortReview.parking}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.wouldIGoBack}">Would I Go Back:</dt>
                                     <dd ng-show="${!!modalData.resortReview.wouldIGoBack}"><uib-rating ng-model="${modalData.resortReview.wouldIGoBack/2}" max="5"></uib-rating> (${modalData.resortReview.wouldIGoBack}/10)</dd>

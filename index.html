@@ -477,9 +477,18 @@
                animation: $scope.animationsEnabled,
                template: `<div class="modal-header">
                               <h3 class="modal-title">
-                                 <a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.resortName}, ${modalData.state}</a>
-                                 <a ng-show="${!!modalData.id}" href="https://skimap.org/SkiAreas/view/${modalData.id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
-                                 <button class="btn btn-sm" style="float:right;" ng-click="ok()">X</button>
+
+                                 <div class="row">
+                                    <div class="col-xs-11">
+                                       <a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.resortName}, ${modalData.state}</a>
+                                       <a ng-show="${!!modalData.id}" href="https://skimap.org/SkiAreas/view/${modalData.id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="col-xs-1">
+                                       <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
+                                    </div>
+                                 </div>
+
+                           
                               </h3>
                            </div>
                            <div class="modal-body">
@@ -492,48 +501,48 @@
                                  <br>
                                  <h4>Johnathan's Score</h4>
                                  <dl class="dl-horizontal">
-                                    
+
                                     <dt>Overall Score:</dt>
                                     <dd>${modalData.resortReview.score}/100</dd>
 
                                     <dt ng-show="${!!modalData.resortReview.note}">Note:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.note}">${modalData.resortReview.note}</dd>
+                                    <dd ng-show="${!!modalData.resortReview.note}">modalData.resortReview.note}</dd>
 
                                     <dt ng-show="${!!modalData.resortReview.price}">Price:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.price}"><uib-rating ng-model="${modalData.resortReview.price/2}" max="5"></uib-rating> (${modalData.resortReview.price}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.price}"><uib-rating ng-model="price" max="5"></uib-rating> (${modalData.resortReview.price}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.easeOfAccess}">Ease Of Access:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.easeOfAccess}"><uib-rating ng-model="${modalData.resortReview.easeOfAccess/2}" max="5"></uib-rating> (${modalData.resortReview.easeOfAccess}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.easeOfAccess}"><uib-rating ng-model="easeOfAccess" max="5"></uib-rating> (${modalData.resortReview.easeOfAccess}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.lodging}">Lodging:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.lodging}"><uib-rating ng-model="${modalData.resortReview.lodging/2}" max="5"></uib-rating> (${modalData.resortReview.lodging}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.lodging}"><uib-rating ng-model="lodging" max="5"></uib-rating> (${modalData.resortReview.lodging}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.chairLifts}">Chair Lifts:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.chairLifts}"><uib-rating ng-model="${modalData.resortReview.chairLifts/2}" max="5"></uib-rating> (${modalData.resortReview.chairLifts}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.chairLifts}"><uib-rating ng-model="chairLifts" max="5"></uib-rating> (${modalData.resortReview.chairLifts}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.runs}">Runs:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.runs}"><uib-rating ng-model="${modalData.resortReview.runs/2}" max="5"></uib-rating> (${modalData.resortReview.runs}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.runs}"><uib-rating ng-model="runs" max="5"></uib-rating> (${modalData.resortReview.runs}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.terrainPark}">Terrain Park:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.terrainPark}"><uib-rating ng-model="${modalData.resortReview.terrainPark/2}" max="5"></uib-rating> (${modalData.resortReview.terrainPark}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.terrainPark}"><uib-rating ng-model="terrainPark" max="5"></uib-rating> (${modalData.resortReview.terrainPark}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.food}">Food:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.food}"><uib-rating ng-model="${modalData.resortReview.food/2}" max="5"></uib-rating> (${modalData.resortReview.food}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.food}"><uib-rating ng-model="food" max="5"></uib-rating> (${modalData.resortReview.food}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.employees}">Employees:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.employees}"><uib-rating ng-model="${modalData.resortReview.employees/2}" max="5"></uib-rating> (${modalData.resortReview.employees}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.employees}"><uib-rating ng-model="employees" max="5"></uib-rating> (${modalData.resortReview.employees}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.views}">Views:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.views}"><uib-rating ng-model="${modalData.resortReview.views/2}" max="5"></uib-rating> (${modalData.resortReview.views}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.views}"><uib-rating ng-model="views" max="5"></uib-rating> (${modalData.resortReview.views}/10)</dd>
                                                                         
                                     <dt ng-show="${!!modalData.resortReview.fun}">Fun:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.fun}"><uib-rating ng-model="${modalData.resortReview.fun/2}" max="5"></uib-rating> (${modalData.resortReview.fun}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.fun}"><uib-rating ng-model="fun" max="5"></uib-rating> (${modalData.resortReview.fun}/10)</dd>
                                                                         
                                     <dt ng-show="${!!modalData.resortReview.parking}">Parking:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.parking}"><uib-rating ng-model="${modalData.resortReview.parking/2}" max="5"></uib-rating> (${modalData.resortReview.parking}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.parking}"><uib-rating ng-model="parking" max="5"></uib-rating> (${modalData.resortReview.parking}/10)</dd>
                                     
                                     <dt ng-show="${!!modalData.resortReview.wouldIGoBack}">Would I Go Back:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.wouldIGoBack}"><uib-rating ng-model="${modalData.resortReview.wouldIGoBack/2}" max="5"></uib-rating> (${modalData.resortReview.wouldIGoBack}/10)</dd>
+                                    <dd ng-show="${!!modalData.resortReview.wouldIGoBack}"><uib-rating ng-model="wouldIGoBack" max="5"></uib-rating> (${modalData.resortReview.wouldIGoBack}/10)</dd>
                                  </dl>
                               </div>
                               <h4>Ski Resort Infomation</h4>
@@ -604,6 +613,23 @@
 
       // Modal controller      
       app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, modalData) {
+
+         $scope.modalData = modalData;
+
+         // Changing starts out of 5 because out of 10 is too cluttered. Can't divide by 2 in mg-model. 
+         $scope.price = modalData.resortReview.price/2;
+         $scope.easeOfAccess = modalData.resortReview.easeOfAccess/2;
+         $scope.lodging = modalData.resortReview.lodging/2;
+         $scope.chairLifts = modalData.resortReview.chairLifts/2;
+         $scope.runs = modalData.resortReview.runs/2;
+         $scope.terrainPark = modalData.resortReview.terrainPark/2;
+         $scope.food = modalData.resortReview.food/2;
+         $scope.employees = modalData.resortReview.employees/2;
+         $scope.views = modalData.resortReview.views/2;
+         $scope.fun = modalData.resortReview.fun/2;
+         $scope.parking = modalData.resortReview.parking/2;
+         $scope.wouldIGoBack = modalData.resortReview.wouldIGoBack/2;
+
          // Get data from skimap API
          $http({
             method: 'GET',

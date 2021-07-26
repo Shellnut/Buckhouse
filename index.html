@@ -506,7 +506,7 @@
                                     <dd>${modalData.resortReview.score}/100</dd>
 
                                     <dt ng-show="${!!modalData.resortReview.note}">Note:</dt>
-                                    <dd ng-show="${!!modalData.resortReview.note}">modalData.resortReview.note}</dd>
+                                    <dd ng-show="${!!modalData.resortReview.note}">${modalData.resortReview.note}</dd>
 
                                     <dt ng-show="${!!modalData.resortReview.price}">Price:</dt>
                                     <dd ng-show="${!!modalData.resortReview.price}"><uib-rating ng-model="price" max="5"></uib-rating> (${modalData.resortReview.price}/10)</dd>

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '07/24/2021';
+var lastUpdated = '07/28/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7347,7 +7347,8 @@ var allData = [
       "JQnkiIR__hw",
       "O9VQLnjHn54",
       "WDWstwmxBGo",
-      "AAo147A-G_0"
+      "AAo147A-G_0",
+      "qJisBzad4ZA"
     ],
     "position": {
       "lat": 39.36036098452235,
@@ -7357,9 +7358,19 @@ var allData = [
     "id": "512",
     "website": "https://www.skicooper.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 40,
+      "link": "qJisBzad4ZA",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "5",
+      "views": "5",
+      "wouldIGoBack": "6"
     },
     "skiPass": []
   },

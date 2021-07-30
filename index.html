@@ -37,6 +37,7 @@
       <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
       <!-- Custom scripts -->
       <script src="allData.js"></script>
+      <script src="globalData.js"></script>
       <script src="geoJsonData.js"></script>
       <style type="text/css">
          /* Always set the map height explicitly to define the size of the div
@@ -98,6 +99,12 @@
          dd {
             margin-left: 0px;
          }
+         .country-dropdown {
+            list-style-type: none;
+         }
+         .country-dropdown input {
+            cursor: pointer;
+         }
       </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
@@ -131,6 +138,11 @@
                         <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateRegions()" ng-model="showRegions"> Show Regions?</label>
                      </a>
                   </li>
+                  <li>
+                     <a href="javascript:void(0);">
+                        <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateGlobal()" ng-model="showGlobal"> Show Global Ski Resorts?</label>
+                     </a>
+                  </li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -142,7 +154,7 @@
 
             <!-- Progress -->
             <div>
-               <p>Johnathan has visited {{visitedCount}} out of the {{skiResortCount}}<a class="disclaimer-count" href="#change-log" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> U.S. ski resorts so far! <i>last updated: {{lastUpdated}}</i></p>
+               <p>Johnathan has visited {{visitedCount}} out of the {{skiResortCount | number:0}}<a class="disclaimer-count" href="#change-log" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> <span ng-show="!showGlobal">U.S.</span><span ng-show="showGlobal">global</span> ski resorts so far! <i>last updated: {{lastUpdated}}</i></p>
             </div>
 
             <!-- Search column -->
@@ -400,11 +412,62 @@
       });
       
       // Governing app controller
-      app.controller('myCtrl', ['$scope', '$uibModal', '$http', function($scope, $uibModal, $http) {
-         // Assign the data to the view
-          $scope.allData = JSON.parse(JSON.stringify(allData));
-          $scope.visitedCount = allData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
-          $scope.skiResortCount = allData.filter(val => val.officialSkiResort).length; 
+      app.controller('myCtrl', ['$scope', '$uibModal', function($scope, $uibModal) {
+         
+         // Get truthy or falsy value from localStorage
+         $scope.showGlobal = !!localStorage.getItem('showGlobal');
+
+         $scope.updateGlobal = function() {
+            if ($scope.showGlobal) {
+               var globalWarningModal = $uibModal.open({
+                  animation: $scope.animationsEnabled,
+                  template: `<div class="modal-header">
+                                 <h3 class="modal-title">
+                                    <div class="row">
+                                       <div class="col-xs-11">
+                                          <span>Load Global Ski Resorts</span>
+                                       </div>
+                                       <div class="col-xs-1">
+                                          <button class="btn btn-sm" style="float:right; clear:all;" ng-click="cancel()">X</button>
+                                       </div>
+                                    </div>
+                                 </h3>
+                              </div>
+                              <div class="modal-body">
+                                 <p>Loading all of the global ski resorts will slow down your browser.</p>
+                                 <br>
+                                 <p>Are you sure you want to continue?</p>
+                              </div>
+                              <div class="modal-footer">
+                                 <button class="btn btn-primary" type="button" ng-click="continue()">Continue</button>
+                                 <button class="btn btn-danger" type="button" ng-click="cancel()">Cancel</button>
+                              </div>`,
+                  controller: 'GlobalWarningModal'
+               });
+               globalWarningModal.result.then(function() {
+                  localStorage.setItem('showGlobal', '1');
+                  location.reload(); 
+               }, function () {
+                  $scope.showGlobal = false;
+               });
+            }
+            else {
+               localStorage.setItem('showGlobal', '');
+               location.reload();
+            }
+         }
+
+          // Assign the data to the view
+         if (!!localStorage.getItem('showGlobal')) {
+            $scope.allData = JSON.parse(JSON.stringify(allData)).concat(JSON.parse(JSON.stringify(globalData)));
+            $scope.visitedCount = allData.concat(globalData).filter(val => val.videos.length > 0 && val.officialSkiResort).length;
+            $scope.skiResortCount = allData.concat(globalData).filter(val => val.officialSkiResort).length; 
+         }
+         else {
+            $scope.allData = JSON.parse(JSON.stringify(allData));
+            $scope.visitedCount = allData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
+            $scope.skiResortCount = allData.filter(val => val.officialSkiResort).length; 
+         }
           $scope.lastUpdated = lastUpdated;
           $scope.orderByField = 'videos.length';
           $scope.reverseSort = true;
@@ -647,6 +710,18 @@
          };
       });
 
+      // Modal controller      
+      app.controller('GlobalWarningModal', function ($scope, $uibModalInstance) {
+         // Continue Modal
+         $scope.continue = function () {
+            $uibModalInstance.close();
+         };
+         // Cancel Modal
+         $scope.cancel = function () {
+            $uibModalInstance.dismiss();
+         };
+      });
+
       // Set the default view
       var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords
       var defaultZoom = 4;
@@ -759,20 +834,28 @@
         shadowSize: [41, 41]
       });
 
-      for (var i = 0; i<allData.length; i++) {
+      var allDataMap = [];
+      if (!!localStorage.getItem('showGlobal')) {
+         allDataMap = JSON.parse(JSON.stringify(allData)).concat(JSON.parse(JSON.stringify(globalData)));
+      }
+      else {
+         allDataMap = JSON.parse(JSON.stringify(allData));
+      }
+
+      for (var i = 0; i<allDataMap.length; i++) {
 
         // Assign the icon color (visited or not)   
         var icon;
-        if (!allData[i].officialSkiResort) {
+        if (!allDataMap[i].officialSkiResort) {
            icon = blackIcon; // unofficial ski resort
         }
-        else if (allData[i].skiOnly && allData[i].videos.length > 0) {
+        else if (allDataMap[i].skiOnly && allDataMap[i].videos.length > 0) {
            icon = greenSkiIcon; // visited ski only resort
         }
-        else if (allData[i].skiOnly && allData[i].videos.length === 0) {
+        else if (allDataMap[i].skiOnly && allDataMap[i].videos.length === 0) {
            icon = redSkiIcon; // not yet visited for ski only resort
         }
-        else if (allData[i].videos.length > 0) {
+        else if (allDataMap[i].videos.length > 0) {
            icon = greenIcon; // visited
         }
         else {
@@ -781,49 +864,49 @@
 
         // Generate the video link html
         var videoLinks;
-        if (allData[i].videos.length === 0) {
+        if (allDataMap[i].videos.length === 0) {
           videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
         }
-        else if (allData[i].videos.length === 1) {
-          videoLinks = `<p>Here is the only video of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+        else if (allDataMap[i].videos.length === 1) {
+          videoLinks = `<p>Here is the only video of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
         }
-        else if (allData[i].videos.length > 1) {
-           if (allData[i].videos.length > 200) {
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
-             `<p><iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[200]}?playlist=${allData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
+        else if (allDataMap[i].videos.length > 1) {
+           if (allDataMap[i].videos.length > 200) {
+             videoLinks = `<p>Here are ${allDataMap[i].videos.length} videos (in 2 playlists) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
+             `<p><iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[200]}?playlist=${allDataMap[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
            }
            else {
-             videoLinks = `<p>Here are ${allData[i].videos.length} videos (in a playlist) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allData[i].videos[0]}?playlist=${allData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
+             videoLinks = `<p>Here are ${allDataMap[i].videos.length} videos (in a playlist) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
            }
         }
 
         // Disclaimer for unofficial ski resorts
         var officialSkiResortWarning = '';        
-        if (!allData[i].officialSkiResort) {
+        if (!allDataMap[i].officialSkiResort) {
           officialSkiResortWarning = '<p><b>Note</b>: this is not an official ski resort</p>';
         }
 
         // Link to the website 
         var modalTitle = '';
-        if (allData[i].website) {
-          modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allData[i].website}" target="_blank" title="Resort Website">${allData[i].resortName}, ${allData[i].state}</a></h4>`;
+        if (allDataMap[i].website) {
+          modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</a></h4>`;
         }
         else {
-            modalTitle = `<h4 id="firstHeading" class="firstHeading">${allData[i].resortName}, ${allData[i].state}</h4>`;
+            modalTitle = `<h4 id="firstHeading" class="firstHeading">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</h4>`;
         }
 
         // Link to the score
         var resortReview = '';
-        if (allData[i].resortReview.score && !allData[i].resortReview.note) {
-          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allData[i].resortReview.link}">${allData[i].resortReview.score}/100</a></p>`;
+        if (allDataMap[i].resortReview.score && !allDataMap[i].resortReview.note) {
+          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allDataMap[i].resortReview.link}">${allDataMap[i].resortReview.score}/100</a></p>`;
         }
-        else if (allData[i].resortReview.score && allData[i].resortReview.note) {
-          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allData[i].resortReview.link}">${allData[i].resortReview.score}/100</a>*<br/><small>*${allData[i].resortReview.note}</small></p>`;
+        else if (allDataMap[i].resortReview.score && allDataMap[i].resortReview.note) {
+          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allDataMap[i].resortReview.link}">${allDataMap[i].resortReview.score}/100</a>*<br/><small>*${allDataMap[i].resortReview.note}</small></p>`;
         }
 
         // Link to the ski pass(es)
         var skiPasses = '';
-        if (allData[i].skiPass.length > 0) {
+        if (allDataMap[i].skiPass.length > 0) {
          var passes = [
             {
                name: 'Epic',
@@ -842,7 +925,7 @@
                link: `<a target="_blank" href="https://www.powderalliance.com">Powder Alliance</a>`
             }
          ];
-         skiPasses = `<p>${(allData[i].skiPass.length>1) ? 'Ski Passes:' : 'Ski Pass:'} ${passes.filter(val => allData[i].skiPass.includes(val.name)).map(val => val.link).join(', ')}`;
+         skiPasses = `<p>${(allDataMap[i].skiPass.length>1) ? 'Ski Passes:' : 'Ski Pass:'} ${passes.filter(val => allDataMap[i].skiPass.includes(val.name)).map(val => val.link).join(', ')}`;
         }
 
         // HTML popup content
@@ -865,17 +948,17 @@
         };
 
         // Marker options
-        L.marker([allData[i].position.lat, allData[i].position.lng], {icon: icon}).addTo(mymap)
+        L.marker([allDataMap[i].position.lat, allDataMap[i].position.lng], {icon: icon}).addTo(mymap)
         .bindPopup(popupContent, popupOptions)
-        .bindTooltip(allData[i].resortName + (allData[i].officialSkiResort ? '' : ' (unofficial ski resort)'));
+        .bindTooltip(allDataMap[i].resortName + (allDataMap[i].officialSkiResort ? '' : ' (unofficial ski resort)'));
       }
 
       //Pans to corresponding resort
       function tableRowClick(x) {
          var clickedResortInfoArray = (x.innerText.trim()).split("	");
          
-         for (i = 0; i < allData.length; ++i) {
-            var resort = allData[i];
+         for (i = 0; i < allDataMap.length; ++i) {
+            var resort = allDataMap[i];
             if(resort.resortName == clickedResortInfoArray[0] && resort.region == clickedResortInfoArray[3] && resort.city == clickedResortInfoArray[5]) {
                
                var coords = L.latLng(resort.position.lat, resort.position.lng);

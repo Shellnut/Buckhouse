@@ -746,7 +746,23 @@
       }).addTo(mymap);
 
       // Load the icon preference
-      var iconPreference = !!localStorage.getItem('plainMarker') ? 'plain_marker' : 'snowboard_marker';
+      var iconPreference;
+      if (!!localStorage.getItem('showGlobal')) {
+         if (!!localStorage.getItem('plainMarker')) {
+            iconPreference = 'light_weight_plain';
+         }
+         else {
+            iconPreference = 'light_weight_snowboard';
+         }
+      }
+      else {
+         if (!!localStorage.getItem('plainMarker')) {
+            iconPreference = 'plain_marker';
+         }
+         else {
+            iconPreference = 'snowboard_marker';
+         }
+      }
 
       // Load the region line preference
       var regionPreference = !!localStorage.getItem('showRegions');

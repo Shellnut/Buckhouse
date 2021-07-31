@@ -1,6 +1,13 @@
 // // var globalData = https://skimap.org/SkiAreas/index.json
-// var myIds = allData.map(val => val.id).filter(val => val);
-// var myGlobalData = globalData.filter(val => !myIds.includes(val.SkiArea.id)).map(val => {
+// var globalData = JSON.parse(document.getElementsByTagName('pre')[0].innerText);
+// var myIds = allData.map(val => val.id);
+// var myGlobalData = globalData
+//     .filter(val => val)
+//     .filter(val => !myIds.includes(val.SkiArea.id))
+//     .filter(val => val.SkiArea.geo_lat && val.SkiArea.geo_lng)
+//     .filter(val => val.SkiArea.operating_status==="1")
+//     .filter(val => val.SkiArea.has_downhill)
+//     .map(val => {
 //     return {
 //       "resortName": val.SkiArea.name,
 //       "state": "",
@@ -21,7 +28,7 @@
 //       },
 //       "skiPass": []
 //     }
-//   }).filter(val => val.position.lat && val.position.lng)
+//   })
 var globalData = [
     {
         "resortName": "Smokey Mountain Ski Club",
@@ -1444,26 +1451,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Mont Ti-Basse",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.2893623841344,
-            "lng": -68.1672477722168
-        },
-        "officialSkiResort": true,
-        "id": "81",
-        "website": "http://www.ville.baie-comeau.qc.ca/en/living/leisure/activities/ski/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Owl's Head",
         "state": "",
         "region": "",
@@ -2644,26 +2631,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Tyrol Basin",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.042747222222,
-            "lng": -89.777719444444
-        },
-        "officialSkiResort": true,
-        "id": "162",
-        "website": "http://www.tyrolbasin.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Rock Snowpark (Crystal Ridge)",
         "state": "",
         "region": "",
@@ -2676,26 +2643,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "174",
         "website": "https://www.rocksnowpark.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Cascade Mountain",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.4990091695623,
-            "lng": -89.5147132873535
-        },
-        "officialSkiResort": true,
-        "id": "175",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -2724,26 +2671,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Timberline Mountain (Timberline Four Seasons Resort)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 39.0375863227058,
-            "lng": -79.3971633911133
-        },
-        "officialSkiResort": true,
-        "id": "183",
-        "website": "https://timberlinemountain.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Crystal Mountain Resort",
         "state": "",
         "region": "",
@@ -2756,26 +2683,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "193",
         "website": "https://www.crystalmountainresort.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "The Homestead Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 37.9945393246973,
-            "lng": -79.8213386535645
-        },
-        "officialSkiResort": true,
-        "id": "198",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",
@@ -2836,46 +2743,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "206",
         "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Burke Mountain",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.568055555556,
-            "lng": -71.885833333333
-        },
-        "officialSkiResort": true,
-        "id": "208",
-        "website": "http://www.skiburke.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Middlebury College Snow Bowl",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.94,
-            "lng": -72.96
-        },
-        "officialSkiResort": true,
-        "id": "214",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -3004,46 +2871,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Big Boulder Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 41.0472525151724,
-            "lng": -75.6017303466797
-        },
-        "officialSkiResort": true,
-        "id": "252",
-        "website": "https://www.jfbb.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Jack Frost Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 41.0473819766077,
-            "lng": -75.3531646728516
-        },
-        "officialSkiResort": true,
-        "id": "254",
-        "website": null,
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Blue Mountain Ski Area",
         "state": "",
         "region": "",
@@ -3124,46 +2951,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Appalachian Ski Mtn.",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 36.1737033620756,
-            "lng": -81.663179397583
-        },
-        "officialSkiResort": true,
-        "id": "285",
-        "website": null,
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Ski Plattekill",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.2891197679707,
-            "lng": -74.6539878845215
-        },
-        "officialSkiResort": true,
-        "id": "293",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Cockaigne Ski Resort",
         "state": "",
         "region": "",
@@ -3176,26 +2963,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "303",
         "website": "http://www.cockaigne.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "HoliMont",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.2707038126415,
-            "lng": -78.6857986450195
-        },
-        "officialSkiResort": true,
-        "id": "319",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -3244,26 +3011,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Taos Ski Valley",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 36.581549006993,
-            "lng": -105.45122154545
-        },
-        "officialSkiResort": true,
-        "id": "338",
-        "website": null,
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "National Winter Activity Center (Hidden Valley)",
         "state": "",
         "region": "",
@@ -3284,46 +3031,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Gunstock Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.5373493971894,
-            "lng": -71.3697624206543
-        },
-        "officialSkiResort": true,
-        "id": "342",
-        "website": null,
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Black Mountain",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.1703848825962,
-            "lng": -71.1651420593262
-        },
-        "officialSkiResort": true,
-        "id": "348",
-        "website": "https://www.blackmt.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Hidden Valley",
         "state": "",
         "region": "",
@@ -3336,26 +3043,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "377",
         "website": "https://www.hiddenvalleyski.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Powder Ridge Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.343941498219,
-            "lng": -94.3088722229004
-        },
-        "officialSkiResort": true,
-        "id": "385",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -3424,26 +3111,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Petosky Winter Sports Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.37596556543148,
-            "lng": -84.94496941566467
-        },
-        "officialSkiResort": true,
-        "id": "405",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Missaukee Mountain",
         "state": "",
         "region": "",
@@ -3456,26 +3123,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "408",
         "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Timber Ridge Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.391711111111,
-            "lng": -85.779052777778
-        },
-        "officialSkiResort": true,
-        "id": "417",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -3816,146 +3463,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "565",
         "website": "http://www.trollskiresort.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Whistler Cross Country Connection",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.1199727376129,
-            "lng": -122.947955131531
-        },
-        "officialSkiResort": true,
-        "id": "568",
-        "website": "http://www.crosscountryconnection.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Golden Golf Course",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.3327299426287,
-            "lng": -117.007398605347
-        },
-        "officialSkiResort": true,
-        "id": "569",
-        "website": "http://www.goldennordicclub.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Dawn Mountain Nordic",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.3033867345508,
-            "lng": -117.054905891418
-        },
-        "officialSkiResort": true,
-        "id": "570",
-        "website": "http://www.goldennordicclub.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Nickel Plate Nordic Centre",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.3837557095835,
-            "lng": -119.954330921173
-        },
-        "officialSkiResort": true,
-        "id": "572",
-        "website": "http://www.nickelplatenordic.org",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Stake Lake",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.5114616230844,
-            "lng": -120.481910705566
-        },
-        "officialSkiResort": true,
-        "id": "573",
-        "website": "http://www.overlanderskiclub.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Ski Callaghan (Whistler Olympic Park, Callaghan Country)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.1351594655488,
-            "lng": -123.11674118042
-        },
-        "officialSkiResort": true,
-        "id": "574",
-        "website": "https://skicallaghan.ca/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Black Jack",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.1130964549587,
-            "lng": -117.813606262207
-        },
-        "officialSkiResort": true,
-        "id": "575",
-        "website": "http://www.skiblackjack.ca/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -5184,26 +4691,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Le Fanget",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.32753595189886,
-            "lng": 6.328142547607513
-        },
-        "officialSkiResort": true,
-        "id": "662",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Le Grand Puy",
         "state": "",
         "region": "",
@@ -5436,26 +4923,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "675",
         "website": "http://www.chaillol.fr",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Château-Ville-Vieille",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.7569429952015,
-            "lng": 6.79319858551025
-        },
-        "officialSkiResort": true,
-        "id": "676",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -5895,26 +5362,6 @@ var globalData = [
         },
         "officialSkiResort": true,
         "id": "706",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Herbouilly",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.034830401552775,
-            "lng": 5.493315607309342
-        },
-        "officialSkiResort": true,
-        "id": "709",
         "website": "",
         "resortReview": {
             "score": "",
@@ -6424,26 +5871,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Le Val d'Ambin (Val Cenis)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.220122913010776,
-            "lng": 6.806223392486572
-        },
-        "officialSkiResort": true,
-        "id": "748",
-        "website": "http://www.valcenis.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Savoie Grand Revard",
         "state": "",
         "region": "",
@@ -6684,26 +6111,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Mystic Mountain at Nemacolin Woodlands Resort",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 39.8152609925061,
-            "lng": -79.5497703552246
-        },
-        "officialSkiResort": true,
-        "id": "1089",
-        "website": null,
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Pralognan-la-Vanoise",
         "state": "",
         "region": "",
@@ -6776,26 +6183,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "784",
         "website": "http://www.saintefoy-tarentaise.com/english/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Sardières (Val Cenis)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.24257856658994,
-            "lng": 6.78024328422546
-        },
-        "officialSkiResort": true,
-        "id": "785",
-        "website": "http://www.valcenis.com",
         "resortReview": {
             "score": "",
             "link": "",
@@ -7404,26 +6791,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Station du Haut-Folin",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.00492886384208,
-            "lng": 4.035158157348633
-        },
-        "officialSkiResort": true,
-        "id": "846",
-        "website": "http://skimorvan.wix.com/haut-folin",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Arette-La Pierre St. Martin",
         "state": "",
         "region": "",
@@ -7516,26 +6883,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "851",
         "website": "http://www.n-py.com/fr/grand-tourmalet",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Beille",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.72342248196226,
-            "lng": 1.6912132501602175
-        },
-        "officialSkiResort": true,
-        "id": "852",
-        "website": "http://www.beille.fr/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -7876,26 +7223,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "875",
         "website": "http://www.n-py.com/fr/piau",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Porté-Puymorens",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.54742509294776,
-            "lng": 1.8249496459961847
-        },
-        "officialSkiResort": true,
-        "id": "876",
-        "website": "http://www.porte-puymorens.net/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -8344,26 +7671,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Chapelle-des-Bois",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.599166666667,
-            "lng": 6.1152777777778
-        },
-        "officialSkiResort": true,
-        "id": "914",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Chaux-Neuve",
         "state": "",
         "region": "",
@@ -8376,26 +7683,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "917",
         "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Saint Pierre (Grandvaux)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.58229090625132,
-            "lng": 5.921361349755898
-        },
-        "officialSkiResort": true,
-        "id": "920",
-        "website": "https://www.haut-jura-grandvaux.com/fr/bouger/activites-hivernales/ski-nordique/F339001826_domaine-de-ski-nordique-de-saint-pierre-saint-pierre.html",
         "resortReview": {
             "score": "",
             "link": "",
@@ -8544,26 +7831,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Morbier",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.55652641549864,
-            "lng": 6.022275409195573
-        },
-        "officialSkiResort": true,
-        "id": "940",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Val de Mouthe-Chapelle des Bois",
         "state": "",
         "region": "",
@@ -8576,26 +7843,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "941",
         "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Prénovel (Grandvaux)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.51184000000006,
-            "lng": 5.838880000000074
-        },
-        "officialSkiResort": true,
-        "id": "943",
-        "website": "https://www.haut-jura-grandvaux.com/fr/bouger/activites-hivernales/ski-nordique/F339001828_domaine-de-ski-nordique-de-nanchez-nanchez.html",
         "resortReview": {
             "score": "",
             "link": "",
@@ -8676,46 +7923,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "948",
         "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Guéry",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.6215161620285,
-            "lng": 2.819696366786957
-        },
-        "officialSkiResort": true,
-        "id": "951",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Le Pilat",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.367053436253485,
-            "lng": 4.5277208648622045
-        },
-        "officialSkiResort": true,
-        "id": "952",
-        "website": "https://www.pilat-tourisme.fr/planifier/activites-et-detente/neige-et-glisse/domaines-nordiques/domaine-nordique-le-bessat-les-grands-bois-1645730",
         "resortReview": {
             "score": "",
             "link": "",
@@ -9764,26 +8971,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Spanish Peaks Resort",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.260902210131,
-            "lng": -111.36972784996
-        },
-        "officialSkiResort": true,
-        "id": "1026",
-        "website": "http://www.spanishpeaksresort.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Vallée de Joux",
         "state": "",
         "region": "",
@@ -10064,26 +9251,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Mont-Bélu",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 48.3241286341546,
-            "lng": -70.8391571044922
-        },
-        "officialSkiResort": true,
-        "id": "1061",
-        "website": "http://www.montbelu.com/accueil/accueil.php",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Toboski",
         "state": "",
         "region": "",
@@ -10336,26 +9503,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "1080",
         "website": "http://www.paradiski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Portillo",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -32.837013,
-            "lng": -70.128865
-        },
-        "officialSkiResort": true,
-        "id": "1093",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",
@@ -11204,26 +10351,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "La Parva",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -33.3325361843748,
-            "lng": -70.29052734375
-        },
-        "officialSkiResort": true,
-        "id": "1143",
-        "website": "http://www.laparva.cl/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Valle Nevado",
         "state": "",
         "region": "",
@@ -11424,26 +10551,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Lake Mountain",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -37.5117173082665,
-            "lng": 145.874297618866
-        },
-        "officialSkiResort": true,
-        "id": "1165",
-        "website": "http://www.lakemountainresort.com.au",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Mount Baw Baw",
         "state": "",
         "region": "",
@@ -11496,26 +10603,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "1169",
         "website": "http://www.hotham.com.au",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Mount Stirling",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -37.1132922199397,
-            "lng": 146.463482379913
-        },
-        "officialSkiResort": true,
-        "id": "1170",
-        "website": "http://www.mtstirling.com.au",
         "resortReview": {
             "score": "",
             "link": "",
@@ -15416,26 +14503,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "1435",
         "website": "http://www.hunter.co.jp/winter/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kōtoku Cross-Country (光徳牧場)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 36.795303350908796,
-            "lng": 139.45180386682125
-        },
-        "officialSkiResort": true,
-        "id": "1436",
-        "website": "http://www.tobuhotel.co.jp/nikkoastraea/007xc/index.html",
         "resortReview": {
             "score": "",
             "link": "",
@@ -20844,66 +19911,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "La Rabassa",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.435707257378,
-            "lng": 1.51963233947754
-        },
-        "officialSkiResort": true,
-        "id": "1809",
-        "website": "http://w9.naturlandia.ad/activities/cross-country-skiing/?lang=en",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Jahorina",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.726666666667,
-            "lng": 18.576944444444
-        },
-        "officialSkiResort": true,
-        "id": "1813",
-        "website": "http://www.jahorina.org/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Bjelasnica",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.715555555556,
-            "lng": 18.284722222222
-        },
-        "officialSkiResort": true,
-        "id": "1814",
-        "website": "https://www.zoi84.ba/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Bansko",
         "state": "",
         "region": "",
@@ -22564,26 +21571,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Björkliden",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 68.4035286415629,
-            "lng": 18.67800454526366
-        },
-        "officialSkiResort": true,
-        "id": "2000",
-        "website": "http://bjorkliden.com/en/skiing/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Bydalen",
         "state": "",
         "region": "",
@@ -23004,26 +21991,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Campo Felice - Rocca di Cambio",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.2173028127317,
-            "lng": 13.478783035278411
-        },
-        "officialSkiResort": true,
-        "id": "2060",
-        "website": "http://www.campofelice.it/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Canazei",
         "state": "",
         "region": "",
@@ -23284,26 +22251,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Monte Amiata",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.9,
-            "lng": 11.633333333333
-        },
-        "officialSkiResort": true,
-        "id": "2075",
-        "website": "http://www.amiataneve.it",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Monte Bondone",
         "state": "",
         "region": "",
@@ -23416,26 +22363,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "13783",
         "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Passo dello Stelvio",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.50120230701177,
-            "lng": 10.619591140747161
-        },
-        "officialSkiResort": true,
-        "id": "2084",
-        "website": "http://www.passostelvio.com/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -23844,26 +22771,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Le Lac-des-Rouges-Truites (Grandvaux)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.60307422541774,
-            "lng": 6.004277184069822
-        },
-        "officialSkiResort": true,
-        "id": "15313",
-        "website": "https://www.espacenordiquejurassien.com/annuaire/site_nordique_du_lac_des_rouges_truites~8c6ea462415f71e62add1bc0b96.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Moose Mountain",
         "state": "",
         "region": "",
@@ -24016,26 +22923,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2152",
         "website": "http://www.arber.de/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Ratschings / Racines",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.8640643755183,
-            "lng": 11.3087511062622
-        },
-        "officialSkiResort": true,
-        "id": "2153",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -24324,26 +23211,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Medicine Lodge",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 52.454868,
-            "lng": -114.258306
-        },
-        "officialSkiResort": true,
-        "id": "2176",
-        "website": null,
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Pass Powderkeg",
         "state": "",
         "region": "",
@@ -24464,26 +23331,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Wapiti Ski Club",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.02153,
-            "lng": -114.939518
-        },
-        "officialSkiResort": true,
-        "id": "2195",
-        "website": "http://wapitiskiclub.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Tweedsmuir Ski Club",
         "state": "",
         "region": "",
@@ -24496,26 +23343,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2197",
         "website": "http://www.tweedsmuirskiclub.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "108 Mile House",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.736588,
-            "lng": -121.323188
-        },
-        "officialSkiResort": true,
-        "id": "2198",
-        "website": null,
         "resortReview": {
             "score": "",
             "link": "",
@@ -25084,26 +23911,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Petit Chamonix",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.9748693650962,
-            "lng": -66.9560050964355
-        },
-        "officialSkiResort": true,
-        "id": "2235",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Mont Pin Rouge",
         "state": "",
         "region": "",
@@ -25156,26 +23963,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2239",
         "website": "http://www.montbechervaise.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Mont Chilly",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.9164075906787,
-            "lng": -76.7445659637451
-        },
-        "officialSkiResort": true,
-        "id": "2240",
-        "website": "http://www.montchilly.ca/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -25264,86 +24051,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Dakota Ridge",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.5047013451309,
-            "lng": -123.607864379883
-        },
-        "officialSkiResort": true,
-        "id": "2262",
-        "website": "http://www.scrd.ca/index.php?page_id=359",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Bulkley Valley",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 54.731459975855,
-            "lng": -127.221508026123
-        },
-        "officialSkiResort": true,
-        "id": "2263",
-        "website": "http://www.bvnordic.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Otway Nordic Centre (Caledonia)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.9709308338747,
-            "lng": -122.87392616272
-        },
-        "officialSkiResort": true,
-        "id": "2264",
-        "website": "http://www.caledonianordic.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Hallis Lake",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 52.9259287668894,
-            "lng": -122.348470687866
-        },
-        "officialSkiResort": true,
-        "id": "2265",
-        "website": "http://www.caribooski.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "China Ridge (Snowpatch)",
         "state": "",
         "region": "",
@@ -25356,226 +24063,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2266",
         "website": "http://www.chinaridgetrails.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Paulson X-C (Castlegar Nordic)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.2434076424708,
-            "lng": -117.999043464661
-        },
-        "officialSkiResort": true,
-        "id": "2267",
-        "website": "http://www.castlegarnordic.ca/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Island Lake Lodge",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.5094248462938,
-            "lng": -115.176758766174
-        },
-        "officialSkiResort": true,
-        "id": "2268",
-        "website": "http://www.islandlakeresorts.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Fernie Golf Course",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.5167391029447,
-            "lng": -115.048828125
-        },
-        "officialSkiResort": true,
-        "id": "2269",
-        "website": "http://www.fernienordic.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Larch Hills Nordics",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.7085256936893,
-            "lng": -119.135656356812
-        },
-        "officialSkiResort": true,
-        "id": "2270",
-        "website": "http://www.skilarchhills.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Nelson Nordic",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.404746208042,
-            "lng": -117.204208374023
-        },
-        "officialSkiResort": true,
-        "id": "2271",
-        "website": "http://www.nelsonnordicski.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "99 Mile Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.6196152922423,
-            "lng": -121.313953399658
-        },
-        "officialSkiResort": true,
-        "id": "2272",
-        "website": "http://www.100milenordics.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Revelstoke Nordic - Mount MacPherson",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.9427997774858,
-            "lng": -118.223104476929
-        },
-        "officialSkiResort": true,
-        "id": "2273",
-        "website": "http://www.revelstokenordic.org",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Onion Lake (Snow Valley Nordic)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 54.2956906620322,
-            "lng": -128.5400390625
-        },
-        "officialSkiResort": true,
-        "id": "2274",
-        "website": "http://www.snowvalleynordics.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Telemark Cross Country",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.8628311815986,
-            "lng": -119.714756011963
-        },
-        "officialSkiResort": true,
-        "id": "2275",
-        "website": "http://www.telemarkx-c.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Nipika",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.6165780450423,
-            "lng": -115.79418182373
-        },
-        "officialSkiResort": true,
-        "id": "2276",
-        "website": "http://www.nipika.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Sovereign Lake",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.3625466558321,
-            "lng": -119.105701446533
-        },
-        "officialSkiResort": true,
-        "id": "2277",
-        "website": "http://www.sovereignlake.com/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -26984,26 +25471,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Mountain Top Cross Country Ski Resort",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.7298568,
-            "lng": -72.9375306
-        },
-        "officialSkiResort": true,
-        "id": "2666",
-        "website": "http://www.mountaintopinn.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Роза Хутор (Rosa Khutor, Krasnaya Polyana, Sochi)",
         "state": "",
         "region": "",
@@ -27264,26 +25731,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Hirschberg-Bizau",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.365226206024,
-            "lng": 9.9571928024292
-        },
-        "officialSkiResort": true,
-        "id": "2708",
-        "website": null,
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Silvretta Montafon (Hochjoch, Nova)",
         "state": "",
         "region": "",
@@ -27356,26 +25803,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2724",
         "website": "http://www.kristbergbahn.at/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Muttersberg (Bludenz)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.180878602834,
-            "lng": 9.8250993728638
-        },
-        "officialSkiResort": true,
-        "id": "2725",
-        "website": "http://www.muttersberg.at/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -27544,46 +25971,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Nakkertok",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.5335594365751,
-            "lng": -75.720648765564
-        },
-        "officialSkiResort": true,
-        "id": "2786",
-        "website": "http://www.nakertok.ca/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kane Valley (Nicola Nordic Ski Club)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.9936475520755,
-            "lng": -120.670021295547
-        },
-        "officialSkiResort": true,
-        "id": "2787",
-        "website": "http://www.sonotek.com/kanevly1.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Feleacu (Cluj-Napoca)",
         "state": "",
         "region": "",
@@ -27616,26 +26003,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2798",
         "website": "http://www.suior.ro/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Gatineau Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.497112697779,
-            "lng": -75.857162475586
-        },
-        "officialSkiResort": true,
-        "id": "2799",
-        "website": "http://www.canadascapital.gc.ca/bins/ncc_web_content_page.asp?cid=16297-16299-10170&lang=1",
         "resortReview": {
             "score": "",
             "link": "",
@@ -27724,86 +26091,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Centro de Actividades Invernales Ushuaia Blanca",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -54.718379978948285,
-            "lng": -68.02707854658365
-        },
-        "officialSkiResort": true,
-        "id": "2853",
-        "website": "http://www.ushuaiablanca.com.ar",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Centro Invernal Tierra Mayor",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -54.71638999999993,
-            "lng": -68.08274999999998
-        },
-        "officialSkiResort": true,
-        "id": "2851",
-        "website": "http://www.tierramayor.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Haruwen",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -54.733499999999935,
-            "lng": -67.90200999999996
-        },
-        "officialSkiResort": true,
-        "id": "2850",
-        "website": "http://www.haruwen.com.ar",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Francisco Jerman",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -54.80994312106004,
-            "lng": -68.3652648702264
-        },
-        "officialSkiResort": true,
-        "id": "2849",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Mt St Bernard",
         "state": "",
         "region": "",
@@ -27836,26 +26123,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2856",
         "website": "http://www.telefericobariloche.com.ar",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Centro de Esqui Nordico Cerro Otto",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": -41.145967001485225,
-            "lng": -71.36417001485826
-        },
-        "officialSkiResort": true,
-        "id": "2857",
-        "website": "http://www.skinordico.com/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -27904,46 +26171,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Canmore Nordic Centre",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.0925,
-            "lng": -115.39
-        },
-        "officialSkiResort": true,
-        "id": "2868",
-        "website": "http://www.canmorenordic.com/main.php?p=1",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Windsor Park Nordic Centre",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.8597050397739,
-            "lng": -97.0993137359619
-        },
-        "officialSkiResort": true,
-        "id": "2866",
-        "website": "http://www.ccski.mb.ca/windsor_park_nordic_centre.htm",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Şureanu",
         "state": "",
         "region": "",
@@ -27956,46 +26183,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "2869",
         "website": "http://www.schisureanu.ro/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Flagstaff Nordic Center",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 35.3670712411203,
-            "lng": -111.790303587913
-        },
-        "officialSkiResort": true,
-        "id": "2870",
-        "website": "http://www.flagstaffnordiccenter.com/index.php",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Omineca Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 54.1812284009999,
-            "lng": -125.718571662903
-        },
-        "officialSkiResort": true,
-        "id": "2872",
-        "website": "http://ominecaskiclub.ca/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -28064,706 +26251,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Argyll Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.5064006685426,
-            "lng": -113.46284866333
-        },
-        "officialSkiResort": true,
-        "id": "2976",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Whitehorse Nordic Centre (Mt.McIntyre Trails)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 60.7278459282589,
-            "lng": -135.100775957108
-        },
-        "officialSkiResort": true,
-        "id": "2898",
-        "website": "http://www.xcskiwhitehorse.ca/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Lappe Nordic Centre",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 48.5644532245128,
-            "lng": -89.4044637680054
-        },
-        "officialSkiResort": true,
-        "id": "2899",
-        "website": "http://www.lappenordic.ca/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Logan Lake Lodge Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.5001321733412,
-            "lng": -120.81306886673
-        },
-        "officialSkiResort": true,
-        "id": "2900",
-        "website": "http://www.loganlake.com/htmlVersion/index.htm",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Jewel Lake Cross Country Ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.1642564563504,
-            "lng": -118.62522315979
-        },
-        "officialSkiResort": true,
-        "id": "2901",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Les Aventuriers cross country ski Club",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.9698413780317,
-            "lng": -66.3410711288452
-        },
-        "officialSkiResort": true,
-        "id": "2903",
-        "website": "http://www.charloaventuriers.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kimberley Nordic Centre",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.6820527434237,
-            "lng": -116.007601737976
-        },
-        "officialSkiResort": true,
-        "id": "2904",
-        "website": "http://www.kimberleynordic.org/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "McKinney Nordic Ski Club",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.1064840474701,
-            "lng": -119.282881355286
-        },
-        "officialSkiResort": true,
-        "id": "2909",
-        "website": "http://www.mckinneynordicskiclub.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Camrose Nordic Centre",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.0045063569381,
-            "lng": -112.830190658569
-        },
-        "officialSkiResort": true,
-        "id": "2910",
-        "website": "http://www.camroseskiclub.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "North Bay Nordic Ski Club Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.3420542396362,
-            "lng": -79.3178987503052
-        },
-        "officialSkiResort": true,
-        "id": "2911",
-        "website": "http://www.northbaynordic.ca/index.php?option=com_frontpage&Itemid=1",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kincaid Park Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.1541071118675,
-            "lng": -150.054895877838
-        },
-        "officialSkiResort": true,
-        "id": "2932",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "White Butte Cross Country ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.4765982915338,
-            "lng": -104.367198944092
-        },
-        "officialSkiResort": true,
-        "id": "2914",
-        "website": "http://www.reginaskiclub.ca/index.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "AE Wilson Park cross country ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.4632686257156,
-            "lng": -104.676103591919
-        },
-        "officialSkiResort": true,
-        "id": "2915",
-        "website": "http://www.reginaskiclub.ca/citytrails.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Big Bar Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.1478063011302,
-            "lng": -121.505271911621
-        },
-        "officialSkiResort": true,
-        "id": "2928",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Lower Lake Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.7489308683869,
-            "lng": -121.166412353516
-        },
-        "officialSkiResort": true,
-        "id": "2929",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Les Sherman Park cross country ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.4407252950983,
-            "lng": -104.636793136597
-        },
-        "officialSkiResort": true,
-        "id": "2917",
-        "website": "http://www.reginaskiclub.ca/citytrails.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Douglas Park cross country ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.4280689987232,
-            "lng": -104.578943252563
-        },
-        "officialSkiResort": true,
-        "id": "2918",
-        "website": "http://www.reginaskiclub.ca/citytrails.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Foothills cross country ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.4264628012766,
-            "lng": -104.585219621658
-        },
-        "officialSkiResort": true,
-        "id": "2919",
-        "website": "http://www.reginaskiclub.ca/citytrails.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Science Centre cross country ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.43223802295,
-            "lng": -104.595251083374
-        },
-        "officialSkiResort": true,
-        "id": "2920",
-        "website": "http://www.reginaskiclub.ca/citytrails.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kinsmen Park cross country ski trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.4241661860352,
-            "lng": -104.632598161697
-        },
-        "officialSkiResort": true,
-        "id": "2921",
-        "website": "http://www.reginaskiclub.ca/citytrails.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Duck Mountain Provincial Park Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.6358659872576,
-            "lng": -101.629285812378
-        },
-        "officialSkiResort": true,
-        "id": "2922",
-        "website": "http://www.tpcs.gov.sk.ca/DuckMountain",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Moose Mountain Provincial Park Cross Country ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.8150593867426,
-            "lng": -102.359104156494
-        },
-        "officialSkiResort": true,
-        "id": "2923",
-        "website": "http://www.tpcs.gov.sk.ca/MooseMountain",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Greenwater Lake provincial Park Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 52.4937296075412,
-            "lng": -103.494987487793
-        },
-        "officialSkiResort": true,
-        "id": "2924",
-        "website": "http://www.tpcs.gov.sk.ca/GreenwaterLake",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Echo Valley Provincial Park Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.7946920057497,
-            "lng": -103.898134231567
-        },
-        "officialSkiResort": true,
-        "id": "2925",
-        "website": "http://www.tpcs.gov.sk.ca/EchoValley",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Good Spirit Lake Provincial Park Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.5042549065933,
-            "lng": -102.665176391602
-        },
-        "officialSkiResort": true,
-        "id": "2926",
-        "website": "http://www.tpcs.gov.sk.ca/goodspiritlake",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Prince Albert National Park Cross Country",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.7965953258903,
-            "lng": -106.083297729492
-        },
-        "officialSkiResort": true,
-        "id": "2927",
-        "website": "http://www.pc.gc.ca/eng/pn-np/sk/princealbert/index/aspx",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Hillside Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.140687587672,
-            "lng": -149.780731201172
-        },
-        "officialSkiResort": true,
-        "id": "2933",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Campbell Airstrip Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.1547903609129,
-            "lng": -149.79043006897
-        },
-        "officialSkiResort": true,
-        "id": "2934",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Russian Jack Trail System",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.2062606138163,
-            "lng": -149.788477420807
-        },
-        "officialSkiResort": true,
-        "id": "2935",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Bartlett High School Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.2337817062097,
-            "lng": -149.730434417725
-        },
-        "officialSkiResort": true,
-        "id": "2936",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Beach Lake Nordic Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.3756733157275,
-            "lng": -149.539890289307
-        },
-        "officialSkiResort": true,
-        "id": "2938",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Edmonds Lake Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.4293689590123,
-            "lng": -149.413375854492
-        },
-        "officialSkiResort": true,
-        "id": "2939",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Mirror Lake Coyote Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.4280964506741,
-            "lng": -149.423503875732
-        },
-        "officialSkiResort": true,
-        "id": "2940",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Sheep Mountain Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 61.8124543853689,
-            "lng": -147.498707771301
-        },
-        "officialSkiResort": true,
-        "id": "2941",
-        "website": "http://www.anchoragenordicski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Pheonix Cross Country Ski Club",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.10667129081,
-            "lng": -118.598465442657
-        },
-        "officialSkiResort": true,
-        "id": "2942",
-        "website": "http://pheonixccc.tripod.com/index.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Awakino Skifield (Waitaki Ski Club)",
         "state": "",
         "region": "",
@@ -28784,86 +26271,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Victoria Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.5324581928717,
-            "lng": -113.515559434891
-        },
-        "officialSkiResort": true,
-        "id": "2974",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "William Hawrelak Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.5332935545195,
-            "lng": -113.540782928467
-        },
-        "officialSkiResort": true,
-        "id": "2975",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Snow Valley",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.4852111427285,
-            "lng": -113.55610370636
-        },
-        "officialSkiResort": true,
-        "id": "2972",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Terwillegar Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.4799248762463,
-            "lng": -113.607902526855
-        },
-        "officialSkiResort": true,
-        "id": "2973",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Gaustablikk Skisenter",
         "state": "",
         "region": "",
@@ -28875,26 +26282,6 @@ var globalData = [
         },
         "officialSkiResort": true,
         "id": "2970",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kinsmen Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.5273245018806,
-            "lng": -113.505313396454
-        },
-        "officialSkiResort": true,
-        "id": "2971",
         "website": "",
         "resortReview": {
             "score": "",
@@ -28944,26 +26331,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Goldbar Park (including goldstick park, riverside golf course and capilano park)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.5571103674879,
-            "lng": -113.406114578247
-        },
-        "officialSkiResort": true,
-        "id": "2967",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Skeetawk (Hatcher Pass)",
         "state": "",
         "region": "",
@@ -29004,86 +26371,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Airport Nordic Ski Club Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 48.9624127803499,
-            "lng": -54.666166305542
-        },
-        "officialSkiResort": true,
-        "id": "3033",
-        "website": "http://www.airportnordic.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Aurora Nordic Ski Club Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 51.3996875915223,
-            "lng": -55.5905628204346
-        },
-        "officialSkiResort": true,
-        "id": "3034",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Butterpot Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.3825367601819,
-            "lng": -53.0448782444
-        },
-        "officialSkiResort": true,
-        "id": "3035",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Blow Me Down Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 48.92218670162866,
-            "lng": -57.99173230466306
-        },
-        "officialSkiResort": true,
-        "id": "3036",
-        "website": "http://blowmedown.ca/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Wirzweli",
         "state": "",
         "region": "",
@@ -29096,46 +26383,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "3038",
         "website": "http://www.wirzweli.ch/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Birch Brook Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 53.4153256599877,
-            "lng": -60.4098272323608
-        },
-        "officialSkiResort": true,
-        "id": "3040",
-        "website": "http://www.birchbrook.ca",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Pasadena Ski and Nature Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.003258,
-            "lng": -57.59400300000004
-        },
-        "officialSkiResort": true,
-        "id": "3041",
-        "website": "http://www.pasadenaskipark.org/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -29264,26 +26511,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Morice Mountain Nordic Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 54.3346242,
-            "lng": -126.65065879999997
-        },
-        "officialSkiResort": true,
-        "id": "3111",
-        "website": "http://www.xcskimoricemtn.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Kunimidake (国見岳スキー場)",
         "state": "",
         "region": "",
@@ -29296,26 +26523,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "3318",
         "website": "http://www.kunimidake.net/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Wolfratshausen - Icking",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.94906182135125,
-            "lng": 11.433641838623089
-        },
-        "officialSkiResort": true,
-        "id": "13706",
-        "website": "http://www.wsvi.de/loipe.htm",
         "resortReview": {
             "score": "",
             "link": "",
@@ -29356,26 +26563,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "3718",
         "website": "http://www.goldenpass.ch",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Royal Gorge Cross Country Ski Resort",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 39.31346550531842,
-            "lng": -120.3891921043396
-        },
-        "officialSkiResort": true,
-        "id": "3345",
-        "website": "http://www.royalgorge.com/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -29604,26 +26791,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Kelowna Nordic Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 49.7792471,
-            "lng": -119.17054259999998
-        },
-        "officialSkiResort": true,
-        "id": "3109",
-        "website": "http://www.kelownanordic.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Mount Molson Ski Hill",
         "state": "",
         "region": "",
@@ -29784,26 +26951,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Kakenoue House cross-country (欠ノ上クロスカントリーハウス)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 37.087717121298226,
-            "lng": 138.86415762261356
-        },
-        "officialSkiResort": true,
-        "id": "3556",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Mominoki Forest Park (県立もみのき森林公園)",
         "state": "",
         "region": "",
@@ -29816,26 +26963,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "3616",
         "website": "http://www.mominoki.or.jp/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Dynamite Hill",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.659081915892,
-            "lng": -73.796936273575
-        },
-        "officialSkiResort": true,
-        "id": "3231",
-        "website": "http://www.nelsap.org/ny/dynamite.html",
         "resortReview": {
             "score": "",
             "link": "",
@@ -30616,26 +27743,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "3585",
         "website": "http://www.sadoski.net/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Bull Mountain Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 52.24167578556539,
-            "lng": -122.13326364755632
-        },
-        "officialSkiResort": true,
-        "id": "3110",
-        "website": "http://www.bullmountain.ca",
         "resortReview": {
             "score": "",
             "link": "",
@@ -31644,26 +28751,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Sleepy Hollow Cross Country Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.35110486649694,
-            "lng": -73.03213119506836
-        },
-        "officialSkiResort": true,
-        "id": "4043",
-        "website": "http://www.skisleepyhollow.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Strandafjellet",
         "state": "",
         "region": "",
@@ -31944,46 +29031,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Windblown Cross Country Skiing and Snowshoeing",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.774958,
-            "lng": -71.901003
-        },
-        "officialSkiResort": true,
-        "id": "4135",
-        "website": "http://windblownxc.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Quarry Road",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.58323885294383,
-            "lng": -69.65806245803833
-        },
-        "officialSkiResort": true,
-        "id": "4154",
-        "website": "http://www.quarryroadrecarea.org",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Blackwater Ski Area",
         "state": "",
         "region": "",
@@ -31996,26 +29043,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "4164",
         "website": "http://www.newenglandskihistory.com/NewHampshire/blackwater.php",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kananaskis Lakes Cross Country Ski Trails",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 50.69681102260253,
-            "lng": -115.11569023132324
-        },
-        "officialSkiResort": true,
-        "id": "4169",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",
@@ -32844,46 +29871,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Ovindoli",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.150141068864656,
-            "lng": 13.495005035400482
-        },
-        "officialSkiResort": true,
-        "id": "4276",
-        "website": "http://www.ovindolimagnola.it/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Campo Imperatore",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 42.442053367754234,
-            "lng": 13.559292221069427
-        },
-        "officialSkiResort": true,
-        "id": "4275",
-        "website": "http://www.ilgransasso.it/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Ravascletto - Zoncolan",
         "state": "",
         "region": "",
@@ -32916,26 +29903,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "4273",
         "website": "http://www.promotur.org/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Pescasseroli",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 41.81479795329952,
-            "lng": 13.76545753479013
-        },
-        "officialSkiResort": true,
-        "id": "4277",
-        "website": "http://www.sciareapescasseroli.it/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -33056,26 +30023,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "4331",
         "website": "http://www.kreischberg.at",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Highlands Nordic",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.3818417949621,
-            "lng": -80.22861063480377
-        },
-        "officialSkiResort": true,
-        "id": "4342",
-        "website": "http://highlandsnordic.ca/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -35164,26 +32111,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Le Sappey-en-Chartreuse",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.2568227,
-            "lng": 5.7781343
-        },
-        "officialSkiResort": true,
-        "id": "4521",
-        "website": "http://www.sappey-tourisme.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Saint Hilaire du Touvet",
         "state": "",
         "region": "",
@@ -35436,26 +32363,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "4605",
         "website": "http://www.colmiane.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Michaywe",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.950312297707185,
-            "lng": -84.65334892272949
-        },
-        "officialSkiResort": true,
-        "id": "4627",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",
@@ -36064,26 +32971,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "High Wallowas",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.27716647564048,
-            "lng": -117.207190990448
-        },
-        "officialSkiResort": true,
-        "id": "4915",
-        "website": "http://wallowalaketramway.com/activities/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Hedeland Skicenter",
         "state": "",
         "region": "",
@@ -36116,26 +33003,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "4933",
         "website": "http://www.doganaccia2000.it/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Eastman/Snow Hill",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.51457226413229,
-            "lng": -72.1171760559082
-        },
-        "officialSkiResort": true,
-        "id": "4939",
-        "website": "http://eastmannh.org/ski/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -36844,46 +33711,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Huntly Nordic and Outdoor Centre",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 57.45507723524906,
-            "lng": -2.786711788177513
-        },
-        "officialSkiResort": true,
-        "id": "5166",
-        "website": "http://hnoc.nordicski.co.uk/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Clashindarroch",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 57.32559735737533,
-            "lng": -2.955304718017487
-        },
-        "officialSkiResort": true,
-        "id": "5167",
-        "website": "http://scotland.forestry.gov.uk/visit/clashindarroch",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Pocono Ranchlands",
         "state": "",
         "region": "",
@@ -36936,26 +33763,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "5211",
         "website": "http://www.ski-kidsgrove.co.uk/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Yellowknife Ski Club",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 62.47186255862793,
-            "lng": -114.3722677230835
-        },
-        "officialSkiResort": true,
-        "id": "5213",
-        "website": "http://skiyellowknife.com/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -44184,26 +40991,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Monte Tamaro",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.11680332606953,
-            "lng": 8.89229145050058
-        },
-        "officialSkiResort": true,
-        "id": "12774",
-        "website": "http://www.montetamaro.ch/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Riesneralm",
         "state": "",
         "region": "",
@@ -44216,26 +41003,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "12769",
         "website": "http://www.riesneralm.at/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Utah Olympic Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 40.71161371303383,
-            "lng": -111.56169891357422
-        },
-        "officialSkiResort": true,
-        "id": "12767",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",
@@ -44884,26 +41651,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Perkinstown Winter Sports Park",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 45.18297455341549,
-            "lng": -90.63626289367676
-        },
-        "officialSkiResort": true,
-        "id": "12834",
-        "website": "http://gilmanwi.com/downloads/places/ptown.pdf",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Münstertal-Wieden",
         "state": "",
         "region": "",
@@ -45424,46 +42171,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "San Domenico di Varzo",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.250168,
-            "lng": 8.191058999999996
-        },
-        "officialSkiResort": true,
-        "id": "12917",
-        "website": "http://www.sandomenicoski.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Langlauf-Zentrum Bayrischzell",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.671063148090944,
-            "lng": 12.014209546032703
-        },
-        "officialSkiResort": true,
-        "id": "12919",
-        "website": "http://www.bayrischzell.de",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Bukovytsia",
         "state": "",
         "region": "",
@@ -45536,26 +42243,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "12959",
         "website": "http://www.crevacol.it/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Sattel-Hochstuckli",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.078411423134405,
-            "lng": 8.63435413837442
-        },
-        "officialSkiResort": true,
-        "id": "12960",
-        "website": "http://www.sattel-hochstuckli.ch/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -46584,26 +43271,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Baierbrunn",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 48.02797936992801,
-            "lng": 11.473424240136751
-        },
-        "officialSkiResort": true,
-        "id": "13541",
-        "website": "http://www.altschuetzen-baierbrunn.de/Loipe.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Simmelsberg",
         "state": "",
         "region": "",
@@ -46756,26 +43423,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "13557",
         "website": "https://www.erlebnisbocksberg.de/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Jachenau",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.60517165021571,
-            "lng": 11.435395937573276
-        },
-        "officialSkiResort": true,
-        "id": "13558",
-        "website": "https://www.jachenau.de/unser-langlaufparadies",
         "resortReview": {
             "score": "",
             "link": "",
@@ -47104,26 +43751,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Ammergauer Alpen Langlaufloipen",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.650459095681974,
-            "lng": 11.011395130041478
-        },
-        "officialSkiResort": true,
-        "id": "13642",
-        "website": "https://www.ammergauer-alpen.de/oberammergau/winter-aktiv/Langlaufen",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Skilift Elbach",
         "state": "",
         "region": "",
@@ -47344,246 +43971,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Mount Van Hovenburg",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.22339829385722,
-            "lng": -73.91485691070557
-        },
-        "officialSkiResort": true,
-        "id": "13700",
-        "website": "https://www.mtvanhoevenberg.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Dietramszell - Moosham",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.89767535716949,
-            "lng": 11.539202594757057
-        },
-        "officialSkiResort": true,
-        "id": "13705",
-        "website": "https://www.scmoosham.de/%C3%BCber-uns/unsere-loipen/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Sauerlach",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.97523715358717,
-            "lng": 11.647940136462466
-        },
-        "officialSkiResort": true,
-        "id": "13707",
-        "website": "http://www.alpenverein-gleissental.de/aktuelles.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Zugspitzland (Eschenlohe, Oberau, Farchant)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.55531618482414,
-            "lng": 11.140734259277338
-        },
-        "officialSkiResort": true,
-        "id": "13708",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Sachsenkam - Reutberg",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.812183719675744,
-            "lng": 11.635403908984358
-        },
-        "officialSkiResort": true,
-        "id": "13709",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Geretsried - Wiesen",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.83699183356474,
-            "lng": 11.466446588732879
-        },
-        "officialSkiResort": true,
-        "id": "13710",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Königsdorf",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.812933521986196,
-            "lng": 11.488390439208956
-        },
-        "officialSkiResort": true,
-        "id": "13711",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kochel am See",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.66675416432733,
-            "lng": 11.38728124353031
-        },
-        "officialSkiResort": true,
-        "id": "13712",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Krün / Wallgau / Vorderriß / Fall",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.51857911298982,
-            "lng": 11.29612952497564
-        },
-        "officialSkiResort": true,
-        "id": "13715",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Höhenkirchen-Siegertsbrunn",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 48.016924480365475,
-            "lng": 11.720385813713058
-        },
-        "officialSkiResort": true,
-        "id": "15329",
-        "website": "https://www.hoehenkirchen-siegertsbrunn.de",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Bad Heilbrunn",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.756356645091266,
-            "lng": 11.460704961376905
-        },
-        "officialSkiResort": true,
-        "id": "13718",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Gaißach",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.73669108224322,
-            "lng": 11.578921385705598
-        },
-        "officialSkiResort": true,
-        "id": "13719",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Notre Dame du Pré",
         "state": "",
         "region": "",
@@ -47656,26 +44043,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "13781",
         "website": "http://www.valbella-sciovie.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Devil's Thumb",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 39.96779626048694,
-            "lng": -105.78291177749634
-        },
-        "officialSkiResort": true,
-        "id": "13787",
-        "website": "https://www.devilsthumbranch.com/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -47856,26 +44223,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "13818",
         "website": "http://www.chshuaxue.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Le Petit Abergement - Lachat ",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.06984212615769,
-            "lng": 5.665094298286476
-        },
-        "officialSkiResort": true,
-        "id": "13823",
-        "website": "http://ski-lachat.fr/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -48456,26 +44803,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "13880",
         "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Giron",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.21682228670103,
-            "lng": 5.78679227270186
-        },
-        "officialSkiResort": true,
-        "id": "13862",
-        "website": "https://www.mairie-giron.fr/activites/ski-de-fond/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -52084,26 +48411,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Ohlstadt Loipe",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.62880912647131,
-            "lng": 11.229714026428155
-        },
-        "officialSkiResort": true,
-        "id": "14207",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Eschenlohe auf der Rieder",
         "state": "",
         "region": "",
@@ -52116,26 +48423,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "14208",
         "website": "http://www.eschenlohe.de",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Langlaufen Garmisch-Partenkirchen",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.48183433185966,
-            "lng": 11.07369740512695
-        },
-        "officialSkiResort": true,
-        "id": "14209",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",
@@ -53864,26 +50151,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Achensee",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.42878972633925,
-            "lng": 11.73796874201662
-        },
-        "officialSkiResort": true,
-        "id": "14500",
-        "website": "https://www.achensee.com",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Sysendalen",
         "state": "",
         "region": "",
@@ -55264,26 +51531,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Praxmar - Lüsens (Sellraintal)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.13923174532387,
-            "lng": 11.139221502685587
-        },
-        "officialSkiResort": true,
-        "id": "14599",
-        "website": "https://www.praxmar.at/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Velykyj",
         "state": "",
         "region": "",
@@ -55576,46 +51823,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "14656",
         "website": "https://skizentrum-grafenherberg-sudelfeld.de/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Beaver Meadows",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 40.841249106132196,
-            "lng": -105.6535005569458
-        },
-        "officialSkiResort": true,
-        "id": "14657",
-        "website": "https://beavermeadows.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Snow Mountain Ranch",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 39.99201586614472,
-            "lng": -105.92897415161133
-        },
-        "officialSkiResort": true,
-        "id": "14658",
-        "website": "https://snowmountainranch.org/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -55984,46 +52191,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Bear Notch Ski Touring Center",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.073152,
-            "lng": -71.302666
-        },
-        "officialSkiResort": true,
-        "id": "14688",
-        "website": "https://www.bearnotchskitouring.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Normafa",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.5023733,
-            "lng": 18.9682075
-        },
-        "officialSkiResort": true,
-        "id": "14687",
-        "website": "",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Skilift Obermutten",
         "state": "",
         "region": "",
@@ -56084,26 +52251,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Schloss Elmau",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.46364735366643,
-            "lng": 11.184939000000002
-        },
-        "officialSkiResort": true,
-        "id": "14745",
-        "website": "https://www.schloss-elmau.de/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Bowes Ski Hill",
         "state": "",
         "region": "",
@@ -56116,46 +52263,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "14812",
         "website": "http://www.coloradoskihistory.com/lost/boweshill.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Hardwood Ski and Bike",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.51780685021113,
-            "lng": -79.59109783172607
-        },
-        "officialSkiResort": true,
-        "id": "14784",
-        "website": "https://www.hardwoodskiandbike.ca/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Shintoku Cross Country",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 43.075582757677466,
-            "lng": 142.84685405402828
-        },
-        "officialSkiResort": true,
-        "id": "14841",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",
@@ -56564,26 +52671,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Enchanted Forest Cross Country Ski Area",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 36.698429579650956,
-            "lng": -105.35545349121094
-        },
-        "officialSkiResort": true,
-        "id": "15246",
-        "website": "https://enchantedforestxc.com/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "La Forclaz VS",
         "state": "",
         "region": "",
@@ -56596,186 +52683,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "15247",
         "website": "https://www.valdherens.ch/fr/espace-dent-blanche-secteur-la-forclaz-fp42184",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Chaux-des-Prés (Grandvaux)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.49725605095869,
-            "lng": 5.854404798828119
-        },
-        "officialSkiResort": true,
-        "id": "15311",
-        "website": "https://www.espacenordiquejurassien.com/annuaire/site_nordique_de_nanchez_-_prenovel_chaux_des_pres_les_piards~49b8b514c9c445994325cc4c12e.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Saint-Laurent-en-Grandvaux",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.577291465962055,
-            "lng": 5.965870121765149
-        },
-        "officialSkiResort": true,
-        "id": "15297",
-        "website": "https://www.espacenordiquejurassien.com/annuaire/site_nordique_de_saint-laurent-en-grandvaux~cb9a7d7f39910fe0afb59a76088.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "La Vattay",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.38913189999999,
-            "lng": 6.053299799999999
-        },
-        "officialSkiResort": true,
-        "id": "15305",
-        "website": "https://www.paysdegex-montsjura.com/domaine-ski-vtt/domaine-nordique-la-vattay-valserine/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Saint-Paul-sur-Ubaye",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.5168125,
-            "lng": 6.7575625
-        },
-        "officialSkiResort": true,
-        "id": "15322",
-        "website": "https://www.haute-ubaye.com/activites-hiver/Espace-nordique-de-saint-paul.html",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Waakirchen (Häuserdörfl, Reichersbeuern, Sachsenkam, Piesenkam, Schaftlach, Gmund Am Tegernsee)",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.77985888891478,
-            "lng": 11.666466967675774
-        },
-        "officialSkiResort": true,
-        "id": "15326",
-        "website": "https://www.waakirchen.de/de/freizeit/sport-freizeit/langlaufloipen",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Tegernseer Tal",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.67271133201624,
-            "lng": 11.757329354492203
-        },
-        "officialSkiResort": true,
-        "id": "15328",
-        "website": "https://www.tegernsee.com/langlaufen",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Plaines d’Abraham",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.797180370621774,
-            "lng": -71.2283992767334
-        },
-        "officialSkiResort": true,
-        "id": "15333",
-        "website": "http://www.ccbn-nbc.gc.ca/fr/activites/sports-loisirs/ski-fond-raquette/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Rivière Saint-Charles",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.82158887615707,
-            "lng": -71.23554468154907
-        },
-        "officialSkiResort": true,
-        "id": "15334",
-        "website": "https://societerivierestcharles.qc.ca/ski-de-fond/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Les Sentiers La Balade de Lévis",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 46.74062526454261,
-            "lng": -71.20119094848633
-        },
-        "officialSkiResort": true,
-        "id": "15335",
-        "website": "https://www.lessentierslabalade.com/",
         "resortReview": {
             "score": "",
             "link": "",
@@ -56804,26 +52711,6 @@ var globalData = [
         "skiPass": []
     },
     {
-        "resortName": "Festonia",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 44.30375003540098,
-            "lng": 7.321593697558595
-        },
-        "officialSkiResort": true,
-        "id": "15341",
-        "website": "https://www.festiona.it/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
         "resortName": "Vichères - Liddes",
         "state": "",
         "region": "",
@@ -56836,26 +52723,6 @@ var globalData = [
         "officialSkiResort": true,
         "id": "15355",
         "website": "https://vicheres.ch/fr/",
-        "resortReview": {
-            "score": "",
-            "link": "",
-            "note": ""
-        },
-        "skiPass": []
-    },
-    {
-        "resortName": "Kaltenbrunn / Klais",
-        "state": "",
-        "region": "",
-        "city": "",
-        "videos": [],
-        "position": {
-            "lat": 47.48743500232519,
-            "lng": 11.1798457428833
-        },
-        "officialSkiResort": true,
-        "id": "15394",
-        "website": "",
         "resortReview": {
             "score": "",
             "link": "",

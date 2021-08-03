@@ -6095,6 +6095,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "Cgbcc1bxn-k",
       "jSjO24IUI7Q",
       "xSnhKk9u7BY",
       "jCSMoGaxA44",
@@ -6270,8 +6271,7 @@ var allData = [
       "FWWYogfbgxg",
       "MY7UK2PTI-0",
       "JUBNNRfKM1Y",
-      "KOLBNffVF14",
-      "Cgbcc1bxn-k"
+      "KOLBNffVF14"
     ],
     "position": {
       "lat": 39.642685273554704,

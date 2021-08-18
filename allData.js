@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '08/14/2021';
+var lastUpdated = '08/17/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10388,6 +10388,7 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "jwnNG240R5w",
       "G3v16kIO6sE",
       "q7Qeb_t4vhQ",
       "bjJm3st0DjE",

@@ -105,6 +105,16 @@
          .country-dropdown input {
             cursor: pointer;
          }
+         .navbar {
+            position: static;
+         }
+         .navbar .nav > li {
+            z-index: 1001;
+         }
+         .leaflet-control-layers-toggle{ 
+            width:10px;
+            height: 10px;
+         }
       </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
@@ -770,7 +780,20 @@
       // Set the default view
       var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords
       var defaultZoom = 4;
+
       var mymap = L.map('mapid').setView(defaultCoordinates, defaultZoom);
+
+      var greenMap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+        maxZoom: 18,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        id: 'mapbox/streets-v11',
+        tileSize: 512,
+        zoomOffset: -1
+      }).addTo(mymap);
+
+      var whiteMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      }).addTo(mymap);
 
       // Add fullscreen control
       mymap.addControl(new L.Control.Fullscreen({
@@ -780,15 +803,13 @@
          }
       }));
 
-      // Copyright information
-      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-        maxZoom: 18,
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
-          'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-        id: 'mapbox/streets-v11',
-        tileSize: 512,
-        zoomOffset: -1
-      }).addTo(mymap);
+      // Layers
+      var baseMaps = {
+         'White Map': whiteMap,
+         'Green Map': greenMap,
+      };
+      
+      L.control.layers(baseMaps).addTo(mymap);
 
       // Load the icon preference
       var iconPreference;
@@ -1032,7 +1053,6 @@
             }
          }
       }
-
 
    </script>
 

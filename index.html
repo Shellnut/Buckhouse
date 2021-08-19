@@ -124,24 +124,39 @@
           
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li>
-                     <a href="javascript:void(0);">
-                        <label class="radio-inline">
-                           <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
-                           <img src="img/snowboard_marker/not_visited.png" alt="snowboard marker" width="12" height="20"> 
-                        </label>
-                        <label class="radio-inline">
-                           <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="true">
-                           <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20"> &nbsp;|&nbsp;
-                        </label>
-                        <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateRegions()" ng-model="showRegions"> Show Regions?</label>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="javascript:void(0);">
-                        <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateGlobal()" ng-model="showGlobal"> Show Global Ski Resorts?</label>
-                     </a>
+               <ul class="nav navbar-nav navbar-right">
+                  <!-- Toggle Icon -->
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Map Settings <i class="fa fa-gear"></i><span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li class="dropdown-header">Toggle Icon</li>
+                        <li>
+                           <a href="javascript:void(0);">
+                              <label class="radio-inline">
+                                 <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
+                                 <img src="img/snowboard_marker/not_visited.png" alt="snowboard marker" width="12" height="20"> 
+                              </label>
+                              <label class="radio-inline">
+                                 <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="true">
+                                 <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20">
+                              </label>
+                           </a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">U.S. Regions</li>
+                        <li>
+                           <a href="javascript:void(0);">
+                                 <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateRegions()" ng-model="showRegions"> Show Regions?</label>
+                           </a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Global Resorts</li>
+                        <li>
+                           <a href="javascript:void(0);">
+                              <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateGlobal()" ng-model="showGlobal"> Show all ski resorts in the world?</label>
+                           </a>
+                        </li>
+                     </ul>
                   </li>
                 </ul>
               </div><!-- /.navbar-collapse -->
@@ -541,7 +556,6 @@
                animation: $scope.animationsEnabled,
                template: `<div class="modal-header">
                               <h3 class="modal-title">
-
                                  <div class="row">
                                     <div class="col-xs-11">
                                        <a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.resortName}, ${modalData.state}</a>
@@ -551,12 +565,10 @@
                                        <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
                                     </div>
                                  </div>
-
                            
                               </h3>
                            </div>
                            <div class="modal-body">
-
                               <div ng-show="${!!modalData.resortReview.link}">
                                  <h4>Johnathan's Resort Review</h4>
                                  <div class="embed-responsive embed-responsive-16by9">
@@ -565,13 +577,10 @@
                                  <br>
                                  <h4>Johnathan's Score</h4>
                                  <dl class="dl-horizontal">
-
                                     <dt>Overall Score:</dt>
                                     <dd>${modalData.resortReview.score}/100</dd>
-
                                     <dt ng-show="${!!modalData.resortReview.note}">Note:</dt>
                                     <dd ng-show="${!!modalData.resortReview.note}">${modalData.resortReview.note}</dd>
-
                                     <dt ng-show="${!!modalData.resortReview.price}">Price:</dt>
                                     <dd ng-show="${!!modalData.resortReview.price}"><uib-rating ng-model="price" max="5"></uib-rating> (${modalData.resortReview.price}/10)</dd>
                                     
@@ -613,40 +622,28 @@
                               <dl class="dl-horizontal">
                                  <dt ng-show=${!!modalData.website}>Official Website:</dt>
                                  <dd ng-show=${!!modalData.website}><a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.website}</a><dd>
-
                                  <dt ng-show="!!modalResortData.data.annual_snowfall && modalResortData.data.annual_snowfall!='Unknown'">Annual Snowfall:</dt> 
                                  <dd ng-show="!!modalResortData.data.annual_snowfall && modalResortData.data.annual_snowfall!='Unknown'">{{modalResortData.data.annual_snowfall*0.393701 | number:0}}in</dd>
-
                                  <dt ng-show="!!modalResortData.data.bottom_elevation && modalResortData.data.bottom_elevation!='Unknown'">Bottom Elevation:</dt>
                                  <dd ng-show="!!modalResortData.data.bottom_elevation && modalResortData.data.bottom_elevation!='Unknown'">{{modalResortData.data.bottom_elevation*3.28084 | number:0}}ft</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.hourly_lift_capacity && modalResortData.data.hourly_lift_capacity!='Unknown'">Hourly Lift Capacity:</dt>
                                  <dd ng-show="!!modalResortData.data.hourly_lift_capacity && modalResortData.data.hourly_lift_capacity!='Unknown'">{{modalResortData.data.hourly_lift_capacity | number}}</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.lift_count && modalResortData.data.lift_count!='Unknown'">Lift Count:</dt>
                                  <dd ng-show="!!modalResortData.data.lift_count && modalResortData.data.lift_count!='Unknown'">{{modalResortData.data.lift_count | number}}</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.longest_run && modalResortData.data.longest_run!='Unknown'">Longest Run:</dt>
                                  <dd ng-show="!!modalResortData.data.longest_run && modalResortData.data.longest_run!='Unknown'">{{modalResortData.data.longest_run*3.28084 | number:0}}ft</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.night_skiing && modalResortData.data.night_skiing!='Unknown'">Night Skiing:</dt>
                                  <dd ng-show="!!modalResortData.data.night_skiing && modalResortData.data.night_skiing!='Unknown'">{{modalResortData.data.night_skiing}}</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.opening_year && modalResortData.data.opening_year!='Unknown'">Opening Year:</dt>
                                  <dd ng-show="!!modalResortData.data.opening_year && modalResortData.data.opening_year!='Unknown'">{{modalResortData.data.opening_year}}</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.owner && modalResortData.data.owner!='Unknown'">Owner:</dt>
                                  <dd ng-show="!!modalResortData.data.owner && modalResortData.data.owner!='Unknown'">{{modalResortData.data.owner}}</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.run_count && modalResortData.data.run_count!='Unknown'">Run Count:</dt>
                                  <dd ng-show="!!modalResortData.data.run_count && modalResortData.data.run_count!='Unknown'">{{modalResortData.data.run_count | number}}</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.skiable_acreage && modalResortData.data.skiable_acreage!='Unknown'">Skiable Acreage:</dt>
                                  <dd ng-show="!!modalResortData.data.skiable_acreage && modalResortData.data.skiable_acreage!='Unknown'">{{modalResortData.data.skiable_acreage | number}} acres</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.terrain_park && modalResortData.data.terrain_park!='Unknown'">Terrain Park:</dt>
                                  <dd ng-show="!!modalResortData.data.terrain_park && modalResortData.data.terrain_park!='Unknown'">{{modalResortData.data.terrain_park}}</li></dd>
-
                                  <dt ng-show="!!modalResortData.data.top_elevation && modalResortData.data.top_elevation!='Unknown'">Top Elevation:</dt>
                                  <dd ng-show="!!modalResortData.data.top_elevation && modalResortData.data.top_elevation!='Unknown'">{{modalResortData.data.top_elevation*3.28084 | number:0}}ft</li></dd>
                                  </li>

@@ -108,13 +108,6 @@
          .navbar {
             position: static;
          }
-         .navbar .nav > li {
-            z-index: 1001;
-         }
-         .leaflet-control-layers-toggle{ 
-            width:10px;
-            height: 10px;
-         }
       </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
@@ -164,6 +157,20 @@
                         <li>
                            <a href="javascript:void(0);">
                               <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateGlobal()" ng-model="showGlobal"> Show all ski resorts in the world?</label>
+                           </a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Map Color</li>
+                        <li>
+                           <a href="javascript:void(0);">
+                              <label class="radio-inline">
+                                 <input type="radio" name="optradio2" ng-change="updateMapColor()" ng-model="mapColor" ng-value="false"> 
+                                 <span>Green</span>
+                              </label>
+                              <label class="radio-inline">
+                                 <input type="radio" name="optradio2" ng-change="updateMapColor()" ng-model="mapColor" ng-value="true">
+                                 <span>White</span>
+                              </label>
                            </a>
                         </li>
                      </ul>
@@ -531,6 +538,20 @@
             }
          }
 
+         // Get map color
+         $scope.mapColor = !!localStorage.getItem('mapColor');
+
+         $scope.updateMapColor = function() {
+            if ($scope.mapColor) { 
+               localStorage.setItem('mapColor', '1'); // Set to white
+               location.reload(); 
+            }
+            else {
+               localStorage.setItem('mapColor', ''); // default green
+               location.reload();
+            }
+         }
+
          // Custom sort for table
          $scope.myOrder = function(field) {
             // Sort the resort review score by excluding the N/A's
@@ -783,17 +804,24 @@
 
       var mymap = L.map('mapid').setView(defaultCoordinates, defaultZoom);
 
-      var greenMap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-        maxZoom: 18,
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        id: 'mapbox/streets-v11',
-        tileSize: 512,
-        zoomOffset: -1
-      }).addTo(mymap);
+      // Load the map color
+      var mapColor = !!localStorage.getItem('mapColor');
 
-      var whiteMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-      }).addTo(mymap);
+      // Load the map color preference
+      if (mapColor) {
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+         }).addTo(mymap);
+      }
+      else {
+         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            maxZoom: 18,
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1
+         }).addTo(mymap);
+      }
 
       // Add fullscreen control
       mymap.addControl(new L.Control.Fullscreen({
@@ -802,14 +830,6 @@
             'true': 'Exit Fullscreen'
          }
       }));
-
-      // Layers
-      var baseMaps = {
-         'White Map': whiteMap,
-         'Green Map': greenMap,
-      };
-      
-      L.control.layers(baseMaps).addTo(mymap);
 
       // Load the icon preference
       var iconPreference;

@@ -2178,7 +2178,7 @@ var allData = [
     "resortReview": {
       "score": 45,
       "link": "ALt-VpjRQew",
-      "note": "Johnathan rated this 45/100 in the video, but it the points actually add up to 46.",
+      "note": "Johnathan rated this 45/100 in the video, but the points actually add up to 46.",
       "price": "5",
       "easeOfAccess": "4",
       "lodging": "1",
@@ -5490,7 +5490,7 @@ var allData = [
     "resortReview": {
       "score": 40,
       "link": "HTapi9Qq1-0",
-      "note": "Johnathan rated this 40/100 in the video, but it the points actually add up to 45.",
+      "note": "Johnathan rated this 40/100 in the video, but the points actually add up to 45.",
       "price": "6",
       "easeOfAccess": "10",
       "lodging": "0",

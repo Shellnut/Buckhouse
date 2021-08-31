@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '08/27/2021';
+var lastUpdated = '08/30/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5477,7 +5477,8 @@ var allData = [
     "region": "Midwest",
     "city": "Franklin",
     "videos": [
-      "ox7fADJJprI"
+      "ox7fADJJprI",
+      "HTapi9Qq1-0"
     ],
     "position": {
       "lat": 42.9207217405258,
@@ -5487,9 +5488,19 @@ var allData = [
     "id": "15253",
     "website": "https://www.rocksnowpark.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 40,
+      "link": "HTapi9Qq1-0",
+      "note": "Johnathan rated this 40/100 in the video, but it the points actually add up to 45.",
+      "price": "6",
+      "easeOfAccess": "10",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "1",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "5",
+      "views": "4",
+      "wouldIGoBack": "6"
     },
     "skiPass": []
   },

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '08/30/2021';
+var lastUpdated = '09/06/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6764,7 +6764,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Evergreen",
     "videos": [
-      "ZlIiWYVypZE"
+      "ZlIiWYVypZE",
+      "Qvgs4xEa6k0"
     ],
     "position": {
       "lat": 39.68472204161028,
@@ -6774,9 +6775,19 @@ var allData = [
     "id": "1034",
     "website": "https://www.echomountainresort.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 37,
+      "link": "Qvgs4xEa6k0",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "4",
+      "lodging": "0",
+      "charLifts": "3",
+      "runs": "3",
+      "terrainPark": "1",
+      "food": "6",
+      "employees": "6",
+      "views": "5",
+      "wouldIGoBack": "3",
     },
     "skiPass": []
   },

@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '09/07/2021';
+var lastUpdated = '09/09/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3226,7 +3226,8 @@ var allData = [
     "region": "Southeast",
     "city": "Blowing Rock",
     "videos": [
-      "_AnRnjuJNXo"
+      "_AnRnjuJNXo",
+      "XvI0SCH_0CA"
     ],
     "position": {
       "lat": 36.173468638681165,
@@ -3236,9 +3237,19 @@ var allData = [
     "id": "4637",
     "website": "https://www.appskimtn.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 46,
+      "link": "XvI0SCH_0CA",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "4",
+      "lodging": "2",
+      "chairLifts": "3",
+      "runs": "3",
+      "terrainPark": "5",
+      "food": "5",
+      "employees": "7",
+      "views": "5",
+      "wouldIGoBack": "6"
     },
     "skiPass": []
   },

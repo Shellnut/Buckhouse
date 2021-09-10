@@ -130,7 +130,7 @@
                <ul class="nav navbar-nav navbar-right">
                   <!-- Toggle Icon -->
                   <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Map Settings <i class="fa fa-gear"></i><span class="caret"></span></a>
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <i class="fa fa-gear"></i><span class="caret"></span></a>
                      <ul class="dropdown-menu">
                         <li class="dropdown-header">Toggle Icon</li>
                         <li>
@@ -171,6 +171,13 @@
                                  <input type="radio" name="optradio2" ng-change="updateMapColor()" ng-model="mapColor" ng-value="true">
                                  <span>White</span>
                               </label>
+                           </a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Show Video Metrics</li>
+                        <li>
+                           <a href="javascript:void(0);">
+                                 <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateMetrics()" ng-model="showMetrics"> Show Video Metrics?</label>
                            </a>
                         </li>
                      </ul>
@@ -376,17 +383,23 @@
             </div>
 
             <div id='newResortsBySeason'></div>
-            <!-- <div id='viewsBySeason'></div>
-            <div id='viewsTotalBySeason'></div>
-            <div id='videoViewsByMonth'></div>
-            <div id='totalViewsPerMonth'></div> -->
+            <div id='viewMetrics' ng-show="showMetrics">
+               <h3>Johnathan's YouTube Video View Count Stats</h3>
+               <p>Video view metrics were last updated on {{newResortStatsLastUpdated}}</p>
+               <p><i> - Video view counts are cummulative. For example, Season 4 videos have been gathering views on YouTube since Season 4.</i></p>
+               <p><i> - These video view counts are strictly videos from the resort map. Family vlogs, live streams, mountain bike videos, etc. are not included in these metrics.</i></p>
+               <div id='viewsBySeason'></div>
+               <div id='viewsTotalBySeason'></div>
+               <div id='videoViewsByMonth'></div>
+               <div id='totalViewsPerMonth'></div>
+            </div>
+
 
             <p><b>Notes:</b></p>
             <ul>
                <li>If Johnathan can go to 40 new resorts a season, he'll finish the U.S. resorts by 2031. Good luck Johnathan!</li>
                <li>Season 0 is considered the videos on his channel before he started making the vlogs (2011-2016).</li>
                <li>Live streams, family vlogs, mountain biking, wakeboarding, skateboarding videos, etc. are not included in this website.</li>
-               <!-- <li>The view counts are cumulative. In other words, season 4 videos are still getting tons of views during season 5.</li> -->
                <li>If you have any suggestions or questions, feel free to email me (see bottom right of this page).</li>
             </ul>
 
@@ -549,6 +562,17 @@
             else {
                localStorage.setItem('mapColor', ''); // default green
                location.reload();
+            }
+         }
+
+         // show metrics
+         $scope.showMetrics = false;
+
+         $scope.updateMetrics = function() {
+            if ($scope.showMetrics) {
+               setTimeout(function() {
+                  document.getElementById("viewMetrics").scrollIntoView();               
+               }, 0);
             }
          }
 

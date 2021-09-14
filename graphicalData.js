@@ -290,6 +290,46 @@ var resortBySeasonLayout = {
 
 Plotly.newPlot('newResortsBySeason', resortBySeasonData, resortBySeasonLayout, config);
 
+
+// Videos per season
+var videosBySeasonTraceAvg = {
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5"],
+  y: [s0Metrics.length, s1Metrics.length, s2Metrics.length, s3Metrics.length, s4Metrics.length, s5Metrics.length],
+  type: 'bar'
+};
+
+var videosBySeasonData = [videosBySeasonTraceAvg];
+
+var videosBySeasonLayout = {
+  title:`Videos Created by Season`,
+  yaxis: {
+    title: '# Videos',
+    fixedrange: true
+  },
+  xaxis: {
+    fixedrange: true
+  },
+  annotations: [
+    {
+      x: 2.5,
+      y: 280,
+      xref: 'x',
+      yref: 'y',
+      text: 'This count is only ski resort related videos',
+      showarrow: false,
+      font: {
+        size: 12,
+        color: 'gray'
+      },
+      align: 'center',
+      opacity: 0.8
+    }
+  ]
+};
+
+Plotly.newPlot('videosBySeason', videosBySeasonData, videosBySeasonLayout, config);
+
+
 // Views by season AVG
 const sum = (arr) => arr.reduce((a, b) => a + b, 0);
 var avg = (array) => array.length > 0 ? Math.floor(array.reduce((a, b) => a + b) / array.length) : 0;

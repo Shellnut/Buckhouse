@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '09/16/2021';
+var lastUpdated = '09/19/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1901,6 +1901,8 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "East Rutherford (indoor)",
     "videos": [
+      "TwO3DcQHHcU",
+      "js9zL8ppHaY",
       "pRkpId3qqJw",
       "5ZDB0QuoFxc",
       "1b0xhSsTEOw",

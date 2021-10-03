@@ -1967,7 +1967,7 @@ var allData = [
     "skiPass": []
   },
   {
-    "resortName": "Hidden Valley",
+    "resortName": "National Winter Activity Center",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
     "city": "Vernon",
@@ -1978,13 +1978,13 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "5231",
-    "website": "http://www.doublehranch.org/",
+    "website": "https://winter4kids.org/",
     "resortReview": {
       "score": "",
       "link": "",
       "note": ""
     },
-    "skiPass": ["Epic"]
+    "skiPass": []
   },
   {
     "resortName": "Mountain Creek",
@@ -2762,6 +2762,26 @@ var allData = [
     "officialSkiResort": true,
     "id": "314",
     "website": "https://www.saranaclake.com/alpine-skiing/mt-pisgah-recreation-center",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": []
+  },
+  {
+    "resortName": "Maple Ski Ridge",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "city": "Schenectady",
+    "videos": [],
+    "position": {
+      "lat": 42.81798390084334,
+      "lng": -74.03209222368078
+    },
+    "officialSkiResort": true,
+    "id": "3235",
+    "website": "http://mapleskiridge.com/",
     "resortReview": {
       "score": "",
       "link": "",
@@ -5033,7 +5053,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Snow Creek",

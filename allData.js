@@ -2609,7 +2609,8 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "Glens Falls",
     "videos": [
-      "l6978o4mw1g"
+      "l6978o4mw1g",
+      "1T4nnsYp-gI"
     ],
     "position": {
       "lat": 43.286431660901286,
@@ -2618,10 +2619,20 @@ var allData = [
     "officialSkiResort": true,
     "id": "317",
     "website": "https://westmountain.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+    "resortReview":  {
+      "score": 39,
+      "link": "1T4nnsYp-gI",
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "1",
+      "chairLifts": "3",
+      "runs": "5",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "5",
+      "views": "2",
+      "wouldIGoBack": "4"
     },
     "skiPass": []
   },

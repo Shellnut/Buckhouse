@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '09/27/2021';
+var lastUpdated = '10/07/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1950,7 +1950,8 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "Mahwah",
     "videos": [
-      "WaGdIsCQdvc"
+      "WaGdIsCQdvc",
+      "_5cfWpVnvhY"
     ],
     "position": {
       "lat": 41.059356280224485,
@@ -1960,9 +1961,19 @@ var allData = [
     "id": "340",
     "website": "https://www.skicampgaw.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 28,
+      "link": "_5cfWpVnvhY",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "1",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "3",
+      "views": "2",
+      "wouldIGoBack": "2",
     },
     "skiPass": []
   },
@@ -3827,26 +3838,26 @@ var allData = [
     },
     "skiPass": []
   },
-  {
-    "resortName": "Sleepy Hollow Sports Park",
-    "state": "Iowa",
-    "region": "Midwest",
-    "city": "Des Moines",
-    "videos": [],
-    "position": {
-      "lat": 41.5899426061319,
-      "lng": -93.53363482146601
-    },
-    "officialSkiResort": true,
-    "id": "464",
-    "website": "https://sleepyhollowevents.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": []
-  },
+  // {
+  //   "resortName": "Sleepy Hollow Sports Park",
+  //   "state": "Iowa",
+  //   "region": "Midwest",
+  //   "city": "Des Moines",
+  //   "videos": [],
+  //   "position": {
+  //     "lat": 41.5899426061319,
+  //     "lng": -93.53363482146601
+  //   },
+  //   "officialSkiResort": true,
+  //   "id": "464",
+  //   "website": "https://sleepyhollowevents.com/",
+  //   "resortReview": {
+  //     "score": "",
+  //     "link": "",
+  //     "note": ""
+  //   },
+  //   "skiPass": []
+  // },
   {
     "resortName": "Sundown Mountain",
     "state": "Iowa",
@@ -4620,6 +4631,26 @@ var allData = [
     "officialSkiResort": true,
     "id": "423",
     "website": "https://treetops.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": []
+  },
+  {
+    "resortName": "Gladstone Sports Park",
+    "state": "Michigan",
+    "region": "Midwest",
+    "city": "Gladstone",
+    "videos": [],
+    "position": {
+      "lat": 45.8598963531628,
+      "lng": -87.03847872226208
+    },
+    "officialSkiResort": true,
+    "id": "397",
+    "website": "http://www.gladstonemi.org/community/parks_and_recreation/sports_park.php",
     "resortReview": {
       "score": "",
       "link": "",

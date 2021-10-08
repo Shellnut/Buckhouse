@@ -7403,6 +7403,7 @@ var allData = [
       "lng": -107.66585462891373
     },
     "officialSkiResort": true,
+    "helicopterOnly": true,
     "id": "2280",
     "website": "http://www.silvertonmountain.com/page/home",
     "resortReview": {

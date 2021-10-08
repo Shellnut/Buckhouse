@@ -962,6 +962,26 @@
         shadowSize: [41, 41]
       });
 
+      // Green Helicopter Icon (visited)
+      var greenHelicopterIcon = new L.Icon({
+        iconUrl: `img/${iconPreference}/visited_helicopter.png`,
+        shadowUrl: 'img/marker_shadow.png',
+        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [40, 45],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
+      // Red Helicopter Icon (not yet visited)
+      var redHelicopterIcon = new L.Icon({
+        iconUrl: `img/${iconPreference}/not_visited_helicopter.png`,
+        shadowUrl: 'img/marker_shadow.png',
+        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [40, 45],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
       var allDataMap = [];
       if (!!localStorage.getItem('showGlobal')) {
          allDataMap = JSON.parse(JSON.stringify(allData)).concat(JSON.parse(JSON.stringify(globalData)));
@@ -982,6 +1002,12 @@
         }
         else if (allDataMap[i].skiOnly && allDataMap[i].videos.length === 0) {
            icon = redSkiIcon; // not yet visited for ski only resort
+        }
+        else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length > 0) {
+           icon = greenHelicopterIcon; // visited helicopter only resort
+        }
+        else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length === 0) {
+           icon = redHelicopterIcon; // not yet visited for helicopter only resort
         }
         else if (allDataMap[i].videos.length > 0) {
            icon = greenIcon; // visited

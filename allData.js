@@ -3031,26 +3031,26 @@ var allData = [
     },
     "skiPass": ["Epic"]
   },
-  {
-    "resortName": "Mountain View at Edinboro",
-    "state": "Pennsylvania",
-    "region": "Mid-Atlantic",
-    "city": "Edinboro",
-    "videos": [],
-    "position": {
-      "lat": 41.85172390188738,
-      "lng": -80.0705874367098
-    },
-    "officialSkiResort": true,
-    "id": "122",
-    "website": "http://www.mountainviewmidland.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": []
-  },
+  // {
+  //   "resortName": "Mountain View at Edinboro",
+  //   "state": "Pennsylvania",
+  //   "region": "Mid-Atlantic",
+  //   "city": "Edinboro",
+  //   "videos": [],
+  //   "position": {
+  //     "lat": 41.85172390188738,
+  //     "lng": -80.0705874367098
+  //   },
+  //   "officialSkiResort": true,
+  //   "id": "122",
+  //   "website": "http://www.mountainviewmidland.com/",
+  //   "resortReview": {
+  //     "score": "",
+  //     "link": "",
+  //     "note": ""
+  //   },
+  //   "skiPass": []
+  // },
   {
     "resortName": "Seven Springs Mountain Resort",
     "state": "Pennsylvania",

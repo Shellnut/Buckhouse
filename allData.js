@@ -10112,7 +10112,7 @@ var allData = [
     "skiPass": []
   },
   {
-    "resortName": "Squaw Valley",
+    "resortName": "Palisades Tahoe",
     "state": "California",
     "region": "West Coast",
     "city": "Olympic Valley",

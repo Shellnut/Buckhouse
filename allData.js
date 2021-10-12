@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '10/07/2021';
+var lastUpdated = '10/11/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2318,7 +2318,8 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "Hunter",
     "videos": [
-      "PiA0bdO8tAI"
+      "PiA0bdO8tAI",
+      "mpoKns226DM"
     ],
     "position": {
       "lat": 42.20377699301453,
@@ -2328,9 +2329,19 @@ var allData = [
     "id": "315",
     "website": "http://www.huntermtn.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 52,
+      "link": "mpoKns226DM",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "5",
+      "lodging": "6",
+      "chairLifts": "6",
+      "runs": "6",
+      "terrainPark": "4",
+      "food": "6",
+      "employees": "6",
+      "views": "5",
+      "wouldIGoBack": "2",
     },
     "skiPass": ["Epic"]
   },

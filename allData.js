@@ -9497,6 +9497,7 @@ var allData = [
       "lng": -147.45866200127367
     },
     "officialSkiResort": true,
+    "helicopterOnly": true,
     "id": "4695",
     "website": "https://majesticheliski.com/",
     "resortReview": {

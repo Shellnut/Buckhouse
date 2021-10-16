@@ -173,13 +173,13 @@
                               </label>
                            </a>
                         </li>
-                        <li role="separator" class="divider"></li>
+                        <!-- <li role="separator" class="divider"></li>
                         <li class="dropdown-header">Show Video Metrics</li>
                         <li>
                            <a href="javascript:void(0);">
                                  <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateMetrics()" ng-model="showMetrics"> Show Video Metrics?</label>
                            </a>
-                        </li>
+                        </li> -->
                      </ul>
                   </li>
                 </ul>
@@ -193,7 +193,7 @@
 
             <!-- Progress -->
             <div>
-               <p>Johnathan has visited {{visitedCount}} out of the {{skiResortCount | number:0}}<a class="disclaimer-count" href="#change-log" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> <span ng-show="!showGlobal">U.S.</span><span ng-show="showGlobal">global</span> ski resorts so far! <i>last updated: {{lastUpdated}}</i></p>
+               <p>Johnathan has visited {{visitedCount}} out of the {{skiResortCount | number:0}}<a class="disclaimer-count" ng-click="goToChangeLog()" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> <span ng-show="!showGlobal">U.S.</span><span ng-show="showGlobal">global</span> ski resorts so far! <i>last updated: {{lastUpdated}}</i></p>
             </div>
 
             <!-- Search column -->
@@ -383,11 +383,11 @@
             </div>
 
             <div id='newResortsBySeason'></div>
-            <div id='viewMetrics' ng-show="showMetrics">
-               <h3>Johnathan's YouTube Video View Count Stats</h3>
+            <!-- <div id='viewMetrics' ng-show="showMetrics"> -->
+               <!-- <h3>Johnathan's YouTube Video View Count Stats</h3>
                <p>Video view metrics were last updated on {{newResortStatsLastUpdated}}</p>
                <p><i> - Video view counts are cummulative. For example, Season 4 videos have been gathering views on YouTube since Season 4.</i></p>
-               <p><i> - These video view counts are strictly videos from the resort map. Family vlogs, live streams, mountain bike videos, etc. are not included in these metrics.</i></p>
+               <p><i> - These video view counts are strictly videos from the resort map. Family vlogs, live streams, mountain bike videos, etc. are not included in these metrics.</i></p> -->
                <div id='viewsBySeason'></div>
                <div id='videosBySeason'></div>
                <div id='viewsTotalBySeason'></div>
@@ -401,7 +401,7 @@
                <li>If Johnathan can go to 40 new resorts a season, he'll finish the U.S. resorts by 2031. Good luck Johnathan!</li>
                <li>Season 0 is considered the videos on his channel before he started making the vlogs (2011-2016).</li>
                <li>Live streams, family vlogs, mountain biking, wakeboarding, skateboarding videos, etc. are not included in this website.</li>
-               <li>If you have any suggestions or questions, feel free to email me (see bottom right of this page).</li>
+               <li>If you have any suggestions or questions, feel free to email Kenny <a href="mailto:shellnut@gmail.com?subject=Buckhouse Ski Map" target="_top"> shellnut@gmail.com</a>.</li>
             </ul>
 
             <p id="change-log"><b>Change Log:</b></p>
@@ -432,7 +432,7 @@
                      <a href="https://twitter.com/johnbuckhouse" target="_blank"><i class="fa fa-twitter"></i></a>
                </p>
                <p class="navbar-text pull-right">
-                  Suggestions? <a href="mailto:shellnut@gmail.com?subject=Buckhouse Ski Map">Email Kenny</a>
+                  Suggestions? Email Kenny <a href="mailto:shellnut@gmail.com?subject=Buckhouse Ski Map" target="_top">shellnut@gmail.com</a>
                </p>
          </div>
                     
@@ -569,16 +569,21 @@
             }
          }
 
-         // show metrics
-         $scope.showMetrics = false;
-
-         $scope.updateMetrics = function() {
-            if ($scope.showMetrics) {
-               setTimeout(function() {
-                  document.getElementById("viewMetrics").scrollIntoView();               
-               }, 0);
-            }
+         // Scroll to change log
+         $scope.goToChangeLog = function() {
+            document.getElementById("change-log").scrollIntoView(); 
          }
+
+         // // show metrics
+         // $scope.showMetrics = false;
+
+         // $scope.updateMetrics = function() {
+         //    if ($scope.showMetrics) {
+         //       setTimeout(function() {
+         //          document.getElementById("viewMetrics").scrollIntoView();               
+         //       }, 0);
+         //    }
+         // }
 
          // Custom sort for table
          $scope.myOrder = function(field) {
@@ -765,7 +770,7 @@
                                  <p>The goal of this website is to become the most comprehensive U.S. ski resort database on the internet.</p>
                                  <br>                                 
                                  <p><b>How can I help improve this website?</b></p>
-                                 <p>Feedback is welcome and apperciated! <a href="mailto:shellnut@gmail.com?subject=Buckhouse Ski Map">Email Kenny</a> with any suggestions or questions. If you're a developer, check out the <a target="_blank" href="https://github.com/Shellnut/Buckhouse">Github</a>.</p>
+                                 <p>Feedback is welcome and apperciated! Email Kenny <a href="mailto:shellnut@gmail.com?subject=Buckhouse Ski Map">shellnut@gmail.com</a> with any suggestions or questions. If you're a developer, check out the <a target="_blank" href="https://github.com/Shellnut/Buckhouse">Github</a>.</p>
                               </div>
                               <div class="modal-footer">
                                  <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>

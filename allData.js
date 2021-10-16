@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '10/15/2021';
+var lastUpdated = '10/16/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7679,6 +7679,7 @@ var allData = [
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "WCbFS6Qfhmg",
       "yy10nZW64nI",
       "s3fHFj5QvdM",
       "x8P1B9hncv0",

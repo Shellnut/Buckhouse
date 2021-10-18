@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '10/16/2021';
+var lastUpdated = '10/17/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6199,6 +6199,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "rWMvTc88Wz4",
+      "Q8KnX9ORSSo",
       "Cgbcc1bxn-k",
       "jSjO24IUI7Q",
       "xSnhKk9u7BY",
@@ -7649,6 +7651,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Pagosa Springs",
     "videos": [
+      "kDJ9eyKGMB8",
       "9w2g01-aDZY",
       "IB9d-8ifzEw",
       "JBlns5NbQqg",

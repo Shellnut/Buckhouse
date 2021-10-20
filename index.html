@@ -108,6 +108,34 @@
          .navbar {
             position: static;
          }
+         .legend {
+            line-height: 18px;
+            color: #555;
+         }
+         .info {
+            background: white;
+            background: rgba(255,255,255,0.8);
+         }
+
+         /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+         @media screen and (min-width: 601px) {
+            .info {
+               padding: 6px 8px;
+               font: 14px Arial, Helvetica, sans-serif;
+               box-shadow: 0 0 15px rgba(0,0,0,0.2);
+               border-radius: 5px;
+            }
+         }
+
+         /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+         @media screen and (max-width: 600px) {
+            .info {
+               padding: 3px 4px;
+               font: 8px Arial, Helvetica, sans-serif;
+               box-shadow: 0 0 5px rgba(0,0,0,0.2);
+               border-radius: 2px;
+            }
+         }
       </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
@@ -876,6 +904,25 @@
             'true': 'Exit Fullscreen'
          }
       }));
+
+      // Add a legend
+      var legend = L.control({position: 'bottomright'});
+
+      legend.onAdd = function (map) {
+
+         var div = L.DomUtil.create('div', 'legend info');
+
+         div.innerHTML =
+            '<b><i class="fa fa-trophy"></i> DREAMER Memberships</b><br>' +
+            '<span>Aaron Rodgers</span><br>' +
+            '<span>The Green Bay Packers</span><br>' +
+            '<span>Backflipping Benton</span><br>' +
+            '<span>Johnathan Buckhouse</span>';
+                  
+         return div;
+      };
+
+      legend.addTo(mymap);
 
       // Load the icon preference
       var iconPreference;

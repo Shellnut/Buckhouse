@@ -6199,7 +6199,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
-      "B4VCAGtNqe0",
       "G0133FxtiP4",
       "chk3ucoCSr4",
       "4kQQ8R1nwP0",
@@ -6983,6 +6982,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "B4VCAGtNqe0",
       "ZeBYKuKmP_U",
       "tQPDdYStSzo",
       "wEUeSp1NNKA",

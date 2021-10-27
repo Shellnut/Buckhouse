@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '10/25/2021';
+var lastUpdated = '10/26/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10670,7 +10670,8 @@ var allData = [
     "region": "West Coast",
     "city": "near Enumclaw",
     "videos": [
-      "DLHZ-143s_s"
+      "DLHZ-143s_s",
+      "eEw65ZpAr4o"
     ],
     "position": {
       "lat": 46.935457448813246,
@@ -10680,9 +10681,19 @@ var allData = [
     "id": "429",
     "website": "https://www.crystalmountainresort.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 65,
+      "link": "eEw65ZpAr4o",
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "5",
+      "lodging": "2",
+      "chairLifts": "7",
+      "runs": "9",
+      "terrainPark": "5",
+      "food": "7",
+      "employees": "5",
+      "views": "10",
+      "wouldIGoBack": "8",
     },
     "skiPass": ["Ikon"]
   },

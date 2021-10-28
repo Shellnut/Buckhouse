@@ -2983,7 +2983,7 @@ var allData = [
     "skiPass": []
   },
   {
-    "resortName": "Jack Frost Big Boulder",
+    "resortName": "Jack Frost Ski Area",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
     "city": "Blakeslee",
@@ -2993,7 +2993,27 @@ var allData = [
       "lng": -75.65579196297945
     },
     "officialSkiResort": true,
-    "id": "13603",
+    "id": "254",
+    "website": "http://www.jfbb.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": ["Epic"]
+  },
+  {
+    "resortName": "Big Boulder Mountain",
+    "state": "Pennsylvania",
+    "region": "Mid-Atlantic",
+    "city": "Lake Harmony",
+    "videos": [],
+    "position": {
+      "lat": 41.050245616180355,
+      "lng": -75.601067425094
+    },
+    "officialSkiResort": true,
+    "id": "252",
     "website": "http://www.jfbb.com",
     "resortReview": {
       "score": "",
@@ -5246,7 +5266,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Snow Trails Ski Resort",

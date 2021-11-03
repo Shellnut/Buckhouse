@@ -151,6 +151,44 @@
                   <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="javascript:void(0);" ng-click="infoModal()"><span class="text-primary"><b>The Buckhouse Ski Map</b></span></a>
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Filter <span ng-show="showPasses !== 'all'">({{showPasses}})</span><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-header">Ski Pass</li>
+                     <li>
+                        <a href="javascript:void(0);">
+                           <input type="radio" name="all" ng-change="updatePasses()" ng-model="showPasses" value="all"> 
+                           <span>Show All</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);">
+                           <input type="radio" name="Epic" ng-change="updatePasses()" ng-model="showPasses" value="Epic">
+                           <span>Epic</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);">
+                           <input type="radio" name="Ikon" ng-change="updatePasses()" ng-model="showPasses" value="Ikon">
+                           <span>Ikon</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);">
+                           <input type="radio" name="Mountain Collective" ng-change="updatePasses()" ng-model="showPasses" value="Mountain Collective">
+                           <span>Mountain Collective</span>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="javascript:void(0);">
+                           <input type="radio" name="Powder Alliance" ng-change="updatePasses()" ng-model="showPasses" value="Powder Alliance">
+                           <span>Powder Alliance</span>
+                        </a>
+                     </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
           
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -568,6 +606,21 @@
                   localStorage.setItem('plainMarker', '');
                   location.reload();
                }
+          }
+
+          // Get pass options from localStorage
+          $scope.showPasses = localStorage.getItem('showPasses');
+
+          if (showPasses && showPasses !=='all') {
+            $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes($scope.showPasses));
+          }
+          else {
+            $scope.showPasses = 'all';
+          }
+
+          $scope.updatePasses = function() {
+             localStorage.setItem('showPasses', $scope.showPasses);
+             location.reload();
           }
 
          // Get truthy or falsy value from localStorage
@@ -1062,6 +1115,12 @@
       }
       else {
          allDataMap = JSON.parse(JSON.stringify(allData));
+      }
+
+      // Get pass options from localStorage
+      var showPasses = localStorage.getItem('showPasses');
+      if (showPasses && showPasses !=='all') {
+         allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes(showPasses));
       }
 
       for (var i = 0; i<allDataMap.length; i++) {

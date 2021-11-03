@@ -109,7 +109,7 @@
             position: static;
          }
          .my-dropdown {
-            z-index: 10000;
+            z-index: 1001;
          }
          .legend {
             line-height: 18px;
@@ -555,6 +555,7 @@
                });
                globalWarningModal.result.then(function() {
                   localStorage.setItem('showGlobal', '1');
+                  localStorage.setItem('showPasses', 'all')
                   location.reload(); 
                }, function () {
                   $scope.showGlobal = false;
@@ -611,6 +612,9 @@
           }
 
           $scope.updatePasses = function() {
+             if ($scope.showPasses !=='all') {
+               localStorage.setItem('showGlobal', '');
+             }
              localStorage.setItem('showPasses', $scope.showPasses);
              location.reload();
           }

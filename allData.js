@@ -9077,7 +9077,7 @@ var allData = [
       "views": "6",
       "wouldIGoBack": "6",
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Woodward Park City",

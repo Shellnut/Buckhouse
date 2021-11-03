@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '11/01/2021';
+var lastUpdated = '11/02/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3414,7 +3414,8 @@ var allData = [
     "region": "Southeast",
     "city": "Sugar Mountain",
     "videos": [
-      "SUvpR8jJF4M"
+      "SUvpR8jJF4M",
+      "Y2-2iAjBUqE"
     ],
     "position": {
       "lat": 36.13369100484302,
@@ -3424,9 +3425,19 @@ var allData = [
     "id": "290",
     "website": "http://skisugar.com/trailmap/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 41,
+      "link": "Y2-2iAjBUqE",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "5",
+      "lodging": "5",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "1",
+      "food": "6",
+      "employees": "4",
+      "views": "5",
+      "wouldIGoBack": "2",
     },
     "skiPass": []
   },

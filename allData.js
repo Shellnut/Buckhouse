@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '11/02/2021';
+var lastUpdated = '11/03/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3281,6 +3281,26 @@ var allData = [
       "note": ""
     },
     "skiPass": ["Epic"]
+  },
+  {
+    "resortName": "Mount Pleasant of Edinboro",
+    "state": "Pennsylvania",
+    "region": "Mid-Atlantic",
+    "city": "Cambridge Springs",
+    "videos": [],
+    "position": {
+      "lat": 41.8512290595026,
+      "lng": -80.07032250000002
+    },
+    "officialSkiResort": true,
+    "id": "",
+    "website": "https://www.skimountpleasant.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": []
   },
   {
     "resortName": "Cloudmont Ski & Golf Resort",

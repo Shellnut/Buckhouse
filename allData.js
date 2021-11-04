@@ -7034,6 +7034,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "ue3mzuSK7bc",
       "h37TE9-aRU0",
       "B4VCAGtNqe0",
       "ZeBYKuKmP_U",
@@ -9097,7 +9098,7 @@ var allData = [
       "views": "6",
       "wouldIGoBack": "6",
     },
-    "skiPass": []
+    "skiPass": ["Epic"]
   },
   {
     "resortName": "Woodward Park City",

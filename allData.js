@@ -7715,6 +7715,7 @@ var allData = [
     "city": "Pagosa Springs",
     "videos": [
       "kDJ9eyKGMB8",
+      "M0zvy8vcAjY",
       "9w2g01-aDZY",
       "IB9d-8ifzEw",
       "JBlns5NbQqg",
@@ -7732,9 +7733,19 @@ var allData = [
     "id": "505",
     "website": "http://www.wolfcreekski.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 40,
+      "link": "M0zvy8vcAjY",
+      "note": "",
+      "price": "4",
+      "easeOfAccess": "3",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "6",
+      "terrainPark": "0",
+      "food": "5",
+      "employees": "5",
+      "views": "8",
+      "wouldIGoBack": "5",
     },
     "skiPass": []
   },

@@ -335,7 +335,11 @@
                   <td>
                      <i ng-show="data.videos.length>0" class="fa fa-check-square"></i> 
                      <i ng-show="data.videos.length===0" class="fa fa-square"></i>
-                     <span>{{data.resortName}}</span>
+                     <span>
+                        <a ng-show="!!data.id" href="https://skimap.org/SkiAreas/view/{{data.id}}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
+                        <i ng-show="!data.id" class="fa fa-map-o" aria-hidden="true"></i>
+                        {{data.resortName}}
+                     </span>
                   </td>
                   <td>
                         <span ng-show="!data.resortReview.score && data.id"><a ng-click="openModal(data)" onclick="return false;">N/A</a></span>
@@ -701,8 +705,8 @@
                               <h3 class="modal-title">
                                  <div class="row">
                                     <div class="col-xs-11">
-                                       <a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.resortName}, ${modalData.state}</a>
                                        <a ng-show="${!!modalData.id}" href="https://skimap.org/SkiAreas/view/${modalData.id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
+                                       <a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.resortName}, ${modalData.state}</a>
                                     </div>
                                     <div class="col-xs-1">
                                        <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
@@ -1173,10 +1177,20 @@
         // Link to the website 
         var modalTitle = '';
         if (allDataMap[i].website) {
-          modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</a></h4>`;
+           if (allData[i].id) {
+               modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a> <a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</a></h4>`;
+           }
+           else {
+               modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</a></h4>`;
+           }
         }
         else {
-            modalTitle = `<h4 id="firstHeading" class="firstHeading">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</h4>`;
+           if (allData[i].id) {
+               modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a> ${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</h4>`;
+           }
+           else {
+               modalTitle = `<h4 id="firstHeading" class="firstHeading">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</h4>`;
+           }
         }
 
         // Link to the score

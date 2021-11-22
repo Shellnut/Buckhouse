@@ -10656,7 +10656,7 @@ var allData = [
       "lng": -121.71099567291978
     },
     "officialSkiResort": true,
-    "id": "5019",
+    "id": "266",
     "website": "https://www.timberlinelodge.com",
     "resortReview": {
       "score": 71,

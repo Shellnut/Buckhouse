@@ -12,7 +12,7 @@
 //       }
 //   }  
 // }
-var lastUpdated = '11/20/2021';
+var lastUpdated = '11/21/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5796,7 +5796,8 @@ var allData = [
     "region": "Midwest",
     "city": "Slinger",
     "videos": [
-      "UYWyxIXo4as"
+      "UYWyxIXo4as",
+      "bTCoyE-aXcM"
     ],
     "position": {
       "lat": 43.338604524942745,
@@ -5806,9 +5807,19 @@ var allData = [
     "id": "161",
     "website": "http://www.littleswitz.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 46,
+      "link": "bTCoyE-aXcM",
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "9",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "4",
+      "food": "7",
+      "employees": "5",
+      "views": "2",
+      "wouldIGoBack": "8"
     },
     "skiPass": []
   },

@@ -3451,12 +3451,12 @@ var allData = [
     "resortReview": {
       "score": "",
       "link": "",
-      "note": "https://skimap.org/data/260/1923/1616587114.jpg"
+      "note": ""
     },
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/260/1923/1616587114.jpg"
   },
   {
     "resortName": "Mount Pleasant of Edinboro",
@@ -7387,7 +7387,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/500/3100/1632364993.png"
   },
   {
     "resortName": "Kendall Mountain Ski Area",
@@ -7408,7 +7408,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2280/3535/1573356158.jpg"
   },
   {
     "resortName": "Keystone Resort",
@@ -7793,7 +7793,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/515/2200/1536424485.jpg"
   },
   {
     "resortName": "Monarch Ski Area",
@@ -7957,7 +7957,7 @@ var allData = [
       "wouldIGoBack": "6"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/512/3535/1634338606thumb.jpg"
   },
   {
     "resortName": "Ski Granby Ranch",
@@ -8123,7 +8123,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/503/4139/1634139964.png"
   },
   {
     "resortName": "Wolf Creek ski area",
@@ -9614,7 +9614,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/229/4070/1636737495jpg_render.jpg"
   },
   {
     "resortName": "Woodward Park City",
@@ -10459,7 +10459,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/544/3535/1635217332jpg_render.jpg"
   },
   {
     "resortName": "Homewood Mountain",
@@ -10537,7 +10537,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/537/3535/1635218430thumb.jpg"
   },
   {
     "resortName": "Mammoth Mountain",
@@ -10567,7 +10567,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/530/3535/1635217586jpg_render.jpg"
   },
   {
     "resortName": "Mount Baldy Ski Lifts",
@@ -10701,7 +10701,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/531/3535/1635218673.pdf"
   },
   {
     "resortName": "Sierra at Tahoe",

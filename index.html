@@ -269,7 +269,7 @@
                <tr>
                   <th>
                      <a ng-click="myOrder('resortName'); reverseSort = !reverseSort">
-                        <span>Resort Name</span> 
+                        <span>Resort Name (Map Link)</span> 
                         <span ng-show="orderByField == 'resortName'">
                            <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
                            <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
@@ -336,9 +336,8 @@
                      <i ng-show="data.videos.length>0" class="fa fa-check-square"></i> 
                      <i ng-show="data.videos.length===0" class="fa fa-square"></i>
                      <span>
-                        <a ng-show="!!data.id" href="https://skimap.org/SkiAreas/view/{{data.id}}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
-                        <i ng-show="!data.id" class="fa fa-map-o" aria-hidden="true"></i>
-                        {{data.resortName}}
+                        <a ng-show="!!data.mapLink" href="javascript:void(0);" ng-click="mapModal(data)" title="Resort Map">{{data.resortName}}</a>
+                        <span ng-show="!data.mapLink">{{data.resortName}}</span>
                      </span>
                   </td>
                   <td>
@@ -705,7 +704,6 @@
                               <h3 class="modal-title">
                                  <div class="row">
                                     <div class="col-xs-11">
-                                       <a ng-show="${!!modalData.id}" href="https://skimap.org/SkiAreas/view/${modalData.id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a>
                                        <a href="${modalData.website}" target="_blank" title="Resort Website">${modalData.resortName}, ${modalData.state}</a>
                                     </div>
                                     <div class="col-xs-1">
@@ -872,6 +870,46 @@
             });
          }
 
+         $scope.mapModal = function(modalData) {
+
+            $scope.modalData = modalData;
+
+            var mapModal = $uibModal.open({
+                  animation: $scope.animationsEnabled,
+                  template: `<div class="modal-header">
+                                 <h3 class="modal-title">
+                                    <div class="row">
+                                       <div class="col-xs-11">
+                                          <span><i class="fa fa-map-o" aria-hidden="true"></i> ${modalData.resortName} Map</span>
+                                       </div>
+                                       <div class="col-xs-1">
+                                          <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
+                                       </div>
+                                    </div>
+                                 </h3>
+                              </div>
+                              <div class="modal-body">
+                                 <a href="${modalData.mapLink}"><img src="${modalData.mapLink}" width="100%"></a>
+                                 <hr>
+                                 <p><i>Map credit goes to skimap.org</i></p>
+                                 <p>Click <a href="https://skimap.org/SkiAreas/view/${modalData.id}">here</a> for more map infomarion</p>
+                              </div>
+                              <div class="modal-footer">
+                                 <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>
+                              </div>`,
+                  controller: 'MapModal',
+                  resolve: {
+                  modalData: function () {
+                     return $scope.modalData;
+                  }
+               }
+               });
+               mapModal.result.then(function() {
+                  // console.log('done!');
+               }, function () {
+            });
+         }
+
          $scope.toggleAnimation = function () {
             $scope.animationsEnabled = !$scope.animationsEnabled;
          };
@@ -932,6 +970,16 @@
             $uibModalInstance.dismiss();
          };
       });
+
+      // Map Modal controller      
+      app.controller('MapModal', function ($scope, $uibModalInstance, modalData) {
+         $scope.modalData = modalData;
+         // Close Modal
+         $scope.ok = function () {
+            $uibModalInstance.close();
+         };
+      });
+
 
       // Set the default view
       var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords
@@ -1177,20 +1225,10 @@
         // Link to the website 
         var modalTitle = '';
         if (allDataMap[i].website) {
-           if (allData[i].id) {
-               modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a> <a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</a></h4>`;
-           }
-           else {
-               modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</a></h4>`;
-           }
+          modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</a></h4>`;
         }
         else {
-           if (allData[i].id) {
-               modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="https://skimap.org/SkiAreas/view/${allData[i].id}" target="_blank" title="Resort Map"><i class="fa fa-map-o" aria-hidden="true"></i></a> ${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</h4>`;
-           }
-           else {
-               modalTitle = `<h4 id="firstHeading" class="firstHeading">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</h4>`;
-           }
+            modalTitle = `<h4 id="firstHeading" class="firstHeading">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng}</h4>`;
         }
 
         // Link to the score

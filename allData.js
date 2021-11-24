@@ -1458,7 +1458,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/217/3535/1575503575.pdf"
+    "mapLink": "https://skimap.org/data/217/3535/1575503575jpg_render.jpg"
   },
   {
     "resortName": "Burke Mountain",
@@ -1608,7 +1608,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/211/4070/1635878718.pdf"
+    "mapLink": "https://skimap.org/data/211/4070/1635878718jpg_render.jpg"
   },
   {
     "resortName": "Dark Park at Darkside Snowboard Shop",
@@ -1651,7 +1651,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/4101/1265/1364247598.pdf"
+    "mapLink": "https://skimap.org/data/4101/1265/1364247598jpg_render.jpg"
   },
   {
     "resortName": "Lyndon Outing Club",
@@ -1715,7 +1715,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/201/3533/1621259844.pdf"
+    "mapLink": "https://skimap.org/data/201/3533/1621259844jpg_render.jpg"
   },
   {
     "resortName": "Middlebury College Snow Bowl",
@@ -1795,7 +1795,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/3019/2200/1519323496.pdf"
+    "mapLink": "https://skimap.org/data/3019/2200/1519323496jpg_render.jpg"
   },
   {
     "resortName": "Okemo Mountain",
@@ -1860,7 +1860,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/1090/2200/1486432234.pdf"
+    "mapLink": "https://skimap.org/data/1090/2200/1486432234jpg_render.jpg"
   },
   {
     "resortName": "Quechee Lakes Ski Area",
@@ -1992,7 +1992,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/203/916/1490407934.pdf"
+    "mapLink": "https://skimap.org/data/203/916/1490407934jpg_render.jpg"
   },
   {
     "resortName": "Wisp Ski Resort",
@@ -2013,7 +2013,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/445/3439/1580763975.pdf"
+    "mapLink": "https://skimap.org/data/445/3439/1580763975jpg_render.jpg"
   },
   {
     "resortName": "Big Snow American Dream",
@@ -2139,7 +2139,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/339/2200/1515198820.pdf"
+    "mapLink": "https://skimap.org/data/339/2200/1515198820jpg_render.jpg"
   },
   {
     "resortName": "Beartown Ski Area",
@@ -2288,7 +2288,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/323/4387/1616582923.pdf"
+    "mapLink": "https://skimap.org/data/323/4387/1616582923jpg_render.jpg"
   },
   {
     "resortName": "Dry Hill Ski Area",
@@ -2343,7 +2343,7 @@ var allData = [
       "wouldIGoBack": "5"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/320/4314/1612817905.pdf"
+    "mapLink": "https://skimap.org/data/320/4314/1612817905jpg_render.jpg"
   },
   {
     "resortName": "Greek Peak",
@@ -2944,7 +2944,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/5003/2426/1456960655.pdf"
+    "mapLink": "https://skimap.org/data/5003/2426/1456960655jpg_render.jpg"
   },
   {
     "resortName": "Mount Pisgah",
@@ -3154,7 +3154,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/4115/1317/1387252571.pdf"
+    "mapLink": "https://skimap.org/data/4115/1317/1387252571jpg_render.jpg"
   },
   {
     "resortName": "Jack Frost Ski Area",
@@ -3873,7 +3873,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/181/3535/1573352789.pdf"
+    "mapLink": "https://skimap.org/data/181/3535/1573352789jpg_render.jpg"
   },
   {
     "resortName": "Timberline Four Seasons Resort",
@@ -6399,7 +6399,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/159/3713/1612227534thumb.jpg"
   },
   {
     "resortName": "Tyrol Basin",
@@ -6422,7 +6422,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/162/2200/1584977701.png"
   },
   {
     "resortName": "Whitecap Mountains",
@@ -6443,7 +6443,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/158/4359/1630096654.jpg"
   },
   {
     "resortName": "Whitetail Ridge",
@@ -6464,7 +6464,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3290/2200/1452836425.jpg"
   },
   {
     "resortName": "Wilmot Mountain",
@@ -6487,7 +6487,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/165/2200/1636658562jpg_render.jpg"
   },
   {
     "resortName": "Arizona Snowbowl",
@@ -7387,7 +7387,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/500/3100/1632364993.png"
+    "mapLink": "https://skimap.org/data/498/916/1389760303.jpg"
   },
   {
     "resortName": "Kendall Mountain Ski Area",
@@ -8008,7 +8008,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/500/3100/1632364993.png"
   },
   {
     "resortName": "Sunlight Ski Area",
@@ -9993,7 +9993,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4875/2200/1453147924jpg_render.jpg"
   },
   {
     "resortName": "Antelope Butte",
@@ -10701,7 +10701,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/531/3535/1635218673.pdf"
+    "mapLink": "https://skimap.org/data/531/3535/1635218673jpg_render.jpg"
   },
   {
     "resortName": "Sierra at Tahoe",

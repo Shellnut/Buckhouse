@@ -3,13 +3,13 @@
 // -------------------------
 // for (var i=0; i<allData.length; i++) {
 //   for (var j=0; j<a.length; j++) {
-//       var resort1 = allData[i].resortName.replace("Mount", "Mt").replace("Mt.", "Mt");
-//       var resort2 = a[j].SkiArea.name.replace("Mount", "Mt").replace("Mt.", "Mt");
-//       if (resort1.includes(resort2) || resort2.includes(resort1)) {
-//           console.log('There was a match!');
-//           allData[i].id = a[j].SkiArea.id;
-//           allData[i].website = a[j].SkiArea.official_website;
-//       }
+//     var resort1 = allData[i].resortName.replace("Mount", "Mt").replace("Mt.", "Mt");
+//     var resort2 = a[j].SkiArea.name.replace("Mount", "Mt").replace("Mt.", "Mt");
+//     if (resort1.includes(resort2) || resort2.includes(resort1)) {
+//       console.log('There was a match!');
+//       allData[i].id = a[j].SkiArea.id;
+//       allData[i].website = a[j].SkiArea.official_website;
+//     }
 //   }  
 // }
 var lastUpdated = '11/23/2021';
@@ -881,7 +881,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/347/3535/1584308926.jpg"
   },
   {
     "resortName": "Campton Mountain",
@@ -1715,7 +1715,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/201/3533/1621259844jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/14790/3857/1585178894.jpg"
   },
   {
     "resortName": "Middlebury College Snow Bowl",
@@ -4043,7 +4043,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/468/4196/1632579844.jpg"
   },
   {
     "resortName": "Perfect North Slopes",
@@ -4064,7 +4064,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/470/2200/1468534068.jpg"
   },
   {
     "resortName": "Mt. Crescent Ski Area",
@@ -4085,7 +4085,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/463/4196/1632791686.jpg"
   },
   {
     "resortName": "Seven Oaks Snow Ski Area",
@@ -4106,7 +4106,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/465/4196/1632791749.jpg"
   },
   {
     "resortName": "Sundown Mountain",
@@ -4127,7 +4127,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/466/4196/1632791840.jpg"
   },
   {
     "resortName": "Al Quaal Recreation Ski Area",
@@ -4171,7 +4171,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/415/3523/1559146403.jpg"
   },
   {
     "resortName": "Apple Mountain Ski Resort",
@@ -4192,7 +4192,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/412/2200/1454814318.jpeg"
   },
   {
     "resortName": "Big Powderhorn Ski Area",
@@ -4213,7 +4213,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/420/4196/1631755159.jpg"
   },
   {
     "resortName": "Bittersweet Ski Resort",
@@ -4234,7 +4234,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/400/2205/1557332823.jpg"
   },
   {
     "resortName": "Blackjack Ski Resort",
@@ -4255,7 +4255,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/394/4196/1635612657.jpg"
   },
   {
     "resortName": "Boyne Highlands Resort",
@@ -4278,7 +4278,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/407/4196/1631755368.jpg"
   },
   {
     "resortName": "Boyne Mountain",
@@ -4301,7 +4301,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/421/4196/1631755404.jpg"
   },
   {
     "resortName": "Caberfae Peaks Ski & Golf Resort",
@@ -4322,7 +4322,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/404/2200/1466130850.jpg"
   },
   {
     "resortName": "Cannonsburg Ski Area",
@@ -4343,7 +4343,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/413/2200/1486089862.png"
   },
   {
     "resortName": "Challenge Mountain",
@@ -4364,7 +4364,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3271/2200/1447613420.jpeg"
   },
   {
     "resortName": "Crystal Mountain Resort & Spa",
@@ -4385,7 +4385,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/429/2200/1520792728jpg_render.jpg"
   },
   {
     "resortName": "Garland Resort",
@@ -4406,7 +4406,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/13026/2200/1521060103jpg_render.jpg"
   },
   {
     "resortName": "Hickory Hills Ski Area",
@@ -4427,7 +4427,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/398/4196/1632537558.jpg"
   },
   {
     "resortName": "The Homestead",
@@ -4448,7 +4448,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/414/2200/1472258555.jpg"
   },
   {
     "resortName": "Indianhead Mountain Resort",
@@ -4469,7 +4469,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/422/4196/1635612617.jpg"
   },
   {
     "resortName": "Marquette Mountain",
@@ -4490,7 +4490,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/419/4196/1631755319.jpg"
   },
   {
     "resortName": "Mont Ripley Ski Resort",
@@ -4511,7 +4511,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/427/4196/1631755245.jpg"
   },
   {
     "resortName": "Mount Bohemia",
@@ -4532,7 +4532,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/428/4196/1631755275.jpg"
   },
   {
     "resortName": "Mt. Brighton Ski Resort",
@@ -4553,7 +4553,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif"
   },
   {
     "resortName": "Mt. Holiday",
@@ -4574,7 +4574,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/411/2200/1543343053.jpg"
   },
   {
     "resortName": "Mt. Holly Ski and Snowboard Resort",
@@ -4595,7 +4595,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/431/4196/1635612852.jpg"
   },
   {
     "resortName": "Mt. McSauba Recreation Area",
@@ -4637,7 +4637,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/396/4196/1636548403.jpg"
   },
   {
     "resortName": "Mulligan's Hollow Ski Bowl",
@@ -4658,7 +4658,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/395/916/1335919536.jpg"
   },
   {
     "resortName": "Norway Mountain Ski and Snowboard Resort",
@@ -4679,7 +4679,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/410/7/1235838578.jpg"
   },
   {
     "resortName": "Nub's Nob",
@@ -4700,7 +4700,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/406/4196/1631755463.jpg"
   },
   {
     "resortName": "Otsego Club & Resort",
@@ -4721,7 +4721,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3272/4196/1631755500.jpg"
   },
   {
     "resortName": "Petoskey Winter Sports Park",
@@ -4763,7 +4763,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/425/2200/1472348757.jpg"
   },
   {
     "resortName": "Pine Mountain Resort",
@@ -4784,7 +4784,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/433/4359/1633800770.jpg"
   },
   {
     "resortName": "Porcupine Mountains",
@@ -4805,7 +4805,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/426/4196/1631755209.jpg"
   },
   {
     "resortName": "Shanty Creek Resorts",
@@ -4826,7 +4826,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/416/2200/1543342977jpg_render.jpg"
   },
   {
     "resortName": "Ski Brule",
@@ -4847,7 +4847,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/399/4196/1632537467.jpg"
   },
   {
     "resortName": "Snow Snake Ski & Golf",
@@ -4868,7 +4868,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/409/7/1209776453.jpg"
   },
   {
     "resortName": "Swiss Valley Ski and Snowboard Area",
@@ -4889,7 +4889,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/401/4196/1635612785.jpg"
   },
   {
     "resortName": "Timber Ridge Ski Area",
@@ -4910,7 +4910,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2173/2200/1486779495.jpg"
   },
   {
     "resortName": "Treetops Resort",
@@ -4931,7 +4931,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/423/2200/1521862142jpg_render.jpg"
   },
   {
     "resortName": "Gladstone Sports Park",
@@ -4952,7 +4952,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/397/4359/1623960167.png"
   },
   {
     "resortName": "Afton Alps",
@@ -4977,7 +4977,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/393/4417/1617925302.png"
   },
   {
     "resortName": "Andes Tower Hills",
@@ -4998,7 +4998,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/391/4196/1632579775.jpg"
   },
   {
     "resortName": "Buck Hill",
@@ -5032,7 +5032,7 @@ var allData = [
       "wouldIGoBack": "6"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/5187/2200/1610306489.jpg"
   },
   {
     "resortName": "Buena Vista Ski Area",
@@ -5053,7 +5053,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/384/2200/1600139508jpg_render.jpg"
   },
   {
     "resortName": "Chester Bowl Park",
@@ -5074,7 +5074,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/382/2200/1518921526.jpg"
   },
   {
     "resortName": "Coffee Mill Ski Area",
@@ -5095,7 +5095,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/378/4196/1632579617.jpg"
   },
   {
     "resortName": "Detroit Mountain",
@@ -5116,7 +5116,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4463/2200/1500789537.jpg"
   },
   {
     "resortName": "Giants Ridge",
@@ -5137,7 +5137,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/388/1923/1590257602.jpg"
   },
   {
     "resortName": "Hyland Ski and Snowboard Area",
@@ -5173,7 +5173,7 @@ var allData = [
       "wouldIGoBack": "9"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/389/4359/1623767220.jpg"
   },
   {
     "resortName": "Elm Creek Winter Recreation Area",
@@ -5196,7 +5196,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/5246/2200/1552801295jpg_render.jpg"
   },
   {
     "resortName": "Lutsen Mountains",
@@ -5217,7 +5217,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/381/4070/1636569204jpg_render.jpg"
   },
   {
     "resortName": "Mount Itasca",
@@ -5238,7 +5238,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/5026/4359/1633802995.jpg"
   },
   {
     "resortName": "Mount Kato",
@@ -5259,7 +5259,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/387/4196/1632579567.jpg"
   },
   {
     "resortName": "Powder Ridge",
@@ -5280,7 +5280,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/492/916/1622594198jpg_render.jpg"
   },
   {
     "resortName": "Ski Gull",
@@ -5301,7 +5301,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3031/4196/1632579746.jpg"
   },
   {
     "resortName": "Spirit Mountain",
@@ -5322,7 +5322,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/383/4196/1612306035jpg_render.jpg"
   },
   {
     "resortName": "Welch Village",
@@ -5343,7 +5343,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/379/3535/1632018817jpg_render.jpg"
   },
   {
     "resortName": "Wild Mountain",
@@ -5366,7 +5366,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/380/1923/1610589372.jpg"
   },
   {
     "resortName": "Canterbury Park",
@@ -5438,7 +5438,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/376/2200/1518654499.jpg"
   },
   {
     "resortName": "Bottineau Winter Park",
@@ -5459,7 +5459,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/280/2200/1617405927.jpg"
   },
   {
     "resortName": "Frost Fire",
@@ -5480,7 +5480,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/283/2200/1597004678.jpg"
   },
   {
     "resortName": "Huff Hills",
@@ -5501,7 +5501,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/282/4196/1612038404.jpg"
   },
   {
     "resortName": "Alpine Valley Ski Area",
@@ -5522,7 +5522,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/277/2200/1604690617jpg_render.jpg"
   },
   {
     "resortName": "Boston Mills/Brandywine Ski Resort",
@@ -5545,7 +5545,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2987/2200/1521489325.jpg"
   },
   {
     "resortName": "Mad River Mountain",
@@ -5568,7 +5568,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/278/4196/1632579877.jpg"
   },
   {
     "resortName": "Snow Trails Ski Resort",
@@ -5589,7 +5589,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/279/4196/1632579904.jpg"
   },
   {
     "resortName": "Big Creek Ski Area",
@@ -5610,7 +5610,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3269/916/1336247854jpg_render.jpg"
   },
   {
     "resortName": "Deer Mountain",
@@ -5631,7 +5631,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/235/1923/1479871115.jpg"
   },
   {
     "resortName": "Great Bear",
@@ -5652,7 +5652,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/234/4196/1612038469.jpg"
   },
   {
     "resortName": "Terry Peak",
@@ -5673,7 +5673,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/233/4070/1610976293.jpg"
   },
   {
     "resortName": "Alpine Valley Resort",
@@ -5707,7 +5707,7 @@ var allData = [
       "wouldIGoBack": "4"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/169/1923/1610588517.jpg"
   },
   {
     "resortName": "Ausblick Ski Club",
@@ -5728,7 +5728,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3279/2200/1456854023.jpeg"
   },
   {
     "resortName": "Badlands Sno-Park",
@@ -5749,7 +5749,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4824/2200/1485020824.jpg"
   },
   {
     "resortName": "Book Across the Bay",
@@ -5791,7 +5791,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3280/916/1402441346.jpg"
   },
   {
     "resortName": "Bruce Mound Winter Sports Area",
@@ -5812,7 +5812,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/164/4359/1626642279jpg_render.jpg"
   },
   {
     "resortName": "Camp 10",
@@ -5833,7 +5833,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2990/4359/1633803345.jpg"
   },
   {
     "resortName": "Cascade Mountain",
@@ -5857,7 +5857,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4791/2200/1451873159.jpeg"
   },
   {
     "resortName": "Christie Mountain",
@@ -5878,7 +5878,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/178/4359/1633801510.jpg"
   },
   {
     "resortName": "Christmas Mountain Village",
@@ -5899,7 +5899,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/166/4359/1633804112.jpg"
   },
   {
     "resortName": "Crystal Ridge (The Rock Snowpark)",
@@ -5933,7 +5933,7 @@ var allData = [
       "wouldIGoBack": "6"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/15253/4417/1618167308.png"
   },
   {
     "resortName": "Devils Head Resort",
@@ -5954,7 +5954,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/179/3535/1634330396.jpeg"
   },
   {
     "resortName": "Fox Hill Ski Area",
@@ -5998,7 +5998,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/170/4359/1634595467.jpg"
   },
   {
     "resortName": "Heiliger Huegel Ski Club",
@@ -6061,7 +6061,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3286/4359/1630097844.jpg"
   },
   {
     "resortName": "Keyes Peak",
@@ -6116,7 +6116,7 @@ var allData = [
       "wouldIGoBack": "8"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/161/4359/1617135039.jpg"
   },
   {
     "resortName": "Mont Du Lac",
@@ -6158,7 +6158,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/163/2030/1584916042.jpg"
   },
   {
     "resortName": "Mt. Ashwabay",
@@ -6179,7 +6179,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/168/4359/1633802550.jpg"
   },
   {
     "resortName": "Mt. LaCrosse",
@@ -6200,7 +6200,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/171/4359/1630097042.jpg"
   },
   {
     "resortName": "Navarino Slopes",
@@ -6221,7 +6221,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3017/2200/1446494342.jpeg"
   },
   {
     "resortName": "Nordic Mountain",
@@ -6244,7 +6244,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/157/4359/1633803877.jpg"
   },
   {
     "resortName": "Nutt Hill",
@@ -6286,7 +6286,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3288/4359/1626641770jpg_render.jpg"
   },
   {
     "resortName": "Standing Rocks",
@@ -6307,7 +6307,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/160/916/1336248547.jpg"
   },
   {
     "resortName": "Sunburst Ski Area",
@@ -6331,7 +6331,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/173/4359/1637465425jpg_render.jpg"
   },
   {
     "resortName": "Telemark Lodge",
@@ -6352,7 +6352,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/172/3452/1618919931.jpg"
   },
   {
     "resortName": "Triangle Sports Area",
@@ -6510,7 +6510,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/548/3535/1635218701jpg_render.jpg"
   },
   {
     "resortName": "Elk Ridge Ski Area",
@@ -6531,7 +6531,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/551/1923/1447610356.jpg"
   },
   {
     "resortName": "Mount Lemmon Ski Valley",
@@ -6552,7 +6552,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4528/1265/1434810817.jpg"
   },
   {
     "resortName": "Sunrise Park Resort",
@@ -6573,7 +6573,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4061/2200/1452732341.jpeg"
   },
   {
     "resortName": "Arapahoe Basin",
@@ -6811,7 +6811,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1033/2200/1616002764.jpg"
   },
   {
     "resortName": "Aspen Highlands",
@@ -6835,7 +6835,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1032/1923/1599491345.jpg"
   },
   {
     "resortName": "Aspen Mountain",
@@ -6859,7 +6859,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1031/1923/1599491371.jpg"
   },
   {
     "resortName": "Buttermilk",
@@ -7098,7 +7098,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3296/4196/1636821546.jpg"
   },
   {
     "resortName": "Copper Mountain Resort",
@@ -7259,7 +7259,7 @@ var allData = [
       "wouldIGoBack": "2"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3297/4196/1636821485.jpg"
   },
   {
     "resortName": "Crested Butte Mountain Resort",
@@ -7282,7 +7282,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/514/2200/1633561436.jpg"
   },
   {
     "resortName": "Echo Mountain Resort",
@@ -7316,7 +7316,7 @@ var allData = [
       "wouldIGoBack": "3"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1034/2200/1582764404.png"
   },
   {
     "resortName": "Eldora Mountain Resort",
@@ -7343,7 +7343,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/508/2200/1636658008jpg_render.jpg"
   },
   {
     "resortName": "Hesperus Ski Area",
@@ -7364,7 +7364,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1035/1923/1599491542.jpg"
   },
   {
     "resortName": "Howelsen Hill Ski Area",
@@ -7756,7 +7756,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3298/916/1336539148.jpg"
   },
   {
     "resortName": "Loveland Ski Area",
@@ -7821,7 +7821,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/511/3535/1634341976.jpg"
   },
   {
     "resortName": "Powderhorn Resort",
@@ -7842,7 +7842,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg"
   },
   {
     "resortName": "Purgatory Resort",
@@ -7863,7 +7863,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/518/4196/1629036113jpg_render.jpg"
   },
   {
     "resortName": "Lee's Ski Hill",
@@ -7887,7 +7887,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3299/3857/1583598685.png"
   },
   {
     "resortName": "Silverton Mountain",
@@ -7920,7 +7920,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2280/1923/1599491760.jpg"
   },
   {
     "resortName": "Ski Cooper",
@@ -7978,7 +7978,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/516/2200/1606486755.jpg"
   },
   {
     "resortName": "Steamboat Ski Resort",
@@ -8029,7 +8029,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/506/1923/1599491820.jpg"
   },
   {
     "resortName": "Telluride Ski Resort",
@@ -8056,7 +8056,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/517/2200/1637368445jpg_render.jpg"
   },
   {
     "resortName": "Vail Ski Resort",
@@ -8165,7 +8165,7 @@ var allData = [
       "wouldIGoBack": "5"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/505/4196/1613567225.jpg"
   },
   {
     "resortName": "Loveland Pass",
@@ -8246,7 +8246,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4663/2200/1521145928jpg_render.jpg"
   },
   {
     "resortName": "Farm in Colorado Springs",
@@ -8317,7 +8317,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/14835/3857/1585240961.png"
   },
   {
     "resortName": "Backyard Parks in Summit County",
@@ -8490,7 +8490,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2768/1923/1559428309.jpg"
   },
   {
     "resortName": "Bogus Basin",
@@ -8515,7 +8515,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/487/4114/1605367931.jpg"
   },
   {
     "resortName": "Brundage Mountain",
@@ -8536,7 +8536,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/483/2200/1636134221jpg_render.jpg"
   },
   {
     "resortName": "Cottonwood Butte",
@@ -8557,7 +8557,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/484/1923/1559428370.jpg"
   },
   {
     "resortName": "Kelly Canyon",
@@ -8578,7 +8578,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/486/2200/1578017736.png"
   },
   {
     "resortName": "Little Ski Hill",
@@ -8599,7 +8599,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3009/3713/1582903513.jpg"
   },
   {
     "resortName": "Lookout Pass",
@@ -8620,7 +8620,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/482/3691/1574391538.jpg"
   },
   {
     "resortName": "Magic Mountain",
@@ -8641,7 +8641,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/14790/3857/1585178894.jpg"
   },
   {
     "resortName": "Pebble Creek",
@@ -8662,7 +8662,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/478/1923/1590257388.jpg"
   },
   {
     "resortName": "Pomerelle",
@@ -8683,7 +8683,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/477/4308/1612578339.jpg"
   },
   {
     "resortName": "Rotarun",
@@ -8704,7 +8704,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3306/1923/1595197431.jpg"
   },
   {
     "resortName": "Schweitzer Mountain",
@@ -8728,7 +8728,7 @@ var allData = [
       "Ikon",
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/476/3535/1619043123jpg_render.jpg"
   },
   {
     "resortName": "Silver Mountain",
@@ -8772,7 +8772,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/489/1923/1559428515.jpg"
   },
   {
     "resortName": "Soldier Mountain",
@@ -8793,7 +8793,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/485/1923/1595197465.jpg"
   },
   {
     "resortName": "Sun Valley",
@@ -8816,7 +8816,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2768/1923/1559428309.jpg"
   },
   {
     "resortName": "Tamarack",
@@ -8858,7 +8858,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2982/2200/1521588709.jpg"
   },
   {
     "resortName": "Big Sky",
@@ -8881,7 +8881,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/361/3535/1636156149jpg_render.jpg"
   },
   {
     "resortName": "Blacktail Mountain",
@@ -8902,7 +8902,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/363/2200/1634989306jpg_render.jpg"
   },
   {
     "resortName": "Bridger Bowl",
@@ -8925,7 +8925,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/375/3535/1618776634jpg_render.jpg"
   },
   {
     "resortName": "Discovery",
@@ -8946,7 +8946,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/366/2200/1542581285.jpg"
   },
   {
     "resortName": "Great Divide",
@@ -8967,7 +8967,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/371/3535/1635815670.jpg"
   },
   {
     "resortName": "Lost Trail Powder Mountain",
@@ -8988,7 +8988,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4378/221/1480628055.jpg"
   },
   {
     "resortName": "Maverick Mountain",
@@ -9009,7 +9009,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/370/4196/1612037873.jpg"
   },
   {
     "resortName": "Montana Snowbowl",
@@ -9030,7 +9030,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/368/2200/1571453748.jpg"
   },
   {
     "resortName": "Moonlight Basin",
@@ -9051,7 +9051,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/373/7/1320030351.jpg"
   },
   {
     "resortName": "Red Lodge Mountain",
@@ -9072,7 +9072,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/364/3535/1575502031.jpg"
   },
   {
     "resortName": "Showdown",
@@ -9093,7 +9093,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/365/3535/1574311631.jpg"
   },
   {
     "resortName": "Teton Pass",
@@ -9114,7 +9114,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/372/1923/1488063864.jpg"
   },
   {
     "resortName": "Turner Mountain",
@@ -9135,7 +9135,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/369/3535/1618776767.jpg"
   },
   {
     "resortName": "Whitefish Mountain Resort",
@@ -9156,7 +9156,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/367/2200/1636658157.jpg"
   },
   {
     "resortName": "Yellowstone Club",
@@ -9177,7 +9177,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1025/2200/1611344372jpg_render.jpg"
   },
   {
     "resortName": "Angel Fire Resort",
@@ -9200,7 +9200,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/331/1923/1590258101.jpg"
   },
   {
     "resortName": "Pajarito Mountain",
@@ -9221,7 +9221,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/336/1923/1522459323.jpg"
   },
   {
     "resortName": "Red River Ski Area",
@@ -9242,7 +9242,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/333/3535/1618777091jpg_render.jpg"
   },
   {
     "resortName": "Sandia Peak",
@@ -9263,7 +9263,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/332/1923/1521682775.jpg"
   },
   {
     "resortName": "Sipapu",
@@ -9284,7 +9284,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/337/1460/1559878718.png"
   },
   {
     "resortName": "Ski Apache",
@@ -9305,7 +9305,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/334/3535/1574438432.jpg"
   },
   {
     "resortName": "Ski Cloudcroft",
@@ -9326,7 +9326,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2604/1923/1521682731.jpg"
   },
   {
     "resortName": "Ski Santa Fe",
@@ -9347,7 +9347,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/335/3100/1575037748jpg_render.jpg"
   },
   {
     "resortName": "Taos Ski Valley",
@@ -9370,7 +9370,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4528/1265/1434810817.jpg"
   },
   {
     "resortName": "Mount Aggie Ski Slope",
@@ -9416,7 +9416,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/224/3857/1620777377.jpg"
   },
   {
     "resortName": "Beaver Mountain",
@@ -9437,7 +9437,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/220/2520/1614419067jpg_render.jpg"
   },
   {
     "resortName": "Brian Head",
@@ -9458,7 +9458,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/227/3535/1634343642.jpg"
   },
   {
     "resortName": "Brighton",
@@ -9483,7 +9483,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif"
   },
   {
     "resortName": "Cherry Peak Resort",
@@ -9504,7 +9504,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4337/2200/1574484535.jpg"
   },
   {
     "resortName": "Deer Valley",
@@ -9528,7 +9528,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/223/3186/1612536271jpg_render.jpg"
   },
   {
     "resortName": "Eagle Point Ski Resort",
@@ -9549,7 +9549,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/231/2200/1532047841jpg_render.jpg"
   },
   {
     "resortName": "Nordic Valley",
@@ -9570,7 +9570,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/221/3857/1612539218.png"
   },
   {
     "resortName": "Park City Mountain Resort",
@@ -9648,7 +9648,7 @@ var allData = [
       "wouldIGoBack": "8"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/5123/3857/1625246256.jpg"
   },
   {
     "resortName": "Powder Mountain",
@@ -9672,7 +9672,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/374/2200/1564955911.jpg"
   },
   {
     "resortName": "Snowbasin",
@@ -9697,7 +9697,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/219/3857/1632441028.jpeg"
   },
   {
     "resortName": "Snowbird",
@@ -9724,7 +9724,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/226/3535/1613104129jpg_render.jpg"
   },
   {
     "resortName": "Solitude",
@@ -9749,7 +9749,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/225/3535/1636940657jpg_render.jpg"
   },
   {
     "resortName": "Sundance",
@@ -9770,7 +9770,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/230/2200/1636135084jpg_render.jpg"
   },
   {
     "resortName": "Big Horn (Meadowlark)",
@@ -9812,7 +9812,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/150/3535/1618777484.jpg"
   },
   {
     "resortName": "Hogadon",
@@ -9833,7 +9833,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/152/4196/1613516793.jpg"
   },
   {
     "resortName": "Jackson Hole",
@@ -9860,7 +9860,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/151/3535/1637443234.jpg"
   },
   {
     "resortName": "Pine Creek",
@@ -9881,7 +9881,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1038/2200/1564178329.png"
   },
   {
     "resortName": "Sleeping Giant Ski Resort",
@@ -9902,7 +9902,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/154/2200/1592594118.jpeg"
   },
   {
     "resortName": "Snow King Mountain",
@@ -9923,7 +9923,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg"
   },
   {
     "resortName": "Snowy Range",
@@ -9946,7 +9946,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/155/2200/1515374161jpg_render.jpg"
   },
   {
     "resortName": "White Pine",
@@ -9967,7 +9967,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/148/2200/1515199083.png"
   },
   {
     "resortName": "Beartooth Basin",
@@ -10014,7 +10014,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/153/1923/1590259171.jpg"
   },
   {
     "resortName": "Arctic Valley",
@@ -10035,7 +10035,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/14918/3713/1585351555.jpg"
   },
   {
     "resortName": "Alyeska",
@@ -10056,7 +10056,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/552/3535/1635216753.jpg"
   },
   {
     "resortName": "Eaglecrest",
@@ -10079,7 +10079,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/553/3535/1577512100.jpg"
   },
   {
     "resortName": "Hilltop",
@@ -10100,7 +10100,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/556/1923/1610459120.jpg"
   },
   {
     "resortName": "Majestic Heli Ski",
@@ -10122,7 +10122,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4695/2200/1446306959.jpeg"
   },
   {
     "resortName": "Moose Mountain",
@@ -10143,7 +10143,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/4936/2200/1455132643.jpeg"
   },
   {
     "resortName": "Mount Eyak",
@@ -10164,7 +10164,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/554/3713/1584131673.jpg"
   },
   {
     "resortName": "Skiland",
@@ -10185,7 +10185,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2134/1923/1610459195.jpg"
   },
   {
     "resortName": "Alpine Meadows",
@@ -10209,7 +10209,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/522/3535/1574790777jpg_render.jpg"
   },
   {
     "resortName": "Alta Sierra",
@@ -10230,7 +10230,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/528/1923/1469893582.jpg"
   },
   {
     "resortName": "Badger Pass",
@@ -10251,7 +10251,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/547/1923/1469893610.jpg"
   },
   {
     "resortName": "Bear Mountain",
@@ -10277,7 +10277,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/536/3535/1574727885.jpg"
   },
   {
     "resortName": "Bear Valley",
@@ -10298,7 +10298,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1767/1/1474989071.jpg"
   },
   {
     "resortName": "Boreal Mountain",
@@ -10319,7 +10319,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/523/4117/1605808778.jpg"
   },
   {
     "resortName": "Buckhorn Ski Club",
@@ -10340,7 +10340,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2989/1232/1359064993.bmp"
   },
   {
     "resortName": "China Peak",
@@ -10363,7 +10363,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/527/3535/1635217153jpg_render.jpg"
   },
   {
     "resortName": "Dodge Ridge",
@@ -10384,7 +10384,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/533/1923/1469893693.jpg"
   },
   {
     "resortName": "Donner Ski Ranch",
@@ -10405,7 +10405,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/542/2200/1512863465.jpg"
   },
   {
     "resortName": "Granlibakken",
@@ -10426,7 +10426,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/535/1923/1481681680.jpg"
   },
   {
     "resortName": "Heavenly Mountain",
@@ -10480,7 +10480,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/545/3535/1618776429jpg_render.jpg"
   },
   {
     "resortName": "June Mountain",
@@ -10503,7 +10503,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/540/3535/1574044286.jpg"
   },
   {
     "resortName": "Kirkwood Mountain",
@@ -10588,7 +10588,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/541/3799/1579065366jpg_render.jpg"
   },
   {
     "resortName": "Mount Shasta Ski Park",
@@ -10609,7 +10609,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/532/3535/1635218319.jpg"
   },
   {
     "resortName": "Mount Waterman",
@@ -10630,7 +10630,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1029/1923/1469893859.jpg"
   },
   {
     "resortName": "Mountain High",
@@ -10655,7 +10655,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/521/3535/1574138388.png"
   },
   {
     "resortName": "Northstar California",
@@ -10724,7 +10724,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/525/3535/1574043915.jpg"
   },
   {
     "resortName": "Snow Summit",
@@ -10745,7 +10745,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/546/3535/1575415901.jpg"
   },
   {
     "resortName": "Snow Valley",
@@ -10787,7 +10787,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/524/4117/1611248681.jpg"
   },
   {
     "resortName": "Palisades Tahoe",
@@ -10813,7 +10813,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/538/3535/1634331745jpg_render.jpg"
   },
   {
     "resortName": "Sugar Bowl",
@@ -10836,7 +10836,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/543/3535/1635218007jpg_render.jpg"
   },
   {
     "resortName": "Tahoe Donner Downhill",
@@ -10857,7 +10857,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/529/2798/1520436496.png"
   },
   {
     "resortName": "Diamond Peak",
@@ -10878,7 +10878,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/359/1923/1590258306.jpg"
   },
   {
     "resortName": "Las Vegas Ski and Snowboard Resort (Lee Canyon)",
@@ -10914,7 +10914,7 @@ var allData = [
       "wouldIGoBack": "10"
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/360/4359/1619629079.jpg"
   },
   {
     "resortName": "Mount Rose",
@@ -10935,7 +10935,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/358/3535/1635216090jpg_render.jpg"
   },
   {
     "resortName": "Sky Tavern Ski Area",
@@ -10956,7 +10956,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2260/1923/1482788902.jpg"
   },
   {
     "resortName": "Elko Snobowl Ski and Bike Park",
@@ -10977,7 +10977,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2261/1923/1479870734.jpg"
   },
   {
     "resortName": "Anthony Lakes",
@@ -10998,7 +10998,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/264/2200/1636680910.png"
   },
   {
     "resortName": "Cooper Spur",
@@ -11019,7 +11019,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/272/1923/1510757545.jpg"
   },
   {
     "resortName": "Ferguson Ridge",
@@ -11040,7 +11040,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/265/1923/1510757566.jpg"
   },
   {
     "resortName": "Hoodoo",
@@ -11061,7 +11061,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/268/1923/1510757587.jpg"
   },
   {
     "resortName": "Mount Ashland",
@@ -11082,7 +11082,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/274/2200/1597001839.jpg"
   },
   {
     "resortName": "Mount Bachelor",
@@ -11105,7 +11105,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/270/1923/1590258563.jpg"
   },
   {
     "resortName": "Mount Hood Meadows",
@@ -11126,7 +11126,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/271/3535/1576354482jpg_render.jpg"
   },
   {
     "resortName": "Mount Hood Skibowl",
@@ -11149,7 +11149,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/263/3535/1575002069.jpg"
   },
   {
     "resortName": "Spout Springs",
@@ -11170,7 +11170,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/269/1923/1590258641.jpg"
   },
   {
     "resortName": "Summit Ski Area",
@@ -11191,7 +11191,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/273/1923/1590258615.jpg"
   },
   {
     "resortName": "Timberline Lodge",
@@ -11286,7 +11286,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/2279/1923/1510757630.jpg"
   },
   {
     "resortName": "Willamette Pass",
@@ -11307,7 +11307,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/267/3535/1574129168.jpeg"
   },
   {
     "resortName": "49 Degrees North",
@@ -11328,7 +11328,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/195/3535/1637461394.jpg"
   },
   {
     "resortName": "Badger Mountain",
@@ -11349,7 +11349,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/187/1923/1582688238.jpg"
   },
   {
     "resortName": "Crystal Mountain",
@@ -11385,7 +11385,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/429/2200/1520792728jpg_render.jpg"
   },
   {
     "resortName": "Echo Valley",
@@ -11406,7 +11406,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3322/4152/1606526330.jpg"
   },
   {
     "resortName": "Hurricane Ridge",
@@ -11427,7 +11427,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/1024/1923/1599491174.jpg"
   },
   {
     "resortName": "Leavenworth Ski Hill",
@@ -11448,7 +11448,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3323/4196/1636821600.jpg"
   },
   {
     "resortName": "Loup Loup Ski Bowl",
@@ -11469,7 +11469,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/192/1923/1599491197.jpg"
   },
   {
     "resortName": "Meany Lodge",
@@ -11490,7 +11490,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3324/4196/1636821633.jpg"
   },
   {
     "resortName": "Mission Ridge",
@@ -11511,7 +11511,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/186/4331/1613956663jpg_render.jpg"
   },
   {
     "resortName": "Mt. Baker",
@@ -11532,7 +11532,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/191/3535/1631068964.jpg"
   },
   {
     "resortName": "Mount Spokane",
@@ -11553,7 +11553,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/189/2200/1607787349.jpg"
   },
   {
     "resortName": "Sahalie Ski Club",
@@ -11574,7 +11574,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/3325/4196/1636821670.jpg"
   },
   {
     "resortName": "Sitzmark Lifts",
@@ -11595,7 +11595,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/188/1923/1599491233.jpg"
   },
   {
     "resortName": "Ski Bluewood",
@@ -11616,7 +11616,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/185/1923/1568500231.jpg"
   },
   {
     "resortName": "Stevens Pass",
@@ -11639,7 +11639,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/190/4070/1608657330jpg_render.jpg"
   },
   {
     "resortName": "The Summit at Snoqualmie (Summit Central, East and West)",
@@ -11664,7 +11664,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg"
   },
   {
     "resortName": "Alpental",
@@ -11685,7 +11685,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg"
   },
   {
     "resortName": "White Pass",
@@ -11706,7 +11706,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://skimap.org/data/184/1923/1568500416.jpg"
   },
   {
     "resortName": "McChord Skatepark",

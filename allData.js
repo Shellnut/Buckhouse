@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '11/23/2021';
+var lastUpdated = '11/26/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1591,7 +1591,8 @@ var allData = [
     "region": "New England",
     "city": "Killington",
     "videos": [
-      "ZOeCwntoVtE"
+      "ZOeCwntoVtE",
+      "ZKxshRQC66w"
     ],
     "position": {
       "lat": 43.626463482520855,
@@ -1601,9 +1602,19 @@ var allData = [
     "id": "211",
     "website": "http://www.killington.com",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 66,
+      "link": "ZKxshRQC66w",
+      "note": "",
+      "price": "4",
+      "easeOfAccess": "4",
+      "lodging": "5",
+      "chairLifts": "8",
+      "runs": "6",
+      "terrainPark": "10",
+      "food": "10",
+      "employees": "5",
+      "views": "4",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon"

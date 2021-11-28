@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '11/26/2021';
+var lastUpdated = '11/27/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8075,6 +8075,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Vail",
     "videos": [
+      "LkgfkLkbf24",
       "XsX_qb6twsE",
       "aKBaKeG7PJQ",
       "lTJprc9cD-0",

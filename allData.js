@@ -3321,27 +3321,6 @@ var allData = [
     "mapLink": "https://skimap.org/data/237/3101/1546028116thumb.jpg"
   },
   {
-    "resortName": "Ski Denton",
-    "state": "Pennsylvania",
-    "region": "Mid-Atlantic",
-    "city": "Coudersport",
-    "videos": [],
-    "position": {
-      "lat": 41.776771404789244,
-      "lng": -77.83487465608353
-    },
-    "officialSkiResort": true,
-    "id": "244",
-    "website": "https://www.dcnr.pa.gov/StateParks/FindAPark/DentonHillStatePark/Pages/Skiing.aspx",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/244/3533/1624475349.png"
-  },
-  {
     "resortName": "Ski Roundtop",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",

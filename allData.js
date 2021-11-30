@@ -10447,6 +10447,7 @@ var allData = [
     "city": "South Lake Tahoe",
     "videos": [
       "NrFkkgTPgxU",
+      "6PQV6lKwGUA",
       "84c37-_3WJM",
       "mfm3a3og3LI",
       "h_W4dZ0rAgs",
@@ -10464,9 +10465,19 @@ var allData = [
     "id": "544",
     "website": "http://www.skiheavenly.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 70,
+      "link": "6PQV6lKwGUA",
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "6",
+      "lodging": "10",
+      "chairLifts": "8",
+      "runs": "7",
+      "terrainPark": "4",
+      "food": "8",
+      "employees": "5",
+      "views": "9",
+      "wouldIGoBack": "8"
     },
     "skiPass": [
       "Epic"

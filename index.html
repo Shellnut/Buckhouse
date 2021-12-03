@@ -159,9 +159,11 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
+                  <!-- Calendar -->
+                  <li><a href="javascript:void(0);" ng-click="calendarModal()">Calendar <i class="fa fa-calendar"></i></a></li>
                   <!-- Toggle Icon -->
                   <li class="dropdown">
-                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span ng-show="showPasses !== 'all'">({{showPasses}}) </span><i class="fa fa-gear"></i><span class="caret"></span></a>
+                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span ng-show="showPasses !== 'all'">({{showPasses}}) </span><i class="fa fa-gear"></i><span class="caret"></span></a>
                      <ul class="dropdown-menu my-dropdown">
                         <li class="dropdown-header">Toggle Icon</li>
                         <li>
@@ -871,6 +873,38 @@
             });
          }
 
+         $scope.calendarModal = function() {
+            var calendarModal = $uibModal.open({
+                  animation: $scope.animationsEnabled,
+                  template: `<div class="modal-header">
+                                 <h3 class="modal-title">
+                                    <div class="row">
+                                       <div class="col-xs-11">
+                                          <span><i class="fa fa-calendar" aria-hidden="true"></i> Travel</span>
+                                       </div>
+                                       <div class="col-xs-1">
+                                          <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
+                                       </div>
+                                    </div>
+                                 </h3>
+                              </div>
+                              <div class="modal-body">
+                                 <div class="alert alert-warning" role="alert">
+                                    <i class="fa fa-exclamation-triangle"></i> Please note that none of these dates are 100% guaranteed and that travel is subject to change. Check Johnathan's social media accounts for realtime updates.
+                                 </div>
+                                 <iframe src="https://calendar.google.com/calendar/embed?src=Y29keXB1bGwxOTk1QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cmRrZDRzODR1dHVhaWRuMmZlamIzNmpuOG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" style="border:solid 1px #777" width="100%" height="70%" frameborder="0" scrolling="no"></iframe>
+                              </div>
+                              <div class="modal-footer">
+                                 <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>
+                              </div>`,
+                  controller: 'CalendarModal'
+               });
+               calendarModal.result.then(function() {
+                  // console.log('done!');
+               }, function () {
+            });
+         }
+
          $scope.mapModal = function(modalData) {
 
             $scope.modalData = modalData;
@@ -981,6 +1015,13 @@
          };
       });
 
+      // Calendar Modal Controller
+      app.controller('CalendarModal', function($scope, $uibModalInstance) {
+         // Close Modal
+         $scope.ok = function () {
+            $uibModalInstance.close();
+         };
+      })
 
       // Set the default view
       var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords

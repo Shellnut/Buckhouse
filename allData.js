@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/03/2021';
+var lastUpdated = '12/05/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7409,6 +7409,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "rdn1Y905C_0",
       "JLJ1nnSWBAs",
       "E3SLlHU_JOE",
       "XXXy3RraaaM",
@@ -7980,6 +7981,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "LRYcqii3QVs",
       "dkac4hATPoc",
       "beQpaB25oTk",
       "QAeZMK63pQw",
@@ -8876,7 +8878,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/361/3535/1636156149jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/361/2200/1635614165jpg_render.jpg"
   },
   {
     "resortName": "Blacktail Mountain",

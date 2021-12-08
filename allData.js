@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/06/2021';
+var lastUpdated = '12/07/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6324,27 +6324,6 @@ var allData = [
     "mapLink": "https://skimap.org/data/173/4359/1637465425jpg_render.jpg"
   },
   {
-    "resortName": "Telemark Lodge",
-    "state": "Wisconsin",
-    "region": "Midwest",
-    "city": "Cable",
-    "videos": [],
-    "position": {
-      "lat": 46.19093229134234,
-      "lng": -91.24765629391035
-    },
-    "officialSkiResort": true,
-    "id": "172",
-    "website": "https://midwestweekends.com/plan_a_trip/stay/lodges_resorts/skiing_telemark_resort_cable.html",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/172/3452/1618919931.jpg"
-  },
-  {
     "resortName": "Triangle Sports Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -7317,6 +7296,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "-ydneuTlsxc",
       "Xz0MdQOWeZc",
       "PglRgXSccUU",
       "C4XgzBFUDKU"

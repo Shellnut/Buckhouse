@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/07/2021';
+var lastUpdated = '12/14/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6860,6 +6860,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
+      "rK-eucHAegQ",
       "EMBZnbWkm4E",
       "XnoWEKhU_4M",
       "-o0BGbY47rE",
@@ -7075,6 +7076,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "Rp4RrUj_YgU",
       "rQhvRd9uR0M",
       "xr8eASBXfOk",
       "nOBXEqrh57o",
@@ -8307,6 +8309,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "6Q9ZfndImQA",
       "txPkS3EYV2c",
       "3fMPGkThpzI",
       "9QpfaTxzx44",
@@ -8356,7 +8359,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": ""
+    "mapLink": "https://pbs.twimg.com/media/FGivCwtUcAY2FtD?format=png&name=medium"
   },
   {
     "resortName": "Ruby Hill",

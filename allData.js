@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/14/2021';
+var lastUpdated = '12/18/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7298,9 +7298,11 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "bjv3NYY5KBQ",
       "-ydneuTlsxc",
       "Xz0MdQOWeZc",
       "PglRgXSccUU",
+      "SeEIrtoqU8s",
       "C4XgzBFUDKU"
     ],
     "position": {
@@ -7391,6 +7393,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "4NR_0eQ4FUE",
       "eLw1FUDNuV4",
       "vZJkPj8xAgY",
       "lEjsN_EQmBw",

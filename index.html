@@ -1148,6 +1148,7 @@
          } 
       }
 
+
       // Green Icon (visited)
       var greenIcon = new L.Icon({
         iconUrl: `img/${iconPreference}/visited.png`,
@@ -1236,26 +1237,34 @@
 
         // Assign the icon color (visited or not)   
         var icon;
+        var circleColor;
         if (!allDataMap[i].officialSkiResort) {
            icon = blackIcon; // unofficial ski resort
+           circleColor = 'black';
         }
         else if (allDataMap[i].skiOnly && allDataMap[i].videos.length > 0) {
            icon = greenSkiIcon; // visited ski only resort
+           circleColor = 'green';
         }
         else if (allDataMap[i].skiOnly && allDataMap[i].videos.length === 0) {
            icon = redSkiIcon; // not yet visited for ski only resort
+           circleColor = 'red';
         }
         else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length > 0) {
            icon = greenHelicopterIcon; // visited helicopter only resort
+           circleColor = 'green';
         }
         else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length === 0) {
            icon = redHelicopterIcon; // not yet visited for helicopter only resort
+           circleColor = 'black';
         }
         else if (allDataMap[i].videos.length > 0) {
            icon = greenIcon; // visited
+           circleColor = 'green';
         }
         else {
            icon = redIcon; // not yet visited
+           circleColor = 'red';
         }
 
         // Generate the video link html
@@ -1343,10 +1352,23 @@
           // minWidth: 400
         };
 
-        // Marker options
-        L.marker([allDataMap[i].position.lat, allDataMap[i].position.lng], {icon: icon}).addTo(mymap)
-        .bindPopup(popupContent, popupOptions)
-        .bindTooltip(allDataMap[i].resortName + (allDataMap[i].officialSkiResort ? '' : ' (unofficial ski resort)'));
+        if (!!localStorage.getItem('showGlobal')) {
+            // Light weight marker
+            var circleMarker = L.circleMarker([allDataMap[i].position.lat, allDataMap[i].position.lng], {
+               color: circleColor,
+               radius: 5
+            })
+              .addTo(mymap)
+              .bindPopup(popupContent, popupOptions);
+        }
+        else {           
+          // Marker options
+          L.marker([allDataMap[i].position.lat, allDataMap[i].position.lng], {icon: icon})
+            .addTo(mymap)
+            .bindPopup(popupContent, popupOptions)
+            .bindTooltip(allDataMap[i].resortName + (allDataMap[i].officialSkiResort ? '' : ' (unofficial ski resort)'));
+        }
+
       }
 
       //Pans to corresponding resort

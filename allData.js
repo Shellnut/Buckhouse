@@ -9343,7 +9343,7 @@ var allData = [
   {
     "resortName": "Mount Aggie Ski Slope",
     "state": "Texas",
-    "region": "Rocky Mountains",
+    "region": "Southeast",
     "city": "College Station",
     "videos": [],
     "position": {
@@ -9353,6 +9353,27 @@ var allData = [
     "officialSkiResort": true,
     "id": "3196",
     "website": "http://hlknweb.tamu.edu/mt-aggie",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": ""
+  },
+  {
+    "resortName": "Texas Ski Ranch",
+    "state": "Texas",
+    "region": "Southeast",
+    "city": "New Braunfels",
+    "videos": [],
+    "position": {
+      "lat": 29.769493264872253,
+      "lng": -98.04066083862271
+    },
+    "officialSkiResort": true,
+    "id": "",
+    "website": "https://www.texasskiranch.com/",
     "resortReview": {
       "score": "",
       "link": "",

@@ -1959,7 +1959,13 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/213/3988/1609870707jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/213/3988/1609870707jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "Base Cam",
+        "link": "H-_sGi4Sbtk"
+      }
+    ]
   },
   {
     "resortName": "Sugarbush Resort",
@@ -5163,7 +5169,13 @@ var allData = [
       "wouldIGoBack": "9"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/389/4359/1623767220.jpg"
+    "mapLink": "https://skimap.org/data/389/4359/1623767220.jpg",
+    "webcam": [
+      {
+        "title": "LIVE Snow Cam",
+        "link": "9USNTc7Gr4c"
+      }
+    ]
   },
   {
     "resortName": "Elm Creek Winter Recreation Area",
@@ -7026,7 +7038,17 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/510/4111/1629214360jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/510/4111/1629214360jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "Mountain Cam",
+        "link": "mHTTPNYltZo"
+      },
+      {
+        "title": "Main Street",
+        "link": "SH63YaIWyK0"
+      }
+    ]
   },
   {
     "resortName": "Chapman Hill Ski Area",
@@ -8022,7 +8044,17 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/517/2200/1637368445jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/517/2200/1637368445jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "Mountain Village",
+        "link": "N-StEGiHtjw"
+      },
+      {
+        "title": "Downtown Telluride",
+        "link": "Y_TLxje5Qw4"
+      }
+    ]
   },
   {
     "resortName": "Vail Ski Resort",
@@ -8090,7 +8122,17 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/503/4139/1634139964.png"
+    "mapLink": "https://skimap.org/data/503/4139/1634139964.png",
+    "webcam": [
+      {
+        "title": "Base Cam",
+        "link": "J3c9xWRWMCs"
+      },
+      {
+        "title": "Lunch Rock",
+        "link": "XmO1T-jL-Js"
+      }
+    ]
   },
   {
     "resortName": "Wolf Creek ski area",
@@ -8849,7 +8891,17 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/361/2200/1635614165jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/361/2200/1635614165jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "Everett's 8800 Cam",
+        "link": "LMjRvBr7Jms"
+      },
+      {
+        "title": "Andesite Snow Stake",
+        "video": "-UqEKS_O8ag"
+      }
+    ]
   },
   {
     "resortName": "Blacktail Mountain",
@@ -9801,7 +9853,13 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/150/3535/1618777484.jpg"
+    "mapLink": "https://skimap.org/data/150/3535/1618777484.jpg",
+    "webcam": [
+      {
+        "title": "Dreamcatcher",
+        "link": "g7fWaol3P1g"
+      }
+    ]
   },
   {
     "resortName": "Hogadon",
@@ -9849,7 +9907,13 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": "https://skimap.org/data/151/3535/1637443234.jpg"
+    "mapLink": "https://skimap.org/data/151/3535/1637443234.jpg",
+    "webcam": [
+      {
+        "title": "Town Square",
+        "link": "1EiC9bvVGnk"
+      }
+    ]
   },
   {
     "resortName": "Pine Creek",
@@ -11664,7 +11728,17 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg"
+    "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg",
+    "webcam": [
+      {
+        "title": "Central Express",
+        "link": "91eI60BHlKw"
+      },
+      {
+        "title": "Summit Central",
+        "link": "bm3CfORSeQ8"
+      }
+    ]
   },
   {
     "resortName": "Alpental",

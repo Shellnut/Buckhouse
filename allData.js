@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/19/2021';
+var lastUpdated = '12/20/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5763,27 +5763,6 @@ var allData = [
     "mapLink": ""
   },
   {
-    "resortName": "Blackhawk Ski Club",
-    "state": "Wisconsin",
-    "region": "Midwest",
-    "city": "Middleton (private)",
-    "videos": [],
-    "position": {
-      "lat": 43.082784558561464,
-      "lng": -89.56846064363334
-    },
-    "officialSkiResort": true,
-    "id": "3280",
-    "website": "http://www.blackhawkskiclub.org/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/3280/916/1402441346.jpg"
-  },
-  {
     "resortName": "Bruce Mound Winter Sports Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -7076,6 +7055,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "zgil3SYM6Io",
       "Rp4RrUj_YgU",
       "rQhvRd9uR0M",
       "xr8eASBXfOk",

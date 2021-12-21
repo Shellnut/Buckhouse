@@ -170,8 +170,8 @@
                   <li class="dropdown">
                      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span ng-show="showPasses !== 'all'">({{showPasses}}) </span><i class="fa fa-gear"></i><span class="caret"></span></a>
                      <ul class="dropdown-menu my-dropdown">
-                        <li class="dropdown-header">Toggle Icon</li>
-                        <li>
+                        <li class="dropdown-header" ng-show="!showGlobal">Toggle Icon</li>
+                        <li ng-show="!showGlobal">
                            <a href="javascript:void(0);">
                               <label class="radio-inline">
                                  <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
@@ -183,7 +183,7 @@
                               </label>
                            </a>
                         </li>
-                        <li role="separator" class="divider"></li>
+                        <li role="separator" class="divider" ng-show="!showGlobal"></li>
                         <li class="dropdown-header">U.S. Regions</li>
                         <li>
                            <a href="javascript:void(0);">
@@ -1100,23 +1100,13 @@
 
       // Load the icon preference
       var iconPreference;
-      if (!!localStorage.getItem('showGlobal')) {
-         if (!!localStorage.getItem('plainMarker')) {
-            iconPreference = 'light_weight_plain';
-         }
-         else {
-            iconPreference = 'light_weight_snowboard';
-         }
+      if (!!localStorage.getItem('plainMarker')) {
+         iconPreference = 'plain_marker';
       }
       else {
-         if (!!localStorage.getItem('plainMarker')) {
-            iconPreference = 'plain_marker';
-         }
-         else {
-            iconPreference = 'snowboard_marker';
-         }
+         iconPreference = 'snowboard_marker';
       }
-
+   
       // Load the region line preference
       var regionPreference = !!localStorage.getItem('showRegions');
 

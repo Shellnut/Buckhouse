@@ -10289,15 +10289,15 @@ var allData = [
       "lng": -149.23385156253838
     },
     "officialSkiResort": true,
-    "id": "2134",
-    "website": "http://www.skiland.org",
+    "id": "3003",
+    "website": "https://www.skihatcherpass.org",
     "resortReview": {
       "score": "",
       "link": "",
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/2134/1923/1610459195.jpg"
+    "mapLink": "https://skimap.org/data/3003/2200/1612028184.jpeg"
   },
   {
     "resortName": "Alpine Meadows",

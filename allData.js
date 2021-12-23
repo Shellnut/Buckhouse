@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/20/2021';
+var lastUpdated = '12/21/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3956,27 +3956,6 @@ var allData = [
     "mapLink": "https://skimap.org/data/472/4359/1618864611.jpg"
   },
   {
-    "resortName": "Raging Buffalo Snowboard Park",
-    "state": "Illinois",
-    "region": "Midwest",
-    "city": "Algonquin",
-    "videos": [],
-    "position": {
-      "lat": 42.14817405764074,
-      "lng": -88.29390161386232
-    },
-    "officialSkiResort": true,
-    "id": "475",
-    "website": "http://www.ragingbuffalo.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/475/59/1218030902.jpg"
-  },
-  {
     "resortName": "Ski Snowstar",
     "state": "Illinois",
     "region": "Midwest",
@@ -7395,6 +7374,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "oxyfDJrSfGY",
       "FGp26ram-fg",
       "4NR_0eQ4FUE",
       "eLw1FUDNuV4",

@@ -54,7 +54,13 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/494/1535/1419101204.jpg"
+    "mapLink": "https://skimap.org/data/494/1535/1419101204.jpg",
+    "webcam": [
+      {
+        "title": "Mount Southington",
+        "link": "o2TN5d1TwCM"
+      }
+    ]
   },
   {
     "resortName": "Powder Ridge Ski Area",
@@ -455,7 +461,13 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/448/4149/1606442721jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/448/4149/1606442721jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "BullWinkle",
+        "link": "z0ZjiS1n4Dk"
+      }
+    ]
   },
   {
     "resortName": "Sunday River",
@@ -1095,7 +1107,13 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/352/2200/1634494818jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/352/2200/1634494818jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "Live at Loon Mountain",
+        "link": "vEL7ZwOK65Y"
+      }
+    ]
   },
   {
     "resortName": "McIntyre Ski Area",
@@ -4528,7 +4546,17 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif"
+    "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif",
+    "webcam": [
+      {
+        "title": "Parking Lot",
+        "link": "iq-CT8UQzgo"
+      },
+      {
+        "title": "Great Western",
+        "link": "YDyBL3bXOwA"
+      }
+    ]
   },
   {
     "resortName": "Mt. Holiday",
@@ -6449,7 +6477,13 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": "https://skimap.org/data/548/3535/1635218701jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/548/3535/1635218701jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "Arizona Gondola",
+        "link": "Dt71NJaIwls"
+      }
+    ]
   },
   {
     "resortName": "Elk Ridge Ski Area",
@@ -7809,7 +7843,13 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg"
+    "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg",
+    "webcam": [
+      {
+        "title": "Base Area",
+        "link": "q7b608U8Eco"
+      }
+    ]
   },
   {
     "resortName": "Purgatory Resort",
@@ -8673,7 +8713,13 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/477/4308/1612578339.jpg"
+    "mapLink": "https://skimap.org/data/477/4308/1612578339.jpg",
+    "webcam": [
+      {
+        "title": "Resort Cam",
+        "link": "uM-oftYVFGA"
+      }
+    ]
   },
   {
     "resortName": "Rotarun",
@@ -9770,7 +9816,13 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/225/3535/1636940657jpg_render.jpg"
+    "mapLink": "https://skimap.org/data/225/3535/1636940657jpg_render.jpg",
+    "webcam": [
+      {
+        "title": "Resort Cam",
+        "link": "c_JwTOw74-o"
+      }
+    ]
   },
   {
     "resortName": "Sundance",
@@ -9956,7 +10008,13 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg"
+    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg",
+    "webcam": [
+      {
+        "title": "Base Cam",
+        "link": "bEhJMnsPD5I"
+      }
+    ]
   },
   {
     "resortName": "Snowy Range",
@@ -10208,6 +10266,27 @@ var allData = [
     "position": {
       "lat": 65.04549946075447,
       "lng": -147.4101356453455
+    },
+    "officialSkiResort": true,
+    "id": "2134",
+    "website": "http://www.skiland.org",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/2134/1923/1610459195.jpg"
+  },
+  {
+    "resortName": "Skeetawk",
+    "state": "Alaska",
+    "region": "West Coast",
+    "city": "Palmer",
+    "videos": [],
+    "position": {
+      "lat": 61.7431619826226,
+      "lng": -149.23385156253838
     },
     "officialSkiResort": true,
     "id": "2134",

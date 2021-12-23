@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/21/2021';
+var lastUpdated = '12/03/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -54,13 +54,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/494/1535/1419101204.jpg",
-    "webcam": [
-      {
-        "title": "Mount Southington",
-        "link": "o2TN5d1TwCM"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/494/1535/1419101204.jpg"
   },
   {
     "resortName": "Powder Ridge Ski Area",
@@ -461,13 +455,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/448/4149/1606442721jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "BullWinkle",
-        "link": "z0ZjiS1n4Dk"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/448/4149/1606442721jpg_render.jpg"
   },
   {
     "resortName": "Sunday River",
@@ -1107,13 +1095,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/352/2200/1634494818jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "Live at Loon Mountain",
-        "link": "vEL7ZwOK65Y"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/352/2200/1634494818jpg_render.jpg"
   },
   {
     "resortName": "McIntyre Ski Area",
@@ -1977,13 +1959,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/213/3988/1609870707jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "Base Cam",
-        "link": "H-_sGi4Sbtk"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/213/3988/1609870707jpg_render.jpg"
   },
   {
     "resortName": "Sugarbush Resort",
@@ -3974,6 +3950,27 @@ var allData = [
     "mapLink": "https://skimap.org/data/472/4359/1618864611.jpg"
   },
   {
+    "resortName": "Raging Buffalo Snowboard Park",
+    "state": "Illinois",
+    "region": "Midwest",
+    "city": "Algonquin",
+    "videos": [],
+    "position": {
+      "lat": 42.14817405764074,
+      "lng": -88.29390161386232
+    },
+    "officialSkiResort": true,
+    "id": "475",
+    "website": "http://www.ragingbuffalo.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/475/59/1218030902.jpg"
+  },
+  {
     "resortName": "Ski Snowstar",
     "state": "Illinois",
     "region": "Midwest",
@@ -4546,17 +4543,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif",
-    "webcam": [
-      {
-        "title": "Parking Lot",
-        "link": "iq-CT8UQzgo"
-      },
-      {
-        "title": "Great Western",
-        "link": "YDyBL3bXOwA"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif"
   },
   {
     "resortName": "Mt. Holiday",
@@ -5176,13 +5163,7 @@ var allData = [
       "wouldIGoBack": "9"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/389/4359/1623767220.jpg",
-    "webcam": [
-      {
-        "title": "LIVE Snow Cam",
-        "link": "9USNTc7Gr4c"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/389/4359/1623767220.jpg"
   },
   {
     "resortName": "Elm Creek Winter Recreation Area",
@@ -5782,6 +5763,27 @@ var allData = [
     "mapLink": ""
   },
   {
+    "resortName": "Blackhawk Ski Club",
+    "state": "Wisconsin",
+    "region": "Midwest",
+    "city": "Middleton (private)",
+    "videos": [],
+    "position": {
+      "lat": 43.082784558561464,
+      "lng": -89.56846064363334
+    },
+    "officialSkiResort": true,
+    "id": "3280",
+    "website": "http://www.blackhawkskiclub.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/3280/916/1402441346.jpg"
+  },
+  {
     "resortName": "Bruce Mound Winter Sports Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -6322,6 +6324,27 @@ var allData = [
     "mapLink": "https://skimap.org/data/173/4359/1637465425jpg_render.jpg"
   },
   {
+    "resortName": "Telemark Lodge",
+    "state": "Wisconsin",
+    "region": "Midwest",
+    "city": "Cable",
+    "videos": [],
+    "position": {
+      "lat": 46.19093229134234,
+      "lng": -91.24765629391035
+    },
+    "officialSkiResort": true,
+    "id": "172",
+    "website": "https://midwestweekends.com/plan_a_trip/stay/lodges_resorts/skiing_telemark_resort_cable.html",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/172/3452/1618919931.jpg"
+  },
+  {
     "resortName": "Triangle Sports Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -6477,13 +6500,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": "https://skimap.org/data/548/3535/1635218701jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "Arizona Gondola",
-        "link": "Dt71NJaIwls"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/548/3535/1635218701jpg_render.jpg"
   },
   {
     "resortName": "Elk Ridge Ski Area",
@@ -6864,7 +6881,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
-      "rK-eucHAegQ",
       "EMBZnbWkm4E",
       "XnoWEKhU_4M",
       "-o0BGbY47rE",
@@ -7051,17 +7067,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/510/4111/1629214360jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "Mountain Cam",
-        "link": "mHTTPNYltZo"
-      },
-      {
-        "title": "Main Street",
-        "link": "SH63YaIWyK0"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/510/4111/1629214360jpg_render.jpg"
   },
   {
     "resortName": "Chapman Hill Ski Area",
@@ -7090,8 +7096,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
-      "zgil3SYM6Io",
-      "Rp4RrUj_YgU",
       "rQhvRd9uR0M",
       "xr8eASBXfOk",
       "nOBXEqrh57o",
@@ -7313,11 +7317,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
-      "bjv3NYY5KBQ",
-      "-ydneuTlsxc",
       "Xz0MdQOWeZc",
       "PglRgXSccUU",
-      "SeEIrtoqU8s",
       "C4XgzBFUDKU"
     ],
     "position": {
@@ -7408,14 +7409,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
-      "oxyfDJrSfGY",
-      "FGp26ram-fg",
-      "4NR_0eQ4FUE",
-      "eLw1FUDNuV4",
-      "vZJkPj8xAgY",
-      "lEjsN_EQmBw",
-      "tz9LEksl4bM",
-      "rdn1Y905C_0",
       "JLJ1nnSWBAs",
       "E3SLlHU_JOE",
       "XXXy3RraaaM",
@@ -7843,13 +7836,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg",
-    "webcam": [
-      {
-        "title": "Base Area",
-        "link": "q7b608U8Eco"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg"
   },
   {
     "resortName": "Purgatory Resort",
@@ -7993,7 +7980,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
-      "LRYcqii3QVs",
       "dkac4hATPoc",
       "beQpaB25oTk",
       "QAeZMK63pQw",
@@ -8064,17 +8050,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/517/2200/1637368445jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "Mountain Village",
-        "link": "N-StEGiHtjw"
-      },
-      {
-        "title": "Downtown Telluride",
-        "link": "Y_TLxje5Qw4"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/517/2200/1637368445jpg_render.jpg"
   },
   {
     "resortName": "Vail Ski Resort",
@@ -8142,17 +8118,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/503/4139/1634139964.png",
-    "webcam": [
-      {
-        "title": "Base Cam",
-        "link": "J3c9xWRWMCs"
-      },
-      {
-        "title": "Lunch Rock",
-        "link": "XmO1T-jL-Js"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/503/4139/1634139964.png"
   },
   {
     "resortName": "Wolf Creek ski area",
@@ -8355,7 +8321,6 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
-      "6Q9ZfndImQA",
       "txPkS3EYV2c",
       "3fMPGkThpzI",
       "9QpfaTxzx44",
@@ -8405,7 +8370,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://pbs.twimg.com/media/FGivCwtUcAY2FtD?format=png&name=medium"
+    "mapLink": ""
   },
   {
     "resortName": "Ruby Hill",
@@ -8713,13 +8678,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/477/4308/1612578339.jpg",
-    "webcam": [
-      {
-        "title": "Resort Cam",
-        "link": "uM-oftYVFGA"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/477/4308/1612578339.jpg"
   },
   {
     "resortName": "Rotarun",
@@ -8917,17 +8876,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/361/2200/1635614165jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "Everett's 8800 Cam",
-        "link": "LMjRvBr7Jms"
-      },
-      {
-        "title": "Andesite Snow Stake",
-        "video": "-UqEKS_O8ag"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/361/3535/1636156149jpg_render.jpg"
   },
   {
     "resortName": "Blacktail Mountain",
@@ -9421,7 +9370,7 @@ var allData = [
   {
     "resortName": "Mount Aggie Ski Slope",
     "state": "Texas",
-    "region": "Southeast",
+    "region": "Rocky Mountains",
     "city": "College Station",
     "videos": [],
     "position": {
@@ -9431,27 +9380,6 @@ var allData = [
     "officialSkiResort": true,
     "id": "3196",
     "website": "http://hlknweb.tamu.edu/mt-aggie",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": ""
-  },
-  {
-    "resortName": "Texas Ski Ranch",
-    "state": "Texas",
-    "region": "Southeast",
-    "city": "New Braunfels",
-    "videos": [],
-    "position": {
-      "lat": 29.769493264872253,
-      "lng": -98.04066083862271
-    },
-    "officialSkiResort": true,
-    "id": "",
-    "website": "https://www.texasskiranch.com/",
     "resortReview": {
       "score": "",
       "link": "",
@@ -9816,13 +9744,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/225/3535/1636940657jpg_render.jpg",
-    "webcam": [
-      {
-        "title": "Resort Cam",
-        "link": "c_JwTOw74-o"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/225/3535/1636940657jpg_render.jpg"
   },
   {
     "resortName": "Sundance",
@@ -9885,13 +9807,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/150/3535/1618777484.jpg",
-    "webcam": [
-      {
-        "title": "Dreamcatcher",
-        "link": "g7fWaol3P1g"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/150/3535/1618777484.jpg"
   },
   {
     "resortName": "Hogadon",
@@ -9939,13 +9855,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": "https://skimap.org/data/151/3535/1637443234.jpg",
-    "webcam": [
-      {
-        "title": "Town Square",
-        "link": "1EiC9bvVGnk"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/151/3535/1637443234.jpg"
   },
   {
     "resortName": "Pine Creek",
@@ -10008,13 +9918,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg",
-    "webcam": [
-      {
-        "title": "Base Cam",
-        "link": "bEhJMnsPD5I"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg"
   },
   {
     "resortName": "Snowy Range",
@@ -10277,27 +10181,6 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2134/1923/1610459195.jpg"
-  },
-  {
-    "resortName": "Skeetawk",
-    "state": "Alaska",
-    "region": "West Coast",
-    "city": "Palmer",
-    "videos": [],
-    "position": {
-      "lat": 61.7431619826226,
-      "lng": -149.23385156253838
-    },
-    "officialSkiResort": true,
-    "id": "3003",
-    "website": "https://www.skihatcherpass.org",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/3003/2200/1612028184.jpeg"
   },
   {
     "resortName": "Alpine Meadows",
@@ -11787,17 +11670,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg",
-    "webcam": [
-      {
-        "title": "Central Express",
-        "link": "91eI60BHlKw"
-      },
-      {
-        "title": "Summit Central",
-        "link": "bm3CfORSeQ8"
-      }
-    ]
+    "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg"
   },
   {
     "resortName": "Alpental",

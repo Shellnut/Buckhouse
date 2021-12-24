@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/21/2021';
+var lastUpdated = '12/23/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2122,6 +2122,28 @@ var allData = [
     "country": "United States"
   },
   {
+    "resortName": "Ascutney Outdoors",
+    "state": "Vermont",
+    "region": "New England",
+    "city": "Brownsville",
+    "videos": [],
+    "position": {
+      "lat": 43.4608937800826,
+      "lng": -72.4632453918457
+    },
+    "officialSkiResort": true,
+    "id": "206",
+    "website": "https://www.ascutneyoutdoors.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/206/3439/1609820077.jpeg",
+    "country": "United States"
+  },
+  {
     "resortName": "Wisp Ski Resort",
     "state": "Maryland",
     "region": "Mid-Atlantic",
@@ -3159,6 +3181,28 @@ var allData = [
     "country": "United States"
   },
   {
+    "resortName": "Cockaigne Ski Resort",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "city": "Cherry Creek",
+    "videos": [],
+    "position": {
+      "lat": 42.2644475136505,
+      "lng": -79.1664505004883
+    },
+    "officialSkiResort": true,
+    "id": "303",
+    "website": "http://www.cockaigne.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/303/2200/1574487061.jpg",
+    "country": "United States",
+  },
+  {
     "resortName": "Bear Creek Mountain Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -3213,7 +3257,7 @@ var allData = [
       "lng": -75.52077819901874
     },
     "officialSkiResort": true,
-    "id": "4685",
+    "id": "258",
     "website": "https://www.skibluemt.com/",
     "resortReview": {
       "score": "",
@@ -3279,7 +3323,7 @@ var allData = [
       "lng": -76.09681379602092
     },
     "officialSkiResort": true,
-    "id": "4699",
+    "id": "250",
     "website": "https://ddresorts.com/eagle-rock/on-property/snow-sports/",
     "resortReview": {
       "score": "",
@@ -3639,7 +3683,7 @@ var allData = [
       "lng": -80.07032250000002
     },
     "officialSkiResort": true,
-    "id": "",
+    "id": "245",
     "website": "https://www.skimountpleasant.com/",
     "resortReview": {
       "score": "",
@@ -3942,7 +3986,7 @@ var allData = [
       "lng": -78.94393106029538
     },
     "officialSkiResort": true,
-    "id": "4694",
+    "id": "199",
     "website": "https://www.wintergreenresort.com/",
     "resortReview": {
       "score": "",
@@ -5792,7 +5836,7 @@ var allData = [
       "lng": -81.56316791419339
     },
     "officialSkiResort": true,
-    "id": "2987",
+    "id": "276",
     "website": "http://www.bmbw.com/",
     "resortReview": {
       "score": "",
@@ -5802,7 +5846,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/2987/2200/1521489325.jpg",
+    "mapLink": "https://skimap.org/data/276/2200/1521489409.jpg",
     "country": "United States"
   },
   {
@@ -6167,7 +6211,7 @@ var allData = [
       "lng": -88.01520287205463
     },
     "officialSkiResort": true,
-    "id": "15253",
+    "id": "174",
     "website": "https://www.rocksnowpark.com/",
     "resortReview": {
       "score": 40,
@@ -6390,7 +6434,7 @@ var allData = [
       "lng": -92.28446417042197
     },
     "officialSkiResort": true,
-    "id": "5450",
+    "id": "176",
     "website": "http://mdlresort.com/winter/",
     "resortReview": {
       "score": "",
@@ -6398,7 +6442,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "",
+    "mapLink": "https://skimap.org/data/176/4359/1618863309.jpg",
     "country": "United States"
   },
   {
@@ -8442,6 +8486,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "-wlrjetrohE",
       "Pc9Ir-BXdRc",
       "d-RKDR5YWiU",
       "LNkocOzsCGo",
@@ -9005,7 +9050,7 @@ var allData = [
       "lng": -114.28528411532494
     },
     "officialSkiResort": true,
-    "id": "14790",
+    "id": "201",
     "website": "https://magicmountainresort.com/",
     "resortReview": {
       "score": "",
@@ -9013,7 +9058,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/14790/3857/1585178894.jpg",
+    "mapLink": "https://skimap.org/data/201/3535/1637768118.png",
     "country": "United States"
   },
   {
@@ -10250,15 +10295,15 @@ var allData = [
       "lng": -107.21371618829218
     },
     "officialSkiResort": true,
-    "id": "14055",
-    "website": "",
+    "id": "149",
+    "website": "http://www.lodgesofthebighorns.com/meadowlark-ski-lodge-wyoming.php",
     "resortReview": {
       "score": "",
       "link": "",
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "",
+    "mapLink": "https://skimap.org/data/149/2200/1638472881.jpg",
     "country": "United States"
   },
   {
@@ -10400,7 +10445,7 @@ var allData = [
       "lng": -110.75606748830944
     },
     "officialSkiResort": true,
-    "id": "325",
+    "id": "156",
     "website": "https://snowkingmountain.com/",
     "resortReview": {
       "score": "",
@@ -10408,7 +10453,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg",
+    "mapLink": "https://skimap.org/data/156/2200/1639188588jpg_render.jpg",
     "webcam": [
       {
         "title": "Base Cam",
@@ -11950,7 +11995,7 @@ var allData = [
       "lng": -121.47477475938616
     },
     "officialSkiResort": true,
-    "id": "429",
+    "id": "193",
     "website": "https://www.crystalmountainresort.com/",
     "resortReview": {
       "score": 65,
@@ -11970,7 +12015,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/429/2200/1520792728jpg_render.jpg",
+    "mapLink": "https://skimap.org/data/193/3535/1576353472jpg_render.jpg",
     "country": "United States"
   },
   {

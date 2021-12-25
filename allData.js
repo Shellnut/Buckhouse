@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/23/2021';
+var lastUpdated = '12/24/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2262,7 +2262,7 @@ var allData = [
       "lng": -74.48167807558974
     },
     "officialSkiResort": true,
-    "id": "5231",
+    "id": "341",
     "website": "https://winter4kids.org/",
     "resortReview": {
       "score": "",
@@ -3201,6 +3201,50 @@ var allData = [
     "skiPass": [],
     "mapLink": "https://skimap.org/data/303/2200/1574487061.jpg",
     "country": "United States",
+  },
+  {
+    "resortName": "Four Seasons Ski Center",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "country": "United States",
+    "city": "Fayetteville",
+    "videos": [],
+    "position": {
+      "lat": 43.035787773300804,
+      "lng": -75.97217559814453
+    },
+    "officialSkiResort": true,
+    "id": "321",
+    "website": "http://fourseasonsgolfandski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/321/2200/1454008529.jpeg",
+  },
+  {
+    "resortName": "Villa Roma Ski Area",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "country": "United States",
+    "city": "Callicoon",
+    "videos": [],
+    "position": {
+      "lat": 41.76398173186272,
+      "lng": -74.96928691864014
+    },
+    "officialSkiResort": true,
+    "id": "322",
+    "website": "http://www.villaroma.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/322/2200/1528576696.jpg"
   },
   {
     "resortName": "Bear Creek Mountain Resort",
@@ -5225,6 +5269,28 @@ var allData = [
     "country": "United States"
   },
   {
+    "resortName": "Hanson Hills",
+    "state": "Michigan",
+    "region": "Midwest",
+    "country": "United States",
+    "city": "Grayling",
+    "videos": [],
+    "position": {
+      "lat": 44.64545248768847,
+      "lng": -84.75325584411621
+    },
+    "officialSkiResort": true,
+    "id": "418",
+    "website": "",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/418/916/1335917658.jpg"
+  },
+  {
     "resortName": "Afton Alps",
     "state": "Minnesota",
     "region": "Midwest",
@@ -5286,7 +5352,7 @@ var allData = [
       "lng": -93.28610667422542
     },
     "officialSkiResort": true,
-    "id": "5187",
+    "id": "386",
     "website": "https://buckhill.com/",
     "resortReview": {
       "score": 51,
@@ -5304,7 +5370,7 @@ var allData = [
       "wouldIGoBack": "6"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/5187/2200/1610306489.jpg",
+    "mapLink": "https://skimap.org/data/386/4359/1625513918.jpg",
     "country": "United States"
   },
   {
@@ -5700,7 +5766,7 @@ var allData = [
       "lng": -90.65060399983034
     },
     "officialSkiResort": true,
-    "id": "5025",
+    "id": "377",
     "website": "https://www.hiddenvalleyski.com/",
     "resortReview": {
       "score": "",
@@ -5710,7 +5776,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "",
+    "mapLink": "https://skimap.org/data/377/3074/1518041775.jpeg",
     "country": "United States"
   },
   {
@@ -6860,7 +6926,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/4528/1265/1434810817.jpg",
+    "mapLink": "https://skimap.org/data/550/1923/1447610315.jpg",
     "country": "United States"
   },
   {
@@ -6891,6 +6957,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "UWk4RpEj9oQ",
       "F4ECuFcoVvs",
       "Q9kyV-wV_3o",
       "Jo5ass9mo5M",
@@ -9050,7 +9117,7 @@ var allData = [
       "lng": -114.28528411532494
     },
     "officialSkiResort": true,
-    "id": "201",
+    "id": "490",
     "website": "https://magicmountainresort.com/",
     "resortReview": {
       "score": "",
@@ -9058,7 +9125,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/201/3535/1637768118.png",
+    "mapLink": "https://skimap.org/data/490/4196/1612037990.jpg",
     "country": "United States"
   },
   {
@@ -9169,7 +9236,7 @@ var allData = [
       "lng": -116.1331173575192
     },
     "officialSkiResort": true,
-    "id": "5272",
+    "id": "479",
     "website": "https://silvermt.com/",
     "resortReview": {
       "score": "",
@@ -9179,7 +9246,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": "",
+    "mapLink": "https://skimap.org/data/479/1923/1559428496.jpg",
     "country": "United States"
   },
   {
@@ -9237,7 +9304,7 @@ var allData = [
       "lng": -114.35500914223694
     },
     "officialSkiResort": true,
-    "id": "2768",
+    "id": "480",
     "website": "http://www.skibaldmountain.com/",
     "resortReview": {
       "score": "",
@@ -9247,7 +9314,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/2768/1923/1559428309.jpg",
+    "mapLink": "https://skimap.org/data/480/2200/1634494889jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -9261,7 +9328,7 @@ var allData = [
       "lng": -116.12428369507985
     },
     "officialSkiResort": true,
-    "id": "5230",
+    "id": "488",
     "website": "https://tamarackidaho.com/",
     "resortReview": {
       "score": "",
@@ -9269,7 +9336,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "",
+    "mapLink": "https://skimap.org/data/488/3100/1575037668jpg_render.jpg",
     "country": "United States"
   },
   {

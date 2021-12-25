@@ -2723,279 +2723,6 @@ var globalData = [
       "skiPass": []
     },
     {
-      "resortName": "Four Seasons Ski Center",
-      "state": "",
-      "region": "New York",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 43.035787773300804,
-        "lng": -75.97217559814453
-      },
-      "officialSkiResort": true,
-      "id": "321",
-      "website": "http://fourseasonsgolfandski.com/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Villa Roma Ski Area",
-      "state": "",
-      "region": "New York",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 41.76398173186272,
-        "lng": -74.96928691864014
-      },
-      "officialSkiResort": true,
-      "id": "322",
-      "website": "http://www.villaroma.com/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "National Winter Activity Center (Hidden Valley)",
-      "state": "",
-      "region": "New Jersey",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 41.1842094526352,
-        "lng": -74.480094909668
-      },
-      "officialSkiResort": true,
-      "id": "341",
-      "website": "https://winter4kids.org/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Hidden Valley",
-      "state": "",
-      "region": "Missouri",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 38.5351416336432,
-        "lng": -90.6533432006836
-      },
-      "officialSkiResort": true,
-      "id": "377",
-      "website": "https://www.hiddenvalleyski.com/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Buck Hill Ski Area",
-      "state": "",
-      "region": "Minnesota",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 44.723055555556,
-        "lng": -93.283333333333
-      },
-      "officialSkiResort": true,
-      "id": "386",
-      "website": "http://www.buckhill.com",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Hole in the Mountain",
-      "state": "",
-      "region": "Minnesota",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 44.26416429772014,
-        "lng": -96.30387783050537
-      },
-      "officialSkiResort": true,
-      "id": "390",
-      "website": "",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Missaukee Mountain",
-      "state": "",
-      "region": "Michigan",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 44.392296,
-        "lng": -85.227916
-      },
-      "officialSkiResort": true,
-      "id": "408",
-      "website": "",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Hanson Hills",
-      "state": "",
-      "region": "Michigan",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 44.64545248768847,
-        "lng": -84.75325584411621
-      },
-      "officialSkiResort": true,
-      "id": "418",
-      "website": "",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Sleepy Hollow Sports Park",
-      "state": "",
-      "region": "Iowa",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 41.588999417066304,
-        "lng": -93.5332202911377
-      },
-      "officialSkiResort": true,
-      "id": "464",
-      "website": "",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Silver Mountain Resort",
-      "state": "",
-      "region": "Idaho",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 47.495277777778,
-        "lng": -116.13666666667
-      },
-      "officialSkiResort": true,
-      "id": "479",
-      "website": "http://www.silvermt.com/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Sun Valley - Bald Mountain",
-      "state": "",
-      "region": "Idaho",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 43.664518871959,
-        "lng": -114.3963432312
-      },
-      "officialSkiResort": true,
-      "id": "480",
-      "website": "http://www.sunvalley.com",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Tamarack Resort",
-      "state": "",
-      "region": "Idaho",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 44.67316251,
-        "lng": -116.1272423
-      },
-      "officialSkiResort": true,
-      "id": "488",
-      "website": "http://www.tamarackidaho.com",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Magic Mountain Ski Resort",
-      "state": "",
-      "region": "Idaho",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 42.189037888049526,
-        "lng": -114.28537429131381
-      },
-      "officialSkiResort": true,
-      "id": "490",
-      "website": "http://www.magicmountainresort.com/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
       "resortName": "Ratzi",
       "state": "",
       "region": "Central Switzerland",
@@ -3009,27 +2736,6 @@ var globalData = [
       "officialSkiResort": true,
       "id": "15115",
       "website": "http://www.ratzi.ch/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Mt. Lemmon Ski Valley",
-      "state": "",
-      "region": "Arizona",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 32.44728598247072,
-        "lng": -110.78105740249158
-      },
-      "officialSkiResort": true,
-      "id": "550",
-      "website": "",
       "resortReview": {
         "score": "",
         "link": "",
@@ -4088,27 +3794,6 @@ var globalData = [
       "skiPass": []
     },
     {
-      "resortName": "Green Mountain",
-      "state": "",
-      "region": "Wyoming",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 41.33093567199175,
-        "lng": -106.60737991333008
-      },
-      "officialSkiResort": true,
-      "id": "14740",
-      "website": "https://www.brushcreekranch.com/green-mountain",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
       "resortName": "Zillertal Arena (Zell, Gerlos, Königsleiten, Hochkrimml)",
       "state": "",
       "region": "Tyrol",
@@ -4311,27 +3996,6 @@ var globalData = [
       "officialSkiResort": true,
       "id": "652",
       "website": "http://www.hohewandwiese.at",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "North Creek Ski Bowl",
-      "state": "",
-      "region": "New York",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 43.6931696597815,
-        "lng": -73.994789276188
-      },
-      "officialSkiResort": true,
-      "id": "2744",
-      "website": "http://www.goremountain.com/skibowl/",
       "resortReview": {
         "score": "",
         "link": "",
@@ -5697,27 +5361,6 @@ var globalData = [
       "officialSkiResort": true,
       "id": "762",
       "website": "http://www.larosiere.net/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Cimarron Mountain Club",
-      "state": "",
-      "region": "Colorado",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 38.29778445692848,
-        "lng": -107.61898040771484
-      },
-      "officialSkiResort": true,
-      "id": "13153",
-      "website": "http://cimarronmountainclub.com/",
       "resortReview": {
         "score": "",
         "link": "",
@@ -10853,7 +10496,7 @@ var globalData = [
       "resortName": "Bakuriani",
       "state": "",
       "region": "Georgia",
-      "country": "United States",
+      "country": "Georgia",
       "city": "",
       "videos": [],
       "position": {
@@ -10874,7 +10517,7 @@ var globalData = [
       "resortName": "Gudauri",
       "state": "",
       "region": "Georgia",
-      "country": "United States",
+      "country": "Georgia",
       "city": "",
       "videos": [],
       "position": {
@@ -43592,7 +43235,7 @@ var globalData = [
       "resortName": "Goderdzi",
       "state": "",
       "region": "Georgia",
-      "country": "United States",
+      "country": "Georgia",
       "city": "",
       "videos": [],
       "position": {
@@ -43613,7 +43256,7 @@ var globalData = [
       "resortName": "Tetnuldi",
       "state": "",
       "region": "Georgia",
-      "country": "United States",
+      "country": "Georgia",
       "city": "",
       "videos": [],
       "position": {
@@ -43655,7 +43298,7 @@ var globalData = [
       "resortName": "Hatsvali",
       "state": "",
       "region": "Georgia",
-      "country": "United States",
+      "country": "Georgia",
       "city": "",
       "videos": [],
       "position": {

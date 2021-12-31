@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/24/2021';
+var lastUpdated = '12/30/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6957,6 +6957,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "hGABkrZ1nig",
       "UWk4RpEj9oQ",
       "F4ECuFcoVvs",
       "Q9kyV-wV_3o",
@@ -7828,6 +7829,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "0pRd56ErEIs",
+      "sWwrF8CFrU8",
       "oxyfDJrSfGY",
       "FGp26ram-fg",
       "4NR_0eQ4FUE",
@@ -8797,6 +8800,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "gRZCF5_XRsA",
       "6Q9ZfndImQA",
       "txPkS3EYV2c",
       "3fMPGkThpzI",

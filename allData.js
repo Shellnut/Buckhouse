@@ -9344,7 +9344,7 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Bear Paw Ski Bowl - Havre",
+    "resortName": "Bear Paw Ski Bowl",
     "state": "Montana",
     "region": "Rocky Mountains",
     "city": "",

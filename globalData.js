@@ -43463,27 +43463,6 @@ var globalData = [
       "skiPass": []
     },
     {
-      "resortName": "Bear Canyon",
-      "state": "",
-      "region": "Montana",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 45.60677239605416,
-        "lng": -110.92215299606323
-      },
-      "officialSkiResort": true,
-      "id": "12987",
-      "website": "https://www.mtellis.org/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
       "resortName": "Plymouth ski and snowboard center ",
       "state": "",
       "region": "United Kingdom",
@@ -43506,10 +43485,10 @@ var globalData = [
     },
     {
       "resortName": "Adventure Mountain ",
-      "state": "",
+      "state": "Michigan",
       "region": "Michigan",
       "country": "United States",
-      "city": "",
+      "city": "Greenland Township",
       "videos": [],
       "position": {
         "lat": 46.7718937040715,
@@ -43523,7 +43502,8 @@ var globalData = [
         "link": "",
         "note": ""
       },
-      "skiPass": []
+      "skiPass": [],
+      "mapLink": "https://skimap.org/data/12997/4359/1639351862.jpg",
     },
     {
       "resortName": "Dryden Ski Club",

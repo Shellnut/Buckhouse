@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '12/30/2021';
+var lastUpdated = '12/31/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7730,6 +7730,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "qHrzhfP1MPI",
       "bjv3NYY5KBQ",
       "-ydneuTlsxc",
       "Xz0MdQOWeZc",

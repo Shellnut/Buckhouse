@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/3/2021';
+var lastUpdated = '1/5/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7504,6 +7504,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "kFC6lDeKJAU",
       "zgil3SYM6Io",
       "Rp4RrUj_YgU",
       "rQhvRd9uR0M",
@@ -8802,6 +8803,8 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "VluCz-z3vmY",
+      "W609K0-6wg8",
       "J7NPZZMg-Mg",
       "gRZCF5_XRsA",
       "6Q9ZfndImQA",

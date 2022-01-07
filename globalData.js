@@ -26768,27 +26768,6 @@ var globalData = [
       "skiPass": []
     },
     {
-      "resortName": "Blackhawk Ski Club",
-      "state": "",
-      "region": "Wisconsin",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 43.08437325276192,
-        "lng": -89.56773519515991
-      },
-      "officialSkiResort": true,
-      "id": "3280",
-      "website": "http://www.blackhawkskiclub.org/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
       "resortName": "Hida Highland (飛騨ハイランドスキー場)",
       "state": "",
       "region": "Chūbu - Gifu",
@@ -33270,27 +33249,6 @@ var globalData = [
       "officialSkiResort": true,
       "id": "4725",
       "website": "http://www.prazdelys-sommand.com/",
-      "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
-      },
-      "skiPass": []
-    },
-    {
-      "resortName": "Como Park",
-      "state": "",
-      "region": "Minnesota",
-      "country": "United States",
-      "city": "",
-      "videos": [],
-      "position": {
-        "lat": 44.984561729109814,
-        "lng": -93.15402030944824
-      },
-      "officialSkiResort": true,
-      "id": "4728",
-      "website": "https://www.stpaul.gov/departments/parks-recreation/activities/winter-spring-activities/downhill-skiing-snowboarding",
       "resortReview": {
         "score": "",
         "link": "",

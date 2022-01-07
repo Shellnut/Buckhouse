@@ -5756,6 +5756,28 @@ var allData = [
     "country": "United States"
   },
   {
+    "resortName": "Como Park",
+    "state": "Minnesota",
+    "region": "Midwest",
+    "country": "United States",
+    "city": "St Paul",
+    "videos": [],
+    "position": {
+      "lat": 44.984561729109814,
+      "lng": -93.15402030944824
+    },
+    "officialSkiResort": true,
+    "id": "4728",
+    "website": "https://www.stpaul.gov/departments/parks-recreation/activities/winter-spring-activities/downhill-skiing-snowboarding",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": ""
+  },
+  {
     "resortName": "Hidden Valley Ski Area",
     "state": "Missouri",
     "region": "Midwest",

@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/6/2021';
+var lastUpdated = '1/9/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7526,6 +7526,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "KGk2UvqzILc",
       "kFC6lDeKJAU",
       "zgil3SYM6Io",
       "Rp4RrUj_YgU",
@@ -8451,6 +8452,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "znrBpiWe8uI",
       "LRYcqii3QVs",
       "dkac4hATPoc",
       "beQpaB25oTk",

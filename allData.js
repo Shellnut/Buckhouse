@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/9/2021';
+var lastUpdated = '1/14/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4199,7 +4199,9 @@ var allData = [
     "state": "Illinois",
     "region": "Midwest",
     "city": "Galena",
-    "videos": [],
+    "videos": [
+      "1t3S25WoL0U"
+    ],
     "position": {
       "lat": 42.31971476576903,
       "lng": -90.39366428311324
@@ -4377,7 +4379,9 @@ var allData = [
     "state": "Iowa",
     "region": "Midwest",
     "city": "Dubuque",
-    "videos": [],
+    "videos": [
+      "h-Dss_2VXKY"
+    ],
     "position": {
       "lat": 42.517027072386476,
       "lng": -90.81897195179955
@@ -6979,6 +6983,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "l1x2qsZdauo",
       "3pUyu3O4w2Q",
       "hGABkrZ1nig",
       "UWk4RpEj9oQ",
@@ -8827,6 +8832,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "WKVRJ8yNa9Q",
       "j8FrxRW4vWs",
       "VluCz-z3vmY",
       "W609K0-6wg8",

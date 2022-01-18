@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/17/2021';
+var lastUpdated = '1/18/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6543,7 +6543,9 @@ var allData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Lake Geneva",
-    "videos": [],
+    "videos": [
+      "8VWNqNledoU"
+    ],
     "position": {
       "lat": 42.61215480792062,
       "lng": -88.38583807271465

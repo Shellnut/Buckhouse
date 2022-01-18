@@ -630,7 +630,12 @@
           $scope.showPasses = localStorage.getItem('showPasses');
 
           if (showPasses && showPasses !=='all') {
-            $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes($scope.showPasses));
+            if (showPasses === 'No Pass Associated') {
+               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val =>  val.officialSkiResort && val.skiPass.length < 1);
+            }
+            else {
+               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes($scope.showPasses));
+            }
           }
           else {
             $scope.showPasses = 'all';

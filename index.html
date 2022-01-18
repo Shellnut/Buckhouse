@@ -244,6 +244,12 @@
                                   <span>Powder Alliance</span>
                                </a>
                             </li>
+                            <li>
+                              <a href="javascript:void(0);">
+                                 <input type="radio" name="No Pass Associated" ng-change="updatePasses()" ng-model="showPasses" value="No Pass Associated">
+                                 <span>No Pass Associated</span>
+                              </a>
+                           </li>
                          </li>
                      </ul>
                   </li>
@@ -1283,7 +1289,12 @@
       // Get pass options from localStorage
       var showPasses = localStorage.getItem('showPasses');
       if (showPasses && showPasses !=='all') {
-         allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes(showPasses));
+         if (showPasses === 'No Pass Associated') {
+            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val =>  val.officialSkiResort && val.skiPass.length < 1);
+         }
+         else {
+            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes(showPasses));
+         }
       }
 
       for (var i = 0; i<allDataMap.length; i++) {

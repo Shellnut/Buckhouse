@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/14/2021';
+var lastUpdated = '1/17/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4200,6 +4200,7 @@ var allData = [
     "region": "Midwest",
     "city": "Galena",
     "videos": [
+      "o6tPuEYChxw",
       "1t3S25WoL0U"
     ],
     "position": {
@@ -7860,6 +7861,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "V1XG0MfQThE",
       "0pRd56ErEIs",
       "sWwrF8CFrU8",
       "oxyfDJrSfGY",
@@ -8832,6 +8834,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "No9HQEeChn4",
       "WKVRJ8yNa9Q",
       "j8FrxRW4vWs",
       "VluCz-z3vmY",
@@ -8877,8 +8880,8 @@ var allData = [
       "rc1WCHyktGM"
     ],
     "position": {
-      "lat": 39.59955455089273,
-      "lng": -106.09567554187014
+      "lat": 39.637908750133086,
+      "lng": -106.07816310210822
     },
     "id": "",
     "website": "",

@@ -1262,6 +1262,16 @@
         shadowSize: [41, 41]
       });
 
+      // Red Helicopter Icon (not yet visited)
+      var homeIcon = new L.Icon({
+        iconUrl: `img/${iconPreference}/home.png`,
+        shadowUrl: 'img/marker_shadow.png',
+        iconSize: [25, 35],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
       var allDataMap = [];
       if (!!localStorage.getItem('showGlobal')) {
          allDataMap = JSON.parse(JSON.stringify(allData)).concat(JSON.parse(JSON.stringify(globalData)));
@@ -1281,7 +1291,11 @@
         // Assign the icon color (visited or not)   
         var icon;
         var circleColor;
-        if (!allDataMap[i].officialSkiResort) {
+        if (allDataMap[i].resortName === 'Backyard Parks in Summit County') {
+           icon = homeIcon; // not yet visited for helicopter only resort
+           circleColor = 'black';
+        }
+        else if (!allDataMap[i].officialSkiResort) {
            icon = blackIcon; // unofficial ski resort
            circleColor = 'black';
         }

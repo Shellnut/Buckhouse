@@ -168,7 +168,7 @@
                   <li><a href="javascript:void(0);" ng-click="calendarModal()">Calendar <i class="fa fa-calendar"></i></a></li>
                   <!-- Toggle Icon -->
                   <li class="dropdown">
-                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span ng-show="showPasses !== 'all'">({{showPasses}}) </span><i class="fa fa-gear"></i><span class="caret"></span></a>
+                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span ng-show="showPasses !== 'all'">({{showPasses}}) </span><span ng-show="showVisited !== 'all'">({{showVisited}}) </span><i class="fa fa-gear"></i><span class="caret"></span></a>
                      <ul class="dropdown-menu my-dropdown">
                         <li class="dropdown-header" ng-show="!showGlobal">Toggle Icon</li>
                         <li ng-show="!showGlobal">
@@ -251,6 +251,28 @@
                               </a>
                            </li>
                          </li>
+                         <li role="seperator" class="divider"></li>
+                         <li class="dropdown-header">Visited</li>
+                         <li>
+                             <li>
+                                <a href="javascript:void(0);">
+                                   <input type="radio" name="all1" ng-change="updateVisited()" ng-model="showVisited" value="all"> 
+                                   <span>Show All</span>
+                                </a>
+                             </li>
+                             <li>
+                                <a href="javascript:void(0);">
+                                   <input type="radio" name="Visited" ng-change="updateVisited()" ng-model="showVisited" value="Visited">
+                                   <span>Visited</span>
+                                </a>
+                             </li>
+                             <li>
+                              <a href="javascript:void(0);">
+                                 <input type="radio" name="Not Visited" ng-change="updateVisited()" ng-model="showVisited" value="Not Visited">
+                                 <span>Not Visited</span>
+                              </a>
+                           </li>
+                          </li>
                      </ul>
                   </li>
                 </ul>
@@ -580,7 +602,8 @@
                });
                globalWarningModal.result.then(function() {
                   localStorage.setItem('showGlobal', '1');
-                  localStorage.setItem('showPasses', 'all')
+                  localStorage.setItem('showPasses', 'all');
+                  localStorage.setItem('showVisited', 'all');
                   location.reload(); 
                }, function () {
                   $scope.showGlobal = false;
@@ -631,7 +654,7 @@
 
           if (showPasses && showPasses !=='all') {
             if (showPasses === 'No Pass Associated') {
-               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val =>  val.officialSkiResort && val.skiPass.length < 1);
+               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.officialSkiResort && val.skiPass.length < 1);
             }
             else {
                $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes($scope.showPasses));
@@ -641,11 +664,36 @@
             $scope.showPasses = 'all';
           }
 
-          $scope.updatePasses = function() {
-             if ($scope.showPasses !=='all') {
+         $scope.updatePasses = function() {
+            if ($scope.showPasses !== 'all') {
+               localStorage.setItem('showGlobal', '');
+            }
+            localStorage.setItem('showVisited', '');
+            localStorage.setItem('showPasses', $scope.showPasses);
+            location.reload();
+         }
+
+         // Get pass options from localStorage
+         $scope.showVisited = localStorage.getItem('showVisited');
+
+         if (showVisited && showVisited !=='all') {
+            if (showVisited === 'Visited') {
+               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length > 0);
+            }
+            else if (showVisited === 'Not Visited') {
+               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length < 1);
+            }
+         }
+         else {
+            $scope.showVisited = 'all';
+         }
+
+          $scope.updateVisited = function() {
+             if ($scope.showVisited !== 'all') {
                localStorage.setItem('showGlobal', '');
              }
-             localStorage.setItem('showPasses', $scope.showPasses);
+             localStorage.setItem('showPasses', '');
+             localStorage.setItem('showVisited', $scope.showVisited);
              location.reload();
           }
 
@@ -1299,6 +1347,17 @@
          }
          else {
             allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes(showPasses));
+         }
+      }
+
+      // Get visited options from localStorage
+      var showVisited = localStorage.getItem('showVisited');
+      if (showVisited && showVisited !=='all') {
+         if (showVisited === 'Visited') {
+            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length > 0);
+         }
+         else if (showVisited === 'Not Visited') {
+            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length < 1);
          }
       }
 

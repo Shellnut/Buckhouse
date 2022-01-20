@@ -12420,7 +12420,7 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg",
+    "mapLink": "https://res.cloudinary.com/liftopia/image/upload/c_fit,d_defaults:default_logo_1.png,f_auto,h_980,q_auto,w_980/v1/production/trail_maps/c32494c8f27b1ed6f55eb61f03030f1e.jpg",
     "webcam": [
       {
         "title": "Central Express",

@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/20/2021';
+var lastUpdated = '1/22/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4224,7 +4224,9 @@ var allData = [
     "state": "Illinois",
     "region": "Midwest",
     "city": "Lisle",
-    "videos": [],
+    "videos": [
+      "-tc7h0BCFlc"
+    ],
     "position": {
       "lat": 41.78319919365947,
       "lng": -88.08364236002583
@@ -6865,7 +6867,9 @@ var allData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Wilmot",
-    "videos": [],
+    "videos": [
+      "wuLVJAKu7UE"
+    ],
     "position": {
       "lat": 42.49939743982259,
       "lng": -88.18774605688819

@@ -6906,9 +6906,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [
-      "Powder Alliance"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/548/3535/1635218701jpg_render.jpg",
     "webcam": [
       {
@@ -8285,9 +8283,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [
-      "Powder Alliance"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/511/3535/1634341976.jpg",
     "country": "United States"
   },
@@ -9043,7 +9039,9 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Powder Alliance"
+    ],
     "mapLink": "https://skimap.org/data/487/4114/1605367931.jpg",
     "country": "United States"
   },
@@ -9270,8 +9268,7 @@ var allData = [
       "note": ""
     },
     "skiPass": [
-      "Ikon",
-      "Powder Alliance"
+      "Ikon"
     ],
     "mapLink": "https://skimap.org/data/476/3535/1619043123jpg_render.jpg",
     "country": "United States"
@@ -9486,9 +9483,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [
-      "Powder Alliance"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/375/3535/1618776634jpg_render.jpg",
     "country": "United States"
   },
@@ -11080,7 +11075,9 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Powder Alliance"
+    ],
     "mapLink": "https://skimap.org/data/533/1923/1469893693.jpg",
     "country": "United States"
   },
@@ -11559,9 +11556,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [
-      "Powder Alliance"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/543/3535/1635218007jpg_render.jpg",
     "country": "United States"
   },
@@ -12264,7 +12259,9 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Powder Alliance"
+    ],
     "mapLink": "https://skimap.org/data/186/4331/1613956663jpg_render.jpg",
     "country": "United States"
   },
@@ -12478,7 +12475,9 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Powder Alliance"
+    ],
     "mapLink": "https://skimap.org/data/184/1923/1568500416.jpg",
     "country": "United States"
   },

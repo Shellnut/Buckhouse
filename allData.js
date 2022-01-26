@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/23/2021';
+var lastUpdated = '1/25/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4270,7 +4270,9 @@ var allData = [
     "state": "Illinois",
     "region": "Midwest",
     "city": "Bartlett",
-    "videos": [],
+    "videos": [
+      "s07YO9z2fBk"
+    ],
     "position": {
       "lat": 42.01327106828846,
       "lng": -88.22016002925511
@@ -7866,6 +7868,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "Yx_7la7ONvA",
       "V1XG0MfQThE",
       "0pRd56ErEIs",
       "sWwrF8CFrU8",

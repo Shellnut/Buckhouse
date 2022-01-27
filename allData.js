@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/25/2021';
+var lastUpdated = '1/27/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6334,7 +6334,9 @@ var allData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Baraboo",
-    "videos": [],
+    "videos": [
+      "12YnWx-LAc8"
+    ],
     "position": {
       "lat": 43.41872021633558,
       "lng": -89.62702597184295

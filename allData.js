@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/27/2021';
+var lastUpdated = '1/29/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6277,7 +6277,9 @@ var allData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Wisconsin Dells",
-    "videos": [],
+    "videos": [
+      "2oBDfqyzhLU"
+    ],
     "position": {
       "lat": 43.60967760433379,
       "lng": -89.8603010132994
@@ -7541,6 +7543,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "UlNYh_LPleU",
       "KGk2UvqzILc",
       "kFC6lDeKJAU",
       "zgil3SYM6Io",

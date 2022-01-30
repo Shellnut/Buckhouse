@@ -4195,6 +4195,28 @@ var allData = [
     "country": "United States"
   },
   {
+    "resortName": "Oglebay Ski Area (Nutting Winter Sports Area)",
+    "state": "West Virginia",
+    "region": "Southeast",
+    "city": "Wheeling",
+    "videos": [],
+    "position": {
+      "lat": 40.105521436245716,
+      "lng": -80.6588307158604
+    },
+    "officialSkiResort": true,
+    "id": "3267",
+    "website": "http://ski.oglebay-resort.com/index.cfm/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://snowcomparison.com/uploads/images/fb/65/fb65b2d526a7bfd7f6b60ae23dd1d356.jpg",
+    "country": "United States"
+  },
+  {
     "resortName": "Chestnut Mountain Resort",
     "state": "Illinois",
     "region": "Midwest",

@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/31/2021';
+var lastUpdated = '2/1/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7384,6 +7384,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "NuaBbXxgdOY",
       "Mec_xRBEWsM",
       "KZFedxF82dA",
       "3BpHImJNYyY",

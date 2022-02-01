@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '1/30/2021';
+var lastUpdated = '1/31/2021';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8323,7 +8323,9 @@ var allData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Mesa",
-    "videos": [],
+    "videos": [
+      "2sI08UvI4hQ"
+    ],
     "position": {
       "lat": 39.06955733249306,
       "lng": -108.15072183073936

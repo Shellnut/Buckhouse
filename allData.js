@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '2/7/2022';
+var lastUpdated = '2/8/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8876,6 +8876,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "UidxFZ9Q9aE",
       "EfEL-c9omc0",
       "No9HQEeChn4",
       "WKVRJ8yNa9Q",

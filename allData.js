@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '2/11/2022';
+var lastUpdated = '2/13/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4465,9 +4465,7 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [
-      "Epic"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/415/3523/1559146403.jpg",
     "country": "United States"
   },
@@ -4867,7 +4865,9 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Epic"
+    ],
     "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif",
     "webcam": [
       {
@@ -5940,7 +5940,9 @@ var allData = [
       "link": "",
       "note": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Epic"
+    ],
     "mapLink": "https://skimap.org/data/277/2200/1604690617jpg_render.jpg",
     "country": "United States"
   },
@@ -8503,6 +8505,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "F9qyOfcTeHU",
+      "NQrvMYKgg94",
       "znrBpiWe8uI",
       "LRYcqii3QVs",
       "dkac4hATPoc",

@@ -4908,7 +4908,9 @@ var allData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Holly",
-    "videos": [],
+    "videos": [
+      "591Xg74EVYA"
+    ],
     "position": {
       "lat": 42.83136625290648,
       "lng": -83.56421822894333
@@ -5084,7 +5086,9 @@ var allData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Clarkston",
-    "videos": [],
+    "videos": [
+      "0WLQu0nEyVU"
+    ],
     "position": {
       "lat": 42.74626038193735,
       "lng": -83.36901789829217
@@ -8539,7 +8543,9 @@ var allData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Glenwood Springs",
-    "videos": [],
+    "videos": [
+      "B3kpjQ0AH2w"
+    ],
     "position": {
       "lat": 39.39993959991575,
       "lng": -107.33867887120918

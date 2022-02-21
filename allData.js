@@ -4452,7 +4452,9 @@ var allData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "White Lake",
-    "videos": [],
+    "videos": [
+      "5FSILJryeXc"
+    ],
     "position": {
       "lat": 42.653601423346494,
       "lng": -83.52338785174727
@@ -4852,7 +4854,9 @@ var allData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Brighton",
-    "videos": [],
+    "videos": [
+      "Ldh3GZ9Vd50",
+    ],
     "position": {
       "lat": 42.5416517773089,
       "lng": -83.81173630576433

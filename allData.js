@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '2/22/2022';
+var lastUpdated = '2/25/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2704,7 +2704,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "Warwick",
-    "videos": [],
+    "videos": [
+      "Wc-px_UghXw"
+    ],
     "position": {
       "lat": 41.24854169492592,
       "lng": -74.29514441419944

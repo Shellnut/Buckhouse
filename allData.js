@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '2/25/2022';
+var lastUpdated = '2/27/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3121,7 +3121,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "West Point",
-    "videos": [],
+    "videos": [
+      "_9h1ecDv-sE"
+    ],
     "position": {
       "lat": 41.39560173530888,
       "lng": -73.98356132208971
@@ -7911,6 +7913,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "TMBQGE_9kKQ",
       "E-EQuMMlCKQ",
       "aqeEsUmOf_c",
       "iEFfH-lFM_w",

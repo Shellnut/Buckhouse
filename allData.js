@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '2/27/2022';
+var lastUpdated = '3/1/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2904,7 +2904,9 @@ var allData = [
     "state": "New York",
     "region": "Mid-Atlantic",
     "city": "Patterson",
-    "videos": [],
+    "videos": [
+      "Htka-WU2A6Y"
+    ],
     "position": {
       "lat": 41.509190088831,
       "lng": -73.58532172149616
@@ -8898,6 +8900,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "lyecHTwSqdw",
       "qEMIM4gMHbE",
       "UidxFZ9Q9aE",
       "EfEL-c9omc0",

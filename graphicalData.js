@@ -6940,11 +6940,17 @@ var videoData = [
     "views": "43992",
     "title": "Snowboarding a Skate Park - (Season 5, Day 65)",
     "date": "2021-02-15T03:15:14Z"
+  },
+  {
+    "id": "Htka-WU2A6Y",
+    "views": "10000",
+    "title": "Can Pro Snowboarders Break Ski Resort Rules - (Season 6, Day 86)",
+    "date": "2022-03-01T03:15:14Z"
   }
 ];
 
 // Last updated date
-var newResortStatsLastUpdated = '2/25/21';
+var newResortStatsLastUpdated = '3/01/21';
 
 // Percentage Complete by Region
 var midwestData = allData.filter(val=>val.region==='Midwest' && val.officialSkiResort);

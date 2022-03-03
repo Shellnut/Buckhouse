@@ -164,6 +164,8 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
+                  <!-- Timeline -->
+                  <li><a href="javascript:void(0);" ng-click="timelineModal({'videoData': videoData, 'usData': usData})">Travel Progress <i class="fa fa-line-chart"></i></a></li>
                   <!-- Calendar -->
                   <li><a href="javascript:void(0);" ng-click="calendarModal()">Calendar <i class="fa fa-calendar"></i></a></li>
                   <!-- Toggle Icon -->
@@ -570,6 +572,10 @@
       
       // Governing app controller
       app.controller('myCtrl', ['$scope', '$uibModal', function($scope, $uibModal) {
+
+         // Add graphical data to $scope
+         $scope.videoData = JSON.parse(JSON.stringify(videoData));
+         $scope.usData = JSON.parse(JSON.stringify(allData));
          
          // Get truthy or falsy value from localStorage
          $scope.showGlobal = !!localStorage.getItem('showGlobal');
@@ -980,6 +986,86 @@
             });
          }
 
+         $scope.timelineModal = function(modalData) {
+
+            $scope.modalData = modalData;
+
+            var myVideos = modalData.usData
+               .filter(val => val.officialSkiResort && (val.videos.length > 0))
+               .map(val => {
+                  var myLength = val.videos.length-1;
+                  // Grab the vlog instead of the resort review
+                  if (val.videos.length === 2) {
+                     myLength = 0;
+                  }
+                  var myId = val.videos[myLength]; 
+                  var myInfo = modalData.videoData.filter(vidDataVal => vidDataVal.id === myId)[0];
+                     return {
+                        id: myId,
+                        resortName: val.resortName,
+                        city: val.city,
+                        state: val.state,
+                        title: myInfo.title,
+                        date: myInfo.date
+                     }
+               })
+              .sort((a,b) => new Date(b.date) - new Date(a.date));
+
+            // Add index
+            myVideos.forEach((val, i, arr) => arr[i].index = arr.length-i);
+
+            var myHtml = myVideos.map((val, i) => {
+
+               var firstVideo = `
+               <div class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${val.id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>`; 
+               var subsuquentVideos = `<a target="_blank" href="https://www.youtube.com/watch/${val.id}">${val.title}</a>`
+
+
+               return `
+               <div class="panel panel-default">
+                  <div class="panel-heading"><b>U.S. Ski Resort #${val.index}</b> <span class="pull-right">${new Date(val.date).toLocaleDateString("en-US")}</span></div>
+                  <div class="panel-body">
+                     <p>${i===0 ? firstVideo : subsuquentVideos}</p>
+                     <p><i class="fa fa-map-pin" aria-hidden="true"></i> ${val.resortName} located in ${val.city}, ${val.state}</p>
+                  </div>
+               </div>`
+            }).join('\n')
+
+            var timelineModal = $uibModal.open({
+                  animation: $scope.animationsEnabled,
+                  template: `<div class="modal-header">
+                                 <h3 class="modal-title">
+                                    <div class="row">
+                                       <div class="col-xs-11">
+                                          <span><i class="fa fa-line-chart" aria-hidden="true"></i> Johnathan's Travel Progress</span>
+                                       </div>
+                                       <div class="col-xs-1">
+                                          <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
+                                       </div>
+                                    </div>
+                                 </h3>
+                              </div>
+                              <div class="modal-body">
+                                 ${myHtml}
+                              </div>
+                              <div class="modal-footer">
+                                 <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>
+                              </div>`,
+                  controller: 'TimelineModal',
+                  resolve: {
+                  modalData: function () {
+                     return $scope.modalData;
+                  }
+               }
+               });
+               timelineModal.result.then(function() {
+                  // console.log('done!');
+               }, function () {
+            });
+         }
+
          $scope.mapModal = function(modalData) {
 
             $scope.modalData = modalData;
@@ -1131,7 +1217,7 @@
          $scope.ok = function () {
             $uibModalInstance.close();
          };
-      })
+      });
 
       // Webcam Modal Controller
       app.controller('WebcamModal', function($scope, $uibModalInstance) {
@@ -1139,7 +1225,16 @@
          $scope.ok = function () {
             $uibModalInstance.close();
          };
-      })
+      });
+
+      // Map Modal controller      
+      app.controller('TimelineModal', function ($scope, $uibModalInstance, modalData) {
+         $scope.modalData = modalData;
+         // Close Modal
+         $scope.ok = function () {
+            $uibModalInstance.close();
+         };
+      });
 
       // Set the default view
       var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords

@@ -4061,8 +4061,8 @@ var allData = [
       "B_rNQNIoBLU",
       "8Ua7njpZBLc",
       "rkA9nxTJIvU",
+      "DGvkcX8QI-g",
       "TW_aCTT7UYw",
-      "DGvkcX8QI-g"
     ],
     "position": {
       "lat": 37.352932264382524,
@@ -7722,8 +7722,8 @@ var allData = [
     "city": "Gunnison",
     "videos": [
       "_Xp0HRk64ys",
-      "7accKVSZDbc",
-      "kdpqtPvSQfs"
+      "kdpqtPvSQfs",
+      "7accKVSZDbc"
     ],
     "position": {
       "lat": 38.587159592238294,
@@ -8466,8 +8466,8 @@ var allData = [
       "JQnkiIR__hw",
       "O9VQLnjHn54",
       "WDWstwmxBGo",
+      "qJisBzad4ZA",
       "AAo147A-G_0",
-      "qJisBzad4ZA"
     ],
     "position": {
       "lat": 39.36036098452235,

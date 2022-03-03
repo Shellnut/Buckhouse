@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/1/2022';
+var lastUpdated = '3/2/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -41,7 +41,9 @@ var allData = [
     "state": "Connecticut",
     "region": "New England",
     "city": "Plantsville",
-    "videos": [],
+    "videos": [
+      "YGc9qObi0SY"
+    ],
     "position": {
       "lat": 41.58224478364855,
       "lng": -72.92487811535197

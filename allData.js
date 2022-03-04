@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/2/2022';
+var lastUpdated = '3/3/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -71,7 +71,9 @@ var allData = [
     "state": "Connecticut",
     "region": "New England",
     "city": "Middlefield",
-    "videos": [],
+    "videos": [
+      "HM-qbpArXvU"
+    ],
     "position": {
       "lat": 41.50181371863382,
       "lng": -72.73647575953296

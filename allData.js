@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/3/2022';
+var lastUpdated = '3/5/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -95,7 +95,9 @@ var allData = [
     "state": "Connecticut",
     "region": "New England",
     "city": "New Hartford",
-    "videos": [],
+    "videos": [
+      "BZxWghNg-YY"
+    ],
     "position": {
       "lat": 41.884852916742,
       "lng": -72.94668787301656
@@ -8904,6 +8906,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "iJQ4PfdEjIk",
       "lyecHTwSqdw",
       "qEMIM4gMHbE",
       "UidxFZ9Q9aE",

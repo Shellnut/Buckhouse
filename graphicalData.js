@@ -6976,11 +6976,17 @@ var videoData = [
     "views": "44087",
     "title": "Snowboarding a Skate Park - (Season 5, Day 65)",
     "date": "2021-02-15T03:15:14Z"
+  },
+  {
+    "id": "v5cNZcIF6cA",
+    "views": "2661",
+    "title": "Snowboarding the Oldest T-Bar in the United States - (Season 6, Day 91)",
+    "date": "2022-03-06T07:15:14Z"
   }
 ];
 
 // Last updated date
-var newResortStatsLastUpdated = '3/01/21';
+var newResortStatsLastUpdated = '3/6/22';
 
 // Percentage Complete by Region
 var midwestData = allData.filter(val=>val.region==='Midwest' && val.officialSkiResort);

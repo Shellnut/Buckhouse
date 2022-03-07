@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/5/2022';
+var lastUpdated = '3/6/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -725,7 +725,9 @@ var allData = [
     "state": "Massachusetts",
     "region": "New England",
     "city": "Otis",
-    "videos": [],
+    "videos": [
+      "v5cNZcIF6cA"
+    ],
     "position": {
       "lat": 42.19658758951682,
       "lng": -73.09835475951671

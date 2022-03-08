@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/6/2022';
+var lastUpdated = '3/7/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -613,7 +613,9 @@ var allData = [
     "state": "Massachusetts",
     "region": "New England",
     "city": "Great Barrington",
-    "videos": [],
+    "videos": [
+      "cvfzV_Dlgb0"
+    ],
     "position": {
       "lat": 42.18411496956803,
       "lng": -73.32024457014731

@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/8/2022';
+var lastUpdated = '3/10/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -591,7 +591,9 @@ var allData = [
     "state": "Massachusetts",
     "region": "New England",
     "city": "Pittsfield",
-    "videos": [],
+    "videos": [
+      "jQ5cWUJy0Ws"
+    ],
     "position": {
       "lat": 42.419249186089814,
       "lng": -73.2765876730039

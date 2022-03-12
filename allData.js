@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/10/2022';
+var lastUpdated = '3/11/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2290,7 +2290,9 @@ var allData = [
     "state": "New Jersey",
     "region": "Mid-Atlantic",
     "city": "Vernon",
-    "videos": [],
+    "videos": [
+      "arO-Um_dPTA"
+    ],
     "position": {
       "lat": 41.181196331155085,
       "lng": -74.51322156175259

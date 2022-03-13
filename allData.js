@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/11/2022';
+var lastUpdated = '3/12/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9950,7 +9950,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Ruidoso",
-    "videos": [],
+    "videos": [
+      "MVSnfids-oE"
+    ],
     "position": {
       "lat": 33.39751608223284,
       "lng": -105.78870527318227

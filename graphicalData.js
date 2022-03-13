@@ -1,85 +1,85 @@
 var videoData = [
   {
     "id": "YGc9qObi0SY",
-    "views": "68756",
+    "views": "69951",
     "title": "We Were Told to Stop Backflipping Our Snowboards - (Season 6, Day 87)",
     "date": "2022-03-03T02:30:10Z"
   },
   {
     "id": "HM-qbpArXvU",
-    "views": "19412",
+    "views": "19536",
     "title": "WHY SO Many Ski and Snowboarding Rules - (Season 6, Day 88)",
     "date": "2022-03-04T04:30:11Z"
   },
   {
     "id": "BZxWghNg-YY",
-    "views": "25342",
+    "views": "25876",
     "title": "Snowboarding Connecticut ONLY  DOUBLE Black Diamond - (Season 6, Day 90)",
     "date": "2022-03-06T01:15:11Z"
   },
   {
     "id": "jQ5cWUJy0Ws",
-    "views": "13820",
+    "views": "15900",
     "title": "Ski Patrol Let Us Duck Ropes at Ski Bousquet - (Season 6, Day 93)",
     "date": "2022-03-11T02:30:12Z"
   },
   {
     "id": "cvfzV_Dlgb0",
-    "views": "11911",
+    "views": "12040",
     "title": "Snowboarding Butternut in East Coast RAIN - (Season 6, Day 92)",
     "date": "2022-03-08T02:45:10Z"
   },
   {
     "id": "kgZtJ0__uVA",
-    "views": "21924",
+    "views": "21937",
     "title": "Night Skiing at Jiminy Peak Ski Resort - (Season 5, Day 70)",
     "date": "2021-02-22T23:45:16Z"
   },
   {
     "id": "v5cNZcIF6cA",
-    "views": "14597",
+    "views": "15154",
     "title": "Snowboarding the Oldest T-Bar in the United States - (Season 6, Day 91)",
     "date": "2022-03-07T05:45:24Z"
   },
   {
     "id": "MDIUtXK_vDg",
-    "views": "12524",
+    "views": "12529",
     "title": "Snowboarding at Bromley Ski Resort - (Season 5, Day 71)",
     "date": "2021-02-24T22:45:27Z"
   },
   {
     "id": "ZOeCwntoVtE",
-    "views": "75202",
+    "views": "75347",
     "title": "Snowboarding at Killington Ski Resort - (Season 5, Day 72)",
     "date": "2021-02-26T00:15:16Z"
   },
   {
     "id": "ZKxshRQC66w",
-    "views": "21532",
+    "views": "21565",
     "title": "Killington Ski Resort Review",
     "date": "2021-11-27T03:00:10Z"
   },
   {
     "id": "Ym2MVTRKNPY",
-    "views": "14919",
+    "views": "14923",
     "title": "Snowboard at Dark Park Boardshop -100% FREE!",
     "date": "2021-02-26T23:45:27Z"
   },
   {
     "id": "SvYeSrOyf_c",
-    "views": "23373",
+    "views": "23390",
     "title": "Mount Snow Ski Resort Review!",
     "date": "2020-11-25T23:45:09Z"
   },
   {
     "id": "-mvFOkabbl0",
-    "views": "11886",
+    "views": "11888",
     "title": "Snowboarding Carinthia Parks Mount Snow! - (Season 4 Day 91)",
     "date": "2020-02-13T22:15:13Z"
   },
   {
     "id": "_87dos9R-v4",
-    "views": "5766",
+    "views": "5771",
     "title": "Snowboarding Mount Snow Vermont! - (Season 4, Day 90)",
     "date": "2020-02-12T23:15:13Z"
   },
@@ -91,13 +91,13 @@ var videoData = [
   },
   {
     "id": "zdP-z1sqEOM",
-    "views": "2410",
+    "views": "2409",
     "title": "Helping Subscribers Snowboard Better - (Season 5, Day 144)",
     "date": "2021-09-28T04:15:07Z"
   },
   {
     "id": "RkNhXala8xY",
-    "views": "26762",
+    "views": "26894",
     "title": "How to Get On and OFF Ski Lift | Snowboard Beginner Guide",
     "date": "2021-09-24T22:45:13Z"
   },
@@ -109,25 +109,25 @@ var videoData = [
   },
   {
     "id": "tTkth0-m3l8",
-    "views": "2679",
+    "views": "2681",
     "title": "Snowboard HAMMERS Were Dropped in Big SNOW - (Season 5, Day 143)",
     "date": "2021-09-21T00:00:13Z"
   },
   {
     "id": "TwO3DcQHHcU",
-    "views": "6953",
+    "views": "6955",
     "title": "This Ski Resort is in a Mall in New Jersey - (Season 5, Day 142)",
     "date": "2021-09-19T23:30:08Z"
   },
   {
     "id": "js9zL8ppHaY",
-    "views": "2707",
+    "views": "2708",
     "title": "How to Survive a Bomb Hole | Beginner Snowboard Guide",
     "date": "2021-09-17T23:15:12Z"
   },
   {
     "id": "pRkpId3qqJw",
-    "views": "6237",
+    "views": "6242",
     "title": "What INSIDE America's ONLY SKi Snow Dome is Like",
     "date": "2021-09-16T22:41:12Z"
   },
@@ -145,43 +145,43 @@ var videoData = [
   },
   {
     "id": "-vhU47d1AGk",
-    "views": "8468",
+    "views": "8470",
     "title": "8 Runs at Big SNOW American Dream - Snowboarding",
     "date": "2020-10-13T01:43:14Z"
   },
   {
     "id": "gpsfxa1XqPc",
-    "views": "48911",
+    "views": "48922",
     "title": "Reviewing Big Snow American Dream Ski Resort in New Jersey",
     "date": "2020-10-06T00:45:11Z"
   },
   {
     "id": "mem-CIP2YtY",
-    "views": "17012",
+    "views": "17028",
     "title": "How to Stop on a Snowboard - Beginner Guide!",
     "date": "2020-09-26T22:45:13Z"
   },
   {
     "id": "y-ItqbR7lRY",
-    "views": "102333",
+    "views": "102357",
     "title": "My First Time Snowboarding With My Son! - (Season 4, Day 192)",
     "date": "2020-09-25T22:45:11Z"
   },
   {
     "id": "SiGuxDeDSeY",
-    "views": "6369",
+    "views": "6375",
     "title": "This Was My Worst Crash in a Long Time Snowboarding! - (Season 4, Day 191)",
     "date": "2020-09-23T23:15:12Z"
   },
   {
     "id": "ICwfoylK4QI",
-    "views": "2214",
+    "views": "2216",
     "title": "Snowboard Carving In Big Snow New Jersey - (Season 4, Day 190)",
     "date": "2020-09-22T23:00:11Z"
   },
   {
     "id": "uUNJzdFcVT4",
-    "views": "6570",
+    "views": "6576",
     "title": "Toddlers First Snowboard Trip",
     "date": "2020-09-20T20:00:13Z"
   },
@@ -193,133 +193,133 @@ var videoData = [
   },
   {
     "id": "WaGdIsCQdvc",
-    "views": "15628",
+    "views": "15629",
     "title": "Snowboarding East Coast Powder! - (Season 5, Day 69)",
     "date": "2021-02-19T23:45:16Z"
   },
   {
     "id": "_5cfWpVnvhY",
-    "views": "10623",
+    "views": "10641",
     "title": "Campgaw Mountain Ski Area Resort Review",
     "date": "2021-10-07T22:45:12Z"
   },
   {
     "id": "arO-Um_dPTA",
-    "views": "1761",
+    "views": "4796",
     "title": "Snowboarding Mountain Creek New Jersey - (Season 6, Day 94)",
     "date": "2022-03-12T05:15:09Z"
   },
   {
     "id": "UOMfbbJoK6Y",
-    "views": "20563",
+    "views": "20575",
     "title": "Snowboarding Powder at Belleayre Ski Resort - (Season 5, Day 70)",
     "date": "2021-02-20T23:45:16Z"
   },
   {
     "id": "aSBHRrFU1Og",
-    "views": "25559",
+    "views": "25580",
     "title": "Snowboarding at Gore Mountain Ski Resort - (Season 5, Day 74)",
     "date": "2021-03-01T00:15:25Z"
   },
   {
     "id": "ALt-VpjRQew",
-    "views": "5568",
+    "views": "5578",
     "title": "Gore Mountain Ski Resort Review",
     "date": "2021-07-10T23:45:12Z"
   },
   {
     "id": "PiA0bdO8tAI",
-    "views": "20865",
+    "views": "20876",
     "title": "Snowboarding at Hunter Ski Resort - (Season 5, Day 70)",
     "date": "2021-02-21T23:45:14Z"
   },
   {
     "id": "mpoKns226DM",
-    "views": "11064",
+    "views": "11076",
     "title": "Hunter Mountain Ski Resort Review",
     "date": "2021-10-12T01:30:15Z"
   },
   {
     "id": "Wc-px_UghXw",
-    "views": "12518",
+    "views": "12545",
     "title": "Snowboarding Crazy East Coast Conditions at MT Peter - (Season 6, Day 84)",
     "date": "2022-02-26T02:45:10Z"
   },
   {
     "id": "Htka-WU2A6Y",
-    "views": "19832",
+    "views": "19964",
     "title": "Can Pro Snowboarders Break Ski Resort Rules - (Season 6, Day 86)",
     "date": "2022-03-01T02:45:09Z"
   },
   {
     "id": "l6978o4mw1g",
-    "views": "11704",
+    "views": "11707",
     "title": "Snowboarding at West Mountain",
     "date": "2021-03-02T00:00:16Z"
   },
   {
     "id": "1T4nnsYp-gI",
-    "views": "3696",
+    "views": "3700",
     "title": "West Mountain Ski Resort Review",
     "date": "2021-10-04T00:30:10Z"
   },
   {
     "id": "g-ZA8FpJCnU",
-    "views": "25534",
+    "views": "25559",
     "title": "Snowboarding at Whiteface Ski Resort - (Season 5, Day 73)",
     "date": "2021-02-28T03:15:16Z"
   },
   {
     "id": "b8025jQTa68",
-    "views": "20519",
+    "views": "20543",
     "title": "Snowboarding at Windham Ski Resort - (Season 5, Day 75)",
     "date": "2021-03-03T02:15:18Z"
   },
   {
     "id": "_9h1ecDv-sE",
-    "views": "16164",
+    "views": "16200",
     "title": "West Point has a Ski Resort? - (Victor Constant)",
     "date": "2022-02-28T00:45:11Z"
   },
   {
     "id": "_AnRnjuJNXo",
-    "views": "33643",
+    "views": "33657",
     "title": "Snowboarding at Appalachian Ski Mountain - (Season 5, Day 47)",
     "date": "2021-01-12T23:45:12Z"
   },
   {
     "id": "XvI0SCH_0CA",
-    "views": "8146",
+    "views": "8162",
     "title": "Appalachian Ski Mountain Resort Review",
     "date": "2021-09-09T22:45:11Z"
   },
   {
     "id": "W4wR6QML3XE",
-    "views": "47820",
+    "views": "47837",
     "title": "Snowboarder Falls Into a RIVER, GOT STUCK - (Season 5, Day 48)",
     "date": "2021-01-13T23:45:22Z"
   },
   {
     "id": "8zvrlaf4Utg",
-    "views": "19256",
+    "views": "19278",
     "title": "Beech Mountain North Carolina Resort Review",
     "date": "2021-05-21T22:45:16Z"
   },
   {
     "id": "SUvpR8jJF4M",
-    "views": "139856",
+    "views": "139883",
     "title": "Snowboarding at Sugar Ski Mountain NC - (Season 5, Day 49)",
     "date": "2021-01-17T23:45:12Z"
   },
   {
     "id": "Y2-2iAjBUqE",
-    "views": "24007",
+    "views": "24045",
     "title": "Sugar Ski Mountain North Carolina Resort Review",
     "date": "2021-11-03T00:45:10Z"
   },
   {
     "id": "A6MUhNr2Mxk",
-    "views": "4534",
+    "views": "4530",
     "title": "Snowboarding Top to Bottom Jumps, Airbag, and Rails! - (Liberty University Snowflex)",
     "date": "2020-09-05T00:18:40Z"
   },
@@ -331,7 +331,7 @@ var videoData = [
   },
   {
     "id": "6I4O4VGj-NQ",
-    "views": "12770",
+    "views": "12780",
     "title": "Snowboarding an Airbag in Virginia - (Season 4, Day 184)",
     "date": "2020-09-01T22:45:11Z"
   },
@@ -343,13 +343,13 @@ var videoData = [
   },
   {
     "id": "8Ua7njpZBLc",
-    "views": "5418",
+    "views": "5424",
     "title": "5 Tips For Snowboarding Snowflex!!",
     "date": "2020-08-27T23:49:19Z"
   },
   {
     "id": "rkA9nxTJIvU",
-    "views": "27781",
+    "views": "27798",
     "title": "Snowboarding on SnowFlex at Liberty University College!!! - (Season 4, Day 183)",
     "date": "2020-08-26T22:45:12Z"
   },
@@ -361,121 +361,121 @@ var videoData = [
   },
   {
     "id": "TW_aCTT7UYw",
-    "views": "37696",
+    "views": "37714",
     "title": "My First Time Snowboarding in Virginia! - (Season 4, Day 182)",
     "date": "2020-08-25T22:45:10Z"
   },
   {
     "id": "o6tPuEYChxw",
-    "views": "27770",
+    "views": "27771",
     "title": "Pro Snowboarder Rides Private Terrain Park - (Season 6, Day 53)",
     "date": "2022-01-16T01:45:09Z"
   },
   {
     "id": "1t3S25WoL0U",
-    "views": "31221",
+    "views": "31228",
     "title": "Snowboarding Illinois ONLY Black Diamonds at Chestnut Mountain - (Season 6, Day 52)",
     "date": "2022-01-15T03:00:09Z"
   },
   {
     "id": "-tc7h0BCFlc",
-    "views": "22739",
+    "views": "22743",
     "title": "Snowboarding in Chicago - (Season 6, Day 59)",
     "date": "2022-01-24T00:30:11Z"
   },
   {
     "id": "s07YO9z2fBk",
-    "views": "13899",
+    "views": "13900",
     "title": "Wacky Snowboarding Tricks at Villa Olivia Ski Resort - (Season 6, Day 61)",
     "date": "2022-01-26T02:00:09Z"
   },
   {
     "id": "h-Dss_2VXKY",
-    "views": "35207",
+    "views": "35217",
     "title": "Snowboarding Sundown Ski Resort Iowa - (Season 6, Day 51)",
     "date": "2022-01-14T01:45:09Z"
   },
   {
     "id": "5FSILJryeXc",
-    "views": "10917",
+    "views": "10936",
     "title": "Snowboarding Carving Alpine Valley Michigan - (Season 6, Day 81)",
     "date": "2022-02-21T02:30:25Z"
   },
   {
     "id": "Ldh3GZ9Vd50",
-    "views": "24502",
+    "views": "24551",
     "title": "No Way Vail Resorts Owns This Ski Resort - (Season 6, Day 82)",
     "date": "2022-02-22T00:45:10Z"
   },
   {
     "id": "591Xg74EVYA",
-    "views": "18784",
+    "views": "18795",
     "title": "Snowboarding Midwest Moguls - (Season 6, Day 79)",
     "date": "2022-02-19T03:15:09Z"
   },
   {
     "id": "0WLQu0nEyVU",
-    "views": "30133",
+    "views": "30211",
     "title": "Snowboarding \"The WALL\" at Pine Knob Michigan - (Season 6, Day 78)",
     "date": "2022-02-18T02:15:09Z"
   },
   {
     "id": "5OfBG7hUo9o",
-    "views": "16283",
+    "views": "16289",
     "title": "Snowboarding Afton Alps Minnesota - (Season 4, Day 106)",
     "date": "2020-03-06T23:45:16Z"
   },
   {
     "id": "uQ4_fewP7-Q",
-    "views": "15531",
+    "views": "15546",
     "title": "Snowboarding at Buck Hill Minnesota - (Season 5, Day 80)",
     "date": "2021-03-13T23:15:16Z"
   },
   {
     "id": "pPRYAx7GMfs",
-    "views": "6460",
+    "views": "6471",
     "title": "Buck Hill Ski Resort Review",
     "date": "2021-07-06T23:00:11Z"
   },
   {
     "id": "piO2Qq-UJu0",
-    "views": "14899",
+    "views": "14905",
     "title": "Snowboarding Hyland Hills Closing Weekend - (Season 5, Day 81)",
     "date": "2021-03-14T22:45:28Z"
   },
   {
     "id": "NfBk_WQM7PM",
-    "views": "14691",
+    "views": "14698",
     "title": "Hyland Hills Ski Resort Review!",
     "date": "2020-11-06T01:15:11Z"
   },
   {
     "id": "gcvMTBF3lYU",
-    "views": "15482",
+    "views": "15490",
     "title": "Snowboarding at Hyland Hills Minneapolis - (Season 4, Day 104)",
     "date": "2020-03-02T23:15:10Z"
   },
   {
     "id": "SdhESMcpxnk",
-    "views": "15446",
+    "views": "15453",
     "title": "Snowboarding Hyland Hills Minnesota - (Season 3, Day 89)",
     "date": "2019-02-22T22:45:00Z"
   },
   {
     "id": "MAjfZMHFlmk",
-    "views": "10700",
+    "views": "10703",
     "title": "Snowboarding at Elm Creek Minnesota - (Season 5, Day 81)",
     "date": "2021-03-15T22:45:17Z"
   },
   {
     "id": "n2rGN_94J1w",
-    "views": "15410",
+    "views": "15415",
     "title": "Snowboarding at Wild Mountain - (Season 5, Day 1)",
     "date": "2020-10-25T22:45:12Z"
   },
   {
     "id": "gVM7nEv3JJE",
-    "views": "1210",
+    "views": "1209",
     "title": "Crazy Winter Sport! Skijoring",
     "date": "2020-08-14T22:45:10Z"
   },
@@ -493,43 +493,43 @@ var videoData = [
   },
   {
     "id": "a3FuRWAuC0A",
-    "views": "4013",
+    "views": "4014",
     "title": "Snowboarding Behind Horses - (Skijoring)",
     "date": "2019-02-24T00:00:00Z"
   },
   {
     "id": "jpFaLyNq-qI",
-    "views": "41658",
+    "views": "41661",
     "title": "Snowboarding at Alpine Valley WI - (Season 5, Day 31)",
     "date": "2020-12-17T22:45:14Z"
   },
   {
     "id": "6a--suhNwak",
-    "views": "8792",
+    "views": "8802",
     "title": "Alpine Valley Ski Resort WI Resort Review!",
     "date": "2021-05-14T23:45:15Z"
   },
   {
     "id": "Gy4x-25vfP0",
-    "views": "20871",
+    "views": "20877",
     "title": "Snowboarding at Cascade Mountain WI - (Season 5, Day 36)",
     "date": "2020-12-24T23:45:14Z"
   },
   {
     "id": "jZ1Y_AcvFWU",
-    "views": "9196",
+    "views": "9198",
     "title": "Snowboard Carving!",
     "date": "2020-12-25T23:45:12Z"
   },
   {
     "id": "2oBDfqyzhLU",
-    "views": "20269",
+    "views": "20277",
     "title": "Snowboarder Goes Into Hole at Christmas Mountain - (Season 6, Day 63)",
     "date": "2022-01-29T00:00:11Z"
   },
   {
     "id": "ox7fADJJprI",
-    "views": "20016",
+    "views": "20021",
     "title": "Snowboarding at The Rock Snowpark - (Season 5, Day 37)",
     "date": "2020-12-27T01:45:14Z"
   },
@@ -541,181 +541,181 @@ var videoData = [
   },
   {
     "id": "12YnWx-LAc8",
-    "views": "26466",
+    "views": "26481",
     "title": "Snowboarding Under Ropes at Devils Head Ski Resort -(Season 6, Day 62)",
     "date": "2022-01-28T00:30:11Z"
   },
   {
     "id": "yJT_O4O8WBk",
-    "views": "21561",
+    "views": "21569",
     "title": "Snowboarding at Granite Peak WI - (Season 5, Day 32)",
     "date": "2020-12-18T23:45:13Z"
   },
   {
     "id": "UYWyxIXo4as",
-    "views": "18318",
+    "views": "18322",
     "title": "Snowboarding Little Switzerland! - (Season 5, Day 35)",
     "date": "2020-12-23T23:45:12Z"
   },
   {
     "id": "bTCoyE-aXcM",
-    "views": "7900",
+    "views": "7904",
     "title": "Little Switzerland Ski Resort Review",
     "date": "2021-11-22T00:30:10Z"
   },
   {
     "id": "8VWNqNledoU",
-    "views": "97358",
+    "views": "97381",
     "title": "Snowboarding a Wisconsin Double Black Diamond - (Season 6, Day 56)",
     "date": "2022-01-19T01:00:08Z"
   },
   {
     "id": "mW-wvNNHh1E",
-    "views": "15017",
+    "views": "15021",
     "title": "Snowboarding Nordic Mountain Wisconsin - (Season 5, Day 34)",
     "date": "2020-12-23T00:30:11Z"
   },
   {
     "id": "rxOGT9imhTM",
-    "views": "11298",
+    "views": "11303",
     "title": "Snowboarding Sunburst Ski Resort! - (Season 5, Day 38)",
     "date": "2020-12-28T00:00:43Z"
   },
   {
     "id": "ehIf0PMT9nM",
-    "views": "22682",
+    "views": "22707",
     "title": "How to Snowboard FASTER! Beginner Guide",
     "date": "2020-12-20T23:45:15Z"
   },
   {
     "id": "2rVv_-4HVFQ",
-    "views": "20819",
+    "views": "20826",
     "title": "Snowboard TrollHaugen Opening Day! - (Season 5, Day 2)",
     "date": "2020-10-26T22:45:13Z"
   },
   {
     "id": "BCHlDUxaQH0",
-    "views": "10752",
+    "views": "10753",
     "title": "Snowboarding at 3:00am - (Season 4, Day 105)",
     "date": "2020-03-06T00:30:14Z"
   },
   {
     "id": "pNd0rTEggtU",
-    "views": "3888",
+    "views": "3890",
     "title": "How to 180 Onto a Rail - (Half Cab)",
     "date": "2020-03-04T02:00:13Z"
   },
   {
     "id": "Uaa9pfe5bp0",
-    "views": "24971",
+    "views": "24976",
     "title": "Snowboarding at Trollhaugen in Wisconsin - (Season 4, Day 103)",
     "date": "2020-03-02T03:15:18Z"
   },
   {
     "id": "XRx0jb8dFpg",
-    "views": "22284",
+    "views": "22286",
     "title": "Snowboarding at Tyrol Basin - (Season 5, Day 33)",
     "date": "2020-12-20T01:30:13Z"
   },
   {
     "id": "wuLVJAKu7UE",
-    "views": "17722",
+    "views": "17730",
     "title": "Snowboarding Wilmot Ski Resort Wisconsin - (Season 6, Day 58)",
     "date": "2022-01-22T00:30:09Z"
   },
   {
     "id": "ejYIkiTEWZI",
-    "views": "15235",
+    "views": "15247",
     "title": "Snowboarding Sketchy Colorado Snow- (Season 6, Day 68)",
     "date": "2022-02-04T01:45:10Z"
   },
   {
     "id": "0ylYfn6qnHI",
-    "views": "18135",
+    "views": "18138",
     "title": "A Snowboarding Kid's Dream Comes True - (Season 6, Day 57)",
     "date": "2022-01-21T01:15:08Z"
   },
   {
     "id": "l1x2qsZdauo",
-    "views": "22424",
+    "views": "22427",
     "title": "Colorado Extreme Black Diamond Snowboarding - (Season 6, Day 50)",
     "date": "2022-01-12T02:30:12Z"
   },
   {
     "id": "3pUyu3O4w2Q",
-    "views": "14672",
+    "views": "14674",
     "title": "Expert Level Powder Snowboarding Tips - (Season 6 Day 45)",
     "date": "2022-01-02T23:45:08Z"
   },
   {
     "id": "hGABkrZ1nig",
-    "views": "22399",
+    "views": "22406",
     "title": "Snowboarding INSANELY Empty Powder Day  - (Season 6, Day 42)",
     "date": "2021-12-29T00:30:11Z"
   },
   {
     "id": "UWk4RpEj9oQ",
-    "views": "68599",
+    "views": "68620",
     "title": "Should You Snowboard Flat based | No Edges",
     "date": "2021-12-25T00:30:11Z"
   },
   {
     "id": "F4ECuFcoVvs",
-    "views": "15024",
+    "views": "15026",
     "title": "Snowboard Carving at Arapahoe Basin - (Season 6, Day 17)",
     "date": "2021-11-15T23:45:09Z"
   },
   {
     "id": "Q9kyV-wV_3o",
-    "views": "7549",
+    "views": "7551",
     "title": "Snowboarding Carves That Will Give you Style",
     "date": "2021-11-13T00:30:09Z"
   },
   {
     "id": "Jo5ass9mo5M",
-    "views": "7238",
+    "views": "7247",
     "title": "Snowboarding the Top of Arapahoe Basin",
     "date": "2021-11-08T18:56:42Z"
   },
   {
     "id": "dUeTqo6Z4Q0",
-    "views": "63914",
+    "views": "63920",
     "title": "Take Your Snowboarding to the NEXT Level - (Season 6, Day 13)",
     "date": "2021-11-07T23:45:10Z"
   },
   {
     "id": "owf8BLAu-p8",
-    "views": "10012",
+    "views": "10018",
     "title": "Arapahoe Basin Opened the Mountain Top - (Snowboarding Top To Bottom)",
     "date": "2021-11-07T20:00:11Z"
   },
   {
     "id": "kYgoD-5gaz4",
-    "views": "16277",
+    "views": "16285",
     "title": "Is Snowboard Buttering Overrated - (Season 6, Day 9)",
     "date": "2021-10-30T22:45:09Z"
   },
   {
     "id": "G0133FxtiP4",
-    "views": "18742",
+    "views": "18748",
     "title": "When Should You Ride Your NEW SNOWBOARD - (Season 6, Day 7)",
     "date": "2021-10-24T21:00:11Z"
   },
   {
     "id": "chk3ucoCSr4",
-    "views": "10250",
+    "views": "10252",
     "title": "Snowboarding Safety Tips",
     "date": "2021-10-21T22:00:10Z"
   },
   {
     "id": "4kQQ8R1nwP0",
-    "views": "27241",
+    "views": "27251",
     "title": "Don't Use Your IKON Pass For Snowboarding - (Season 6, Day 5)",
     "date": "2021-10-19T22:45:10Z"
   },
   {
     "id": "L-sbRPcjAO4",
-    "views": "17909",
+    "views": "17914",
     "title": "Opening Day Arapahoe Basin SKi Area 2021 - (Season 6, Day 4)",
     "date": "2021-10-18T22:45:28Z"
   },
@@ -727,7 +727,7 @@ var videoData = [
   },
   {
     "id": "Q8KnX9ORSSo",
-    "views": "9607",
+    "views": "9618",
     "title": "Arapahoe Basin Opening Day 2021 - (Top to Bottom)",
     "date": "2021-10-17T21:43:50Z"
   },
@@ -745,7 +745,7 @@ var videoData = [
   },
   {
     "id": "xSnhKk9u7BY",
-    "views": "2909",
+    "views": "2910",
     "title": "Freerding at Arapahoe Basin Closing Week - (Season 5, Day 129)",
     "date": "2021-06-18T22:45:11Z"
   },
@@ -757,7 +757,7 @@ var videoData = [
   },
   {
     "id": "uzyn5QnD0iM",
-    "views": "106587",
+    "views": "106649",
     "title": "Top 5 OVERHYPED Snowboard Gear",
     "date": "2021-06-01T22:45:14Z"
   },
@@ -781,7 +781,7 @@ var videoData = [
   },
   {
     "id": "o_586EzpTtI",
-    "views": "4548",
+    "views": "4550",
     "title": "Snowboarding more Colorado Double Black Diamonds - (Season 5, Day 118)",
     "date": "2021-05-20T22:45:16Z"
   },
@@ -793,19 +793,19 @@ var videoData = [
   },
   {
     "id": "C7Ir17CBotI",
-    "views": "7311",
+    "views": "7317",
     "title": "Coaching People on Extreme Terrain - (Season 5, Day 115)",
     "date": "2021-05-15T22:45:14Z"
   },
   {
     "id": "5NuCJa1vYGk",
-    "views": "4431",
+    "views": "4432",
     "title": "This is Snowboarding 2021 - (Season 5, Day 114)",
     "date": "2021-05-12T22:45:12Z"
   },
   {
     "id": "HkvbT5fivek",
-    "views": "236678",
+    "views": "236920",
     "title": "Toddler Takes His First Snowboard SLAM - (Season 5, Day 113)",
     "date": "2021-05-12T01:00:14Z"
   },
@@ -817,7 +817,7 @@ var videoData = [
   },
   {
     "id": "gs65Ot4xofg",
-    "views": "8991",
+    "views": "8994",
     "title": "Why is This Ski Run a Triple Black Diamond? - (Season 5, Day 111)",
     "date": "2021-05-07T22:45:17Z"
   },
@@ -835,7 +835,7 @@ var videoData = [
   },
   {
     "id": "NJ2fMJzH7kk",
-    "views": "15283",
+    "views": "15300",
     "title": "Snowboarding Untouched Colorado Double Black Diamonds - (Season 5, Day 103)",
     "date": "2021-04-24T22:45:13Z"
   },
@@ -847,25 +847,25 @@ var videoData = [
   },
   {
     "id": "ZkDKpuwtLik",
-    "views": "5008",
+    "views": "5011",
     "title": "Arapahoe Basin Steep Gullies Chute #2",
     "date": "2021-04-14T22:32:23Z"
   },
   {
     "id": "DUNNGKIgNEg",
-    "views": "100421",
+    "views": "100557",
     "title": "The Gnarliest Run at Arapahoe Basin - (Season 5, Day 89)",
     "date": "2021-03-29T23:30:15Z"
   },
   {
     "id": "2p0Q0nGH1P0",
-    "views": "21167",
+    "views": "21175",
     "title": "Snowboarding The Steep Gullies at Arapahoe Basin - (Season 5, Day 83)",
     "date": "2021-03-18T23:45:13Z"
   },
   {
     "id": "rGzekXW4Sdo",
-    "views": "184156",
+    "views": "184183",
     "title": "What a Colorado Double Black Looks Like - (Season 5, Day 82)",
     "date": "2021-03-17T22:45:17Z"
   },
@@ -877,25 +877,25 @@ var videoData = [
   },
   {
     "id": "A8B2VdjRUk0",
-    "views": "38239",
+    "views": "38250",
     "title": "Pro Snowboarder Tries Mono skiing",
     "date": "2021-02-09T00:45:14Z"
   },
   {
     "id": "fzRgmIUXGBk",
-    "views": "179666",
+    "views": "179736",
     "title": "Toddler Snowboarding By Himself - (Season 5, Day 61)",
     "date": "2021-02-08T01:00:12Z"
   },
   {
     "id": "rAsi52kg-P0",
-    "views": "148964",
+    "views": "148989",
     "title": "Roman's First Time Snowboarding a Mountain! - (Season 5, Day 50)",
     "date": "2021-01-18T23:45:12Z"
   },
   {
     "id": "n7Kh1YH_OLM",
-    "views": "559078",
+    "views": "559633",
     "title": "Pro Snowboarder Tries Skiing! - (Season 5, Day 27)",
     "date": "2020-12-11T23:45:12Z"
   },
@@ -913,25 +913,25 @@ var videoData = [
   },
   {
     "id": "Su9_P8pVYek",
-    "views": "11004",
+    "views": "11005",
     "title": "What is Wrong With my Snowboarding! - (Season 5, Day 15)",
     "date": "2020-11-23T00:45:26Z"
   },
   {
     "id": "6gHHeJKdmDA",
-    "views": "19444",
+    "views": "19445",
     "title": "Our Most Common Snowboard Crash! - (Season 5, Day 14)",
     "date": "2020-11-21T23:45:13Z"
   },
   {
     "id": "G6nUp6u0z_8",
-    "views": "11995",
+    "views": "11996",
     "title": "Snowboarding in a Complete White Out! - (Season 5, Day 12)",
     "date": "2020-11-20T00:30:12Z"
   },
   {
     "id": "EaLaNA22nPQ",
-    "views": "21610",
+    "views": "21612",
     "title": "Snowboarding the First Terrain Park In Colorado - (Season 5, Day 10)",
     "date": "2020-11-14T23:45:12Z"
   },
@@ -949,13 +949,13 @@ var videoData = [
   },
   {
     "id": "o4NsjjlSMeU",
-    "views": "4138",
+    "views": "4139",
     "title": "Arapahoe Basin Pond Skim",
     "date": "2020-06-16T05:40:20Z"
   },
   {
     "id": "PJdmJyee4hI",
-    "views": "6463",
+    "views": "6464",
     "title": "TJ Fell into the Arapahoe Basin Pond Skim! - (Season 4, Day 154)",
     "date": "2020-06-12T22:45:12Z"
   },
@@ -967,7 +967,7 @@ var videoData = [
   },
   {
     "id": "hsqY5Qty_Xo",
-    "views": "3273",
+    "views": "3274",
     "title": "Snowboarding Through Water! - (Season 4, Day 152)",
     "date": "2020-06-09T22:45:14Z"
   },
@@ -985,7 +985,7 @@ var videoData = [
   },
   {
     "id": "zByyASJ3Fg8",
-    "views": "8724",
+    "views": "8727",
     "title": "Is This Snowboard a Slush Slasher?? - (Season 4, Day 150)",
     "date": "2020-06-05T23:15:10Z"
   },
@@ -1021,7 +1021,7 @@ var videoData = [
   },
   {
     "id": "gkcy_6OGgNA",
-    "views": "13384",
+    "views": "13385",
     "title": "How to Avoid a Snowboard Collision!",
     "date": "2020-01-10T23:45:14Z"
   },
@@ -1039,19 +1039,19 @@ var videoData = [
   },
   {
     "id": "Z8s5jiBak58",
-    "views": "5987",
+    "views": "5989",
     "title": "Snowboarding Arapahoe Basin's Early Season Terrain Park! - (Season 4, Day 6)",
     "date": "2019-10-17T20:45:16Z"
   },
   {
     "id": "HO-qf5o5kKg",
-    "views": "3228",
+    "views": "3229",
     "title": "Pond Patrol",
     "date": "2019-07-01T01:11:40Z"
   },
   {
     "id": "XKv5pX3Fc2M",
-    "views": "3355",
+    "views": "3357",
     "title": "The Hottest Snowboarding Day of MY LIFE! 80 Degrees!! - (Season 3, Day 169)",
     "date": "2019-06-29T22:51:52Z"
   },
@@ -1081,7 +1081,7 @@ var videoData = [
   },
   {
     "id": "FrO-wpUBTCM",
-    "views": "3704",
+    "views": "3707",
     "title": "Closing Day Arapahoe Basin 2018/2019 Season! - (Season 3, Day 178)",
     "date": "2019-07-15T22:47:36Z"
   },
@@ -1105,19 +1105,19 @@ var videoData = [
   },
   {
     "id": "oKOLSCdTiyE",
-    "views": "30383",
+    "views": "30395",
     "title": "Snowboarding Arapahoe Basin On The 4th Of July!! - (Season 3, Day 173)",
     "date": "2019-07-06T01:15:38Z"
   },
   {
     "id": "_mFzB0FaP6U",
-    "views": "5797",
+    "views": "5798",
     "title": "4th of July Arapahoe Basin 2019 Lift Lines!!",
     "date": "2019-07-04T19:43:42Z"
   },
   {
     "id": "paAN8trUDrE",
-    "views": "2464",
+    "views": "2466",
     "title": "Snowboarder tries Snowskating - (Season 3, Day 171)",
     "date": "2019-07-02T23:09:58Z"
   },
@@ -1135,13 +1135,13 @@ var videoData = [
   },
   {
     "id": "s5JB8Kv8d3A",
-    "views": "8019",
+    "views": "8021",
     "title": "Steep Rock Shute At Arapahoe Basin!! - (Season 3, Day 153)",
     "date": "2019-05-26T22:16:44Z"
   },
   {
     "id": "UW27MStwkEM",
-    "views": "5742",
+    "views": "5744",
     "title": "Closing Day Keystone 2018:2019 Season!! - (Season 3, Day 122)",
     "date": "2019-04-08T22:45:01Z"
   },
@@ -1159,19 +1159,19 @@ var videoData = [
   },
   {
     "id": "vZSaHAHIiLk",
-    "views": "5785",
+    "views": "5787",
     "title": "What A Day At Arapahoe Basin - (Season 3, Day 138)",
     "date": "2019-05-04T23:08:06Z"
   },
   {
     "id": "dnSB-YUTUj8",
-    "views": "7696",
+    "views": "7701",
     "title": "Epic Powder Day In April At Arapahoe Basin - (Season 3, Day 136)",
     "date": "2019-05-01T22:44:39Z"
   },
   {
     "id": "gVoyP_XwCRw",
-    "views": "3759",
+    "views": "3760",
     "title": "Late Season Powder Day At Arapahoe Basin - (Season 3, Day 134)",
     "date": "2019-04-28T23:38:15Z"
   },
@@ -1189,7 +1189,7 @@ var videoData = [
   },
   {
     "id": "bbiUlRlrggY",
-    "views": "3622",
+    "views": "3623",
     "title": "Snowboarding Arapahoe Basin With My Childhood Best Friend!! - (Season 3, Day 56)",
     "date": "2019-01-03T00:00:02Z"
   },
@@ -1201,13 +1201,13 @@ var videoData = [
   },
   {
     "id": "Zh3aGOWWjSY",
-    "views": "27075",
+    "views": "27077",
     "title": "Arapahoe Basin's New Chair Lift and Terrain - The Beavers - (Season 3, Day 32)",
     "date": "2018-11-28T23:30:00Z"
   },
   {
     "id": "TkFKWM2RxfQ",
-    "views": "5630",
+    "views": "5631",
     "title": "Snowboarding With Casey Willax - Arapahoe Basin Colorado - (Season 3, Day 15) #snowboarding",
     "date": "2018-11-07T00:00:02Z"
   },
@@ -1231,7 +1231,7 @@ var videoData = [
   },
   {
     "id": "89O3B4XRW6A",
-    "views": "10245",
+    "views": "10247",
     "title": "Ryan Knapton Called Me Out For Not Being SAFE!! - Arapahoe Basin Colorado - (Season 3, Day 6) #snow",
     "date": "2018-10-24T23:00:01Z"
   },
@@ -1243,7 +1243,7 @@ var videoData = [
   },
   {
     "id": "2eBw9nE2zm8",
-    "views": "30680",
+    "views": "30688",
     "title": "Snowboarding Butters Like a Boss!! - Arapahoe Basin Colorado - (Season 3, Day 5)",
     "date": "2018-10-23T23:00:00Z"
   },
@@ -1273,13 +1273,13 @@ var videoData = [
   },
   {
     "id": "3PVtWmtgID4",
-    "views": "2454",
+    "views": "2455",
     "title": "My Stale Lines Challenge Video #Stalelineschallenge #StaleLIFE #StaleSandbech",
     "date": "2019-05-07T22:45:01Z"
   },
   {
     "id": "jXiBeGtoiNI",
-    "views": "44072",
+    "views": "44093",
     "title": "How To Teach Your Girlfriend To Snowboard",
     "date": "2018-12-21T00:15:00Z"
   },
@@ -1291,7 +1291,7 @@ var videoData = [
   },
   {
     "id": "UqWGP_4Sd9M",
-    "views": "3186",
+    "views": "3188",
     "title": "June 22 Powder Day At Arapahoe Basin - (Season 3, Day 167)",
     "date": "2019-06-23T22:24:18Z"
   },
@@ -1309,13 +1309,13 @@ var videoData = [
   },
   {
     "id": "FEAP-INxUwY",
-    "views": "4925",
+    "views": "4926",
     "title": "Snowboarding Backside 540",
     "date": "2019-05-20T23:17:12Z"
   },
   {
     "id": "Q7_X-EDfAjc",
-    "views": "5371",
+    "views": "5377",
     "title": "Snowboarding In Basically Rain - (Season 3, Day 157)",
     "date": "2019-06-03T21:45:02Z"
   },
@@ -1363,7 +1363,7 @@ var videoData = [
   },
   {
     "id": "QMRrqyv8lpk",
-    "views": "2900",
+    "views": "2901",
     "title": "Reviewing My First Snowboard Vlog! - (Day 1, Season 1)",
     "date": "2019-01-29T03:12:10Z"
   },
@@ -1399,19 +1399,19 @@ var videoData = [
   },
   {
     "id": "Pqic-siuO2o",
-    "views": "3208",
+    "views": "3210",
     "title": "Marhar Archaic Custom Snowboard Review!!",
     "date": "2018-04-14T00:12:22Z"
   },
   {
     "id": "HFm-yLBjszs",
-    "views": "91281",
+    "views": "91320",
     "title": "Five GoPro Attachments Every Snowboarder or Skier Needs!!",
     "date": "2019-06-03T02:17:49Z"
   },
   {
     "id": "2N5kJPN4PXs",
-    "views": "13013",
+    "views": "13029",
     "title": "How To Reverse Eurocarve On A Snowboard!!",
     "date": "2019-06-02T01:01:18Z"
   },
@@ -1555,7 +1555,7 @@ var videoData = [
   },
   {
     "id": "kNfkmp4Imj8",
-    "views": "18142",
+    "views": "18155",
     "title": "How To Hit A Flat Tube or Rail On a Snowboard - Arapahoe Basin Colorado #snowboarding #colorado",
     "date": "2018-11-06T00:00:03Z"
   },
@@ -1597,7 +1597,7 @@ var videoData = [
   },
   {
     "id": "u72HeRZ6FFU",
-    "views": "2919",
+    "views": "2920",
     "title": "Day 97: Back in Time! - Arapahoe Basin",
     "date": "2017-02-14T13:54:56Z"
   },
@@ -1663,7 +1663,7 @@ var videoData = [
   },
   {
     "id": "YPYCtKt248o",
-    "views": "15113",
+    "views": "15115",
     "title": "Snowboarding With Snowboard Pro Camp, Board Archive, and David Jones - (Day 57, Season 2)",
     "date": "2018-04-07T22:54:48Z"
   },
@@ -1789,19 +1789,19 @@ var videoData = [
   },
   {
     "id": "KOLBNffVF14",
-    "views": "19218",
+    "views": "19221",
     "title": "Day 1: The 2016 2017 Arapahoe Basin opening day",
     "date": "2016-10-22T16:44:04Z"
   },
   {
     "id": "rK-eucHAegQ",
-    "views": "38923",
+    "views": "38939",
     "title": "Snowboarding Knee Deep Colorado Powder - (Season 6, Day 33)",
     "date": "2021-12-13T00:15:11Z"
   },
   {
     "id": "EMBZnbWkm4E",
-    "views": "42788",
+    "views": "42805",
     "title": "Deploying My Avalanche Airbag - (Season 5, Day 55)",
     "date": "2021-01-28T00:30:13Z"
   },
@@ -1813,19 +1813,19 @@ var videoData = [
   },
   {
     "id": "-o0BGbY47rE",
-    "views": "14753",
+    "views": "14758",
     "title": "Beaver Creek Opening Day Top to Bottom Run",
     "date": "2020-11-27T03:45:11Z"
   },
   {
     "id": "HhGPdIlKAHc",
-    "views": "11666",
+    "views": "11673",
     "title": "Beaver Creek's Park is Amazing! - (Season 4, Day 76)",
     "date": "2020-01-22T23:45:14Z"
   },
   {
     "id": "mb6W6-sAT-U",
-    "views": "15211",
+    "views": "15218",
     "title": "Snowboarding - How to J Turn!",
     "date": "2020-01-21T23:50:56Z"
   },
@@ -1837,7 +1837,7 @@ var videoData = [
   },
   {
     "id": "dfMQTHkOcJc",
-    "views": "10188",
+    "views": "10189",
     "title": "The Most Fun We Have Ever Had Snowboarding! - (Season 4, Day 34)",
     "date": "2019-11-24T23:45:15Z"
   },
@@ -1849,25 +1849,25 @@ var videoData = [
   },
   {
     "id": "mKSRyRGhwVM",
-    "views": "10413",
+    "views": "10414",
     "title": "Beaver Creek Opening Day 2019 - (Top to Bottom)",
     "date": "2019-11-24T02:15:48Z"
   },
   {
     "id": "7Gxem92SCE8",
-    "views": "2566",
+    "views": "2567",
     "title": "Closing Day Beaver Creek Colorado 2018/2019 Season - (Season 3, Day 126)",
     "date": "2019-04-14T22:45:02Z"
   },
   {
     "id": "QYWdLdROqSE",
-    "views": "6770",
+    "views": "6772",
     "title": "Snowboarding Trees At Beaver Creek Colorado - (Season 3, Day 72)",
     "date": "2019-01-29T14:47:41Z"
   },
   {
     "id": "QDZ3b0oKkSo",
-    "views": "4967",
+    "views": "4968",
     "title": "Snowboarding Beaver Creek Colorado - (Season 3, Day 30)",
     "date": "2018-11-26T00:00:00Z"
   },
@@ -1903,7 +1903,7 @@ var videoData = [
   },
   {
     "id": "PIiqXRGhjv8",
-    "views": "4954",
+    "views": "4957",
     "title": "The Five Easiest Butters To Do On A Snowboard!",
     "date": "2018-11-27T06:56:14Z"
   },
@@ -1915,7 +1915,7 @@ var videoData = [
   },
   {
     "id": "_d2acNooCHo",
-    "views": "4002",
+    "views": "4003",
     "title": "Beaver Creek Park Preview - Snowboarding - (Rails, Jumps, Boxes)",
     "date": "2018-01-31T23:57:30Z"
   },
@@ -1927,25 +1927,25 @@ var videoData = [
   },
   {
     "id": "NuaBbXxgdOY",
-    "views": "51052",
+    "views": "51064",
     "title": "Why is No One Snowboarding Breckenridge  - (Season 6, Day 67)",
     "date": "2022-02-02T00:30:09Z"
   },
   {
     "id": "Mec_xRBEWsM",
-    "views": "99640",
+    "views": "99648",
     "title": "Did Breckenridge Open too Soon For Skiers - (Season 6, Day 16)",
     "date": "2021-11-13T23:45:25Z"
   },
   {
     "id": "KZFedxF82dA",
-    "views": "19596",
+    "views": "19600",
     "title": "Breckenridge Ski Resort Opening Day - (Top To Bottom)",
     "date": "2021-11-12T23:45:09Z"
   },
   {
     "id": "3BpHImJNYyY",
-    "views": "8402",
+    "views": "8409",
     "title": "Breckenridge Opening day Conditions and Terrain | Snowboarding",
     "date": "2021-11-13T15:27:58Z"
   },
@@ -1963,7 +1963,7 @@ var videoData = [
   },
   {
     "id": "Brj8ltoENhg",
-    "views": "3290",
+    "views": "3291",
     "title": "Breckenridge Peak 9 Bowl Snowboarding",
     "date": "2021-07-04T20:58:44Z"
   },
@@ -1975,7 +1975,7 @@ var videoData = [
   },
   {
     "id": "3SjtwgbjQUU",
-    "views": "2069",
+    "views": "2071",
     "title": "Imperial Bowl at Breckenridge Ski Resort - Snake Run!",
     "date": "2021-07-02T22:45:12Z"
   },
@@ -1987,7 +1987,7 @@ var videoData = [
   },
   {
     "id": "p2KMz3pjwzw",
-    "views": "3785",
+    "views": "3787",
     "title": "Breckenridge Peak 8 Top to Bottom Snowboarding",
     "date": "2021-06-15T23:15:15Z"
   },
@@ -2005,25 +2005,25 @@ var videoData = [
   },
   {
     "id": "cGtFNU-YkkY",
-    "views": "11378",
+    "views": "11385",
     "title": "Snowboarding the Lake chutes at Breckenridge - (Season 5, Day 109)",
     "date": "2021-05-03T23:30:14Z"
   },
   {
     "id": "f5LkSrM38Nk",
-    "views": "5795",
+    "views": "5798",
     "title": "Finding INSANE Jumps At Breckenridge - (Season 5, Day 108)",
     "date": "2021-05-02T21:45:14Z"
   },
   {
     "id": "gRY-ZBM0F94",
-    "views": "12261",
+    "views": "12263",
     "title": "What Breck's Extended Season Looks Like - (Season 5, Day 106)",
     "date": "2021-04-29T23:45:17Z"
   },
   {
     "id": "_tSdgrJk3h8",
-    "views": "41101",
+    "views": "41122",
     "title": "Breckenridge Ski Resort Review!",
     "date": "2020-12-16T22:45:11Z"
   },
@@ -2041,13 +2041,13 @@ var videoData = [
   },
   {
     "id": "q9_YTMmVES0",
-    "views": "12319",
+    "views": "12321",
     "title": "My Thought Process When Learning a New Trick - (Season 5, Day 26)",
     "date": "2020-12-09T00:30:16Z"
   },
   {
     "id": "JAXlPJra4vQ",
-    "views": "130522",
+    "views": "130551",
     "title": "Breckenridge Opened Their Jumps! - (Season 5, Day 24)",
     "date": "2020-12-05T23:45:12Z"
   },
@@ -2059,13 +2059,13 @@ var videoData = [
   },
   {
     "id": "8OsIJKGdLVQ",
-    "views": "27620",
+    "views": "27625",
     "title": "Insane Snowboarding Vibes at Breckenridge! - (Season 5, Day 21)",
     "date": "2020-12-01T23:45:11Z"
   },
   {
     "id": "pMSj4aGo1Aw",
-    "views": "16556",
+    "views": "16557",
     "title": "The First Legit Powder Day of the Season! - (Season 5, Day 19)",
     "date": "2020-11-29T00:45:14Z"
   },
@@ -2077,19 +2077,19 @@ var videoData = [
   },
   {
     "id": "qmkxZg_zfJc",
-    "views": "29053",
+    "views": "29054",
     "title": "Breckenridge Opened With Insane Snow! - (Season 5, Day 11)",
     "date": "2020-11-16T01:00:11Z"
   },
   {
     "id": "ft5SIul07bY",
-    "views": "2172",
+    "views": "2173",
     "title": "How to Grab Your Snowboard - Beginner Guide",
     "date": "2020-10-02T19:44:11Z"
   },
   {
     "id": "YC6AGKZavXg",
-    "views": "5891",
+    "views": "5893",
     "title": "Snowboarding all Summer is Hard! - (Season 4, Day 193)",
     "date": "2020-09-27T22:45:29Z"
   },
@@ -2101,7 +2101,7 @@ var videoData = [
   },
   {
     "id": "-kUYN22NKts",
-    "views": "4329",
+    "views": "4330",
     "title": "Toddler's First Time Summer Snowboarding! - (Season 4, Day 179)",
     "date": "2020-08-11T22:30:10Z"
   },
@@ -2119,7 +2119,7 @@ var videoData = [
   },
   {
     "id": "tyakibN5O3o",
-    "views": "33248",
+    "views": "33257",
     "title": "Snowboarding With My Family! - (Season 4, Day 68)",
     "date": "2020-01-14T00:45:12Z"
   },
@@ -2137,25 +2137,25 @@ var videoData = [
   },
   {
     "id": "6hK6_d1SVPE",
-    "views": "32275",
+    "views": "32276",
     "title": "Is the GoPro 8 the Gimbal Killer?? Gimbal VS GoPro 8!!   Snowboarding",
     "date": "2019-12-18T02:30:15Z"
   },
   {
     "id": "jdud__7JGcA",
-    "views": "8706",
+    "views": "8707",
     "title": "Insane Snowboard High Five! - (Season 4, Day 46)",
     "date": "2019-12-12T23:30:15Z"
   },
   {
     "id": "vjVDW-q70ck",
-    "views": "16119",
+    "views": "16123",
     "title": "Double Backflip at Breckenridge Ski Resort! - (Season 4, Day 43)",
     "date": "2019-12-08T23:45:14Z"
   },
   {
     "id": "9BCq4kc6Jk8",
-    "views": "13506",
+    "views": "13512",
     "title": "Breaking in a New Snowboard! - (Season 4, Day 41)",
     "date": "2019-12-07T01:30:14Z"
   },
@@ -2179,7 +2179,7 @@ var videoData = [
   },
   {
     "id": "O08na4A46ec",
-    "views": "17715",
+    "views": "17717",
     "title": "Our First Day on Snowboard Jumps - (Season 4, Day 30)",
     "date": "2019-11-19T00:45:14Z"
   },
@@ -2233,7 +2233,7 @@ var videoData = [
   },
   {
     "id": "Lo5iZIVe-N4",
-    "views": "5533",
+    "views": "5534",
     "title": "Snowboarding Down Independence Bowl On Peak 10 at Breckenridge! - (Season 3, Day 182)",
     "date": "2019-07-25T21:39:04Z"
   },
@@ -2263,7 +2263,7 @@ var videoData = [
   },
   {
     "id": "5FGzhgcRsEI",
-    "views": "4761",
+    "views": "4762",
     "title": "Closing Day Breckenridge 2019 - (Season 3, Day 160)",
     "date": "2019-06-10T23:37:12Z"
   },
@@ -2299,7 +2299,7 @@ var videoData = [
   },
   {
     "id": "QtL-0f5548M",
-    "views": "35399",
+    "views": "35403",
     "title": "Dropping The Cornice On Peak 6 At Breckenridge - (Season 3, Day 133)",
     "date": "2019-04-26T23:23:40Z"
   },
@@ -2323,13 +2323,13 @@ var videoData = [
   },
   {
     "id": "uYpUk4KQzlA",
-    "views": "47410",
+    "views": "47428",
     "title": "Snowboarding Breckenridge's Secret Wood Terrain Park!! - (Season 3, Day 86)",
     "date": "2019-02-17T23:43:16Z"
   },
   {
     "id": "95bhYm54uyI",
-    "views": "26942",
+    "views": "26944",
     "title": "Beginner Kids Snowboard Peak 9 at Breckenridge Colorado - (Season 3, Day 74)",
     "date": "2019-02-02T00:00:01Z"
   },
@@ -2341,7 +2341,7 @@ var videoData = [
   },
   {
     "id": "QNxhysP0E9A",
-    "views": "24285",
+    "views": "24290",
     "title": "Snowboarding Powder Off Peak 10 At Breckenridge Colorado - (Season 3, Day 70)",
     "date": "2019-01-23T23:36:15Z"
   },
@@ -2359,7 +2359,7 @@ var videoData = [
   },
   {
     "id": "Xces3G-PjFc",
-    "views": "23292",
+    "views": "23300",
     "title": "Snowboarding Powder Off The T-Bar - Breckenridge Colorado - (Season 3, Day 33)",
     "date": "2018-11-30T23:45:00Z"
   },
@@ -2395,25 +2395,25 @@ var videoData = [
   },
   {
     "id": "L3dwxViWW7M",
-    "views": "17340",
+    "views": "17341",
     "title": "How To Get Better At Snowboarding With Ryan Knapton!!",
     "date": "2019-05-31T22:45:03Z"
   },
   {
     "id": "8i-SGKmqnJs",
-    "views": "1017",
+    "views": "1018",
     "title": "Silvethorne Fire, Skating and Close Calls - Breckenridge Skatepark - (Skateboarding Day 9)",
     "date": "2018-06-15T23:24:53Z"
   },
   {
     "id": "AxHBd6RJ0Ss",
-    "views": "1726",
+    "views": "1727",
     "title": "Untouched Lines In Horseshoe Bowl - (Season 3, Day 125)",
     "date": "2019-04-13T22:45:00Z"
   },
   {
     "id": "kAMXvXoexvs",
-    "views": "1567",
+    "views": "1568",
     "title": "Fan Shred Day At Breckenridge Ski Resort! - (Season 3, Day 155)",
     "date": "2019-05-28T22:55:10Z"
   },
@@ -2467,7 +2467,7 @@ var videoData = [
   },
   {
     "id": "XU1pLsN3dWI",
-    "views": "6444",
+    "views": "6445",
     "title": "How To Front Side 180 On A Snowboard",
     "date": "2018-12-07T00:00:09Z"
   },
@@ -2587,7 +2587,7 @@ var videoData = [
   },
   {
     "id": "y14r7ZayKLo",
-    "views": "3589",
+    "views": "3592",
     "title": "Snowboarding Season Edit 2010 2011 Breckenridge Keystone",
     "date": "2011-07-31T05:43:28Z"
   },
@@ -2599,49 +2599,49 @@ var videoData = [
   },
   {
     "id": "kJdmQ-_hfT0",
-    "views": "7283",
+    "views": "7284",
     "title": "snowboarding 2012 powder day at  Breckenridge",
     "date": "2012-01-23T02:00:08Z"
   },
   {
     "id": "DzwFU4F4gd4",
-    "views": "22371",
+    "views": "22383",
     "title": "Importance of Resetting Your Snowboard Day - (Season 6, Day 72)",
     "date": "2022-02-08T01:45:10Z"
   },
   {
     "id": "UlNYh_LPleU",
-    "views": "16607",
+    "views": "16614",
     "title": "Can ANY Snowboard Ride Terrain Park - (Season 6, Day 64)",
     "date": "2022-01-30T01:45:09Z"
   },
   {
     "id": "KGk2UvqzILc",
-    "views": "24328",
+    "views": "24331",
     "title": "Snowboarding Tony Hawk's Snowboard - (Season 6 , Day 48)",
     "date": "2022-01-09T00:30:12Z"
   },
   {
     "id": "kFC6lDeKJAU",
-    "views": "12471",
+    "views": "12476",
     "title": "How to Properly Mount Your Snowboard Bindings",
     "date": "2022-01-05T01:15:10Z"
   },
   {
     "id": "zgil3SYM6Io",
-    "views": "34256",
+    "views": "34273",
     "title": "Snowboarding the DEW TOUR Street Park - (Season 6, Day 38)",
     "date": "2021-12-21T00:00:13Z"
   },
   {
     "id": "Rp4RrUj_YgU",
-    "views": "116943",
+    "views": "117070",
     "title": "Burton Step On Bindings VS CLEW Snowboard Bindings",
     "date": "2021-12-15T00:45:10Z"
   },
   {
     "id": "rQhvRd9uR0M",
-    "views": "7166",
+    "views": "7170",
     "title": "The PERFECT Ski/Snowboarding Action Camera - (Season 6, Day 26)",
     "date": "2021-12-03T23:45:10Z"
   },
@@ -2653,19 +2653,19 @@ var videoData = [
   },
   {
     "id": "nOBXEqrh57o",
-    "views": "18773",
+    "views": "18775",
     "title": "Colorado Has Icy Ski Resorts Too - (Season 6, Day 23)",
     "date": "2021-11-29T00:15:09Z"
   },
   {
     "id": "kk5BFIPJJ-8",
-    "views": "22287",
+    "views": "22289",
     "title": "Insanely busy Opening Day at Copper Mountain - (Season 6, Day 21)",
     "date": "2021-11-24T00:45:08Z"
   },
   {
     "id": "p2a51k84avI",
-    "views": "34062",
+    "views": "34064",
     "title": "Copper Mountain Opening Day Conditions - (Top To Bottom)",
     "date": "2021-11-23T01:15:11Z"
   },
@@ -2677,19 +2677,19 @@ var videoData = [
   },
   {
     "id": "4AU50LCYEPw",
-    "views": "1847",
+    "views": "1848",
     "title": "WoodWard Copper Peace Park Top to Bottom Run",
     "date": "2021-06-20T22:45:12Z"
   },
   {
     "id": "kM2VhNJuRs4",
-    "views": "36661",
+    "views": "36663",
     "title": "Snowboarding Closing Day Copper - (Season 5, Day 105)",
     "date": "2021-04-27T21:15:15Z"
   },
   {
     "id": "-suSD46s3II",
-    "views": "6845",
+    "views": "6846",
     "title": "Snowboarder Gets Wrecked at Copper - (Season 5, Day 104)",
     "date": "2021-04-26T22:00:16Z"
   },
@@ -2701,7 +2701,7 @@ var videoData = [
   },
   {
     "id": "Br-Tho-XXPU",
-    "views": "8182",
+    "views": "8185",
     "title": "What It Looks Like to Snowboard - (Season 5, Day 101)",
     "date": "2021-04-22T23:45:16Z"
   },
@@ -2719,31 +2719,31 @@ var videoData = [
   },
   {
     "id": "xLaypZEz88Y",
-    "views": "8737",
+    "views": "8746",
     "title": "TransWorld SNOWboarding 20 Trick CHALLENGE! - (Season 5, Day 98)",
     "date": "2021-04-13T23:45:15Z"
   },
   {
     "id": "J0JKNztPtZA",
-    "views": "7066",
+    "views": "7068",
     "title": "Calling Each Others Snowboard Tricks - (Season 5, Day 97)",
     "date": "2021-04-13T01:30:17Z"
   },
   {
     "id": "WqKMH2EHVAU",
-    "views": "27485",
+    "views": "27534",
     "title": "Toddler Snowboards His First Rail",
     "date": "2021-04-11T23:30:17Z"
   },
   {
     "id": "LWy8UZM2AXo",
-    "views": "10967",
+    "views": "10970",
     "title": "Day in The Life Of a Snowboard YouTuber - (Season 5, Day 96)",
     "date": "2021-04-11T02:30:14Z"
   },
   {
     "id": "17mn8fENquI",
-    "views": "4378",
+    "views": "4379",
     "title": "How To Hit Jumps on a Snowboard | Beginner Guide",
     "date": "2021-04-10T00:00:17Z"
   },
@@ -2755,61 +2755,61 @@ var videoData = [
   },
   {
     "id": "bGD-cEJXMRw",
-    "views": "9099",
+    "views": "9100",
     "title": "Spring Snowboarding at Copper Mountain - (Season 5, Day 94)",
     "date": "2021-04-06T23:45:15Z"
   },
   {
     "id": "Q_uXvwsuleE",
-    "views": "6097",
+    "views": "6103",
     "title": "How to Hit Your First Rail | Beginner Snowboard Guide",
     "date": "2021-04-05T23:30:14Z"
   },
   {
     "id": "SLn6PZ-I5LM",
-    "views": "60155",
+    "views": "60357",
     "title": "Beginner Snowboard Toe Side Turn Guide",
     "date": "2021-04-05T00:15:12Z"
   },
   {
     "id": "zyt8FPW1pns",
-    "views": "11329",
+    "views": "11340",
     "title": "The Effect of Snowboarding Everyday - (Season 5, Day 90)",
     "date": "2021-03-30T22:45:19Z"
   },
   {
     "id": "r1-TwbpN8-c",
-    "views": "351388",
+    "views": "352413",
     "title": "Should YOU BUY the Burton Step On Bindings?",
     "date": "2021-03-28T23:45:17Z"
   },
   {
     "id": "XdI_Wn2-Fd4",
-    "views": "17443",
+    "views": "17447",
     "title": "The Worst Part of Park Snowboarding! - (Season 5, Day 84)",
     "date": "2021-03-20T01:45:17Z"
   },
   {
     "id": "xrUQFDvOhYM",
-    "views": "23022",
+    "views": "23023",
     "title": "I Bought My Dream Snowboard! - (Season 5, Day 79)",
     "date": "2021-03-11T23:45:16Z"
   },
   {
     "id": "KkILh_wcPro",
-    "views": "20929",
+    "views": "20932",
     "title": "Breaking Bad Snowboard Habits - (Season 5, Day 79)",
     "date": "2021-03-10T00:30:14Z"
   },
   {
     "id": "xIsAyLkurXU",
-    "views": "49034",
+    "views": "49066",
     "title": "Toddler Snowboards His First Jump - (Season 5, Day 78)",
     "date": "2021-03-09T01:30:14Z"
   },
   {
     "id": "Ru5863f2u2U",
-    "views": "14861",
+    "views": "14864",
     "title": "Changing My Snowboard Profile - (Season 5, Day 76)",
     "date": "2021-03-07T02:15:28Z"
   },
@@ -2827,13 +2827,13 @@ var videoData = [
   },
   {
     "id": "b7Y7UiVEXgI",
-    "views": "28354",
+    "views": "28370",
     "title": "Five Snowboard Tricks For People Forty and Older",
     "date": "2021-02-10T01:30:15Z"
   },
   {
     "id": "1nabD5qiQSY",
-    "views": "161226",
+    "views": "161363",
     "title": "Snowboarder Knocked Himself Out Cold - (Season 5, Day 56)",
     "date": "2021-01-28T23:45:11Z"
   },
@@ -2845,13 +2845,13 @@ var videoData = [
   },
   {
     "id": "yM_8jlOpiKE",
-    "views": "18304",
+    "views": "18306",
     "title": "Copper Opened with a Crazy Terrain Park and Runs -  (Season 5, Day 22)",
     "date": "2020-12-04T00:45:30Z"
   },
   {
     "id": "efqpLqGOO_w",
-    "views": "33582",
+    "views": "33592",
     "title": "Copper Mountain Opening Day - (Top to Bottom Run)",
     "date": "2020-11-30T23:30:11Z"
   },
@@ -2869,7 +2869,7 @@ var videoData = [
   },
   {
     "id": "tG_Fyz4nL9s",
-    "views": "22217",
+    "views": "22219",
     "title": "I am Over Snowboarding With Benton! - (Season 5, Day 41)",
     "date": "2021-01-01T23:15:13Z"
   },
@@ -2899,7 +2899,7 @@ var videoData = [
   },
   {
     "id": "umKkKIrPeJY",
-    "views": "5099",
+    "views": "5100",
     "title": "Playing Tommie Bennet in a Game of SNOW! - (Season 4, Day 112)",
     "date": "2020-03-16T22:45:24Z"
   },
@@ -2911,7 +2911,7 @@ var videoData = [
   },
   {
     "id": "ZJD1_NBnEqY",
-    "views": "11396",
+    "views": "11398",
     "title": "Red Gerard Wins Gold - (Season 4, Day 88)",
     "date": "2020-02-10T07:15:13Z"
   },
@@ -2935,7 +2935,7 @@ var videoData = [
   },
   {
     "id": "iN4WUDobd_E",
-    "views": "9925",
+    "views": "9926",
     "title": "Snowboarding Down the Sky Chutes at Copper Mountain!",
     "date": "2020-01-30T23:45:10Z"
   },
@@ -2953,7 +2953,7 @@ var videoData = [
   },
   {
     "id": "xVmxjyLsQaI",
-    "views": "11740",
+    "views": "11741",
     "title": "I tweaked My Shoulder at Copper! - (Season 4, Day 66)",
     "date": "2020-01-12T00:30:14Z"
   },
@@ -2971,7 +2971,7 @@ var videoData = [
   },
   {
     "id": "vYzRxBrN1f0",
-    "views": "12559",
+    "views": "12560",
     "title": "Testing the GoPro Max Super View! - (Season 4, Day 60)",
     "date": "2020-01-01T23:45:14Z"
   },
@@ -2983,13 +2983,13 @@ var videoData = [
   },
   {
     "id": "HEvdFTOAPEU",
-    "views": "5314",
+    "views": "5315",
     "title": "He Rotated so Many Times! - (Season 4, Day 56)",
     "date": "2019-12-28T04:45:14Z"
   },
   {
     "id": "ifi9ndIH4C8",
-    "views": "15229",
+    "views": "15230",
     "title": "Snowboarding Red Gerard's Backyard - (Season 4, Day 55)",
     "date": "2019-12-25T23:45:18Z"
   },
@@ -3013,19 +3013,19 @@ var videoData = [
   },
   {
     "id": "sUwxnXLaaRc",
-    "views": "8996",
+    "views": "8997",
     "title": "Knee Deep Powder At Copper Mountain! - (Season 4, Day 49)",
     "date": "2019-12-16T03:01:58Z"
   },
   {
     "id": "tOSG0lRo-bE",
-    "views": "25140",
+    "views": "25146",
     "title": "The Secret Tree Run at Copper Mountain! - (Season 4, Day 47)",
     "date": "2019-12-14T01:30:14Z"
   },
   {
     "id": "R6mn0fO3NwA",
-    "views": "9524",
+    "views": "9525",
     "title": "Snowboarding With the Boys! - (Season 4, Day 37)",
     "date": "2019-11-30T23:45:27Z"
   },
@@ -3037,13 +3037,13 @@ var videoData = [
   },
   {
     "id": "PA-GW_GWB9g",
-    "views": "27535",
+    "views": "27540",
     "title": "My First Time Snowboarding a Burton Snowboard! - (Season 4, Day 32)",
     "date": "2019-11-22T22:00:15Z"
   },
   {
     "id": "Fp_TIMGXxXU",
-    "views": "266626",
+    "views": "266900",
     "title": "How to S Turn on a Snowboard!",
     "date": "2019-11-20T23:30:14Z"
   },
@@ -3055,7 +3055,7 @@ var videoData = [
   },
   {
     "id": "JE3JS3_VtN0",
-    "views": "12359",
+    "views": "12363",
     "title": "Copper Mountain a Snowboard Movie!! - (Season 4, Day 26)",
     "date": "2019-11-12T23:30:11Z"
   },
@@ -3067,7 +3067,7 @@ var videoData = [
   },
   {
     "id": "RpHeU1e0df4",
-    "views": "12398",
+    "views": "12402",
     "title": "Copper Mountain Opening Weekend 2019 Top to Bottom - (Insta 360 One X)",
     "date": "2019-11-10T17:08:19Z"
   },
@@ -3085,7 +3085,7 @@ var videoData = [
   },
   {
     "id": "a_QAfqc6Suo",
-    "views": "8623",
+    "views": "8625",
     "title": "25 Inch Powder Day At Copper Mountain!! - (Season 3, Day 101)",
     "date": "2019-03-10T00:31:20Z"
   },
@@ -3097,7 +3097,7 @@ var videoData = [
   },
   {
     "id": "6KyXeOlW7m8",
-    "views": "2191",
+    "views": "2192",
     "title": "Snowboarding Frontside 540",
     "date": "2019-03-21T22:45:48Z"
   },
@@ -3121,7 +3121,7 @@ var videoData = [
   },
   {
     "id": "GySU24mCBiQ",
-    "views": "3628",
+    "views": "3629",
     "title": "Kevin Learns How To Snowboard Rails At Copper!! - (Season 3, Day 58)",
     "date": "2019-01-06T02:55:46Z"
   },
@@ -3133,13 +3133,13 @@ var videoData = [
   },
   {
     "id": "qUcIRaF3n5g",
-    "views": "3173",
+    "views": "3174",
     "title": "Snowboarding Small Jumps At Copper!! - (Season 3, Day 56)",
     "date": "2019-01-01T23:45:01Z"
   },
   {
     "id": "EJC23nsgvSI",
-    "views": "33654",
+    "views": "33672",
     "title": "Snowboarding Copper Mountain's Back Bowls - (Season 3, Day 115)",
     "date": "2019-03-30T22:45:00Z"
   },
@@ -3151,7 +3151,7 @@ var videoData = [
   },
   {
     "id": "KL6jU1-WAZg",
-    "views": "5903",
+    "views": "5905",
     "title": "Big Snowboard Tricks On Little Jumps - Woodward Copper - (Season 3, Day 54)",
     "date": "2018-12-29T01:15:02Z"
   },
@@ -3163,13 +3163,13 @@ var videoData = [
   },
   {
     "id": "CPMNxqxarkk",
-    "views": "9271",
+    "views": "9274",
     "title": "Five Pro Tips For Snowboarding or Skiing In Cold Weather",
     "date": "2018-12-31T02:00:00Z"
   },
   {
     "id": "aHrbzVBUpgI",
-    "views": "4508",
+    "views": "4509",
     "title": "Steezy Snowboarding At WoodWard Copper - (Season 3, Day 43)",
     "date": "2018-12-12T23:45:00Z"
   },
@@ -3181,19 +3181,19 @@ var videoData = [
   },
   {
     "id": "2M8vP7-VK1k",
-    "views": "7789",
+    "views": "7790",
     "title": "Snowboarding With The Boys At Copper Mountain - (Season 3, Day 27)",
     "date": "2018-11-22T00:00:01Z"
   },
   {
     "id": "YqIzo3Dapfs",
-    "views": "4056",
+    "views": "4059",
     "title": "The Barn At Woodward At Cooper",
     "date": "2018-12-24T00:27:46Z"
   },
   {
     "id": "q3N7i40oXj0",
-    "views": "9113",
+    "views": "9114",
     "title": "My New DC Snowbord Boots Review - Copper Mountain - (Season 3, Day 26)",
     "date": "2018-11-21T00:28:27Z"
   },
@@ -3205,7 +3205,7 @@ var videoData = [
   },
   {
     "id": "NY0o_YniPt0",
-    "views": "8371",
+    "views": "8374",
     "title": "Behind the Vlog! - Riding With David Jones and Ryan Knapton - (Copper Mountain)",
     "date": "2018-03-19T23:37:40Z"
   },
@@ -3217,7 +3217,7 @@ var videoData = [
   },
   {
     "id": "n_9YPoqKMRU",
-    "views": "59188",
+    "views": "59211",
     "title": "Five Little Things Every Snowboarder NEEDS To Have #snowboarding",
     "date": "2018-11-24T00:45:00Z"
   },
@@ -3247,7 +3247,7 @@ var videoData = [
   },
   {
     "id": "b-9FcAwM8Zs",
-    "views": "7249",
+    "views": "7250",
     "title": "Riding with David Jones and Ryan Knapton!! - Copper Mountain Colorado - (Day 49, Season 2)",
     "date": "2018-03-18T21:22:00Z"
   },
@@ -3271,37 +3271,37 @@ var videoData = [
   },
   {
     "id": "_Xp0HRk64ys",
-    "views": "1796",
+    "views": "1795",
     "title": "Cranor Ski Hill Top to Bottom Run",
     "date": "2021-06-29T22:45:11Z"
   },
   {
     "id": "kdpqtPvSQfs",
-    "views": "5551",
+    "views": "5552",
     "title": "Cranor Hill Ski Area Colorado Resort Review",
     "date": "2021-06-14T01:15:11Z"
   },
   {
     "id": "7accKVSZDbc",
-    "views": "35488",
+    "views": "35490",
     "title": "Colorado's Second SMALLEST Ski Resort! - (Season 5, Day 60)",
     "date": "2021-02-07T02:45:11Z"
   },
   {
     "id": "ZlIiWYVypZE",
-    "views": "10788",
+    "views": "10792",
     "title": "Snowboarding at Echo Mountain Colorado - (Season 5, Day 88)",
     "date": "2021-03-28T00:30:14Z"
   },
   {
     "id": "Qvgs4xEa6k0",
-    "views": "5829",
+    "views": "5835",
     "title": "Echo Mountain Ski Resort Review",
     "date": "2021-09-04T22:45:12Z"
   },
   {
     "id": "qHrzhfP1MPI",
-    "views": "24413",
+    "views": "24416",
     "title": "Pro Snowboarder Makes Beginner Mistake - (Season 6, Day 43)",
     "date": "2021-12-31T23:45:11Z"
   },
@@ -3319,7 +3319,7 @@ var videoData = [
   },
   {
     "id": "Xz0MdQOWeZc",
-    "views": "20861",
+    "views": "20862",
     "title": "Snowboarding Colorado's MOST Underrated Terrain Park - (Season 5, Day 54)",
     "date": "2021-01-26T00:45:14Z"
   },
@@ -3331,115 +3331,115 @@ var videoData = [
   },
   {
     "id": "SeEIrtoqU8s",
-    "views": "10892",
+    "views": "10895",
     "title": "Opening Day Eldora 2019/2020 Ski Season - (Top to Bottom)",
     "date": "2019-11-01T23:28:29Z"
   },
   {
     "id": "C4XgzBFUDKU",
-    "views": "10794",
+    "views": "10797",
     "title": "Snowboarding At Eldora Ski Resort Colorado - (Season 3, Day 40)",
     "date": "2018-12-10T01:00:02Z"
   },
   {
     "id": "yrqulj9xZ3I",
-    "views": "21435",
+    "views": "21443",
     "title": "Snowboarding America's Olympic Training Ground - (Season 6, Day 75)",
     "date": "2022-02-12T02:00:12Z"
   },
   {
     "id": "TTX7ZdaigO0",
-    "views": "25459",
+    "views": "25462",
     "title": "Snowboarding the Oldest Ski Resort in the US - (Season 5, Day 68)",
     "date": "2021-02-18T23:45:16Z"
   },
   {
     "id": "TMBQGE_9kKQ",
-    "views": "31525",
+    "views": "31850",
     "title": "Are Rental Snowboards Even Good - (Season 6, Day 85)",
     "date": "2022-02-27T02:30:11Z"
   },
   {
     "id": "E-EQuMMlCKQ",
-    "views": "15125",
+    "views": "15149",
     "title": "Snowboarder Almost Loses His Hand Doing Stunt - (Season 6, Day 83)",
     "date": "2022-02-23T02:45:10Z"
   },
   {
     "id": "aqeEsUmOf_c",
-    "views": "14700",
+    "views": "14720",
     "title": "Keystone Build the Best Snowboarding Terrain Park - (Season 6 , Day 74)",
     "date": "2022-02-11T00:30:11Z"
   },
   {
     "id": "iEFfH-lFM_w",
-    "views": "35316",
+    "views": "35327",
     "title": "ABSOLUTELY the Worst Snowboarding Day Ever - (Season 6, Day 71)",
     "date": "2022-02-07T01:15:10Z"
   },
   {
     "id": "3jzhp-KO6Po",
-    "views": "40744",
+    "views": "40869",
     "title": "Father Son Snowboarding Keystone Colorado - (Season 6, Day 70)",
     "date": "2022-02-06T02:15:09Z"
   },
   {
     "id": "TTxvZ6HSkj4",
-    "views": "50128",
+    "views": "50199",
     "title": "Snowboarding a Snowboard Made Out of Skis - (Season 6, Day 69)",
     "date": "2022-02-05T02:45:09Z"
   },
   {
     "id": "qPB-fRiFD7E",
-    "views": "29908",
+    "views": "29934",
     "title": "What MOST People Don't Know About Snowboarding Jumps - (Season 6, Day 65)",
     "date": "2022-01-31T02:00:08Z"
   },
   {
     "id": "Yx_7la7ONvA",
-    "views": "44024",
+    "views": "44029",
     "title": "Pro Snowboarder Bombs Down Schoolmarm On Skis - (Season 6, Day 60)",
     "date": "2022-01-25T01:45:08Z"
   },
   {
     "id": "V1XG0MfQThE",
-    "views": "20424",
+    "views": "20425",
     "title": "INSANE Snowboarding Change to Keystone Area 51 - (Season 6, Day 54)",
     "date": "2022-01-17T00:30:09Z"
   },
   {
     "id": "0pRd56ErEIs",
-    "views": "25847",
+    "views": "25849",
     "title": "Keystone FINALLY Fixed Their Main Snowboarding Issue - (Season 6, Day 41)",
     "date": "2021-12-27T23:15:09Z"
   },
   {
     "id": "sWwrF8CFrU8",
-    "views": "33561",
+    "views": "33570",
     "title": "Snowboarding Better With This Thing - (Season 6, Day 40)",
     "date": "2021-12-26T23:45:32Z"
   },
   {
     "id": "oxyfDJrSfGY",
-    "views": "31483",
+    "views": "31489",
     "title": "Why YOU are Hurting Your Snowboard Progression",
     "date": "2021-12-22T04:15:31Z"
   },
   {
     "id": "FGp26ram-fg",
-    "views": "11947",
+    "views": "11952",
     "title": "Marrying a Skier and Snowboarder - (Season 6, Day 37)",
     "date": "2021-12-20T02:45:10Z"
   },
   {
     "id": "4NR_0eQ4FUE",
-    "views": "142996",
+    "views": "143038",
     "title": "The NEW 17 MILLION Dollar Ski Chairlift - (Season 6, Day 35)",
     "date": "2021-12-17T03:30:09Z"
   },
   {
     "id": "eLw1FUDNuV4",
-    "views": "14218",
+    "views": "14221",
     "title": "Snowboarding Gear, Does it Really Matter - (Season 6, Day 32)",
     "date": "2021-12-12T00:45:10Z"
   },
@@ -3451,49 +3451,49 @@ var videoData = [
   },
   {
     "id": "lEjsN_EQmBw",
-    "views": "23873",
+    "views": "23874",
     "title": "Frustrations of Early Season Park Snowboarding - ( Season 6, Day 30)",
     "date": "2021-12-10T03:30:08Z"
   },
   {
     "id": "tz9LEksl4bM",
-    "views": "380952",
+    "views": "381961",
     "title": "Five Reasons Your Carving SUCKS | A Snowboard Guide",
     "date": "2021-12-07T02:30:10Z"
   },
   {
     "id": "rdn1Y905C_0",
-    "views": "172179",
+    "views": "172368",
     "title": "Every Skier and Snowboarders BIGGEST NIGHTMARE - (Season 6, Day 27)",
     "date": "2021-12-04T23:45:08Z"
   },
   {
     "id": "JLJ1nnSWBAs",
-    "views": "24362",
+    "views": "24368",
     "title": "Struggling to Snowboard at Keystone | My Fault - (Season 6, Day 24)",
     "date": "2021-12-01T01:45:11Z"
   },
   {
     "id": "E3SLlHU_JOE",
-    "views": "17322",
+    "views": "17332",
     "title": "Snowboarding Side Jumps - (Season 6, Day 20)",
     "date": "2021-11-21T01:30:10Z"
   },
   {
     "id": "XXXy3RraaaM",
-    "views": "12158",
+    "views": "12167",
     "title": "What Ski Goggle Lens Should You Be Using | Snowboarding/Skiing Tips",
     "date": "2021-11-19T01:30:09Z"
   },
   {
     "id": "EyFarT6vr1M",
-    "views": "43171",
+    "views": "43218",
     "title": "Testing The Capita DOA Snowboard - (Season 6, Day 18)",
     "date": "2021-11-17T00:45:10Z"
   },
   {
     "id": "Ztre84LOqa4",
-    "views": "38184",
+    "views": "38198",
     "title": "Burton Step On Bindings Review - (Season 6, Day 15)",
     "date": "2021-11-12T01:45:10Z"
   },
@@ -3511,31 +3511,31 @@ var videoData = [
   },
   {
     "id": "8hzRFgnlXeY",
-    "views": "25226",
+    "views": "25228",
     "title": "Snowboarding Keystone Ski Resort and THEY LIED - (Season 6, Day 11)",
     "date": "2021-11-04T23:30:10Z"
   },
   {
     "id": "ue3mzuSK7bc",
-    "views": "8838",
+    "views": "8839",
     "title": "PRO SNOWBOARDER'S INSANE NEW SPONSOR",
     "date": "2021-11-03T18:30:10Z"
   },
   {
     "id": "h37TE9-aRU0",
-    "views": "18196",
+    "views": "18197",
     "title": "Improving Snowboarding with Simple Drills - (Season 6, Day 10)",
     "date": "2021-11-02T01:45:57Z"
   },
   {
     "id": "B4VCAGtNqe0",
-    "views": "9036",
+    "views": "9037",
     "title": "Testing Snowboard Products - (Season 6, Day 8)",
     "date": "2021-10-26T01:00:11Z"
   },
   {
     "id": "ZeBYKuKmP_U",
-    "views": "30922",
+    "views": "30924",
     "title": "KEYSTONE OPENING DAY 2021 SNOWBOARDING - (Season 6, Day 6)",
     "date": "2021-10-24T00:30:13Z"
   },
@@ -3547,43 +3547,43 @@ var videoData = [
   },
   {
     "id": "wEUeSp1NNKA",
-    "views": "50210",
+    "views": "50219",
     "title": "Keystone Opening Day FIRST CHAIR  - (Top to Bottom Ski Run)",
     "date": "2021-10-22T21:45:11Z"
   },
   {
     "id": "-3pQCvVuNcU",
-    "views": "111870",
+    "views": "111990",
     "title": "I am DONE Snowboarding at Keystone - (Season 5, Day 91)",
     "date": "2021-04-02T00:00:15Z"
   },
   {
     "id": "LPRABi5BhKM",
-    "views": "30418",
+    "views": "30520",
     "title": "HOW TO CORRECTLY FALL IN SNOWBOARDING",
     "date": "2021-03-05T00:00:14Z"
   },
   {
     "id": "QWZJlriQa6I",
-    "views": "52309",
+    "views": "52314",
     "title": "MONEY Ruined Keystone Ski Resort - (Season 5, Day 62)",
     "date": "2021-02-12T01:45:17Z"
   },
   {
     "id": "I08wCQ5WvIQ",
-    "views": "127540",
+    "views": "127643",
     "title": "10 Mistakes BEGINNER SNOWBOARDERS Should Avoid!",
     "date": "2021-02-03T01:30:17Z"
   },
   {
     "id": "6a7H05dTLF8",
-    "views": "6791",
+    "views": "6793",
     "title": "How to Do a Method Grab | Snowboarding Beginner Guide",
     "date": "2021-02-02T01:30:13Z"
   },
   {
     "id": "D8aHShpQCQ0",
-    "views": "30232",
+    "views": "30239",
     "title": "I Got First Drop in North Bowl at Keystone! - (Season 5, Day 52)",
     "date": "2021-01-22T23:45:10Z"
   },
@@ -3595,49 +3595,49 @@ var videoData = [
   },
   {
     "id": "2MncCuCC5vA",
-    "views": "356405",
+    "views": "356444",
     "title": "Snowboarding/skiing Terrain Park Etiquette!",
     "date": "2021-01-10T23:45:10Z"
   },
   {
     "id": "OD8MMsVw45A",
-    "views": "27811",
+    "views": "27815",
     "title": "Keystone's Terrain Park was Madness! - (Season 5, Day 43)",
     "date": "2021-01-06T01:30:14Z"
   },
   {
     "id": "c6JkkT1VEtM",
-    "views": "14501",
+    "views": "14511",
     "title": "All 8 Pressure Points of a Snowboard",
     "date": "2021-01-05T00:00:12Z"
   },
   {
     "id": "r9_h4sLGbbg",
-    "views": "13050",
+    "views": "13053",
     "title": "Can Men Ride Female Snowboards? - (Season 5, Day 18)",
     "date": "2020-11-27T23:45:11Z"
   },
   {
     "id": "SibiF9MWvdE",
-    "views": "94417",
+    "views": "94424",
     "title": "Father Son Backyard Snowboarding! - (Season 5, Day 42)",
     "date": "2021-01-04T00:30:14Z"
   },
   {
     "id": "gbjwHZDaJLE",
-    "views": "4773",
+    "views": "4777",
     "title": "How to Tail Grab on Your Snowboard | Beginner Guide!",
     "date": "2021-01-02T19:30:12Z"
   },
   {
     "id": "g5ej_oEszFs",
-    "views": "64319",
+    "views": "64322",
     "title": "What Weekend Snowboarding Looks like with Covid - (Season 5, Day 17)",
     "date": "2020-11-26T21:30:11Z"
   },
   {
     "id": "dszE7BcbdeU",
-    "views": "37717",
+    "views": "37736",
     "title": "I Broke My Ribs Snowboarding - (Season 5, Day 39)",
     "date": "2020-12-29T23:45:15Z"
   },
@@ -3649,19 +3649,19 @@ var videoData = [
   },
   {
     "id": "sRvjdgzeFM8",
-    "views": "87064",
+    "views": "87129",
     "title": "I Got a Concussion Snowboarding! - (Season 5, Day 9)",
     "date": "2020-11-12T23:45:10Z"
   },
   {
     "id": "ibkt49s4bIA",
-    "views": "25329",
+    "views": "25331",
     "title": "Snowboarding Fresh Snow at Keystone! - (Season 5, Day 8)",
     "date": "2020-11-10T23:45:11Z"
   },
   {
     "id": "quWnlnl88VI",
-    "views": "21560",
+    "views": "21568",
     "title": "Breaking in NEW Snowboard Boots - (Season 5, Day 7)",
     "date": "2020-11-08T23:45:22Z"
   },
@@ -3673,13 +3673,13 @@ var videoData = [
   },
   {
     "id": "4w5fU75RmzE",
-    "views": "49053",
+    "views": "49067",
     "title": "Keystone Opening Day FIRST CHAIR - (Top to Bottom Run)",
     "date": "2020-11-06T22:45:12Z"
   },
   {
     "id": "28gC3Ea-imo",
-    "views": "48997",
+    "views": "49020",
     "title": "Keystone Ski Resort Review!",
     "date": "2020-10-17T01:30:10Z"
   },
@@ -3697,7 +3697,7 @@ var videoData = [
   },
   {
     "id": "ds6cyTPTMxc",
-    "views": "3731",
+    "views": "3732",
     "title": "How to Backside 360 on Your Snowboard | Beginner Guide",
     "date": "2020-03-11T00:15:15Z"
   },
@@ -3709,37 +3709,37 @@ var videoData = [
   },
   {
     "id": "Z2oh9FnCnFg",
-    "views": "22238",
+    "views": "22239",
     "title": "I Found a Never Summer Snowboard!! - (Season 4, Day 96)",
     "date": "2020-02-22T02:30:28Z"
   },
   {
     "id": "vXhXPnqxp_o",
-    "views": "10123",
+    "views": "10129",
     "title": "How to Spray on a Snowboard!",
     "date": "2020-02-20T00:30:17Z"
   },
   {
     "id": "3IMLoAALBzU",
-    "views": "19686",
+    "views": "19687",
     "title": "My Return to Keystone! - (Season 4, Day 94)",
     "date": "2020-02-17T23:45:14Z"
   },
   {
     "id": "OxkYHzHFZuI",
-    "views": "257111",
+    "views": "257202",
     "title": "I Took The Keystone Safety Class! - (Season 4, Day 67)",
     "date": "2020-01-12T23:34:18Z"
   },
   {
     "id": "ES4129d6feQ",
-    "views": "1239110",
+    "views": "1239868",
     "title": "What Really Happened With Keystone Mountain Safety!",
     "date": "2020-01-09T01:30:13Z"
   },
   {
     "id": "8K48-gwxTBw",
-    "views": "958986",
+    "views": "959368",
     "title": "Keystone Took My Pass for Snowboarding - (Season 4, Day 63)",
     "date": "2020-01-05T23:00:15Z"
   },
@@ -3757,13 +3757,13 @@ var videoData = [
   },
   {
     "id": "ADy_eQbolww",
-    "views": "11698",
+    "views": "11702",
     "title": "Benton Hit a TREE!! - (Season 4 , Day 48)",
     "date": "2019-12-15T02:45:16Z"
   },
   {
     "id": "xX1010EgOh0",
-    "views": "18581",
+    "views": "18594",
     "title": "How We Handle Fear While Snowboarding - (Season 4, Day 45)",
     "date": "2019-12-10T23:30:12Z"
   },
@@ -3787,7 +3787,7 @@ var videoData = [
   },
   {
     "id": "niRQ6aK4f0U",
-    "views": "6597",
+    "views": "6600",
     "title": "How to Backside Boardslide a Box on Your Snowboard | Beginner Guide",
     "date": "2019-12-03T23:45:14Z"
   },
@@ -3805,19 +3805,19 @@ var videoData = [
   },
   {
     "id": "lRt7gE20dJw",
-    "views": "18251",
+    "views": "18255",
     "title": "How to Snowboard Switch | Snowboarding",
     "date": "2019-11-28T19:30:13Z"
   },
   {
     "id": "eMGl26p46Jw",
-    "views": "139595",
+    "views": "139621",
     "title": "I Got Into a Fight With Keystone Ski Resort and Lost! - (Season 4, Day 27)",
     "date": "2019-11-15T19:01:41Z"
   },
   {
     "id": "lCf8mv2SzN4",
-    "views": "12584",
+    "views": "12595",
     "title": "How to Ollie on a Snowboard!",
     "date": "2019-11-13T23:27:57Z"
   },
@@ -3829,19 +3829,19 @@ var videoData = [
   },
   {
     "id": "7VhUxs9PAIE",
-    "views": "27556",
+    "views": "27559",
     "title": "Snowboarding With Snowboard Pro Camp and Board Archive at Keystone! - (Season 4, Day 22)",
     "date": "2019-11-08T23:45:15Z"
   },
   {
     "id": "ivMBhOaaVqU",
-    "views": "11977",
+    "views": "11978",
     "title": "Five Fun Snowboarding Butter Tricks You Should Just Try!!",
     "date": "2019-11-07T00:19:09Z"
   },
   {
     "id": "J9qjzg5vX9Y",
-    "views": "16384",
+    "views": "16390",
     "title": "Snowboarding a Secret Spot at Keystone! - (Season 4, Day 21)",
     "date": "2019-11-06T00:30:15Z"
   },
@@ -3877,7 +3877,7 @@ var videoData = [
   },
   {
     "id": "RZJtdBglmiM",
-    "views": "7869",
+    "views": "7871",
     "title": "Snowboarding is So Fun!! - (Season 4, Day 12)",
     "date": "2019-10-26T00:21:55Z"
   },
@@ -3889,7 +3889,7 @@ var videoData = [
   },
   {
     "id": "2XDtw7fmYQI",
-    "views": "4151",
+    "views": "4152",
     "title": "Snowboarding With The YouTube Legends!! - (Season 3, Day 114)",
     "date": "2019-03-28T22:45:02Z"
   },
@@ -3901,7 +3901,7 @@ var videoData = [
   },
   {
     "id": "W2KlZehTvZA",
-    "views": "6380",
+    "views": "6381",
     "title": "Snowboarding Deep Powder Trees!! - (Season 3, Day 100)",
     "date": "2019-03-09T01:13:41Z"
   },
@@ -3919,7 +3919,7 @@ var videoData = [
   },
   {
     "id": "rn2n5e5e8X4",
-    "views": "39979",
+    "views": "39999",
     "title": "Snowboarder Tries TO Snowbike - (Season 3, Day 103)",
     "date": "2019-03-13T22:45:02Z"
   },
@@ -3931,13 +3931,13 @@ var videoData = [
   },
   {
     "id": "2KvxRxpcE_M",
-    "views": "4186",
+    "views": "4188",
     "title": "Snowboarding Hand Drag 360",
     "date": "2019-04-10T22:41:59Z"
   },
   {
     "id": "P6crQSwDjJY",
-    "views": "4575",
+    "views": "4578",
     "title": "How To Do a Tripod on Your Snowboard!",
     "date": "2019-10-22T22:45:16Z"
   },
@@ -3979,7 +3979,7 @@ var videoData = [
   },
   {
     "id": "vWspm6XM8ZY",
-    "views": "8142",
+    "views": "8143",
     "title": "Keystone Opening Weekend was so Hype! - (Season 4, Day 5)",
     "date": "2019-10-15T22:30:14Z"
   },
@@ -3997,7 +3997,7 @@ var videoData = [
   },
   {
     "id": "2eylkHVb5Z4",
-    "views": "3476",
+    "views": "3478",
     "title": "How To Frontside 360 On Your Snowboard",
     "date": "2019-03-14T22:45:00Z"
   },
@@ -4009,7 +4009,7 @@ var videoData = [
   },
   {
     "id": "x5iUWChWv2c",
-    "views": "5039",
+    "views": "5044",
     "title": "How To 50:50 A Box or Rail On A Snowboard!!",
     "date": "2019-02-09T00:15:00Z"
   },
@@ -4027,7 +4027,7 @@ var videoData = [
   },
   {
     "id": "PYcSjBOOPTc",
-    "views": "5752",
+    "views": "5754",
     "title": "My First Time Landing a 720 on My Snowboard!!",
     "date": "2019-09-30T00:16:26Z"
   },
@@ -4051,19 +4051,19 @@ var videoData = [
   },
   {
     "id": "LkGX8WlLJNc",
-    "views": "11586",
+    "views": "11588",
     "title": "It Takes 15 Years Of Snowboarding To Get This Good!! - (Season 3, Day 71)",
     "date": "2019-01-26T23:45:01Z"
   },
   {
     "id": "Sqlbn54V_WY",
-    "views": "29273",
+    "views": "29287",
     "title": "Keystone's Private Snowcat Tour In Independence Bowl - (Season 3, Day 117)",
     "date": "2019-04-02T22:03:43Z"
   },
   {
     "id": "_vyGEgNbx7c",
-    "views": "4770",
+    "views": "4771",
     "title": "Snowboarding Keystone's New Pump Track!! - (Season 3, Day 108)",
     "date": "2019-03-21T02:43:19Z"
   },
@@ -4087,7 +4087,7 @@ var videoData = [
   },
   {
     "id": "gyA6ywe_Oto",
-    "views": "13719",
+    "views": "13722",
     "title": "Snowboarding Untouched Powder Lines At Keystone Colorado - (Season 3, Day 84)",
     "date": "2019-02-16T01:03:29Z"
   },
@@ -4099,7 +4099,7 @@ var videoData = [
   },
   {
     "id": "fuBF24sdyyA",
-    "views": "4832",
+    "views": "4833",
     "title": "Major Power Outage At Keystone Ski Resort Colorado - (Season 3, Day 80)",
     "date": "2019-02-09T23:45:01Z"
   },
@@ -4111,7 +4111,7 @@ var videoData = [
   },
   {
     "id": "_AAc8fomD1I",
-    "views": "4628",
+    "views": "4630",
     "title": "Snowboarding In A Snow Storm At Keystone Colorado - (Season 3, Day 69)",
     "date": "2019-01-23T03:10:52Z"
   },
@@ -4123,25 +4123,25 @@ var videoData = [
   },
   {
     "id": "bFJcAaptBZE",
-    "views": "6571",
+    "views": "6572",
     "title": "Facing My Fears On A Snowboard - (Season 3, Day 65)",
     "date": "2019-01-16T02:56:01Z"
   },
   {
     "id": "3H_PYLxwQxA",
-    "views": "35369",
+    "views": "35379",
     "title": "How To Hit Jumps On A Snowboard And Progress In Size Of Jump",
     "date": "2019-01-15T02:14:01Z"
   },
   {
     "id": "RVjZxTCuIVM",
-    "views": "7061",
+    "views": "7063",
     "title": "Snowboarding Powder In Keystones Back Bowls!! - (Season 3, Day 66)",
     "date": "2019-01-16T23:52:52Z"
   },
   {
     "id": "4nW0jYSqRK8",
-    "views": "3200",
+    "views": "3202",
     "title": "Jason Learns Jumps At Keystone Area 51 - (Season 3, Day 64)",
     "date": "2019-01-14T02:09:32Z"
   },
@@ -4153,7 +4153,7 @@ var videoData = [
   },
   {
     "id": "NuXI-VyXlds",
-    "views": "4948",
+    "views": "4949",
     "title": "Beginner's First Time Landing a 360 On a Snowboard!!! - (Season 3, Day 83)",
     "date": "2019-02-15T00:15:02Z"
   },
@@ -4177,7 +4177,7 @@ var videoData = [
   },
   {
     "id": "QvPCuuWyzVE",
-    "views": "5976",
+    "views": "5977",
     "title": "My First Time Hiking Keystone's Back Bowls - (Season 3, Day 49)",
     "date": "2018-12-22T00:15:01Z"
   },
@@ -4195,7 +4195,7 @@ var videoData = [
   },
   {
     "id": "eoV_3rFIInE",
-    "views": "12314",
+    "views": "12315",
     "title": "Night Skiing/Snowboarding At Keystone Colorado - (Season 3, Day 28)",
     "date": "2018-11-22T20:15:01Z"
   },
@@ -4225,13 +4225,13 @@ var videoData = [
   },
   {
     "id": "u2whkiVQt0s",
-    "views": "2497",
+    "views": "2498",
     "title": "Closing Day At Keystone - 2017/2018 Slush Cup - (Day 59, Season 2)",
     "date": "2018-04-11T21:13:59Z"
   },
   {
     "id": "aWcvdHNkSKw",
-    "views": "5202",
+    "views": "5203",
     "title": "The Worst Snowboard Fall EVER!!! - Keystone Colorado - (Day 56, Season 2)",
     "date": "2018-04-06T02:20:54Z"
   },
@@ -4267,7 +4267,7 @@ var videoData = [
   },
   {
     "id": "BVgMKW61gFs",
-    "views": "3095",
+    "views": "3097",
     "title": "Shred Bots Limited Edition Union Bindings Review  - Keystone Colorado - (Day 34, Season 2)",
     "date": "2018-02-10T15:06:44Z"
   },
@@ -4279,7 +4279,7 @@ var videoData = [
   },
   {
     "id": "dKDln6gmq3A",
-    "views": "3248",
+    "views": "3249",
     "title": "You Wont Feel Good Every Day!! - Keystone - (Day 33, Season 2)",
     "date": "2018-01-30T13:00:05Z"
   },
@@ -4297,7 +4297,7 @@ var videoData = [
   },
   {
     "id": "xwDgE0MwC8M",
-    "views": "3779",
+    "views": "3780",
     "title": "How To Butter On Your Snowboard!!!",
     "date": "2018-01-12T13:00:04Z"
   },
@@ -4321,7 +4321,7 @@ var videoData = [
   },
   {
     "id": "SfBFDs6fguc",
-    "views": "6235",
+    "views": "6236",
     "title": "Snowboarding with Wee Man!! - Keystone - (Day 27, Season 2)",
     "date": "2018-01-10T22:40:28Z"
   },
@@ -4381,13 +4381,13 @@ var videoData = [
   },
   {
     "id": "wq-_QGPd0_k",
-    "views": "18803",
+    "views": "18804",
     "title": "The Best Snowboarding Video Camera EVER!! - The GoPro 7 Black - (Season 3, Day 31)",
     "date": "2018-11-27T00:45:00Z"
   },
   {
     "id": "CZUUv6jQYOI",
-    "views": "7667",
+    "views": "7668",
     "title": "I Broke My Hand - Keystone A51 - (Day 16, Season 2)",
     "date": "2017-12-09T23:16:04Z"
   },
@@ -4435,7 +4435,7 @@ var videoData = [
   },
   {
     "id": "W53tCRvmPH0",
-    "views": "8806",
+    "views": "8808",
     "title": "Snowboard Collision Slices Snowboarder's Leg Open  - (Season 3, Day 68)",
     "date": "2019-01-19T23:00:05Z"
   },
@@ -4459,13 +4459,13 @@ var videoData = [
   },
   {
     "id": "3e-uPY7mPYg",
-    "views": "5118",
+    "views": "5122",
     "title": "Keystone Opened Spring Dipper  - Top To Bottom Run",
     "date": "2017-11-19T01:42:54Z"
   },
   {
     "id": "nDhopGWId0U",
-    "views": "4906",
+    "views": "4907",
     "title": "Snowboarder learns Frontside 180s, OUCH! - (Day 9, Season 2)",
     "date": "2017-11-17T01:38:47Z"
   },
@@ -4483,7 +4483,7 @@ var videoData = [
   },
   {
     "id": "xOpQsgIlKCg",
-    "views": "4996",
+    "views": "4997",
     "title": "The Mobile Ski and Snowboard Waxer - (Season 3, Day 20)",
     "date": "2018-11-14T00:00:03Z"
   },
@@ -4495,7 +4495,7 @@ var videoData = [
   },
   {
     "id": "4qHmEr5Ytxk",
-    "views": "28116",
+    "views": "28135",
     "title": "How To Hit A Box On A Snowboard For Beginners #Snowboarding #howto #colorado #vail #skiing",
     "date": "2018-11-12T00:00:00Z"
   },
@@ -4561,7 +4561,7 @@ var videoData = [
   },
   {
     "id": "bCuuT5DOxpg",
-    "views": "6682",
+    "views": "6683",
     "title": "I Got Hurt Snowboarding - (Season 3, Day 48)",
     "date": "2018-12-18T23:00:00Z"
   },
@@ -4609,7 +4609,7 @@ var videoData = [
   },
   {
     "id": "hbFKOi2gUhg",
-    "views": "4549",
+    "views": "4550",
     "title": "How To Get Professional GoPro Selfie Photos and Videos!! - (Snowboarding or Skiing)",
     "date": "2018-03-16T13:10:40Z"
   },
@@ -4735,13 +4735,13 @@ var videoData = [
   },
   {
     "id": "i_N9_wc7YkI",
-    "views": "11964",
+    "views": "11965",
     "title": "Day 99: Worst Crash Ever!! - Keystone",
     "date": "2017-02-16T12:55:33Z"
   },
   {
     "id": "XxkBpDkIRfA",
-    "views": "3782",
+    "views": "3783",
     "title": "Day 98: Suns Out Gun's Out!! - Keystone",
     "date": "2017-02-15T12:56:24Z"
   },
@@ -4831,7 +4831,7 @@ var videoData = [
   },
   {
     "id": "IEn3-qK7rIE",
-    "views": "7182",
+    "views": "7183",
     "title": "Snowboarding a Powder Board in the Park - (Day 47, Season 2)",
     "date": "2018-03-08T01:46:43Z"
   },
@@ -4867,7 +4867,7 @@ var videoData = [
   },
   {
     "id": "jvLXMy5qci4",
-    "views": "4182",
+    "views": "4184",
     "title": "Keystone Night Riding - Schoolmarm - (Top To Bottom)",
     "date": "2018-01-06T02:08:26Z"
   },
@@ -4903,13 +4903,13 @@ var videoData = [
   },
   {
     "id": "zF-PrhyOlO4",
-    "views": "3480",
+    "views": "3482",
     "title": "Powder Tree Run - Keystone Colorado- (Top To Bottom)",
     "date": "2018-02-11T18:22:08Z"
   },
   {
     "id": "46yf970vyh4",
-    "views": "82011",
+    "views": "82063",
     "title": "Go Devil, Black Diamond - Keystone - (Top To Bottom)",
     "date": "2018-01-27T13:00:00Z"
   },
@@ -4957,7 +4957,7 @@ var videoData = [
   },
   {
     "id": "vsferAb4bNw",
-    "views": "3336",
+    "views": "3337",
     "title": "Our first game of Evolve!! - LIKE SKATE - Keystone",
     "date": "2017-11-24T18:51:48Z"
   },
@@ -4993,7 +4993,7 @@ var videoData = [
   },
   {
     "id": "cgl7bgbhaOw",
-    "views": "43846",
+    "views": "43868",
     "title": "Beginner Snowboarder Rides His First Black Diamond!!",
     "date": "2018-03-31T00:32:05Z"
   },
@@ -5089,7 +5089,7 @@ var videoData = [
   },
   {
     "id": "FNfJsxFWFrE",
-    "views": "3880",
+    "views": "3881",
     "title": "Day 44: Its Dumping!! - Keystone",
     "date": "2016-12-15T12:58:37Z"
   },
@@ -5179,7 +5179,7 @@ var videoData = [
   },
   {
     "id": "5XoSHAJJEOs",
-    "views": "6598",
+    "views": "6599",
     "title": "Day 27: Breaking the law - Keystone",
     "date": "2016-11-21T15:32:55Z"
   },
@@ -5221,25 +5221,25 @@ var videoData = [
   },
   {
     "id": "KrjewHjUn1g",
-    "views": "22712",
+    "views": "22721",
     "title": "Opening Day Loveland Ski Area 2019/2020 Ski Season - (Top To Bottom)",
     "date": "2019-10-25T20:21:37Z"
   },
   {
     "id": "1TPY7Hqi6G4",
-    "views": "7031",
+    "views": "7035",
     "title": "Loveland Ski Resort Closing Day 2019 Season - (Season 3, Day 139)",
     "date": "2019-05-06T00:09:41Z"
   },
   {
     "id": "6wCNt6E1_Yg",
-    "views": "15162",
+    "views": "15164",
     "title": "Colorado's Largest Snowstorm In YEARS!!! - (Season 3, Day 96)",
     "date": "2019-03-05T00:47:49Z"
   },
   {
     "id": "DyBnalmkE-I",
-    "views": "18163",
+    "views": "18168",
     "title": "Snowboarding Powder At Loveland Ski Resort Colorado - (Season 3, Day 85)",
     "date": "2019-02-16T11:45:00Z"
   },
@@ -5257,7 +5257,7 @@ var videoData = [
   },
   {
     "id": "q7N7MvZkfTY",
-    "views": "2186",
+    "views": "2188",
     "title": "No Safety Bar!?!?!  - Loveland Colorado - (Day 53, Season 2)",
     "date": "2018-03-30T02:05:10Z"
   },
@@ -5281,19 +5281,19 @@ var videoData = [
   },
   {
     "id": "js0F1p7ERpE",
-    "views": "13547",
+    "views": "13550",
     "title": "Snowboarding Monarch Mountain! - (Season 4, Day 77)",
     "date": "2020-01-25T23:45:14Z"
   },
   {
     "id": "igO5eyDKW2c",
-    "views": "3863",
+    "views": "3864",
     "title": "How to Hit a Wall on Your Snowboard | Beginner Guide",
     "date": "2020-01-24T23:05:25Z"
   },
   {
     "id": "BUaZZ7UGH-A",
-    "views": "5331",
+    "views": "5334",
     "title": "Monarch Mountain Never Summer Terrain Park - (Top To Bottom)",
     "date": "2018-04-10T00:23:29Z"
   },
@@ -5305,19 +5305,19 @@ var videoData = [
   },
   {
     "id": "2sI08UvI4hQ",
-    "views": "17517",
+    "views": "17537",
     "title": "Snowboarding Rock fields at Powderhorn Ski Resort - (Season 6. Day 66)",
     "date": "2022-02-01T01:30:08Z"
   },
   {
     "id": "LFPk8tirHl8",
-    "views": "86080",
+    "views": "86084",
     "title": "Snowboarding America's Smallest Ski Resort! - (Season 5, Day 57)",
     "date": "2021-01-30T23:45:13Z"
   },
   {
     "id": "FK3LaCiJ0IY",
-    "views": "13435",
+    "views": "13448",
     "title": "How to Ride a Ski Tow Rope | Beginner Guide",
     "date": "2021-01-29T23:45:10Z"
   },
@@ -5335,25 +5335,25 @@ var videoData = [
   },
   {
     "id": "E5VMAqSPTe8",
-    "views": "7468",
+    "views": "7471",
     "title": "Snowboarding a Insane Backcountry Powder chute!",
     "date": "2021-03-13T00:19:23Z"
   },
   {
     "id": "V727drc0E8k",
-    "views": "461180",
+    "views": "461459",
     "title": "The Scariest Ski Run of my Life! - (Season 5, Day 59)",
     "date": "2021-02-05T02:30:12Z"
   },
   {
     "id": "pCLVipvn2Zs",
-    "views": "35424",
+    "views": "35428",
     "title": "Colorado Heli Snowboarding! - (Season 5, Day 58)",
     "date": "2021-02-04T01:45:10Z"
   },
   {
     "id": "gY7ZEkHocWU",
-    "views": "5609",
+    "views": "5613",
     "title": "Raw Silverton Heli Snowboarding",
     "date": "2020-10-01T01:30:14Z"
   },
@@ -5371,19 +5371,19 @@ var videoData = [
   },
   {
     "id": "sQodqgFFSlo",
-    "views": "36122",
+    "views": "36130",
     "title": "INSANE Colorado Heli Snowboarding - (Season 4, Day 81)",
     "date": "2020-01-30T01:45:15Z"
   },
   {
     "id": "i-GmeOffDlo",
-    "views": "32261",
+    "views": "32276",
     "title": "Heli Skiing at Silverton Mountain! - (Season 4, Day 80)",
     "date": "2020-01-29T04:30:14Z"
   },
   {
     "id": "JQnkiIR__hw",
-    "views": "27951",
+    "views": "27953",
     "title": "Colorado's Secret Ski Resort! - (Season 4, Day 71)",
     "date": "2020-01-17T23:45:14Z"
   },
@@ -5401,25 +5401,25 @@ var videoData = [
   },
   {
     "id": "qJisBzad4ZA",
-    "views": "4316",
+    "views": "4320",
     "title": "Ski Cooper Alpine Ski Area Resort Review",
     "date": "2021-07-29T00:00:11Z"
   },
   {
     "id": "AAo147A-G_0",
-    "views": "7634",
+    "views": "7637",
     "title": "Ski Cooper - Top To Bottom - (Molly Mayfield)",
     "date": "2017-12-24T02:16:21Z"
   },
   {
     "id": "F9qyOfcTeHU",
-    "views": "10948",
+    "views": "10968",
     "title": "Night Skiing at Steamboat Springs Colorado - (Season 6, Day 76)",
     "date": "2022-02-14T04:15:09Z"
   },
   {
     "id": "NQrvMYKgg94",
-    "views": "12383",
+    "views": "12387",
     "title": "Snowboarding the Steamboat Powdercat Tour  - (Season 6, Day 76)",
     "date": "2022-02-13T03:00:10Z"
   },
@@ -5431,19 +5431,19 @@ var videoData = [
   },
   {
     "id": "LRYcqii3QVs",
-    "views": "126390",
+    "views": "126503",
     "title": "NEW Step in Snowboard Bindings | Clew Bindings- (Season 6, Day 28)",
     "date": "2021-12-06T02:00:11Z"
   },
   {
     "id": "dkac4hATPoc",
-    "views": "30788",
+    "views": "30795",
     "title": "Steamboat Steep and Deep Powder Day! - (Season 4, Day 69)",
     "date": "2020-01-14T23:45:14Z"
   },
   {
     "id": "beQpaB25oTk",
-    "views": "9245",
+    "views": "9246",
     "title": "Opening Day Steamboat Ski Resort! - (Season 4, Day 28)",
     "date": "2019-11-16T23:15:11Z"
   },
@@ -5455,13 +5455,13 @@ var videoData = [
   },
   {
     "id": "OdEqDcpYi-U",
-    "views": "23956",
+    "views": "23961",
     "title": "Steamboat Opening Day 2019/2020 Ski Season - (Top to Bottom)",
     "date": "2019-11-16T00:56:38Z"
   },
   {
     "id": "bnY2u6lip84",
-    "views": "25795",
+    "views": "25802",
     "title": "Snowboarding Steamboat Colorado - (Season 3, Day 78)",
     "date": "2019-02-07T00:15:24Z"
   },
@@ -5473,7 +5473,7 @@ var videoData = [
   },
   {
     "id": "B3kpjQ0AH2w",
-    "views": "34717",
+    "views": "34854",
     "title": "Snowboarding One of Colorado's STEEPEST Ski Runs - (Season 6, Day 80)",
     "date": "2022-02-20T01:30:09Z"
   },
@@ -5485,37 +5485,37 @@ var videoData = [
   },
   {
     "id": "A3Ebu5-ipac",
-    "views": "13544",
+    "views": "13545",
     "title": "Snowboarding Revelation Bowl at Telluride! - (Season 4, Day 79)",
     "date": "2020-01-28T06:00:12Z"
   },
   {
     "id": "S9TplfnLryA",
-    "views": "17064",
+    "views": "17066",
     "title": "Snowboarding at Telluride Ski Resort Colorado - (Season 4, Day 78)",
     "date": "2020-01-27T05:15:15Z"
   },
   {
     "id": "LkgfkLkbf24",
-    "views": "33940",
+    "views": "33947",
     "title": "Terrifying Snowboard Carving Crash - (Season 6, Day 22)",
     "date": "2021-11-28T02:00:10Z"
   },
   {
     "id": "XsX_qb6twsE",
-    "views": "123719",
+    "views": "123826",
     "title": "Benton Got Hurt Snowboarding! - (Season 5, Day 29)",
     "date": "2020-12-14T22:45:27Z"
   },
   {
     "id": "aKBaKeG7PJQ",
-    "views": "57050",
+    "views": "57070",
     "title": "All Mountain Snowboarding at Vail - (Season 5, Day 25)",
     "date": "2020-12-07T00:30:11Z"
   },
   {
     "id": "lTJprc9cD-0",
-    "views": "21523",
+    "views": "21524",
     "title": "Vail Resort Opening Day! - (Top to Bottom Run)",
     "date": "2020-11-22T02:00:10Z"
   },
@@ -5527,19 +5527,19 @@ var videoData = [
   },
   {
     "id": "0JQKkGbGgMo",
-    "views": "8388",
+    "views": "8393",
     "title": "Snowboarding the Blue Sky Basin at Vail! - (Season 4, Day 95)",
     "date": "2020-02-19T01:30:15Z"
   },
   {
     "id": "ARR2JNft-Y0",
-    "views": "38746",
+    "views": "38748",
     "title": "Snowboarding at Vail is Sick! - (Season 4, Day 53)",
     "date": "2019-12-23T00:45:15Z"
   },
   {
     "id": "stMLUxdRi5Y",
-    "views": "47399",
+    "views": "47419",
     "title": "Snowboarding Powder In Vail's Back Bowls - (Season 3, Day 104)",
     "date": "2019-03-16T01:00:57Z"
   },
@@ -5569,19 +5569,19 @@ var videoData = [
   },
   {
     "id": "-wlrjetrohE",
-    "views": "64873",
+    "views": "64920",
     "title": "Snowboarders Searching for Powder at Winter Park - (Season 6, Day 39)",
     "date": "2021-12-24T01:30:11Z"
   },
   {
     "id": "Pc9Ir-BXdRc",
-    "views": "7384",
+    "views": "7387",
     "title": "Snowboarding Mary Jane Tree's at Winter Park - (Season 5, Day 112)",
     "date": "2021-05-08T22:45:17Z"
   },
   {
     "id": "d-RKDR5YWiU",
-    "views": "18822",
+    "views": "18823",
     "title": "Snowboarding Side Hits at Winter Park Colorado! - (Season 4, Day 93)",
     "date": "2020-02-16T03:30:15Z"
   },
@@ -5593,37 +5593,37 @@ var videoData = [
   },
   {
     "id": "387Phgq4CyA",
-    "views": "8672",
+    "views": "8673",
     "title": "Opening Day Winter Park 2019:20120 Ski Season! - (Season 4, Day 19)",
     "date": "2019-11-04T00:45:13Z"
   },
   {
     "id": "0F0R1tpzrvk",
-    "views": "3522",
+    "views": "3524",
     "title": "Winter Park Opening Day Park Preview!",
     "date": "2019-11-03T14:00:15Z"
   },
   {
     "id": "lNIi3LD8YHQ",
-    "views": "20670",
+    "views": "20672",
     "title": "Winter Park Opening Day 2019 Ski Season - (Top To Bottom)",
     "date": "2019-11-02T22:40:47Z"
   },
   {
     "id": "EqoMgL_G2jM",
-    "views": "14721",
+    "views": "14724",
     "title": "A Perfect Day Snowboarding Winter Park Colorado - (Season 3, Day 73)",
     "date": "2019-01-31T00:20:16Z"
   },
   {
     "id": "kDJ9eyKGMB8",
-    "views": "30939",
+    "views": "30943",
     "title": "Colorado's First Ski Resort to OPEN  2021 - (Season 6, Day 3)",
     "date": "2021-10-17T22:45:11Z"
   },
   {
     "id": "M0zvy8vcAjY",
-    "views": "16776",
+    "views": "16806",
     "title": "Wolf Creek Ski Resort Review",
     "date": "2021-11-05T22:30:10Z"
   },
@@ -5635,19 +5635,19 @@ var videoData = [
   },
   {
     "id": "IB9d-8ifzEw",
-    "views": "8182",
+    "views": "8185",
     "title": "Insane Wolf Creek Powder Day! - (Season 4, Day 74)",
     "date": "2020-01-19T23:45:14Z"
   },
   {
     "id": "JBlns5NbQqg",
-    "views": "6068",
+    "views": "6069",
     "title": "Snowboarding Two Feet Of Powder At Wolf Creek!! - (Season 3, Day 60)",
     "date": "2019-01-10T00:00:02Z"
   },
   {
     "id": "d1fWlVLcatw",
-    "views": "77911",
+    "views": "77913",
     "title": "Is the GoPro 7 The Gimbal Killer?? Gimbal VS GoPro 7!! - (Snowboarding) #snowboarding #gopro",
     "date": "2018-10-16T22:20:05Z"
   },
@@ -5659,7 +5659,7 @@ var videoData = [
   },
   {
     "id": "QnLpEcEvk5g",
-    "views": "2216",
+    "views": "2217",
     "title": "Opening Day Wolf Creek Colorado - Treasure Lift  - (Top To Bottom) #snowboarding",
     "date": "2018-10-15T18:00:04Z"
   },
@@ -5677,13 +5677,13 @@ var videoData = [
   },
   {
     "id": "WCbFS6Qfhmg",
-    "views": "12869",
+    "views": "12883",
     "title": "Building His First Snowboard Jump - (Season 6, Day 2)",
     "date": "2021-10-16T22:45:12Z"
   },
   {
     "id": "yy10nZW64nI",
-    "views": "20809",
+    "views": "20813",
     "title": "Snowboarding Colorado's First Snowfall - (Season 6, Day 1)",
     "date": "2021-10-15T21:45:11Z"
   },
@@ -5719,13 +5719,13 @@ var videoData = [
   },
   {
     "id": "5peKt_bf-zs",
-    "views": "2600",
+    "views": "2601",
     "title": "Snowboarding the Free Loveland Quarter Pipe! - (Season 4, Day 144)",
     "date": "2020-05-19T23:00:12Z"
   },
   {
     "id": "0_39hY1i0o8",
-    "views": "3611",
+    "views": "3612",
     "title": "Loveland Pass Tree Skiing! - (Season 4, Day 143)",
     "date": "2020-05-13T22:45:10Z"
   },
@@ -5767,7 +5767,7 @@ var videoData = [
   },
   {
     "id": "IZkJ-jxnd-A",
-    "views": "3725",
+    "views": "3728",
     "title": "Game Of SNOW!! - Johnathan Buckhouse VS Kyle",
     "date": "2019-07-18T22:51:04Z"
   },
@@ -5791,7 +5791,7 @@ var videoData = [
   },
   {
     "id": "ltqlU4v1t7c",
-    "views": "2948",
+    "views": "2950",
     "title": "Snowboarding Backside Boardslide Pretzel Out!",
     "date": "2019-06-19T23:04:44Z"
   },
@@ -5809,7 +5809,7 @@ var videoData = [
   },
   {
     "id": "oQZ28U-gkp4",
-    "views": "5281",
+    "views": "5283",
     "title": "5 Ways To Snowboard For FREE!!",
     "date": "2019-06-16T22:56:33Z"
   },
@@ -5821,7 +5821,7 @@ var videoData = [
   },
   {
     "id": "higsw06M2pg",
-    "views": "1747",
+    "views": "1750",
     "title": "How To Frontside and Backside 180 Off A Box!!",
     "date": "2019-06-13T22:39:20Z"
   },
@@ -5833,7 +5833,7 @@ var videoData = [
   },
   {
     "id": "a7suxVvckZo",
-    "views": "3773",
+    "views": "3774",
     "title": "How to Snowboard With Your Dog - (Season 3, Day 161)",
     "date": "2019-06-11T22:47:30Z"
   },
@@ -5863,7 +5863,7 @@ var videoData = [
   },
   {
     "id": "eYjXpSwvugo",
-    "views": "15052",
+    "views": "15055",
     "title": "Snowboarding Loveland Pass Colorado - (Season 3, Day 123)",
     "date": "2019-04-09T22:43:12Z"
   },
@@ -5899,25 +5899,25 @@ var videoData = [
   },
   {
     "id": "NW7GlZ345G0",
-    "views": "4193",
+    "views": "4196",
     "title": "Snowboarding Saint Mary's Glacier in August - (Top to Bottom Run)",
     "date": "2020-08-15T23:26:43Z"
   },
   {
     "id": "iFRHU_6ZA9E",
-    "views": "2232",
+    "views": "2230",
     "title": "My First Time Snowboarding a Drop In!! - (Season 4, Day 187)",
     "date": "2020-09-09T23:00:15Z"
   },
   {
     "id": "wG8c90Fq2HY",
-    "views": "3183",
+    "views": "3182",
     "title": "Team Huckhouse Won The Leadville Rail Jam!! - (Season 3, Day 112)",
     "date": "2019-03-26T22:45:00Z"
   },
   {
     "id": "UjVRKK8-A00",
-    "views": "5444",
+    "views": "5448",
     "title": "I placed in The Cloud City Rail Jam!!! - Leadville Colorado - (Day 51, Season 2)",
     "date": "2018-03-26T00:49:09Z"
   },
@@ -5929,43 +5929,43 @@ var videoData = [
   },
   {
     "id": "0P10PLwPyF0",
-    "views": "3828",
+    "views": "3832",
     "title": "The Worst Snowboard Rail Ever! - (Season 4, Day 146)",
     "date": "2020-05-25T22:45:28Z"
   },
   {
     "id": "iJQ4PfdEjIk",
-    "views": "12650",
+    "views": "12761",
     "title": "Toddler's Own Custom Snowboard Park - (Season 6, Day 89)",
     "date": "2022-03-05T03:15:10Z"
   },
   {
     "id": "lyecHTwSqdw",
-    "views": "8882",
+    "views": "8924",
     "title": "Five Snowboard TRICKS You Can Learn in ONE DAY",
     "date": "2022-03-02T00:30:10Z"
   },
   {
     "id": "qEMIM4gMHbE",
-    "views": "14894",
+    "views": "14899",
     "title": "How to Avoid the Weekend Ski Crowds - (Season 6, Day 77)",
     "date": "2022-02-16T00:45:09Z"
   },
   {
     "id": "UidxFZ9Q9aE",
-    "views": "17619",
+    "views": "17625",
     "title": "The Best Snowboarding Idea Ever - (Season 6, Day 73)",
     "date": "2022-02-09T02:00:11Z"
   },
   {
     "id": "EfEL-c9omc0",
-    "views": "6825",
+    "views": "6826",
     "title": "How to Frontside Lip Slide on Your Snowboard",
     "date": "2022-01-23T00:30:11Z"
   },
   {
     "id": "No9HQEeChn4",
-    "views": "28829",
+    "views": "28856",
     "title": "INSANE Snowboarding Terrain Park Failure - (Season 6, Day 55)",
     "date": "2022-01-18T01:00:08Z"
   },
@@ -5977,49 +5977,49 @@ var videoData = [
   },
   {
     "id": "j8FrxRW4vWs",
-    "views": "5857",
+    "views": "5859",
     "title": "How to Frontside Boardslide | Snowboarding Guide",
     "date": "2022-01-07T00:00:11Z"
   },
   {
     "id": "VluCz-z3vmY",
-    "views": "96219",
+    "views": "96240",
     "title": "Snowboarding on a Walmart Snowboard - (Season 6, Day 47)",
     "date": "2022-01-06T00:00:09Z"
   },
   {
     "id": "W609K0-6wg8",
-    "views": "17162",
+    "views": "17164",
     "title": "The Real Way to Get Better at Snowboarding - (Season 6, Day 46)",
     "date": "2022-01-04T00:45:12Z"
   },
   {
     "id": "J7NPZZMg-Mg",
-    "views": "29395",
+    "views": "29406",
     "title": "Breaking in NEW Ski/Snowboard Boot Tips and Tricks - (Season 6, Day 44)",
     "date": "2022-01-02T01:30:28Z"
   },
   {
     "id": "gRZCF5_XRsA",
-    "views": "13479",
+    "views": "13493",
     "title": "How to Boardslide a Snowboard | Beginner Guide",
     "date": "2021-12-31T04:30:12Z"
   },
   {
     "id": "6Q9ZfndImQA",
-    "views": "21788",
+    "views": "21794",
     "title": "Buckhouse Snowboarding Terrain Park Opening Day - (Season 6, Day 34)",
     "date": "2021-12-14T03:30:09Z"
   },
   {
     "id": "txPkS3EYV2c",
-    "views": "34641",
+    "views": "34650",
     "title": "Snowboarding Red Gerard's Actual Backyard! - (Season 5, Day 51)",
     "date": "2021-01-21T23:45:11Z"
   },
   {
     "id": "3fMPGkThpzI",
-    "views": "4718",
+    "views": "4723",
     "title": "Backyard Snowboarding!",
     "date": "2020-05-12T23:30:28Z"
   },
@@ -6055,7 +6055,7 @@ var videoData = [
   },
   {
     "id": "WW_moaZnC2Q",
-    "views": "2308",
+    "views": "2309",
     "title": "Learning NEW Snowboard Tricks - (Season 4, Day 137)",
     "date": "2020-04-27T22:45:13Z"
   },
@@ -6073,7 +6073,7 @@ var videoData = [
   },
   {
     "id": "aykE9VXD3IA",
-    "views": "31718",
+    "views": "31737",
     "title": "The Best Rail for a Backyard snowboard Park! - (Season 4, Day 134)",
     "date": "2020-04-22T00:45:13Z"
   },
@@ -6103,13 +6103,13 @@ var videoData = [
   },
   {
     "id": "1JYwCBVKpuo",
-    "views": "4562",
+    "views": "4564",
     "title": "We Are Building A Snowboard Tree Run! - (Season 4, Day 129)",
     "date": "2020-04-13T22:30:14Z"
   },
   {
     "id": "2mr2lsHLeyY",
-    "views": "3688",
+    "views": "3689",
     "title": "When Snowboarding a Log Rails Bite Back! - (Season 4, Day 128)",
     "date": "2020-04-11T23:49:19Z"
   },
@@ -6133,7 +6133,7 @@ var videoData = [
   },
   {
     "id": "bXUNBebv_uY",
-    "views": "4990",
+    "views": "4992",
     "title": "How to Make a Snowboard Rail Out of Wood! - (Season 4, Day 124)",
     "date": "2020-04-07T00:15:13Z"
   },
@@ -6145,7 +6145,7 @@ var videoData = [
   },
   {
     "id": "D0fpRlmrgro",
-    "views": "4962",
+    "views": "4963",
     "title": "I Learned the Hardest Rail Trick in Snowboarding! - (Season 4, Day 122)",
     "date": "2020-04-02T02:00:13Z"
   },
@@ -6157,25 +6157,25 @@ var videoData = [
   },
   {
     "id": "gk835XI6LFE",
-    "views": "9828",
+    "views": "9830",
     "title": "Snowboarding Someone's Pump Track - (Season 4, Day 120)",
     "date": "2020-03-28T22:45:09Z"
   },
   {
     "id": "POoRimej898",
-    "views": "4481",
+    "views": "4483",
     "title": "How to Build a Quarter Pipe For Snowboarding! - (Season 4, Day 119)",
     "date": "2020-03-28T01:00:13Z"
   },
   {
     "id": "T4-WnmGZ6C0",
-    "views": "5632",
+    "views": "5633",
     "title": "We Built a Butter Box! - (Season 4, Day 118)",
     "date": "2020-03-25T03:45:13Z"
   },
   {
     "id": "PIlAJtH-01w",
-    "views": "4747",
+    "views": "4748",
     "title": "Backcountry Tree Bonk! - (Season 4, Day 117)",
     "date": "2020-03-23T22:45:14Z"
   },
@@ -6187,25 +6187,25 @@ var videoData = [
   },
   {
     "id": "mtzxHHa9ZNs",
-    "views": "13081",
+    "views": "13087",
     "title": "Backyard Snowboarding is the Best! - (Season 4, Day 115)",
     "date": "2020-03-20T22:30:15Z"
   },
   {
     "id": "mAN0uOWEyw8",
-    "views": "20389",
+    "views": "20397",
     "title": "Building My First Backcountry Jump! - (Season 4, Day 114)",
     "date": "2020-03-18T22:45:14Z"
   },
   {
     "id": "7WoZ8nnfri8",
-    "views": "7583",
+    "views": "7584",
     "title": "Baby's FIRST TIME ever Snowboarding!",
     "date": "2019-04-16T22:45:00Z"
   },
   {
     "id": "hUM4PuwJSEU",
-    "views": "3807",
+    "views": "3808",
     "title": "My First Time Hitting A Back Country Jump!! - (Season 3,  Day 98)",
     "date": "2019-03-07T00:43:26Z"
   },
@@ -6223,19 +6223,19 @@ var videoData = [
   },
   {
     "id": "rc1WCHyktGM",
-    "views": "18246",
+    "views": "18252",
     "title": "The Best Backyard Snowboard Park In The World! - Snowboard Colorado - (Day 32, Season 2)",
     "date": "2018-01-28T13:00:09Z"
   },
   {
     "id": "vQs0pbVZ9HQ",
-    "views": "10026",
+    "views": "10031",
     "title": "Snowboarding Ruby Hill In Denver Colorado! - (Season 4, Day 108)",
     "date": "2020-03-09T03:30:13Z"
   },
   {
     "id": "SDIMKBhCGE0",
-    "views": "7689",
+    "views": "7688",
     "title": "Snowboarding Colorado's FREE Mountain - (Season 5, Day 110)",
     "date": "2021-05-04T22:45:17Z"
   },
@@ -6265,31 +6265,31 @@ var videoData = [
   },
   {
     "id": "eahz4Mo2zMk",
-    "views": "4669",
+    "views": "4670",
     "title": "Snowboarding Down Buffalo Mountain Colorado - (Season 3, Day 177)",
     "date": "2019-07-12T22:35:30Z"
   },
   {
     "id": "qQ23NtPu7hs",
-    "views": "2868",
+    "views": "2869",
     "title": "The Most Unique Way to Snowboard Down a Mountain",
     "date": "2021-09-07T22:41:13Z"
   },
   {
     "id": "C9P5o4ZW3LU",
-    "views": "30514",
+    "views": "30517",
     "title": "Snowboarding a Powder Surfer! - (Season 5, Day 77)",
     "date": "2021-03-08T00:30:14Z"
   },
   {
     "id": "KT_qMrCUnTs",
-    "views": "37192",
+    "views": "37211",
     "title": "Snowboarding Vail Pass Colorado - (Season 5, Day 53)",
     "date": "2021-01-24T00:45:11Z"
   },
   {
     "id": "ViV2yZNzn50",
-    "views": "15767",
+    "views": "15769",
     "title": "Snowboarding Bogus Basin Idaho Opening Day - (Season 5, Day 5)",
     "date": "2020-11-03T23:45:12Z"
   },
@@ -6301,43 +6301,49 @@ var videoData = [
   },
   {
     "id": "FESWug_ppOU",
-    "views": "7281",
+    "views": "7286",
     "title": "How to Strap Into a Snowboard!",
     "date": "2020-11-11T19:45:15Z"
   },
   {
+    "id": "MVSnfids-oE",
+    "views": "414",
+    "title": "5 Snowboard Butter YOU Can Learn in ONE DAY",
+    "date": "2022-03-13T00:45:59Z"
+  },
+  {
     "id": "60LB83eIEN0",
-    "views": "8030",
+    "views": "8108",
     "title": "Five Reasons Your Powder Carving SUCKS | A Snowboard Guide",
     "date": "2022-03-09T03:15:10Z"
   },
   {
     "id": "jY6toU_jRcw",
-    "views": "14470",
+    "views": "14475",
     "title": "Snowboarding at Brighton Ski Resort Utah!   Season 4, Day 84",
     "date": "2020-02-05T01:45:15Z"
   },
   {
     "id": "sq_LFhyqXbg",
-    "views": "51542",
+    "views": "51559",
     "title": "Park City Utah Ski Resort Review!",
     "date": "2020-11-18T21:45:11Z"
   },
   {
     "id": "cGf2K3kd7AE",
-    "views": "14407",
+    "views": "14411",
     "title": "Snowboarding The Canyons at Park City Utah - (Season 3, Day 62)",
     "date": "2019-01-12T00:41:36Z"
   },
   {
     "id": "d3DKF2Q1JZU",
-    "views": "38513",
+    "views": "38526",
     "title": "Snowboarding Powder At Park City Utah - (Season 3, Day 61)",
     "date": "2019-01-11T01:49:07Z"
   },
   {
     "id": "yt68HVtKAus",
-    "views": "4172",
+    "views": "4175",
     "title": "Park City Utah Pick Axe Terrain Park   Snowboarding   Park Preview",
     "date": "2018-02-21T01:05:04Z"
   },
@@ -6373,13 +6379,13 @@ var videoData = [
   },
   {
     "id": "YTDqkd4lDto",
-    "views": "3044",
+    "views": "3045",
     "title": "Park City Little Kings Park Preview  - Snowboarding  Utah",
     "date": "2018-02-13T00:56:56Z"
   },
   {
     "id": "iBM8QoUD7Ec",
-    "views": "29760",
+    "views": "29767",
     "title": "SNOWBoarding at WoodWard Park City - (Season 5, Day 46)",
     "date": "2021-01-09T23:45:13Z"
   },
@@ -6391,19 +6397,19 @@ var videoData = [
   },
   {
     "id": "ngg25NA9CyE",
-    "views": "20257",
+    "views": "20268",
     "title": "Snowboarding at Powder Mountain - (Season 5, Day 45)",
     "date": "2021-01-08T00:15:12Z"
   },
   {
     "id": "Nivw9WdIzRs",
-    "views": "9310",
+    "views": "9314",
     "title": "The Sound of Snowboarding Powder!",
     "date": "2021-01-11T23:45:24Z"
   },
   {
     "id": "1AKV3OgC2cw",
-    "views": "7650",
+    "views": "7655",
     "title": "Snowboarding Snowbasin Utah - (Season 4, Day 92)",
     "date": "2020-02-15T01:45:38Z"
   },
@@ -6415,31 +6421,31 @@ var videoData = [
   },
   {
     "id": "NZyAJjKg3Ks",
-    "views": "36800",
+    "views": "36814",
     "title": "Snowboarding at Snowbird Utah! - (Season 4, Day 85)",
     "date": "2020-02-06T02:30:42Z"
   },
   {
     "id": "ohamKB1MSqg",
-    "views": "22967",
+    "views": "22978",
     "title": "Snowboarding at Solitude Mountain Utah - (Season 5, Day 44)",
     "date": "2021-01-06T23:00:09Z"
   },
   {
     "id": "yAEpyrBHbbE",
-    "views": "133816",
+    "views": "133946",
     "title": "Dropping Corbet's Couloir Jackson Hole Wyoming - (Season 5, Day 93)",
     "date": "2021-04-04T01:15:15Z"
   },
   {
     "id": "K3CBFvCU43Y",
-    "views": "39843",
+    "views": "39891",
     "title": "Snowboarding at Jackson Hole Wyoming - (Season 5, Day 92)",
     "date": "2021-04-03T00:00:18Z"
   },
   {
     "id": "Jx-yuXNbsqE",
-    "views": "3208",
+    "views": "3209",
     "title": "snowboarding Snowy Range",
     "date": "2012-01-12T09:14:15Z"
   },
@@ -6469,55 +6475,55 @@ var videoData = [
   },
   {
     "id": "vV92iw_Oe7A",
-    "views": "9205",
+    "views": "9207",
     "title": "Snowboarding is ALL About Repetition - (Season 5, Day 85)",
     "date": "2021-03-21T23:45:15Z"
   },
   {
     "id": "E3WBEpboWgA",
-    "views": "22275",
+    "views": "22290",
     "title": "Snowboarding Big Bear California - (Season 5, Day 84)",
     "date": "2021-03-20T23:45:18Z"
   },
   {
     "id": "NrFkkgTPgxU",
-    "views": "5276",
+    "views": "5278",
     "title": "Our Last Day Snowboarding in Tahoe - (Season 4, Day 102)",
     "date": "2020-03-01T03:30:13Z"
   },
   {
     "id": "6PQV6lKwGUA",
-    "views": "11901",
+    "views": "11909",
     "title": "Heavenly Mountain Ski Resort Review",
     "date": "2021-11-29T23:45:11Z"
   },
   {
     "id": "84c37-_3WJM",
-    "views": "15530",
+    "views": "15533",
     "title": "My First Backflip In Tahoe! - (Season 4, Day 101)",
     "date": "2020-02-29T02:00:14Z"
   },
   {
     "id": "mfm3a3og3LI",
-    "views": "4603",
+    "views": "4606",
     "title": "How to Do a Nose Grab on Your Snowboard | Beginner Guide",
     "date": "2020-02-25T03:15:14Z"
   },
   {
     "id": "h_W4dZ0rAgs",
-    "views": "17403",
+    "views": "17407",
     "title": "Snowboarding Heavenly Ski Resort Groove Park - (Season 4, Day 97)",
     "date": "2020-02-23T04:00:20Z"
   },
   {
     "id": "I1YwuAAZKnY",
-    "views": "2790",
+    "views": "2792",
     "title": "Heavenly Wind Hold Snowboarding - (Season 3, Day 93)",
     "date": "2019-03-02T01:30:00Z"
   },
   {
     "id": "ov0cja1Oz5o",
-    "views": "18183",
+    "views": "18186",
     "title": "Snowboarding Heavenly Ski Resort Tahoe California - (Season 3, Day 90)",
     "date": "2019-02-26T03:29:38Z"
   },
@@ -6541,13 +6547,13 @@ var videoData = [
   },
   {
     "id": "BuGEyaWcBK8",
-    "views": "15638",
+    "views": "15641",
     "title": "Snowboarding Kirkwood's T Bar! - (Season 4, Day 99)",
     "date": "2020-02-25T23:30:15Z"
   },
   {
     "id": "hwAoUUtO3vo",
-    "views": "9711",
+    "views": "9714",
     "title": "Snowboarding At Kirkwood California - (Season 3, Day 95)",
     "date": "2019-03-03T23:45:00Z"
   },
@@ -6601,7 +6607,7 @@ var videoData = [
   },
   {
     "id": "n3D7tvxMcbo",
-    "views": "11377",
+    "views": "11381",
     "title": "The Best Snowboarding Day Ever At Mammoth Mountain!! - (Season 3, Day 145)",
     "date": "2019-05-14T03:05:44Z"
   },
@@ -6637,13 +6643,13 @@ var videoData = [
   },
   {
     "id": "_TKsy9lo8CM",
-    "views": "17577",
+    "views": "17582",
     "title": "Snowboarding Mountain High California - (Season 5, Day 86)",
     "date": "2021-03-24T22:45:17Z"
   },
   {
     "id": "PXdEWAuTKEU",
-    "views": "20404",
+    "views": "20418",
     "title": "Northstar Ski Resort Review!",
     "date": "2020-10-30T21:30:09Z"
   },
@@ -6655,13 +6661,13 @@ var videoData = [
   },
   {
     "id": "H1Q-pGGMlzg",
-    "views": "9832",
+    "views": "9833",
     "title": "Northstar Park Snowboarding - (Season 4, Day 98)",
     "date": "2020-02-24T05:15:32Z"
   },
   {
     "id": "hRxzdR8whLo",
-    "views": "7808",
+    "views": "7810",
     "title": "Snowboarding TWO FEET of Powder at Northstar California - (Season 3, Day 92)",
     "date": "2019-03-01T01:58:14Z"
   },
@@ -6679,13 +6685,13 @@ var videoData = [
   },
   {
     "id": "NN3LN1v8wtU",
-    "views": "2593",
+    "views": "2594",
     "title": "Jumps at North Star California - Tahoe Trip - (Day 41, Season 2)",
     "date": "2018-02-27T17:50:53Z"
   },
   {
     "id": "embTGS31-nM",
-    "views": "18402",
+    "views": "18403",
     "title": "Top to Bottom Run at Northstar California",
     "date": "2017-03-12T14:24:58Z"
   },
@@ -6715,19 +6721,19 @@ var videoData = [
   },
   {
     "id": "n9Joy5rkgko",
-    "views": "7706",
+    "views": "7709",
     "title": "Snowboarding Powder At Squaw Valley Ski Resort California - (Season 3, Day 94)",
     "date": "2019-03-03T01:37:17Z"
   },
   {
     "id": "FOHDFI5JmcU",
-    "views": "16850",
+    "views": "16852",
     "title": "Snowboarding in Las Vegas - (Season 5, Day 87)",
     "date": "2021-03-27T02:30:16Z"
   },
   {
     "id": "UZGgJmE1o3g",
-    "views": "6145",
+    "views": "6151",
     "title": "Lee Canyon Nevada Resort Review",
     "date": "2021-05-28T23:00:14Z"
   },
@@ -6739,13 +6745,13 @@ var videoData = [
   },
   {
     "id": "PlwA08EGj20",
-    "views": "6203",
+    "views": "6206",
     "title": "How to Spin Your Snowboard On a Box | Beginner Guide",
     "date": "2021-03-23T23:00:13Z"
   },
   {
     "id": "gWFispyvb5Y",
-    "views": "1822",
+    "views": "1823",
     "title": "Snowboarding in Oregon was a Dream",
     "date": "2021-08-27T22:45:11Z"
   },
@@ -6793,13 +6799,13 @@ var videoData = [
   },
   {
     "id": "6Y30MWR4t4o",
-    "views": "3983",
+    "views": "3988",
     "title": "Snowboarding Hood With Scott Stevens - (Season 5, Day 135)",
     "date": "2021-08-07T23:45:11Z"
   },
   {
     "id": "aZQcIJQD0lM",
-    "views": "17314",
+    "views": "17315",
     "title": "This U.S. Ski Resort IS STILL OPEN - (Season 5, Day 134)",
     "date": "2021-08-06T23:45:09Z"
   },
@@ -6829,13 +6835,13 @@ var videoData = [
   },
   {
     "id": "jflhB6SSGA8",
-    "views": "7402",
+    "views": "7404",
     "title": "First Day of SNOWBOARD Camp - (Season 5, Day 126)",
     "date": "2021-06-08T22:45:12Z"
   },
   {
     "id": "47uD20WbmE4",
-    "views": "4369",
+    "views": "4370",
     "title": "Snowboarding in a Complete Whiteout - (Season 5, Dat 125)",
     "date": "2021-06-07T22:00:18Z"
   },
@@ -6847,7 +6853,7 @@ var videoData = [
   },
   {
     "id": "2AgHpI1Tab8",
-    "views": "6994",
+    "views": "7000",
     "title": "Timberline Ski Resort Review! - (Summer Edition)",
     "date": "2021-04-18T00:45:16Z"
   },
@@ -6871,43 +6877,43 @@ var videoData = [
   },
   {
     "id": "WEO15wIXPpA",
-    "views": "4306",
+    "views": "4308",
     "title": "Snowboarding Timberline's Pro Snowboard Park! - (Season 4, Day 174)",
     "date": "2020-07-24T22:30:11Z"
   },
   {
     "id": "YlVCdw_BWGc",
-    "views": "10174",
+    "views": "10176",
     "title": "The Last Day of Snowboard Camp was Insane! - (Season 4, Day 173)",
     "date": "2020-07-23T01:15:12Z"
   },
   {
     "id": "025SYXKE8nk",
-    "views": "6571",
+    "views": "6574",
     "title": "Top to Bottom Snowboarding Timberline Ski Resort!",
     "date": "2020-07-21T23:23:14Z"
   },
   {
     "id": "czfbMnC94f4",
-    "views": "13970",
+    "views": "13977",
     "title": "Teaching Campers How to Backflip on Their Snowboards Day 4! - (Season 4, Day 172)",
     "date": "2020-07-20T01:30:08Z"
   },
   {
     "id": "vBfCX8sE15Y",
-    "views": "7774",
+    "views": "7779",
     "title": "Doing Snowboard Butters on Day 3 at Snowboard Camp! - (Season 4, Day 171)",
     "date": "2020-07-19T04:25:15Z"
   },
   {
     "id": "VhR4Mo5ccL0",
-    "views": "4968",
+    "views": "4972",
     "title": "Snowboard Summer Camp Day 2| Intro to Jumps! - (Season 4, Day 170)",
     "date": "2020-07-17T01:39:28Z"
   },
   {
     "id": "Jp6k2OakYpc",
-    "views": "11187",
+    "views": "11193",
     "title": "First Day of Snowboarding Camp at Mountain Hood! - (Season 4, Day 168)",
     "date": "2020-07-16T01:33:34Z"
   },
@@ -6919,7 +6925,7 @@ var videoData = [
   },
   {
     "id": "wVALDicA1ho",
-    "views": "4898",
+    "views": "4900",
     "title": "Snowboarding the Powder Park Snowboard! - (Season 4, Day 167)",
     "date": "2020-07-13T22:34:12Z"
   },
@@ -6937,13 +6943,13 @@ var videoData = [
   },
   {
     "id": "wcyHa86CcZA",
-    "views": "2488",
+    "views": "2489",
     "title": "Snowboarding Above the Clouds on Timberline at Moun Hood! - (Season 4, Day 164)",
     "date": "2020-07-09T00:00:48Z"
   },
   {
     "id": "lBq2rJ2sHsk",
-    "views": "3985",
+    "views": "3986",
     "title": "Snowboarding With Jenise Spiteri at Hood! - (Season 4, Day 163)",
     "date": "2020-07-07T21:30:28Z"
   },
@@ -6955,7 +6961,7 @@ var videoData = [
   },
   {
     "id": "DnKdqp-cHK4",
-    "views": "2258",
+    "views": "2259",
     "title": "POV Top to Bottom Timberline Ski Resort",
     "date": "2020-07-04T23:00:28Z"
   },
@@ -6973,37 +6979,37 @@ var videoData = [
   },
   {
     "id": "oazyWJFtK_g",
-    "views": "7654",
+    "views": "7658",
     "title": "My First Time Ever Snowboarding in Mount Hood! - (Season 4, Day 159)",
     "date": "2020-06-27T23:00:28Z"
   },
   {
     "id": "bNhA7x1dAD4",
-    "views": "13845",
+    "views": "13855",
     "title": "Timberline Ski Resort Top to Bottom in Late June!",
     "date": "2020-06-26T23:30:10Z"
   },
   {
     "id": "DLHZ-143s_s",
-    "views": "34672",
+    "views": "34677",
     "title": "Snowboarding Expert Terrain at Crystal Mountain - (Season 5, Day 64)",
     "date": "2021-02-14T00:45:16Z"
   },
   {
     "id": "eEw65ZpAr4o",
-    "views": "10577",
+    "views": "10584",
     "title": "Crystal Mountain WAshington Ski Resort Review",
     "date": "2021-10-27T00:15:11Z"
   },
   {
     "id": "5_moso8-_gQ",
-    "views": "15680",
+    "views": "15683",
     "title": "Snowboarding Powder at Snoqualmie Washington - (Season 5, Day 66)",
     "date": "2021-02-16T02:30:18Z"
   },
   {
     "id": "nq_nd1ZvKtA",
-    "views": "44193",
+    "views": "44208",
     "title": "Snowboarding a Skate Park - (Season 5, Day 65)",
     "date": "2021-02-15T03:15:14Z"
   }

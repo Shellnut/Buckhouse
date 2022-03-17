@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/14/2022';
+var lastUpdated = '3/17/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7415,6 +7415,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "8zGR8aXgbgk",
       "Q1kdv7WgBmk",
       "vUio99fiogw",
       "NuaBbXxgdOY",
@@ -9886,7 +9887,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Red River",
-    "videos": [],
+    "videos": [
+      "TaZAU8EBF88"
+    ],
     "position": {
       "lat": 36.7064267095846,
       "lng": -105.41291958846122

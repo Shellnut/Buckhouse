@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/17/2022';
+var lastUpdated = '3/18/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9865,7 +9865,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Los Alamos",
-    "videos": [],
+    "videos": [
+      "udf4wHSSqxg"
+    ],
     "position": {
       "lat": 35.895179515649104,
       "lng": -106.39088261546239

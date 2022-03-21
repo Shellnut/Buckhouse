@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/18/2022';
+var lastUpdated = '3/21/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9841,7 +9841,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Angel Fire",
-    "videos": [],
+    "videos": [
+      "ZhJxFa654og"
+    ],
     "position": {
       "lat": 36.38758689470336,
       "lng": -105.27204785664219
@@ -9935,7 +9937,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Vadito",
-    "videos": [],
+    "videos": [
+      "Nnh5bN7L938"
+    ],
     "position": {
       "lat": 36.15437969883405,
       "lng": -105.5482388866213
@@ -10027,7 +10031,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Taos",
-    "videos": [],
+    "videos": [
+      "VUqwgSm5iXo"
+    ],
     "position": {
       "lat": 36.59743733837588,
       "lng": -105.44967283015359

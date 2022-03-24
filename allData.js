@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/23/2022';
+var lastUpdated = '3/24/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9915,7 +9915,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Albuquerque",
-    "videos": [],
+    "videos": [
+      "4zRtRCQhhHA"
+    ],
     "position": {
       "lat": 35.20905187199964,
       "lng": -106.41292490773857

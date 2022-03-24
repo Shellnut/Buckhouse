@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/21/2022';
+var lastUpdated = '3/23/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10008,7 +10008,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Santa Fe",
     "videos": [
-      "60LB83eIEN0"
+      "60LB83eIEN0",
+      "Z59w2myY26M"
     ],
     "position": {
       "lat": 35.79639321494349,

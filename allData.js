@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/24/2022';
+var lastUpdated = '3/25/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9987,7 +9987,9 @@ var allData = [
     "state": "New Mexico",
     "region": "Rocky Mountains",
     "city": "Cloudcroft",
-    "videos": [],
+    "videos": [
+      "Ul61yIC6b-0"
+    ],
     "position": {
       "lat": 32.952745647789015,
       "lng": -105.709018288534

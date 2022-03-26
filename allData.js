@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/25/2022';
+var lastUpdated = '3/26/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9964,7 +9964,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Ruidoso",
     "videos": [
-      "MVSnfids-oE"
+      "MVSnfids-oE",
+      "Ul61yIC6b-0"
     ],
     "position": {
       "lat": 33.39751608223284,
@@ -9988,7 +9989,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Cloudcroft",
     "videos": [
-      "Ul61yIC6b-0"
+      "nNn4gft8kII"
     ],
     "position": {
       "lat": 32.952745647789015,

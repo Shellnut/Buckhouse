@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/27/2022';
+var lastUpdated = '3/29/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7771,7 +7771,9 @@ var allData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Mount Crested Butte",
-    "videos": [],
+    "videos": [
+      "c4PPDQEQcdU"
+    ],
     "position": {
       "lat": 38.89922047595514,
       "lng": -106.96579698841482
@@ -7932,6 +7934,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "tSF3FEkxNVU",
       "HWNrntwx5co",
       "TMBQGE_9kKQ",
       "E-EQuMMlCKQ",

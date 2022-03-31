@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '3/29/2022';
+var lastUpdated = '3/31/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4492,28 +4492,6 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Apple Mountain Ski Resort",
-    "state": "Michigan",
-    "region": "Midwest",
-    "city": "Freeland",
-    "videos": [],
-    "position": {
-      "lat": 43.47284073336986,
-      "lng": -84.10303951662657
-    },
-    "officialSkiResort": true,
-    "id": "412",
-    "website": "http://applemountain.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/412/2200/1454814318.jpeg",
-    "country": "United States"
-  },
-  {
     "resortName": "Big Powderhorn Ski Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -4713,28 +4691,6 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/429/2200/1520792728jpg_render.jpg",
-    "country": "United States"
-  },
-  {
-    "resortName": "Garland Resort",
-    "state": "Michigan",
-    "region": "Midwest",
-    "city": "Lewiston",
-    "videos": [],
-    "position": {
-      "lat": 44.819066889470086,
-      "lng": -84.30980572076808
-    },
-    "officialSkiResort": true,
-    "id": "13026",
-    "website": "https://www.garlandusa.com/winter-activities/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/13026/2200/1521060103jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -5015,28 +4971,6 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/395/916/1335919536.jpg",
-    "country": "United States"
-  },
-  {
-    "resortName": "Norway Mountain Ski and Snowboard Resort",
-    "state": "Michigan",
-    "region": "Midwest",
-    "city": "Norway",
-    "videos": [],
-    "position": {
-      "lat": 45.79012008136151,
-      "lng": -87.86972428174172
-    },
-    "officialSkiResort": true,
-    "id": "410",
-    "website": "https://www.facebook.com/skinorwaymountain/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/410/7/1235838578.jpg",
     "country": "United States"
   },
   {
@@ -7772,7 +7706,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Mount Crested Butte",
     "videos": [
-      "c4PPDQEQcdU"
+      "c4PPDQEQcdU",
+      "Xo8tW7Inm6I"
     ],
     "position": {
       "lat": 38.89922047595514,

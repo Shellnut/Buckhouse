@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '4/2/2022';
+var lastUpdated = '4/4/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7301,6 +7301,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
+      "e9BtCjjshHk",
       "rK-eucHAegQ",
       "EMBZnbWkm4E",
       "XnoWEKhU_4M",
@@ -7869,6 +7870,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "MLDho-WaJLY",
       "ps-xMrgKRmI",
       "tSF3FEkxNVU",
       "HWNrntwx5co",
@@ -8858,7 +8860,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
-      "d9kWhiDpzvs",
+      "dFZzgZkpb8I",
       "iJQ4PfdEjIk",
       "lyecHTwSqdw",
       "qEMIM4gMHbE",

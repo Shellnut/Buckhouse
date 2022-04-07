@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '4/4/2022';
+var lastUpdated = '4/7/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10731,14 +10731,14 @@ var allData = [
     },
     "officialSkiResort": true,
     "id": "555",
-    "website": "http://www.alsap.org/ArcticValley/ArcticValley.htm",
+    "website": "https://arcticvalley.org/",
     "resortReview": {
       "score": "",
       "link": "",
       "note": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/555/1923/1610459087.jpg",
+    "mapLink": "https://skimap.org/data/555/2200/1645140860.jpg",
     "country": "United States"
   },
   {

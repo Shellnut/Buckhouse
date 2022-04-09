@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '4/7/2022';
+var lastUpdated = '4/9/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7870,6 +7870,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "gG92tEiDRQA",
+      "lu56p5e9r7Y",
       "MLDho-WaJLY",
       "ps-xMrgKRmI",
       "tSF3FEkxNVU",
@@ -8482,7 +8484,6 @@ var allData = [
     "city": "Steamboat Springs",
     "videos": [
       "F9qyOfcTeHU",
-      "NQrvMYKgg94",
       "znrBpiWe8uI",
       "LRYcqii3QVs",
       "dkac4hATPoc",
@@ -8508,6 +8509,31 @@ var allData = [
       "Ikon"
     ],
     "mapLink": "https://skimap.org/data/500/3100/1632364993.png",
+    "country": "United States"
+  },
+  {
+    "resortName": "Steamboat Powder Cats",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Steamboat Springs",
+    "videos": [
+      "NQrvMYKgg94"
+    ],
+    "position": {
+      "lat": 40.50421633853206,
+      "lng": -106.78685877175852
+    },
+    "officialSkiResort": true,
+    "snowcatOnly": true,
+    "id": "",
+    "website": "https://www.steamboatpowdercats.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "",
     "country": "United States"
   },
   {

@@ -1423,6 +1423,27 @@
         shadowSize: [41, 41]
       });
 
+      // Green Helicopter Icon (visited)
+      var greenSnowcatIcon = new L.Icon({
+        iconUrl: `img/${iconPreference}/visited_snowcat.png`,
+        shadowUrl: 'img/marker_shadow.png',
+        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [50, 45],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
+      // Red Helicopter Icon (not yet visited)
+      var redSnowcatIcon = new L.Icon({
+        iconUrl: `img/${iconPreference}/not_visited_snowcat.png`,
+        shadowUrl: 'img/marker_shadow.png',
+        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [50, 45],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
+
       // Red Helicopter Icon (not yet visited)
       var homeIcon = new L.Icon({
         iconUrl: `img/${iconPreference}/home.png`,
@@ -1491,6 +1512,14 @@
         else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length === 0) {
            icon = redHelicopterIcon; // not yet visited for helicopter only resort
            circleColor = 'black';
+        }
+        else if (allDataMap[i].snowcatOnly && allDataMap[i].videos.length > 0) {
+           icon = greenSnowcatIcon; // visited helicopter only resort
+           circleColor = 'green';
+        }
+        else if (allDataMap[i].snowcatOnly && allDataMap[i].videos.length === 0) {
+           icon = redSnowcatIcon; // not yet visited for helicopter only resort
+           circleColor = 'red';
         }
         else if (allDataMap[i].videos.length > 0) {
            icon = greenIcon; // visited

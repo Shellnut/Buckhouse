@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '4/9/2022';
+var lastUpdated = '4/13/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6980,6 +6980,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "fDkU9aJQo-M",
       "ejYIkiTEWZI",
       "0ylYfn6qnHI",
       "l1x2qsZdauo",
@@ -8959,7 +8960,8 @@ var allData = [
     "city": "Denver",
     "officialSkiResort": false,
     "videos": [
-      "vQs0pbVZ9HQ"
+      "vQs0pbVZ9HQ",
+      "N2nfy1WeH9c"
     ],
     "position": {
       "lat": 39.68836495750509,
@@ -10750,7 +10752,9 @@ var allData = [
     "state": "Alaska",
     "region": "West Coast",
     "city": "Anchorage",
-    "videos": [],
+    "videos": [
+      "SIN6sBWqSpU"
+    ],
     "position": {
       "lat": 61.246861628729334,
       "lng": -149.53474906875422
@@ -10944,6 +10948,30 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3003/2200/1612028184.jpeg",
+    "country": "United States"
+  },
+  {
+    "resortName": "Ski Bowl Road (Near Arctic Valley)",
+    "state": "Alaska",
+    "region": "West Coast",
+    "city": "Anchorage",
+    "videos": [
+      "7Ja2X-oCVSg"
+    ],
+    "position": {
+      "lat": 61.25480833542474,
+      "lng": -149.5298813571225
+    },
+    "officialSkiResort": false,
+    "id": "",
+    "website": "https://goo.gl/maps/U3vyGzvtqMMPNPMm7",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "",
     "country": "United States"
   },
   {

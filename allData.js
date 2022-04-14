@@ -6881,6 +6881,28 @@ var allData = [
     "country": "United States"
   },
   {
+    "resortName": "Pinehurst",
+    "state": "Wisconsin",
+    "region": "Midwest",
+    "city": "",
+    "videos": [],
+    "position": {
+      "lat": 44.853769653067545,
+      "lng": -91.45300626754761
+    },
+    "officialSkiResort": true,
+    "id": "12871",
+    "website": "http://www.pinehurstpark.org/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/12871/4359/1632600904.jpg",
+    "country": "United States"
+  },
+  {
     "resortName": "Arizona Snowbowl",
     "state": "Arizona",
     "region": "Rocky Mountains",
@@ -10948,6 +10970,29 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3003/2200/1612028184.jpeg",
+    "country": "United States"
+  },
+  {
+    "resortName": "Chugach Powder Guides",
+    "state": "Alaska",
+    "region": "West Coast",
+    "city": "Girdwood",
+    "videos": [],
+    "position": {
+      "lat": 61.00138875500095,
+      "lng": -148.95336992515027
+    },
+    "officialSkiResort": true,
+    "snowcatOnly": true,
+    "id": "",
+    "website": "https://www.chugachpowderguides.com/experience/snowcat-skiing",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "",
     "country": "United States"
   },
   {

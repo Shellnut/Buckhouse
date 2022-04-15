@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '4/13/2022';
+var lastUpdated = '4/15/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10775,7 +10775,7 @@ var allData = [
     "region": "West Coast",
     "city": "Anchorage",
     "videos": [
-      "SIN6sBWqSpU"
+      "qHDZksnaDJ0"
     ],
     "position": {
       "lat": 61.246861628729334,
@@ -10798,7 +10798,9 @@ var allData = [
     "state": "Alaska",
     "region": "West Coast",
     "city": "Girdwood",
-    "videos": [],
+    "videos": [
+      "v0HY9ScuCFQ"
+    ],
     "position": {
       "lat": 60.97052578896564,
       "lng": -149.09843629945024

@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '4/15/2022';
+var lastUpdated = '4/18/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8909,6 +8909,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "eveJWfLS8mI",
       "dFZzgZkpb8I",
       "iJQ4PfdEjIk",
       "lyecHTwSqdw",
@@ -10957,7 +10958,9 @@ var allData = [
     "state": "Alaska",
     "region": "West Coast",
     "city": "Palmer",
-    "videos": [],
+    "videos": [
+      "ZMp5sESTPJw"
+    ],
     "position": {
       "lat": 61.7431619826226,
       "lng": -149.23385156253838
@@ -10979,7 +10982,9 @@ var allData = [
     "state": "Alaska",
     "region": "West Coast",
     "city": "Girdwood",
-    "videos": [],
+    "videos": [
+      "87R3Jq-bsUo"
+    ],
     "position": {
       "lat": 61.00138875500095,
       "lng": -148.95336992515027

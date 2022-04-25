@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '4/18/2022';
+var lastUpdated = '4/24/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7373,6 +7373,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "SKooeLCbaFc",
       "8zGR8aXgbgk",
       "Q1kdv7WgBmk",
       "vUio99fiogw",
@@ -7558,6 +7559,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "ORSF8EZ7zqA",
       "DzwFU4F4gd4",
       "UlNYh_LPleU",
       "KGk2UvqzILc",
@@ -10800,6 +10802,8 @@ var allData = [
     "region": "West Coast",
     "city": "Girdwood",
     "videos": [
+      "AaLxz9SOL6A",
+      "ho6zD6q6XCI",
       "v0HY9ScuCFQ"
     ],
     "position": {
@@ -10983,7 +10987,8 @@ var allData = [
     "region": "West Coast",
     "city": "Girdwood",
     "videos": [
-      "87R3Jq-bsUo"
+      "87R3Jq-bsUo",
+      "8bzZdAVtvuM"
     ],
     "position": {
       "lat": 61.00138875500095,

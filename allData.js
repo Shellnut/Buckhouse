@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '5/2/2022';
+var lastUpdated = '5/12/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7373,6 +7373,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "7l2DwP-dGkA",
       "PDW_QRw4K1s",
       "qPWKRnKetaw",
       "FQ6cm56A1b8",
@@ -9014,6 +9015,7 @@ var allData = [
     "city": "Frisco",
     "officialSkiResort": true,
     "videos": [
+      "OKw9zlhnrbw",
       "SDIMKBhCGE0",
       "agIeWZPpAZs",
       "rqB5LVrZv-M",
@@ -9064,6 +9066,7 @@ var allData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "_hLQjR_-7xY",
       "qQ23NtPu7hs",
       "C9P5o4ZW3LU",
       "KT_qMrCUnTs"
@@ -10806,6 +10809,7 @@ var allData = [
     "region": "West Coast",
     "city": "Girdwood",
     "videos": [
+      "fOkjNBzZaCs",
       "AaLxz9SOL6A",
       "6fIslwYU-S0",
       "ho6zD6q6XCI",
@@ -11422,6 +11426,9 @@ var allData = [
     "region": "West Coast",
     "city": "Mammoth Lakes",
     "videos": [
+      "o4TW1Cabs_w",
+      "mecsFf_Jb1Q",
+      "S61b5y0TiOw",
       "n3D7tvxMcbo",
       "13EteTV9qHg",
       "ZI7mzBa-3OE",

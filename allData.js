@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '5/12/2022';
+var lastUpdated = '6/13/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7002,6 +7002,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "sksDFKnajw8",
       "fDkU9aJQo-M",
       "ejYIkiTEWZI",
       "0ylYfn6qnHI",
@@ -10809,6 +10810,8 @@ var allData = [
     "region": "West Coast",
     "city": "Girdwood",
     "videos": [
+      "cfTmEZJ_SSA",
+      "Skz2x52SP-k",
       "fOkjNBzZaCs",
       "AaLxz9SOL6A",
       "6fIslwYU-S0",
@@ -11426,6 +11429,24 @@ var allData = [
     "region": "West Coast",
     "city": "Mammoth Lakes",
     "videos": [
+      "HgT8_RRJi3c",
+      "T2d8ItgTolA",
+      "6Bf0PGrGYBE",
+      "uFog61tQvaA",
+      "HEddsnEAnk4",
+      "j2NQ0vlp170",
+      "zt0dfxqZ-Vs",
+      "sW6Uqvvfa_Q",
+      "lijweQiCXKE",
+      "CQ4gXXYFi7w",
+      "iVV52ZGmrgw",
+      "sRXi0tmyZoQ",
+      "k02ag5cMrhQ",
+      "PdY0vXsAM3s",
+      "41fM6MA5v_8",
+      "dYn6dgkIRj8",
+      "mx_sI_Za44o",
+      "acXBtdG8qNo",
       "o4TW1Cabs_w",
       "mecsFf_Jb1Q",
       "S61b5y0TiOw",
@@ -12109,6 +12130,11 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "RplkZgHxdC0",
+      "YS909JIhtIU",
+      "Rn1tNaiaglc",
+      "B0RjTuipRgo",
+      "QG9aZV7ckHo",
       "gWFispyvb5Y",
       "Xf4namL9ja8",
       "gUo8dYHOH1M",

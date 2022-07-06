@@ -10099,28 +10099,6 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Texas Ski Ranch",
-    "state": "Texas",
-    "region": "Southeast",
-    "city": "New Braunfels",
-    "videos": [],
-    "position": {
-      "lat": 29.769493264872253,
-      "lng": -98.04066083862271
-    },
-    "officialSkiResort": true,
-    "id": "",
-    "website": "https://www.texasskiranch.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "",
-    "country": "United States"
-  },
-  {
     "resortName": "Alta",
     "state": "Utah",
     "region": "Rocky Mountains",

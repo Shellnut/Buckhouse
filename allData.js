@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '6/13/2022';
+var lastUpdated = '7/5/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7002,6 +7002,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "tB8-Lum3A9U",
       "sksDFKnajw8",
       "fDkU9aJQo-M",
       "ejYIkiTEWZI",
@@ -7374,6 +7375,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "BYtcL6IRHnc",
       "7l2DwP-dGkA",
       "PDW_QRw4K1s",
       "qPWKRnKetaw",
@@ -9897,6 +9899,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Red River",
     "videos": [
+      "fIWGJU7bWkQ",
       "TaZAU8EBF88"
     ],
     "position": {
@@ -9907,9 +9910,19 @@ var allData = [
     "id": "333",
     "website": "https://www.redriverskiarea.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 46,
+      "link": "fIWGJU7bWkQ",
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "3",
+      "lodging": "0",
+      "chairLifts": "5",
+      "runs": "5",
+      "terrainPark": "6",
+      "food": "5",
+      "employees": "6",
+      "views": "4",
+      "wouldIGoBack": "7"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/333/3535/1618777091jpg_render.jpg",
@@ -10810,6 +10823,7 @@ var allData = [
     "region": "West Coast",
     "city": "Girdwood",
     "videos": [
+      "0XK9dq2VU4k",
       "cfTmEZJ_SSA",
       "Skz2x52SP-k",
       "fOkjNBzZaCs",
@@ -12130,6 +12144,12 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "s3hh_P5abVk",
+      "3gAV_bS-xr4",
+      "PZqa4epazWo",
+      "rc1BwNMxInk",
+      "pHBES2llATs",
+      "SCeIXKkKfxE",
       "RplkZgHxdC0",
       "YS909JIhtIU",
       "Rn1tNaiaglc",

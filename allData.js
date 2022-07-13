@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '7/5/2022';
+var lastUpdated = '7/13/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1696,7 +1696,6 @@ var allData = [
     "city": "Killington",
     "videos": [
       "ZOeCwntoVtE",
-      "ZKxshRQC66w"
     ],
     "position": {
       "lat": 43.626463482520855,
@@ -1866,7 +1865,6 @@ var allData = [
     "region": "New England",
     "city": "West Dover",
     "videos": [
-      "SvYeSrOyf_c",
       "-mvFOkabbl0",
       "_87dos9R-v4",
       "DsWE-5wW1hg"
@@ -2193,7 +2191,6 @@ var allData = [
       "5ZDB0QuoFxc",
       "1b0xhSsTEOw",
       "-vhU47d1AGk",
-      "gpsfxa1XqPc",
       "mem-CIP2YtY",
       "y-ItqbR7lRY",
       "SiGuxDeDSeY",
@@ -2234,8 +2231,7 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "Mahwah",
     "videos": [
-      "WaGdIsCQdvc",
-      "_5cfWpVnvhY"
+      "WaGdIsCQdvc"
     ],
     "position": {
       "lat": 41.059356280224485,
@@ -2493,8 +2489,7 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "North Creek",
     "videos": [
-      "aSBHRrFU1Og",
-      "ALt-VpjRQew"
+      "aSBHRrFU1Og"
     ],
     "position": {
       "lat": 43.67414698551106,
@@ -2638,8 +2633,7 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "Hunter",
     "videos": [
-      "PiA0bdO8tAI",
-      "mpoKns226DM"
+      "PiA0bdO8tAI"
     ],
     "position": {
       "lat": 42.20377699301453,
@@ -2987,8 +2981,7 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "Glens Falls",
     "videos": [
-      "l6978o4mw1g",
-      "1T4nnsYp-gI"
+      "l6978o4mw1g"
     ],
     "position": {
       "lat": 43.286431660901286,
@@ -3786,8 +3779,7 @@ var allData = [
     "region": "Southeast",
     "city": "Blowing Rock",
     "videos": [
-      "_AnRnjuJNXo",
-      "XvI0SCH_0CA"
+      "_AnRnjuJNXo"
     ],
     "position": {
       "lat": 36.173468638681165,
@@ -3865,8 +3857,7 @@ var allData = [
     "region": "Southeast",
     "city": "Beech Mountain",
     "videos": [
-      "W4wR6QML3XE",
-      "8zvrlaf4Utg"
+      "W4wR6QML3XE"
     ],
     "position": {
       "lat": 36.195625208901824,
@@ -3900,8 +3891,7 @@ var allData = [
     "region": "Southeast",
     "city": "Sugar Mountain",
     "videos": [
-      "SUvpR8jJF4M",
-      "Y2-2iAjBUqE"
+      "SUvpR8jJF4M"
     ],
     "position": {
       "lat": 36.13369100484302,
@@ -4073,7 +4063,6 @@ var allData = [
       "B_rNQNIoBLU",
       "8Ua7njpZBLc",
       "rkA9nxTJIvU",
-      "DGvkcX8QI-g",
       "TW_aCTT7UYw",
     ],
     "position": {
@@ -4483,9 +4472,19 @@ var allData = [
     "id": "415",
     "website": "https://skialpinevalley.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 41,
+      "link": "bwb6MIdhk0g",
+      "note": "",
+      "price": "8",
+      "easeOfAccess": "7",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "6",
+      "views": "3",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/415/3523/1559146403.jpg",
@@ -5337,8 +5336,7 @@ var allData = [
     "region": "Midwest",
     "city": "Burnsville",
     "videos": [
-      "uQ4_fewP7-Q",
-      "pPRYAx7GMfs"
+      "uQ4_fewP7-Q"
     ],
     "position": {
       "lat": 44.724632484858674,
@@ -5483,7 +5481,6 @@ var allData = [
     "city": "Bloomington",
     "videos": [
       "piO2Qq-UJu0",
-      "NfBk_WQM7PM",
       "gcvMTBF3lYU",
       "SdhESMcpxnk"
     ],
@@ -6072,8 +6069,7 @@ var allData = [
     "region": "Midwest",
     "city": "East Troy",
     "videos": [
-      "jpFaLyNq-qI",
-      "6a--suhNwak"
+      "jpFaLyNq-qI"
     ],
     "position": {
       "lat": 42.73670694583553,
@@ -6288,8 +6284,7 @@ var allData = [
     "region": "Midwest",
     "city": "Franklin",
     "videos": [
-      "ox7fADJJprI",
-      "HTapi9Qq1-0"
+      "ox7fADJJprI"
     ],
     "position": {
       "lat": 42.9207217405258,
@@ -6481,8 +6476,7 @@ var allData = [
     "region": "Midwest",
     "city": "Slinger",
     "videos": [
-      "UYWyxIXo4as",
-      "bTCoyE-aXcM"
+      "UYWyxIXo4as"
     ],
     "position": {
       "lat": 43.338604524942745,
@@ -7400,7 +7394,6 @@ var allData = [
       "cGtFNU-YkkY",
       "f5LkSrM38Nk",
       "gRY-ZBM0F94",
-      "_tSdgrJk3h8",
       "vZeYF3L99Tk",
       "UA-qEGYqNIo",
       "q9_YTMmVES0",
@@ -7705,7 +7698,6 @@ var allData = [
     "city": "Gunnison",
     "videos": [
       "_Xp0HRk64ys",
-      "kdpqtPvSQfs",
       "7accKVSZDbc"
     ],
     "position": {
@@ -7741,6 +7733,7 @@ var allData = [
     "city": "Mount Crested Butte",
     "videos": [
       "c4PPDQEQcdU",
+      "vw5302p96_I",
       "Xo8tW7Inm6I"
     ],
     "position": {
@@ -7767,8 +7760,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Evergreen",
     "videos": [
-      "ZlIiWYVypZE",
-      "Qvgs4xEa6k0"
+      "ZlIiWYVypZE"
     ],
     "position": {
       "lat": 39.68472204161028,
@@ -7963,7 +7955,6 @@ var allData = [
       "quWnlnl88VI",
       "BnjHJWVM-eA",
       "4w5fU75RmzE",
-      "28gC3Ea-imo",
       "BAHiTfrprKs",
       "gUFkKGsl5tM",
       "ds6cyTPTMxc",
@@ -8459,7 +8450,6 @@ var allData = [
       "JQnkiIR__hw",
       "O9VQLnjHn54",
       "WDWstwmxBGo",
-      "qJisBzad4ZA",
       "AAo147A-G_0",
     ],
     "position": {
@@ -8719,7 +8709,6 @@ var allData = [
     "city": "Pagosa Springs",
     "videos": [
       "kDJ9eyKGMB8",
-      "M0zvy8vcAjY",
       "9w2g01-aDZY",
       "IB9d-8ifzEw",
       "JBlns5NbQqg",
@@ -9899,7 +9888,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Red River",
     "videos": [
-      "fIWGJU7bWkQ",
       "TaZAU8EBF88"
     ],
     "position": {
@@ -10291,7 +10279,6 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Park City",
     "videos": [
-      "sq_LFhyqXbg",
       "cGf2K3kd7AE",
       "d3DKF2Q1JZU",
       "yt68HVtKAus",
@@ -10336,8 +10323,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Park City",
     "videos": [
-      "iBM8QoUD7Ec",
-      "J80SzgL-N1Y"
+      "iBM8QoUD7Ec"
     ],
     "position": {
       "lat": 40.75506564993516,
@@ -10807,8 +10793,8 @@ var allData = [
       "fOkjNBzZaCs",
       "AaLxz9SOL6A",
       "6fIslwYU-S0",
-      "ho6zD6q6XCI",
-      "v0HY9ScuCFQ"
+      "v0HY9ScuCFQ",
+      "ho6zD6q6XCI"
     ],
     "position": {
       "lat": 60.97052578896564,
@@ -11296,7 +11282,6 @@ var allData = [
     "city": "South Lake Tahoe",
     "videos": [
       "NrFkkgTPgxU",
-      "6PQV6lKwGUA",
       "84c37-_3WJM",
       "mfm3a3og3LI",
       "h_W4dZ0rAgs",
@@ -11565,7 +11550,6 @@ var allData = [
     "region": "West Coast",
     "city": "Truckee",
     "videos": [
-      "PXdEWAuTKEU",
       "Jof3367cmgQ",
       "H1Q-pGGMlzg",
       "hRxzdR8whLo",
@@ -11796,7 +11780,6 @@ var allData = [
     "city": "Las Vegas",
     "videos": [
       "FOHDFI5JmcU",
-      "UZGgJmE1o3g",
       "5wfE3GL8tQ4",
       "PlwA08EGj20"
     ],
@@ -12150,7 +12133,6 @@ var allData = [
       "jflhB6SSGA8",
       "47uD20WbmE4",
       "xFcRhLtXm2A",
-      "2AgHpI1Tab8",
       "g1FlWFSGGGA",
       "Eq7TKyVN_-o",
       "YmjtC2lfnXQ",
@@ -12296,8 +12278,7 @@ var allData = [
     "region": "West Coast",
     "city": "near Enumclaw",
     "videos": [
-      "DLHZ-143s_s",
-      "eEw65ZpAr4o"
+      "DLHZ-143s_s"
     ],
     "position": {
       "lat": 46.935457448813246,

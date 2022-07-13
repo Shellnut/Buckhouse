@@ -422,7 +422,6 @@
             <hr>
             <hr>
             <h3>Johnathan's Stats</h3>
-            <!-- <p><i>Last updated: {{newResortStatsLastUpdated}}</i></p> -->
 
             <p><b>Every U.S. Ski Resort Progress</b></p>
             <div class="row">
@@ -482,18 +481,11 @@
             </div>
 
             <div id='newResortsBySeason'></div>
-            <!-- <div id='viewMetrics' ng-show="showMetrics"> -->
-               <!-- <h3>Johnathan's YouTube Video View Count Stats</h3>
-               <p>Video view metrics were last updated on {{newResortStatsLastUpdated}}</p>
-               <p><i> - Video view counts are cummulative. For example, Season 4 videos have been gathering views on YouTube since Season 4.</i></p>
-               <p><i> - These video view counts are strictly videos from the resort map. Family vlogs, live streams, mountain bike videos, etc. are not included in these metrics.</i></p> -->
-               <div id='viewsBySeason'></div>
-               <div id='videosBySeason'></div>
-               <div id='viewsTotalBySeason'></div>
-               <div id='videoViewsByMonth'></div>
-               <div id='totalViewsPerMonth'></div>
-            </div>
-
+            <div id='viewsBySeason'></div>
+            <div id='videosBySeason'></div>
+            <div id='viewsTotalBySeason'></div>
+            <div id='videoViewsByMonth'></div>
+            <div id='totalViewsPerMonth'></div>
 
             <p><b>Notes:</b></p>
             <ul>
@@ -643,7 +635,6 @@
           $scope.reverseSort = true;
 
           // New Resorts
-          $scope.newResortStatsLastUpdated = newResortStatsLastUpdated;
           $scope.regionData = regionData;
           $scope.stateData = stateData;
 
@@ -998,12 +989,7 @@
             var myVideos = modalData.usData
                .filter(val => val.officialSkiResort && (val.videos.length > 0))
                .map(val => {
-                  var myLength = val.videos.length-1;
-                  // Grab the vlog instead of the resort review
-                  if (val.videos.length === 2) {
-                     myLength = 0;
-                  }
-                  var myId = val.videos[myLength]; 
+                  var myId = val.videos[val.videos.length-1]; 
                   var myInfo = modalData.videoData.filter(vidDataVal => vidDataVal.id === myId)[0];
                      return {
                         id: myId,

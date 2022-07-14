@@ -423,26 +423,14 @@
             <hr>
             <h3>Johnathan's Stats</h3>
 
-            <p><b>Every U.S. Ski Resort Progress</b></p>
+            <p><b>Every <span ng-show="!showGlobal">U.S.</span><span ng-show="showGlobal">Global</span> Ski Resort Progress</b></p>
             <div class="row">
                   <my-progress-bar title="Overall" progress="{{(visitedCount / skiResortCount)*100}}"></my-progress-bar>
             </div>
             
-            <p><b>State Visited Progress</b></p>
-
+            <!-- A bunch of graphs -->
             <div id='StateVisitedHeatMap'></div>
-
-            <p><b>Region Visited Progress</b></p>
-            <div class="row">
-               <my-progress-bar title="Midwest" progress="{{regionData.midwest}}"></my-progress-bar>
-               <my-progress-bar title="West Coast" progress="{{regionData.westCoast}}"></my-progress-bar>
-               <my-progress-bar title="Rocky Mountain" progress="{{regionData.rockyMountain}}"></my-progress-bar>
-               <my-progress-bar title="New England" progress="{{regionData.newEngland}}"></my-progress-bar>
-               <my-progress-bar title="Mid-Atlantic" progress="{{regionData.midAtlantic}}"></my-progress-bar>
-               <my-progress-bar title="Southeast" progress="{{regionData.southeast}}"></my-progress-bar>
-            </div>
-
-            
+            <div id='RegionVisitedHeatMap'></div>
             <div id='newResortsBySeason'></div>
             <div id='viewsBySeason'></div>
             <div id='videosBySeason'></div>

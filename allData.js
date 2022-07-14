@@ -4312,9 +4312,19 @@ var allData = [
     "id": "474",
     "website": "http://www.villaolivia.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 36,
+      "link": "EqToCTkEm0w",
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "10",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "2",
+      "food": "2",
+      "employees": "4",
+      "views": "4",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/474/217/1324518103.jpg",

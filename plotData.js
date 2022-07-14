@@ -676,7 +676,6 @@ Plotly.newPlot('totalViewsPerMonth', monthTotalData, monthTotalLayout, config);
 
 
 // Visited State Heatmap
-
 var myLocations = [
   "AL",
   "AK",
@@ -730,7 +729,7 @@ var myLocations = [
   "WY"
 ];
 var myStates = [
-  `Alabama ${alabamaData.filter(val=>val.videos.length>0).length}/${alabamaData.length} ($Math.round(stateData.alabama)}%)`,
+  `Alabama ${alabamaData.filter(val=>val.videos.length>0).length}/${alabamaData.length} (${Math.round(stateData.alabama)}%)`,
   `Alaska ${alaskaData.filter(val=>val.videos.length>0).length}/${alaskaData.length} (${Math.round(stateData.alaska)}%)`,
   `Arizona ${arizonaData.filter(val=>val.videos.length>0).length}/${arizonaData.length} (${Math.round(stateData.arizona)}%)`,
   `Arkansas 0/0 (${Math.round(stateData.arkansas)}%)`,
@@ -842,11 +841,7 @@ var visitedStateData = [{
   text: myStates,
   zmin: 0,
   zmax: 100,
-  colorscale: [
-      [0, 'rgb(242,240,247)'], [0.2, 'rgb(218,218,235)'],
-      [0.4, 'rgb(188,189,220)'], [0.6, 'rgb(158,154,200)'],
-      [0.8, 'rgb(117,107,177)'], [1, 'rgb(84,39,143)']
-  ],
+  autocolorscale: true,
   colorbar: {
       title: '% visited',
   },
@@ -858,7 +853,7 @@ var visitedStateData = [{
 }];
 
 var layout = {
-  title: 'Visited Resorts by state',
+  title: 'Visited Resorts by State',
   geo:{
       scope: 'usa',
       showlakes: true,
@@ -867,3 +862,140 @@ var layout = {
 };
 
 Plotly.newPlot("StateVisitedHeatMap", visitedStateData, layout, {showLink: false});
+
+
+// Visited Region Heatmap
+var myRegionStates = [
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Alabama
+  `West Coast ${westCoastData.filter(val=>val.videos.length>0).length}/${westCoastData.length} (${Math.round(regionData.westCoast)}%)`, // Alaska
+  `Rocky Mountains ${rockyMountainData.filter(val=>val.videos.length>0).length}/${rockyMountainData.length} (${Math.round(regionData.rockyMountain)}%)`, // Arizona
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Arkansas
+  `West Coast ${westCoastData.filter(val=>val.videos.length>0).length}/${westCoastData.length} (${Math.round(regionData.westCoast)}%)`, // California
+  `Rocky Mountains ${rockyMountainData.filter(val=>val.videos.length>0).length}/${rockyMountainData.length} (${Math.round(regionData.rockyMountain)}%)`, // Colorado
+  `New England ${newEnglandData.filter(val=>val.videos.length>0).length}/${newEnglandData.length} (${Math.round(regionData.newEngland)}%)`, // Connecticut
+  `Mid-Atlantic ${midAtlanticData.filter(val=>val.videos.length>0).length}/${midAtlanticData.length} (${Math.round(regionData.midAtlantic)}%)`, // Delaware
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Florida
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Georgia
+  `West Coast ${westCoastData.filter(val=>val.videos.length>0).length}/${westCoastData.length} (${Math.round(regionData.westCoast)}%)`, // Hawaii
+  `Rocky Mountains ${rockyMountainData.filter(val=>val.videos.length>0).length}/${rockyMountainData.length} (${Math.round(regionData.rockyMountain)}%)`, // Idaho
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Illinois
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Indiana
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Iowa
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Kansas
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Kentucky
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Louisiana
+  `New England ${newEnglandData.filter(val=>val.videos.length>0).length}/${newEnglandData.length} (${Math.round(regionData.newEngland)}%)`, // Maine
+  `Mid-Atlantic ${midAtlanticData.filter(val=>val.videos.length>0).length}/${midAtlanticData.length} (${Math.round(regionData.midAtlantic)}%)`, // Maryland
+  `New England ${newEnglandData.filter(val=>val.videos.length>0).length}/${newEnglandData.length} (${Math.round(regionData.newEngland)}%)`, // Massachusetts
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Michigan
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Minnesota
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Mississippi
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Missouri
+  `Rocky Mountains ${rockyMountainData.filter(val=>val.videos.length>0).length}/${rockyMountainData.length} (${Math.round(regionData.rockyMountain)}%)`, // Montana
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Nebraska
+  `West Coast ${westCoastData.filter(val=>val.videos.length>0).length}/${westCoastData.length} (${Math.round(regionData.westCoast)}%)`, // Nevada
+  `New England ${newEnglandData.filter(val=>val.videos.length>0).length}/${newEnglandData.length} (${Math.round(regionData.newEngland)}%)`, // New Hampshire
+  `Mid-Atlantic ${midAtlanticData.filter(val=>val.videos.length>0).length}/${midAtlanticData.length} (${Math.round(regionData.midAtlantic)}%)`, // New Jersey
+  `Rocky Mountains ${rockyMountainData.filter(val=>val.videos.length>0).length}/${rockyMountainData.length} (${Math.round(regionData.rockyMountain)}%)`, // New Mexico
+  `Mid-Atlantic ${midAtlanticData.filter(val=>val.videos.length>0).length}/${midAtlanticData.length} (${Math.round(regionData.midAtlantic)}%)`, // New York
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // North Carolina
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // North Dakota
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Ohio
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Oklahoma
+  `West Coast ${westCoastData.filter(val=>val.videos.length>0).length}/${westCoastData.length} (${Math.round(regionData.westCoast)}%)`, // Oregon
+  `Mid-Atlantic ${midAtlanticData.filter(val=>val.videos.length>0).length}/${midAtlanticData.length} (${Math.round(regionData.midAtlantic)}%)`, // Pennsylvania
+  `New England ${newEnglandData.filter(val=>val.videos.length>0).length}/${newEnglandData.length} (${Math.round(regionData.newEngland)}%)`, // Rhode Island
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // South Carolina
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // South Dakota
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Tennessee
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Texas
+  `Rocky Mountains ${rockyMountainData.filter(val=>val.videos.length>0).length}/${rockyMountainData.length} (${Math.round(regionData.rockyMountain)}%)`, // Utah
+  `New England ${newEnglandData.filter(val=>val.videos.length>0).length}/${newEnglandData.length} (${Math.round(regionData.newEngland)}%)`, // Vermont
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // Virginia
+  `West Coast ${westCoastData.filter(val=>val.videos.length>0).length}/${westCoastData.length} (${Math.round(regionData.westCoast)}%)`, // Washington
+  `Southeast ${southeastData.filter(val=>val.videos.length>0).length}/${southeastData.length} (${Math.round(regionData.southeast)}%)`, // West Virginia
+  `Midwest ${midwestData.filter(val=>val.videos.length>0).length}/${midwestData.length} (${Math.round(regionData.midwest)}%)`, // Wisconsin
+  `Rocky Mountains ${rockyMountainData.filter(val=>val.videos.length>0).length}/${rockyMountainData.length} (${Math.round(regionData.rockyMountain)}%)`, // Wyoming
+];
+var myVisitedRegionStatePercents = [
+    Math.round(regionData.southeast),
+    Math.round(regionData.westCoast),
+    Math.round(regionData.rockyMountain),
+    Math.round(regionData.southeast),
+    Math.round(regionData.westCoast),
+    Math.round(regionData.rockyMountain),
+    Math.round(regionData.newEngland),
+    Math.round(regionData.midAtlantic),
+    Math.round(regionData.southeast),
+    Math.round(regionData.southeast),
+    Math.round(regionData.westCoast),
+    Math.round(regionData.rockyMountain),
+    Math.round(regionData.midwest),
+    Math.round(regionData.midwest),
+    Math.round(regionData.midwest),
+    Math.round(regionData.midwest),
+    Math.round(regionData.southeast),
+    Math.round(regionData.southeast),
+    Math.round(regionData.newEngland),
+    Math.round(regionData.midAtlantic),
+    Math.round(regionData.newEngland),
+    Math.round(regionData.midwest),
+    Math.round(regionData.midwest),
+    Math.round(regionData.southeast),
+    Math.round(regionData.midwest),
+    Math.round(regionData.rockyMountain),
+    Math.round(regionData.midwest),
+    Math.round(regionData.westCoast),
+    Math.round(regionData.newEngland),
+    Math.round(regionData.midAtlantic),
+    Math.round(regionData.rockyMountain),
+    Math.round(regionData.midAtlantic),
+    Math.round(regionData.southeast),
+    Math.round(regionData.midwest),
+    Math.round(regionData.midwest),
+    Math.round(regionData.southeast),
+    Math.round(regionData.westCoast),
+    Math.round(regionData.midAtlantic),
+    Math.round(regionData.newEngland),
+    Math.round(regionData.southeast),
+    Math.round(regionData.midwest),
+    Math.round(regionData.southeast),
+    Math.round(regionData.southeast),
+    Math.round(regionData.rockyMountain),
+    Math.round(regionData.newEngland),
+    Math.round(regionData.southeast),
+    Math.round(regionData.westCoast),
+    Math.round(regionData.southeast),
+    Math.round(regionData.midwest),
+    Math.round(regionData.rockyMountain),
+];
+
+var visitedStateData = [{
+  type: 'choropleth',
+  locationmode: 'USA-states',
+  locations: myLocations,
+  z: myVisitedRegionStatePercents,
+  text: myRegionStates,
+  zmin: 0,
+  zmax: 100,
+  autocolorscale: true,
+  colorbar: {
+      title: '% visited',
+  },
+  marker: {
+      line:{
+          color: 'rgb(255,255,255)',
+      }
+  }
+}];
+
+var layout = {
+  title: 'Visited Resorts by Region',
+  geo:{
+      scope: 'usa',
+      showlakes: true,
+      lakecolor: 'rgb(255,255,255)'
+  }
+};
+
+Plotly.newPlot("RegionVisitedHeatMap", visitedStateData, layout, {showLink: false});

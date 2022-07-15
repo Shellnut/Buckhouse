@@ -4659,28 +4659,6 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Challenge Mountain",
-    "state": "Michigan",
-    "region": "Midwest",
-    "city": "Boyne City",
-    "videos": [],
-    "position": {
-      "lat": 45.23759264162877,
-      "lng": -84.87992359667493
-    },
-    "officialSkiResort": true,
-    "id": "3271",
-    "website": "http://cmski.org/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/3271/2200/1447613420.jpeg",
-    "country": "United States"
-  },
-  {
     "resortName": "Crystal Mountain Resort & Spa",
     "state": "Michigan",
     "region": "Midwest",

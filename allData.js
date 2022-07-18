@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '7/13/2022';
+var lastUpdated = '7/17/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2722,10 +2722,20 @@ var allData = [
     "officialSkiResort": true,
     "id": "307",
     "website": "http://mtpeter.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+    "resortReview":     {
+      "score": 36,
+      "link": "bQaygJcxJKs",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "6",
+      "lodging": "1",
+      "chairLifts": "3",
+      "runs": "3",
+      "terrainPark": "1",
+      "food": "7",
+      "employees": "4",
+      "views": "3",
+      "wouldIGoBack": "2"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/307/1923/1610589580thumb.jpg",

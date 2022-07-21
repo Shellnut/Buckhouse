@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '7/17/2022';
+var lastUpdated = '7/20/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2501,7 +2501,7 @@ var allData = [
     "resortReview": {
       "score": 45,
       "link": "ALt-VpjRQew",
-      "note": "Johnathan rated this 45/100 in the video, but the points actually add up to 46.",
+      "note": "Johnathan rated this 45/100 in the video, but the scores actually add up to 46.",
       "price": "5",
       "easeOfAccess": "4",
       "lodging": "1",
@@ -6294,7 +6294,7 @@ var allData = [
     "resortReview": {
       "score": 40,
       "link": "HTapi9Qq1-0",
-      "note": "Johnathan rated this 40/100 in the video, but the points actually add up to 45.",
+      "note": "Johnathan rated this 40/100 in the video, but the scores actually add up to 45.",
       "price": "6",
       "easeOfAccess": "10",
       "lodging": "0",
@@ -6862,9 +6862,19 @@ var allData = [
     "id": "165",
     "website": "https://www.wilmotmountain.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 36,
+      "link": "BP520C4ZGRE",
+      "note": "Johnathan rated this 36/100 in the video, but the scores actually add up to 41.",
+      "price": "6",
+      "easeOfAccess": "7",
+      "lodging": "1",
+      "chairLifts": "5",
+      "runs": "2",
+      "terrainPark": "5",
+      "food": "5",
+      "employees": "5",
+      "views": "2",
+      "wouldIGoBack": "3"
     },
     "skiPass": [
       "Epic"

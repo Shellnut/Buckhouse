@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '7/20/2022';
+var lastUpdated = '7/24/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9989,9 +9989,19 @@ var allData = [
     "id": "334",
     "website": "https://www.skiapache.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 41,
+      "link": "XNrpr-WxxEs",
+      "note": "",
+      "price": "8",
+      "easeOfAccess": "3",
+      "lodging": "0",
+      "chairLifts": "7",
+      "runs": "7",
+      "terrainPark": "0",
+      "food": "5",
+      "employees": "3",
+      "views": "6",
+      "wouldIGoBack": "2"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/334/3535/1574438432.jpg",

@@ -999,3 +999,34 @@ var layout = {
 };
 
 Plotly.newPlot("RegionVisitedHeatMap", visitedStateData, layout, {showLink: false});
+
+
+// Days on snow per season
+var s1Days = 160;
+var s2Days = 72;
+var s3Days = 186;
+var s4Days = 188;
+var s5Days = 144;
+var s6Days = 150;
+
+var daysTotalBySeason = {
+  x: ["Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6"],
+  y: [s1Days, s2Days, s3Days, s4Days, s5Days, s6Days],
+  type: 'bar'
+};
+
+var daysTotalBySeasonData = [daysTotalBySeason];
+// var viewsBySeasonData = [viewsBySeasonTraceAvg, viewsBySeasonTraceMin, viewsBySeasonTraceMax];
+
+var daysTotalBySeasonLayout = {
+  title: 'Total Days on Snow by Season',
+  yaxis: {
+    title: '# Days',
+    fixedrange: true
+  },
+  xaxis: {
+    fixedrange: true
+  }
+};
+
+Plotly.newPlot('daysTotalBySeason', daysTotalBySeasonData, daysTotalBySeasonLayout, config);

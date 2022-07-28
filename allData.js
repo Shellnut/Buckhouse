@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '7/24/2022';
+var lastUpdated = '7/27/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10745,9 +10745,19 @@ var allData = [
     "id": "4875",
     "website": "http://beartoothbasin.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 40,
+      "link": "U_FtKx8_ZW0",
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "1",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "2",
+      "food": "0",
+      "employees": "7",
+      "views": "8",
+      "wouldIGoBack": "10"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4875/2200/1453147924jpg_render.jpg",

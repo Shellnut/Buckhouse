@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '7/27/2022';
+var lastUpdated = '8/6/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4276,9 +4276,19 @@ var allData = [
     "id": "472",
     "website": "https://www.fourlakessnowsports.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 50,
+      "link": "NaeI1zoANYI",
+      "note": "",
+      "price": "9",
+      "easeOfAccess": "10",
+      "lodging": "0",
+      "chairLifts": "1",
+      "runs": "1",
+      "terrainPark": "3",
+      "food": "6",
+      "employees": "10",
+      "views": "5",
+      "wouldIGoBack": "5"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/472/4359/1618864611.jpg",
@@ -4446,9 +4456,19 @@ var allData = [
     "id": "466",
     "website": "https://www.sundownmtn.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 45,
+      "link": "r43iF777Kyg",
+      "note": "",
+      "price": "8",
+      "easeOfAccess": "5",
+      "lodging": "1",
+      "chairLifts": "3",
+      "runs": "2",
+      "terrainPark": "3",
+      "food": "6",
+      "employees": "6",
+      "views": "6",
+      "wouldIGoBack": "5"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/466/4196/1632791840.jpg",

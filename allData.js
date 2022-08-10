@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '8/6/2022';
+var lastUpdated = '8/9/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6560,9 +6560,19 @@ var allData = [
     "id": "163",
     "website": "https://www.grandgeneva.com/ski-snow-sports",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 50,
+      "link": "0Tqvx6oEUsw",
+      "note": "",
+      "price": "4",
+      "easeOfAccess": "6",
+      "lodging": "7",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "5",
+      "food": "10",
+      "employees": "4",
+      "views": "5",
+      "wouldIGoBack": "5"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/163/2030/1584916042.jpg",
@@ -12124,28 +12134,6 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/269/1923/1590258641.jpg",
-    "country": "United States"
-  },
-  {
-    "resortName": "Summit Ski Area",
-    "state": "Oregon",
-    "region": "West Coast",
-    "city": "Government Camp",
-    "videos": [],
-    "position": {
-      "lat": 45.30307189568874,
-      "lng": -121.74580684408454
-    },
-    "officialSkiResort": true,
-    "id": "273",
-    "website": "https://summitskiarea.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/273/1923/1590258615.jpg",
     "country": "United States"
   },
   {

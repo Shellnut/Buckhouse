@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '8/9/2022';
+var lastUpdated = '8/15/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6345,10 +6345,20 @@ var allData = [
     "officialSkiResort": true,
     "id": "179",
     "website": "https://www.devilsheadresort.com/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+    "resortReview":     {
+      "score": 45,
+      "link": "GUp8Z-DE0_8",
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "6",
+      "lodging": "5",
+      "chairLifts": "4",
+      "runs": "3",
+      "terrainPark": "4",
+      "food": "7",
+      "employees": "5",
+      "views": "3",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/179/3535/1634330396.jpeg",
@@ -10053,9 +10063,19 @@ var allData = [
     "id": "2604",
     "website": "http://www.skicloudcroft.net/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 33,
+      "link": "WSbSlo6LgVQ",
+      "note": "",
+      "price": "5",
+      "easeOfAccess": "3",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "4",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "6",
+      "views": "4",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2604/1923/1521682731.jpg",
@@ -12142,6 +12162,8 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "V9Nx8AQt5JI",
+      "W763ldDlLTg",
       "s3hh_P5abVk",
       "3gAV_bS-xr4",
       "PZqa4epazWo",

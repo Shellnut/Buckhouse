@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '8/15/2022';
+var lastUpdated = '8/29/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4916,10 +4916,20 @@ var allData = [
     "id": "431",
     "website": "https://skimtholly.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
-    },
+      "score": 41,
+      "link": "mO0VT9e1a4A",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "4",
+      "terrainPark": "5",
+      "food": "5",
+      "employees": "5",
+      "views": "1",
+      "wouldIGoBack": "6"
+  },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/431/4196/1635612852.jpg",
     "country": "United States"
@@ -9921,10 +9931,20 @@ var allData = [
     "officialSkiResort": true,
     "id": "336",
     "website": "https://www.pajarito.ski/",
-    "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+    "resortReview":     {
+      "score": 37,
+      "link": "d0RXxbgBXyo",
+      "note": "",
+      "price": "7",
+      "easeOfAccess": "3",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "3",
+      "terrainPark": "2",
+      "food": "5",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/336/1923/1522459323.jpg",
@@ -12162,6 +12182,9 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "9giH4UVZ4zo",
+      "9DZngTCAV4k",
+      "1ExKhMMtIek",
       "V9Nx8AQt5JI",
       "W763ldDlLTg",
       "s3hh_P5abVk",

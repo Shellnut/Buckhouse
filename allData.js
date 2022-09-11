@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '8/29/2022';
+var lastUpdated = '9/10/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4067,6 +4067,8 @@ var allData = [
     "region": "Southeast",
     "city": "Lynchburg",
     "videos": [
+      "22Q_TkzvzrU",
+      "XVJPhHYL4X8",
       "A6MUhNr2Mxk",
       "jqBUm4poIQk",
       "6I4O4VGj-NQ",
@@ -8865,6 +8867,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Idaho Springs",
     "videos": [
+      "dXumj0OC4Ng",
       "mdHYc_QblqU",
       "YNueBnN6L2o",
       "NW7GlZ345G0"
@@ -12182,6 +12185,7 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "TMvaJQ5du_A",
       "9giH4UVZ4zo",
       "9DZngTCAV4k",
       "1ExKhMMtIek",

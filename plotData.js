@@ -1007,7 +1007,7 @@ var s2Days = 72;
 var s3Days = 186;
 var s4Days = 188;
 var s5Days = 144;
-var s6Days = 154;
+var s6Days = 156;
 
 var daysTotalBySeason = {
   x: ["Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6"],

@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '9/10/2022';
+var lastUpdated = '9/19/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -2933,9 +2933,19 @@ var allData = [
     "id": "300",
     "website": "https://thunderridgeski.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 37,
+      "link": "1T4nnsYp-gI",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "6",
+      "lodging": "1",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "2",
+      "food": "5",
+      "employees": "5",
+      "views": "1",
+      "wouldIGoBack": "6"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/300/155/1612460870.jpg",
@@ -4067,6 +4077,9 @@ var allData = [
     "region": "Southeast",
     "city": "Lynchburg",
     "videos": [
+      "t0Wk_c4N6aM",
+      "tEuhJDX8JLA",
+      "_xQmtpCeIEU",
       "22Q_TkzvzrU",
       "XVJPhHYL4X8",
       "A6MUhNr2Mxk",
@@ -11080,6 +11093,7 @@ var allData = [
     "city": "Girdwood",
     "videos": [
       "87R3Jq-bsUo",
+      "ePiVb81woQs",
       "8bzZdAVtvuM"
     ],
     "position": {

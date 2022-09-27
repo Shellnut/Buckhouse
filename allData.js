@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '9/19/2022';
+var lastUpdated = '9/26/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -52,9 +52,19 @@ var allData = [
     "id": "494",
     "website": "http://www.mountsouthington.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 39,
+      "link": "XruDZ8wKw58",
+      "note": "",
+      "price": "6",
+      "easeOfAccess": "7",
+      "lodging": "1",
+      "chairLifts": "3",
+      "runs": "3",
+      "terrainPark": "5",
+      "food": "4",
+      "employees": "4",
+      "views": "1",
+      "wouldIGoBack": "5"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/494/1535/1419101204.jpg",
@@ -2181,6 +2191,7 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "East Rutherford (indoor)",
     "videos": [
+      "Auzxc1efBXo",
       "zdP-z1sqEOM",
       "RkNhXala8xY",
       "QqTopw2IWNc",

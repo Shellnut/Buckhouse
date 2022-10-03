@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '9/26/2022';
+var lastUpdated = '10/3/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -28,9 +28,19 @@ var allData = [
     "id": "493",
     "website": "http://www.mohawkmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/493/2200/1578529332.jpg",
@@ -92,9 +102,19 @@ var allData = [
     "id": "492",
     "website": "http://www.powderridgepark.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
-      "note": ""
+      "score": 47,
+      "link": "kH6DxJg81X4",
+      "note": "",
+      "price": "8",
+      "easeOfAccess": "7",
+      "lodging": "3",
+      "chairLifts": "1",
+      "runs": "3",
+      "terrainPark": "6",
+      "food": "5",
+      "employees": "5",
+      "views": "2",
+      "wouldIGoBack": "7"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/492/916/1622594198jpg_render.jpg",
@@ -116,9 +136,19 @@ var allData = [
     "id": "496",
     "website": "http://www.skisundown.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/496/1824/1408311576.jpg",
@@ -138,9 +168,19 @@ var allData = [
     "id": "3216",
     "website": "https://www.facebook.com/Baker-Mt-Ski-Tow-Club-211892185489436/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3216/2200/1522280996.jpg",
@@ -160,9 +200,19 @@ var allData = [
     "id": "455",
     "website": "http://www.bigrockmaine.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/455/2200/1597361441.jpg",
@@ -182,9 +232,19 @@ var allData = [
     "id": "457",
     "website": "http://www.skibigsquaw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/457/2200/1635287767jpg_render.jpg",
@@ -204,9 +264,19 @@ var allData = [
     "id": "454",
     "website": "http://www.skiblackmountain.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/454/2200/1604183937jpg_render.jpg",
@@ -226,9 +296,19 @@ var allData = [
     "id": "452",
     "website": "http://www.camdensnowbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/452/2200/1514322253.jpg",
@@ -248,9 +328,19 @@ var allData = [
     "id": "451",
     "website": "http://www.eatonmountain.com/home.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/451/3713/1585684306.jpg",
@@ -270,9 +360,19 @@ var allData = [
     "id": "453",
     "website": "http://skihermonmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/453/7/1209513496.jpg",
@@ -292,9 +392,19 @@ var allData = [
     "id": "3204",
     "website": "http://www.lonesomepines.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3204/916/1335559211.jpg",
@@ -314,9 +424,19 @@ var allData = [
     "id": "449",
     "website": "http://www.lostvalleyski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/449/2200/1574037574.jpg",
@@ -336,9 +456,19 @@ var allData = [
     "id": "447",
     "website": "http://www.mtabram.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/447/916/1612101681jpg_render.jpg",
@@ -358,9 +488,19 @@ var allData = [
     "id": "450",
     "website": "http://www.skimtjefferson.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/450/2200/1578529513.jpg",
@@ -380,9 +520,19 @@ var allData = [
     "id": "3275",
     "website": "http://pinnacleskiclub.wordpress.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3275/4359/1624224241.png",
@@ -402,9 +552,19 @@ var allData = [
     "id": "3210",
     "website": "http://www.powderhousehill.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3210/2200/1453056451.jpeg",
@@ -424,9 +584,19 @@ var allData = [
     "id": "3211",
     "website": "http://www.skiquoggyjo.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -446,9 +616,19 @@ var allData = [
     "id": "446",
     "website": "http://www.saddlebackmaine.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/446/3535/1607711926jpg_render.jpg",
@@ -468,9 +648,19 @@ var allData = [
     "id": "456",
     "website": "http://www.shawneepeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/456/2200/1520718648.jpg",
@@ -490,9 +680,19 @@ var allData = [
     "id": "448",
     "website": "http://www.sugarloaf.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -520,9 +720,19 @@ var allData = [
     "id": "459",
     "website": "http://www.sundayriver.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -544,9 +754,19 @@ var allData = [
     "id": "458",
     "website": "http://www.titcombmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/458/916/1385477820.jpg",
@@ -566,9 +786,19 @@ var allData = [
     "id": "435",
     "website": "https://berkshireeast.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/435/2200/1574037802jpg_render.jpg",
@@ -588,9 +818,19 @@ var allData = [
     "id": "440",
     "website": "https://www.bluehillsboston.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/440/2200/1581723792.jpg",
@@ -612,9 +852,19 @@ var allData = [
     "id": "444",
     "website": "https://bousquetmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/444/2200/1607108092jpg_render.jpg",
@@ -636,9 +886,19 @@ var allData = [
     "id": "441",
     "website": "http://www.skibutternut.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/441/2200/1614204752.jpg",
@@ -658,9 +918,19 @@ var allData = [
     "id": "2997",
     "website": "http://www.eaglebrook.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2997/2200/1501895425.jpg",
@@ -682,9 +952,19 @@ var allData = [
     "id": "443",
     "website": "http://www.jiminypeak.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/443/3439/1575604028.jpg",
@@ -704,9 +984,19 @@ var allData = [
     "id": "3225",
     "website": "http://www.mtgreylockskiclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3225/916/1335560640.gif",
@@ -726,9 +1016,19 @@ var allData = [
     "id": "436",
     "website": "https://skinashoba.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/436/1960/1419559280.png",
@@ -750,9 +1050,19 @@ var allData = [
     "id": "434",
     "website": "http://www.otisridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/434/3439/1577490020.png",
@@ -772,9 +1082,19 @@ var allData = [
     "id": "439",
     "website": "https://skibradford.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/439/1923/1616587207.jpg",
@@ -794,9 +1114,19 @@ var allData = [
     "id": "442",
     "website": "https://www.skiward.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/442/916/1335640106jpg_render.jpg",
@@ -816,9 +1146,19 @@ var allData = [
     "id": "437",
     "website": "https://www.wachusett.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/437/3534/1557671789.jpg",
@@ -838,9 +1178,19 @@ var allData = [
     "id": "4091",
     "website": "http://www.wolfeboronh.us/abenaki-ski-area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4091/1265/1415487963.jpg",
@@ -860,9 +1210,19 @@ var allData = [
     "id": "15010",
     "website": "https://www.beavercreek.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2146/916/1335548315.jpg",
@@ -882,9 +1242,19 @@ var allData = [
     "id": "349",
     "website": "https://www.attitash.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -906,9 +1276,19 @@ var allData = [
     "id": "454",
     "website": "http://www.skiblackmountain.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/348/3439/1578364381.png",
@@ -928,9 +1308,19 @@ var allData = [
     "id": "346",
     "website": "https://www.brettonwoods.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/346/3535/1574014813.jpg",
@@ -950,9 +1340,19 @@ var allData = [
     "id": "347",
     "website": "http://www.cannonmt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/347/3535/1584308926.jpg",
@@ -972,9 +1372,19 @@ var allData = [
     "id": "3044",
     "website": "https://www.camptonmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3044/1265/1360104017.jpg",
@@ -994,9 +1404,19 @@ var allData = [
     "id": "344",
     "website": "http://www.cranmore.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/344/7/1348006074.jpg",
@@ -1016,9 +1436,19 @@ var allData = [
     "id": "343",
     "website": "https://www.crotchedmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -1040,9 +1470,19 @@ var allData = [
     "id": "345",
     "website": "https://sites.dartmouth.edu/skiway/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/345/1265/1475328312.jpeg",
@@ -1062,9 +1502,19 @@ var allData = [
     "id": "4092",
     "website": "http://www.franklinoutingclub.org/vmra.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4092/916/1586612254.jpg",
@@ -1084,9 +1534,19 @@ var allData = [
     "id": "1076",
     "website": "http://www.granitegorge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1076/2200/1484410971.jpg",
@@ -1106,9 +1566,19 @@ var allData = [
     "id": 342,
     "website": "https://www.gunstock.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/342/2200/1579832932jpg_render.jpg",
@@ -1128,9 +1598,19 @@ var allData = [
     "id": "13097",
     "website": "https://www.lincolnnh.org/recreation",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -1150,9 +1630,19 @@ var allData = [
     "id": "354",
     "website": "https://www.kingpine.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/354/2200/1598224399jpg_render.jpg",
@@ -1172,9 +1662,19 @@ var allData = [
     "id": "352",
     "website": "https://www.loonmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -1202,9 +1702,19 @@ var allData = [
     "id": "3012",
     "website": "http://mcintyreskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3012/1265/1436563374.jpg",
@@ -1224,9 +1734,19 @@ var allData = [
     "id": "2686",
     "website": "http://www.mteustis.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -1246,9 +1766,19 @@ var allData = [
     "id": "3224",
     "website": "http://www.skiprospect.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -1268,9 +1798,19 @@ var allData = [
     "id": "357",
     "website": "https://www.mountsunapee.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -1292,9 +1832,19 @@ var allData = [
     "id": "355",
     "website": "https://www.patspeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/355/1265/1495632993.jpg",
@@ -1314,9 +1864,19 @@ var allData = [
     "id": "351",
     "website": "https://raggedmountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/351/2200/1608747552jpg_render.jpg",
@@ -1336,9 +1896,19 @@ var allData = [
     "id": "4158",
     "website": "http://www.redhillskiclub.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4158/4359/1624223073.jpg",
@@ -1358,9 +1928,19 @@ var allData = [
     "id": "4118",
     "website": "http://www.storrshill.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4118/1265/1409312190.png",
@@ -1380,9 +1960,19 @@ var allData = [
     "id": "1077",
     "website": "https://www.skitenney.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1077/3535/1573352510.gif",
@@ -1402,9 +1992,19 @@ var allData = [
     "id": "350",
     "website": "https://thebalsamsresort.com/vision/ski-expansion/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/350/2109/1428679499thumb.jpg",
@@ -1424,9 +2024,19 @@ var allData = [
     "id": "353",
     "website": "https://www.waterville.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/353/2200/1608251494jpg_render.jpg",
@@ -1446,9 +2056,19 @@ var allData = [
     "id": "1078",
     "website": "https://www.whaleback.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1078/2200/1508700246.jpg",
@@ -1468,9 +2088,19 @@ var allData = [
     "id": "356",
     "website": "https://www.skiwildcat.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -1492,9 +2122,19 @@ var allData = [
     "id": "236",
     "website": "http://www.yawgoo.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/236/916/1612320370thumb.jpg",
@@ -1514,9 +2154,19 @@ var allData = [
     "id": "13027",
     "website": "https://www.facebook.com/Bellows-Falls-Rope-tow-191875957504078/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -1536,9 +2186,19 @@ var allData = [
     "id": "216",
     "website": "http://www.boltonvalley.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/216/3535/1635227913jpg_render.jpg",
@@ -1560,9 +2220,19 @@ var allData = [
     "id": "217",
     "website": "https://www.bromley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/217/3535/1575503575jpg_render.jpg",
@@ -1582,9 +2252,19 @@ var allData = [
     "id": "2247",
     "website": "https://skiburke.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/208/3535/1573352974.jpg",
@@ -1604,9 +2284,19 @@ var allData = [
     "id": "207",
     "website": "http://www.cochranskiarea.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/207/66/1453225164.jpg",
@@ -1625,9 +2315,19 @@ var allData = [
     "officialSkiResort": true,
     "website": "https://www.newenglandskihistory.com/maps/mapsbyarea.php?filename=harringtonhill&state=vt",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -1647,9 +2347,19 @@ var allData = [
     "id": "12835",
     "website": "https://www.facebook.com/HardAckInc/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/12835/2200/1502053987.jpg",
@@ -1669,9 +2379,19 @@ var allData = [
     "id": "2133",
     "website": "http://hermitageclub.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2133/3186/1529868512.jpg",
@@ -1691,9 +2411,19 @@ var allData = [
     "id": "202",
     "website": "http://jaypeakresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/202/3535/1607529001jpg_render.jpg",
@@ -1750,9 +2480,19 @@ var allData = [
     "officialSkiResort": false,
     "website": "http://darksidesnowboards.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -1772,9 +2512,19 @@ var allData = [
     "id": "4101",
     "website": "http://www.vtsnowsports.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4101/1265/1364247598jpg_render.jpg",
@@ -1794,9 +2544,19 @@ var allData = [
     "id": "3962",
     "website": "http://www.skilyndon.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3962/4196/1632536995.jpg",
@@ -1817,9 +2577,19 @@ var allData = [
     "id": "200",
     "website": "http://www.madriverglen.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/200/2296/1449285924.jpeg",
@@ -1839,9 +2609,19 @@ var allData = [
     "id": "14790",
     "website": "https://magicmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/14790/3857/1585178894.jpg",
@@ -1861,9 +2641,19 @@ var allData = [
     "id": "2907",
     "website": "https://www.middleburysnowbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/214/2200/1578530901.jpg",
@@ -1921,9 +2711,19 @@ var allData = [
     "id": "3019",
     "website": "http://www.northeastslopes.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3019/2200/1519323496jpg_render.jpg",
@@ -1943,9 +2743,19 @@ var allData = [
     "id": "204",
     "website": "http://okemo.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -1967,9 +2777,19 @@ var allData = [
     "id": "1091",
     "website": "https://www.picomountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1091/3535/1618775196jpg_render.jpg",
@@ -1989,9 +2809,19 @@ var allData = [
     "id": "1090",
     "website": "http://www.skithenotch.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1090/2200/1486432234jpg_render.jpg",
@@ -2011,9 +2841,19 @@ var allData = [
     "id": "215",
     "website": "http://www.quecheeclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/215/4196/1632536688.jpg",
@@ -2033,9 +2873,19 @@ var allData = [
     "id": "209",
     "website": "http://www.smuggs.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/209/3535/1618775301jpg_render.jpg",
@@ -2055,9 +2905,19 @@ var allData = [
     "id": "212",
     "website": "http://www.stowe.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -2079,9 +2939,19 @@ var allData = [
     "id": "213",
     "website": "https://www.stratton.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -2109,9 +2979,19 @@ var allData = [
     "id": "205",
     "website": "https://www.sugarbush.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -2133,9 +3013,19 @@ var allData = [
     "id": "203",
     "website": "https://www.woodstockinn.com/ski-area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/203/916/1490407934jpg_render.jpg",
@@ -2155,9 +3045,19 @@ var allData = [
     "id": "206",
     "website": "https://www.ascutneyoutdoors.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/206/3439/1609820077.jpeg",
@@ -2177,9 +3077,19 @@ var allData = [
     "id": "445",
     "website": "https://www.wispresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/445/3439/1580763975jpg_render.jpg",
@@ -2284,9 +3194,19 @@ var allData = [
     "id": "341",
     "website": "https://winter4kids.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/341/916/1335888861.jpg",
@@ -2308,9 +3228,19 @@ var allData = [
     "id": "339",
     "website": "http://www.mountaincreek.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/339/2200/1515198820jpg_render.jpg",
@@ -2330,9 +3260,19 @@ var allData = [
     "id": "3227",
     "website": "www.skibeartown.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3227/2200/1551570714.jpg",
@@ -2354,9 +3294,19 @@ var allData = [
     "id": "324",
     "website": "http://www.belleayre.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/324/4243/1610379172.jpg",
@@ -2376,9 +3326,19 @@ var allData = [
     "id": "2779",
     "website": "http://skibigtupper.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2779/375/1296432240.jpg",
@@ -2398,9 +3358,19 @@ var allData = [
     "id": "309",
     "website": "http://www.brantling.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/309/916/1335580011jpg_render.jpg",
@@ -2420,9 +3390,19 @@ var allData = [
     "id": "313",
     "website": "http://www.bristolmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/313/1923/1604978113.jpg",
@@ -2442,9 +3422,19 @@ var allData = [
     "id": "3228",
     "website": "http://www.bscskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3228/2200/1597612461jpg_render.jpg",
@@ -2464,9 +3454,19 @@ var allData = [
     "id": "323",
     "website": "http://www.catamountski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/323/4387/1616582923jpg_render.jpg",
@@ -2486,9 +3486,19 @@ var allData = [
     "id": "304",
     "website": "http://skidryhill.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/304/7/1237081378thumb.jpg",
@@ -2542,9 +3552,19 @@ var allData = [
     "id": "297",
     "website": "http://www.greekpeak.net/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/297/2200/1531097589thumb.jpg",
@@ -2564,9 +3584,19 @@ var allData = [
     "id": "298",
     "website": "http://www.hickoryskicenter.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/298/1904/1420397685.jpg",
@@ -2586,9 +3616,19 @@ var allData = [
     "id": "318",
     "website": "http://www.holidayvalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/318/1923/1590258391thumb.jpg",
@@ -2608,9 +3648,19 @@ var allData = [
     "id": "311",
     "website": "https://holidaymtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/311/7/1209835913.jpg",
@@ -2630,9 +3680,19 @@ var allData = [
     "id": "312",
     "website": "https://holimont.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/319/1923/1590258416.jpg",
@@ -2688,9 +3748,19 @@ var allData = [
     "id": "292",
     "website": "https://www.kbski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/292/1923/1604978175.jpg",
@@ -2710,9 +3780,19 @@ var allData = [
     "id": "306",
     "website": "https://www.skicny.com/labrador/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/306/1923/1604978198thumb.jpg",
@@ -2766,9 +3846,19 @@ var allData = [
     "id": "328",
     "website": "http://www.mccauleyny.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/328/3887/1583091097thumb.jpg",
@@ -2788,9 +3878,19 @@ var allData = [
     "id": "294",
     "website": "http://oakmountainski.com/oak/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/294/3765/1577936720thumb.jpg",
@@ -2810,9 +3910,19 @@ var allData = [
     "id": "",
     "website": "https://www.plattekill.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/293/3535/1618775822.jpg",
@@ -2832,9 +3942,19 @@ var allData = [
     "id": "291",
     "website": "https://www.royalmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/291/2200/1598224338thumb.jpg",
@@ -2854,9 +3974,19 @@ var allData = [
     "id": "308",
     "website": "https://www.skicny.com/song/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/308/916/1335586135thumb.jpg",
@@ -2876,9 +4006,19 @@ var allData = [
     "id": "312",
     "website": "https://snowridge.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/312/4196/1636496425thumb.jpg",
@@ -2898,9 +4038,19 @@ var allData = [
     "id": "310",
     "website": "http://www.swain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/310/1923/1604978222.jpg",
@@ -2920,9 +4070,19 @@ var allData = [
     "id": "",
     "website": "https://www.dec.ny.gov/lands/37446.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -2976,9 +4136,19 @@ var allData = [
     "id": "316",
     "website": "https://www.titusmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/316/1923/1610589654.jpg",
@@ -2998,9 +4168,19 @@ var allData = [
     "id": "305",
     "website": "https://www.skitog.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/305/2200/1531348926thumb.jpg",
@@ -3054,9 +4234,19 @@ var allData = [
     "id": "326",
     "website": "http://www.willardmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/326/2200/1543706667.png",
@@ -3078,9 +4268,19 @@ var allData = [
     "id": "295",
     "website": "http://www.whiteface.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/295/3535/1574014539thumb.jpg",
@@ -3102,9 +4302,19 @@ var allData = [
     "id": "330",
     "website": "https://www.windhammountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -3126,9 +4336,19 @@ var allData = [
     "id": "327",
     "website": "http://www.woodsvalleyskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/327/2200/1483151616thumb.jpg",
@@ -3148,9 +4368,19 @@ var allData = [
     "id": "302",
     "website": "http://www.pknpk.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/302/3101/1521669222thumb.jpg",
@@ -3172,9 +4402,19 @@ var allData = [
     "id": "5003",
     "website": "https://westpoint.armymwr.com/programs/victor-constant-ski-area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/5003/2426/1456960655jpg_render.jpg",
@@ -3194,9 +4434,19 @@ var allData = [
     "id": "314",
     "website": "https://www.saranaclake.com/alpine-skiing/mt-pisgah-recreation-center",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/314/162/1288445392.jpg",
@@ -3216,9 +4466,19 @@ var allData = [
     "id": "3235",
     "website": "http://mapleskiridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3235/2296/1449196444thumb.jpg",
@@ -3238,9 +4498,19 @@ var allData = [
     "id": "303",
     "website": "http://www.cockaigne.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/303/2200/1574487061.jpg",
@@ -3261,9 +4531,19 @@ var allData = [
     "id": "321",
     "website": "http://fourseasonsgolfandski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/321/2200/1454008529.jpeg",
@@ -3283,9 +4563,19 @@ var allData = [
     "id": "322",
     "website": "http://www.villaroma.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/322/2200/1528576696.jpg"
@@ -3304,9 +4594,19 @@ var allData = [
     "id": "256",
     "website": "https://www.bcmountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/256/3101/1520261469thumb.jpg",
@@ -3326,9 +4626,19 @@ var allData = [
     "id": "241",
     "website": "https://blueknob.com/resort/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/241/4070/1608578562.jpg",
@@ -3348,9 +4658,19 @@ var allData = [
     "id": "258",
     "website": "https://www.skibluemt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/258/4070/1608577806thumb.jpg",
@@ -3370,9 +4690,19 @@ var allData = [
     "id": "259",
     "website": "https://alleghenycounty.us/special-events/boyce-park-skiing---snow-tubing.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -3392,9 +4722,19 @@ var allData = [
     "id": "238",
     "website": "https://www.camelbackresort.com/ski-tube/poconos-ski-resorts/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/238/1923/1604978305.jpg",
@@ -3414,9 +4754,19 @@ var allData = [
     "id": "250",
     "website": "https://ddresorts.com/eagle-rock/on-property/snow-sports/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/250/4401/1618518131.jpg",
@@ -3436,9 +4786,19 @@ var allData = [
     "id": "251",
     "website": "http://www.elkskier.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/251/4070/1608555920thumb.jpg",
@@ -3458,9 +4818,19 @@ var allData = [
     "id": "4115",
     "website": "http://www.hiddenvalleyresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4115/1317/1387252571jpg_render.jpg",
@@ -3480,9 +4850,19 @@ var allData = [
     "id": "254",
     "website": "http://www.jfbb.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -3504,9 +4884,19 @@ var allData = [
     "id": "252",
     "website": "http://www.jfbb.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -3528,9 +4918,19 @@ var allData = [
     "id": "4114",
     "website": "http://www.skilaurelmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4114/4070/1608642494jpg_render.jpg",
@@ -3550,9 +4950,19 @@ var allData = [
     "id": "243",
     "website": "https://www.libertymountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -3574,9 +4984,19 @@ var allData = [
     "id": "240",
     "website": "https://www.7springs.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/240/1923/1604978327.jpg",
@@ -3596,9 +5016,19 @@ var allData = [
     "id": "246",
     "website": "https://www.shawneemt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/246/4196/1613516692thumb.jpg",
@@ -3618,9 +5048,19 @@ var allData = [
     "id": "237",
     "website": "http://ski-bigbear.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/237/3101/1546028116thumb.jpg",
@@ -3640,9 +5080,19 @@ var allData = [
     "id": "242",
     "website": "https://www.skiroundtop.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/242/3101/1520429353thumb.jpg",
@@ -3662,9 +5112,19 @@ var allData = [
     "id": "261",
     "website": "https://springmountainadventures.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/261/3101/1519514369jpg_render.jpg",
@@ -3684,9 +5144,19 @@ var allData = [
     "id": "262",
     "website": "http://skisawmill.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/262/916/1335649417.jpg",
@@ -3706,9 +5176,19 @@ var allData = [
     "id": "248",
     "website": "http://montagemountainresorts.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/248/4070/1608578014.jpg",
@@ -3728,9 +5208,19 @@ var allData = [
     "id": "257",
     "website": "https://www.tusseymountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/257/2200/1578074974.jpg",
@@ -3750,9 +5240,19 @@ var allData = [
     "id": "260",
     "website": "https://www.tusseymountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -3774,9 +5274,19 @@ var allData = [
     "id": "245",
     "website": "https://www.skimountpleasant.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/245/2200/1479676563.jpg",
@@ -3796,9 +5306,19 @@ var allData = [
     "id": "557",
     "website": "https://www.cloudmont.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/557/260/1280580045.gif",
@@ -3852,9 +5372,19 @@ var allData = [
     "id": "288",
     "website": "http://cataloochee.com/index-home.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/288/2200/1467926831.jpg",
@@ -3874,9 +5404,19 @@ var allData = [
     "id": "284",
     "website": "http://www.sapphirevalley.com/Sapphire_Ski_Area.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/284/2200/1452391214.png",
@@ -3964,9 +5504,19 @@ var allData = [
     "id": "289",
     "website": "https://skiwolfridgenc.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/289/4196/1635090364.jpg",
@@ -3986,9 +5536,19 @@ var allData = [
     "id": "232",
     "website": "https://obergatlinburg.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/232/4196/1635090326.jpg",
@@ -4008,9 +5568,19 @@ var allData = [
     "id": "196",
     "website": "http://www.bryceresort.com/Home.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/196/2200/1613335514.jpg",
@@ -4030,9 +5600,19 @@ var allData = [
     "id": "197",
     "website": "https://www.massresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/197/2200/1634234233.jpg",
@@ -4052,9 +5632,19 @@ var allData = [
     "id": "198",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/198/2200/1486434327.jpg",
@@ -4074,9 +5664,19 @@ var allData = [
     "id": "199",
     "website": "https://www.wintergreenresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/199/2200/1594439248.jpg",
@@ -4141,9 +5741,19 @@ var allData = [
     "id": "180",
     "website": "http://www.canaanresort.com/winter/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/180/4070/1612289450.jpg",
@@ -4163,9 +5773,19 @@ var allData = [
     "id": "3267",
     "website": "http://ski.oglebay-resort.com/index.cfm",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -4185,9 +5805,19 @@ var allData = [
     "id": "181",
     "website": "http://www.snowshoemtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -4209,9 +5839,19 @@ var allData = [
     "id": "5019",
     "website": "https://timberlinemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/183/4302/1612228398.jpg",
@@ -4231,9 +5871,19 @@ var allData = [
     "id": "182",
     "website": "https://www.winterplace.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/182/2200/1593363598.jpg",
@@ -4253,9 +5903,19 @@ var allData = [
     "id": "3267",
     "website": "http://ski.oglebay-resort.com/index.cfm/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://snowcomparison.com/uploads/images/fb/65/fb65b2d526a7bfd7f6b60ae23dd1d356.jpg",
@@ -4278,9 +5938,19 @@ var allData = [
     "id": "471",
     "website": "https://www.chestnutmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/471/4196/1632791813.jpg",
@@ -4334,9 +6004,19 @@ var allData = [
     "id": "473",
     "website": "http://www.skisnowstar.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/473/4196/1632791720thumb.jpg",
@@ -4390,9 +6070,19 @@ var allData = [
     "id": "468",
     "website": "http://www.paolipeaks.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -4414,9 +6104,19 @@ var allData = [
     "id": "470",
     "website": "http://www.perfectnorth.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/470/2200/1468534068.jpg",
@@ -4436,9 +6136,19 @@ var allData = [
     "id": "463",
     "website": "https://www.skicrescent.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/463/4196/1632791686.jpg",
@@ -4458,9 +6168,19 @@ var allData = [
     "id": "465",
     "website": "https://sevenoaksrec.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/465/4196/1632791749.jpg",
@@ -4514,9 +6234,19 @@ var allData = [
     "id": "5258",
     "website": "https://ishpemingcity.org/departments/parks-and-recreation/al-quaal-recreation-area-2/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -4570,9 +6300,19 @@ var allData = [
     "id": "420",
     "website": "https://bigpowderhorn.net/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/420/4196/1631755159.jpg",
@@ -4592,9 +6332,19 @@ var allData = [
     "id": "400",
     "website": "https://www.skibittersweet.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/400/2205/1557332823.jpg",
@@ -4614,9 +6364,19 @@ var allData = [
     "id": "394",
     "website": "https://www.bigsnow.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/394/4196/1635612657.jpg",
@@ -4636,9 +6396,19 @@ var allData = [
     "id": "407",
     "website": "http://www.boyne.com/boynehighlands",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -4660,9 +6430,19 @@ var allData = [
     "id": "421",
     "website": "https://www.boynemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -4684,9 +6464,19 @@ var allData = [
     "id": "404",
     "website": "https://caberfaepeaks.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/404/2200/1466130850.jpg",
@@ -4706,9 +6496,19 @@ var allData = [
     "id": "413",
     "website": "https://cannonsburg.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/413/2200/1486089862.png",
@@ -4728,9 +6528,19 @@ var allData = [
     "id": "429",
     "website": "https://www.crystalmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/429/2200/1520792728jpg_render.jpg",
@@ -4750,9 +6560,19 @@ var allData = [
     "id": "398",
     "website": "https://www.traversecitymi.gov/hickory_hills.asp",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/398/4196/1632537558.jpg",
@@ -4772,9 +6592,19 @@ var allData = [
     "id": "414",
     "website": "https://www.thehomesteadresort.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/414/2200/1472258555.jpg",
@@ -4794,9 +6624,19 @@ var allData = [
     "id": "422",
     "website": "https://www.bigsnow.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/422/4196/1635612617.jpg",
@@ -4816,9 +6656,19 @@ var allData = [
     "id": "419",
     "website": "https://marquettemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/419/4196/1631755319.jpg",
@@ -4838,9 +6688,19 @@ var allData = [
     "id": "427",
     "website": "https://www.mtu.edu/mont-ripley/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/427/4196/1631755245.jpg",
@@ -4860,9 +6720,19 @@ var allData = [
     "id": "428",
     "website": "http://www.mtbohemia.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/428/4196/1631755275.jpg",
@@ -4884,9 +6754,19 @@ var allData = [
     "id": "430",
     "website": "https://www.mtbrighton.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -4918,9 +6798,19 @@ var allData = [
     "id": "411",
     "website": "http://mt-holiday.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/411/2200/1543343053.jpg",
@@ -4974,9 +6864,19 @@ var allData = [
     "id": "424",
     "website": "https://www.visitcharlevoix.com/Mt-McSauba-Recreational-Area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -4996,9 +6896,19 @@ var allData = [
     "id": "396",
     "website": "https://www.gogebic.edu/Welcome/StudentLife/mtzion.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/396/4196/1636548403.jpg",
@@ -5018,9 +6928,19 @@ var allData = [
     "id": "395",
     "website": "https://www.mulliganshollow.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/395/916/1335919536.jpg",
@@ -5040,9 +6960,19 @@ var allData = [
     "id": "406",
     "website": "http://www.nubsnob.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/406/4196/1631755463.jpg",
@@ -5062,9 +6992,19 @@ var allData = [
     "id": "3272",
     "website": "http://otsegoclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3272/4196/1631755500.jpg",
@@ -5084,9 +7024,19 @@ var allData = [
     "id": "",
     "website": "https://www.petoskey.us/winter/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -5108,9 +7058,19 @@ var allData = [
     "id": "425",
     "website": "https://www.skipineknob.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/425/2200/1472348757.jpg",
@@ -5130,9 +7090,19 @@ var allData = [
     "id": "433",
     "website": "https://www.pinemountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/433/4359/1633800770.jpg",
@@ -5152,9 +7122,19 @@ var allData = [
     "id": "426",
     "website": "https://porkies.ski/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/426/4196/1631755209.jpg",
@@ -5174,9 +7154,19 @@ var allData = [
     "id": "416",
     "website": "http://www.shantycreek.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/416/2200/1543342977jpg_render.jpg",
@@ -5196,9 +7186,19 @@ var allData = [
     "id": "399",
     "website": "https://skibrule.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/399/4196/1632537467.jpg",
@@ -5218,9 +7218,19 @@ var allData = [
     "id": "409",
     "website": "https://snowsnake.net///",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/409/7/1209776453.jpg",
@@ -5240,9 +7250,19 @@ var allData = [
     "id": "401",
     "website": "http://skiswissvalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/401/4196/1635612785.jpg",
@@ -5262,9 +7282,19 @@ var allData = [
     "id": "2173",
     "website": "https://www.facebook.com/pg/skitimberridge/about/?tab=page_info",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2173/2200/1486779495.jpg",
@@ -5284,9 +7314,19 @@ var allData = [
     "id": "423",
     "website": "https://treetops.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/423/2200/1521862142jpg_render.jpg",
@@ -5306,9 +7346,19 @@ var allData = [
     "id": "397",
     "website": "http://www.gladstonemi.org/community/parks_and_recreation/sports_park.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/397/4359/1623960167.png",
@@ -5329,9 +7379,19 @@ var allData = [
     "id": "418",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/418/916/1335917658.jpg"
@@ -5352,9 +7412,19 @@ var allData = [
     "id": "393",
     "website": "https://www.aftonalps.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -5376,9 +7446,19 @@ var allData = [
     "id": "391",
     "website": "https://www.andestowerhills.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/391/4196/1632579775.jpg",
@@ -5432,9 +7512,19 @@ var allData = [
     "id": "384",
     "website": "https://www.bvskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/384/2200/1600139508jpg_render.jpg",
@@ -5454,9 +7544,19 @@ var allData = [
     "id": "382",
     "website": "http://www.chesterbowl.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/382/2200/1518921526.jpg",
@@ -5476,9 +7576,19 @@ var allData = [
     "id": "378",
     "website": "http://www.coffeemillski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/378/4196/1632579617.jpg",
@@ -5498,9 +7608,19 @@ var allData = [
     "id": "4463",
     "website": "http://detroitmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4463/2200/1500789537.jpg",
@@ -5520,9 +7640,19 @@ var allData = [
     "id": "388",
     "website": "http://www.giantsridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/388/1923/1590257602.jpg",
@@ -5586,9 +7716,19 @@ var allData = [
     "id": "5246",
     "website": "https://www.threeriversparks.org/location/elm-creek-winter-recreation-area/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/5246/2200/1552801295jpg_render.jpg",
@@ -5608,9 +7748,19 @@ var allData = [
     "id": "381",
     "website": "http://www.lutsen.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/381/4070/1636569204jpg_render.jpg",
@@ -5630,9 +7780,19 @@ var allData = [
     "id": "5026",
     "website": "http://www.mtitasca.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/5026/4359/1633802995.jpg",
@@ -5652,9 +7812,19 @@ var allData = [
     "id": "387",
     "website": "https://www.mountkato.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/387/4196/1632579567.jpg",
@@ -5674,9 +7844,19 @@ var allData = [
     "id": "492",
     "website": "http://www.powderridgepark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/492/916/1622594198jpg_render.jpg",
@@ -5696,9 +7876,19 @@ var allData = [
     "id": "3031",
     "website": "http://skigull.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3031/4196/1632579746.jpg",
@@ -5718,9 +7908,19 @@ var allData = [
     "id": "383",
     "website": "http://www.spiritmt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/383/4196/1612306035jpg_render.jpg",
@@ -5740,9 +7940,19 @@ var allData = [
     "id": "379",
     "website": "http://www.welchvillage.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/379/3535/1632018817jpg_render.jpg",
@@ -5764,9 +7974,19 @@ var allData = [
     "id": "380",
     "website": "http://www.wildmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/380/1923/1610589372.jpg",
@@ -5791,9 +8011,19 @@ var allData = [
     "id": "",
     "website": "https://www.canterburypark.com/events/extreme-horse-skijoring/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -5814,9 +8044,19 @@ var allData = [
     "id": "4728",
     "website": "https://www.stpaul.gov/departments/parks-recreation/activities/winter-spring-activities/downhill-skiing-snowboarding",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": ""
@@ -5835,9 +8075,19 @@ var allData = [
     "id": "377",
     "website": "https://www.hiddenvalleyski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -5859,9 +8109,19 @@ var allData = [
     "id": "376",
     "website": "http://skisnowcreek.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -5883,9 +8143,19 @@ var allData = [
     "id": "280",
     "website": "http://skibwp.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/280/2200/1617405927.jpg",
@@ -5905,9 +8175,19 @@ var allData = [
     "id": "283",
     "website": "http://frostfireskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/283/2200/1597004678.jpg",
@@ -5927,9 +8207,19 @@ var allData = [
     "id": "282",
     "website": "https://www.huffhills.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/282/4196/1612038404.jpg",
@@ -5949,9 +8239,19 @@ var allData = [
     "id": "277",
     "website": "https://www.alpinevalleyohio.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -5973,9 +8273,19 @@ var allData = [
     "id": "276",
     "website": "http://www.bmbw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -5997,9 +8307,19 @@ var allData = [
     "id": "278",
     "website": "https://www.skimadriver.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -6021,9 +8341,19 @@ var allData = [
     "id": "279",
     "website": "https://www.snowtrails.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/279/4196/1632579904.jpg",
@@ -6043,9 +8373,19 @@ var allData = [
     "id": "3269",
     "website": "http://www.bigcreekski.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3269/916/1336247854jpg_render.jpg",
@@ -6065,9 +8405,19 @@ var allData = [
     "id": "235",
     "website": "http://skimystic.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/235/1923/1479871115.jpg",
@@ -6087,9 +8437,19 @@ var allData = [
     "id": "234",
     "website": "https://www.greatbearpark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/234/4196/1612038469.jpg",
@@ -6109,9 +8469,19 @@ var allData = [
     "id": "233",
     "website": "https://terrypeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/233/4070/1610976293.jpg",
@@ -6165,9 +8535,19 @@ var allData = [
     "id": "3279",
     "website": "http://www.ausblick.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3279/2200/1456854023.jpeg",
@@ -6187,9 +8567,19 @@ var allData = [
     "id": "4824",
     "website": "https://www.badlands-snopark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4824/2200/1485020824.jpg",
@@ -6209,9 +8599,19 @@ var allData = [
     "id": "",
     "website": "https://www.batb.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -6231,9 +8631,19 @@ var allData = [
     "id": "164",
     "website": "http://clarkcountywi.org/visit-clark-county/outdoors/bruce-mound.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/164/4359/1626642279jpg_render.jpg",
@@ -6253,9 +8663,19 @@ var allData = [
     "id": "2990",
     "website": "http://www.camp10skiandsnowboard.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2990/4359/1633803345.jpg",
@@ -6278,9 +8698,19 @@ var allData = [
     "id": "4791",
     "website": "http://www.dcski.com/lostareas/viewlostprofile.php?id=8",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4791/2200/1451873159.jpeg",
@@ -6300,9 +8730,19 @@ var allData = [
     "id": "178",
     "website": "https://www.christiemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/178/4359/1633801510.jpg",
@@ -6324,9 +8764,19 @@ var allData = [
     "id": "166",
     "website": "https://www.christmasmountainvillage.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/166/4359/1633804112.jpg",
@@ -6414,9 +8864,19 @@ var allData = [
     "id": "3281",
     "website": "http://www.foxhill.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -6438,9 +8898,19 @@ var allData = [
     "id": "170",
     "website": "https://www.skigranitepeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/170/4359/1634595467.jpg",
@@ -6460,9 +8930,19 @@ var allData = [
     "id": "3282",
     "website": "http://www.hhskiclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -6482,9 +8962,19 @@ var allData = [
     "id": "3285",
     "website": "http://www.langladecounty.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -6504,9 +8994,19 @@ var allData = [
     "id": "3286",
     "website": "https://www.visitkewauneecounty.com/explore/parks-and-trails/winter-park-recreation/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3286/4359/1630097844.jpg",
@@ -6526,9 +9026,19 @@ var allData = [
     "id": "177",
     "website": "https://www.florencecountywi.com/departments/page_18ec7c8fa753/?department=b911d343d487&subdepartment=f28c7bf9208f",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -6582,9 +9092,19 @@ var allData = [
     "id": "176",
     "website": "http://mdlresort.com/winter/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/176/4359/1618863309.jpg",
@@ -6638,9 +9158,19 @@ var allData = [
     "id": "168",
     "website": "http://www.mtashwabay.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/168/4359/1633802550.jpg",
@@ -6660,9 +9190,19 @@ var allData = [
     "id": "171",
     "website": "http://www.mtlacrosse.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/171/4359/1630097042.jpg",
@@ -6682,9 +9222,19 @@ var allData = [
     "id": "3017",
     "website": "http://www.skinavarino.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3017/2200/1446494342.jpeg",
@@ -6706,9 +9256,19 @@ var allData = [
     "id": "157",
     "website": "https://www.nordicmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/157/4359/1633803877.jpg",
@@ -6728,9 +9288,19 @@ var allData = [
     "id": "3287",
     "website": "http://www.ciplywi.com/citizen-info/parks-and-recreation/nutt-hill-ski-area/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -6750,9 +9320,19 @@ var allData = [
     "id": "3288",
     "website": "http://www.co.wood.wi.us/departments/parks/PowersBluff.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3288/4359/1626641770jpg_render.jpg",
@@ -6772,9 +9352,19 @@ var allData = [
     "id": "160",
     "website": "https://www.co.portage.wi.us/department/parks/standing-rocks-park",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/160/916/1336248547.jpg",
@@ -6797,9 +9387,19 @@ var allData = [
     "id": "173",
     "website": "https://skisunburst.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/173/4359/1637465425jpg_render.jpg",
@@ -6819,9 +9419,19 @@ var allData = [
     "id": "3289",
     "website": "http://greenbaywi.gov/parks/recreation/winter-activities-2/321-2/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -6846,9 +9456,19 @@ var allData = [
     "id": "159",
     "website": "https://www.trollhaugen.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/159/3713/1612227534thumb.jpg",
@@ -6870,9 +9490,19 @@ var allData = [
     "id": "4984",
     "website": "https://tyrolbasin.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/162/2200/1584977701.png",
@@ -6892,9 +9522,19 @@ var allData = [
     "id": "158",
     "website": "https://whitecapresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/158/4359/1630096654.jpg",
@@ -6914,9 +9554,19 @@ var allData = [
     "id": "3290",
     "website": "https://www.skiwhitetail.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3290/2200/1452836425.jpg",
@@ -6972,9 +9622,19 @@ var allData = [
     "id": "12871",
     "website": "http://www.pinehurstpark.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/12871/4359/1632600904.jpg",
@@ -6994,9 +9654,19 @@ var allData = [
     "id": "548",
     "website": "http://www.arizonasnowbowl.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/548/3535/1635218701jpg_render.jpg",
@@ -7022,9 +9692,19 @@ var allData = [
     "id": "551",
     "website": "http://www.elkridgeski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/551/1923/1447610356.jpg",
@@ -7044,9 +9724,19 @@ var allData = [
     "id": "550",
     "website": "https://www.skithelemmon.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/550/1923/1447610315.jpg",
@@ -7066,9 +9756,19 @@ var allData = [
     "id": "549",
     "website": "https://www.sunriseskipark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/549/3535/1635216983.jpg",
@@ -7287,9 +9987,19 @@ var allData = [
     "id": "513",
     "website": "http://www.arapahoebasin.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -7312,9 +10022,19 @@ var allData = [
     "id": "1033",
     "website": "http://www.aspensnowmass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -7337,9 +10057,19 @@ var allData = [
     "id": "1032",
     "website": "http://www.aspensnowmass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -7362,9 +10092,19 @@ var allData = [
     "id": "1031",
     "website": "http://www.aspensnowmass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -7387,9 +10127,19 @@ var allData = [
     "id": "504",
     "website": "http://www.buttermilkresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -7437,9 +10187,19 @@ var allData = [
     "id": "497",
     "website": "https://www.beavercreek.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -7629,9 +10389,19 @@ var allData = [
     "id": "3296",
     "website": "http://www.durangogov.org/index.aspx?NID=544",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3296/4196/1636821546.jpg",
@@ -7765,9 +10535,19 @@ var allData = [
     "id": "509",
     "website": "http://www.coppercolorado.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -7828,9 +10608,19 @@ var allData = [
     "id": "514",
     "website": "http://www.skicb.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -7894,9 +10684,19 @@ var allData = [
     "id": "508",
     "website": "http://www.eldora.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -7918,9 +10718,19 @@ var allData = [
     "id": "1035",
     "website": "http://ski-hesperus.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1035/1923/1599491542.jpg",
@@ -7943,9 +10753,19 @@ var allData = [
     "id": "498",
     "website": "http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/498/916/1389760303.jpg",
@@ -7965,9 +10785,19 @@ var allData = [
     "id": "499",
     "website": "http://www.skikendall.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2280/3535/1573356158.jpg",
@@ -8340,9 +11170,19 @@ var allData = [
     "id": "3298",
     "website": "http://www.townoflakecity.co/lake-city-ski-hill.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3298/916/1336539148.jpg",
@@ -8376,9 +11216,19 @@ var allData = [
     "id": "515",
     "website": "http://www.skiloveland.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -8406,9 +11256,19 @@ var allData = [
     "id": "511",
     "website": "http://www.skimonarch.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/511/3535/1634341976.jpg",
@@ -8430,9 +11290,19 @@ var allData = [
     "id": "520",
     "website": "http://www.powderhorn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg",
@@ -8458,9 +11328,19 @@ var allData = [
     "id": "518",
     "website": "http://www.durangomountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/518/4196/1629036113jpg_render.jpg",
@@ -8483,9 +11363,19 @@ var allData = [
     "id": "3299",
     "website": "https://www.ci.ouray.co.us/city_offices/city_resources/lee_s_ski_hill.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3299/3857/1583598685.png",
@@ -8517,9 +11407,19 @@ var allData = [
     "id": "2280",
     "website": "http://www.silvertonmountain.com/page/home",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2280/1923/1599491760.jpg",
@@ -8576,9 +11476,19 @@ var allData = [
     "id": "516",
     "website": "http://www.granbyranch.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/516/2200/1606486755.jpg",
@@ -8608,9 +11518,19 @@ var allData = [
     "id": "500",
     "website": "http://www.steamboat.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -8635,9 +11555,19 @@ var allData = [
     "id": "",
     "website": "https://www.steamboatpowdercats.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -8659,9 +11589,19 @@ var allData = [
     "id": "506",
     "website": "https://sunlightmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/506/1923/1599491820.jpg",
@@ -8685,9 +11625,19 @@ var allData = [
     "id": "517",
     "website": "http://tellurideskiresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -8733,9 +11683,19 @@ var allData = [
     "id": "507",
     "website": "http://www.vail.snow.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -8766,9 +11726,19 @@ var allData = [
     "id": "503",
     "website": "http://www.winterparkresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -8877,9 +11847,19 @@ var allData = [
       "lng": -105.8787492562817
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -8904,9 +11884,19 @@ var allData = [
     "id": "4663",
     "website": "https://www.facebook.com/stmarysglacierco/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4663/2200/1521145928jpg_render.jpg",
@@ -8928,9 +11918,19 @@ var allData = [
     "id": "",
     "website": "https://www.visitcos.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -8954,9 +11954,19 @@ var allData = [
     "id": "",
     "website": "https://educationatelevation.com/2019/03/27/2019-cloud-city-rail-jam-results/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -8978,9 +11988,19 @@ var allData = [
     "id": "14835",
     "website": "http://www.coloradoskihistory.com/lost/hoosierpass.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/14835/3857/1585240961.png",
@@ -9052,9 +12072,19 @@ var allData = [
     "id": "",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://pbs.twimg.com/media/FGivCwtUcAY2FtD?format=png&name=medium",
@@ -9077,9 +12107,19 @@ var allData = [
     "id": "",
     "website": "https://www.rubyhilldenver.com/ruby-hill-park/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -9106,9 +12146,19 @@ var allData = [
     "id": "4904",
     "website": "https://www.townoffrisco.com/play/frisco-adventure-park-winter/general-info/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -9128,9 +12178,19 @@ var allData = [
       "lng": -106.14252201307508
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -9153,9 +12213,19 @@ var allData = [
       "lng": -106.21762991587998
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -9175,9 +12245,19 @@ var allData = [
     "id": "2768",
     "website": "http://www.skibaldmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2768/1923/1559428309.jpg",
@@ -9201,9 +12281,19 @@ var allData = [
     "id": "487",
     "website": "http://www.bogusbasin.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -9225,9 +12315,19 @@ var allData = [
     "id": "483",
     "website": "http://www.brundage.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/483/2200/1636134221jpg_render.jpg",
@@ -9247,9 +12347,19 @@ var allData = [
     "id": "484",
     "website": "https://www.cottonwoodbutte.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/484/1923/1559428370.jpg",
@@ -9269,9 +12379,19 @@ var allData = [
     "id": "486",
     "website": "http://www.skikelly.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/486/2200/1578017736.png",
@@ -9291,9 +12411,19 @@ var allData = [
     "id": "3009",
     "website": "http://www.littleskihill.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3009/3713/1582903513.jpg",
@@ -9313,9 +12443,19 @@ var allData = [
     "id": "482",
     "website": "http://www.skilookout.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/482/3691/1574391538.jpg",
@@ -9335,9 +12475,19 @@ var allData = [
     "id": "490",
     "website": "https://magicmountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/490/4196/1612037990.jpg",
@@ -9357,9 +12507,19 @@ var allData = [
     "id": "478",
     "website": "http://www.pebblecreekskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/478/1923/1590257388.jpg",
@@ -9379,9 +12539,19 @@ var allData = [
     "id": "477",
     "website": "http://www.pomerelle-mtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/477/4308/1612578339.jpg",
@@ -9407,9 +12577,19 @@ var allData = [
     "id": "3306",
     "website": "http://rotarunskiarea.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3306/1923/1595197431.jpg",
@@ -9429,9 +12609,19 @@ var allData = [
     "id": "476",
     "website": "http://www.schweitzer.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -9453,9 +12643,19 @@ var allData = [
     "id": "479",
     "website": "https://silvermt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -9477,9 +12677,19 @@ var allData = [
     "id": "489",
     "website": "http://www.grangeville.us/idahocounty/snowhaven/index.htm",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/489/1923/1559428515.jpg",
@@ -9499,9 +12709,19 @@ var allData = [
     "id": "485",
     "website": "http://www.soldiermountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/485/1923/1595197465.jpg",
@@ -9521,9 +12741,19 @@ var allData = [
     "id": "480",
     "website": "http://www.skibaldmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -9545,9 +12775,19 @@ var allData = [
     "id": "488",
     "website": "https://tamarackidaho.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/488/3100/1575037668jpg_render.jpg",
@@ -9567,9 +12807,19 @@ var allData = [
     "id": "2982",
     "website": "http://skibearpaw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2982/2200/1521588709.jpg",
@@ -9589,9 +12839,19 @@ var allData = [
     "id": "361",
     "website": "http://www.bigskyresort.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -9623,9 +12883,19 @@ var allData = [
     "id": "363",
     "website": "https://blacktailmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/363/2200/1634989306jpg_render.jpg",
@@ -9645,9 +12915,19 @@ var allData = [
     "id": "375",
     "website": "https://bridgerbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/375/3535/1618776634jpg_render.jpg",
@@ -9667,9 +12947,19 @@ var allData = [
     "id": "366",
     "website": "http://www.skidiscovery.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/366/2200/1542581285.jpg",
@@ -9689,9 +12979,19 @@ var allData = [
     "id": "371",
     "website": "http://www.skigd.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/371/3535/1635815670.jpg",
@@ -9711,9 +13011,19 @@ var allData = [
     "id": "4378",
     "website": "http://www.losttrail.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4378/221/1480628055.jpg",
@@ -9733,9 +13043,19 @@ var allData = [
     "id": "370",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/370/4196/1612037873.jpg",
@@ -9755,9 +13075,19 @@ var allData = [
     "id": "368",
     "website": "https://skimaverick.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/368/2200/1571453748.jpg",
@@ -9777,9 +13107,19 @@ var allData = [
     "id": "373",
     "website": "http://www.moonlightbasin.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/373/7/1320030351.jpg",
@@ -9799,9 +13139,19 @@ var allData = [
     "id": "364",
     "website": "https://www.redlodgemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/364/3535/1575502031.jpg",
@@ -9821,9 +13171,19 @@ var allData = [
     "id": "365",
     "website": "https://www.showdownmontana.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/365/3535/1574311631.jpg",
@@ -9843,9 +13203,19 @@ var allData = [
     "id": "372",
     "website": "https://www.skitetonmt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/372/1923/1488063864.jpg",
@@ -9865,9 +13235,19 @@ var allData = [
     "id": "369",
     "website": "https://www.skiturner.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/369/3535/1618776767.jpg",
@@ -9887,9 +13267,19 @@ var allData = [
     "id": "367",
     "website": "https://skiwhitefish.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/367/2200/1636658157.jpg",
@@ -9909,9 +13299,19 @@ var allData = [
     "id": "1025",
     "website": "http://www.theyellowstoneclub.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1025/2200/1611344372jpg_render.jpg",
@@ -9933,9 +13333,19 @@ var allData = [
     "id": "331",
     "website": "https://www.angelfireresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -10027,9 +13437,19 @@ var allData = [
     "id": "332",
     "website": "https://sandiapeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/332/1923/1521682775.jpg",
@@ -10051,9 +13471,19 @@ var allData = [
     "id": "337",
     "website": "https://www.sipapu.ski/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/337/1460/1559878718.png",
@@ -10145,9 +13575,19 @@ var allData = [
     "id": "335",
     "website": "http://www.skisantafe.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/335/3100/1575037748jpg_render.jpg",
@@ -10169,9 +13609,19 @@ var allData = [
     "id": "4528",
     "website": "https://www.skitaos.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -10193,9 +13643,19 @@ var allData = [
     "id": "3196",
     "website": "http://hlknweb.tamu.edu/mt-aggie",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -10216,9 +13676,19 @@ var allData = [
     "id": "224",
     "website": "https://www.alta.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -10241,9 +13711,19 @@ var allData = [
     "id": "220",
     "website": "https://www.skithebeav.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/220/2520/1614419067jpg_render.jpg",
@@ -10263,9 +13743,19 @@ var allData = [
     "id": "227",
     "website": "https://www.brianhead.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/227/3535/1634343642.jpg",
@@ -10287,9 +13777,19 @@ var allData = [
     "id": "222",
     "website": "https://www.skiutah.com/members/brighton",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -10311,9 +13811,19 @@ var allData = [
     "id": "4337",
     "website": "http://skicpr.com/index.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4337/2200/1574484535.jpg",
@@ -10334,9 +13844,19 @@ var allData = [
     "id": "223",
     "website": "https://www.deervalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -10358,9 +13878,19 @@ var allData = [
     "id": "231",
     "website": "http://www.skieaglepoint.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/231/2200/1532047841jpg_render.jpg",
@@ -10380,9 +13910,19 @@ var allData = [
     "id": "221",
     "website": "http://nordicvalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/221/3857/1612539218.png",
@@ -10483,9 +14023,19 @@ var allData = [
     "id": "228",
     "website": "https://www.powdermountain.com/visit-powder-mountain",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/374/2200/1564955911.jpg",
@@ -10507,9 +14057,19 @@ var allData = [
     "id": "219",
     "website": "http://www.snowbasin.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -10534,9 +14094,19 @@ var allData = [
     "id": "226",
     "website": "http://www.snowbird.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -10561,9 +14131,19 @@ var allData = [
     "id": "225",
     "website": "https://solitudemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -10591,9 +14171,19 @@ var allData = [
     "id": "230",
     "website": "https://www.sundanceresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/230/2200/1636135084jpg_render.jpg",
@@ -10613,9 +14203,19 @@ var allData = [
     "id": "149",
     "website": "http://www.lodgesofthebighorns.com/meadowlark-ski-lodge-wyoming.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/149/2200/1638472881.jpg",
@@ -10635,9 +14235,19 @@ var allData = [
     "id": "150",
     "website": "https://www.grandtarghee.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/150/3535/1618777484.jpg",
@@ -10663,9 +14273,19 @@ var allData = [
     "id": "152",
     "website": "http://hogadon.net/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/152/4196/1613516793.jpg",
@@ -10688,9 +14308,19 @@ var allData = [
     "id": "151",
     "website": "http://www.jacksonhole.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -10719,9 +14349,19 @@ var allData = [
     "id": "1038",
     "website": "https://www.facebook.com/PineCreekSkiResort/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1038/2200/1564178329.png",
@@ -10741,9 +14381,19 @@ var allData = [
     "id": "154",
     "website": "https://www.skisg.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/154/2200/1592594118.jpeg",
@@ -10763,9 +14413,19 @@ var allData = [
     "id": "156",
     "website": "https://snowkingmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/156/2200/1639188588jpg_render.jpg",
@@ -10793,9 +14453,19 @@ var allData = [
     "id": "155",
     "website": "https://www.snowyrangeski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/155/2200/1515374161jpg_render.jpg",
@@ -10815,9 +14485,19 @@ var allData = [
     "id": "148",
     "website": "http://www.whitepineski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/148/2200/1515199083.png",
@@ -10874,9 +14554,19 @@ var allData = [
     "id": "153",
     "website": "https://www.antelopebuttefoundation.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/153/1923/1590259171.jpg",
@@ -10898,9 +14588,19 @@ var allData = [
     "id": "555",
     "website": "https://arcticvalley.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/555/2200/1645140860.jpg",
@@ -10930,9 +14630,19 @@ var allData = [
     "id": "552",
     "website": "https://alyeskaresort.com/skiing-riding-at-alyeska/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/552/3535/1635216753.jpg",
@@ -10952,9 +14662,19 @@ var allData = [
     "id": "553",
     "website": "http://www.skijuneau.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -10976,9 +14696,19 @@ var allData = [
     "id": "556",
     "website": "http://www.hilltopskiarea.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/556/1923/1610459120.jpg",
@@ -10999,9 +14729,19 @@ var allData = [
     "id": "4695",
     "website": "https://majesticheliski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4695/2200/1446306959.jpeg",
@@ -11021,9 +14761,19 @@ var allData = [
     "id": "4936",
     "website": "https://shredthemoose.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/4936/2200/1455132643.jpeg",
@@ -11043,9 +14793,19 @@ var allData = [
     "id": "554",
     "website": "https://www.mteyak.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/554/3713/1584131673.jpg",
@@ -11065,9 +14825,19 @@ var allData = [
     "id": "2134",
     "website": "http://www.skiland.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2134/1923/1610459195.jpg",
@@ -11089,9 +14859,19 @@ var allData = [
     "id": "3003",
     "website": "https://www.skihatcherpass.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3003/2200/1612028184.jpeg",
@@ -11116,9 +14896,19 @@ var allData = [
     "id": "",
     "website": "https://www.chugachpowderguides.com/experience/snowcat-skiing",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -11140,9 +14930,19 @@ var allData = [
     "id": "",
     "website": "https://goo.gl/maps/U3vyGzvtqMMPNPMm7",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",
@@ -11162,9 +14962,19 @@ var allData = [
     "id": "522",
     "website": "https://www.squawalpine.com/explore/alpine-meadows-ski-resort",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -11187,9 +14997,19 @@ var allData = [
     "id": "528",
     "website": "https://www.altasierra.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/528/1923/1469893582.jpg",
@@ -11209,9 +15029,19 @@ var allData = [
     "id": "547",
     "website": "http://www.travelyosemite.com/winter/yosemite-ski-snowboard-area/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/547/1923/1469893610.jpg",
@@ -11234,9 +15064,19 @@ var allData = [
     "id": "536",
     "website": "http://www.bearmountain.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -11258,9 +15098,19 @@ var allData = [
     "id": "534",
     "website": "http://ww51.tiki.ne.jp/~bear-ski/index.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/534/3535/1575501334.png",
@@ -11280,9 +15130,19 @@ var allData = [
     "id": "523",
     "website": "http://www.borealski.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/523/4117/1605808778.jpg",
@@ -11302,9 +15162,19 @@ var allData = [
     "id": "2989",
     "website": "http://www.orgsites.com/ca/buckhorn/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2989/1232/1359064993.bmp",
@@ -11324,9 +15194,19 @@ var allData = [
     "id": "527",
     "website": "http://www.skichinapeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -11348,9 +15228,19 @@ var allData = [
     "id": "533",
     "website": "http://www.dodgeridge.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -11372,9 +15262,19 @@ var allData = [
     "id": "542",
     "website": "http://www.donnerskiranch.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/542/2200/1512863465.jpg",
@@ -11394,9 +15294,19 @@ var allData = [
     "id": "535",
     "website": "http://www.granlibakken.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/535/1923/1481681680.jpg",
@@ -11460,9 +15370,19 @@ var allData = [
     "id": "545",
     "website": "http://www.skihomewood.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/545/3535/1618776429jpg_render.jpg",
@@ -11482,9 +15402,19 @@ var allData = [
     "id": "540",
     "website": "http://www.junemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -11517,9 +15447,19 @@ var allData = [
     "id": "537",
     "website": "http://www.kirkwood.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -11569,9 +15509,19 @@ var allData = [
     "id": "530",
     "website": "http://www.mammothmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -11593,9 +15543,19 @@ var allData = [
     "id": "541",
     "website": "http://www.mtbaldy.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/541/3799/1579065366jpg_render.jpg",
@@ -11615,9 +15575,19 @@ var allData = [
     "id": "532",
     "website": "http://www.skipark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/532/3535/1635218319.jpg",
@@ -11637,9 +15607,19 @@ var allData = [
     "id": "1029",
     "website": "http://www.mtwaterman.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1029/1923/1469893859.jpg",
@@ -11661,9 +15641,19 @@ var allData = [
     "id": "521",
     "website": "http://www.mthigh.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -11731,9 +15721,19 @@ var allData = [
     "id": "525",
     "website": "http://www.sierraattahoe.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -11755,9 +15755,19 @@ var allData = [
     "id": "546",
     "website": "http://www.snowsummit.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/546/3535/1575415901.jpg",
@@ -11777,9 +15787,19 @@ var allData = [
     "id": "539",
     "website": "https://snow-valley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/539/2200/1549223778.jpg",
@@ -11799,9 +15819,19 @@ var allData = [
     "id": "524",
     "website": "http://www.skisodasprings.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/524/4117/1611248681.jpg",
@@ -11823,9 +15853,19 @@ var allData = [
     "id": "538",
     "website": "http://www.squaw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon",
@@ -11848,9 +15888,19 @@ var allData = [
     "id": "543",
     "website": "http://www.sugarbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/543/3535/1635218007jpg_render.jpg",
@@ -11870,9 +15920,19 @@ var allData = [
     "id": "529",
     "website": "http://www.tahoedonner.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/529/2798/1520436496.png",
@@ -11892,9 +15952,19 @@ var allData = [
     "id": "359",
     "website": "http://www.diamondpeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/359/1923/1590258306.jpg",
@@ -11950,9 +16020,19 @@ var allData = [
     "id": "358",
     "website": "http://www.mtrose.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/358/3535/1635216090jpg_render.jpg",
@@ -11972,9 +16052,19 @@ var allData = [
     "id": "2260",
     "website": "http://www.skytavern.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2260/1923/1482788902.jpg",
@@ -11994,9 +16084,19 @@ var allData = [
     "id": "2261",
     "website": "https://www.facebook.com/snobowl/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2261/1923/1479870734.jpg",
@@ -12016,9 +16116,19 @@ var allData = [
     "id": "264",
     "website": "https://anthonylakes.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/264/2200/1636680910.png",
@@ -12038,9 +16148,19 @@ var allData = [
     "id": "272",
     "website": "http://cooperspur.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/272/1923/1510757545.jpg",
@@ -12060,9 +16180,19 @@ var allData = [
     "id": "265",
     "website": "https://www.skifergi.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/265/1923/1510757566.jpg",
@@ -12082,9 +16212,19 @@ var allData = [
     "id": "268",
     "website": "https://skihoodoo.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/268/1923/1510757587.jpg",
@@ -12104,9 +16244,19 @@ var allData = [
     "id": "274",
     "website": "https://www.mtashland.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/274/2200/1597001839.jpg",
@@ -12126,9 +16276,19 @@ var allData = [
     "id": "270",
     "website": "https://www.mtbachelor.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -12150,9 +16310,19 @@ var allData = [
     "id": "271",
     "website": "https://www.skihood.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/271/3535/1576354482jpg_render.jpg",
@@ -12172,9 +16342,19 @@ var allData = [
     "id": "263",
     "website": "https://www.skibowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -12196,9 +16376,19 @@ var allData = [
     "id": "269",
     "website": "http://www.spoutspringsskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/269/1923/1590258641.jpg",
@@ -12210,6 +16400,7 @@ var allData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "xh_ld3awWx4",
       "TMvaJQ5du_A",
       "9giH4UVZ4zo",
       "9DZngTCAV4k",
@@ -12309,9 +16500,19 @@ var allData = [
     "id": "2279",
     "website": "https://www.warnercanyonski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2279/1923/1510757630.jpg",
@@ -12331,9 +16532,19 @@ var allData = [
     "id": "267",
     "website": "http://www.willamettepass.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/267/3535/1574129168.jpeg",
@@ -12353,9 +16564,19 @@ var allData = [
     "id": "195",
     "website": "http://www.ski49n.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/195/3535/1637461394.jpg",
@@ -12375,9 +16596,19 @@ var allData = [
     "id": "187",
     "website": "http://www.ci.waterville.wa.us/ski%20hill.htm",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/187/1923/1582688238.jpg",
@@ -12433,9 +16664,19 @@ var allData = [
     "id": "3322",
     "website": "http://www.echovalley.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3322/4152/1606526330.jpg",
@@ -12455,9 +16696,19 @@ var allData = [
     "id": "1024",
     "website": "http://hurricaneridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/1024/1923/1599491174.jpg",
@@ -12477,9 +16728,19 @@ var allData = [
     "id": "3323",
     "website": "http://www.skileavenworth.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3323/4196/1636821600.jpg",
@@ -12499,9 +16760,19 @@ var allData = [
     "id": "192",
     "website": "http://www.skitheloup.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/192/1923/1599491197.jpg",
@@ -12521,9 +16792,19 @@ var allData = [
     "id": "3324",
     "website": "https://www.mountaineers.org/locations-lodges/meany-lodge",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3324/4196/1636821633.jpg",
@@ -12543,9 +16824,19 @@ var allData = [
     "id": "186",
     "website": "http://www.missionridge.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -12567,9 +16858,19 @@ var allData = [
     "id": "191",
     "website": "http://www.mtbaker.us",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/191/3535/1631068964.jpg",
@@ -12589,9 +16890,19 @@ var allData = [
     "id": "189",
     "website": "https://www.mtspokane.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/189/2200/1607787349.jpg",
@@ -12611,9 +16922,19 @@ var allData = [
     "id": "3325",
     "website": "http://www.sahalie.org/chair2/Home.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3325/4196/1636821670.jpg",
@@ -12633,9 +16954,19 @@ var allData = [
     "id": "188",
     "website": "http://gositzmark.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/188/1923/1599491233.jpg",
@@ -12655,9 +16986,19 @@ var allData = [
     "id": "185",
     "website": "http://www.bluewood.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/185/1923/1568500231.jpg",
@@ -12677,9 +17018,19 @@ var allData = [
     "id": "190",
     "website": "http://www.stevenspass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Epic"
@@ -12703,9 +17054,19 @@ var allData = [
     "id": "194",
     "website": "https://summitatsnoqualmie.com/summit-central",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Ikon"
@@ -12737,9 +17098,19 @@ var allData = [
     "id": "194",
     "website": "https://summitatsnoqualmie.com/alpental",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg",
@@ -12759,9 +17130,19 @@ var allData = [
     "id": "184",
     "website": "http://www.skiwhitepass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
       "Powder Alliance"
@@ -12783,9 +17164,19 @@ var allData = [
     },
     "officialSkiResort": false,
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number not a string
       "link": "",
-      "note": ""
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "",

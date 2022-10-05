@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '10/3/2022';
+var lastUpdated = '10/5/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6754,19 +6754,19 @@ var allData = [
     "id": "430",
     "website": "https://www.mtbrighton.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "score": 44, // must be a number not a string
+      "link": "sUunGfMwnVI",
+      "note": "Johnathan rated this 44/100 in the video, but the scores actually add up to 45.",
+      "price": "6",
+      "easeOfAccess": "6",
+      "lodging": "1",
+      "chairLifts": "4",
+      "runs": "3",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "6",
+      "views": "2",
+      "wouldIGoBack": "8"
     },
     "skiPass": [
       "Epic"

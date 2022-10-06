@@ -44,7 +44,8 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/493/2200/1578529332.jpg",
-    "country": "United States"
+    "country": "United States",
+    "tags": "summit county, tahoe, big foot, pizza, tacos"
   },
   {
     "resortName": "Mount Southington",
@@ -12013,6 +12014,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "mW1HUjMnoIY",
       "eveJWfLS8mI",
       "dFZzgZkpb8I",
       "iJQ4PfdEjIk",
@@ -15473,6 +15475,7 @@ var allData = [
     "region": "West Coast",
     "city": "Mammoth Lakes",
     "videos": [
+      "RGezaLDdXeg",
       "HgT8_RRJi3c",
       "T2d8ItgTolA",
       "6Bf0PGrGYBE",

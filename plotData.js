@@ -1045,7 +1045,7 @@ var s2Days = 72;
 var s3Days = 186;
 var s4Days = 188;
 var s5Days = 144;
-var s6Days = 156;
+var s6Days = 159;
 var s7Days = 0;
 
 var daysTotalBySeason = {

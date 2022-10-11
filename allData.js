@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '10/5/2022';
+var lastUpdated = '10/10/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -137,19 +137,19 @@ var allData = [
     "id": "496",
     "website": "http://www.skisundown.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 45, // must be a number not a string
+      "link": "kppnPMYcwfQ",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "5",
+      "views": "4",
+      "wouldIGoBack": "8"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/496/1824/1408311576.jpg",
@@ -3102,6 +3102,7 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "East Rutherford (indoor)",
     "videos": [
+      "tyVrXBSCTe4",
       "Auzxc1efBXo",
       "zdP-z1sqEOM",
       "RkNhXala8xY",
@@ -11217,19 +11218,19 @@ var allData = [
     "id": "515",
     "website": "http://www.skiloveland.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "score": 63, // must be a number not a string
+      "link": "7zncp7BSBr8",
+      "note": "Johnathan rated this 62/100 in the video, but the scores actually add up to 63.",
+      "price": "8",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "6",
+      "runs": "8",
+      "terrainPark": "6",
+      "food": "7",
+      "employees": "5",
+      "views": "10",
+      "wouldIGoBack": "7"
     },
     "skiPass": [
       "Powder Alliance"

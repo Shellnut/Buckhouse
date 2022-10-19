@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '10/10/2022';
+var lastUpdated = '10/18/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10686,19 +10686,19 @@ var allData = [
     "id": "508",
     "website": "http://www.eldora.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 63, // must be a number not a string
+      "link": "sWdRqgInl1o",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "4",
+      "lodging": "0",
+      "chairLifts": "6",
+      "runs": "7",
+      "terrainPark": "8",
+      "food": "6",
+      "employees": "10",
+      "views": "5",
+      "wouldIGoBack": "63"
     },
     "skiPass": [
       "Ikon"

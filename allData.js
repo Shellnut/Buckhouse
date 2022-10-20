@@ -42,7 +42,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/493/2200/1578529332.jpg",
     "country": "United States",
     "tags": "summit county, tahoe, big foot, pizza, tacos"
@@ -215,7 +217,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/455/2200/1597361441.jpg",
     "country": "United States"
   },
@@ -279,7 +283,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/454/2200/1604183937jpg_render.jpg",
     "country": "United States"
   },
@@ -631,7 +637,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/446/3535/1607711926jpg_render.jpg",
     "country": "United States"
   },
@@ -801,7 +809,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/435/2200/1574037802jpg_render.jpg",
     "country": "United States"
   },
@@ -1291,7 +1301,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/348/3439/1578364381.png",
     "country": "United States"
   },
@@ -1355,7 +1367,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/347/3535/1584308926.jpg",
     "country": "United States"
   },
@@ -1847,7 +1861,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/355/1265/1495632993.jpg",
     "country": "United States"
   },
@@ -2039,7 +2055,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/353/2200/1608251494jpg_render.jpg",
     "country": "United States"
   },
@@ -2201,7 +2219,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/216/3535/1635227913jpg_render.jpg",
     "country": "United States"
   },
@@ -2426,7 +2446,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/202/3535/1607529001jpg_render.jpg",
     "country": "United States"
   },
@@ -2624,7 +2646,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/14790/3857/1585178894.jpg",
     "country": "United States"
   },
@@ -3001,7 +3025,7 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Suicide Six",
+    "resortName": "Saskadena Six",
     "state": "Vermont",
     "region": "New England",
     "city": "South Pomfret",
@@ -3470,7 +3494,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/323/4387/1616582923jpg_render.jpg",
     "country": "United States"
   },
@@ -3568,7 +3594,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/297/2200/1531097589thumb.jpg",
     "country": "United States"
   },
@@ -4022,7 +4050,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/312/4196/1636496425thumb.jpg",
     "country": "United States"
   },
@@ -4054,7 +4084,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/310/1923/1604978222.jpg",
     "country": "United States"
   },
@@ -4152,7 +4184,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/316/1923/1610589654.jpg",
     "country": "United States"
   },
@@ -4218,7 +4252,9 @@ var allData = [
       "views": "2",
       "wouldIGoBack": "4"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/317/1923/1610589677.jpg",
     "country": "United States"
   },
@@ -4642,7 +4678,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/241/4070/1608578562.jpg",
     "country": "United States"
   },
@@ -5032,7 +5070,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/246/4196/1613516692thumb.jpg",
     "country": "United States"
   },
@@ -5160,7 +5200,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/262/916/1335649417.jpg",
     "country": "United States"
   },
@@ -5192,7 +5234,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/248/4070/1608578014.jpg",
     "country": "United States"
   },
@@ -5388,7 +5432,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/288/2200/1467926831.jpg",
     "country": "United States"
   },
@@ -5552,7 +5598,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/232/4196/1635090326.jpg",
     "country": "United States"
   },
@@ -5616,7 +5664,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/197/2200/1634234233.jpg",
     "country": "United States"
   },
@@ -5757,7 +5807,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/180/4070/1612289450.jpg",
     "country": "United States"
   },
@@ -5887,7 +5939,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/182/2200/1593363598.jpg",
     "country": "United States"
   },
@@ -5954,7 +6008,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/471/4196/1632791813.jpg",
     "country": "United States"
   },
@@ -6184,7 +6240,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/465/4196/1632791749.jpg",
     "country": "United States"
   },
@@ -6218,7 +6276,9 @@ var allData = [
       "views": "6",
       "wouldIGoBack": "5"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/466/4196/1632791840.jpg",
     "country": "United States"
   },
@@ -6316,7 +6376,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/420/4196/1631755159.jpg",
     "country": "United States"
   },
@@ -6480,7 +6542,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/404/2200/1466130850.jpg",
     "country": "United States"
   },
@@ -6544,7 +6608,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/429/2200/1520792728jpg_render.jpg",
     "country": "United States"
   },
@@ -6613,7 +6679,7 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Indianhead Mountain Resort",
+    "resortName": "Snowriver Mountain Resort",
     "state": "Michigan",
     "region": "Midwest",
     "city": "Wakefield",
@@ -6640,7 +6706,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/422/4196/1635612617.jpg",
     "country": "United States"
   },
@@ -6672,7 +6740,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/419/4196/1631755319.jpg",
     "country": "United States"
   },
@@ -6976,7 +7046,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/406/4196/1631755463.jpg",
     "country": "United States"
   },
@@ -7106,7 +7178,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/433/4359/1633800770.jpg",
     "country": "United States"
   },
@@ -7143,7 +7217,7 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Shanty Creek Resorts",
+    "resortName": "Schuss Mountain at Shanty Creek",
     "state": "Michigan",
     "region": "Midwest",
     "city": "Bellaire",
@@ -7170,7 +7244,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/416/2200/1543342977jpg_render.jpg",
     "country": "United States"
   },
@@ -7266,7 +7342,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/401/4196/1635612785.jpg",
     "country": "United States"
   },
@@ -7330,7 +7408,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/423/2200/1521862142jpg_render.jpg",
     "country": "United States"
   },
@@ -7496,7 +7576,9 @@ var allData = [
       "views": "1",
       "wouldIGoBack": "6"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/386/4359/1625513918.jpg",
     "country": "United States"
   },
@@ -7624,7 +7706,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/4463/2200/1500789537.jpg",
     "country": "United States"
   },
@@ -7764,7 +7848,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/381/4070/1636569204jpg_render.jpg",
     "country": "United States"
   },
@@ -7828,7 +7914,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/387/4196/1632579567.jpg",
     "country": "United States"
   },
@@ -7860,7 +7948,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/492/916/1622594198jpg_render.jpg",
     "country": "United States"
   },
@@ -7924,7 +8014,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/383/4196/1612306035jpg_render.jpg",
     "country": "United States"
   },
@@ -8485,7 +8577,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/233/4070/1610976293.jpg",
     "country": "United States"
   },
@@ -8814,7 +8908,9 @@ var allData = [
       "views": "4",
       "wouldIGoBack": "6"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/15253/4417/1618167308.png",
     "country": "United States"
   },
@@ -8914,7 +9010,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/170/4359/1634595467.jpg",
     "country": "United States"
   },
@@ -9076,7 +9174,9 @@ var allData = [
       "views": "2",
       "wouldIGoBack": "8"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/161/4359/1617135039.jpg",
     "country": "United States"
   },
@@ -9272,7 +9372,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/157/4359/1633803877.jpg",
     "country": "United States"
   },
@@ -9472,7 +9574,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/159/3713/1612227534thumb.jpg",
     "country": "United States"
   },
@@ -9506,7 +9610,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/162/2200/1584977701.png",
     "country": "United States"
   },
@@ -9772,7 +9878,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/549/3535/1635216983.jpg",
     "country": "United States"
   },
@@ -11292,19 +11400,19 @@ var allData = [
     "id": "520",
     "website": "http://www.powderhorn.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 45, // must be a number not a string
+      "link": "GKsRWQGRoOs",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "8",
+      "easeOfAccess": "2",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "7",
+      "terrainPark": "3",
+      "food": "5",
+      "employees": "5",
+      "views": "5",
+      "wouldIGoBack": "8"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg",
@@ -11605,7 +11713,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/506/1923/1599491820.jpg",
     "country": "United States"
   },
@@ -12235,6 +12345,40 @@ var allData = [
     "country": "United States"
   },
   {
+    "resortName": "Bluebird Backcountry",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Kremmling",
+    "officialSkiResort": true,
+    "id": "14734",
+    "website": "https://bluebirdbackcountry.com/",
+    "videos": [],
+    "position": {
+      "lat": 40.41109022966728,
+      "lng": -106.55187298302228
+    },
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [
+      "Indy"
+    ],
+    "mapLink": "https://skimap.org/data/14734/2200/1630950605.png",
+    "country": "United States"
+  },
+  {
     "resortName": "Bald Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -12332,7 +12476,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/483/2200/1636134221jpg_render.jpg",
     "country": "United States"
   },
@@ -12396,7 +12542,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/486/2200/1578017736.png",
     "country": "United States"
   },
@@ -12556,7 +12704,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/477/4308/1612578339.jpg",
     "webcam": [
       {
@@ -12661,7 +12811,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance"
+      "Powder Alliance",
+      "Indy"
     ],
     "mapLink": "https://skimap.org/data/479/1923/1559428496.jpg",
     "country": "United States"
@@ -12726,7 +12877,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/485/1923/1595197465.jpg",
     "country": "United States"
   },
@@ -12792,7 +12945,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/488/3100/1575037668jpg_render.jpg",
     "country": "United States"
   },
@@ -12900,7 +13055,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/363/2200/1634989306jpg_render.jpg",
     "country": "United States"
   },
@@ -13028,7 +13185,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/4378/221/1480628055.jpg",
     "country": "United States"
   },
@@ -13156,7 +13315,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/364/3535/1575502031.jpg",
     "country": "United States"
   },
@@ -13728,7 +13889,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/220/2520/1614419067jpg_render.jpg",
     "country": "United States"
   },
@@ -13895,7 +14058,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/231/2200/1532047841jpg_render.jpg",
     "country": "United States"
   },
@@ -14040,7 +14205,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/374/2200/1564955911.jpg",
     "country": "United States"
   },
@@ -14220,7 +14387,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/149/2200/1638472881.jpg",
     "country": "United States"
   },
@@ -14430,7 +14599,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/156/2200/1639188588jpg_render.jpg",
     "webcam": [
       {
@@ -14502,7 +14673,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/148/2200/1515199083.png",
     "country": "United States"
   },
@@ -14571,7 +14744,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/153/1923/1590259171.jpg",
     "country": "United States"
   },
@@ -14605,7 +14780,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/555/2200/1645140860.jpg",
     "country": "United States"
   },
@@ -14680,7 +14857,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance"
+      "Powder Alliance",
+      "Indy"
     ],
     "mapLink": "https://skimap.org/data/553/3535/1577512100.jpg",
     "country": "United States"
@@ -15212,7 +15390,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance"
+      "Powder Alliance",
+      "Indy"
     ],
     "mapLink": "https://skimap.org/data/527/3535/1635217153jpg_render.jpg",
     "country": "United States"
@@ -15246,7 +15425,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance"
+      "Powder Alliance",
+      "Indy"
     ],
     "mapLink": "https://skimap.org/data/533/1923/1469893693.jpg",
     "country": "United States"
@@ -15593,7 +15773,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/532/3535/1635218319.jpg",
     "country": "United States"
   },
@@ -15660,7 +15842,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance"
+      "Powder Alliance",
+      "Indy"
     ],
     "mapLink": "https://skimap.org/data/521/3535/1574138388.png",
     "country": "United States"
@@ -16230,7 +16413,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/268/1923/1510757587.jpg",
     "country": "United States"
   },
@@ -16328,7 +16513,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/271/3535/1576354482jpg_render.jpg",
     "country": "United States"
   },
@@ -16582,7 +16769,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/195/3535/1637461394.jpg",
     "country": "United States"
   },
@@ -16714,7 +16903,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/1024/1923/1599491174.jpg",
     "country": "United States"
   },
@@ -16843,7 +17034,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance"
+      "Powder Alliance",
+      "Indy"
     ],
     "mapLink": "https://skimap.org/data/186/4331/1613956663jpg_render.jpg",
     "country": "United States"
@@ -17004,7 +17196,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/185/1923/1568500231.jpg",
     "country": "United States"
   },
@@ -17149,7 +17343,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance"
+      "Powder Alliance",
+      "Indy"
     ],
     "mapLink": "https://skimap.org/data/184/1923/1568500416.jpg",
     "country": "United States"

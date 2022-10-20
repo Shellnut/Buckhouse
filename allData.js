@@ -704,7 +704,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Ikon"
+      "Ikon",
+      "Mountain Collective"
     ],
     "mapLink": "https://skimap.org/data/448/4149/1606442721jpg_render.jpg",
     "webcam": [
@@ -4872,7 +4873,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+        "Epic"
+    ],
     "mapLink": "https://skimap.org/data/4115/1317/1387252571jpg_render.jpg",
     "country": "United States"
   },
@@ -4972,7 +4975,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+        "Epic"
+    ],
     "mapLink": "https://skimap.org/data/4114/4070/1608642494jpg_render.jpg",
     "country": "United States"
   },
@@ -5038,7 +5043,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+        "Epic"
+    ],
     "mapLink": "https://skimap.org/data/240/1923/1604978327.jpg",
     "country": "United States"
   },
@@ -5136,7 +5143,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+        "Epic"
+    ],
     "mapLink": "https://skimap.org/data/242/3101/1520429353thumb.jpg",
     "country": "United States"
   },
@@ -12912,7 +12921,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Epic"
+      "Ikon",
+      "Mountain Collective"
     ],
     "mapLink": "https://skimap.org/data/480/2200/1634494889jpg_render.jpg",
     "country": "United States"
@@ -13012,7 +13022,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Ikon"
+      "Ikon",
+      "Mountain Collective"
     ],
     "mapLink": "https://skimap.org/data/361/2200/1635614165jpg_render.jpg",
     "webcam": [
@@ -13788,7 +13799,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Ikon"
+      "Ikon",
+      "Mountain Collective"
     ],
     "mapLink": "https://skimap.org/data/4528/1265/1434810817.jpg",
     "country": "United States"
@@ -14242,7 +14254,8 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Epic"
+      "Ikon",
+      "Mountain Collective"
     ],
     "mapLink": "https://skimap.org/data/219/3857/1632441028.jpeg",
     "country": "United States"
@@ -14421,7 +14434,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+        "Mountain Collective"
+    ],
     "mapLink": "https://skimap.org/data/150/3535/1618777484.jpg",
     "webcam": [
       {
@@ -15157,10 +15172,7 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Ikon",
-      "Mountain Collective"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/522/3535/1574790777jpg_render.jpg",
     "country": "United States"
   },
@@ -16055,8 +16067,7 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Ikon",
-      "Mountain Collective"
+      "Ikon"
     ],
     "mapLink": "https://skimap.org/data/538/3535/1634331745jpg_render.jpg",
     "country": "United States"
@@ -16089,7 +16100,9 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+        "Mountain Collective"
+    ],
     "mapLink": "https://skimap.org/data/543/3535/1635218007jpg_render.jpg",
     "country": "United States"
   },

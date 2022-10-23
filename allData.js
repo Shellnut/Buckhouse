@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '10/18/2022';
+var lastUpdated = '10/22/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -46,8 +46,7 @@ var allData = [
       "Indy"
     ],
     "mapLink": "https://skimap.org/data/493/2200/1578529332.jpg",
-    "country": "United States",
-    "tags": "summit county, tahoe, big foot, pizza, tacos"
+    "country": "United States"
   },
   {
     "resortName": "Mount Southington",
@@ -13803,38 +13802,6 @@ var allData = [
       "Mountain Collective"
     ],
     "mapLink": "https://skimap.org/data/4528/1265/1434810817.jpg",
-    "country": "United States"
-  },
-  {
-    "resortName": "Mount Aggie Ski Slope",
-    "state": "Texas",
-    "region": "Southeast",
-    "city": "College Station",
-    "videos": [],
-    "position": {
-      "lat": 30.601650239295864,
-      "lng": -96.34977705973935
-    },
-    "officialSkiResort": true,
-    "id": "3196",
-    "website": "http://hlknweb.tamu.edu/mt-aggie",
-    "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "",
     "country": "United States"
   },
   {

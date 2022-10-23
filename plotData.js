@@ -116,7 +116,7 @@ var s3Start = '2018-10-10T01:59:30Z';
 var s4Start = '2019-10-12T03:45:14Z';
 var s5Start = '2020-10-25T22:45:12Z';
 var s6Start = '2021-10-14T22:45:12Z';
-var s7Start = '2022-11-14T22:45:12Z';
+var s7Start = '2022-10-23T10:00:00Z';
 var s8Start = '2023-10-14T22:45:12Z';
   
 // Season resorts

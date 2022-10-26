@@ -9795,38 +9795,6 @@ var allData = [
     "country": "United States"
   },
   {
-    "resortName": "Elk Ridge Ski Area",
-    "state": "Arizona",
-    "region": "Rocky Mountains",
-    "city": "Williams",
-    "videos": [],
-    "position": {
-      "lat": 35.21541003933895,
-      "lng": -112.16777969041384
-    },
-    "officialSkiResort": true,
-    "id": "551",
-    "website": "http://www.elkridgeski.com/",
-    "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://skimap.org/data/551/1923/1447610356.jpg",
-    "country": "United States"
-  },
-  {
     "resortName": "Mount Lemmon Ski Valley",
     "state": "Arizona",
     "region": "Rocky Mountains",

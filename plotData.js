@@ -99,7 +99,7 @@ var stateData = {
   southCarolina: 0,
   southDakota: 100*(southDakotaData.filter(val=>val.videos.length>0).length / southDakotaData.length),
   tennessee: 100*(tennesseeData.filter(val=>val.videos.length>0).length / tennesseeData.length),
-  texas: 100*(texasData.filter(val=>val.videos.length>0).length / texasData.length),
+  texas: 0,
   utah: 100*(utahData.filter(val=>val.videos.length>0).length / utahData.length),
   vermont: 100*(vermontData.filter(val=>val.videos.length>0).length / vermontData.length),
   virginia: 100*(virginiaData.filter(val=>val.videos.length>0).length / virginiaData.length),
@@ -1046,7 +1046,7 @@ var s3Days = 186;
 var s4Days = 188;
 var s5Days = 144;
 var s6Days = 159;
-var s7Days = 1;
+var s7Days = 2;
 
 var daysTotalBySeason = {
   x: ["Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7"],

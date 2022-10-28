@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '10/25/2022';
+var lastUpdated = '10/27/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9866,6 +9866,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "zamziVjr1e4",
       "tKLlqNWbft4",
       "Ows7ulj3M54",
       "iaishLYfGgo",
@@ -11497,19 +11498,19 @@ var allData = [
     "id": "2280",
     "website": "http://www.silvertonmountain.com/page/home",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 55, // must be a number not a string
+      "link": "Eu_hkzSwAHI",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "4",
+      "easeOfAccess": "2",
+      "lodging": "1",
+      "chairLifts": "7",
+      "runs": "10",
+      "terrainPark": "0",
+      "food": "1",
+      "employees": "10",
+      "views": "10",
+      "wouldIGoBack": "10"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/2280/1923/1599491760.jpg",

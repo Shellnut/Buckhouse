@@ -12,7 +12,7 @@
 //     }
 //   }  
 // }
-var lastUpdated = '10/27/2022';
+var lastUpdated = '11/05/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9866,6 +9866,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "eMMpHFJcJf8",
       "zamziVjr1e4",
       "tKLlqNWbft4",
       "Ows7ulj3M54",
@@ -10078,19 +10079,19 @@ var allData = [
     "id": "513",
     "website": "http://www.arapahoebasin.com",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 60, // must be a number not a string
+      "link": "Vjct1aKyVOc",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "8",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "5",
+      "runs": "10",
+      "terrainPark": "2",
+      "food": "7",
+      "employees": "4",
+      "views": "9",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon",
@@ -11285,6 +11286,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Georgetown",
     "videos": [
+      "wkIKvR86gbA",
       "JmT7YT3PnLk",
       "9rZ_ICt7Zek",
       "x0aLDdwkrVQ",
@@ -15645,19 +15647,19 @@ var allData = [
     "id": "530",
     "website": "http://www.mammothmountain.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 85, // must be a number not a string
+      "link": "5juHKVAR6b0",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "3",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "10",
+      "terrainPark": "10",
+      "food": "10",
+      "employees": "10",
+      "views": "8",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon"
@@ -16545,6 +16547,7 @@ var allData = [
     "city": "Government Camp",
     "videos": [
       "xh_ld3awWx4",
+      "txPsaD1dBPI",
       "TMvaJQ5du_A",
       "9giH4UVZ4zo",
       "9DZngTCAV4k",

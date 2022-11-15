@@ -1,18 +1,4 @@
-// -------------------------
-// All Ski Map data
-// -------------------------
-// for (var i=0; i<allData.length; i++) {
-//   for (var j=0; j<a.length; j++) {
-//     var resort1 = allData[i].resortName.replace("Mount", "Mt").replace("Mt.", "Mt");
-//     var resort2 = a[j].SkiArea.name.replace("Mount", "Mt").replace("Mt.", "Mt");
-//     if (resort1.includes(resort2) || resort2.includes(resort1)) {
-//       console.log('There was a match!');
-//       allData[i].id = a[j].SkiArea.id;
-//       allData[i].website = a[j].SkiArea.official_website;
-//     }
-//   }  
-// }
-var lastUpdated = '11/05/2022';
+var lastUpdated = '11/14/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9867,6 +9853,7 @@ var allData = [
     "city": "Keystone",
     "videos": [
       "eMMpHFJcJf8",
+      "g34xrbv4W0E",
       "zamziVjr1e4",
       "tKLlqNWbft4",
       "Ows7ulj3M54",
@@ -10305,6 +10292,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "G60cwqUh4V8",
+      "oAkCxmcsNks",
       "BYtcL6IRHnc",
       "7l2DwP-dGkA",
       "PDW_QRw4K1s",
@@ -10505,6 +10494,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "QoECK5mWRJc",
       "9M64Fc43y5A",
       "ORSF8EZ7zqA",
       "DzwFU4F4gd4",
@@ -10627,19 +10617,19 @@ var allData = [
     "id": "509",
     "website": "http://www.coppercolorado.com",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 83, // must be a number not a string
+      "link": "GYhCXwxn3L4",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "10",
+      "chairLifts": "10",
+      "runs": "8",
+      "terrainPark": "10",
+      "food": "10",
+      "employees": "6",
+      "views": "9",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon"
@@ -10901,6 +10891,9 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "q5BzMP-YVjI",
+      "-0zCE3nBtZk",
+      "5HpX70R-HB4",
       "gG92tEiDRQA",
       "lu56p5e9r7Y",
       "MLDho-WaJLY",
@@ -11756,6 +11749,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Vail",
     "videos": [
+      "7ZGr7BACcrU",
+      "_d6d1THN_B8",
       "LkgfkLkbf24",
       "XsX_qb6twsE",
       "aKBaKeG7PJQ",
@@ -11778,19 +11773,19 @@ var allData = [
     "id": "507",
     "website": "http://www.vail.snow.com",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 75, // must be a number not a string
+      "link": "a1zJD_PlJOc",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "4",
+      "easeOfAccess": "4",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "10",
+      "terrainPark": "4",
+      "food": "10",
+      "employees": "5",
+      "views": "9",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Epic"

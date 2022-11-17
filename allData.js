@@ -11751,6 +11751,7 @@ var allData = [
     "city": "Vail",
     "videos": [
       "7ZGr7BACcrU",
+      "FZKVypyz5js",
       "_d6d1THN_B8",
       "LkgfkLkbf24",
       "XsX_qb6twsE",

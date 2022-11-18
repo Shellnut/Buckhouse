@@ -1,4 +1,4 @@
-var lastUpdated = '11/16/2022';
+var lastUpdated = '11/18/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -69,7 +69,7 @@ var allData = [
     "webcam": [
       {
         "title": "Mount Southington",
-        "link": "o2TN5d1TwCM"
+        "link": "Jx5FPsPltz0"
       }
     ],
     "country": "United States"
@@ -695,8 +695,8 @@ var allData = [
     "mapLink": "https://skimap.org/data/448/4149/1606442721jpg_render.jpg",
     "webcam": [
       {
-        "title": "BullWinkle",
-        "link": "z0ZjiS1n4Dk"
+        "title": "Sugarloaf Webcam - Beach Cam",
+        "link": "q30GjuSB_ls"
       }
     ],
     "country": "United States"
@@ -2504,7 +2504,7 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "",
+    "mapLink": "https://unofficialnetworks.com/wp-content/uploads/sites/88/2022/10/Screen-Shot-2022-10-27-at-10.49.50-PM.jpg",
     "country": "United States"
   },
   {
@@ -3845,7 +3845,7 @@ var allData = [
       "wouldIGoBack": "2"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/307/1923/1610589580thumb.jpg",
+    "mapLink": "https://skimap.org/data/307/3817/1579617675jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -4241,7 +4241,7 @@ var allData = [
     "skiPass": [
       "Indy"
     ],
-    "mapLink": "https://skimap.org/data/317/1923/1610589677.jpg",
+    "mapLink": "https://skimap.org/data/317/2200/1637813733jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -6005,7 +6005,7 @@ var allData = [
     "skiPass": [
       "Indy"
     ],
-    "mapLink": "https://skimap.org/data/471/4196/1632791813.jpg",
+    "mapLink": "https://skimap.org/data/471/3713/1642177453.jpeg",
     "country": "United States"
   },
   {
@@ -6273,7 +6273,7 @@ var allData = [
     "skiPass": [
       "Indy"
     ],
-    "mapLink": "https://skimap.org/data/466/4196/1632791840.jpg",
+    "mapLink": "https://skimap.org/data/466/4359/1625690728.jpg",
     "country": "United States"
   },
   {
@@ -6837,17 +6837,7 @@ var allData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/430/2200/1636229996.jfif",
-    "webcam": [
-      {
-        "title": "Parking Lot",
-        "link": "iq-CT8UQzgo"
-      },
-      {
-        "title": "Great Western",
-        "link": "YDyBL3bXOwA"
-      }
-    ],
+    "mapLink": "https://skimap.org/data/430/916/1580479827jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -6913,7 +6903,7 @@ var allData = [
       "wouldIGoBack": "6"
   },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/431/4196/1635612852.jpg",
+    "mapLink": "https://skimap.org/data/431/2200/1615576687.jpg",
     "country": "United States"
   },
   {
@@ -7771,7 +7761,7 @@ var allData = [
       "wouldIGoBack": "9"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/389/4359/1623767220.jpg",
+    "mapLink": "https://skimap.org/data/389/3093/1518980380.jpg",
     "webcam": [
       {
         "title": "LIVE Snow Cam",
@@ -8077,7 +8067,7 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/380/1923/1610589372.jpg",
+    "mapLink": "https://skimap.org/data/380/3645/1660533234.jpg",
     "country": "United States"
   },
   {
@@ -8608,7 +8598,7 @@ var allData = [
       "wouldIGoBack": "4"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/169/1923/1610588517.jpg",
+    "mapLink": "https://skimap.org/data/169/4359/1666269028.jpg",
     "country": "United States"
   },
   {
@@ -8869,7 +8859,7 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/166/4359/1633804112.jpg",
+    "mapLink": "https://skimap.org/data/166/4359/1640984888.jpeg",
     "country": "United States"
   },
   {
@@ -9369,7 +9359,7 @@ var allData = [
     "skiPass": [
       "Indy"
     ],
-    "mapLink": "https://skimap.org/data/157/4359/1633803877.jpg",
+    "mapLink": "https://skimap.org/data/157/4359/1616947746.jpg",
     "country": "United States"
   },
   {
@@ -9945,7 +9935,6 @@ var allData = [
       "oKOLSCdTiyE",
       "_mFzB0FaP6U",
       "paAN8trUDrE",
-      "Bde50Xd4DQg",
       "o4fDQ5P5se4",
       "s5JB8Kv8d3A",
       "UW27MStwkEM",
@@ -9979,7 +9968,6 @@ var allData = [
       "FEAP-INxUwY",
       "Q7_X-EDfAjc",
       "bx6olWXZUME",
-      "PyATL14HUtA",
       "-tJRdR3Aq9g",
       "Boo7u1RydM8",
       "T0F6vUdL_9I",
@@ -10669,7 +10657,7 @@ var allData = [
       "wouldIGoBack": "2"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/3297/4196/1636821485.jpg",
+    "mapLink": "https://skimap.org/data/3297/3857/1583598537.png",
     "country": "United States"
   },
   {
@@ -10882,7 +10870,7 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/2280/3535/1573356158.jpg",
+    "mapLink": "https://skimap.org/data/2280/24/1232526884.jpg",
     "country": "United States"
   },
   {
@@ -11392,11 +11380,11 @@ var allData = [
       "wouldIGoBack": "8"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/520/1923/1599491715.jpg",
+    "mapLink": "https://skimap.org/data/520/4695/1647893784jpg_render.jpg",
     "webcam": [
       {
         "title": "Base Area",
-        "link": "q7b608U8Eco"
+        "link": "ryN6TQeLNdE"
       }
     ],
     "country": "United States"
@@ -11693,7 +11681,7 @@ var allData = [
     "skiPass": [
       "Indy"
     ],
-    "mapLink": "https://skimap.org/data/506/1923/1599491820.jpg",
+    "mapLink": "https://skimap.org/data/506/2200/1667685756.jpg",
     "country": "United States"
   },
   {
@@ -11801,6 +11789,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "-kt4msGVN8k",
       "-wlrjetrohE",
       "Pc9Ir-BXdRc",
       "d-RKDR5YWiU",
@@ -11818,19 +11807,19 @@ var allData = [
     "id": "503",
     "website": "http://www.winterparkresort.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 83, // must be a number not a string
+      "link": "3w2RQr7vGK8",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "4",
+      "lodging": "10",
+      "chairLifts": "10",
+      "runs": "10",
+      "terrainPark": "9",
+      "food": "10",
+      "employees": "5",
+      "views": "10",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon"
@@ -11843,7 +11832,11 @@ var allData = [
       },
       {
         "title": "Lunch Rock",
-        "link": "XmO1T-jL-Js"
+        "link": "Cv_cXPbGAtE"
+      },
+      {
+        "title": "Snow Stake",
+        "link": "8rzBPS0DqGE"
       }
     ],
     "country": "United States"
@@ -11887,7 +11880,7 @@ var allData = [
       "wouldIGoBack": "5"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/505/4196/1613567225.jpg",
+    "mapLink": "https://skimap.org/data/505/3535/1634337883jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -13004,7 +12997,11 @@ var allData = [
       },
       {
         "title": "Andesite Snow Stake",
-        "video": "-UqEKS_O8ag"
+        "video": "hVkGR8ScDe8"
+      },
+      {
+        "title": "Madison Base Cam",
+        "video": "H3BkzGnqP8w"
       }
     ],
     "country": "United States"
@@ -13496,7 +13493,7 @@ var allData = [
     "skiPass": [
       "Powder Alliance"
     ],
-    "mapLink": "https://skimap.org/data/331/1923/1590258101.jpg",
+    "mapLink": "https://skimap.org/data/331/3535/1574726475.jpg",
     "country": "United States"
   },
   {
@@ -13530,7 +13527,7 @@ var allData = [
       "wouldIGoBack": "3"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/336/1923/1522459323.jpg",
+    "mapLink": "https://skimap.org/data/336/2200/1531085569jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -13598,7 +13595,7 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/332/1923/1521682775.jpg",
+    "mapLink": "https://skimap.org/data/332/2200/1531086003jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -13701,7 +13698,7 @@ var allData = [
       "wouldIGoBack": "3"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/2604/1923/1521682731.jpg",
+    "mapLink": "https://skimap.org/data/2604/2668/1647096522jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -13773,7 +13770,7 @@ var allData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": "https://skimap.org/data/4528/1265/1434810817.jpg",
+    "mapLink": "https://skimap.org/data/338/4695/1648600720jpg_render.jpg",
     "country": "United States"
   },
   {
@@ -13911,7 +13908,21 @@ var allData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/222/1923/1542034856.jpg",
+    "mapLink": "https://skimap.org/data/222/2589/1540578976.jpg",
+    "webcam": [
+      {
+        "title": "Parking Lot",
+        "link": "iq-CT8UQzgo"
+      },
+      {
+        "title": "Great Western",
+        "link": "YDyBL3bXOwA"
+      },
+      {
+        "title": "Brighton Store",
+        "link": "q_tgKYEnCa0"
+      }
+    ],
     "country": "United States"
   },
   {
@@ -14273,8 +14284,16 @@ var allData = [
     "mapLink": "https://skimap.org/data/225/3535/1636940657jpg_render.jpg",
     "webcam": [
       {
-        "title": "Resort Cam",
-        "link": "c_JwTOw74-o"
+        "title": "Apex Express and Sunrise Lift Lines",
+        "link": "l2X9DlRzX54"
+      },
+      {
+        "title": "Honeycomb Canyon",
+        "link": "d8hFWghj84k"
+      },
+      {
+        "title": "Moonbeam Parking Lot",
+        "link": "OnMVIldmuhU"
       }
     ],
     "country": "United States"
@@ -15046,7 +15065,7 @@ var allData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "",
+    "mapLink": "https://www.chugachpowderguides.com/wp-content/uploads/2022/05/hero-experince.png",
     "country": "United States"
   },
   {
@@ -16142,7 +16161,7 @@ var allData = [
       "wouldIGoBack": "10"
     },
     "skiPass": [],
-    "mapLink": "https://skimap.org/data/360/4359/1619629079.jpg",
+    "mapLink": "https://skimap.org/data/360/AC/1523047785.jpg",
     "country": "United States"
   },
   {
@@ -17225,12 +17244,12 @@ var allData = [
     "mapLink": "https://res.cloudinary.com/liftopia/image/upload/c_fit,d_defaults:default_logo_1.png,f_auto,h_980,q_auto,w_980/v1/production/trail_maps/c32494c8f27b1ed6f55eb61f03030f1e.jpg",
     "webcam": [
       {
-        "title": "Central Express",
-        "link": "91eI60BHlKw"
+        "title": "Silver Fir",
+        "link": "b3bhZKRmYL0"
       },
       {
         "title": "Summit Central",
-        "link": "bm3CfORSeQ8"
+        "link": "_ZmK5vh5mQ0"
       }
     ],
     "country": "United States"
@@ -17265,7 +17284,17 @@ var allData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg",
-    "country": "United States"
+    "country": "United States",
+    "webcam": [
+      {
+        "title": "Alpental Base",
+        "link": "v8S9FWsUJTA"
+      },
+      {
+        "title": "Alpental Mid-Mountain",
+        "link": "ltl8ATWqhAE"
+      }
+    ]
   },
   {
     "resortName": "White Pass",
@@ -17299,7 +17328,7 @@ var allData = [
       "Powder Alliance",
       "Indy"
     ],
-    "mapLink": "https://skimap.org/data/184/1923/1568500416.jpg",
+    "mapLink": "https://skimap.org/data/184/3535/1575002250.jpg",
     "country": "United States"
   },
   {

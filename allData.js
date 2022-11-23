@@ -1,4 +1,4 @@
-var lastUpdated = '11/18/2022';
+var lastUpdated = '11/21/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4426,19 +4426,19 @@ var allData = [
     "id": "5003",
     "website": "https://westpoint.armymwr.com/programs/victor-constant-ski-area",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 32, // must be a number not a string
+      "link": "4W_SmXNdUos",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "9",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "1",
+      "runs": "2",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "5",
+      "views": "3",
+      "wouldIGoBack": "1"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/5003/2426/1456960655jpg_render.jpg",
@@ -5735,6 +5735,7 @@ var allData = [
     "city": "Lynchburg",
     "videos": [
       "t0Wk_c4N6aM",
+      "ntrXbsX68Ic",
       "tEuhJDX8JLA",
       "_xQmtpCeIEU",
       "22Q_TkzvzrU",
@@ -9843,6 +9844,7 @@ var allData = [
     "city": "Keystone",
     "videos": [
       "eMMpHFJcJf8",
+      "O3uYUoeH9fE",
       "g34xrbv4W0E",
       "zamziVjr1e4",
       "tKLlqNWbft4",
@@ -10254,19 +10256,19 @@ var allData = [
     "id": "497",
     "website": "https://www.beavercreek.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 71, // must be a number not a string
+      "link": "YdIktWJUP5E",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "4",
+      "easeOfAccess": "5",
+      "lodging": "10",
+      "chairLifts": "10",
+      "runs": "9",
+      "terrainPark": "4",
+      "food": "10",
+      "employees": "5",
+      "views": "4",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Epic"
@@ -10879,6 +10881,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "wEUsBwRuPaI",
+      "7kgs7jrGbM0",
       "52J13BQqU3k",
       "q5BzMP-YVjI",
       "-0zCE3nBtZk",
@@ -11664,19 +11668,19 @@ var allData = [
     "id": "506",
     "website": "https://sunlightmtn.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 56, // must be a number not a string
+      "link": "w7yaUgtDWkw",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "8",
+      "easeOfAccess": "3",
+      "lodging": "6",
+      "chairLifts": "2",
+      "runs": "5",
+      "terrainPark": "2",
+      "food": "7",
+      "employees": "8",
+      "views": "7",
+      "wouldIGoBack": "8"
     },
     "skiPass": [
       "Indy"
@@ -11790,6 +11794,7 @@ var allData = [
     "city": "Winter Park",
     "videos": [
       "-kt4msGVN8k",
+      "_pohi_mGNA4",
       "-wlrjetrohE",
       "Pc9Ir-BXdRc",
       "d-RKDR5YWiU",
@@ -13614,19 +13619,19 @@ var allData = [
     "id": "337",
     "website": "https://www.sipapu.ski/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 51, // must be a number not a string
+      "link": "XqnSwCsVAkA",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "3",
+      "lodging": "7",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "3",
+      "food": "5",
+      "employees": "10",
+      "views": "2",
+      "wouldIGoBack": "7"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/337/1460/1559878718.png",
@@ -17364,3 +17369,4 @@ var allData = [
     "country": "United States"
   }
 ];
+

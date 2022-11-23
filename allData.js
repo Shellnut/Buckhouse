@@ -1,4 +1,4 @@
-var lastUpdated = '11/21/2022';
+var lastUpdated = '11/22/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5989,19 +5989,19 @@ var allData = [
     "id": "471",
     "website": "https://www.chestnutmtn.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 61, // must be a number not a string
+      "link": "O4X4XJ7ZIz4",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "5",
+      "lodging": "7",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "7",
+      "food": "6",
+      "employees": "10",
+      "views": "6",
+      "wouldIGoBack": "8"
     },
     "skiPass": [
       "Indy"
@@ -7117,19 +7117,19 @@ var allData = [
     "id": "425",
     "website": "https://www.skipineknob.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "score": 38, // must be a number not a string
+      "link": "38Gg2ylGRsw",
+      "note": "Johnathan rated this 38/100 in the video, but the scores actually add up to 43.",
+      "price": "6",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "3",
+      "terrainPark": "7",
+      "food": "5",
+      "employees": "5",
+      "views": "1",
+      "wouldIGoBack": "8"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/425/2200/1472348757.jpg",
@@ -8845,19 +8845,19 @@ var allData = [
     "id": "166",
     "website": "https://www.christmasmountainvillage.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 32, // must be a number not a string
+      "link": "oZphjVcr6Q4",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "4",
+      "easeOfAccess": "5",
+      "lodging": "6",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "0",
+      "food": "6",
+      "employees": "5",
+      "views": "1",
+      "wouldIGoBack": "1"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/166/4359/1640984888.jpeg",
@@ -10485,6 +10485,7 @@ var allData = [
     "city": "Copper Mountain",
     "videos": [
       "QoECK5mWRJc",
+      "5qBGIfp-RWs",
       "9M64Fc43y5A",
       "ORSF8EZ7zqA",
       "DzwFU4F4gd4",
@@ -13757,19 +13758,19 @@ var allData = [
     "id": "4528",
     "website": "https://www.skitaos.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 75, // must be a number not a string
+      "link": "zGUm3uqqF7s",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "4",
+      "lodging": "10",
+      "chairLifts": "7",
+      "runs": "10",
+      "terrainPark": "3",
+      "food": "10",
+      "employees": "5",
+      "views": "10",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon",
@@ -14158,19 +14159,19 @@ var allData = [
     "id": "228",
     "website": "https://www.powdermountain.com/visit-powder-mountain",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "score": 57, // must be a number not a string
+      "link": "W8rHJCmziH0",
+      "note": "Johnathan rated this 57/100 in the video, but the scores actually add up to 53.",
+      "price": "7",
+      "easeOfAccess": "6",
+      "lodging": "6",
+      "chairLifts": "5",
+      "runs": "6",
+      "terrainPark": "0",
+      "food": "5",
+      "employees": "6",
+      "views": "5",
+      "wouldIGoBack": "7"
     },
     "skiPass": [
       "Indy"
@@ -15802,19 +15803,19 @@ var allData = [
     "id": "521",
     "website": "http://www.mthigh.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 51, // must be a number not a string
+      "link": "4XbUyEng7tc",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "7",
+      "lodging": "1",
+      "chairLifts": "6",
+      "runs": "5",
+      "terrainPark": "7",
+      "food": "5",
+      "employees": "5",
+      "views": "4",
+      "wouldIGoBack": "5"
     },
     "skiPass": [
       "Powder Alliance",

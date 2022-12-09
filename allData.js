@@ -1,4 +1,4 @@
-var lastUpdated = '11/22/2022';
+var lastUpdated = '12/8/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3113,6 +3113,9 @@ var allData = [
     "city": "East Rutherford (indoor)",
     "videos": [
       "tyVrXBSCTe4",
+      "Vg4uP30yxXU",
+      "mk9gKFFU_BM",
+      "VY1x_NrBNuc",
       "Auzxc1efBXo",
       "zdP-z1sqEOM",
       "RkNhXala8xY",
@@ -5735,6 +5738,8 @@ var allData = [
     "city": "Lynchburg",
     "videos": [
       "t0Wk_c4N6aM",
+      "PsmDHxS8k1k",
+      "B2_pMhAlPAo",
       "ntrXbsX68Ic",
       "tEuhJDX8JLA",
       "_xQmtpCeIEU",
@@ -9843,6 +9848,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "sgGOe2K0eaY",
       "eMMpHFJcJf8",
       "O3uYUoeH9fE",
       "g34xrbv4W0E",
@@ -10484,6 +10490,9 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "J_9dtA-DrR8",
+      "xK67bg-WmoQ",
+      "pNuGy27tZNQ",
       "QoECK5mWRJc",
       "5qBGIfp-RWs",
       "9M64Fc43y5A",
@@ -10681,19 +10690,19 @@ var allData = [
     "id": "514",
     "website": "http://www.skicb.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 75, // must be a number not a string
+      "link": "ZnG8-GfZtJY",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "2",
+      "lodging": "10",
+      "chairLifts": "7",
+      "runs": "10",
+      "terrainPark": "5",
+      "food": "10",
+      "employees": "4",
+      "views": "10",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Epic"
@@ -10816,6 +10825,7 @@ var allData = [
     "city": "Steamboat Springs",
     "videos": [
       "yrqulj9xZ3I",
+      "poRWToYtvsM",
       "TTX7ZdaigO0"
     ],
     "position": {
@@ -10826,19 +10836,19 @@ var allData = [
     "id": "498",
     "website": "http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 71, // must be a number not a string
+      "link": "dvTLQfJGSeE",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "2",
+      "easeOfAccess": "4",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "9",
+      "terrainPark": "6",
+      "food": "10",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "10"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/498/916/1389760303.jpg",
@@ -10882,6 +10892,13 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "5qsRYvWVYV8",
+      "wuLSgwBg9DA",
+      "mpbO12lqNEs",
+      "o1sfTNzbFQ4",
+      "ozcvY_GEneQ",
+      "xk4SBFWgq74",
+      "-ScsBWcq3VA",
       "wEUsBwRuPaI",
       "7kgs7jrGbM0",
       "52J13BQqU3k",
@@ -11336,19 +11353,19 @@ var allData = [
     "id": "511",
     "website": "http://www.skimonarch.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 50, // must be a number not a string
+      "link": "PdCZqlBm0w8",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "6",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "10"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/511/3535/1634341976.jpg",
@@ -11707,19 +11724,19 @@ var allData = [
     "id": "517",
     "website": "http://tellurideskiresort.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 75, // must be a number not a string
+      "link": "Q-WR9EBd-dM",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "3",
+      "easeOfAccess": "3",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "10",
+      "terrainPark": "7",
+      "food": "10",
+      "employees": "5",
+      "views": "8",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Epic"
@@ -13482,19 +13499,19 @@ var allData = [
     "id": "331",
     "website": "https://www.angelfireresort.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 58, // must be a number not a string
+      "link": "opJ6DgYl_jk",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "4",
+      "lodging": "7",
+      "chairLifts": "6",
+      "runs": "4",
+      "terrainPark": "4",
+      "food": "8",
+      "employees": "7",
+      "views": "4",
+      "wouldIGoBack": "7"
     },
     "skiPass": [
       "Powder Alliance"

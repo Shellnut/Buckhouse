@@ -275,12 +275,27 @@
                                 </a>
                              </li>
                              <li>
+                                 <a href="javascript:void(0);">
+                                    <input type="radio" name="Not Visited" ng-change="updateVisited()" ng-model="showVisited" value="Not Visited">
+                                    <span>Not Visited</span>
+                                 </a>
+                             </li>
+                         </li>
+                        <li class="dropdown-header">Reviewed</li>
+                        <li>
+                           <li>
                               <a href="javascript:void(0);">
-                                 <input type="radio" name="Not Visited" ng-change="updateVisited()" ng-model="showVisited" value="Not Visited">
-                                 <span>Not Visited</span>
+                                 <input type="radio" name="all2" ng-change="updateReviewed()" ng-model="showReviewed" value="all"> 
+                                 <span>Show All</span>
                               </a>
                            </li>
-                          </li>
+                           <li>
+                              <a href="javascript:void(0);">
+                                 <input type="radio" name="Reviewed" ng-change="updateReviewed()" ng-model="showReviewed" value="Reviewed">
+                                 <span>Reviewed</span>
+                              </a>
+                           </li>
+                        </li>
                      </ul>
                   </li>
                 </ul>
@@ -576,6 +591,7 @@
                   localStorage.setItem('showGlobal', '1');
                   localStorage.setItem('showPasses', 'all');
                   localStorage.setItem('showVisited', 'all');
+                  localStorage.setItem('showReviewed', 'all');
                   location.reload(); 
                }, function () {
                   $scope.showGlobal = false;
@@ -660,11 +676,34 @@
          }
 
           $scope.updateVisited = function() {
+            console.log('SCOPE: ', $scope);
              if ($scope.showVisited !== 'all') {
                localStorage.setItem('showGlobal', '');
              }
              localStorage.setItem('showPasses', '');
              localStorage.setItem('showVisited', $scope.showVisited);
+             console.log('SCOPE2: ', $scope);
+             console.log('LOCAL: ', localStorage);
+             location.reload();
+          }
+
+         // Get reviewed options from localStorage
+         $scope.showReviewed = localStorage.getItem('showReviewed');
+
+         if (showReviewed && showReviewed !=='all') {
+            $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.resortReview.score);
+         }
+         else {
+            $scope.showReviewed = 'all';
+         }
+
+          $scope.updateReviewed = function() {
+             if ($scope.showReviewed !== 'all') {
+               localStorage.setItem('showGlobal', '');
+             }
+             localStorage.setItem('showPasses', '');
+             localStorage.setItem('showVisited', '');
+             localStorage.setItem('showReviewed', $scope.showReviewed)
              location.reload();
           }
 
@@ -1436,6 +1475,12 @@
          else if (showVisited === 'Not Visited') {
             allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length < 1);
          }
+      }
+
+      // Get reviewed options from localStorage
+      var showReviewed = localStorage.getItem('showReviewed');
+      if (showReviewed && showReviewed !=='Reviewed') {
+         allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.resortReview.score);
       }
 
       for (var i = 0; i<allDataMap.length; i++) {

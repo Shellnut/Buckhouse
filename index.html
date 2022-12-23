@@ -656,6 +656,7 @@
                localStorage.setItem('showGlobal', '');
             }
             localStorage.setItem('showVisited', '');
+            localStorage.setItem('showReviewed', '');
             localStorage.setItem('showPasses', $scope.showPasses);
             location.reload();
          }
@@ -681,6 +682,7 @@
                localStorage.setItem('showGlobal', '');
              }
              localStorage.setItem('showPasses', '');
+             localStorage.setItem('showReviewed', '');
              localStorage.setItem('showVisited', $scope.showVisited);
              console.log('SCOPE2: ', $scope);
              console.log('LOCAL: ', localStorage);
@@ -1479,7 +1481,7 @@
 
       // Get reviewed options from localStorage
       var showReviewed = localStorage.getItem('showReviewed');
-      if (showReviewed && showReviewed !=='Reviewed') {
+      if (showReviewed && showReviewed !=='all') {
          allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.resortReview.score);
       }
 

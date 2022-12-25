@@ -1,4 +1,4 @@
-var lastUpdated = '12/8/2022';
+var lastUpdated = '12/24/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3112,6 +3112,10 @@ var allData = [
     "region": "Mid-Atlantic",
     "city": "East Rutherford (indoor)",
     "videos": [
+      "BpuA-Hk4Wg8",
+      "qfh7gmidn9w",
+      "FWuEIYe4_to",
+      "Y4mZ_36UJ4A",
       "tyVrXBSCTe4",
       "Vg4uP30yxXU",
       "mk9gKFFU_BM",
@@ -3309,19 +3313,19 @@ var allData = [
     "id": "324",
     "website": "http://www.belleayre.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 41, // must be a number not a string
+      "link": "vKl_mBCF6mU",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "6",
+      "lodging": "1",
+      "chairLifts": "6",
+      "runs": "3",
+      "terrainPark": "3",
+      "food": "5",
+      "employees": "5",
+      "views": "2",
+      "wouldIGoBack": "5"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/324/4243/1610379172.jpg",
@@ -9848,6 +9852,9 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "xWbb-JAAl-4",
+      "XGmfQ1gJRy4",
+      "0pjXv2MB-vY",
       "sgGOe2K0eaY",
       "eMMpHFJcJf8",
       "O3uYUoeH9fE",
@@ -10288,6 +10295,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "xeAjCiJ1cP8",
+      "xmKYhb-xjzw",
       "G60cwqUh4V8",
       "oAkCxmcsNks",
       "BYtcL6IRHnc",
@@ -10490,6 +10499,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "ssuRscSyXhA",
       "J_9dtA-DrR8",
       "xK67bg-WmoQ",
       "pNuGy27tZNQ",
@@ -10892,6 +10902,9 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "kvM0Blt-nmw",
+      "rBj3RR2n258",
+      "PZDkYwT_Fug",
       "5qsRYvWVYV8",
       "wuLSgwBg9DA",
       "mpbO12lqNEs",
@@ -11460,19 +11473,19 @@ var allData = [
     "id": "3299",
     "website": "https://www.ci.ouray.co.us/city_offices/city_resources/lee_s_ski_hill.php",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 39, // must be a number not a string
+      "link": "_6wO4ZJamZU",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "10",
+      "easeOfAccess": "2",
+      "lodging": "0",
+      "chairLifts": "1",
+      "runs": "1",
+      "terrainPark": "1",
+      "food": "0",
+      "employees": "7",
+      "views": "7",
+      "wouldIGoBack": "10"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/3299/3857/1583598685.png",
@@ -11597,6 +11610,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "kM_mhmGkWOA",
       "F9qyOfcTeHU",
       "znrBpiWe8uI",
       "LRYcqii3QVs",
@@ -11811,6 +11825,11 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "qhxyEgG6fOs",
+      "AHpk1bZZh3k",
+      "Tyc6ozYgpTM",
+      "RBADUVcn8bw",
+      "ZYgZ4pIyHZs",
       "-kt4msGVN8k",
       "_pohi_mGNA4",
       "-wlrjetrohE",
@@ -12121,6 +12140,7 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "OCaWJ1n0wKk",
       "mW1HUjMnoIY",
       "eveJWfLS8mI",
       "dFZzgZkpb8I",
@@ -12312,6 +12332,8 @@ var allData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "M47O3g5Ca-s",
+      "PWUbEHxumOE",
       "_hLQjR_-7xY",
       "qQ23NtPu7hs",
       "C9P5o4ZW3LU",

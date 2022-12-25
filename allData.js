@@ -4705,9 +4705,7 @@ var allData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Ikon"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/258/4070/1608577806thumb.jpg",
     "country": "United States"
   },

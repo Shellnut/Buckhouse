@@ -556,7 +556,7 @@
 
          // Add graphical data to $scope
          $scope.videoData = JSON.parse(JSON.stringify(videoData));
-         $scope.usData = JSON.parse(JSON.stringify(allData));
+         $scope.usData = JSON.parse(JSON.stringify(usData));
          
          // Get truthy or falsy value from localStorage
          $scope.showGlobal = !!localStorage.getItem('showGlobal');
@@ -613,7 +613,7 @@
          else {
             $scope.allData = JSON.parse(JSON.stringify(allData));
             $scope.visitedCount = allData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
-            $scope.skiResortCount = allData.filter(val => val.officialSkiResort).length; 
+            $scope.skiResortCount = usData.filter(val => val.officialSkiResort).length; 
          }
           $scope.lastUpdated = lastUpdated;
           $scope.orderByField = 'videos.length';

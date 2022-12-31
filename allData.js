@@ -1,5 +1,5 @@
 var lastUpdated = '12/25/2022';
-var allData = [
+var usData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
     "state": "Connecticut",

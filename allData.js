@@ -1,4 +1,4 @@
-var lastUpdated = '12/24/2022';
+var lastUpdated = '1/2/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -3113,6 +3113,8 @@ var allData = [
     "city": "East Rutherford (indoor)",
     "videos": [
       "BpuA-Hk4Wg8",
+      "uNE8LZIzPg4",
+      "YFw9UZXZd_E",
       "qfh7gmidn9w",
       "FWuEIYe4_to",
       "Y4mZ_36UJ4A",
@@ -7473,6 +7475,38 @@ var allData = [
     "mapLink": "https://skimap.org/data/418/916/1335917658.jpg"
   },
   {
+    "resortName": "Missaukee Ski Mountain",
+    "state": "Michigan",
+    "region": "Midwest",
+    "country": "United States",
+    "city": "Lake City",
+    "videos": [],
+    "position": {
+      "lat": 44.39261440295841,
+      "lng": -85.22738185689511
+    },
+    "officialSkiResort": true,
+    "id": "408",
+    "website": "https://www.facebook.com/MissaukeeMountain",
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/408/2200/1444675338.jpeg"
+  },
+  {
     "resortName": "Afton Alps",
     "state": "Minnesota",
     "region": "Midwest",
@@ -9485,19 +9519,19 @@ var allData = [
     "id": "173",
     "website": "https://skisunburst.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "score": 31, // must be a number not a string
+      "link": "QKgEauYkEAs",
+      "note": "Johnathan rated this 31/100 in the video, but the scores actually add up to 36.",
+      "price": "8",
+      "easeOfAccess": "7",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "7",
+      "views": "2",
+      "wouldIGoBack": "2"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/173/4359/1637465425jpg_render.jpg",
@@ -10760,6 +10794,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "AJfQhj4Jpp8",
       "qHrzhfP1MPI",
       "bjv3NYY5KBQ",
       "-ydneuTlsxc",
@@ -10902,6 +10937,10 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "gctk3z-0ZRE",
+      "Kr2ebxYLs7w",
+      "tIm6LpNIYlk",
+      "1oOSRuaPrxw",
       "kvM0Blt-nmw",
       "rBj3RR2n258",
       "PZDkYwT_Fug",
@@ -11610,6 +11649,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "TXqnVzD1is0",
       "kM_mhmGkWOA",
       "F9qyOfcTeHU",
       "znrBpiWe8uI",
@@ -11825,6 +11865,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "4azgAAvQdfg",
+      "eW9W0T2oYCY",
       "qhxyEgG6fOs",
       "AHpk1bZZh3k",
       "Tyc6ozYgpTM",
@@ -12140,6 +12182,8 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "GOnF4W_ZmP0",
+      "t30E5_-GKrU",
       "OCaWJ1n0wKk",
       "mW1HUjMnoIY",
       "eveJWfLS8mI",
@@ -13763,19 +13807,19 @@ var allData = [
     "id": "335",
     "website": "http://www.skisantafe.com/",
     "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+      "score": 47, // must be a number not a string
+      "link": "0kME1UuxITQ",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "6",
+      "lodging": "1",
+      "chairLifts": "5",
+      "runs": "6",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "5"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/335/3100/1575037748jpg_render.jpg",

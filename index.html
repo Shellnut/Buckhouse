@@ -199,20 +199,6 @@
                               <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateGlobal()" ng-model="showGlobal"> Show all ski resorts in the world?</label>
                            </a>
                         </li>
-                        <li role="separator" class="divider"></li>
-                        <li class="dropdown-header">Map Color</li>
-                        <li>
-                           <a href="javascript:void(0);">
-                              <label class="radio-inline">
-                                 <input type="radio" name="optradio2" ng-change="updateMapColor()" ng-model="mapColor" ng-value="false"> 
-                                 <span>Green</span>
-                              </label>
-                              <label class="radio-inline">
-                                 <input type="radio" name="optradio2" ng-change="updateMapColor()" ng-model="mapColor" ng-value="true">
-                                 <span>White</span>
-                              </label>
-                           </a>
-                        </li>
                         <li role="seperator" class="divider"></li>
                         <li class="dropdown-header">Ski Pass</li>
                         <li>
@@ -475,6 +461,7 @@
             <p id="change-log"><b>Change Log:</b></p>
             <ul>
                <li>The original U.S. resort list came from <a href="https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States" target="_blank">Wikipedia</a>. The list on this site will continue to be fine tuned as time goes on.</li>
+               <li>01/03/23 - Adding Missaukee Ski Mountain in Lake City, Michigan.</li>
                <li>10/25/22 - Removing Mount Elk Ridge Ski area because the ski resort has closed temporarily. AZ snowbowl bought it and are planning for it to be a learning hill and tube park.</li>
                <li>10/22/22 - Removing Mount Aggie Ski Slope due to the fact that it's only open to kinesiology students at Texas A&M.</li>
                <li>10/19/22 - Adding Bluebird Resort. Adding Indy Pass Option.</li>
@@ -717,20 +704,6 @@
             }
             else {
                localStorage.setItem('showRegions', '');
-               location.reload();
-            }
-         }
-
-         // Get map color
-         $scope.mapColor = !!localStorage.getItem('mapColor');
-
-         $scope.updateMapColor = function() {
-            if ($scope.mapColor) { 
-               localStorage.setItem('mapColor', '1'); // Set to white
-               location.reload(); 
-            }
-            else {
-               localStorage.setItem('mapColor', ''); // default green
                location.reload();
             }
          }
@@ -1237,25 +1210,14 @@
 
       var mymap = L.map('mapid').setView(defaultCoordinates, defaultZoom);
 
-      // Load the map color
-      var mapColor = !!localStorage.getItem('mapColor');
-
-      // Load the map color preference
-      if (mapColor) {
-         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-         }).addTo(mymap);
-      }
-      else {
-         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-            minZoom: 1,
-            maxZoom: 18,
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            id: 'mapbox/streets-v11',
-            tileSize: 512,
-            zoomOffset: -1
-         }).addTo(mymap);
-      }
+      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+         minZoom: 1,
+         maxZoom: 18,
+         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+         id: 'mapbox/streets-v11',
+         tileSize: 512,
+         zoomOffset: -1
+      }).addTo(mymap);
 
       // Add fullscreen control
       mymap.addControl(new L.Control.Fullscreen({

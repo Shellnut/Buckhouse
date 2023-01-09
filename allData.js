@@ -1,4 +1,4 @@
-var lastUpdated = '1/2/2022';
+var lastUpdated = '1/8/2022';
 var allData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8053,7 +8053,9 @@ var allData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Welch",
-    "videos": [],
+    "videos": [
+      "JSLdzPftCLs"
+    ],
     "position": {
       "lat": 44.561411766399644,
       "lng": -92.73037301292297
@@ -10937,6 +10939,8 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "cOdQj35kjJM",
+      "ZqOBKE1w6W4",
       "gctk3z-0ZRE",
       "Kr2ebxYLs7w",
       "tIm6LpNIYlk",
@@ -11536,6 +11540,7 @@ var allData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "DY40K0B8Z1E",
       "plOiwtuIaxg",
       "S_SGcnR_00E",
       "E5VMAqSPTe8",
@@ -12182,6 +12187,8 @@ var allData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "6vgwAg4bKHM",
+      "dhCj_OtcTd0",
       "GOnF4W_ZmP0",
       "t30E5_-GKrU",
       "OCaWJ1n0wKk",
@@ -12438,6 +12445,41 @@ var allData = [
       "Indy"
     ],
     "mapLink": "https://skimap.org/data/14734/2200/1630950605.png",
+    "country": "United States"
+  },
+  {
+    "resortName": "Great Sand Dunes",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Kremmling",
+    "officialSkiResort": false,
+    "id": "",
+    "website": "https://www.nps.gov/grsa/index.htm",
+    "videos": [
+      "IsM_aZ4h740",
+      "DrgnOuUfCAw"
+    ],
+    "position": {
+      "lat": 37.796680812687185,
+      "lng": -105.60026518635749
+    },
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://www.nps.gov/grsa/planyourvisit/images/great-sand-dunes-npp-map.jpg",
     "country": "United States"
   },
   {

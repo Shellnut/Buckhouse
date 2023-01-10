@@ -1,5 +1,5 @@
-var lastUpdated = '1/8/2022';
-var allData = [
+var lastUpdated = '1/9/2022';
+var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
     "state": "Connecticut",
@@ -8847,7 +8847,9 @@ var allData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Bruce",
-    "videos": [],
+    "videos": [
+      "b1NaO-ufwHM"
+    ],
     "position": {
       "lat": 45.50990418221975,
       "lng": -91.38082382788222
@@ -17495,4 +17497,3 @@ var allData = [
     "country": "United States"
   }
 ];
-

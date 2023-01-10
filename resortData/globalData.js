@@ -33,6 +33,12 @@
 //   });
 // countries = ["Andorra", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Belgium", "Bosnia and Herzegovina", "Brazil", "Bulgaria", "Canada", "Chile", "China", "Croatia", "Cyprus", "Czech Republic", "Denmark", "Finland", "France", "Germany", "Greece", "Greenland", "Hungary", "Iceland", "India", "Iran", "Ireland", "Israel", "Italy", "Japan", "Kazakhstan", "Kosovo", "Kyrgyzstan", "Latvia", "Lesotho", "Liechtenstein", "Lithuania", "Mongolia", "Montenegro", "Morocco", "Netherlands", "New Zealand", "North Korea", "Norway", "Pakistan", "Poland", "Portugal", "Romania", "Russia", "Serbia", "Slovakia", "Slovenia", "South Africa", "South Korea", "Spain", "Sweden", "Switzerland", "Tajikistan", "Turkey", "Ukraine", "United Kingdom", "United States", "Uzbekistan"]
 
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+// NOTE: THIS IS NO LONGER USED. SEE /resortData/CountryName for up to date info
+// ------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------
+
 var globalData = [
   {
     "resortName": "Smokey Mountain Ski Club",

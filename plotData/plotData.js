@@ -1,11 +1,11 @@
 // Percentage Complete by Region
-var midwestData = allData.filter(val=>val.region==='Midwest' && val.officialSkiResort);
-var westCoastData = allData.filter(val=>val.region==='West Coast' && val.officialSkiResort);
-var rockyMountainData = allData.filter(val=>val.region==='Rocky Mountains' && val.officialSkiResort);
-var newEnglandData = allData.filter(val=>val.region==='New England' && val.officialSkiResort);
-var midAtlanticData = allData.filter(val=>val.region==='Mid-Atlantic' && val.officialSkiResort);
-var southeastData = allData.filter(val=>val.region==='Southeast' && val.officialSkiResort);
-var coloradoData = allData.filter(val=>val.state==='Colorado' && val.officialSkiResort);
+var midwestData = unitedStatesData.filter(val=>val.region==='Midwest' && val.officialSkiResort);
+var westCoastData = unitedStatesData.filter(val=>val.region==='West Coast' && val.officialSkiResort);
+var rockyMountainData = unitedStatesData.filter(val=>val.region==='Rocky Mountains' && val.officialSkiResort);
+var newEnglandData = unitedStatesData.filter(val=>val.region==='New England' && val.officialSkiResort);
+var midAtlanticData = unitedStatesData.filter(val=>val.region==='Mid-Atlantic' && val.officialSkiResort);
+var southeastData = unitedStatesData.filter(val=>val.region==='Southeast' && val.officialSkiResort);
+var coloradoData = unitedStatesData.filter(val=>val.state==='Colorado' && val.officialSkiResort);
 
 var regionData = {
   midwest: 100*(midwestData.filter(val=>val.videos.length>0).length / midwestData.length),
@@ -17,44 +17,44 @@ var regionData = {
 };
 
 // Percentage Complete by State
-var alabamaData = allData.filter(val=>val.state==='Alabama' && val.officialSkiResort);
-var alaskaData = allData.filter(val=>val.state==='Alaska' && val.officialSkiResort);
-var arizonaData = allData.filter(val=>val.state==='Arizona' && val.officialSkiResort);
-var californiaData = allData.filter(val=>val.state==='California' && val.officialSkiResort);
-var coloradoData = allData.filter(val=>val.state==='Colorado' && val.officialSkiResort);
-var connecticutData = allData.filter(val=>val.state==='Connecticut' && val.officialSkiResort);
-var idahoData = allData.filter(val=>val.state==='Idaho' && val.officialSkiResort);
-var illinoisData = allData.filter(val=>val.state==='Illinois' && val.officialSkiResort);
-var indianaData = allData.filter(val=>val.state==='Indiana' && val.officialSkiResort);
-var iowaData = allData.filter(val=>val.state==='Iowa' && val.officialSkiResort);
-var maineData = allData.filter(val=>val.state==='Maine' && val.officialSkiResort);
-var marylandData = allData.filter(val=>val.state==='Maryland' && val.officialSkiResort);
-var massachusettsData = allData.filter(val=>val.state==='Massachusetts' && val.officialSkiResort);
-var michiganData = allData.filter(val=>val.state==='Michigan' && val.officialSkiResort);
-var minnesotaData = allData.filter(val=>val.state==='Minnesota' && val.officialSkiResort);
-var missouriData = allData.filter(val=>val.state==='Missouri' && val.officialSkiResort);
-var montanaData = allData.filter(val=>val.state==='Montana' && val.officialSkiResort);
-var nevadaData = allData.filter(val=>val.state==='Nevada' && val.officialSkiResort);
-var newHampshireData = allData.filter(val=>val.state==='New Hampshire' && val.officialSkiResort);
-var newJerseyData = allData.filter(val=>val.state==='New Jersey' && val.officialSkiResort);
-var newMexicoData = allData.filter(val=>val.state==='New Mexico' && val.officialSkiResort);
-var newYorkData = allData.filter(val=>val.state==='New York' && val.officialSkiResort);
-var northCarolinaData = allData.filter(val=>val.state==='North Carolina' && val.officialSkiResort);
-var northDakotaData = allData.filter(val=>val.state==='North Dakota' && val.officialSkiResort);
-var ohioData = allData.filter(val=>val.state==='Ohio' && val.officialSkiResort);
-var oregonData = allData.filter(val=>val.state==='Oregon' && val.officialSkiResort);
-var pennsylvaniaData = allData.filter(val=>val.state==='Pennsylvania' && val.officialSkiResort);
-var rhodeIslandData = allData.filter(val=>val.state==='Rhode Island' && val.officialSkiResort);
-var southDakotaData = allData.filter(val=>val.state==='South Dakota' && val.officialSkiResort);
-var tennesseeData = allData.filter(val=>val.state==='Tennessee' && val.officialSkiResort);
-var texasData = allData.filter(val=>val.state==='Texas' && val.officialSkiResort);
-var utahData = allData.filter(val=>val.state==='Utah' && val.officialSkiResort);
-var vermontData = allData.filter(val=>val.state==='Vermont' && val.officialSkiResort);
-var virginiaData = allData.filter(val=>val.state==='Virginia' && val.officialSkiResort);
-var washingtonData = allData.filter(val=>val.state==='Washington' && val.officialSkiResort);
-var westVirginiaData = allData.filter(val=>val.state==='West Virginia' && val.officialSkiResort);
-var wisconsinData = allData.filter(val=>val.state==='Wisconsin' && val.officialSkiResort);
-var wyomingData = allData.filter(val=>val.state==='Wyoming' && val.officialSkiResort);
+var alabamaData = unitedStatesData.filter(val=>val.state==='Alabama' && val.officialSkiResort);
+var alaskaData = unitedStatesData.filter(val=>val.state==='Alaska' && val.officialSkiResort);
+var arizonaData = unitedStatesData.filter(val=>val.state==='Arizona' && val.officialSkiResort);
+var californiaData = unitedStatesData.filter(val=>val.state==='California' && val.officialSkiResort);
+var coloradoData = unitedStatesData.filter(val=>val.state==='Colorado' && val.officialSkiResort);
+var connecticutData = unitedStatesData.filter(val=>val.state==='Connecticut' && val.officialSkiResort);
+var idahoData = unitedStatesData.filter(val=>val.state==='Idaho' && val.officialSkiResort);
+var illinoisData = unitedStatesData.filter(val=>val.state==='Illinois' && val.officialSkiResort);
+var indianaData = unitedStatesData.filter(val=>val.state==='Indiana' && val.officialSkiResort);
+var iowaData = unitedStatesData.filter(val=>val.state==='Iowa' && val.officialSkiResort);
+var maineData = unitedStatesData.filter(val=>val.state==='Maine' && val.officialSkiResort);
+var marylandData = unitedStatesData.filter(val=>val.state==='Maryland' && val.officialSkiResort);
+var massachusettsData = unitedStatesData.filter(val=>val.state==='Massachusetts' && val.officialSkiResort);
+var michiganData = unitedStatesData.filter(val=>val.state==='Michigan' && val.officialSkiResort);
+var minnesotaData = unitedStatesData.filter(val=>val.state==='Minnesota' && val.officialSkiResort);
+var missouriData = unitedStatesData.filter(val=>val.state==='Missouri' && val.officialSkiResort);
+var montanaData = unitedStatesData.filter(val=>val.state==='Montana' && val.officialSkiResort);
+var nevadaData = unitedStatesData.filter(val=>val.state==='Nevada' && val.officialSkiResort);
+var newHampshireData = unitedStatesData.filter(val=>val.state==='New Hampshire' && val.officialSkiResort);
+var newJerseyData = unitedStatesData.filter(val=>val.state==='New Jersey' && val.officialSkiResort);
+var newMexicoData = unitedStatesData.filter(val=>val.state==='New Mexico' && val.officialSkiResort);
+var newYorkData = unitedStatesData.filter(val=>val.state==='New York' && val.officialSkiResort);
+var northCarolinaData = unitedStatesData.filter(val=>val.state==='North Carolina' && val.officialSkiResort);
+var northDakotaData = unitedStatesData.filter(val=>val.state==='North Dakota' && val.officialSkiResort);
+var ohioData = unitedStatesData.filter(val=>val.state==='Ohio' && val.officialSkiResort);
+var oregonData = unitedStatesData.filter(val=>val.state==='Oregon' && val.officialSkiResort);
+var pennsylvaniaData = unitedStatesData.filter(val=>val.state==='Pennsylvania' && val.officialSkiResort);
+var rhodeIslandData = unitedStatesData.filter(val=>val.state==='Rhode Island' && val.officialSkiResort);
+var southDakotaData = unitedStatesData.filter(val=>val.state==='South Dakota' && val.officialSkiResort);
+var tennesseeData = unitedStatesData.filter(val=>val.state==='Tennessee' && val.officialSkiResort);
+var texasData = unitedStatesData.filter(val=>val.state==='Texas' && val.officialSkiResort);
+var utahData = unitedStatesData.filter(val=>val.state==='Utah' && val.officialSkiResort);
+var vermontData = unitedStatesData.filter(val=>val.state==='Vermont' && val.officialSkiResort);
+var virginiaData = unitedStatesData.filter(val=>val.state==='Virginia' && val.officialSkiResort);
+var washingtonData = unitedStatesData.filter(val=>val.state==='Washington' && val.officialSkiResort);
+var westVirginiaData = unitedStatesData.filter(val=>val.state==='West Virginia' && val.officialSkiResort);
+var wisconsinData = unitedStatesData.filter(val=>val.state==='Wisconsin' && val.officialSkiResort);
+var wyomingData = unitedStatesData.filter(val=>val.state==='Wyoming' && val.officialSkiResort);
 
 var stateData = {
   alabama: 100*(alabamaData.filter(val=>val.videos.length>0).length / alabamaData.length),
@@ -138,7 +138,7 @@ for (var i=0; i<videoDataSorted.length; i++) {
 
   // Get resort name of the official ski resorts
   var resortName;
-  var validResort = allData.filter(val => val.officialSkiResort)
+  var validResort = unitedStatesData.filter(val => val.officialSkiResort)
                            .filter(val => val.videos.includes(videoDataSorted[i].id));
 
   // Only count valid resorts

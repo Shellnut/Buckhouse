@@ -3,7 +3,7 @@
 <html>
    <head>
       <title>Buckhouse</title>
-      <link rel="shortcut icon" type="image/png" href="favicon.png">
+      <link rel="shortcut icon" type="image/png" href="img/favicon.png">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNC6R0PR4F"></script>
         <script>
@@ -16,10 +16,12 @@
       <!-- Load plotly.js into the DOM -->
 	   <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
       <!-- Angular -->
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
       <!-- Angular ui bootstrap -->
       <script data-require="ui-bootstrap@*" data-semver="1.3.0" src="https://cdn.rawgit.com/angular-ui/bootstrap/gh-pages/ui-bootstrap-1.3.0.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.0/ui-bootstrap-tpls.js"></script>
+      <!-- Angular Route -->
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.min.js"></script> -->
       <!-- Font awesome -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Bootstrap CSS -->
@@ -41,9 +43,88 @@
       <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
       <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
       <!-- Custom scripts -->
-      <script src="allData.js"></script>
-      <script src="globalData.js"></script>
-      <script src="geoJsonData.js"></script>
+      <script src="plotData/geoJsonData.js"></script>
+      
+      <!-- Country ski resort data -->
+      <!-- AFRICA -->
+      <script src="resortData/africa/lesothoData.js"></script>
+      <script src="resortData/africa/moroccoData.js"></script>
+      <script src="resortData/africa/southAfricaData.js"></script>
+      <!-- ASIA -->
+      <script src="resortData/asia/armeniaData.js"></script>
+      <script src="resortData/asia/azerbaijanData.js"></script>
+      <script src="resortData/asia/chinaData.js"></script>
+      <script src="resortData/asia/georgiaData.js"></script>
+      <script src="resortData/asia/indiaData.js"></script>
+      <script src="resortData/asia/iranData.js"></script>
+      <script src="resortData/asia/israelData.js"></script>
+      <script src="resortData/asia/japanData.js"></script>
+      <script src="resortData/asia/kazakhstanData.js"></script>
+      <script src="resortData/asia/kyrgyzstanData.js"></script>
+      <script src="resortData/asia/mongoliaData.js"></script>
+      <script src="resortData/asia/montenegroData.js"></script>
+      <script src="resortData/asia/northKoreaData.js"></script>
+      <script src="resortData/asia/pakistanData.js"></script>
+      <script src="resortData/asia/russiaData.js"></script>
+      <script src="resortData/asia/southKoreaData.js"></script>
+      <script src="resortData/asia/tajikistanData.js"></script>
+      <script src="resortData/asia/turkeyData.js"></script>
+      <script src="resortData/asia/uzbekistanData.js"></script>
+      <!-- EUROPE -->
+      <script src="resortData/europe/andorraData.js"></script>
+      <script src="resortData/europe/austriaData.js"></script>
+      <script src="resortData/europe/belgiumData.js"></script>
+      <script src="resortData/europe/bosniaAndHerzegovina.js"></script>
+      <script src="resortData/europe/bulgariaData.js"></script>
+      <script src="resortData/europe/croatiaData.js"></script>
+      <script src="resortData/europe/cyprusData.js"></script>
+      <script src="resortData/europe/czechRepublicData.js"></script>
+      <script src="resortData/europe/denmarkData.js"></script>
+      <script src="resortData/europe/finlandData.js"></script>
+      <script src="resortData/europe/franceData.js"></script>
+      <script src="resortData/europe/germanyData.js"></script>
+      <script src="resortData/europe/greeceData.js"></script>
+      <script src="resortData/europe/hungaryData.js"></script>
+      <script src="resortData/europe/icelandData.js"></script>
+      <script src="resortData/europe/irelandData.js"></script>
+      <script src="resortData/europe/italyData.js"></script>
+      <script src="resortData/europe/kosovoData.js"></script>
+      <script src="resortData/europe/latviaData.js"></script>
+      <script src="resortData/europe/liechtensteinData.js"></script>
+      <script src="resortData/europe/lithuaniaData.js"></script>
+      <script src="resortData/europe/netherlandsData.js"></script>
+      <script src="resortData/europe/norwayData.js"></script>
+      <script src="resortData/europe/polandData.js"></script>
+      <script src="resortData/europe/portugalData.js"></script>
+      <script src="resortData/europe/romaniaData.js"></script>
+      <script src="resortData/europe/serbiaData.js"></script>
+      <script src="resortData/europe/slovakiaData.js"></script>
+      <script src="resortData/europe/sloveniaData.js"></script>
+      <script src="resortData/europe/spainData.js"></script>
+      <script src="resortData/europe/swedenData.js"></script>
+      <script src="resortData/europe/switzerlandData.js"></script>
+      <script src="resortData/europe/ukraineData.js"></script>
+      <script src="resortData/europe/unitedKingdomData.js"></script>
+
+      <!-- NORTH AMERICA -->
+      <script src="resortData/northAmerica/canadaData.js"></script>
+      <script src="resortData/northAmerica/greenlandData.js"></script>
+      <script src="resortData/northAmerica/unitedStatesData.js"></script>
+
+      <!-- OCEANIA -->
+      <script src="resortData/oceania/australiaData.js"></script>
+      <script src="resortData/oceania/newZealandData.js"></script>
+
+      <!-- SOUTH AMERICA -->
+      <script src="resortData/southAmerica/argentinaData.js"></script>
+      <script src="resortData/southAmerica/brazilData.js"></script>
+      <script src="resortData/southAmerica/chileData.js"></script>
+
+      <script>
+         var globalData = canadaData.concat(switzerlandData).concat(austriaData).concat(franceData).concat(japanData).concat(unitedKingdomData).concat(polandData).concat(germanyData).concat(italyData).concat(serbiaData).concat(newZealandData).concat(indiaData).concat(iranData).concat(southAfricaData).concat(australiaData).concat(argentinaData).concat(brazilData).concat(chileData).concat(chinaData).concat(armeniaData).concat(georgiaData).concat(israelData).concat(kazakhstanData).concat(southKoreaData).concat(pakistanData).concat(belgiumData).concat(moroccoData).concat(lesothoData).concat(andorraData).concat(bulgariaData).concat(croatiaData).concat(cyprusData).concat(czechRepublicData).concat(finlandData).concat(norwayData).concat(portugalData).concat(romaniaData).concat(russiaData).concat(slovakiaData).concat(sloveniaData).concat(spainData).concat(swedenData).concat(turkeyData).concat(ukraineData).concat(latviaData).concat(greeceData).concat(icelandData).concat(unitedStatesData).concat(montenegroData).concat(liechtensteinData).concat(hungaryData).concat(kyrgyzstanData).concat(uzbekistanData).concat(kosovoData).concat(azerbaijanData).concat(greenlandData).concat(irelandData).concat(northKoreaData).concat(denmarkData).concat(lithuaniaData).concat(tajikistanData).concat(mongoliaData).concat(netherlandsData).concat(bosniaAndHerzegovinaData);
+      </script>
+
+      <!-- CSS -->
       <style type="text/css">
          /* Always set the map height explicitly to define the size of the div
          * element that contains the map. */
@@ -165,7 +246,7 @@
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
                   <!-- Timeline -->
-                  <li><a href="javascript:void(0);" ng-click="timelineModal({'videoData': videoData, 'usData': usData})">Travel Progress <i class="fa fa-line-chart"></i></a></li>
+                  <li><a href="javascript:void(0);" ng-click="timelineModal({'videoData': videoData, 'unitedStatesData': unitedStatesData})">Travel Progress <i class="fa fa-line-chart"></i></a></li>
                   <!-- Calendar -->
                   <li><a href="javascript:void(0);" ng-click="calendarModal()">Calendar <i class="fa fa-calendar"></i></a></li>
                   <!-- Toggle Icon -->
@@ -513,9 +594,9 @@
                     
    </body>
    <!-- Graphical data -->
-   <script src="graphicalData.js"></script>
+   <script src="plotData/graphicalData.js"></script>
    <!-- Plot data -->
-   <script src="plotData.js"></script>
+   <script src="plotData/plotData.js"></script>
    <!-- my script -->
    <script>
 
@@ -543,7 +624,7 @@
 
          // Add graphical data to $scope
          $scope.videoData = JSON.parse(JSON.stringify(videoData));
-         $scope.usData = JSON.parse(JSON.stringify(allData));
+         $scope.unitedStatesData = JSON.parse(JSON.stringify(unitedStatesData));
          
          // Get truthy or falsy value from localStorage
          $scope.showGlobal = !!localStorage.getItem('showGlobal');
@@ -593,14 +674,14 @@
 
           // Assign the data to the view
          if (!!localStorage.getItem('showGlobal')) {
-            $scope.allData = JSON.parse(JSON.stringify(allData)).concat(JSON.parse(JSON.stringify(globalData)));
-            $scope.visitedCount = allData.concat(globalData).filter(val => val.videos.length > 0 && val.officialSkiResort).length;
-            $scope.skiResortCount = allData.concat(globalData).filter(val => val.officialSkiResort).length; 
+            $scope.allData = JSON.parse(JSON.stringify(globalData));
+            $scope.visitedCount = globalData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
+            $scope.skiResortCount = globalData.filter(val => val.officialSkiResort).length; 
          }
          else {
-            $scope.allData = JSON.parse(JSON.stringify(allData));
-            $scope.visitedCount = allData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
-            $scope.skiResortCount = allData.filter(val => val.officialSkiResort).length; 
+            $scope.allData = JSON.parse(JSON.stringify(unitedStatesData));
+            $scope.visitedCount = unitedStatesData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
+            $scope.skiResortCount = unitedStatesData.filter(val => val.officialSkiResort).length; 
          }
           $scope.lastUpdated = lastUpdated;
           $scope.orderByField = 'videos.length';
@@ -629,10 +710,10 @@
 
           if (showPasses && showPasses !=='all') {
             if (showPasses === 'No Pass Associated') {
-               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.officialSkiResort && val.skiPass.length < 1);
+               $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.officialSkiResort && val.skiPass.length < 1);
             }
             else {
-               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes($scope.showPasses));
+               $scope.allData = JSON.parse(JSON.stringify(globalData)).filter(val => val.skiPass.includes($scope.showPasses));
             }
           }
           else {
@@ -654,10 +735,10 @@
 
          if (showVisited && showVisited !=='all') {
             if (showVisited === 'Visited') {
-               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length > 0);
+               $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.videos.length > 0);
             }
             else if (showVisited === 'Not Visited') {
-               $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length < 1);
+               $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.videos.length < 1);
             }
          }
          else {
@@ -678,7 +759,7 @@
          $scope.showReviewed = localStorage.getItem('showReviewed');
 
          if (showReviewed && showReviewed !=='all') {
-            $scope.allData = JSON.parse(JSON.stringify(allData)).filter(val => val.resortReview.score);
+            $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.resortReview.score);
          }
          else {
             $scope.showReviewed = 'all';
@@ -963,7 +1044,7 @@
 
             $scope.modalData = modalData;
 
-            var myVideos = modalData.usData
+            var myVideos = modalData.unitedStatesData
                .filter(val => val.officialSkiResort && (val.videos.length > 0))
                .map(val => {
                   var myId = val.videos[val.videos.length-1]; 
@@ -1411,20 +1492,20 @@
 
       var allDataMap = [];
       if (!!localStorage.getItem('showGlobal')) {
-         allDataMap = JSON.parse(JSON.stringify(allData)).concat(JSON.parse(JSON.stringify(globalData)));
+         allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).concat(JSON.parse(JSON.stringify(globalData)));
       }
       else {
-         allDataMap = JSON.parse(JSON.stringify(allData));
+         allDataMap = JSON.parse(JSON.stringify(unitedStatesData));
       }
 
       // Get pass options from localStorage
       var showPasses = localStorage.getItem('showPasses');
       if (showPasses && showPasses !=='all') {
          if (showPasses === 'No Pass Associated') {
-            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val =>  val.officialSkiResort && val.skiPass.length < 1);
+            allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).filter(val =>  val.officialSkiResort && val.skiPass.length < 1);
          }
          else {
-            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.skiPass.includes(showPasses));
+            allDataMap = JSON.parse(JSON.stringify(globalData)).filter(val => val.skiPass.includes(showPasses));
          }
       }
 
@@ -1432,17 +1513,17 @@
       var showVisited = localStorage.getItem('showVisited');
       if (showVisited && showVisited !=='all') {
          if (showVisited === 'Visited') {
-            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length > 0);
+            allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.videos.length > 0);
          }
          else if (showVisited === 'Not Visited') {
-            allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.videos.length < 1);
+            allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.videos.length < 1);
          }
       }
 
       // Get reviewed options from localStorage
       var showReviewed = localStorage.getItem('showReviewed');
       if (showReviewed && showReviewed !=='all') {
-         allDataMap = JSON.parse(JSON.stringify(allData)).filter(val => val.resortReview.score);
+         allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.resortReview.score);
       }
 
       for (var i = 0; i<allDataMap.length; i++) {

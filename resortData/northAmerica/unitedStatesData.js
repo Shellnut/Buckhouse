@@ -1,4 +1,4 @@
-var lastUpdated = '1/9/2022';
+var lastUpdated = '1/10/2022';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9653,7 +9653,9 @@ var unitedStatesData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Montreal",
-    "videos": [],
+    "videos": [
+      "oCVyZX1msPM"
+    ],
     "position": {
       "lat": 46.40869924357127,
       "lng": -90.3948932170933

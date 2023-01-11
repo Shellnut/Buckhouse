@@ -3,6 +3,7 @@
 <html>
    <head>
       <title>Buckhouse</title>
+      <base href="/">
       <link rel="shortcut icon" type="image/png" href="img/favicon.png">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNC6R0PR4F"></script>
@@ -16,12 +17,12 @@
       <!-- Load plotly.js into the DOM -->
 	   <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
       <!-- Angular -->
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
       <!-- Angular ui bootstrap -->
       <script data-require="ui-bootstrap@*" data-semver="1.3.0" src="https://cdn.rawgit.com/angular-ui/bootstrap/gh-pages/ui-bootstrap-1.3.0.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.0/ui-bootstrap-tpls.js"></script>
       <!-- Angular Route -->
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-route/1.8.3/angular-route.min.js"></script>
       <!-- Font awesome -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <!-- Bootstrap CSS -->
@@ -369,8 +370,14 @@
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
-          </nav>
+         </nav>
 
+         <a href="red">Red</a>
+         <a href="green">Green</a>
+         <a href="blue">Blue</a>
+         
+         <div ng-view></div>
+       
          <div id="mapid"></div>
          <!-- THE SEARCH BOX  -->
          <br>
@@ -601,7 +608,27 @@
    <script>
 
       // Code goes here - TEST
-      var app = angular.module('myApp', ['ui.bootstrap']);
+      var app = angular.module('myApp', ['ui.bootstrap', 'ngRoute']);
+
+      app.config(function($routeProvider) {
+         $routeProvider
+         .when("/", {
+            templateUrl : "test.html"
+         })
+         .when("/red", {
+            templateUrl : "test2.html"
+         })
+         .when("/green", {
+            templateUrl : "test.html"
+         })
+         .when("/blue", {
+            templateUrl : "test2.html"
+         });
+         });
+
+      // app.config(["$locationProvider", function($locationProvider) {
+      //    $locationProvider.html5Mode(true);
+      // }]);
 
       // Progress bar component
       app.component('myProgressBar', {

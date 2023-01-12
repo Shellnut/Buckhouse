@@ -7,12 +7,11 @@
       <link rel="shortcut icon" type="image/png" href="img/favicon.png">
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNC6R0PR4F"></script>
-        <script>
+      <script>
           window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'G-MNC6R0PR4F');
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         gtag('config', 'G-MNC6R0PR4F');
       </script>
       <!-- Load plotly.js into the DOM -->
 	   <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
@@ -382,19 +381,18 @@
          <!-- THE SEARCH BOX  -->
          <br>
 
-            <!-- Progress -->
-            <div>
-               <p>Johnathan has visited {{visitedCount}} out of the {{skiResortCount | number:0}}<a class="disclaimer-count" ng-click="goToChangeLog()" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> <span ng-show="!showGlobal">U.S.</span><span ng-show="showGlobal">global</span> ski resorts so far! <i>last updated: {{lastUpdated}}</i></p>
-            </div>
+         <!-- Progress -->
+         <div>
+            <p>Johnathan has visited {{visitedCount}} out of the {{skiResortCount | number:0}}<a class="disclaimer-count" ng-click="goToChangeLog()" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> <span ng-show="!showGlobal">U.S.</span><span ng-show="showGlobal">global</span> ski resorts so far! <i>last updated: {{lastUpdated}}</i></p>
+         </div>
 
-            <!-- Search column -->
-            <div>
-               <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                  <input type="text" class="form-control" name="msg" placeholder="Monarch Ski Area" ng-model="search">
-               </div>
+         <!-- Search column -->
+         <div>
+            <div class="input-group">
+               <span class="input-group-addon"><i class="fa fa-search"></i></span>
+               <input type="text" class="form-control" name="msg" placeholder="Monarch Ski Area" ng-model="search">
             </div>
- 
+         </div>
 
          <br>
          <div class="pane">
@@ -613,16 +611,16 @@
       app.config(function($routeProvider) {
          $routeProvider
          .when("/", {
-            templateUrl : "test.html"
+            templateUrl : "views/test.html"
          })
          .when("/red", {
-            templateUrl : "test2.html"
+            templateUrl : "views/test2.html"
          })
          .when("/green", {
-            templateUrl : "test.html"
+            templateUrl : "views/test.html"
          })
          .when("/blue", {
-            templateUrl : "test2.html"
+            templateUrl : "views/test2.html"
          });
          });
 

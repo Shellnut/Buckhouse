@@ -1,4 +1,4 @@
-var lastUpdated = '1/10/2022';
+var lastUpdated = '1/11/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9283,7 +9283,9 @@ var unitedStatesData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Bayfield",
-    "videos": [],
+    "videos": [
+      "sWIx22bnaM8"
+    ],
     "position": {
       "lat": 46.77792292186193,
       "lng": -90.8943395476144

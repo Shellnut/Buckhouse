@@ -1,4 +1,4 @@
-var lastUpdated = '1/12/2023';
+var lastUpdated = '1/13/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",

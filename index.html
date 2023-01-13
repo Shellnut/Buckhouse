@@ -371,9 +371,9 @@
             </div><!-- /.container-fluid -->
          </nav>
 
-         <a href="red">Red</a>
-         <a href="green">Green</a>
-         <a href="blue">Blue</a>
+         <a href="#!red">Red</a>
+         <a href="#!green">Green</a>
+         <a href="#!blue">Blue</a>
          
          <div ng-view></div>
        
@@ -610,22 +610,26 @@
 
       app.config(function($routeProvider) {
          $routeProvider
-         .when("/", {
-            templateUrl : "views/test.html"
-         })
-         .when("/red", {
-            templateUrl : "views/test2.html"
-         })
-         .when("/green", {
-            templateUrl : "views/test.html"
-         })
-         .when("/blue", {
-            templateUrl : "views/test2.html"
-         });
-         });
+            .when("/", {
+               templateUrl : "views/test.html"
+            })
+            .when("/red", {
+               templateUrl : "views/test2.html"
+            })
+            .when("/green", {
+               templateUrl : "views/test.html"
+            })
+            .when("/blue", {
+               templateUrl : "views/test2.html"
+            });
+      });
 
       // app.config(["$locationProvider", function($locationProvider) {
       //    $locationProvider.html5Mode(true);
+      // }]);
+
+      // app.config(['$locationProvider', function($locationProvider) {
+      //    $locationProvider.hashPrefix('map');
       // }]);
 
       // Progress bar component

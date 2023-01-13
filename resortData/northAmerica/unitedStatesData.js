@@ -1,4 +1,4 @@
-var lastUpdated = '1/11/2023';
+var lastUpdated = '1/12/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8019,7 +8019,9 @@ var unitedStatesData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Duluth",
-    "videos": [],
+    "videos": [
+      "v9WKEaH8NWs"
+    ],
     "position": {
       "lat": 46.718797662684466,
       "lng": -92.21665069669943

@@ -1,4 +1,4 @@
-var lastUpdated = '1/13/2023';
+var lastUpdated = '1/15/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9221,7 +9221,9 @@ var unitedStatesData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Superior",
-    "videos": [],
+    "videos": [
+      "tqrm1saU1wU"
+    ],
     "position": {
       "lat": 46.652175374625095,
       "lng": -92.28446417042197
@@ -10949,6 +10951,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "rho_MuxGrYs",
       "cOdQj35kjJM",
       "ZqOBKE1w6W4",
       "gctk3z-0ZRE",

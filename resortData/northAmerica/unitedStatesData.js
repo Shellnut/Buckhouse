@@ -1,4 +1,4 @@
-var lastUpdated = '1/15/2023';
+var lastUpdated = '1/16/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7989,7 +7989,9 @@ var unitedStatesData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Nisswa",
-    "videos": [],
+    "videos": [
+      "-O0zrfw0vP8"
+    ],
     "position": {
       "lat": 46.44827365877397,
       "lng": -94.37787279681214

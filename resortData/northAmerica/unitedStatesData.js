@@ -1,4 +1,4 @@
-var lastUpdated = '1/16/2023';
+var lastUpdated = '1/17/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7955,7 +7955,9 @@ var unitedStatesData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Kimball",
-    "videos": [],
+    "videos": [
+      "7WcLdos9gdI"
+    ],
     "position": {
       "lat": 45.34444673948029,
       "lng": -94.30514336658166

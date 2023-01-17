@@ -16243,6 +16243,38 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
+    "resortName": "Coppervale Ski Hill",
+    "state": "California",
+    "region": "West Coast",
+    "city": "Susanville",
+    "videos": [],
+    "position": {
+      "lat": 40.347284276869914,
+      "lng": -120.90440500224521
+    },
+    "officialSkiResort": true,
+    "id": "4837",
+    "website": "https://www.lassencollege.edu/about/about-the-area/Pages/Coppervale-Ski-Area.aspx",
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/4837/2200/1640389982.jpg",
+    "country": "United States"
+  },
+  {
     "resortName": "Diamond Peak",
     "state": "Nevada",
     "region": "West Coast",

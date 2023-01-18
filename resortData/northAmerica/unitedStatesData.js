@@ -10899,19 +10899,19 @@ var unitedStatesData = [
     "id": "498",
     "website": "http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area",
     "resortReview": {
-      "score": 71, // must be a number not a string
-      "link": "dvTLQfJGSeE",
+      "score": 33, // must be a number not a string
+      "link": "famqzfLIJ74",
       "note": "",
-      "price": "2",
+      "price": "9",
       "easeOfAccess": "4",
-      "lodging": "10",
-      "chairLifts": "9",
-      "runs": "9",
-      "terrainPark": "6",
-      "food": "10",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "1",
+      "food": "3",
       "employees": "5",
-      "views": "6",
-      "wouldIGoBack": "10"
+      "views": "3",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/498/916/1389760303.jpg",
@@ -11690,20 +11690,20 @@ var unitedStatesData = [
     "officialSkiResort": true,
     "id": "500",
     "website": "http://www.steamboat.com",
-    "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+    "resortReview":  {
+      "score": 71, // must be a number not a string
+      "link": "dvTLQfJGSeE",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "2",
+      "easeOfAccess": "4",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "9",
+      "terrainPark": "6",
+      "food": "10",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon"

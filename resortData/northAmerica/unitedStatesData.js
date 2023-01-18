@@ -4614,6 +4614,38 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/322/2200/1528576696.jpg"
   },
   {
+    "resortName": "Hunt Hollow Ski Club",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "country": "United States",
+    "city": "Naples",
+    "videos": [],
+    "position": {
+      "lat": 42.64172257190191,
+      "lng": -77.47732291951034
+    },
+    "officialSkiResort": true,
+    "id": "325",
+    "website": "http://www.villaroma.com/",
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg"
+  },
+  {
     "resortName": "Bear Creek Mountain Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",

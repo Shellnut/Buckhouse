@@ -1,4 +1,4 @@
-var lastUpdated = '1/12/2023';
+var lastUpdated = '1/17/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4614,6 +4614,38 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/322/2200/1528576696.jpg"
   },
   {
+    "resortName": "Hunt Hollow Ski Club",
+    "state": "New York",
+    "region": "Mid-Atlantic",
+    "country": "United States",
+    "city": "Naples",
+    "videos": [],
+    "position": {
+      "lat": 42.64172257190191,
+      "lng": -77.47732291951034
+    },
+    "officialSkiResort": true,
+    "id": "325",
+    "website": "http://www.villaroma.com/",
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/325/2200/1483150151.jpg"
+  },
+  {
     "resortName": "Bear Creek Mountain Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -7955,7 +7987,9 @@ var unitedStatesData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Kimball",
-    "videos": [],
+    "videos": [
+      "7WcLdos9gdI"
+    ],
     "position": {
       "lat": 45.34444673948029,
       "lng": -94.30514336658166
@@ -7989,7 +8023,9 @@ var unitedStatesData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Nisswa",
-    "videos": [],
+    "videos": [
+      "-O0zrfw0vP8"
+    ],
     "position": {
       "lat": 46.44827365877397,
       "lng": -94.37787279681214
@@ -8021,7 +8057,9 @@ var unitedStatesData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Duluth",
-    "videos": [],
+    "videos": [
+      "v9WKEaH8NWs"
+    ],
     "position": {
       "lat": 46.718797662684466,
       "lng": -92.21665069669943
@@ -9219,7 +9257,9 @@ var unitedStatesData = [
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Superior",
-    "videos": [],
+    "videos": [
+      "tqrm1saU1wU"
+    ],
     "position": {
       "lat": 46.652175374625095,
       "lng": -92.28446417042197
@@ -10891,19 +10931,19 @@ var unitedStatesData = [
     "id": "498",
     "website": "http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area",
     "resortReview": {
-      "score": 71, // must be a number not a string
-      "link": "dvTLQfJGSeE",
+      "score": 33, // must be a number not a string
+      "link": "famqzfLIJ74",
       "note": "",
-      "price": "2",
+      "price": "9",
       "easeOfAccess": "4",
-      "lodging": "10",
-      "chairLifts": "9",
-      "runs": "9",
-      "terrainPark": "6",
-      "food": "10",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "1",
+      "food": "3",
       "employees": "5",
-      "views": "6",
-      "wouldIGoBack": "10"
+      "views": "3",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/498/916/1389760303.jpg",
@@ -10947,6 +10987,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "rho_MuxGrYs",
       "cOdQj35kjJM",
       "ZqOBKE1w6W4",
       "gctk3z-0ZRE",
@@ -11681,20 +11722,20 @@ var unitedStatesData = [
     "officialSkiResort": true,
     "id": "500",
     "website": "http://www.steamboat.com",
-    "resortReview": {
-      "score": "", // must be a number not a string
-      "link": "",
+    "resortReview":  {
+      "score": 71, // must be a number not a string
+      "link": "dvTLQfJGSeE",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "2",
+      "easeOfAccess": "4",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "9",
+      "terrainPark": "6",
+      "food": "10",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon"
@@ -16233,6 +16274,38 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://skimap.org/data/529/2798/1520436496.png",
+    "country": "United States"
+  },
+  {
+    "resortName": "Coppervale Ski Hill",
+    "state": "California",
+    "region": "West Coast",
+    "city": "Susanville",
+    "videos": [],
+    "position": {
+      "lat": 40.347284276869914,
+      "lng": -120.90440500224521
+    },
+    "officialSkiResort": true,
+    "id": "4837",
+    "website": "https://www.lassencollege.edu/about/about-the-area/Pages/Coppervale-Ski-Area.aspx",
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://skimap.org/data/4837/2200/1640389982.jpg",
     "country": "United States"
   },
   {

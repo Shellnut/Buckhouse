@@ -42,6 +42,10 @@
       <!-- Leaflet fullscreen -->
       <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
       <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+      <!-- Leaflet JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ui-leaflet/1.0.3/ui-leaflet.js" integrity="sha512-hTQMlplfmfbCYIS+0QkU3rnAuQovZU55Imyh4NwK88E1xsi6waWHbmVZyAa7SHntf9lBaTujtQjt/JbmA5HaYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <!-- Angular simple logger -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-simple-logger/0.1.7/angular-simple-logger.js" integrity="sha512-IslJDGaeL0IGHM256peNRfFtWOeHP+VLZ0dhAafCK2v7fU2N2UJhwVCh7wZGFB3c1N1ifAq5Miq7EKWOVU0CDw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       <!-- Custom scripts -->
       <script src="plotData/geoJsonData.js"></script>
       
@@ -377,7 +381,8 @@
          
          <div ng-view></div>
        
-         <div id="mapid"></div>
+         <leaflet defaults="defaults" lf-center="center" legend="legend" paths="paths" markers="markers" width="100%" height="480px"></leaflet>
+
          <!-- THE SEARCH BOX  -->
          <br>
 
@@ -608,7 +613,7 @@
    <script>
 
       // Code goes here - TEST
-      var app = angular.module('myApp', ['ui.bootstrap', 'ngRoute']);
+      var app = angular.module('myApp', ['ngRoute', 'ui-leaflet', 'ui.bootstrap']);
 
       app.config(function($routeProvider) {
          $routeProvider
@@ -651,7 +656,89 @@
       });
       
       // Governing app controller
-      app.controller('myCtrl', ['$scope', '$uibModal', function($scope, $uibModal) {
+      app.controller('myCtrl', ['$scope', '$uibModal', 'leafletMarkerEvents', function($scope, $uibModal, leafletMarkerEvents) {
+
+         angular.extend($scope, {
+            defaults: {
+               tileLayer: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+               maxZoom: 14,
+               path: {
+                     weight: 10,
+                     color: '#800000',
+                     opacity: 1
+               }
+            }
+         });
+
+         angular.extend($scope, {
+            center: {
+               lat: 39.480243,
+               lng:  -106.06667,
+               zoom: 3
+            }
+         });
+
+         var local_icons = {
+            default_icon: {
+               iconUrl: 'img/plain_marker/visited.png',
+               shadowUrl: 'img/marker_shadow.png',
+            },
+            leaf_icon: {
+                  iconUrl: 'img/plain_marker/visited.png',
+                  shadowUrl: 'img/marker_shadow.png',
+                  iconSize:     [38, 95], // size of the icon
+                  shadowSize:   [50, 64], // size of the shadow
+                  iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+                  shadowAnchor: [4, 62],  // the same for the shadow
+                  popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+            },
+            div_icon: {
+                  type: 'div',
+                  iconSize: [230, 0],
+                  html: 'Using <strong>Bold text as an icon</strong>: Lisbon',
+                  popupAnchor:  [0, 0]
+            },
+            orange_leaf_icon: {
+                  iconUrl: 'img/plain_marker/visited.png',
+                  shadowUrl: 'img/marker_shadow.png',
+                  iconSize:     [38, 95],
+                  shadowSize:   [50, 64],
+                  iconAnchor:   [22, 94],
+                  shadowAnchor: [4, 62]
+            }
+         };
+
+         angular.extend($scope, {
+            icons: local_icons
+         });
+
+         $scope.markers = {
+            enable: leafletMarkerEvents.getAvailableEvents()
+         };
+
+         $scope.eventDetected = "No events yet...";
+         var markerEvents = leafletMarkerEvents.getAvailableEvents();
+         for (var k in markerEvents){
+            var eventName = 'leafletDirectiveMarker.' + markerEvents[k];
+            $scope.$on(eventName, function(event, args){
+               $scope.eventDetected = event.name;
+               if (event.name === 'leafletDirectiveMarker.click') {
+                  console.log(args.modelName);
+               }
+            });
+         }
+
+
+         for (var i=0; i<unitedStatesData.length; i++) {
+            $scope.markers[`resort_${i}`] = {
+                lat: unitedStatesData[i].position.lat,
+                lng: unitedStatesData[i].position.lng,
+                icon: local_icons.default_icon,
+                focus: true,
+                message: "Hello!",
+                draggable: false
+            }
+         }
 
          // Add graphical data to $scope
          $scope.videoData = JSON.parse(JSON.stringify(videoData));
@@ -1316,218 +1403,218 @@
          };
       });
 
-      // Set the default view
-      var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords
-      var defaultZoom = 4;
+      // // Set the default view
+      // var defaultCoordinates = [39.480243, -106.06667]; // breckenridge coords
+      // var defaultZoom = 4;
 
-      var mymap = L.map('mapid').setView(defaultCoordinates, defaultZoom);
+      // var mymap = L.map('mapid').setView(defaultCoordinates, defaultZoom);
 
-      L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-         minZoom: 1,
-         maxZoom: 18,
-         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-         id: 'mapbox/streets-v11',
-         tileSize: 512,
-         zoomOffset: -1
-      }).addTo(mymap);
+      // L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+      //    minZoom: 1,
+      //    maxZoom: 18,
+      //    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      //    id: 'mapbox/streets-v11',
+      //    tileSize: 512,
+      //    zoomOffset: -1
+      // }).addTo(mymap);
 
-      // Add fullscreen control
-      mymap.addControl(new L.Control.Fullscreen({
-         title: {
-            'false': 'View Fullscreen',
-            'true': 'Exit Fullscreen'
-         }
-      }));
+      // // Add fullscreen control
+      // mymap.addControl(new L.Control.Fullscreen({
+      //    title: {
+      //       'false': 'View Fullscreen',
+      //       'true': 'Exit Fullscreen'
+      //    }
+      // }));
 
-      // Add a legend
-      var legend = L.control({position: 'bottomright'});
+      // // Add a legend
+      // var legend = L.control({position: 'bottomright'});
 
-      legend.onAdd = function (map) {
+      // legend.onAdd = function (map) {
 
-         var div = L.DomUtil.create('div', 'legend info');
+      //    var div = L.DomUtil.create('div', 'legend info');
 
-         div.innerHTML =
-            '<b><i class="fa fa-trophy"></i> DREAMER Memberships</b><br>' +
-            '<span>Dan Da Man</span><br>' +
-            '<span>Jeff Abbott</span><br>' +
-            '<span>Dylan Crawford</span><br>' +
-            '<span>Rick Kinser</span><br>' +
-            '<span>Lee Bush</span><br>' + 
-            '<span>Nathan Chabot</span><br>' + 
-            '<span>BigAnt6493</span><br>' + 
-            '<span>Lee Miller</span>';
+      //    div.innerHTML =
+      //       '<b><i class="fa fa-trophy"></i> DREAMER Memberships</b><br>' +
+      //       '<span>Dan Da Man</span><br>' +
+      //       '<span>Jeff Abbott</span><br>' +
+      //       '<span>Dylan Crawford</span><br>' +
+      //       '<span>Rick Kinser</span><br>' +
+      //       '<span>Lee Bush</span><br>' + 
+      //       '<span>Nathan Chabot</span><br>' + 
+      //       '<span>BigAnt6493</span><br>' + 
+      //       '<span>Lee Miller</span>';
                   
-         return div;
-      };
+      //    return div;
+      // };
 
-      legend.addTo(mymap);
+      // legend.addTo(mymap);
 
-      // Change default options
-      L.control.rainviewer({ 
-         position: 'bottomleft',
-         nextButtonText: '>',
-         playStopButtonText: 'Play/Stop',
-         prevButtonText: '<',
-         positionSliderLabelText: "Hour:",
-         opacitySliderLabelText: "Opacity:",
-         animationInterval: 500,
-         opacity: 1
-      }).addTo(mymap);
+      // // Change default options
+      // L.control.rainviewer({ 
+      //    position: 'bottomleft',
+      //    nextButtonText: '>',
+      //    playStopButtonText: 'Play/Stop',
+      //    prevButtonText: '<',
+      //    positionSliderLabelText: "Hour:",
+      //    opacitySliderLabelText: "Opacity:",
+      //    animationInterval: 500,
+      //    opacity: 1
+      // }).addTo(mymap);
 
-      // Load the icon preference
-      var iconPreference;
-      if (!!localStorage.getItem('plainMarker')) {
-         iconPreference = 'plain_marker';
-      }
-      else {
-         iconPreference = 'snowboard_marker';
-      }
+      // // Load the icon preference
+      // var iconPreference;
+      // if (!!localStorage.getItem('plainMarker')) {
+      //    iconPreference = 'plain_marker';
+      // }
+      // else {
+      //    iconPreference = 'snowboard_marker';
+      // }
    
-      // Load the region line preference
-      var regionPreference = !!localStorage.getItem('showRegions');
+      // // Load the region line preference
+      // var regionPreference = !!localStorage.getItem('showRegions');
 
-      // If the user wants to see the region
-      if (regionPreference) {
-         var regionColor = {
-            'New England': 'red',
-            'Mid-Atlantic': 'orange',
-            'Southeast': 'yellow',
-            'Midwest': 'green',
-            'Rocky Mountains': 'blue',
-            'West Coast': 'purple'
-         }
-         // Loop over geo json data
-         for (var i=0; i<geoJsonData.features.length; i++) {
-            var geoColor = regionColor[geoJsonData.features[i].properties.region];
-            // loop over sets of geo json data (ex: hawaii has several sets b.c. of the islands)
-            if (geoJsonData.features[i].geometry.type === 'Polygon') {
-               var myCoords = geoJsonData.features[i].geometry.coordinates[0].map(val => [val[1], val[0]]);
-               L.polygon(myCoords, {color: geoColor})
-                  .addTo(mymap)
-                  .bindPopup(geoJsonData.features[i].properties.region + ' Region');
-            }
-            // Multi Polygon arrays are organized super weird!!
-            else if (geoJsonData.features[i].geometry.type === 'MultiPolygon') {
-               var myArray = geoJsonData.features[i].geometry.coordinates.map(val => val[0]);
-               for (var j=0; j<myArray.length; j++) {
-                  var myCoords = myArray[j].map(val => [val[1], val[0]]);
-                  L.polygon(myCoords, {color: geoColor})
-                   .addTo(mymap)
-                   .bindPopup(geoJsonData.features[i].properties.region + ' Region');
-               }
-            }
-         } 
-      }
-
-
-      // Green Icon (visited)
-      var greenIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/visited.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // black Icon (unofficial ski resort)
-      var blackIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/unofficial.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // Red Icon (not yet visited)
-      var redIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/not_visited.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: [25, 41],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // Green Ski Icon (visited)
-      var greenSkiIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/visited_ski.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // Red Ski Icon (not yet visited)
-      var redSkiIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/not_visited_ski.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // Green Helicopter Icon (visited)
-      var greenHelicopterIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/visited_helicopter.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [40, 45],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // Red Helicopter Icon (not yet visited)
-      var redHelicopterIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/not_visited_helicopter.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [40, 45],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // Green Helicopter Icon (visited)
-      var greenSnowcatIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/visited_snowcat.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [50, 45],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
-
-      // Red Helicopter Icon (not yet visited)
-      var redSnowcatIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/not_visited_snowcat.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [50, 45],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
+      // // If the user wants to see the region
+      // if (regionPreference) {
+      //    var regionColor = {
+      //       'New England': 'red',
+      //       'Mid-Atlantic': 'orange',
+      //       'Southeast': 'yellow',
+      //       'Midwest': 'green',
+      //       'Rocky Mountains': 'blue',
+      //       'West Coast': 'purple'
+      //    }
+      //    // Loop over geo json data
+      //    for (var i=0; i<geoJsonData.features.length; i++) {
+      //       var geoColor = regionColor[geoJsonData.features[i].properties.region];
+      //       // loop over sets of geo json data (ex: hawaii has several sets b.c. of the islands)
+      //       if (geoJsonData.features[i].geometry.type === 'Polygon') {
+      //          var myCoords = geoJsonData.features[i].geometry.coordinates[0].map(val => [val[1], val[0]]);
+      //          L.polygon(myCoords, {color: geoColor})
+      //             .addTo(mymap)
+      //             .bindPopup(geoJsonData.features[i].properties.region + ' Region');
+      //       }
+      //       // Multi Polygon arrays are organized super weird!!
+      //       else if (geoJsonData.features[i].geometry.type === 'MultiPolygon') {
+      //          var myArray = geoJsonData.features[i].geometry.coordinates.map(val => val[0]);
+      //          for (var j=0; j<myArray.length; j++) {
+      //             var myCoords = myArray[j].map(val => [val[1], val[0]]);
+      //             L.polygon(myCoords, {color: geoColor})
+      //              .addTo(mymap)
+      //              .bindPopup(geoJsonData.features[i].properties.region + ' Region');
+      //          }
+      //       }
+      //    } 
+      // }
 
 
-      // Red Helicopter Icon (not yet visited)
-      var homeIcon = new L.Icon({
-        iconUrl: `img/${iconPreference}/home.png`,
-        shadowUrl: 'img/marker_shadow.png',
-        iconSize: [25, 35],
-        iconAnchor: [12, 41],
-        popupAnchor: [1, -34],
-        shadowSize: [41, 41]
-      });
+      // // Green Icon (visited)
+      // var greenIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/visited.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: [25, 41],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
 
-      var allDataMap = [];
-      if (!!localStorage.getItem('showGlobal')) {
-         allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).concat(JSON.parse(JSON.stringify(globalData)));
-      }
-      else {
-         allDataMap = JSON.parse(JSON.stringify(unitedStatesData));
-      }
+      // // black Icon (unofficial ski resort)
+      // var blackIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/unofficial.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: [25, 41],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // // Red Icon (not yet visited)
+      // var redIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/not_visited.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: [25, 41],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // // Green Ski Icon (visited)
+      // var greenSkiIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/visited_ski.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // // Red Ski Icon (not yet visited)
+      // var redSkiIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/not_visited_ski.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // // Green Helicopter Icon (visited)
+      // var greenHelicopterIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/visited_helicopter.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [40, 45],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // // Red Helicopter Icon (not yet visited)
+      // var redHelicopterIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/not_visited_helicopter.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [40, 45],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // // Green Helicopter Icon (visited)
+      // var greenSnowcatIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/visited_snowcat.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [50, 45],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // // Red Helicopter Icon (not yet visited)
+      // var redSnowcatIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/not_visited_snowcat.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [50, 45],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+
+      // // Red Helicopter Icon (not yet visited)
+      // var homeIcon = new L.Icon({
+      //   iconUrl: `img/${iconPreference}/home.png`,
+      //   shadowUrl: 'img/marker_shadow.png',
+      //   iconSize: [25, 35],
+      //   iconAnchor: [12, 41],
+      //   popupAnchor: [1, -34],
+      //   shadowSize: [41, 41]
+      // });
+
+      // var allDataMap = [];
+      // if (!!localStorage.getItem('showGlobal')) {
+      //    allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).concat(JSON.parse(JSON.stringify(globalData)));
+      // }
+      // else {
+      //    allDataMap = JSON.parse(JSON.stringify(unitedStatesData));
+      // }
 
       // Get pass options from localStorage
       var showPasses = localStorage.getItem('showPasses');
@@ -1557,175 +1644,175 @@
          allDataMap = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.resortReview.score);
       }
 
-      for (var i = 0; i<allDataMap.length; i++) {
+      // for (var i = 0; i<allDataMap.length; i++) {
 
-        // Assign the icon color (visited or not)   
-        var icon;
-        var circleColor;
-        if (allDataMap[i].resortName === 'Backyard Parks in Summit County') {
-           icon = homeIcon; // not yet visited for helicopter only resort
-           circleColor = 'black';
-        }
-        else if (!allDataMap[i].officialSkiResort) {
-           icon = blackIcon; // unofficial ski resort
-           circleColor = 'black';
-        }
-        else if (allDataMap[i].skiOnly && allDataMap[i].videos.length > 0) {
-           icon = greenSkiIcon; // visited ski only resort
-           circleColor = 'green';
-        }
-        else if (allDataMap[i].skiOnly && allDataMap[i].videos.length === 0) {
-           icon = redSkiIcon; // not yet visited for ski only resort
-           circleColor = 'red';
-        }
-        else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length > 0) {
-           icon = greenHelicopterIcon; // visited helicopter only resort
-           circleColor = 'green';
-        }
-        else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length === 0) {
-           icon = redHelicopterIcon; // not yet visited for helicopter only resort
-           circleColor = 'black';
-        }
-        else if (allDataMap[i].snowcatOnly && allDataMap[i].videos.length > 0) {
-           icon = greenSnowcatIcon; // visited helicopter only resort
-           circleColor = 'green';
-        }
-        else if (allDataMap[i].snowcatOnly && allDataMap[i].videos.length === 0) {
-           icon = redSnowcatIcon; // not yet visited for helicopter only resort
-           circleColor = 'red';
-        }
-        else if (allDataMap[i].videos.length > 0) {
-           icon = greenIcon; // visited
-           circleColor = 'green';
-        }
-        else {
-           icon = redIcon; // not yet visited
-           circleColor = 'red';
-        }
+      //   // Assign the icon color (visited or not)   
+      //   var icon;
+      //   var circleColor;
+      //   if (allDataMap[i].resortName === 'Backyard Parks in Summit County') {
+      //      icon = homeIcon; // not yet visited for helicopter only resort
+      //      circleColor = 'black';
+      //   }
+      //   else if (!allDataMap[i].officialSkiResort) {
+      //      icon = blackIcon; // unofficial ski resort
+      //      circleColor = 'black';
+      //   }
+      //   else if (allDataMap[i].skiOnly && allDataMap[i].videos.length > 0) {
+      //      icon = greenSkiIcon; // visited ski only resort
+      //      circleColor = 'green';
+      //   }
+      //   else if (allDataMap[i].skiOnly && allDataMap[i].videos.length === 0) {
+      //      icon = redSkiIcon; // not yet visited for ski only resort
+      //      circleColor = 'red';
+      //   }
+      //   else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length > 0) {
+      //      icon = greenHelicopterIcon; // visited helicopter only resort
+      //      circleColor = 'green';
+      //   }
+      //   else if (allDataMap[i].helicopterOnly && allDataMap[i].videos.length === 0) {
+      //      icon = redHelicopterIcon; // not yet visited for helicopter only resort
+      //      circleColor = 'black';
+      //   }
+      //   else if (allDataMap[i].snowcatOnly && allDataMap[i].videos.length > 0) {
+      //      icon = greenSnowcatIcon; // visited helicopter only resort
+      //      circleColor = 'green';
+      //   }
+      //   else if (allDataMap[i].snowcatOnly && allDataMap[i].videos.length === 0) {
+      //      icon = redSnowcatIcon; // not yet visited for helicopter only resort
+      //      circleColor = 'red';
+      //   }
+      //   else if (allDataMap[i].videos.length > 0) {
+      //      icon = greenIcon; // visited
+      //      circleColor = 'green';
+      //   }
+      //   else {
+      //      icon = redIcon; // not yet visited
+      //      circleColor = 'red';
+      //   }
 
-        // Generate the video link html
-        var videoLinks;
-        if (allDataMap[i].videos.length === 0) {
-          videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
-        }
-        else if (allDataMap[i].videos.length === 1) {
-          videoLinks = `<p>Here is the only video of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
-        }
-        else if (allDataMap[i].videos.length > 1) {
-           if (allDataMap[i].videos.length > 200) {
-             videoLinks = `<p>Here are ${allDataMap[i].videos.length} videos (in 2 playlists) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
-             `<p><iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[200]}?playlist=${allDataMap[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
-           }
-           else {
-             videoLinks = `<p>Here are ${allDataMap[i].videos.length} videos (in a playlist) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
-           }
-        }
+      //   // Generate the video link html
+      //   var videoLinks;
+      //   if (allDataMap[i].videos.length === 0) {
+      //     videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
+      //   }
+      //   else if (allDataMap[i].videos.length === 1) {
+      //     videoLinks = `<p>Here is the only video of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
+      //   }
+      //   else if (allDataMap[i].videos.length > 1) {
+      //      if (allDataMap[i].videos.length > 200) {
+      //        videoLinks = `<p>Here are ${allDataMap[i].videos.length} videos (in 2 playlists) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
+      //        `<p><iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[200]}?playlist=${allDataMap[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
+      //      }
+      //      else {
+      //        videoLinks = `<p>Here are ${allDataMap[i].videos.length} videos (in a playlist) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${allDataMap[i].videos[0]}?playlist=${allDataMap[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
+      //      }
+      //   }
 
-        // Disclaimer for unofficial ski resorts
-        var officialSkiResortWarning = '';        
-        if (!allDataMap[i].officialSkiResort) {
-          officialSkiResortWarning = '<p><b>Note</b>: this is not an official ski resort</p>';
-        }
+      //   // Disclaimer for unofficial ski resorts
+      //   var officialSkiResortWarning = '';        
+      //   if (!allDataMap[i].officialSkiResort) {
+      //     officialSkiResortWarning = '<p><b>Note</b>: this is not an official ski resort</p>';
+      //   }
 
-        // Link to the website 
-        var modalTitle = '';
-        if (allDataMap[i].website) {
-          modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].country || (allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng)}</a></h4>`;
-        }
-        else {
-            modalTitle = `<h4 id="firstHeading" class="firstHeading">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].country || (allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng)}</h4>`;
-        }
+      //   // Link to the website 
+      //   var modalTitle = '';
+      //   if (allDataMap[i].website) {
+      //     modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${allDataMap[i].website}" target="_blank" title="Resort Website">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].country || (allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng)}</a></h4>`;
+      //   }
+      //   else {
+      //       modalTitle = `<h4 id="firstHeading" class="firstHeading">${allDataMap[i].resortName}, ${allDataMap[i].state || allDataMap[i].country || (allDataMap[i].position.lat + ' ' + allDataMap[i].position.lng)}</h4>`;
+      //   }
 
-        // Link to the score
-        var resortReview = '';
-        if (allDataMap[i].resortReview.score && !allDataMap[i].resortReview.note) {
-          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allDataMap[i].resortReview.link}">${allDataMap[i].resortReview.score}/100</a></p>`;
-        }
-        else if (allDataMap[i].resortReview.score && allDataMap[i].resortReview.note) {
-          resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allDataMap[i].resortReview.link}">${allDataMap[i].resortReview.score}/100</a>*<br/><small>*${allDataMap[i].resortReview.note}</small></p>`;
-        }
+      //   // Link to the score
+      //   var resortReview = '';
+      //   if (allDataMap[i].resortReview.score && !allDataMap[i].resortReview.note) {
+      //     resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allDataMap[i].resortReview.link}">${allDataMap[i].resortReview.score}/100</a></p>`;
+      //   }
+      //   else if (allDataMap[i].resortReview.score && allDataMap[i].resortReview.note) {
+      //     resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${allDataMap[i].resortReview.link}">${allDataMap[i].resortReview.score}/100</a>*<br/><small>*${allDataMap[i].resortReview.note}</small></p>`;
+      //   }
 
-        // Link to the ski pass(es)
-        var skiPasses = '';
-        if (allDataMap[i].skiPass.length > 0) {
-         var passes = [
-            {
-               name: 'Epic',
-               link: `<a target="_blank" href="https://www.epicpass.com">Epic</a>`
-            },
-            {
-               name: 'Ikon',
-               link: `<a target="_blank" href="https://www.ikonpass.com">Ikon</a>`
-            },
-            {
-               name: 'Mountain Collective',
-               link: `<a target="_blank" href="https://www.mountaincollective.com">Mountain Collective</a>`
-            },
-            {
-               name: 'Powder Alliance',
-               link: `<a target="_blank" href="https://www.powderalliance.com">Powder Alliance</a>`
-            },
-            {
-               name: 'Indy',
-               link: `<a target="_blank" href="https://www.indyskipass.com/">Indy</a>`
-            }
-         ];
-         skiPasses = `<p>${(allDataMap[i].skiPass.length>1) ? 'Ski Passes:' : 'Ski Pass:'} ${passes.filter(val => allDataMap[i].skiPass.includes(val.name)).map(val => val.link).join(', ')}`;
-        }
+      //   // Link to the ski pass(es)
+      //   var skiPasses = '';
+      //   if (allDataMap[i].skiPass.length > 0) {
+      //    var passes = [
+      //       {
+      //          name: 'Epic',
+      //          link: `<a target="_blank" href="https://www.epicpass.com">Epic</a>`
+      //       },
+      //       {
+      //          name: 'Ikon',
+      //          link: `<a target="_blank" href="https://www.ikonpass.com">Ikon</a>`
+      //       },
+      //       {
+      //          name: 'Mountain Collective',
+      //          link: `<a target="_blank" href="https://www.mountaincollective.com">Mountain Collective</a>`
+      //       },
+      //       {
+      //          name: 'Powder Alliance',
+      //          link: `<a target="_blank" href="https://www.powderalliance.com">Powder Alliance</a>`
+      //       },
+      //       {
+      //          name: 'Indy',
+      //          link: `<a target="_blank" href="https://www.indyskipass.com/">Indy</a>`
+      //       }
+      //    ];
+      //    skiPasses = `<p>${(allDataMap[i].skiPass.length>1) ? 'Ski Passes:' : 'Ski Pass:'} ${passes.filter(val => allDataMap[i].skiPass.includes(val.name)).map(val => val.link).join(', ')}`;
+      //   }
 
-        // HTML popup content
-        var popupContent = '<div id="content">' +
-                   '<div id="siteNotice">' +
-                   '</div>' +
-                   modalTitle +
-                   '<div id="bodyContent">' +
-                   resortReview +
-                   skiPasses +
-                   officialSkiResortWarning +
-                   videoLinks +
-                   '</div>' +
-                   '</div>';
+      //   // HTML popup content
+      //   var popupContent = '<div id="content">' +
+      //              '<div id="siteNotice">' +
+      //              '</div>' +
+      //              modalTitle +
+      //              '<div id="bodyContent">' +
+      //              resortReview +
+      //              skiPasses +
+      //              officialSkiResortWarning +
+      //              videoLinks +
+      //              '</div>' +
+      //              '</div>';
 
-        // Popup otions for the leaflet map library
-        var popupOptions = {
-          // maxHeight: 600,
-          // minWidth: 400
-        };
+      //   // Popup otions for the leaflet map library
+      //   var popupOptions = {
+      //     // maxHeight: 600,
+      //     // minWidth: 400
+      //   };
 
-        if (!!localStorage.getItem('showGlobal')) {
-            // Light weight marker
-            var circleMarker = L.circleMarker([allDataMap[i].position.lat, allDataMap[i].position.lng], {
-               color: circleColor,
-               radius: 5
-            })
-              .addTo(mymap)
-              .bindPopup(popupContent, popupOptions);
-        }
-        else {           
-          // Marker options
-          L.marker([allDataMap[i].position.lat, allDataMap[i].position.lng], {icon: icon})
-            .addTo(mymap)
-            .bindPopup(popupContent, popupOptions)
-            .bindTooltip(allDataMap[i].resortName + (allDataMap[i].officialSkiResort ? '' : ' (unofficial ski resort)'));
-        }
+      //   if (!!localStorage.getItem('showGlobal')) {
+      //       // Light weight marker
+      //       var circleMarker = L.circleMarker([allDataMap[i].position.lat, allDataMap[i].position.lng], {
+      //          color: circleColor,
+      //          radius: 5
+      //       })
+      //         .addTo(mymap)
+      //         .bindPopup(popupContent, popupOptions);
+      //   }
+      //   else {           
+      //     // Marker options
+      //     L.marker([allDataMap[i].position.lat, allDataMap[i].position.lng], {icon: icon})
+      //       .addTo(mymap)
+      //       .bindPopup(popupContent, popupOptions)
+      //       .bindTooltip(allDataMap[i].resortName + (allDataMap[i].officialSkiResort ? '' : ' (unofficial ski resort)'));
+      //   }
 
-      }
+      // }
 
-      // Pans to corresponding resort
-      function tableRowClick(x) {
-         var clickedResortInfoArray = (x.innerText.trim()).split("	");
+      // // Pans to corresponding resort
+      // function tableRowClick(x) {
+      //    var clickedResortInfoArray = (x.innerText.trim()).split("	");
          
-         for (i = 0; i < allDataMap.length; ++i) {
-            var resort = allDataMap[i];
-            if (resort.resortName == clickedResortInfoArray[0].trim() && resort.region == clickedResortInfoArray[3].trim() && resort.city == clickedResortInfoArray[5].trim()) {
+      //    for (i = 0; i < allDataMap.length; ++i) {
+      //       var resort = allDataMap[i];
+      //       if (resort.resortName == clickedResortInfoArray[0].trim() && resort.region == clickedResortInfoArray[3].trim() && resort.city == clickedResortInfoArray[5].trim()) {
                
-               var coords = L.latLng(resort.position.lat, resort.position.lng);
+      //          var coords = L.latLng(resort.position.lat, resort.position.lng);
 
-               mymap.setView(coords, 10);
+      //          mymap.setView(coords, 10);
 
-            }
-         }
-      }
+      //       }
+      //    }
+      // }
 
    </script>
 

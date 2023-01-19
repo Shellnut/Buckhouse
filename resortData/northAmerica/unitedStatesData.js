@@ -1,4 +1,4 @@
-var lastUpdated = '1/17/2023';
+var lastUpdated = '1/18/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7953,7 +7953,9 @@ var unitedStatesData = [
     "state": "Minnesota",
     "region": "Midwest",
     "city": "Mankato",
-    "videos": [],
+    "videos": [
+      "PSaqBEX3h0s"
+    ],
     "position": {
       "lat": 44.13364388533918,
       "lng": -94.0332170824091

@@ -1,4 +1,4 @@
-var lastUpdated = '1/18/2023';
+var lastUpdated = '1/19/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8594,7 +8594,9 @@ var unitedStatesData = [
     "state": "South Dakota",
     "region": "Midwest",
     "city": "Sioux Falls",
-    "videos": [],
+    "videos": [
+      "W46VfAecwUo"
+    ],
     "position": {
       "lat": 43.57856157343179,
       "lng": -96.6646327593374

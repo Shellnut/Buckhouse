@@ -1,4 +1,4 @@
-var lastUpdated = '1/22/2023';
+var lastUpdated = '1/24/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10587,6 +10587,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "7e_dlc8lb8k",
       "TH6m3rAPL9A",
       "ssuRscSyXhA",
       "J_9dtA-DrR8",
@@ -10992,6 +10993,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "Rp3l0oi36W8",
       "rho_MuxGrYs",
       "cOdQj35kjJM",
       "ZqOBKE1w6W4",

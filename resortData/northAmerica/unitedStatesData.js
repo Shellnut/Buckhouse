@@ -1,4 +1,4 @@
-var lastUpdated = '1/26/2023';
+var lastUpdated = '2/7/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10588,6 +10588,7 @@ var unitedStatesData = [
     "city": "Copper Mountain",
     "videos": [
       "7e_dlc8lb8k",
+      "oPQ4O4K9vzA",
       "TH6m3rAPL9A",
       "ssuRscSyXhA",
       "J_9dtA-DrR8",
@@ -10993,6 +10994,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "fVLkakKkOlA",
+      "PiJv3ghXNl4",
+      "EX-PoOfB0YQ",
       "gTGKChEqJ9w",
       "jMROIda66wg",
       "Rp3l0oi36W8",
@@ -11598,6 +11602,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "-EDj2ndWE-c",
       "DY40K0B8Z1E",
       "plOiwtuIaxg",
       "S_SGcnR_00E",
@@ -11712,6 +11717,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "KQmhXgAR32g",
       "TXqnVzD1is0",
       "kM_mhmGkWOA",
       "F9qyOfcTeHU",
@@ -11829,6 +11835,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Telluride",
     "videos": [
+      "xLdIIlCAcIk",
       "cSSvHkUz1mw",
       "A3Ebu5-ipac",
       "S9TplfnLryA"

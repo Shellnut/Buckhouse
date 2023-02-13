@@ -1,4 +1,4 @@
-var lastUpdated = '2/7/2023';
+var lastUpdated = '2/13/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10183,7 +10183,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Aspen and Snowmass Village",
-    "videos": [],
+    "videos": [
+      "LswveD5U3As"
+    ],
     "position": {
       "lat": 39.20893534315861,
       "lng": -106.94920782566479
@@ -10218,7 +10220,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "3p_aWrReNLY"
+    ],
     "position": {
       "lat": 39.18257870600057,
       "lng": -106.85539348840865
@@ -10994,6 +10998,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "K_iWpTdqrVc",
       "fVLkakKkOlA",
       "PiJv3ghXNl4",
       "EX-PoOfB0YQ",
@@ -11602,6 +11607,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "pV5c48_xxgo",
       "-EDj2ndWE-c",
       "DY40K0B8Z1E",
       "plOiwtuIaxg",
@@ -12252,6 +12258,8 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "dR_heeNpYrQ",
+      "k3tbHE8GddA",
       "6vgwAg4bKHM",
       "dhCj_OtcTd0",
       "GOnF4W_ZmP0",

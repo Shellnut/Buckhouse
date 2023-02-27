@@ -1,4 +1,4 @@
-var lastUpdated = '2/13/2023';
+var lastUpdated = '2/26/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9940,6 +9940,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "BJFz-91QSKA",
       "xWbb-JAAl-4",
       "XGmfQ1gJRy4",
       "0pjXv2MB-vY",
@@ -10257,7 +10258,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "zNM295BOowQ"
+    ],
     "position": {
       "lat": 39.17789120452479,
       "lng": -106.82926924858981
@@ -10292,7 +10295,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "IJ8zLOAor9Q"
+    ],
     "position": {
       "lat": 39.20809158014469,
       "lng": -106.86188490966266
@@ -10998,6 +11003,11 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "AA-5patmbro",
+      "d-zwe2io0dk",
+      "tRwQ_qDrDA8",
+      "oXqsDgratKg",
+      "IhkXpDnyPVg",
       "K_iWpTdqrVc",
       "fVLkakKkOlA",
       "PiJv3ghXNl4",
@@ -12050,6 +12060,7 @@ var unitedStatesData = [
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "J_QWw5csLJw",
       "WCbFS6Qfhmg",
       "yy10nZW64nI",
       "s3fHFj5QvdM",
@@ -12456,6 +12467,7 @@ var unitedStatesData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "qS4oMfF4AKw",
       "M47O3g5Ca-s",
       "PWUbEHxumOE",
       "_hLQjR_-7xY",

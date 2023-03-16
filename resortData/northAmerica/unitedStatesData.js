@@ -1,4 +1,4 @@
-var lastUpdated = '3/5/2023';
+var lastUpdated = '3/16/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9940,6 +9940,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "qpw-xlpIxGg",
       "BJFz-91QSKA",
       "xWbb-JAAl-4",
       "XGmfQ1gJRy4",
@@ -11004,6 +11005,11 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "TlryegiRxuQ",
+      "d8SOwS9V3Mo",
+      "MGPSyDoS-Gw",
+      "X9kUiwZOtJo",
+      "ITDirbEYCT8",
       "BbDiaYh4liw",
       "qjqfTf6FoZ8",
       "TQJNO6t5uso",
@@ -11737,6 +11743,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "PM_pVknNxto",
       "KQmhXgAR32g",
       "TXqnVzD1is0",
       "kM_mhmGkWOA",
@@ -11904,6 +11911,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Vail",
     "videos": [
+      "iwYhGCsLBsY",
       "7ZGr7BACcrU",
       "FZKVypyz5js",
       "_d6d1THN_B8",
@@ -12273,6 +12281,8 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "UY4ScNnSY8I",
+      "RN9NAWdmzVc",
       "dR_heeNpYrQ",
       "k3tbHE8GddA",
       "6vgwAg4bKHM",

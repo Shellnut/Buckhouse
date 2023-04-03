@@ -1,4 +1,4 @@
-var lastUpdated = '3/21/2023';
+var lastUpdated = '4/2/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10335,6 +10335,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
+      "0hf-ARZgGN4",
       "e9BtCjjshHk",
       "rK-eucHAegQ",
       "EMBZnbWkm4E",
@@ -10599,6 +10600,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "-naQkmrqzYM",
       "7e_dlc8lb8k",
       "oPQ4O4K9vzA",
       "TH6m3rAPL9A",
@@ -11006,6 +11008,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "-ARQIlgR0VE",
+      "H7hr8tA17Q4",
+      "g1UgdyazvDg",
       "Ah2_yzc4Ph4",
       "SPVTpy-3PBU",
       "TlryegiRxuQ",
@@ -12285,6 +12290,7 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "Ex971DjeOls",
       "laCr0YGDDxk",
       "XQIYDs1oUC8",
       "UY4ScNnSY8I",
@@ -12487,6 +12493,7 @@ var unitedStatesData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "PPa-FKLPAbo",
       "kQ7LsDGCqlQ",
       "qS4oMfF4AKw",
       "M47O3g5Ca-s",

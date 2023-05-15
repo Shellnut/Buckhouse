@@ -1,4 +1,4 @@
-var lastUpdated = '4/25/2023';
+var lastUpdated = '5/14/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9940,6 +9940,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "aZKv30hZ5Is",
       "ePygUrvTXrE",
       "qpw-xlpIxGg",
       "BJFz-91QSKA",
@@ -10603,6 +10604,12 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "TzRVgRF53oU",
+      "KKE53m7hho8",
+      "G8egHsmYP3E",
+      "qdi7nTRvcK4",
+      "QTJzMNpH6e4",
+      "8BwGDXVqoI4",
       "Nl1almfP5Ls",
       "Mmpl0S_BVo4",
       "-naQkmrqzYM",
@@ -11014,6 +11021,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "qQd1I1EJoJw",
       "a6W8tfSsGKE",
       "uDttGZTcOxk",
       "vQtVQZYVEd0",
@@ -12094,6 +12102,7 @@ var unitedStatesData = [
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "MwYdjlOEsZ8",
       "J_QWw5csLJw",
       "WCbFS6Qfhmg",
       "yy10nZW64nI",
@@ -12436,6 +12445,7 @@ var unitedStatesData = [
     "city": "Frisco",
     "officialSkiResort": true,
     "videos": [
+      "fakMsO21k6o",
       "OKw9zlhnrbw",
       "SDIMKBhCGE0",
       "agIeWZPpAZs",

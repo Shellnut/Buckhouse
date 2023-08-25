@@ -12229,7 +12229,7 @@ var unitedStatesData = [
     },
     "officialSkiResort": false,
     "id": "",
-    "website": "https://www.visitcos.com/",
+    "website": "",
     "resortReview": {
       "score": "", // must be a number not a string
       "link": "",
@@ -12570,7 +12570,7 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Kremmling",
-    "officialSkiResort": true,
+    "officialSkiResort": false,
     "id": "14734",
     "website": "https://bluebirdbackcountry.com/",
     "videos": [

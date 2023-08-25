@@ -1,4 +1,4 @@
-var lastUpdated = '1/18/2023';
+var lastUpdated = '8/25/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -8594,7 +8594,9 @@ var unitedStatesData = [
     "state": "South Dakota",
     "region": "Midwest",
     "city": "Sioux Falls",
-    "videos": [],
+    "videos": [
+      "W46VfAecwUo"
+    ],
     "position": {
       "lat": 43.57856157343179,
       "lng": -96.6646327593374
@@ -9938,6 +9940,14 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "KAJHhKT7UZU",
+      "MLN1ySMu6Nw",
+      "ZJqWB3FTLSE",
+      "1eXDhbhYZ4U",
+      "aZKv30hZ5Is",
+      "ePygUrvTXrE",
+      "qpw-xlpIxGg",
+      "BJFz-91QSKA",
       "xWbb-JAAl-4",
       "XGmfQ1gJRy4",
       "0pjXv2MB-vY",
@@ -10181,7 +10191,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Aspen and Snowmass Village",
-    "videos": [],
+    "videos": [
+      "LswveD5U3As"
+    ],
     "position": {
       "lat": 39.20893534315861,
       "lng": -106.94920782566479
@@ -10216,7 +10228,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "3p_aWrReNLY"
+    ],
     "position": {
       "lat": 39.18257870600057,
       "lng": -106.85539348840865
@@ -10251,7 +10265,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "zNM295BOowQ"
+    ],
     "position": {
       "lat": 39.17789120452479,
       "lng": -106.82926924858981
@@ -10286,7 +10302,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "IJ8zLOAor9Q"
+    ],
     "position": {
       "lat": 39.20809158014469,
       "lng": -106.86188490966266
@@ -10322,6 +10340,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
+      "mekU-2NisLE",
+      "0hf-ARZgGN4",
       "e9BtCjjshHk",
       "rK-eucHAegQ",
       "EMBZnbWkm4E",
@@ -10381,6 +10401,11 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "UnOowuPAdX8",
+      "V9NuOgcIiks",
+      "082ZrygU3Lc",
+      "4vvU5l0sUxU",
+      "sPK_3PvbEzc",
       "xeAjCiJ1cP8",
       "xmKYhb-xjzw",
       "G60cwqUh4V8",
@@ -10585,6 +10610,26 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "24T68bqzuBw",
+      "qpccOR4FyJE",
+      "vBOpb8eDwxU",
+      "JMzicjNax_0",
+      "tqtrdBZRpNc",
+      "tqGHhsl5tfY",
+      "H2ls4xImFuY",
+      "mHLwfa6X4OU",
+      "TzRVgRF53oU",
+      "KKE53m7hho8",
+      "G8egHsmYP3E",
+      "qdi7nTRvcK4",
+      "QTJzMNpH6e4",
+      "8BwGDXVqoI4",
+      "Nl1almfP5Ls",
+      "Mmpl0S_BVo4",
+      "-naQkmrqzYM",
+      "7e_dlc8lb8k",
+      "oPQ4O4K9vzA",
+      "TH6m3rAPL9A",
       "ssuRscSyXhA",
       "J_9dtA-DrR8",
       "xK67bg-WmoQ",
@@ -10846,6 +10891,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "aETZy-xmSlY",
       "AJfQhj4Jpp8",
       "qHrzhfP1MPI",
       "bjv3NYY5KBQ",
@@ -10989,6 +11035,38 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "qQd1I1EJoJw",
+      "a6W8tfSsGKE",
+      "uDttGZTcOxk",
+      "vQtVQZYVEd0",
+      "zehEh2Q7-sw",
+      "PWh4tKXEGhc",
+      "wkEWwzI8YoY",
+      "-ARQIlgR0VE",
+      "H7hr8tA17Q4",
+      "g1UgdyazvDg",
+      "Ah2_yzc4Ph4",
+      "SPVTpy-3PBU",
+      "TlryegiRxuQ",
+      "d8SOwS9V3Mo",
+      "MGPSyDoS-Gw",
+      "X9kUiwZOtJo",
+      "ITDirbEYCT8",
+      "BbDiaYh4liw",
+      "qjqfTf6FoZ8",
+      "TQJNO6t5uso",
+      "AA-5patmbro",
+      "d-zwe2io0dk",
+      "tRwQ_qDrDA8",
+      "oXqsDgratKg",
+      "IhkXpDnyPVg",
+      "K_iWpTdqrVc",
+      "fVLkakKkOlA",
+      "PiJv3ghXNl4",
+      "EX-PoOfB0YQ",
+      "gTGKChEqJ9w",
+      "jMROIda66wg",
+      "Rp3l0oi36W8",
       "rho_MuxGrYs",
       "cOdQj35kjJM",
       "ZqOBKE1w6W4",
@@ -11446,6 +11524,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Salida",
     "videos": [
+      "e5Y_Up5nMHo",
       "m8lLIn1Gw64",
       "js0F1p7ERpE",
       "igO5eyDKW2c",
@@ -11591,6 +11670,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "pV5c48_xxgo",
+      "-EDj2ndWE-c",
       "DY40K0B8Z1E",
       "plOiwtuIaxg",
       "S_SGcnR_00E",
@@ -11705,6 +11786,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "3tg-4Rh26KQ",
+      "PM_pVknNxto",
+      "KQmhXgAR32g",
       "TXqnVzD1is0",
       "kM_mhmGkWOA",
       "F9qyOfcTeHU",
@@ -11822,6 +11906,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Telluride",
     "videos": [
+      "xLdIIlCAcIk",
       "cSSvHkUz1mw",
       "A3Ebu5-ipac",
       "S9TplfnLryA"
@@ -11870,6 +11955,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Vail",
     "videos": [
+      "iwYhGCsLBsY",
       "7ZGr7BACcrU",
       "FZKVypyz5js",
       "_d6d1THN_B8",
@@ -12030,6 +12116,8 @@ var unitedStatesData = [
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "MwYdjlOEsZ8",
+      "J_QWw5csLJw",
       "WCbFS6Qfhmg",
       "yy10nZW64nI",
       "s3fHFj5QvdM",
@@ -12141,7 +12229,7 @@ var unitedStatesData = [
     },
     "officialSkiResort": false,
     "id": "",
-    "website": "https://www.visitcos.com/",
+    "website": "",
     "resortReview": {
       "score": "", // must be a number not a string
       "link": "",
@@ -12238,6 +12326,14 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "-GDJy3bjgsk",
+      "Ex971DjeOls",
+      "laCr0YGDDxk",
+      "XQIYDs1oUC8",
+      "UY4ScNnSY8I",
+      "RN9NAWdmzVc",
+      "dR_heeNpYrQ",
+      "k3tbHE8GddA",
       "6vgwAg4bKHM",
       "dhCj_OtcTd0",
       "GOnF4W_ZmP0",
@@ -12363,6 +12459,7 @@ var unitedStatesData = [
     "city": "Frisco",
     "officialSkiResort": true,
     "videos": [
+      "fakMsO21k6o",
       "OKw9zlhnrbw",
       "SDIMKBhCGE0",
       "agIeWZPpAZs",
@@ -12402,6 +12499,7 @@ var unitedStatesData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "0sTfpQm9hVQ",
       "eahz4Mo2zMk"
     ],
     "position": {
@@ -12434,6 +12532,9 @@ var unitedStatesData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "PPa-FKLPAbo",
+      "kQ7LsDGCqlQ",
+      "qS4oMfF4AKw",
       "M47O3g5Ca-s",
       "PWUbEHxumOE",
       "_hLQjR_-7xY",
@@ -12469,10 +12570,12 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Kremmling",
-    "officialSkiResort": true,
+    "officialSkiResort": false,
     "id": "14734",
     "website": "https://bluebirdbackcountry.com/",
-    "videos": [],
+    "videos": [
+      "VVr_K92nyo8"
+    ],
     "position": {
       "lat": 40.41109022966728,
       "lng": -106.55187298302228
@@ -12531,6 +12634,40 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://www.nps.gov/grsa/planyourvisit/images/great-sand-dunes-npp-map.jpg",
+    "country": "United States"
+  },
+  {
+    "resortName": "Monarch Pass",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Salida",
+    "officialSkiResort": false,
+    "id": "",
+    "website": "",
+    "videos": [
+      "3tCyln3LxuA"
+    ],
+    "position": {
+      "lat": 38.49718365365078,
+      "lng": -106.3256659306812
+    },
+    "resortReview": {
+      "score": "", // must be a number not a string
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "",
     "country": "United States"
   },
   {
@@ -15808,6 +15945,9 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Mammoth Lakes",
     "videos": [
+      "E1jKoF2sXOo",
+      "n3aOPmsIUg0",
+      "Ys5QcT4HicQ",
       "RGezaLDdXeg",
       "HgT8_RRJi3c",
       "T2d8ItgTolA",
@@ -16776,6 +16916,23 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "YVdaubPCSgc",
+      "8R0HgrcsC-Y",
+      "zKinwsBlpHw",
+      "6bVqqqMUNk4",
+      "KH0zLgyYYy0",
+      "LUU7HGwO3-4",
+      "-WWaIAbL4ck",
+      "30Y8AlZSaBE",
+      "IdEC7nCIfYE",
+      "bs0_nE7eTEo",
+      "o_h4VOxPn9w",
+      "pw2v3_pfn5Q",
+      "0oEBo1g_tWc",
+      "Fmoe6dcBNeQ",
+      "OJpgco7HZzA",
+      "ZRGSxHfcbKw",
+      "lZrqNu01hno",
       "xh_ld3awWx4",
       "txPsaD1dBPI",
       "TMvaJQ5du_A",

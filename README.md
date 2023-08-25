@@ -1,6 +1,9 @@
 # Buckhouse
 [Johnathan Buckhouse](https://www.youtube.com/c/JohnathanBuckhouse) is trying to snowboard at every North America Ski Resort. This repository will track his progress as he accomplishes this goal.
 
+## Link
+Check out the tracker at [resortskimaps.com](https://resortskimaps.com)
+
 ## Installation
 
 This repository uses static HTML and JavaScript. To run this website locally, clone or download the repo and launch the index.html file in your favorite browser.

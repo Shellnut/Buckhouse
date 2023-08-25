@@ -1,4 +1,4 @@
-var lastUpdated = '6/17/2023';
+var lastUpdated = '8/25/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10402,6 +10402,7 @@ var unitedStatesData = [
     "city": "Breckenridge",
     "videos": [
       "UnOowuPAdX8",
+      "V9NuOgcIiks",
       "082ZrygU3Lc",
       "4vvU5l0sUxU",
       "sPK_3PvbEzc",
@@ -10609,6 +10610,12 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "24T68bqzuBw",
+      "qpccOR4FyJE",
+      "vBOpb8eDwxU",
+      "JMzicjNax_0",
+      "tqtrdBZRpNc",
+      "tqGHhsl5tfY",
       "H2ls4xImFuY",
       "mHLwfa6X4OU",
       "TzRVgRF53oU",
@@ -15938,6 +15945,9 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Mammoth Lakes",
     "videos": [
+      "E1jKoF2sXOo",
+      "n3aOPmsIUg0",
+      "Ys5QcT4HicQ",
       "RGezaLDdXeg",
       "HgT8_RRJi3c",
       "T2d8ItgTolA",
@@ -16906,6 +16916,17 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "YVdaubPCSgc",
+      "8R0HgrcsC-Y",
+      "zKinwsBlpHw",
+      "6bVqqqMUNk4",
+      "KH0zLgyYYy0",
+      "LUU7HGwO3-4",
+      "-WWaIAbL4ck",
+      "30Y8AlZSaBE",
+      "IdEC7nCIfYE",
+      "bs0_nE7eTEo",
+      "o_h4VOxPn9w",
       "pw2v3_pfn5Q",
       "0oEBo1g_tWc",
       "Fmoe6dcBNeQ",

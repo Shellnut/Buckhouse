@@ -125,128 +125,12 @@
       <script src="resortData/southAmerica/chileData.js"></script>
 
       <script>
-         var globalData = canadaData.concat(switzerlandData).concat(austriaData).concat(franceData).concat(japanData).concat(unitedKingdomData).concat(polandData).concat(germanyData).concat(italyData).concat(serbiaData).concat(newZealandData).concat(indiaData).concat(iranData).concat(southAfricaData).concat(australiaData).concat(argentinaData).concat(brazilData).concat(chileData).concat(chinaData).concat(armeniaData).concat(georgiaData).concat(israelData).concat(kazakhstanData).concat(southKoreaData).concat(pakistanData).concat(belgiumData).concat(moroccoData).concat(lesothoData).concat(andorraData).concat(bulgariaData).concat(croatiaData).concat(cyprusData).concat(czechRepublicData).concat(finlandData).concat(norwayData).concat(portugalData).concat(romaniaData).concat(russiaData).concat(slovakiaData).concat(sloveniaData).concat(spainData).concat(swedenData).concat(turkeyData).concat(ukraineData).concat(latviaData).concat(greeceData).concat(icelandData).concat(unitedStatesData).concat(montenegroData).concat(liechtensteinData).concat(hungaryData).concat(kyrgyzstanData).concat(uzbekistanData).concat(kosovoData).concat(azerbaijanData).concat(greenlandData).concat(irelandData).concat(northKoreaData).concat(denmarkData).concat(lithuaniaData).concat(tajikistanData).concat(mongoliaData).concat(netherlandsData).concat(bosniaAndHerzegovinaData);
+         // var globalData = canadaData.concat(switzerlandData).concat(austriaData).concat(franceData).concat(japanData).concat(unitedKingdomData).concat(polandData).concat(germanyData).concat(italyData).concat(serbiaData).concat(newZealandData).concat(indiaData).concat(iranData).concat(southAfricaData).concat(australiaData).concat(argentinaData).concat(brazilData).concat(chileData).concat(chinaData).concat(armeniaData).concat(georgiaData).concat(israelData).concat(kazakhstanData).concat(southKoreaData).concat(pakistanData).concat(belgiumData).concat(moroccoData).concat(lesothoData).concat(andorraData).concat(bulgariaData).concat(croatiaData).concat(cyprusData).concat(czechRepublicData).concat(finlandData).concat(norwayData).concat(portugalData).concat(romaniaData).concat(russiaData).concat(slovakiaData).concat(sloveniaData).concat(spainData).concat(swedenData).concat(turkeyData).concat(ukraineData).concat(latviaData).concat(greeceData).concat(icelandData).concat(unitedStatesData).concat(montenegroData).concat(liechtensteinData).concat(hungaryData).concat(kyrgyzstanData).concat(uzbekistanData).concat(kosovoData).concat(azerbaijanData).concat(greenlandData).concat(irelandData).concat(northKoreaData).concat(denmarkData).concat(lithuaniaData).concat(tajikistanData).concat(mongoliaData).concat(netherlandsData).concat(bosniaAndHerzegovinaData);
       </script>
 
       <!-- CSS -->
-      <style type="text/css">
-         /* Always set the map height explicitly to define the size of the div
-         * element that contains the map. */
-         #mapid { 
-            height: 55%;
-         }
-         .pane {
-            /* display: inline-block; */
-            overflow-y: scroll;
-            max-height: 500px;
-         }
-         tr {
-            cursor: pointer;
-         }
-         table {
-            text-align: left;
-            position: relative;
-         }
-         th {
-            background: #f5f5f5;
-            position: sticky;
-            top: 0;
-         }
-         .video-container {
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 */
-            height: 0;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        .fa-twitter, .fa-twitter-square {
-            color: #00aced
-         }
-         .fa-youtube, .fa-youtube-play, .fa-youtube-square {
-            color: #b44545
-         }
-         .fa-instagram {
-            color: #517fa4;
-         }
-         .icons-right {
-            margin-top: 25px;
-            margin-bottom: 0px;
-         }
-         .disclaimer-count {
-            cursor: pointer;
-         }
-         dt {
-            float: left;
-            clear: left;
-            margin-right: 5px;
-            font-weight: bold;
-         }
-         dd {
-            margin-left: 0px;
-         }
-         .country-dropdown {
-            list-style-type: none;
-         }
-         .country-dropdown input {
-            cursor: pointer;
-         }
-         .navbar {
-            position: static;
-         }
-         .my-dropdown {
-            z-index: 1001;
-         }
-         /* .legend {
-            line-height: 18px;
-            color: #555;
-         } */
-         .legend {
-            font: 10px/12px;
-            background: rgba(255,255,255, 0.9);
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            border-radius: 5px;
-            padding: 6px 8px;
-            width: 180px;
-            line-height: 18px;
-            color: #555;
-        }
-        /* .legend i {
-            width: 16px;
-            height: 16px;
-            float: left;
-            margin-right: 8px;
-            opacity: 0.7;
-        } */
-         .info {
-            background: white;
-            background: rgba(255,255,255,0.8);
-         }
+      <link rel="stylesheet" href="styles/style.css"/>
 
-         /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-         @media screen and (min-width: 601px) {
-            .info {
-               padding: 6px 8px;
-               font: 14px Arial, Helvetica, sans-serif;
-               box-shadow: 0 0 15px rgba(0,0,0,0.2);
-               border-radius: 5px;
-            }
-         }
-
-         /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-         @media screen and (max-width: 600px) {
-            .info {
-               padding: 3px 4px;
-               font: 8px Arial, Helvetica, sans-serif;
-               box-shadow: 0 0 5px rgba(0,0,0,0.2);
-               border-radius: 2px;
-            }
-         }
-      </style>
    </head>
    <body ng-app="myApp" ng-controller="myCtrl">
       <div class="container-fluid">
@@ -270,10 +154,11 @@
                   <li><a href="javascript:void(0);" ng-click="timelineModal({'videoData': videoData, 'unitedStatesData': unitedStatesData})">Travel Progress <i class="fa fa-line-chart"></i></a></li>
                   <!-- Calendar -->
                   <li><a href="javascript:void(0);" ng-click="calendarModal()">Calendar <i class="fa fa-calendar"></i></a></li>
-                  <!-- Toggle Icon -->
+                  <!-- Settings -->
                   <li class="dropdown">
                      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span ng-show="showPasses !== 'all'">({{showPasses}}) </span><span ng-show="showVisited !== 'all'">({{showVisited}}) </span><i class="fa fa-gear"></i><span class="caret"></span></a>
                      <ul class="dropdown-menu my-dropdown">
+                        <!-- Toggle Icon -->
                         <li class="dropdown-header" ng-show="!showGlobal">Toggle Icon</li>
                         <li ng-show="!showGlobal">
                            <a href="javascript:void(0);">
@@ -287,62 +172,42 @@
                               </label>
                            </a>
                         </li>
-                        <li role="separator" class="divider" ng-show="!showGlobal"></li>
-                        <li class="dropdown-header">U.S. Regions</li>
-                        <li>
-                           <a href="javascript:void(0);">
-                                 <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateRegions()" ng-model="showRegions"> Show Regions?</label>
-                           </a>
-                        </li>
-                        <li role="separator" class="divider"></li>
-                        <li class="dropdown-header">Global Resorts</li>
-                        <li>
-                           <a href="javascript:void(0);">
-                              <label class="checkbox-inline"><input type="checkbox" value="" ng-change="updateGlobal()" ng-model="showGlobal"> Show all ski resorts in the world?</label>
-                           </a>
-                        </li>
                         <li role="seperator" class="divider"></li>
                         <li class="dropdown-header">Ski Pass</li>
                         <li>
                             <li>
-                               <a href="javascript:void(0);">
-                                  <input type="radio" name="all" ng-change="updatePasses()" ng-model="showPasses" value="all"> 
-                                  <span>Show All</span>
-                               </a>
-                            </li>
-                            <li>
-                               <a href="javascript:void(0);">
-                                  <input type="radio" name="Epic" ng-change="updatePasses()" ng-model="showPasses" value="Epic">
+                               <a href="#!pass/ikon">
+                                  <input type="radio" name="Epic" ng-model="showPasses" value="Epic">
                                   <span>Epic</span>
                                </a>
                             </li>
                             <li>
-                               <a href="javascript:void(0);">
-                                  <input type="radio" name="Ikon" ng-change="updatePasses()" ng-model="showPasses" value="Ikon">
+                               <a href="#!pass/ikon">
+                                  <input type="radio" name="Ikon" ng-model="showPasses" value="Ikon">
                                   <span>Ikon</span>
                                </a>
                             </li>
                             <li>
-                               <a href="javascript:void(0);">
-                                  <input type="radio" name="Mountain Collective" ng-change="updatePasses()" ng-model="showPasses" value="Mountain Collective">
+                               <a href="#!pass/mountainCollective">
+                                  <input type="radio" name="Mountain Collective" ng-model="showPasses" value="Mountain Collective">
                                   <span>Mountain Collective</span>
                                </a>
                             </li>
                             <li>
-                               <a href="javascript:void(0);">
-                                  <input type="radio" name="Powder Alliance" ng-change="updatePasses()" ng-model="showPasses" value="Powder Alliance">
+                               <a href="#!pass/powderAlliance">
+                                  <input type="radio" name="Powder Alliance" ng-model="showPasses" value="Powder Alliance">
                                   <span>Powder Alliance</span>
                                </a>
                             </li>
                             <li>
-                              <a href="javascript:void(0);">
-                                 <input type="radio" name="Indy" ng-change="updatePasses()" ng-model="showPasses" value="Indy">
+                              <a href="#!pass/indy">
+                                 <input type="radio" name="Indy" ng-model="showPasses" value="Indy">
                                  <span>Indy</span>
                               </a>
                            </li>
                            <li>
-                              <a href="javascript:void(0);">
-                                 <input type="radio" name="No Pass Associated" ng-change="updatePasses()" ng-model="showPasses" value="No Pass Associated">
+                              <a href="#!pass/noPassAssociated">
+                                 <input type="radio" name="No Pass Associated" ng-model="showPasses" value="No Pass Associated">
                                  <span>No Pass Associated</span>
                               </a>
                            </li>
@@ -395,10 +260,20 @@
          <a href="#!red">Red</a>
          <a href="#!green">Green</a>
          <a href="#!blue">Blue</a>
+         <a href="#!country/unitedStates">United States</a>
+         <a href="#!country/canada">Canada</a>
+         <a href="#!country/france">France</a>
+         <a href="#!country/france">France</a>
+         <a href="#!pass/epic">Epic</a>
+         <a href="#!pass/ikon">ikon</a>
+         <a href="#!pass/mountainCollective">Mountain Collective</a>
+         <a href="#!continent/northAmerica">North America</a>
+         <a href="#!continent/southAmerica">South America</a>
+         <a href="#!continent/oceania">Oceania</a>
          
          <div ng-view></div>
        
-         <leaflet defaults="defaults" lf-center="center" legend="legend" paths="paths" markers="markers" width="100%" height="480px"></leaflet>
+         <!-- <leaflet defaults="defaults" lf-center="center" legend="legend" paths="paths" markers="markers" width="100%" height="480px"></leaflet> -->
 
          <!-- THE SEARCH BOX  -->
          <br>
@@ -638,15 +513,38 @@
             .when("/", {
                templateUrl : "views/test.html"
             })
-            .when("/red", {
-               templateUrl : "views/test2.html"
+            .when("/country/unitedStates", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
             })
-            .when("/green", {
-               templateUrl : "views/test.html"
+            .when("/country/canada", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
             })
-            .when("/blue", {
-               templateUrl : "views/test2.html"
-            });
+            .when("/country/france", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
+            })
+            .when("/pass/epic", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
+            })
+            .when("/pass/ikon", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
+            })
+            .when("/pass/mountainCollective", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
+            })
+            .when("/continent/northAmerica", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
+            })
+            .when("/continent/southAmerica", {
+               templateUrl : "views/location.html",
+               controller: 'LocationController'
+            })
       });
 
       // app.config(["$locationProvider", function($locationProvider) {
@@ -674,7 +572,7 @@
       });
       
       // Governing app controller
-      app.controller('myCtrl', ['$scope', '$uibModal', 'leafletData', 'leafletMarkerEvents', function($scope, $uibModal, leafletData, leafletMarkerEvents) {
+      app.controller('myCtrl', ['$scope', '$uibModal', 'leafletData', 'leafletMarkerEvents', '$location', function($scope, $uibModal, leafletData, leafletMarkerEvents, $location) {
 
          // Fullscreen Option
          leafletData.getMap().then(function(map) {
@@ -815,11 +713,6 @@
                   shadowAnchor: [4, 62]
             }
          };
-
-               //   iconSize: [25, 41],
-      //   iconAnchor: [12, 41],
-      //   popupAnchor: [1, -34],
-      //   shadowSize: [41, 41]
 
          angular.extend($scope, {
             icons: local_icons
@@ -982,12 +875,6 @@
             }
          }
 
-         // $scope.legend = {
-         //    position: 'bottomleft',
-         //    colors: [ '#ff0000', '#28c9ff', '#0000ff', '#ecf386' ],
-         //    labels: [ 'Dan Da Man', 'Jeff Abbott', 'Dylan Crawford', 'Rick Kinser', 'Lee Bush', 'Nathan Chabot', 'BigAnt6493', 'Lee Miller' ]
-         // };
-
          $scope.legend = {
             position: 'bottomright',
             colors: [ '#ff0000', '#28c9ff', '#0000ff', '#ecf386', '#ecf386', '#ecf386','#ecf386', '#ecf386', '#ecf386' ],
@@ -1055,6 +942,7 @@
             $scope.visitedCount = unitedStatesData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
             $scope.skiResortCount = unitedStatesData.filter(val => val.officialSkiResort).length; 
          }
+
           $scope.lastUpdated = lastUpdated;
           $scope.orderByField = 'videos.length';
           $scope.reverseSort = true;
@@ -1078,88 +966,29 @@
           }
 
           // Get pass options from localStorage
-          $scope.showPasses = localStorage.getItem('showPasses');
+          var myLocation = $location.$$path.toLowerCase();
 
-          if (showPasses && showPasses !=='all') {
-            if (showPasses === 'No Pass Associated') {
-               $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.officialSkiResort && val.skiPass.length < 1);
+          if (myLocation.includes('/pass/')) {
+            if (myLocation.includes('epic')) {
+               $scope.showPasses = 'Epic';
             }
-            else {
-               $scope.allData = JSON.parse(JSON.stringify(globalData)).filter(val => val.skiPass.includes($scope.showPasses));
+            else if (myLocation.includes('ikon')) {
+               $scope.showPasses = 'Ikon';
+            }
+            else if (myLocation.includes('mountainCollective')) {
+               $scope.showPasses = 'Mountain Collective';
+            }
+            else if (myLocation.includes('indy')) {
+               $scope.showPasses = 'Indy';
+            }
+            else if (myLocation.includes('powderAlliance')) {
+               $scope.showPasses = 'Powder Alliance';
+            }
+            else if (myLocation.includes('noPassAssociated')) {
+               $scope.showPasses = 'No Pass Associated';
             }
           }
-          else {
-            $scope.showPasses = 'all';
-          }
 
-         $scope.updatePasses = function() {
-            if ($scope.showPasses !== 'all') {
-               localStorage.setItem('showGlobal', '');
-            }
-            localStorage.setItem('showVisited', '');
-            localStorage.setItem('showReviewed', '');
-            localStorage.setItem('showPasses', $scope.showPasses);
-            location.reload();
-         }
-
-         // Get pass options from localStorage
-         $scope.showVisited = localStorage.getItem('showVisited');
-
-         if (showVisited && showVisited !=='all') {
-            if (showVisited === 'Visited') {
-               $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.videos.length > 0);
-            }
-            else if (showVisited === 'Not Visited') {
-               $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.videos.length < 1);
-            }
-         }
-         else {
-            $scope.showVisited = 'all';
-         }
-
-          $scope.updateVisited = function() {
-             if ($scope.showVisited !== 'all') {
-               localStorage.setItem('showGlobal', '');
-             }
-             localStorage.setItem('showPasses', '');
-             localStorage.setItem('showReviewed', '');
-             localStorage.setItem('showVisited', $scope.showVisited);
-             location.reload();
-          }
-
-         // Get reviewed options from localStorage
-         $scope.showReviewed = localStorage.getItem('showReviewed');
-
-         if (showReviewed && showReviewed !=='all') {
-            $scope.allData = JSON.parse(JSON.stringify(unitedStatesData)).filter(val => val.resortReview.score);
-         }
-         else {
-            $scope.showReviewed = 'all';
-         }
-
-          $scope.updateReviewed = function() {
-             if ($scope.showReviewed !== 'all') {
-               localStorage.setItem('showGlobal', '');
-             }
-             localStorage.setItem('showPasses', '');
-             localStorage.setItem('showVisited', '');
-             localStorage.setItem('showReviewed', $scope.showReviewed)
-             location.reload();
-          }
-
-         // Get truthy or falsy value from localStorage
-         $scope.showRegions = !!localStorage.getItem('showRegions');
-
-         $scope.updateRegions = function() {
-            if ($scope.showRegions) {
-               localStorage.setItem('showRegions', '1');
-               location.reload(); 
-            }
-            else {
-               localStorage.setItem('showRegions', '');
-               location.reload();
-            }
-         }
 
          // Scroll to change log
          $scope.goToChangeLog = function() {
@@ -1663,14 +1492,14 @@
 
       // var mymap = L.map('mapid').setView(defaultCoordinates, defaultZoom);
 
-      L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-         minZoom: 1,
-         maxZoom: 18,
-         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-         id: 'mapbox/streets-v11',
-         tileSize: 512,
-         zoomOffset: -1
-      }).addTo(mymap);
+      // L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      //    minZoom: 1,
+      //    maxZoom: 18,
+      //    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      //    id: 'mapbox/streets-v11',
+      //    tileSize: 512,
+      //    zoomOffset: -1
+      // }).addTo(mymap);
 
       // // Add fullscreen control
       // mymap.addControl(new L.Control.Fullscreen({
@@ -2069,5 +1898,8 @@
       // }
 
    </script>
+
+   <!-- Controllers -->
+   <script src="controllers/locationController.js"></script>
 
 </html>

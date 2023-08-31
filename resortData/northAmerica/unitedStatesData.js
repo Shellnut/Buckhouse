@@ -1,4 +1,4 @@
-var lastUpdated = '8/25/2023';
+var lastUpdated = '8/31/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -12184,6 +12184,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Idaho Springs",
     "videos": [
+      "51urfEQi_24",
       "dXumj0OC4Ng",
       "mdHYc_QblqU",
       "YNueBnN6L2o",

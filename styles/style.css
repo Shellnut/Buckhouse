@@ -114,3 +114,11 @@ dd {
         border-radius: 2px;
     }
 }
+
+.sub-menu:hover .games-menu {
+    display: block;
+  }
+  
+  .sub-menu2:hover .our-pick-menu {
+    display: block;
+  }

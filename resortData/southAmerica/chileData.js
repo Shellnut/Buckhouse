@@ -82,7 +82,8 @@ var chileData = [
             "note": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ]
     },
     {

@@ -19,7 +19,8 @@ var japanData = [
             "note": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ]
     },
     {
@@ -2164,7 +2165,9 @@ var japanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [
+            "Indy"
+        ]
     },
     {
         "resortName": "Matsurube (まつるべスノーランド)",
@@ -2395,7 +2398,9 @@ var japanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [
+            "Indy"
+        ]
     },
     {
         "resortName": "Chokai Kogen Yashima (鳥海高原矢島スキー場)",
@@ -9770,7 +9775,9 @@ var japanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [
+            "Indy"
+        ]
     },
     {
         "resortName": "Midorinodaichi Romannomori (みどりの大地とロマンの森公園スキー場)",
@@ -10044,5 +10051,51 @@ var japanData = [
             "note": ""
         },
         "skiPass": []
+    },
+    {
+        "resortName": "Geto Kogen Resort (夏油高原スキー場)",
+        "state": "",
+        "region": "Tōhoku - Iwate",
+        "country": "Japan",
+        "city": "",
+        "videos": [],
+        "position": {
+            "lat": 39.24976843156982,
+            "lng": 140.91032483722506
+        },
+        "officialSkiResort": true,
+        "id": "1353",
+        "website": "https://www.getokogen.com/winter/index.html",
+        "resortReview": {
+            "score": "",
+            "link": "",
+            "note": ""
+        },
+        "skiPass": [
+            "Indy"
+        ]
+    },
+    {
+        "resortName": "Okunakayamakogen Ski Area (奥中山高原スキー場)",
+        "state": "",
+        "region": "Tōhoku - Iwate",
+        "country": "Japan",
+        "city": "",
+        "videos": [],
+        "position": {
+            "lat": 40.08763800991804,
+            "lng": 141.17404635278388,
+        },
+        "officialSkiResort": true,
+        "id": "1353",
+        "website": "",
+        "resortReview": {
+            "score": "",
+            "link": "",
+            "note": ""
+        },
+        "skiPass": [
+            "Indy"
+        ]
     }
 ];

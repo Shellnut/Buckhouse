@@ -226,7 +226,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Mountain Collective"
+        ],
         "mapLink": "",
         "webcam": []
     },
@@ -295,7 +297,8 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ],
         "mapLink": "",
         "webcam": []
@@ -629,7 +632,8 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ],
         "mapLink": "",
         "webcam": []
@@ -931,7 +935,10 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Ikon",
+            "Mountain Collective"
+        ],
         "mapLink": "",
         "webcam": []
     },
@@ -964,9 +971,7 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [
-            "Ikon"
-        ],
+        "skiPass": [],
         "mapLink": "",
         "webcam": []
     },
@@ -1033,7 +1038,8 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ],
         "mapLink": "",
         "webcam": []
@@ -1133,9 +1139,7 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [
-            "Ikon"
-        ],
+        "skiPass": [],
         "mapLink": "",
         "webcam": []
     },
@@ -1371,7 +1375,8 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ],
         "mapLink": "",
         "webcam": []
@@ -2795,7 +2800,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Mountain Collective"
+        ],
         "mapLink": "",
         "webcam": []
     },
@@ -3294,7 +3301,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Indy"
+        ],
         "mapLink": "",
         "webcam": []
     },

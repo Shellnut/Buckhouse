@@ -2802,7 +2802,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": ["Ikon"],
     "mapLink": "https://skimap.org/data/1091/3535/1618775196jpg_render.jpg",
     "country": "United States"
   },
@@ -3038,7 +3038,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/203/916/1490407934jpg_render.jpg",
     "country": "United States"
   },
@@ -4415,7 +4417,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/302/3101/1521669222thumb.jpg",
     "country": "United States"
   },
@@ -5303,7 +5307,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/257/2200/1578074974.jpg",
     "country": "United States"
   },
@@ -5667,7 +5673,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/196/2200/1613335514.jpg",
     "country": "United States"
   },
@@ -15117,7 +15125,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": ["Ikon"],
     "mapLink": "https://skimap.org/data/552/3535/1635216753.jpg",
     "country": "United States"
   },
@@ -16249,7 +16257,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": ["Ikon"],
     "mapLink": "https://skimap.org/data/546/3535/1575415901.jpg",
     "country": "United States"
   },
@@ -16281,7 +16289,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": ["Ikon"],
     "mapLink": "https://skimap.org/data/539/2200/1549223778.jpg",
     "country": "United States"
   },
@@ -17654,7 +17662,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": ["Ikon"],
     "mapLink": "https://skimap.org/data/194/3535/1634343484.jpg",
     "country": "United States",
     "webcam": [

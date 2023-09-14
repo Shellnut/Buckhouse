@@ -1699,7 +1699,8 @@ var franceData = [
             "note": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ]
     },
     {

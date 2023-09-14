@@ -422,7 +422,8 @@ var newZealandData = [
             "note": ""
         },
         "skiPass": [
-            "Ikon"
+            "Ikon",
+            "Mountain Collective"
         ]
     },
     {

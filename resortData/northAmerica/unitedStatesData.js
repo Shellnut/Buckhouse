@@ -6286,9 +6286,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/465/4196/1632791749.jpg",
     "country": "United States"
   },
@@ -10889,7 +10887,9 @@ var unitedStatesData = [
       "views": "5",
       "wouldIGoBack": "3"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/1034/2200/1582764404.png",
     "country": "United States"
   },
@@ -11784,7 +11784,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/516/2200/1606486755.jpg",
     "country": "United States"
   },
@@ -12604,9 +12606,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://skimap.org/data/14734/2200/1630950605.png",
     "country": "United States"
   },
@@ -16781,7 +16781,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/274/2200/1597001839.jpg",
     "country": "United States"
   },

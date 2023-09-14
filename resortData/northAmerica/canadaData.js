@@ -499,7 +499,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Indy"
+        ],
         "mapLink": "",
         "webcam": []
     },
@@ -1242,7 +1244,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Indy"
+        ],
         "mapLink": "",
         "webcam": []
     },
@@ -1476,7 +1480,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Indy"
+        ],
         "mapLink": "",
         "webcam": []
     },
@@ -1676,7 +1682,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Indy"
+        ],
         "mapLink": "",
         "webcam": []
     },
@@ -4064,7 +4072,9 @@ var canadaData = [
             "views": "",
             "wouldIGoBack": ""
         },
-        "skiPass": [],
+        "skiPass": [
+            "Indy"
+        ],
         "mapLink": "",
         "webcam": []
     },

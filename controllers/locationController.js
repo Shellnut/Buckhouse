@@ -24,16 +24,20 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 		myCenter = myInfo.center;
 	}
 
+	$scope.visitedCount = myData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
+    $scope.skiResortCount = myData.filter(val => val.officialSkiResort).length;
+    $scope.myTitle = myTitle;
+
 	// Fullscreen Option
 	leafletData.getMap().then(function(map) {
 		map.addControl(new L.Control.Fullscreen());
 	});
 
 	angular.extend($scope, {
-	defaults: {
-		tileLayer: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-		maxZoom: 14,
-	}
+		defaults: {
+			tileLayer: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+			maxZoom: 14,
+		}
 	});
 
 	// Center

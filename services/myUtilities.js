@@ -9,7 +9,7 @@ app.service('myUtilities', function() {
                 lng: 23.613153987859246,
                 zoom: 3
              },
-             title: "Africa"
+             title: "continent of Africa"
         },
         "/continent/asia": {
              data: armeniaData.concat(azerbaijanData).concat(chinaData).concat(georgiaData).concat(indiaData).concat(iranData).concat(israelData).concat(japanData).concat(kazakhstanData).concat(kyrgyzstanData).concat(mongoliaData).concat(montenegroData).concat(northKoreaData).concat(pakistanData).concat(russiaData).concat(southKoreaData).concat(tajikistanData).concat(turkeyData).concat(uzbekistanData),
@@ -18,7 +18,7 @@ app.service('myUtilities', function() {
                 lng: 90.03815171953174,
                 zoom: 2
              },
-             title: "Asia"
+             title: "contienent of Asia"
         },
         "/continent/europe": {
              data: andorraData.concat(austriaData).concat(belgiumData).concat(bosniaAndHerzegovinaData).concat(bulgariaData).concat(croatiaData).concat(cyprusData).concat(czechRepublicData).concat(denmarkData).concat(finlandData).concat(franceData).concat(germanyData).concat(greeceData).concat(hungaryData).concat(icelandData).concat(irelandData).concat(italyData).concat(kosovoData).concat(latviaData).concat(liechtensteinData).concat(lithuaniaData).concat(netherlandsData).concat(norwayData).concat(polandData).concat(portugalData).concat(romaniaData).concat(serbiaData).concat(slovakiaData).concat(sloveniaData).concat(spainData).concat(swedenData).concat(switzerlandData).concat(ukraineData).concat(unitedKingdomData),
@@ -27,7 +27,7 @@ app.service('myUtilities', function() {
                 lng: 16.982817814574176,
                 zoom: 3
              },
-             title: "/continent/europe"
+             title: "contienent of Europe"
         },
         "/continent/northamerica": {
              data: unitedStatesData.concat(canadaData).concat(greenlandData),
@@ -36,7 +36,7 @@ app.service('myUtilities', function() {
                 lng: -106.05312809324181,
                 zoom: 3
              },
-             title: "/continent/northamerica"
+             title: "continent of North America"
         },
         "/continent/oceania": {
              data: australiaData.concat(newZealandData),
@@ -45,7 +45,7 @@ app.service('myUtilities', function() {
                 lng: 147.1036969414915,
                 zoom: 3
              },
-             title: "/continent/oceania"
+             title: "contienent of Oceania"
         },
         "/continent/southamerica": {
              data: argentinaData.concat(brazilData).concat(chileData),
@@ -54,7 +54,7 @@ app.service('myUtilities', function() {
                 lng: -58.33130393815825,
                 zoom: 3
              },
-             title: "/continent/southamerica"
+             title: "continent of South America"
         },
         // COUNTRY - AFRICA
         "/country/lesotho": {
@@ -64,7 +64,7 @@ app.service('myUtilities', function() {
                 lng: 28.19482593030441,
                 zoom: 7
              },
-             title: "/country/lesotho"
+             title: "country of Lesotho"
         },
         "/country/morocco": {
              data: moroccoData,
@@ -73,7 +73,7 @@ app.service('myUtilities', function() {
                 lng: -5.973065861449475,
                 zoom: 7
              },
-             title: "/country/morocco"
+             title: "country of Morocco"
         },
         "/country/southafrica": {
              data: southAfricaData,
@@ -82,7 +82,7 @@ app.service('myUtilities', function() {
                 lng: 25.40182518614506,
                 zoom: 7
              },
-             title: "/country/southafrica"
+             title: "country of South Africa"
         },
         // COUNTRY - ASIA
         "/country/armenia": {
@@ -92,7 +92,7 @@ app.service('myUtilities', function() {
                 lng: 45.038189,
                 zoom: 3
              },
-             title: "/country/armenia"
+             title: "country of Armenia"
         },
         "/country/azerbaijan": {
              data: azerbaijanData,
@@ -101,7 +101,7 @@ app.service('myUtilities', function() {
                 lng: 44.90271008781116,
                 zoom: 7
              },
-             title: "/country/azerbaijan"
+             title: "country of Azerbaijan"
         },
         "/country/china": {
              data: chinaData,
@@ -110,7 +110,7 @@ app.service('myUtilities', function() {
                 lng: 103.0576166563764,
                 zoom: 4
              },
-             title: "/country/china"
+             title: "country of China"
         },
         "/country/georgia": {
              data: georgiaData,
@@ -119,7 +119,7 @@ app.service('myUtilities', function() {
                 lng: 43.06532062933643,
                 zoom: 7
              },
-             title: "/country/georgia"
+             title: "country of Georgia"
         },
         "/country/india": {
              data: indiaData,
@@ -128,7 +128,7 @@ app.service('myUtilities', function() {
                 lng: 78.57279136069386,
                 zoom: 4
              },
-             title: "/country/india"
+             title: "country of India"
         },
         "/country/iran": {
              data: iranData,
@@ -137,7 +137,7 @@ app.service('myUtilities', function() {
                 lng: 50.48347534346263,
                 zoom: 5
              },
-             title: "/country/iran"
+             title: "country of Iran"
         },
         "/country/israel": {
              data: israelData,
@@ -146,7 +146,7 @@ app.service('myUtilities', function() {
                 lng: 35.29797039154392,
                 zoom: 5
              },
-             title: "/country/israel"
+             title: "country of Israel"
         },
         "/country/japan": {
              data: japanData,
@@ -155,7 +155,7 @@ app.service('myUtilities', function() {
                 lng:  140.26131726527188,
                 zoom: 5
              },
-             title: "/country/japan"
+             title: "country of Japan"
         },
         "/country/kazakhstan": {
              data: kazakhstanData,
@@ -164,7 +164,7 @@ app.service('myUtilities', function() {
                 lng: 67.0773315494498,
                 zoom: 5
              },
-             title: "/country/kazakhstan"
+             title: "country of Kazakhstan"
         },
         "/country/kyrgyzstan": {
              data: kyrgyzstanData,
@@ -173,7 +173,7 @@ app.service('myUtilities', function() {
                 lng: 74.766098,
                 zoom: 3
              },
-             title: "/country/kyrgyzstan"
+             title: "country of Kyrgyzstan"
         },
         "/country/mongolia": {
              data: mongoliaData,
@@ -182,7 +182,7 @@ app.service('myUtilities', function() {
                 lng: 103.846656,
                 zoom: 3
              },
-             title: "/country/mongolia"
+             title: "country of Mongolia"
         },
         "/country/montenegro": {
              data: montenegroData,
@@ -191,7 +191,7 @@ app.service('myUtilities', function() {
                 lng: 19.37439,
                 zoom: 3
              },
-             title: "/country/montenegro"
+             title: "country of Montenegro"
         },
         "/country/northKorea": {
              data: northKoreaData,
@@ -200,7 +200,7 @@ app.service('myUtilities', function() {
                 lng: 127.25131482263191,
                 zoom: 3
              },
-             title: "/country/northKorea"
+             title: "country of North Korea"
         },
         "/country/pakistan": {
              data: pakistanData,
@@ -209,7 +209,7 @@ app.service('myUtilities', function() {
                 lng: 69.345116,
                 zoom: 3
              },
-             title: "/country/pakistan"
+             title: "country of pakistan"
         },
         "/country/russia": {
              data: russiaData,
@@ -218,7 +218,7 @@ app.service('myUtilities', function() {
                 lng: 105.318756,
                 zoom: 3
              },
-             title: "/country/russia"
+             title: "country of russia"
         },
         "/country/southKorea": {
              data: southKoreaData,
@@ -227,7 +227,7 @@ app.service('myUtilities', function() {
                 lng: 127.68187847137438,
                 zoom: 3
              },
-             title: "/country/southKorea"
+             title: "country of southKorea"
         },
         "/country/tajikistan": {
              data: tajikistanData,
@@ -236,7 +236,7 @@ app.service('myUtilities', function() {
                 lng: 71.276093,
                 zoom: 3
              },
-             title: "/country/tajikistan"
+             title: "country of tajikistan"
         },
         "/country/turkey": {
              data: turkeyData,
@@ -245,7 +245,7 @@ app.service('myUtilities', function() {
                 lng: 35.243322,
                 zoom: 3
              },
-             title: "/country/turkey"
+             title: "country of turkey"
         },
         "/country/uzbekistan": {
              data: uzbekistanData,
@@ -254,7 +254,7 @@ app.service('myUtilities', function() {
                 lng: 64.585262,
                 zoom: 3
              },
-             title: "/country/uzbekistan"
+             title: "country of uzbekistan"
         },
         // COUNTRY - EUROPE
         "/country/andorra": {
@@ -264,7 +264,7 @@ app.service('myUtilities', function() {
                 lng: 1.601554,
                 zoom: 3
              },
-             title: "/country/andorra"
+             title: "country of andorra"
         },
         "/country/austria": {
              data: austriaData,
@@ -273,7 +273,7 @@ app.service('myUtilities', function() {
                 lng: 14.550072,
                 zoom: 3
              },
-             title: "/country/austria"
+             title: "country of austria"
         },
         "/country/belgium": {
              data: belgiumData,
@@ -282,7 +282,7 @@ app.service('myUtilities', function() {
                 lng: 4.469936,
                 zoom: 3
              },
-             title: "/country/belgium"
+             title: "country of belgium"
         },
         "/country/bosniaandherzego": {
              data: bosniaAndHerzegovinaData,
@@ -291,7 +291,7 @@ app.service('myUtilities', function() {
                 lng: 17.8094089684423,
                 zoom: 3
              },
-             title: "/country/bosniaandherzego"
+             title: "country of Bosnia and Herzego"
         },
         "/country/bulgaria": {
              data: bulgariaData,
@@ -300,7 +300,7 @@ app.service('myUtilities', function() {
                 lng: 25.224008524673646,
                 zoom: 3
              },
-             title: "/country/bulgaria"
+             title: "country of Bulgaria"
         },
         "/country/croatia": {
              data: croatiaData,
@@ -309,7 +309,7 @@ app.service('myUtilities', function() {
                 lng: 15.2,
                 zoom: 3
              },
-             title: "/country/croatia"
+             title: "country of Croatia"
         },
         "/country/cyprus": {
              data: cyprusData,
@@ -318,7 +318,7 @@ app.service('myUtilities', function() {
                 lng: 33.429859,
                 zoom: 3
              },
-             title: "/country/cyprus"
+             title: "country of Cyprus"
         },
         "/country/czechRepublic": {
              data: czechRepublicData,
@@ -327,7 +327,7 @@ app.service('myUtilities', function() {
                 lng:  15.408533061759199,
                 zoom: 3
              },
-             title: "/country/czechRepublic"
+             title: "country of Czech Republic"
         },
         "/country/denmark": {
              data: denmarkData,
@@ -336,7 +336,7 @@ app.service('myUtilities', function() {
                 lng:  9.420924430337822,
                 zoom: 3
              },
-             title: "/country/denmark"
+             title: "country of Denmark"
         },
         "/country/finland": {
              data: finlandData,
@@ -345,7 +345,7 @@ app.service('myUtilities', function() {
                 lng: 25.748151,
                 zoom: 3
              },
-             title: "/country/finland"
+             title: "country of Finland"
         },
         "/country/france": {
              data: franceData,
@@ -354,7 +354,7 @@ app.service('myUtilities', function() {
                 lng: 2.213749,
                 zoom: 6
              },
-             title: "/country/france"
+             title: "country of France"
         },
         "/country/germany": {
              data: germanyData,
@@ -363,7 +363,7 @@ app.service('myUtilities', function() {
                 lng: 10.098825190382339,
                 zoom: 6
              },
-             title: "/country/germany"
+             title: "country of Germany"
         },
         "/country/greece": {
              data: greeceData,
@@ -372,7 +372,7 @@ app.service('myUtilities', function() {
                 lng: 21.824312,
                 zoom: 3
              },
-             title: "/country/greece"
+             title: "country of Greece"
         },
         "/country/hungary": {
              data: hungaryData,
@@ -381,7 +381,7 @@ app.service('myUtilities', function() {
                 lng: 19.503304,
                 zoom: 3
              },
-             title: "/country/hungary"
+             title: "country of Hungary"
         },
         "/country/iceland": {
              data: icelandData,
@@ -390,7 +390,7 @@ app.service('myUtilities', function() {
                 lng: -19.020835,
                 zoom: 3
              },
-             title: "/country/iceland"
+             title: "country of Iceland"
         },
         "/country/ireland": {
              data: irelandData,
@@ -399,7 +399,7 @@ app.service('myUtilities', function() {
                 lng: -8.24389,
                 zoom: 3
              },
-             title: "/country/ireland"
+             title: "country of Ireland"
         },
         "/country/italy": {
              data: italyData,
@@ -408,7 +408,7 @@ app.service('myUtilities', function() {
                 lng: 12.56738,
                 zoom: 3
              },
-             title: "/country/italy"
+             title: "country of Italy"
         },
         "/country/kosovo": {
              data: kosovoData,
@@ -417,7 +417,7 @@ app.service('myUtilities', function() {
                 lng: 20.902977,
                 zoom: 3
              },
-             title: "/country/kosovo"
+             title: "country of Kosovo"
         },
         "/country/latvia": {
              data: latviaData,
@@ -426,7 +426,7 @@ app.service('myUtilities', function() {
                 lng: 24.603189,
                 zoom: 3
              },
-             title: "/country/latvia"
+             title: "country of Latvia"
         },
         "/country/liechtenstein": {
              data: liechtensteinData,
@@ -435,7 +435,7 @@ app.service('myUtilities', function() {
                 lng: 9.555373,
                 zoom: 3
              },
-             title: "/country/liechtenstein"
+             title: "country of Liechtenstein"
         },
         "/country/lithuania": {
              data: lithuaniaData,
@@ -444,7 +444,7 @@ app.service('myUtilities', function() {
                 lng: 23.881275,
                 zoom: 3
              },
-             title: "/country/lithuania"
+             title: "country of Lithuania"
         },
         "/country/netherlands": {
              data: netherlandsData,
@@ -453,7 +453,7 @@ app.service('myUtilities', function() {
                 lng: 5.291266,
                 zoom: 3
              },
-             title: "/country/netherlands"
+             title: "country of Netherlands"
         },
         "/country/norway": {
              data: norwayData,
@@ -462,7 +462,7 @@ app.service('myUtilities', function() {
                 lng: 8.468946,
                 zoom: 3
              },
-             title: "/country/norway"
+             title: "country of Norway"
         },
         "/country/poland": {
              data: polandData,
@@ -471,7 +471,7 @@ app.service('myUtilities', function() {
                 lng: 19.145136,
                 zoom: 3
              },
-             title: "/country/poland"
+             title: "country of Poland"
         },
         "/country/portugal": {
              data: portugalData,
@@ -480,7 +480,7 @@ app.service('myUtilities', function() {
                 lng: -8.224454,
                 zoom: 3
              },
-             title: "/country/portugal"
+             title: "country of Portugal"
         },
         "/country/romania": {
              data: romaniaData,
@@ -489,7 +489,7 @@ app.service('myUtilities', function() {
                 lng: 24.96676,
                 zoom: 3
              },
-             title: "/country/romania"
+             title: "country of Romania"
         },
         "/country/serbia": {
              data: serbiaData,
@@ -498,7 +498,7 @@ app.service('myUtilities', function() {
                 lng: 21.005859,
                 zoom: 3
              },
-             title: "/country/serbia"
+             title: "country of Serbia"
         },
         "/country/slovakia": {
              data: slovakiaData,
@@ -507,7 +507,7 @@ app.service('myUtilities', function() {
                 lng: 19.699024,
                 zoom: 3
              },
-             title: "/country/slovakia"
+             title: "country of Slovakia"
         },
         "/country/slovenia": {
              data: sloveniaData,
@@ -516,7 +516,7 @@ app.service('myUtilities', function() {
                 lng: 14.995463,
                 zoom: 3
              },
-             title: "/country/slovenia"
+             title: "country of Slovenia"
         },
         "/country/spain": {
              data: spainData,
@@ -525,7 +525,7 @@ app.service('myUtilities', function() {
                 lng: -3.74922,
                 zoom: 3
              },
-             title: "/country/spain"
+             title: "country of Spain"
         },
         "/country/sweden": {
              data: swedenData,
@@ -534,7 +534,7 @@ app.service('myUtilities', function() {
                 lng: 18.643501,
                 zoom: 3
              },
-             title: "/country/sweden"
+             title: "country of Sweden"
         },
         "/country/switzerland": {
              data: switzerlandData,
@@ -543,7 +543,7 @@ app.service('myUtilities', function() {
                 lng: 8.227512,
                 zoom: 3
              },
-             title: "/country/switzerland"
+             title: "country of Switzerland"
         },
         "/country/ukraine": {
              data: ukraineData,
@@ -552,7 +552,7 @@ app.service('myUtilities', function() {
                 lng: 31.16558,
                 zoom: 3
              },
-             title: "/country/ukraine"
+             title: "country of Ukraine"
         },
         "/country/unitedkingdom": {
              data: unitedKingdomData,
@@ -561,7 +561,7 @@ app.service('myUtilities', function() {
                 lng: -3.435973,
                 zoom: 3
              },
-             title: "/country/unitedkingdom"
+             title: "country of United Kingdom"
         },
         // COUNTRY - NORTH AMERICA
         "/country/canada": {
@@ -571,7 +571,7 @@ app.service('myUtilities', function() {
                 lng: -106.346771,
                 zoom: 3
              },
-             title: "/country/canada"
+             title: "country of Canada"
         },
         "/country/greenland": {
              data: greenlandData,
@@ -580,7 +580,7 @@ app.service('myUtilities', function() {
                 lng: -42.604303,
                 zoom: 3
              },
-             title: "/country/greenland"
+             title: "country of Greenland"
         },
         "/country/unitedstates": {
              data: unitedStatesData,
@@ -589,7 +589,7 @@ app.service('myUtilities', function() {
                 lng: -95.712891,
                 zoom: 3
              },
-             title: "/country/unitedstates"
+             title: "country of the United States"
         },
          // COUNTRY - OCEANIA
         "/country/australia": {
@@ -599,7 +599,7 @@ app.service('myUtilities', function() {
                 lng: 135.0062277593736,
                 zoom: 3
             },
-            title: "/country/australia" 
+            title: "country of Australia" 
         },
         "/country/newzealand": {
             data: newZealandData,
@@ -608,7 +608,7 @@ app.service('myUtilities', function() {
                 lng: 173.5438749106739,
                 zoom: 3
             },
-            title: "/country/newzealand" 
+            title: "country of New Zealand" 
         },
         // SOUTH AMERICA
         "/country/argentina": {
@@ -618,7 +618,7 @@ app.service('myUtilities', function() {
                 lng: -63.616672,
                 zoom: 3
              },
-             title: "/country/argentina"
+             title: "country of Argentina"
         },
         "/country/brazil": {
              data: brazilData,
@@ -627,7 +627,7 @@ app.service('myUtilities', function() {
                 lng: -51.92528,
                 zoom: 3
              },
-             title: "/country/brazil"
+             title: "country of Brazil"
         },
         "/country/chile": {
              data: chileData,
@@ -636,7 +636,7 @@ app.service('myUtilities', function() {
                 lng: -71.542969,
                 zoom: 3
              },
-             title: "/country/chile"
+             title: "country of Chile"
         },
         // STATUS OF JB
         "/status/reviewed": {
@@ -683,7 +683,7 @@ app.service('myUtilities', function() {
                lng: -106.05312809324181,
                zoom: 3
             },
-             title: "/pass/epic"
+             title: "Epic ski pass"
         },
         "/pass/ikon": {
              data: globalData.filter(val => val.skiPass.includes('Ikon')),
@@ -692,7 +692,7 @@ app.service('myUtilities', function() {
                lng: -106.05312809324181,
                zoom: 3
             },
-             title: "/pass/ikon"
+             title: "Ikon ski pass"
         },
         "/pass/mountaincollective": {
              data: globalData.filter(val => val.skiPass.includes('Mountain Collective')),
@@ -701,7 +701,7 @@ app.service('myUtilities', function() {
                lng: -106.05312809324181,
                zoom: 3
             },
-             title: "/pass/mountaincollective"
+             title: "Mountain Collective ski pass"
         },
         "/pass/indy": {
              data: globalData.filter(val => val.skiPass.includes('Indy')),
@@ -710,7 +710,7 @@ app.service('myUtilities', function() {
                lng: -106.05312809324181,
                zoom: 3
             },
-             title: "/pass/indy"
+             title: "Indy ski pass"
         },
         "/pass/powderalliance": {
              data: globalData.filter(val => val.skiPass.includes('Powder Alliance')),
@@ -719,7 +719,7 @@ app.service('myUtilities', function() {
                lng: -106.05312809324181,
                zoom: 3
             },
-             title: "/pass/powderalliance"
+             title: "Powder Alliance ski pass"
         },
         "/pass/noPassAssociated": {
           data: globalData.filter(val => val.skiPass.length === 0),

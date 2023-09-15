@@ -282,11 +282,11 @@
                         <li ng-show="!showGlobal">
                            <a href="javascript:void(0);">
                               <label class="radio-inline">
-                                 <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="false"> 
+                                 <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="Data.marker" ng-value="false"> 
                                  <img src="img/snowboard_marker/not_visited.png" alt="snowboard marker" width="12" height="20"> 
                               </label>
                               <label class="radio-inline">
-                                 <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="plainMarker" ng-value="true">
+                                 <input type="radio" name="optradio" ng-change="updateMarker()" ng-model="Data.marker" ng-value="true">
                                  <img src="img/plain_marker/not_visited.png" alt="plain marker" width="12" height="20">
                               </label>
                            </a>
@@ -405,6 +405,10 @@
             <hr>
             <h3>Johnathan's Stats</h3>
 
+            <div>
+               Input should also be here: {{Data.FirstName}}<!-- How do I automatically updated it here? -->
+            </div>
+
             <p><b>Every <span ng-show="!showGlobal">U.S.</span><span ng-show="showGlobal">Global</span> Ski Resort Progress</b></p>
             <div class="row">
                   <my-progress-bar title="Overall" progress="{{(visitedCount / skiResortCount)*100}}"></my-progress-bar>
@@ -508,6 +512,7 @@
 
    <!-- Services -->
    <script src="services/myUtilities.js"></script>
+   <script src="services/myFactory.js"></script>
 
    <!-- Controllers -->
    <script src="controllers/mainController.js"></script>

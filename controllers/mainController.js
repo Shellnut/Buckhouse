@@ -1,6 +1,13 @@
 // Governing app controller
-app.controller('myCtrl', function($scope, $uibModal) {
+app.controller('myCtrl', function($scope, $uibModal, myUtilities, Data) {
 
+    $scope.Data = Data;
+
+
+    $scope.updateMarker = function() {
+        console.log('update marker!', $scope.Data.marker);
+        localStorage.setItem('plainMarker', $scope.Data.marker ? 1 : '');
+    }
 
     // Scroll to change log
     $scope.goToChangeLog = function() {

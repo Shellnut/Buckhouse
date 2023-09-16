@@ -1,8 +1,10 @@
-<input type="text" ng-model="Data.FirstName"><!-- Input entered here -->
-<br>Input is : <strong>{{Data.FirstName}}</strong><!-- Successfully updates here -->
+<!-- Invalid path warning -->
+<div class="alert alert-danger" ng-show="myError">
+    <strong>Warning!</strong> {{myError}}. Navigating to path: /country/northAmerica
+</div>
 
+<!-- Leaflet map -->
 <leaflet defaults="defaults" lf-center="center" legend="legend" paths="paths" markers="markers" width="100%" height="480px"></leaflet>
-
 
 <!-- THE SEARCH BOX  -->
 <br>
@@ -94,7 +96,7 @@
                 </a>
             </th>
         </tr>
-        <tr ng-repeat="data in allData | orderBy : orderByField : reverseSort | filter : search" onclick="tableRowClick(this)">
+        <tr ng-repeat="data in allData | orderBy : orderByField : reverseSort | filter : search" ng-click="zoomToCoords(data.position)">
             <td style="max-width:400px;">
                 <i ng-show="data.videos.length>0" class="fa fa-check-square"></i> 
                 <i ng-show="data.videos.length===0" class="fa fa-square"></i>
@@ -126,7 +128,7 @@
                     <a target="_blank" href="https://www.mountaincollective.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
                 </span>
                 <span ng-show="pass==='Powder Alliance'">
-                    <a target="_blank" href="https://www.powederalliance.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                    <a target="_blank" href="https://www.powderalliance.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
                 </span>
                 <span ng-show="pass==='Indy'">
                     <a target="_blank" href="https://www.indyskipass.com/">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>

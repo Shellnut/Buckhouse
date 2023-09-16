@@ -12,7 +12,10 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 
     $scope.Data = Data;
 
+	$scope.myError = '';
+
 	try {
+		$scope.myError = '';
 		var myInfo = myUtilities.urlConfig[myLocation]
 		myData = myInfo.data;
 		myTitle = myInfo.title;
@@ -20,6 +23,7 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 	}
 	catch (err) {
 		console.log('ERROR', err);
+		$scope.myError = 'Unable to find path: ' + myLocation;
 		var myInfo = myUtilities.urlConfig['/country/unitedstates']
 		myData = myInfo.data;
 		myTitle = myInfo.title;
@@ -31,6 +35,10 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
     $scope.myTitle = myTitle;
 
 	$scope.lastUpdated = lastUpdated;
+	$scope.orderByField = 'videos.length';
+	$scope.reverseSort = true;
+
+	$scope.allData = myData;
 
 	// Fullscreen Option
 	leafletData.getMap().then(function(map) {
@@ -150,7 +158,6 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 			enable: leafletMarkerEvents.getAvailableEvents()
 		};
 	
-
 		for (var i=0; i<myData.length; i++) {
 
 			// Generate the video link html
@@ -280,8 +287,6 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 				icon = 'redIcon'; // not yet visited
 				circleColor = 'red';
 			}
-
-			console.log('local_icons[icon]', local_icons[icon])
 	
 			$scope.markers[`resort_${i}`] = {
 				lat: myData[i].position.lat,
@@ -298,7 +303,6 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 
 	$scope.$watch('Data.marker', function(newValue, oldValue) {
 		if (newValue!==oldValue) {
-			console.log(oldValue, newValue);
 			if (newValue) {
 				iconPreference = 'plain_marker';
 			}
@@ -309,6 +313,39 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 		} 
 	 });
 
+	 // Zoom to coords on table click
+	 $scope.zoomToCoords = function(myPosition) {
+		$scope.center = {
+			lat: myPosition.lat,
+			lng: myPosition.lng,
+			zoom: 10
+		};
+	 }
+
+	// Custom sort for table
+	$scope.myOrder = function(field) {
+		console.log('field', field);
+		// Sort the resort review score by excluding the N/A's
+		if (field === 'resortReview.score' && !$scope.reverseSort) {
+			$scope.allData.map(val=> {
+				if (!val.resortReview.score) {
+					val.resortReview.score = 0;
+				}
+				return val;
+			})
+		}
+		// Reset resort review score for proper sorting
+		else {
+			$scope.allData.map(val=> {
+				if (!val.resortReview.score) {
+					val.resortReview.score = '';
+				}
+				return val;
+			})
+		}
+		// Set the order by field for the table
+		$scope.orderByField = field;
+	}
 
 	$scope.legend = {
 		position: 'bottomright',

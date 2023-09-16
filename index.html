@@ -397,7 +397,14 @@
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
          </nav>
+
+         <h4>Custom templates for results</h4>
+         <pre>Model: {{customSelected | json}}</pre>
+         <input type="text" ng-model="customSelected" placeholder="Custom template" uib-typeahead="state as state.text for state in statesWithFlags | filter:{text:$viewValue}" typeahead-template-url="customTemplate.html" class="form-control" typeahead-show-hint="true" typeahead-min-length="0">
+
+         <br><br>
          
+
          <div ng-view></div>
        
          <div>
@@ -520,5 +527,14 @@
    <script src="controllers/modalInstanceController.js"></script>
    <script src="controllers/timelineModalController.js"></script>
    <script src="controllers/webcamModalController.js"></script>
+
+
+   <script type="text/ng-template" id="customTemplate.html">
+      <a>
+          <img ng-src="{{match.model.flag}}" width="16">
+          <span ng-bind-html="match.label | uibTypeaheadHighlight:query"></span>
+      </a>
+    </script>
+   
 
 </html>

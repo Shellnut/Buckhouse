@@ -732,4 +732,357 @@ app.service('myUtilities', function() {
      },
     };
 
+    this.countriesWithFlags = [
+     {
+          "path": "continent/northamerica",
+          "text": "North America",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Location_North_America.svg/220px-Location_North_America.svg.png"
+     },
+     {
+          "path": "/continent/africa",
+          "text": "Africa",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Africa_%28orthographic_projection%29.svg/220px-Africa_%28orthographic_projection%29.svg.png"
+     },
+     {
+          "path": "/continent/asia",
+          "text": "Asia",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Asia_%28orthographic_projection%29.svg/220px-Asia_%28orthographic_projection%29.svg.png"
+     },
+     {
+          "path": "/continent/europe",
+          "text": "Europe",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg/220px-Europe_orthographic_Caucasus_Urals_boundary_%28with_borders%29.svg.png"
+     },
+     {
+          "path": "/continent/oceania",
+          "text": "Oceania",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Oceania_%28centered_orthographic_projection%29.svg/200px-Oceania_%28centered_orthographic_projection%29.svg.png"
+     },
+     {
+          "path": "/continent/southamerica",
+          "text": "South America",
+          "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/South_America_%28orthographic_projection%29.svg/220px-South_America_%28orthographic_projection%29.svg.png"
+     },
+     {
+         "path": "/country/lesotho",
+         "text": "Lesotho",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Lesotho.jpg"
+     },
+     {
+         "path": "/country/morocco",
+         "text": "Morocco",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Morocco.jpg"
+     },
+     {
+         "path": "/country/southafrica",
+         "text": "South Africa",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/South_Africa.jpg"
+     },
+     {
+         "path": "/country/armenia",
+         "text": "Armenia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Armenia.jpg"
+     },
+     {
+         "path": "/country/azerbaijan",
+         "text": "Azerbaijan",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Azerbaijan.jpg"
+     },
+     {
+         "path": "/country/china",
+         "text": "China",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/China.jpg"
+     },
+     {
+         "path": "/country/georgia",
+         "text": "Georgia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Georgia.jpg"
+     },
+     {
+         "path": "/country/india",
+         "text": "India",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/India.jpg"
+     },
+     {
+         "path": "/country/iran",
+         "text": "Iran",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Iran.jpg"
+     },
+     {
+         "path": "/country/israel",
+         "text": "Israel",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Israel.jpg"
+     },
+     {
+         "path": "/country/japan",
+         "text": "Japan",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Japan.jpg"
+     },
+     {
+         "path": "/country/kazakhstan",
+         "text": "Kazakhstan",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Kazakhstan.jpg"
+     },
+     {
+         "path": "/country/kyrgyzstan",
+         "text": "Kyrgyzstan",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Kyrgyzstan.jpg"
+     },
+     {
+         "path": "/country/mongolia",
+         "text": "Mongolia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Mongolia.jpg"
+     },
+     {
+         "path": "/country/montenegro",
+         "text": "Montenegro",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Montenegro.jpg"
+     },
+     {
+         "path": "/country/northKorea",
+         "text": "North Korea",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/North_Korea.jpg"
+     },
+     {
+         "path": "/country/pakistan",
+         "text": "Pakistan",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Pakistan.jpg"
+     },
+     {
+         "path": "/country/russia",
+         "text": "Russia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Russia.jpg"
+     },
+     {
+         "path": "/country/southKorea",
+         "text": "South Korea",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/South_Korea.jpg"
+     },
+     {
+         "path": "/country/tajikistan",
+         "text": "Tajikistan",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Tajikistan.jpg"
+     },
+     {
+         "path": "/country/turkey",
+         "text": "Turkey",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Turkey.jpg"
+     },
+     {
+         "path": "/country/uzbekistan",
+         "text": "Uzbekistan",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Uzbekistan.jpg"
+     },
+     {
+         "path": "/country/andorra",
+         "text": "Andorra",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Andorra.jpg"
+     },
+     {
+         "path": "/country/austria",
+         "text": "Austria",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Austria.jpg"
+     },
+     {
+         "path": "/country/belgium",
+         "text": "Belgium",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Belgium.jpg"
+     },
+     {
+         "path": "/country/bosniaandherzego",
+         "text": "Bosnia and Herzegovina",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Bosnia_and_Herzegovina.jpg"
+     },
+     {
+         "path": "/country/bulgaria",
+         "text": "Bulgaria",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Bulgaria.jpg"
+     },
+     {
+         "path": "/country/croatia",
+         "text": "Croatia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Croatia.jpg"
+     },
+     {
+         "path": "/country/cyprus",
+         "text": "Cyprus",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Cyprus.jpg"
+     },
+     {
+         "path": "/country/czechRepublic",
+         "text": "Czech Republic",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Czech_Republic.jpg"
+     },
+     {
+         "path": "/country/denmark",
+         "text": "Denmark",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Denmark.jpg"
+     },
+     {
+         "path": "/country/finland",
+         "text": "Finland",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Finland.jpg"
+     },
+     {
+         "path": "/country/france",
+         "text": "France",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/France.jpg"
+     },
+     {
+         "path": "/country/germany",
+         "text": "Germany",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Germany.jpg"
+     },
+     {
+         "path": "/country/greece",
+         "text": "Greece",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Greece.jpg"
+     },
+     {
+         "path": "/country/hungary",
+         "text": "Hungary",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Hungary.jpg"
+     },
+     {
+         "path": "/country/iceland",
+         "text": "Iceland",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Iceland.jpg"
+     },
+     {
+         "path": "/country/ireland",
+         "text": "Ireland",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Ireland.jpg"
+     },
+     {
+         "path": "/country/italy",
+         "text": "Italy",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Italy.jpg"
+     },
+     {
+         "path": "/country/kosovo",
+         "text": "Kosovo",
+         "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Kosovo.svg/238px-Flag_of_Kosovo.svg.jpg"
+     },
+     {
+         "path": "/country/latvia",
+         "text": "Latvia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Latvia.jpg"
+     },
+     {
+         "path": "/country/liechtenstein",
+         "text": "Liechtenstein",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Liechtenstein.jpg"
+     },
+     {
+         "path": "/country/lithuania",
+         "text": "Lithuania",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Lithuania.jpg"
+     },
+     {
+         "path": "/country/netherlands",
+         "text": "Netherlands",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Netherlands.jpg"
+     },
+     {
+         "path": "/country/norway",
+         "text": "Norway",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Norway.jpg"
+     },
+     {
+         "path": "/country/poland",
+         "text": "Poland",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Poland.jpg"
+     },
+     {
+         "path": "/country/portugal",
+         "text": "Portugal",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Portugal.jpg"
+     },
+     {
+         "path": "/country/romania",
+         "text": "Romania",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Romania.jpg"
+     },
+     {
+         "path": "/country/serbia",
+         "text": "Serbia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Serbia.jpg"
+     },
+     {
+         "path": "/country/slovakia",
+         "text": "Slovakia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Slovakia.jpg"
+     },
+     {
+         "path": "/country/slovenia",
+         "text": "Slovenia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Slovenia.jpg"
+     },
+     {
+         "path": "/country/spain",
+         "text": "Spain",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Spain.jpg"
+     },
+     {
+         "path": "/country/sweden",
+         "text": "Sweden",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Sweden.jpg"
+     },
+     {
+         "path": "/country/switzerland",
+         "text": "Switzerland",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Switzerland.jpg"
+     },
+     {
+         "path": "/country/ukraine",
+         "text": "Ukraine",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Ukraine.jpg"
+     },
+     {
+         "path": "/country/unitedkingdom",
+         "text": "United Kingdom",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/United_Kingdom.jpg"
+     },
+     {
+         "path": "/country/canada",
+         "text": "Canada",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Canada.jpg"
+     },
+     {
+         "path": "/country/greenland",
+         "text": "Greenland",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Greenland.jpg"
+     },
+     {
+         "path": "/country/unitedstates",
+         "text": "United States",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/United_States.jpg"
+     },
+     {
+         "path": "/country/australia",
+         "text": "Australia",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Australia.jpg"
+     },
+     {
+         "path": "/country/newzealand",
+         "text": "New Zealand",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/New_Zealand.jpg"
+     },
+     {
+         "path": "/country/argentina",
+         "text": "Argentina",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Argentina.jpg"
+     },
+     {
+         "path": "/country/brazil",
+         "text": "Brazil",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Brazil.jpg"
+     },
+     {
+         "path": "/country/chile",
+         "text": "Chile",
+         "flag": "https://www.sciencekids.co.nz/images/pictures/flags120/Chile.jpg"
+     }
+ ];
+
 })

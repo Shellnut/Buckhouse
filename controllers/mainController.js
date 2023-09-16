@@ -38,6 +38,9 @@ app.controller('myCtrl', function($scope, $uibModal, myUtilities, Data) {
         $scope.orderByField = field;
     }
 
+    $scope.selected = undefined;
+    $scope.statesWithFlags = myUtilities.countriesWithFlags;
+
 
     // MODAL!!!!
     $scope.animationsEnabled = true;
@@ -147,7 +150,7 @@ app.controller('myCtrl', function($scope, $uibModal, myUtilities, Data) {
             controller: 'ModalInstanceCtrl',
             resolve: {
                 modalData: function () {
-                return $scope.modalData;
+                    return $scope.modalData;
                 }
             }
         });

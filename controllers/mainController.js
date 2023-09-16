@@ -1,7 +1,10 @@
 // Governing app controller
-app.controller('myCtrl', function($scope, $uibModal, myUtilities, Data) {
+app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Data) {
 
     $scope.Data = Data;
+
+    $scope.visitedCount = unitedStatesData.filter(val => val.officialSkiResort && val.videos.length > 0).length;
+    $scope.skiResortCount = unitedStatesData.filter(val => val.officialSkiResort).length;
 
 
     $scope.updateMarker = function() {
@@ -38,9 +41,14 @@ app.controller('myCtrl', function($scope, $uibModal, myUtilities, Data) {
         $scope.orderByField = field;
     }
 
-    $scope.selected = undefined;
-    $scope.statesWithFlags = myUtilities.countriesWithFlags;
+    $scope.customCountrySelected = '';
+    $scope.countriesWithFlags = myUtilities.countriesWithFlags;
 
+    $scope.$watch('customCountrySelected', function(newValue, oldValue) {
+        if (newValue && newValue.path) {
+            $location.path(newValue.path);
+        }
+    });
 
     // MODAL!!!!
     $scope.animationsEnabled = true;

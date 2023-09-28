@@ -65,6 +65,14 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 	}
 
 
+	// Marker click event. Open Modal
+	$scope.$on("leafletDirectiveMarker.click", function(event, args){
+		var leafEvent = args.leafletEvent;
+		var myResortData = myData.filter(val => val.position.lat === leafEvent.latlng.lat && val.position.lng === leafEvent.latlng.lng)[0];
+		$scope.openModal(myResortData);
+	});
+
+
 	var updateMap = function() {
 
 		var local_icons = {
@@ -159,90 +167,6 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 		};
 	
 		for (var i=0; i<myData.length; i++) {
-
-			// Generate the video link html
-			var videoLinks;
-			if (myData[i].videos.length === 0) {
-				videoLinks = `<p>Johnathan hasn't traveled here yet! Check back soon</p>`;
-			}
-			else if (myData[i].videos.length === 1) {
-				videoLinks = `<p>Here is the only video of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${myData[i].videos[0]}?playlist=${myData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;
-			}
-			else if (myData[i].videos.length > 1) {
-				if (myData[i].videos.length > 200) {
-					videoLinks = `<p>Here are ${myData[i].videos.length} videos (in 2 playlists) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${myData[i].videos[0]}?playlist=${myData[i].videos.slice(0, 200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>` +
-					`<p><iframe src="https://www.youtube-nocookie.com/embed/${myData[i].videos[200]}?playlist=${myData[i].videos.slice(200).join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`
-				}
-				else {
-					videoLinks = `<p>Here are ${myData[i].videos.length} videos (in a playlist) of Johnathan from this location <iframe src="https://www.youtube-nocookie.com/embed/${myData[i].videos[0]}?playlist=${myData[i].videos.join(',')}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>`;              
-				}
-			}
-	
-			// Disclaimer for unofficial ski resorts
-			var officialSkiResortWarning = '';        
-			if (!myData[i].officialSkiResort) {
-				officialSkiResortWarning = '<p><b>Note</b>: this is not an official ski resort</p>';
-			}
-	
-			// Link to the website 
-			var modalTitle = '';
-			if (myData[i].website) {
-				modalTitle = `<h4 id="firstHeading" class="firstHeading"><a href="${myData[i].website}" target="_blank" title="Resort Website">${myData[i].resortName}, ${myData[i].state || myData[i].country || (myData[i].position.lat + ' ' + myData[i].position.lng)}</a></h4>`;
-			}
-			else {
-				modalTitle = `<h4 id="firstHeading" class="firstHeading">${myData[i].resortName}, ${myData[i].state || myData[i].country || (myData[i].position.lat + ' ' + myData[i].position.lng)}</h4>`;
-			}
-	
-			// Link to the score
-			var resortReview = '';
-			if (myData[i].resortReview.score && !myData[i].resortReview.note) {
-				resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${myData[i].resortReview.link}">${myData[i].resortReview.score}/100</a></p>`;
-			}
-			else if (myData[i].resortReview.score && myData[i].resortReview.note) {
-				resortReview = `<p>Johnathan's Resort Review Score: <a target="_blank" href="https://www.youtube.com/watch/${myData[i].resortReview.link}">${myData[i].resortReview.score}/100</a>*<br/><small>*${myData[i].resortReview.note}</small></p>`;
-			}
-	
-			// Link to the ski pass(es)
-			var skiPasses = '';
-			if (myData[i].skiPass.length > 0) {
-				var passes = [
-					{
-						name: 'Epic',
-						link: `<a target="_blank" href="https://www.epicpass.com">Epic</a>`
-					},
-					{
-						name: 'Ikon',
-						link: `<a target="_blank" href="https://www.ikonpass.com">Ikon</a>`
-					},
-					{
-						name: 'Mountain Collective',
-						link: `<a target="_blank" href="https://www.mountaincollective.com">Mountain Collective</a>`
-					},
-					{
-						name: 'Powder Alliance',
-						link: `<a target="_blank" href="https://www.powderalliance.com">Powder Alliance</a>`
-					},
-					{
-						name: 'Indy',
-						link: `<a target="_blank" href="https://www.indyskipass.com/">Indy</a>`
-					}
-				];
-				skiPasses = `<p>${(myData[i].skiPass.length>1) ? 'Ski Passes:' : 'Ski Pass:'} ${passes.filter(val => myData[i].skiPass.includes(val.name)).map(val => val.link).join(', ')}`;
-			}
-	
-			// HTML popup content
-			var popupContent = '<div id="content">' +
-								'<div id="siteNotice">' +
-								'</div>' +
-								modalTitle +
-								'<div id="bodyContent">' +
-								resortReview +
-								skiPasses +
-								officialSkiResortWarning +
-								videoLinks +
-								'</div>' +
-								'</div>';
-	
 	
 			// Assign the icon color (visited or not)   
 			var icon;
@@ -293,7 +217,6 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 				lng: myData[i].position.lng,
 				icon: local_icons[icon],
 				focus: false,
-				message: popupContent,
 				draggable: false
 			}
 		}

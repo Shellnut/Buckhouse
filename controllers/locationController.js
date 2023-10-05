@@ -69,7 +69,7 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 	$scope.$on("leafletDirectiveMarker.click", function(event, args){
 		var leafEvent = args.leafletEvent;
 		var myResortData = myData.filter(val => val.position.lat === leafEvent.latlng.lat && val.position.lng === leafEvent.latlng.lng)[0];
-		$scope.openModal(myResortData);
+		$scope.openModal(myResortData, 'videos');
 	});
 
 

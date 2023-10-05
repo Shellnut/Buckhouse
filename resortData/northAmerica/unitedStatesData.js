@@ -10565,7 +10565,7 @@ var unitedStatesData = [
     "skiPass": [
       "Epic"
     ],
-    "mapLink": "https://skimap.org/data/510/4111/1629214360jpg_render.jpg",
+    "mapLink": "https://files.skimap.org/nz3hnm3cgbdiyxa1qwp7tgs1mt7d",
     "webcam": [
       {
         "title": "Mountain Cam",
@@ -11424,7 +11424,7 @@ var unitedStatesData = [
     "officialSkiResort": true,
     "id": "519",
     "website": "http://www.keystone.snow.com",
-    "mapLink": "https://skimap.org/data/519/2200/1632084626jpg_render.jpg",
+    "mapLink": "https://files.skimap.org/jahxw22y04s0ntkyjje6dpmn482c.jpg",
     "resortReview": {
       "score": 69,
       "link": "28gC3Ea-imo",
@@ -16011,7 +16011,7 @@ var unitedStatesData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://skimap.org/data/530/3535/1635217586jpg_render.jpg",
+    "mapLink": "https://files.skimap.org/yt4nfo95v68nrvr4nx1rdptpph9q",
     "country": "United States"
   },
   {

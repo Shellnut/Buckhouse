@@ -52,9 +52,12 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
 
     // MODAL!!!!
     $scope.animationsEnabled = true;
-    $scope.openModal = function(modalData) {
+    $scope.openModal = function(modalData, modalType) {
+
+        console.log('modalType', modalType);
 
         $scope.modalData = modalData;
+        $scope.modalType = modalType;
 
         var modalInstance = $uibModal.open({
             animation: $scope.animationsEnabled,
@@ -63,6 +66,9 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
             resolve: {
                 modalData: function () {
                     return $scope.modalData;
+                },
+                modalType: function () {
+                    return $scope.modalType;
                 }
             }
         });

@@ -1,7 +1,16 @@
 // Modal controller      
-app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, modalData) {
+app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, modalData, modalType) {
 
     $scope.modalData = modalData;
+    $scope.totalItems = modalData.videos.length;
+    $scope.currentPage = 0;
+
+    if (modalType === 'videos') {
+        $scope.active = 0;
+    }
+    else if (modalType === 'resortReview') {
+        $scope.active = 1;
+    }
 
     // Changing starts out of 5 because out of 10 is too cluttered. Can't divide by 2 in mg-model. 
     $scope.price = modalData.resortReview.price/2;
@@ -20,8 +29,9 @@ app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, 
     // Get data from skimap API
     $http({
         method: 'GET',
-        url: `https://skimap.org/SkiAreas/view/${modalData.id}.json`,
+        url: `https://api.openskimap.org/features/${modalData.geoId}.geojson`,
     }).then(function success(response) {
+        console.log('response is', response);
         $scope.modalResortData = response;
     }, function error(response) {
         // this function will be called when the request returned error status

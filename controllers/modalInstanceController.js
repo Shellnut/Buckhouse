@@ -3,13 +3,16 @@ app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, 
 
     $scope.modalData = modalData;
     $scope.totalItems = modalData.videos.length;
-    $scope.currentPage = 0;
+    $scope.currentPage = 1;
 
     if (modalType === 'videos') {
         $scope.active = 0;
     }
     else if (modalType === 'resortReview') {
         $scope.active = 1;
+    }
+    else if (modalType === 'map') {
+        $scope.active = 2;
     }
 
     // Changing starts out of 5 because out of 10 is too cluttered. Can't divide by 2 in mg-model. 

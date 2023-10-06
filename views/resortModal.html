@@ -12,18 +12,15 @@
 </div>
 <div class="modal-body">
 
- 
-
-
     <uib-tabset active="active">
         <uib-tab index="0" heading="Videos">
             
             <h4>Johnathan's Videos</h4>
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" ng-src="{{'https://www.youtube.com/watch?v=' + modalData.videos[currentPage] | trusted}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" ng-src="{{'https://www.youtube.com/watch?v=' + modalData.videos[currentPage-1] | trusted}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <ul ng-show="modalData.videos.length > 1" uib-pager total-items="totalItems" ng-model="currentPage"></ul>
+            <ul ng-show="modalData.videos.length > 1" uib-pager total-items="totalItems" ng-model="currentPage" items-per-page="1"></ul>
 
             <p ng-show="modalData.videos.length === 0">Johnathan has not traveled to this ski resort yet. Check back soon!</p>
             <p ng-show="modalData.videos.length === 1">Johnathan has one video at this location!</p>
@@ -84,6 +81,20 @@
                 <h4>Johnathan's Resort Review</h4>
                 <p>Johnathan has not reviewed this ski resort yet. Check back soon!</p>
             </div>
+        </uib-tab>
+        <uib-tab index="2" heading="Map">
+            
+            <h4>Ski Resort Map</h4>
+
+            <p ng-show="!modalData.mapLink">No map of this location found. Check back soon!</p>
+
+            <div ng-show="modalData.mapLink">
+                <a ng-href="modalData.mapLink"><img ng-src="{{modalData.mapLink}}" width="100%"></a>
+                <hr>
+                <p><i>Map credit goes to skimap.org</i></p>
+                <p>Click <a ng-href="{{'https://skimap.org/SkiAreas/view/' + modalData.id | trusted}}">here</a> for more map infomarion</p>
+            </div>
+
         </uib-tab>
     </uib-tabset>
 

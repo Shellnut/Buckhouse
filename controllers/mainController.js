@@ -246,46 +246,6 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
         });
     }
 
-    $scope.mapModal = function(modalData) {
-
-        $scope.modalData = modalData;
-
-        var mapModal = $uibModal.open({
-                animation: $scope.animationsEnabled,
-                template: `<div class="modal-header">
-                            <h3 class="modal-title">
-                                <div class="row">
-                                    <div class="col-xs-11">
-                                        <span><i class="fa fa-map-o" aria-hidden="true"></i> ${modalData.resortName} Map</span>
-                                    </div>
-                                    <div class="col-xs-1">
-                                        <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
-                                    </div>
-                                </div>
-                            </h3>
-                            </div>
-                            <div class="modal-body">
-                            <a href="${modalData.mapLink}"><img src="${modalData.mapLink}" width="100%"></a>
-                            <hr>
-                            <p><i>Map credit goes to skimap.org</i></p>
-                            <p>Click <a href="https://skimap.org/SkiAreas/view/${modalData.id}">here</a> for more map infomarion</p>
-                            </div>
-                            <div class="modal-footer">
-                            <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>
-                            </div>`,
-                controller: 'MapModal',
-                resolve: {
-                modalData: function () {
-                return $scope.modalData;
-                }
-            }
-            });
-            mapModal.result.then(function() {
-                // console.log('done!');
-            }, function () {
-        });
-    }
-
     $scope.webcamModal = function(modalData) {
 
         var webcamModal = $uibModal.open({

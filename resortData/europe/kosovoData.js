@@ -18,6 +18,7 @@ var kosovoData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fcl9a0ztrxuhel37kx9ye76ualu3"
     }
-]
+];

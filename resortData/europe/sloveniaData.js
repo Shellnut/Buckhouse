@@ -18,7 +18,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nwj36i39k97c4guglrat3eqatzj7"
     },
     {
         "resortName": "Golte",
@@ -39,7 +40,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eu8gvwew5yaloc297v7ptorw8bb3"
     },
     {
         "resortName": "Kranjska Gora",
@@ -60,7 +62,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zdov9fit8n6dd3szez9i0iouat9z"
     },
     {
         "resortName": "Krvavec",
@@ -81,7 +84,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gnrsoli5vv8begu0m65mepnv8lx3"
     },
     {
         "resortName": "Mariborsko Pohorje",
@@ -102,7 +106,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ntvt9s6wu8njazpb5d1i51p1bszb"
     },
     {
         "resortName": "Rogla",
@@ -123,7 +128,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/87oc2ki0qebeajv0ke3d1kjp5iuc"
     },
     {
         "resortName": "Velika planina",
@@ -144,7 +150,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/lqz10e3i1b4kw2u0h2yoejql4j60"
     },
     {
         "resortName": "Vogel",
@@ -165,7 +172,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/3s5zc1wrulr8zg12mwl4x82ix7fo"
     },
     {
         "resortName": "Soriška Planina",
@@ -186,7 +194,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/w41foc890p541k4lsy42eoegqb2e"
     },
     {
         "resortName": "Stari Vrh",
@@ -207,7 +216,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/umr4mzynjuwragw8bgbhnd4ypmnk"
     },
     {
         "resortName": "Gače",
@@ -228,7 +238,8 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8dfxgtgjmbi1cmkhpslds9c19pl5"
     },
     {
         "resortName": "Bled (Ski Straza)",
@@ -249,6 +260,7 @@ var sloveniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pmru7h2q45lce02c1evzi2tymoxp"
     }
 ];

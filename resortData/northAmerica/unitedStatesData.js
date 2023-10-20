@@ -9720,19 +9720,19 @@ var unitedStatesData = [
     "id": "158",
     "website": "https://whitecapresort.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 39,
+      "link": "VgI9d8rQlvw",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "4",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "0",
+      "food": "7",
+      "employees": "6",
+      "views": "2",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/3g7aaofah0v92jvuh7il53sx3qy2",
@@ -12339,6 +12339,7 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "7uBjLhl-Z7Q",
       "-GDJy3bjgsk",
       "Ex971DjeOls",
       "laCr0YGDDxk",
@@ -12431,12 +12432,13 @@ var unitedStatesData = [
     "country": "United States"
   },
   {    
-    "resortName": "Ruby Hill",
+    "resortName": "Ruby Hill / Denver",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Denver",
     "officialSkiResort": false,
     "videos": [
+      "iu1VKlJ7vgo",
       "vQs0pbVZ9HQ",
       "N2nfy1WeH9c"
     ],

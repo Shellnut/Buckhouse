@@ -18,7 +18,8 @@ var latviaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/g1bb593f78yoxl8ukrda32qrreg0"
     },
     {
         "resortName": "Baili",
@@ -39,7 +40,8 @@ var latviaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/g0ey93avovm00upm6e7rpvb4jjda"
     },
     {
         "resortName": "Mezezers",
@@ -60,7 +62,8 @@ var latviaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/adrxke5jiz9u354s6mfs18bck0se"
     },
     {
         "resortName": "Kamparkalns",
@@ -81,7 +84,8 @@ var latviaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/yc085c1z7vplf7rc6rs7ah5jed0j"
     },
     {
         "resortName": "Riekstukalns",
@@ -102,7 +106,8 @@ var latviaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rrsr207cq8n96m9aoapegk0zegwr"
     },
     {
         "resortName": "Reina Trase",
@@ -123,7 +128,8 @@ var latviaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jc2w26olu77pv865nxrqrlofvcsq"
     },
     {
         "resortName": "Siguldas Trase",
@@ -144,6 +150,7 @@ var latviaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/o1xbopgfmurqan9j4thxgbn66827"
     }
 ];

@@ -18,7 +18,8 @@ var kyrgyzstanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/912bv82czhs2fbfzonhknnufhwel"
     },
     {
         "resortName": "Kashka-Suu (Кашка-Суу)",
@@ -39,7 +40,8 @@ var kyrgyzstanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jkotb38iffn8xrd551vhx21zuqwt"
     },
     {
         "resortName": "Too Ashuu",
@@ -60,7 +62,8 @@ var kyrgyzstanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dxcpf1olgjhns361blrjuoubkntt"
     },
     {
         "resortName": "Chunkurchak",
@@ -81,7 +84,8 @@ var kyrgyzstanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7nldx1x02op9y58q4p4xtkrczuld"
     },
     {
         "resortName": "Ak-Tash / Oruu Sai",

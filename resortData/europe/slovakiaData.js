@@ -18,7 +18,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fhpy8y8v46pjxhhxykuv0wqwanv6"
     },
     {
         "resortName": "Jasná",
@@ -39,7 +40,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/lflxoa6w03olkdfkye8k754m26pa"
     },
     {
         "resortName": "Starý Smokovec",
@@ -60,7 +62,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/c6kukvpb6szw37ba6s51y3rnrzrj"
     },
     {
         "resortName": "Štrbské Pleso",
@@ -81,7 +84,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wgnodqcxdln8n44fen81ii6dfyvd"
     },
     {
         "resortName": "Tatranská Lomnica",
@@ -102,7 +106,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/c6kukvpb6szw37ba6s51y3rnrzrj"
     },
     {
         "resortName": "Čičmany",
@@ -123,7 +128,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/526jqx3ve3sd9ir72zrl0nsplxo1"
     },
     {
         "resortName": "Robi",
@@ -144,7 +150,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6skdlhtsoghpxzl9ivxqo8zlhzzz"
     },
     {
         "resortName": "Fačkovské sedlo Skiarena",
@@ -165,7 +172,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ub4yqhsitkexxfcewncv42ze6m46"
     },
     {
         "resortName": "Ski Králiky",
@@ -186,7 +194,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/f42ulv13y78jxbncdp649ax2wxzp"
     },
     {
         "resortName": "Malinô Brdo ski park - Ružomberok",
@@ -207,7 +216,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/z10rqkn28m9l9vgtcpik70ek0oc1"
     },
     {
         "resortName": "Johodna",
@@ -228,7 +238,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/682v8gcy8bht0o4261w1n3nlanjk"
     },
     {
         "resortName": "Ski Telgárt",
@@ -249,7 +260,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sygkzpfpd05qztz2ng6hh4oedao2"
     },
     {
         "resortName": "Skipark Vyšné Ružbachy",
@@ -270,7 +282,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6ieecyq34jgy8sxkvlzuhhpmg0b7"
     },
     {
         "resortName": "Kavečany",
@@ -291,7 +304,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ki30y3gquet6wqnmkr18gkxpj0mj"
     },
     {
         "resortName": "Roháče - Spálená",
@@ -312,7 +326,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ksvezu6h1spp490mghxqgv08fw8n"
     },
     {
         "resortName": "Levočská Dolina",
@@ -333,7 +348,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/d9g88tr8lfmojptssqp1pgprrkms"
     },
     {
         "resortName": "Skicomp Fakľovka",
@@ -354,7 +370,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gcp0d6vtymlskc3axrox68tut4lt"
     },
     {
         "resortName": "Oravice",
@@ -375,7 +392,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/46fqbblcpxp36b8lki6dyn828xep"
     },
     {
         "resortName": "Pezinská Baba",
@@ -396,7 +414,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/t9u97lv2sn62wcl5yb512l3toe6e"
     },
     {
         "resortName": "Šachtičky",
@@ -417,7 +436,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/capikj5g7y4h1wnte6yanyi8lmav"
     },
     {
         "resortName": "Skalka",
@@ -438,7 +458,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2gyqmhtxm2kjhzdzk6vfkfsivezj"
     },
     {
         "resortName": "Liptovská Teplička",
@@ -459,7 +480,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/slnv0ijg6q26hml0bjm248c5c0p5"
     },
     {
         "resortName": "Opalisko Závažná Poruba",
@@ -480,7 +502,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/53f2xmz405apaoz8bhtqn565plfd"
     },
     {
         "resortName": "Tále",
@@ -501,7 +524,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zcdc1igksxavr2zq8oy6ln64ws0w"
     },
     {
         "resortName": "Mýto pod Ďumbierom",
@@ -522,7 +546,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vpo03eqk4gkb1rvn6sjh04slyx7t"
     },
     {
         "resortName": "Bezovec",
@@ -543,7 +568,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rvveaf54vcirgzpyec4q96nppaxt"
     },
     {
         "resortName": "Kalnica",
@@ -564,7 +590,8 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rvh5nu6ba3ht5oxnes8sfaqkn9bg"
     },
     {
         "resortName": "Kl'acno",
@@ -585,6 +612,7 @@ var slovakiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fsbgmxkzghxr87l21qpnew5jgufx"
     }
 ];

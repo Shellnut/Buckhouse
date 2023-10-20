@@ -18,7 +18,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/m212f8jucx5pmfzsaz02442324dt"
     },
     {
         "resortName": "Beidahu, Jilin",
@@ -39,7 +40,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ptmjcw7on2irfsxucyqz24tyuy1d"
     },
     {
         "resortName": "Lake Songhua",
@@ -60,7 +62,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/tm92j6g86rvdi1774p45dr5b82pq"
     },
     {
         "resortName": "Nanshan",
@@ -81,7 +84,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qzb3q1iapr3m75ms5ykz215q2nwd"
     },
     {
         "resortName": "Wanlong",
@@ -102,7 +106,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gifjvih3u2vcysobxbiky6uapkhz"
     },
     {
         "resortName": "Xiling Snow-capped Mountain",
@@ -123,7 +128,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/trdygu71xmghikskzlsftj7sfwd3"
     },
     {
         "resortName": "Jade Dragon Mountain",
@@ -165,7 +171,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nvkwlq4d4jl4jpiwipx1dkcg0o01"
     },
     {
         "resortName": "Huaibei International Ski Resort in Beijing",
@@ -186,7 +193,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1k06bsa04ifdwnn4i4c3ggokq2yk"
     },
     {
         "resortName": "Gongchangling Springs ski resort",
@@ -207,7 +215,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0k4rv8ohg62964zmiu2kb54rnf0d"
     },
     {
         "resortName": "Saibei Duolemeidi (Dolomiti Mountain Resort)",
@@ -228,7 +237,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gvav0lrg2h11kuiruqm4z08rr9ow"
     },
     {
         "resortName": "Jizhou",
@@ -249,7 +259,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/d0gbkm33t4tam2a9k7bspufyd2uo"
     },
     {
         "resortName": "Thaiwoo",
@@ -270,7 +281,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0fxk2hi0gku1skqke4iah1kjy06y"
     },
     {
         "resortName": "Chang Cheng Ling",
@@ -291,7 +303,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2ve5bdywdaxsj0fjzo7367h366r1"
     },
     {
         "resortName": "Linshan Ski Resort",
@@ -312,7 +325,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1qnlvvrovdxcnqgv99vkivma0j16"
     },
     {
         "resortName": "Linhai Ski Resort",
@@ -354,7 +368,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jpc8ix540zyurokv0a6cye48s2jq"
     },
     {
         "resortName": "Anbo Ski Resort",
@@ -375,7 +390,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/w2usoss5qnb1vmsf8ccqmj8bon96"
     },
     {
         "resortName": "Minghu Lake Hotspring",
@@ -417,7 +433,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/basy13a46sevnjakw1bflv41bi5i"
     },
     {
         "resortName": "Changbai Mountain Natural Ski Park",
@@ -438,7 +455,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wqnlezg3n3fu6325gmxyxouulw44"
     },
     {
         "resortName": "Jihua",
@@ -459,7 +477,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/aztsgs6mfwk6p1w62f67tjjmmi09"
     },
     {
         "resortName": "Longzhu Erlongshan",
@@ -480,7 +499,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/f15hf075z1y1liyzlo80gitledz7"
     },
     {
         "resortName": "Silk Road",
@@ -501,7 +521,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/g8p2losdsoj5io6e8t31k4dtpxdz"
     },
     {
         "resortName": "Yunding",
@@ -543,7 +564,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/x3wjg77ypn837oufz06puzpyukzg"
     },
     {
         "resortName": "XueLianShan",
@@ -585,7 +607,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5mfjnmqbe3yzsd9qvcxbp82qvkmg"
     },
     {
         "resortName": "Badaling",
@@ -606,7 +629,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4kmdc3mcipud2i1bu2ty27uak0vr"
     },
     {
         "resortName": "BaiQingZhai Ski Field",
@@ -627,7 +651,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/np1eyu3hwgbdyagn17tv6rrwgnow"
     },
     {
         "resortName": "Zangma Mountain ",
@@ -690,7 +715,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4xpm581x1tdbpngj3aira4pajx9o"
     },
     {
         "resortName": "Funiushan Resort",
@@ -711,7 +737,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ulx13lz0o6f9rfwqf6ficbg39smo"
     },
     {
         "resortName": "Bailuyuan ",
@@ -816,7 +843,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/f22etmn48m1g0ekqj2ecqofq6w5d"
     },
     {
         "resortName": "Beijing Yuyang Resort",
@@ -837,7 +865,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/t6sux7zs8m7i1xe6jhzae6hmyv59"
     },
     {
         "resortName": "Northeast Asia Ski Center",
@@ -963,7 +992,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pfjg5itodubdf6onjqimw305ohbm"
     },
     {
         "resortName": "Yunju Fangshan",
@@ -984,7 +1014,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/031vp1vrijinloomgw8wm5qfevck"
     },
     {
         "resortName": "Shangri-la",
@@ -1047,7 +1078,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5fcz23g4wkvvu7yw2ywk7ebt8u94"
     },
     {
         "resortName": "Wanda Harbin (Indoor) ",
@@ -1068,7 +1100,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/kwgjsheop9qt0u6ef855qukq3jld"
     },
     {
         "resortName": "Jinlongshan",
@@ -1131,7 +1164,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qd1gp7skgs6jyp6iuks3p5zfh17d"
     },
     {
         "resortName": "Shennongjia",
@@ -1173,7 +1207,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2lcathvio0dukwzhmjv9p27eqt6s"
     },
     {
         "resortName": "Jundushan",
@@ -1194,7 +1229,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/auu74eonbe8xbsaf8ba7kwiy0mpg"
     },
     {
         "resortName": "Yulongwan",
@@ -1215,7 +1251,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qpodkfpqk88ks511c2ddb0iezdw7"
     },
     {
         "resortName": "Pingshan",
@@ -1236,7 +1273,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/aavc90ftupkzstdm7eaekiiom2o2"
     },
     {
         "resortName": "Fulong",
@@ -1257,7 +1295,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/t366vne0i8mdpew2aohubgvwclwy"
     },
     {
         "resortName": "Mingyuedao",
@@ -1299,7 +1338,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jqkbpu1yyz0gxm5wnfbjne0gv2h6"
     },
     {
         "resortName": "Dayongshan (Indoor)",
@@ -1404,7 +1444,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/q9vnl6pxr57l8n64bfnrv1td4w1a"
     },
     {
         "resortName": "Yunmen Mountain",
@@ -1425,7 +1466,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vzcximho3rott8e51kerbj4ijbxe"
     },
     {
         "resortName": "Miaoxiang Mountain resort",
@@ -1509,7 +1551,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/iezewcpq589vggzd2132iqa3qhkp"
     },
     {
         "resortName": "Youyu Nanshan",
@@ -1614,7 +1657,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nuku346xwkowz7dk5z2e3sq8tqhw"
     },
     {
         "resortName": "Nanzhao Yuanren Mountain",
@@ -1677,7 +1721,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/reayps53gagqclumpft9ejpxwguk"
     },
     {
         "resortName": "Mylin Valley",
@@ -1698,7 +1743,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7wb3g6oaaot7apeaq2zba7wmn7fz"
     },
     {
         "resortName": "Guaipo Ski Field",
@@ -1719,7 +1765,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xtj92sl9n2o00vflk7u3lrx0ctdc"
     },
     {
         "resortName": "Qipan Shan",
@@ -1740,7 +1787,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eblkqxbk19u676ye6l6zoh4lc3zj"
     },
     {
         "resortName": "Jinhui Pekin",
@@ -1782,7 +1830,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/tky05sxkqwc1t8nelzpn8tn31zr7"
     },
     {
         "resortName": "Blue Sky Resort",
@@ -1824,7 +1873,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1e5mvgvy5jedf8dacwxekdj7acyk"
     },
     {
         "resortName": "Yuanbaoshan",
@@ -2475,7 +2525,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7g8fsaz2g42x2cfduvtk73bgww9d"
     },
     {
         "resortName": "Laojieling",
@@ -3294,7 +3345,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/33ejju6x0khjb3o6qhy43enarcg1"
     },
     {
         "resortName": "Yesanpo",
@@ -3315,7 +3367,8 @@ var chinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0h7mfgykxthn4i26ihv98pb9aerq"
     },
     {
         "resortName": "Dolomiti 多乐美地滑雪场",

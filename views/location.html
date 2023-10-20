@@ -103,12 +103,11 @@
                 <span>
                 <a ng-show="!!data.mapLink" href="javascript:void(0);" ng-click="openModal(data, 'map')" title="Resort Map">{{data.resortName}}</a>
                 <span ng-show="!data.mapLink">{{data.resortName}}</span>
-                <span ng-show="data.webcam"><a ng-click="webcamModal(data)" onclick="return false;"><i class="fa fa-video-camera" aria-hidden="true"></i></a></span>
+                <span ng-show="data.webcam.length"><a ng-click="webcamModal(data)" onclick="return false;"><i class="fa fa-video-camera" aria-hidden="true"></i></a></span>
                 </span>
             </td>
             <td>
-                <span ng-show="!data.resortReview.score && data.id"><a ng-click="openModal(data)" onclick="return false;">N/A</a></span>
-                <span ng-show="!data.resortReview.score && !data.id">N/A</span>
+                <span ng-show="!data.resortReview.score">N/A</span>
                 <span ng-show="data.resortReview.score && !data.resortReview.note">
                     <a ng-click="openModal(data, 'resortReview')" onclick="return false;">{{data.resortReview.score}}/100</a>
                 </span>

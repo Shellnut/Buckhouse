@@ -122,3 +122,10 @@ dd {
   .sub-menu2:hover .our-pick-menu {
     display: block;
   }
+
+a.disabled{
+    color: black;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}

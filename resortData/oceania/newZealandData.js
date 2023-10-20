@@ -18,7 +18,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pjhbgd6l58v44h10r0fm58i4g3dr"
     },
     {
         "resortName": "Turoa",
@@ -39,7 +40,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qjdvw3u6fbivzbp1pghddpn6fzrx"
     },
     {
         "resortName": "Tukino",
@@ -60,7 +62,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dyd20a54ip2xm9k9y9e5wmwlvhed"
     },
     {
         "resortName": "Manganui",
@@ -81,7 +84,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0lxmp2qei7xcmgp813o5pwscv0hm"
     },
     {
         "resortName": "Rainbow",
@@ -102,7 +106,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/n5bluvvg0kya2yj3ro9qhmoniz25"
     },
     {
         "resortName": "Mt. Lyford",
@@ -123,7 +128,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gb3g469iota42jmi34coyyi036y5"
     },
     {
         "resortName": "Hanmer Springs",
@@ -144,7 +150,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sfvpbobs7t2grpij7mcgim1wby7r"
     },
     {
         "resortName": "Temple Basin",
@@ -165,7 +172,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/efl7sv6r79j0xi3k6fyfyjkn1u3p"
     },
     {
         "resortName": "Broken River",
@@ -186,7 +194,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gaoe0xtpwar1kmkbohchxnfnechn"
     },
     {
         "resortName": "Mt. Cheeseman",
@@ -207,7 +216,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pjr8xult3r6lkeagbii1ks9c16uu"
     },
     {
         "resortName": "Porters",
@@ -228,7 +238,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7g8dnl8hwq3pxkjfed2mvfvsioyu"
     },
     {
         "resortName": "Mt. Olympus",
@@ -249,7 +260,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8f7wrfcspzj50q6a8d4m9psdnlg8"
     },
     {
         "resortName": "Mt. Hutt",
@@ -272,7 +284,8 @@ var newZealandData = [
         },
         "skiPass": [
             "Ikon"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/vqskxj2yvu7n31qsq9xn5dl2tmuc"
     },
     {
         "resortName": "Fox Peak",
@@ -293,7 +306,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/v698a66uggtr66dgejiimllhti3r"
     },
     {
         "resortName": "Mt. Dobson",
@@ -314,7 +328,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sxxi45bggetxu98e1qmbddy1sgoq"
     },
     {
         "resortName": "Roundhill",
@@ -335,7 +350,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/97b04krv5rj7mf9jc3y50m4ishxn"
     },
     {
         "resortName": "Cardrona",
@@ -356,7 +372,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2pwgpr7idv84p6id1s94q04n06i4"
     },
     {
         "resortName": "Snowfarm",
@@ -377,7 +394,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4k6my60b0wze974yzwekdd39giy9"
     },
     {
         "resortName": "The Remarkables",
@@ -400,7 +418,8 @@ var newZealandData = [
         },
         "skiPass": [
             "Ikon"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/o7cqhb8owekecs5vq7qnsmftfucc"
     },
     {
         "resortName": "Coronet Peak",
@@ -424,7 +443,8 @@ var newZealandData = [
         "skiPass": [
             "Ikon",
             "Mountain Collective"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/t4chmknb44au4uqyuqbnieo9xc9c"
     },
     {
         "resortName": "Treble Cone",
@@ -445,7 +465,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/srwpuh8lqisextnssrqb1tbwjc1n"
     },
     {
         "resortName": "Ohau",
@@ -466,7 +487,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dczuznucfc4huu90jscyzyfuqje5"
     },
     {
         "resortName": "Craigieburn",
@@ -487,7 +509,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/yvc7bs21wxf04uo9l94jepk13afr"
     },
     {
         "resortName": "Snow Planet",
@@ -508,7 +531,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/a9znju7q7k8qft20iovjpg0925dn"
     },
     {
         "resortName": "Invincible Snowfields",
@@ -550,7 +574,8 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/puv8mgzrd3p9p8bwfni399yynzqx"
     },
     {
         "resortName": "Awakino Skifield (Waitaki Ski Club)",
@@ -571,6 +596,7 @@ var newZealandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6q1j4dipfrcifp46fcztphv0ln15"
     }
 ];

@@ -18,7 +18,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/hqxc3oumg9nbjcqdj2wvek2glp96"
     },
     {
         "resortName": "Ruka",
@@ -39,7 +40,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/aekru5wqy2vhmvas29l2ic7hpo2g"
     },
     {
         "resortName": "Pyhä",
@@ -60,7 +62,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mek2gschqp9jxbz99powbfqd8epk"
     },
     {
         "resortName": "Påminne",
@@ -81,7 +84,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/p06ldxs0j9w9i15nkkp9zmrod44h"
     },
     {
         "resortName": "Solvalla Swinghill",
@@ -102,7 +106,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ze0nbvezpggm4elctxdbzr3tetsb"
     },
     {
         "resortName": "Serena",
@@ -123,7 +128,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/raes4gg487yigjraj57zyfglqbax"
     },
     {
         "resortName": "Ukkohalla",
@@ -144,7 +150,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rhc97g8z2x746w4uyl15wxnuha8c"
     },
     {
         "resortName": "Tahko",
@@ -165,7 +172,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/081v36fscoshctl08v3ogd4yw6fa"
     },
     {
         "resortName": "Suomu",
@@ -186,7 +194,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ef1yrhwmrmuggaqt1lyj5prpo9iw"
     },
     {
         "resortName": "Pallas",
@@ -207,7 +216,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gvvmwem5h0z3vtcdtr30xcmlif8j"
     },
     {
         "resortName": "Paljakka",
@@ -228,7 +238,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/npj0lpxckcz9sp9nd8t6kqtc6vye"
     },
     {
         "resortName": "Pikku-Syote",
@@ -249,7 +260,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zg25iindg0qdf05s8d7tqcevnbec"
     },
     {
         "resortName": "Saariselka",
@@ -270,7 +282,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/z5cw6tvor0tuv5nxskexct2bunhw"
     },
     {
         "resortName": "Ounasvaara",
@@ -291,7 +304,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jpaadhj7dh8ib7m85dmcqrjx3zo8"
     },
     {
         "resortName": "Olos",
@@ -312,7 +326,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wv8hbunbjb9lpb9i631tqnkwdlha"
     },
     {
         "resortName": "Ukko-Koli",
@@ -333,7 +348,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/f3efxuigs9trsbrxlmpluy4irc2i"
     },
     {
         "resortName": "Sappee",
@@ -354,7 +370,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qz1an4gx0my6fts2br7xjdawrw5d"
     },
     {
         "resortName": "Ritavalkea",
@@ -417,7 +434,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/v4t8p5cyz8qdk359x2bqq70vqzw5"
     },
     {
         "resortName": "Purnu",
@@ -438,7 +456,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zc5ortfs3fteck8h9d06uh84rlfc"
     },
     {
         "resortName": "Ruunarinteet",
@@ -459,7 +478,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/83nz954un1x1t7vmm88bnyf0m3iu"
     },
     {
         "resortName": "Aavasaksa",
@@ -501,7 +521,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/aq0kryb2vlxf1p8cr9qos9n278an"
     },
     {
         "resortName": "Simpsio",
@@ -522,7 +543,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nyymkx7gkwkqtvf96x1hwpxt9rd2"
     },
     {
         "resortName": "Kallin",
@@ -543,7 +565,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6ujall6khvhdup4vdph5cy9hlt60"
     },
     {
         "resortName": "Mielakka",
@@ -564,7 +587,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4ihhw8n2pvvt746ft3melttaowi3"
     },
     {
         "resortName": "Peuramaa",
@@ -585,7 +609,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/p1w194q4zvhiynpxrp8e2ffv6ixu"
     },
     {
         "resortName": "Kaustinen",
@@ -648,7 +673,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vmgrtog2a63dnmb1e7w8fu6512a4"
     },
     {
         "resortName": "Ruokolahden Freeski",
@@ -669,7 +695,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gompild80dfotrjvoir9ezwt0q5r"
     },
     {
         "resortName": "Salomonkallio",
@@ -732,7 +759,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/b0yfdlg4odx16jy5u14qh7aeyxon"
     },
     {
         "resortName": "Hittenharju",
@@ -774,7 +802,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ce1vflgoow2mmodmweh8edwzwx63"
     },
     {
         "resortName": "Ski Tornimaki",
@@ -795,7 +824,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gc73hhl9hivitwz1s67us94rosf7"
     },
     {
         "resortName": "Varkaus",
@@ -900,7 +930,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zb8zdj2pxod2zz72gixrjbcu3f8k"
     },
     {
         "resortName": "Ojberget",
@@ -1005,7 +1036,8 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xnnbd26eenn9txqm3dd0902squee"
     },
     {
         "resortName": "Paloisvuori",
@@ -1026,6 +1058,7 @@ var finlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/13hrmimsl920mnj4jb12v3ezs0qq"
     }
 ];

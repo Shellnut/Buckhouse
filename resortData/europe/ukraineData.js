@@ -18,7 +18,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4f3wofnq076utu5dxx289qmuwwgs"
     },
     {
         "resortName": "Pylypets",
@@ -39,7 +40,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4ikwmdextdbo05x5xp9x2mc4b00k"
     },
     {
         "resortName": "Slavsko",
@@ -60,7 +62,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nn3nndclgeykmi5s30ui4sqoxsvo"
     },
     {
         "resortName": "Bukovytsia",
@@ -81,7 +84,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/il1n8s6nki3citndzg584jysrshd"
     },
     {
         "resortName": "Krasiya - КРАСИЯ",
@@ -102,7 +106,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/3pzld51gz21dq1qi61329zms772t"
     },
     {
         "resortName": "Izki",
@@ -123,7 +128,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/e9yk3mtipnt9zm77tao8efdk1rgq"
     },
     {
         "resortName": "Menchil",
@@ -144,7 +150,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/v0ho936a46y9w3iozu2yfpdineju"
     },
     {
         "resortName": "Zhar Berkut",
@@ -165,7 +172,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/samg1h2zot4i4wo5m3uusro75gpv"
     },
     {
         "resortName": "Velykyj",
@@ -207,7 +215,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/94c6pq9ntxqde7bbxhbgz8w909qa"
     },
     {
         "resortName": "Vodyaniki",
@@ -228,7 +237,8 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6r07y5i2z4hnyq418oqk1lt2wr1b"
     },
     {
         "resortName": "Migovo",
@@ -249,6 +259,7 @@ var ukraineData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0sally708u9ce0ihh2uneo1nvwx2"
     }
 ];

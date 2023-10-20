@@ -39,7 +39,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1sodlbclibmdrfrcv4v3f6utz7q8"
     },
     {
         "resortName": "Weardale Ski Club",
@@ -60,7 +61,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5pfpc7vdi2v2lgyncdnh9k8gf2am"
     },
     {
         "resortName": "Yad Moss",
@@ -81,7 +83,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zkte1t628x5n76atiznogmr2od2x"
     },
     {
         "resortName": "Cairngorm (Aviemore)",
@@ -102,7 +105,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nnxecky270i5ypsduq1wqym2lsla"
     },
     {
         "resortName": "Glencoe Mountain",
@@ -123,7 +127,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mss71lx8dtcpbk6xsfnm9ir2fix5"
     },
     {
         "resortName": "Glenshee Ski Centre",
@@ -144,7 +149,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/k9lir9hr0q82jaw9rly2yqx3x2nk"
     },
     {
         "resortName": "The Lecht",
@@ -165,7 +171,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6n8sc5d3mmyugt4s1vk8gcsja6sp"
     },
     {
         "resortName": "Nevis Range",
@@ -186,7 +193,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/uktif170be0r5eq1gl480d3e4e9k"
     },
     {
         "resortName": "Midlothian Snowsports Centre (Hillend Dry Slope)",
@@ -207,7 +215,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/00yi7yfq9e1ptrv3fc0kutm5zkbz"
     },
     {
         "resortName": "Swadlincote Ski & Snowboard",
@@ -312,7 +321,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4lag04inzmkavmolah7amrgbascx"
     },
     {
         "resortName": "Pontypool Ski Centre",
@@ -375,7 +385,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pc8ojdg97bkwzy59a1vtbhz1xhe4"
     },
     {
         "resortName": "Midland Ski Club (Ackers Adventure)",
@@ -417,7 +428,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ccoymum93p6lbqjm3nbpmefmgnqw"
     },
     {
         "resortName": "Loch Insh Watersports & Skiing Centre",
@@ -627,7 +639,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vsosxyg00rpewbvbpduxztyvyzyr"
     },
     {
         "resortName": "Halifax Ski & Snowboard Centre",
@@ -669,7 +682,8 @@ var unitedKingdomData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/br68t4efm5o3ia4hcv6dvt8lzufk"
     },
     {
         "resortName": "Alpine Snowsports Aldershot",

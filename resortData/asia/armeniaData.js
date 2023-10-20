@@ -18,7 +18,8 @@ var armeniaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mzd0w1gdty1z76nu6sq2w8zc9jkz"
     },
     {
         "resortName": "Jermuk",

@@ -18,7 +18,8 @@ var andorraData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6xht9hnxg5gr9r6ft1hlhch0qnrc"
     },
     {
         "resortName": "Grand Valira (Pas de la Casa-Grau Roig - Soldeu - El Tarter)",
@@ -41,6 +42,7 @@ var andorraData = [
         },
         "skiPass": [
             "Ikon"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/krwk3dmvlfovv4tg2muz0b313nyk"
     }
 ];

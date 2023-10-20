@@ -117,7 +117,7 @@ var s4Start = '2019-10-12T03:45:14Z';
 var s5Start = '2020-10-25T22:45:12Z';
 var s6Start = '2021-10-14T22:45:12Z';
 var s7Start = '2022-10-23T10:00:00Z';
-var s8Start = '2023-10-14T22:45:12Z';
+var s8Start = '2023-10-17T00:00:00Z';
 var s9Start = '2024-10-14T22:45:12Z';
   
 // Season resorts
@@ -1073,7 +1073,7 @@ var s4Days = 188;
 var s5Days = 144;
 var s6Days = 159;
 var s7Days = 159;
-var s8Days = 0;
+var s8Days = 1;
 
 var daysTotalBySeason = {
   x: ["Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8"],

@@ -18,6 +18,7 @@ var denmarkData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/hfkvg4ckrqyzyf3h9aneyvjm3jfa"
     }
 ];

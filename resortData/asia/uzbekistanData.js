@@ -18,7 +18,8 @@ var uzbekistanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/02ytofd41xod098kkuhhq28cl0up"
     },
     {
         "resortName": "Chimgan",
@@ -39,7 +40,8 @@ var uzbekistanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vcy5n2y7jk32rptdon010kln4usr"
     },
     {
         "resortName": "Amirsoy",
@@ -60,6 +62,7 @@ var uzbekistanData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mivkhe5kf2tqj4mvb68b0vgwyddh"
     }
 ];

@@ -18,7 +18,8 @@ var belgiumData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1slxpghjjoa8tdhp2l66kbc2gnpw"
     },
     {
         "resortName": "Ovifat",
@@ -39,7 +40,8 @@ var belgiumData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/h8z0z5laiv65uiujv3kpnum6vt6t"
     },
     {
         "resortName": "Lierneux (Le monty)",

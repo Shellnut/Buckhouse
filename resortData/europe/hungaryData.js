@@ -18,7 +18,8 @@ var hungaryData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/14xoln5a7o5uxfwv8pn2fvvxjhwl"
     },
     {
         "resortName": "Sípark Mátraszentistván",
@@ -39,7 +40,8 @@ var hungaryData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/inty3uoivpm00lux8dbygh2lzl2x"
     },
     {
         "resortName": "Kékestető - Mátra Mountain",
@@ -60,7 +62,8 @@ var hungaryData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ucqmv77fb1f9gyzekq2a2zn3twiu"
     },
     {
         "resortName": "Bánkút síklub",
@@ -81,7 +84,8 @@ var hungaryData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vq4fp63pare2jsg50s9xbdlub031"
     },
     {
         "resortName": "Dobogókő - Pilis mountain",
@@ -102,7 +106,8 @@ var hungaryData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/yea4y74dtdh0gelbmdkgn0uvrll0"
     },
     {
         "resortName": "Visegrád",
@@ -123,7 +128,8 @@ var hungaryData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/th3d8sz4adakvjlicrzm82a4uqr3"
     },
     {
         "resortName": "Misina- Pecs",
@@ -144,6 +150,7 @@ var hungaryData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/twmu5kqn7bmodfy47dgimx2ozkg9"
     }
 ];

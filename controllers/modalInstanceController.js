@@ -14,6 +14,10 @@ app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, 
     else if (modalType === 'map') {
         $scope.active = 2;
     }
+    // If there are no videos
+    if (modalData.videos.length === 0 && modalData.mapLink) {
+        $scope.active = 2;
+    }
 
     // Changing starts out of 5 because out of 10 is too cluttered. Can't divide by 2 in mg-model. 
     $scope.price = modalData.resortReview.price/2;

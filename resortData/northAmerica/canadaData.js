@@ -29,7 +29,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/x0lqbq45gpvm754k34lp0uuyhp8f",
         "webcam": []
     },
     {
@@ -62,7 +62,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/al9pg0pdpzxtp3jsx1ai3e73md3b",
         "webcam": []
     },
     {
@@ -95,7 +95,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/093ud3axes1zxuq3qeyhi3gj0h1g",
         "webcam": []
     },
     {
@@ -128,7 +128,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/abc22guo740k6fsg12ocoas4u0zi",
         "webcam": []
     },
     {
@@ -161,7 +161,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/nezv5x1fwcrtv6r98r8ia8qdi6d0",
         "webcam": []
     },
     {
@@ -194,7 +194,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/32d6qkbcmfuuzzh72bjz46z57bfw",
         "webcam": []
     },
     {
@@ -229,7 +229,7 @@ var canadaData = [
         "skiPass": [
             "Mountain Collective"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2vh3ghlxqin6b8z9wcg0r0k4q5bi",
         "webcam": []
     },
     {
@@ -264,7 +264,7 @@ var canadaData = [
         "skiPass": [
             "Epic"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/7s4gnffijw46iohy5xdkul5rkhd9",
         "webcam": []
     },
     {
@@ -300,7 +300,7 @@ var canadaData = [
             "Ikon",
             "Mountain Collective"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/f7uj5vnv45md1r76e5q1grfdj4zz",
         "webcam": []
     },
     {
@@ -333,7 +333,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/k8vqx3u722qxejzk3s4ido6jzkxn",
         "webcam": []
     },
     {
@@ -366,7 +366,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/y2pei2lpjomoe5lolasy65sfkstz",
         "webcam": []
     },
     {
@@ -399,7 +399,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/fw6tste1ur7msghxdh7p1c5neirs",
         "webcam": []
     },
     {
@@ -434,7 +434,7 @@ var canadaData = [
         "skiPass": [
             "Ikon"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/588d47fl4zdl0e64tb2b82ar979w",
         "webcam": []
     },
     {
@@ -467,7 +467,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/9tlbr4x85xm076ao1uywklykclxt",
         "webcam": []
     },
     {
@@ -502,7 +502,7 @@ var canadaData = [
         "skiPass": [
             "Indy"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ka83091egk23k0cdtwsheh4ubdj8",
         "webcam": []
     },
     {
@@ -535,7 +535,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ogrc4u6iqc1rcqln7p70g2i05jpz",
         "webcam": []
     },
     {
@@ -568,7 +568,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/305z6kqzex736pwk9oort7p4b5as",
         "webcam": []
     },
     {
@@ -601,7 +601,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6dcvfcis7azcf52ymok0035a6b2h",
         "webcam": []
     },
     {
@@ -637,7 +637,7 @@ var canadaData = [
             "Ikon",
             "Mountain Collective"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/rwphz6ml5yuvugjjr42inboljqrl",
         "webcam": []
     },
     {
@@ -670,7 +670,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/kred1s8ax37t7ht49no83680cgk6",
         "webcam": []
     },
     {
@@ -703,7 +703,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/qnz2m6spysu017173if6zn615j9b",
         "webcam": []
     },
     {
@@ -736,7 +736,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/4yei1pq1sr1rkd5uhxc0bamcurwm",
         "webcam": []
     },
     {
@@ -769,7 +769,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/kzqqmic0z1i037wfidinlyre6tls",
         "webcam": []
     },
     {
@@ -804,7 +804,7 @@ var canadaData = [
         "skiPass": [
             "Epic"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3mhv9dgui7b32uxtec6peash0dpz",
         "webcam": []
     },
     {
@@ -837,7 +837,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/j0ajo0qmde5s2bf703dd7h9ilrti",
         "webcam": []
     },
     {
@@ -872,7 +872,7 @@ var canadaData = [
         "skiPass": [
             "Epic"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6si0tucntge88usva0nz9w04sbhk",
         "webcam": []
     },
     {
@@ -905,7 +905,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3vd7uvs6u0tpw9uots736vdtcumy",
         "webcam": []
     },
     {
@@ -941,7 +941,7 @@ var canadaData = [
             "Ikon",
             "Mountain Collective"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ppzbmpq20tk391t828o1gtttk7d8",
         "webcam": []
     },
     {
@@ -974,7 +974,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ucexng0q06ivp5htrkcp595l51b6",
         "webcam": []
     },
     {
@@ -1007,7 +1007,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/1zr2ok1z9lgyfai93nmmjq951jqx",
         "webcam": []
     },
     {
@@ -1043,7 +1043,7 @@ var canadaData = [
             "Ikon",
             "Mountain Collective"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/t3qrcf8exmabhaiye3cckdjlb32u",
         "webcam": []
     },
     {
@@ -1076,7 +1076,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/u7yg9wz8qhiy88zd8ke6t9z1ligl",
         "webcam": []
     },
     {
@@ -1109,7 +1109,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6xbq40lnmswtzx20aogpn547fwej",
         "webcam": []
     },
     {
@@ -1142,7 +1142,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/frjqw7mxw511pa5mxjcpokzkuqjz",
         "webcam": []
     },
     {
@@ -1177,7 +1177,7 @@ var canadaData = [
         "skiPass": [
             "Epic"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/b22iodwgedha906yernr8y59qqmf",
         "webcam": []
     },
     {
@@ -1212,7 +1212,7 @@ var canadaData = [
         "skiPass": [
             "Ikon"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/4kfio9enz1mv7spci4ys7sqjhshc",
         "webcam": []
     },
     {
@@ -1247,7 +1247,7 @@ var canadaData = [
         "skiPass": [
             "Indy"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/tvpx0d0f787s9a6p0jujui7l41ko",
         "webcam": []
     },
     {
@@ -1280,7 +1280,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/w1d6rz3aoewrdcgyo0pylyxx4kc6",
         "webcam": []
     },
     {
@@ -1313,7 +1313,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/0yvsya0hn3xywlfoahj6oiuhfiff",
         "webcam": []
     },
     {
@@ -1346,7 +1346,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ewahnwwtpzj9miuhev5wx86zl0nt",
         "webcam": []
     },
     {
@@ -1382,7 +1382,7 @@ var canadaData = [
             "Ikon",
             "Mountain Collective"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/43b9j2or4bzcezhvi4igk8seqnvm",
         "webcam": []
     },
     {
@@ -1415,7 +1415,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/fp93cg2cn7zxa5fme3kcinjt2nw6",
         "webcam": []
     },
     {
@@ -1448,7 +1448,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/gjrv3hhvmc4lyo8tj8kttsadkxe9",
         "webcam": []
     },
     {
@@ -1483,7 +1483,7 @@ var canadaData = [
         "skiPass": [
             "Indy"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/a8g6rdro85gz0l776bx4vnxnp2xg",
         "webcam": []
     },
     {
@@ -1518,7 +1518,7 @@ var canadaData = [
         "skiPass": [
             "Ikon"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/67p945y42m0vny3k9fl8v1nanau3",
         "webcam": []
     },
     {
@@ -1551,7 +1551,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/cvqtph9ima6jw71xg1pdy1yimggb",
         "webcam": []
     },
     {
@@ -1584,7 +1584,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/d33h0bmq28c5vdzjn67hoviis4f1",
         "webcam": []
     },
     {
@@ -1617,7 +1617,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2pe582wnw5mf070u9u2h15eqb718",
         "webcam": []
     },
     {
@@ -1650,7 +1650,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/27aeixp3xemupjwpdeklze8irq5b",
         "webcam": []
     },
     {
@@ -1685,7 +1685,7 @@ var canadaData = [
         "skiPass": [
             "Indy"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2fn2zfpnkat5rtjfq6by9mqjo2rj",
         "webcam": []
     },
     {
@@ -1718,7 +1718,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/siehiizbkph6bzf2owu9u1tsresz",
         "webcam": []
     },
     {
@@ -1751,7 +1751,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6dufav4zbw1owtyjh07jvosfqfuv",
         "webcam": []
     },
     {
@@ -1784,7 +1784,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/m9ph4vmzthzggvo5blue416hilj2",
         "webcam": []
     },
     {
@@ -1817,7 +1817,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/qx3soc3pdt12htorpn763n4s5lsw",
         "webcam": []
     },
     {
@@ -1850,7 +1850,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/dnncxa2c3k0e6e7bog5ttrp4dkmf",
         "webcam": []
     },
     {
@@ -1883,7 +1883,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3fhmz80cvetms2zo8jqdky76fpp1",
         "webcam": []
     },
     {
@@ -1916,7 +1916,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/fglvclm4i2oidc4px5am5h9nowg7",
         "webcam": []
     },
     {
@@ -1949,7 +1949,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/wjw37qin0qk8gv55abtfr73luhht",
         "webcam": []
     },
     {
@@ -1982,7 +1982,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2taw6a4328zmct06ldubcyljdu2c",
         "webcam": []
     },
     {
@@ -2015,7 +2015,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/di7dhftq4dz7ofl9hdxysolm5nb7",
         "webcam": []
     },
     {
@@ -2048,7 +2048,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/n9o3aw1lz4ph9de0v8s1fwmjz79a",
         "webcam": []
     },
     {
@@ -2081,7 +2081,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/htdwudoa3dlzfsn0pps4v1rbv0q4",
         "webcam": []
     },
     {
@@ -2114,7 +2114,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/if8nktuu97qsh54ft9or45c60tng",
         "webcam": []
     },
     {
@@ -2147,7 +2147,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2hcbd194236m5lpoa02navqmcen5",
         "webcam": []
     },
     {
@@ -2180,7 +2180,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/s5kmnaryk2wikl1jc0xre6pnljlg",
         "webcam": []
     },
     {
@@ -2213,7 +2213,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/m1dw85kxs61olzwgupx3vsbg0e06",
         "webcam": []
     },
     {
@@ -2246,7 +2246,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/uuyf1azvf0nby0v976tg298j6pod",
         "webcam": []
     },
     {
@@ -2279,7 +2279,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/1rhvhb0sr9eu431n9xf472tm1hnt",
         "webcam": []
     },
     {
@@ -2312,7 +2312,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/4ruxfgaylqt8ps8avzh4mwwiwy52",
         "webcam": []
     },
     {
@@ -2345,7 +2345,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/dgb6qtiz3cgngwvh5ihqv1evt96q",
         "webcam": []
     },
     {
@@ -2378,7 +2378,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/dav67vavjc2zg2o6vpe0p0yfvupa",
         "webcam": []
     },
     {
@@ -2411,7 +2411,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/hb5krptsam5b0ncigt8lzz9hz26r",
         "webcam": []
     },
     {
@@ -2444,7 +2444,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/xrk6qe0251q1w6uxfvzry59g4y3l",
         "webcam": []
     },
     {
@@ -2477,7 +2477,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/vdj2vfn31wvqpv7zyf2j4bqxa3v8",
         "webcam": []
     },
     {
@@ -2512,7 +2512,7 @@ var canadaData = [
         "skiPass": [
             "Epic"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ubrhfl6i95w6jclzy1tfwo3kmetf",
         "webcam": []
     },
     {
@@ -2545,7 +2545,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6l0swwgq5xh4ohv0bp7mbym1e0zv",
         "webcam": []
     },
     {
@@ -2578,7 +2578,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/1g016jw8zspelwmcyucv4a0x8c80",
         "webcam": []
     },
     {
@@ -2611,7 +2611,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/zucu0idf28992pmbqj80hsn3ztwr",
         "webcam": []
     },
     {
@@ -2644,7 +2644,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/035sqinjpiu2gtvi7w4x12rfoaj5",
         "webcam": []
     },
     {
@@ -2677,7 +2677,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/yimi80uzfexihh26905k6ppx5q9q",
         "webcam": []
     },
     {
@@ -2710,7 +2710,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/9ikyvdurkitq4mwy27d6h11mw6tv",
         "webcam": []
     },
     {
@@ -2743,7 +2743,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/8podvnfip3vqhy1xvdc9795f67d8",
         "webcam": []
     },
     {
@@ -2776,7 +2776,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3br6gr6m742v7ibm74m9qf8ws7ns",
         "webcam": []
     },
     {
@@ -2811,7 +2811,7 @@ var canadaData = [
         "skiPass": [
             "Mountain Collective"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/yehe00sg1jh5vxv1vft3usidbrla",
         "webcam": []
     },
     {
@@ -2844,7 +2844,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/gp31rruf846h847ddc42qqqszbdb",
         "webcam": []
     },
     {
@@ -2877,7 +2877,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3j1gc1ngspt645bdnjpt1kt19ykf",
         "webcam": []
     },
     {
@@ -2910,7 +2910,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/etb3i4h95oyoctkvedewbkeewtei",
         "webcam": []
     },
     {
@@ -2945,7 +2945,7 @@ var canadaData = [
         "skiPass": [
             "Epic"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/bzmpi56rx6fhpsomfisxi23bxz7q",
         "webcam": []
     },
     {
@@ -2980,7 +2980,7 @@ var canadaData = [
         "skiPass": [
             "Ikon"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/gxh8xwz0i5jg8rcfsdezjtjsoyh2",
         "webcam": []
     },
     {
@@ -3013,7 +3013,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/93bbwko4gq7q49b3pbzultuh9s9n",
         "webcam": []
     },
     {
@@ -3046,7 +3046,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6sfhv72ewbn5j813f1cii22oj6vi",
         "webcam": []
     },
     {
@@ -3079,7 +3079,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/411a80np1mqgty00dsr9h8vk3q5l",
         "webcam": []
     },
     {
@@ -3112,7 +3112,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/nm1i38cfle2ryy62jmuk9047iwwu",
         "webcam": []
     },
     {
@@ -3145,7 +3145,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/gkwwnyxawugc852v63u78ayk0x0r",
         "webcam": []
     },
     {
@@ -3178,7 +3178,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/m3bulrplc9hrvr3o1uyocvld0gnx",
         "webcam": []
     },
     {
@@ -3211,7 +3211,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/n1d7y56vmhwly56u3fx7q27f0ddm",
         "webcam": []
     },
     {
@@ -3244,7 +3244,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/7anivrhd1tssnfunbxjipcucsy94",
         "webcam": []
     },
     {
@@ -3277,7 +3277,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/fg136usp1aqhfpvmpk46wplg2ey1",
         "webcam": []
     },
     {
@@ -3312,7 +3312,7 @@ var canadaData = [
         "skiPass": [
             "Indy"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2uut1as5r69caz6e4ptvxecm2opr",
         "webcam": []
     },
     {
@@ -3345,7 +3345,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/hz96zdpq5u5kfhfmp3iaqakekf6z",
         "webcam": []
     },
     {
@@ -3380,7 +3380,7 @@ var canadaData = [
         "skiPass": [
             "Ikon"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6c7n4hitfjr6i8qo0fkjjam2me11",
         "webcam": []
     },
     {
@@ -3446,7 +3446,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/qcfo1ogdouoeaek6h6escytbpqik",
         "webcam": []
     },
     {
@@ -3479,7 +3479,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/xijfjxb8a4x25k2gj353i371e1uv",
         "webcam": []
     },
     {
@@ -3512,7 +3512,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/v5hgmskqyoordfu1kj1tb02pza6j",
         "webcam": []
     },
     {
@@ -3545,7 +3545,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/u11pzhgfn1yl4grc3d4ivmcdvcv3",
         "webcam": []
     },
     {
@@ -3578,7 +3578,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/9qbzwocyz3rl6bf42afp7arxxkf6",
         "webcam": []
     },
     {
@@ -3611,7 +3611,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/keeg4zc1y6fu8xrch6cxl96311u8",
         "webcam": []
     },
     {
@@ -3677,7 +3677,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/778y266x7xkv69eoex9snxtswzyf",
         "webcam": []
     },
     {
@@ -3710,7 +3710,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ds13kfaxt531954h8kr7llvlkmve",
         "webcam": []
     },
     {
@@ -3743,7 +3743,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/zn2639jvczpp8shk71wnmqbmdbhl",
         "webcam": []
     },
     {
@@ -3776,7 +3776,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2b0drh31dteonsk1cr7by95nbrdv",
         "webcam": []
     },
     {
@@ -3809,7 +3809,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/qkodb3tc51luprbofhuvjn21e8ez",
         "webcam": []
     },
     {
@@ -3842,7 +3842,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/npjanad9jxev3hgc16tzt2vptnd7",
         "webcam": []
     },
     {
@@ -3875,7 +3875,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ppuci6a2cydvv1lz72ualytn1cw3",
         "webcam": []
     },
     {
@@ -3941,7 +3941,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/1yrjwslbusy891vdvsgf4wvnwzus",
         "webcam": []
     },
     {
@@ -3974,7 +3974,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/q9bovy4zh0oh82b8cuvmkn0huuzb",
         "webcam": []
     },
     {
@@ -4007,7 +4007,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/4ay926comnzt9jtmgkgu55344ubw",
         "webcam": []
     },
     {
@@ -4040,7 +4040,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/z48rfi86en67dqjnkoyich1ykksc",
         "webcam": []
     },
     {
@@ -4075,7 +4075,7 @@ var canadaData = [
         "skiPass": [
             "Indy"
         ],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/qjl2b226howzhhkypkej9sjg67o5",
         "webcam": []
     },
     {
@@ -4108,7 +4108,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/fyd5w962gprw3hkw5o86uszf13vm",
         "webcam": []
     },
     {
@@ -4141,7 +4141,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/100xxw7qbevzq7r6n5ue2lnxv8j7",
         "webcam": []
     },
     {
@@ -4174,7 +4174,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/hr8tbqgvxh4j13xykxpiz6n81322",
         "webcam": []
     },
     {
@@ -4207,7 +4207,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/j0nezzac70uzze742lwlhpoc6n9k",
         "webcam": []
     },
     {
@@ -4240,7 +4240,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/69tf3keu1k3fgwjq9eeivfq4n8fh",
         "webcam": []
     },
     {
@@ -4273,7 +4273,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/9afabgf26gl0c8lb8bbv6nnacvq8",
         "webcam": []
     },
     {
@@ -4306,7 +4306,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/9kwqhnhuvxf6xpsov7lobjz18x4t",
         "webcam": []
     },
     {
@@ -4339,7 +4339,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/voe2cy8nwathicqhvzd1yru46z47",
         "webcam": []
     },
     {
@@ -4372,7 +4372,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/qu2f9ze9geq1z3r9brgdds10dwg3",
         "webcam": []
     },
     {
@@ -4405,7 +4405,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/gu8sgayxit9hgwwq9tpel5tiykxp",
         "webcam": []
     },
     {
@@ -4438,7 +4438,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/9fzvf2mjx2wwzobb6jn7ep476hnp",
         "webcam": []
     },
     {
@@ -4471,7 +4471,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/t2wdrmh40kz9w75xm6yz6kyy4pu2",
         "webcam": []
     },
     {
@@ -4504,7 +4504,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/8bhsq88jux85q85zgax3rsi15dnb",
         "webcam": []
     },
     {
@@ -4537,7 +4537,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/m8ujidxhnoa80jvxin36amwvg9xl",
         "webcam": []
     },
     {
@@ -4570,7 +4570,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ha6h931vov88l2g7myhr4ig01q94",
         "webcam": []
     },
     {
@@ -4603,7 +4603,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2pjfclqcabf2vmcz855pvgbctc0j",
         "webcam": []
     },
     {
@@ -4636,7 +4636,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/664hkeyjvp4a0t0q1me2tskdo0n2",
         "webcam": []
     },
     {
@@ -4669,7 +4669,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ckg7yea0u7osgslq78ypu6r8n4ql",
         "webcam": []
     },
     {
@@ -4702,7 +4702,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3h6t9l8j9iwcdmoo66oln2ubdz8s",
         "webcam": []
     },
     {
@@ -4735,7 +4735,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/kqu52mpfvj8s0z2b3qbypsh6ixin",
         "webcam": []
     },
     {
@@ -4768,7 +4768,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/hkkr2yf2gnw8iqye9js1e0jvykvg",
         "webcam": []
     },
     {
@@ -4801,7 +4801,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6ml1o6o7eel5d9qduxf2gybsrola",
         "webcam": []
     },
     {
@@ -4834,7 +4834,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/bj36oocpdih79qh0xxkxpnoklq6k",
         "webcam": []
     },
     {
@@ -4867,7 +4867,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/j1sili588hqxes83oc6r6678d2od",
         "webcam": []
     },
     {
@@ -4900,7 +4900,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/7mpbsmmpxeizhc0qqio5hdt2vgk9",
         "webcam": []
     },
     {
@@ -4933,7 +4933,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/v5pfcttzu3shizr76k40a9m3hv71",
         "webcam": []
     },
     {
@@ -4966,7 +4966,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/lto7wamf1xk6nmvklk1ijpmuoab2",
         "webcam": []
     },
     {
@@ -4999,7 +4999,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/045wmasyc9bdt8tt8kymgevctaad",
         "webcam": []
     },
     {
@@ -5032,7 +5032,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/07ffpc6dbrsr1t7hnfhr6b1ankgz",
         "webcam": []
     },
     {
@@ -5065,7 +5065,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6yypaocbyyc3vw2zsyg51sjdslsk",
         "webcam": []
     },
     {
@@ -5098,7 +5098,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3y65o3llxwriilj615hwjby12t5a",
         "webcam": []
     },
     {
@@ -5131,7 +5131,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/k195x98rjijii92ozpmgfno55wnx",
         "webcam": []
     },
     {
@@ -5164,7 +5164,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/8ctu5x91v9ckl3cfrssrlb95npea",
         "webcam": []
     },
     {
@@ -5197,7 +5197,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/c7jgkkm756d065mmb8h9l71ewiwu",
         "webcam": []
     },
     {
@@ -5263,7 +5263,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/s4m636j5knvindiy6ubxxgxoji9y",
         "webcam": []
     },
     {
@@ -5296,7 +5296,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/097wkljj23uq3cf4dpjnip0ffxwi",
         "webcam": []
     },
     {
@@ -5329,7 +5329,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2e7zo9ryvxy9pj11f989iic6b9pw",
         "webcam": []
     },
     {
@@ -5362,7 +5362,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/3v2479w4kjxxkn5o8rlm8hsdsjdp",
         "webcam": []
     },
     {
@@ -5461,7 +5461,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/2wl4sd8rj4kkowzx3w2e62oklqbw",
         "webcam": []
     },
     {
@@ -5494,7 +5494,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/jbz1o7u8twl2m73pm8qojm3nidth",
         "webcam": []
     },
     {
@@ -5560,7 +5560,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/vvtqry09agwrtt40l2j84pxqmla8",
         "webcam": []
     },
     {
@@ -5593,7 +5593,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/mh8kt0kii6ulaaye6obdtwunivoq",
         "webcam": []
     },
     {
@@ -5626,7 +5626,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/5a4kpxi82jbpkhuzhsst0hoaqfba",
         "webcam": []
     },
     {
@@ -5659,7 +5659,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/eu7sz5lbfgovp33i3f6xh1jtwix5",
         "webcam": []
     },
     {
@@ -5692,7 +5692,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/yvqvhjz473ekdajuvmci5mzi73z8",
         "webcam": []
     },
     {
@@ -5725,7 +5725,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/04zhj3m9owf8ipmpubtrfpiklgbv",
         "webcam": []
     },
     {
@@ -5758,7 +5758,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/wscgmijbrv2t800f99ixq8sykf8t",
         "webcam": []
     },
     {
@@ -5791,7 +5791,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/aed3p6xz3rch98vlj5cw666qnjn8",
         "webcam": []
     },
     {
@@ -5857,7 +5857,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/g76vui1hr0jssv6haqz8siu3tixm",
         "webcam": []
     },
     {
@@ -5890,7 +5890,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/hnrp6k9dd4th3lojqavtylqfzzkg",
         "webcam": []
     },
     {
@@ -5923,7 +5923,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/x2nhxeuo2sb6hce2v8byw0j4v3ec",
         "webcam": []
     },
     {
@@ -5956,7 +5956,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/1g17dpvfyoajqpqrl9uhmcisvuqg",
         "webcam": []
     },
     {
@@ -5989,7 +5989,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/z07vprv0mb3i2muo8mkcafir704i",
         "webcam": []
     },
     {
@@ -6022,7 +6022,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/z8cdj59b4sjfrtgrjlu464ojp3xq",
         "webcam": []
     },
     {
@@ -6055,7 +6055,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/mkf3qbxfu7h7nxpvqwbgt9yr7vjt",
         "webcam": []
     },
     {
@@ -6088,7 +6088,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/a23cq3rm8ifot2x8hquvtvymk769",
         "webcam": []
     },
     {
@@ -6121,7 +6121,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/sk0191wjy1f4riy7umq9a4r7odm8",
         "webcam": []
     },
     {
@@ -6154,7 +6154,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/lq7tob4hwpzv66dpkhggyloxgsy8",
         "webcam": []
     },
     {
@@ -6187,7 +6187,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/uh8avoq81o5jessqsfwqvghwa3f4",
         "webcam": []
     },
     {
@@ -6220,7 +6220,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/pokwrtpxpu2ai3oxjexlu7etmqbl",
         "webcam": []
     },
     {
@@ -6253,7 +6253,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/zupbqkexjwl1dybc0c6iklygagrt",
         "webcam": []
     },
     {
@@ -6286,7 +6286,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/d3wk6sjzye5pj0j2140d339linq6",
         "webcam": []
     },
     {
@@ -6319,7 +6319,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/vhu03sbvnq36iqjcfbm74f9fcg2k",
         "webcam": []
     },
     {
@@ -6352,7 +6352,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/5po4a5rk1e9id17duue6iut2or6a",
         "webcam": []
     },
     {
@@ -6385,7 +6385,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/k39bxkyba0x1cdtysyv8w2uuq5ob",
         "webcam": []
     },
     {
@@ -6418,7 +6418,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/0iu5lpmn0si80p3wc8yae14y7col",
         "webcam": []
     },
     {
@@ -6451,7 +6451,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/wlkdazki30c8eg3ds9e07falwut3",
         "webcam": []
     },
     {
@@ -6484,7 +6484,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/th58yelqgs5004qtdcws5vpjynqc",
         "webcam": []
     },
     {
@@ -6517,7 +6517,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/49km7pwb3ofiruxuppj6wn240ekt",
         "webcam": []
     },
     {
@@ -6550,7 +6550,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ntgqtn5zpjhviducl7cgsnmfmsi7",
         "webcam": []
     },
     {
@@ -6583,7 +6583,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/mq1oizx5vnp3f7gaa7gebg14gn4f",
         "webcam": []
     },
     {
@@ -6616,7 +6616,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/5ng1l8clngkop3fuogeng278a42s",
         "webcam": []
     },
     {
@@ -6649,7 +6649,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/7yk9cq3w45zeq4g1ax0p35scthvq",
         "webcam": []
     },
     {
@@ -6715,7 +6715,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/11jq8qsa3nn1pwjepyx1hebir9w1",
         "webcam": []
     },
     {
@@ -6748,7 +6748,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/s7i16il1kf5r7s578dpmygvim1ch",
         "webcam": []
     },
     {
@@ -6781,7 +6781,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/7067z6u8guliviwkqon7aiss92st",
         "webcam": []
     },
     {
@@ -6814,7 +6814,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/psh85paovuxlfszagudlrka4xhos",
         "webcam": []
     },
     {
@@ -6880,7 +6880,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ol5g5e7f73y49lg1csq7oc6kc89j",
         "webcam": []
     },
     {
@@ -6946,7 +6946,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/s67u4g3ar2437pw07wb3znkqihlv",
         "webcam": []
     },
     {
@@ -6979,7 +6979,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ohs490fb1eyx7ok99dbiqvf5rpw0",
         "webcam": []
     },
     {
@@ -7012,7 +7012,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/78hh7rc9uh2puze1ezdmqk383gsp",
         "webcam": []
     },
     {
@@ -7078,7 +7078,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ui78prn154r6rjzf7li4dz2on8ca",
         "webcam": []
     },
     {
@@ -7144,7 +7144,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/e4gqvqqd5ywzeshsr0mlc5iu4ccx",
         "webcam": []
     },
     {
@@ -7177,7 +7177,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/5mbm0zo2i5m0f3bozrikqogoaorr",
         "webcam": []
     },
     {
@@ -7210,7 +7210,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/npas71g5beisqiudd5hxybnsri0l",
         "webcam": []
     },
     {
@@ -7243,7 +7243,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/cbgs3j6sjtlfphii3ezffah3n30a",
         "webcam": []
     },
     {
@@ -7276,7 +7276,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/r07hca3rsv01534tcro2un3nrf66",
         "webcam": []
     },
     {
@@ -7309,7 +7309,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/iznghfljadv8nstuoca2jc2gia5u",
         "webcam": []
     },
     {
@@ -7375,7 +7375,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ory7cuad9wl5c6lsu9q02ehixaeu",
         "webcam": []
     },
     {
@@ -7408,7 +7408,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/42w4hbr8kfv3c23whiod5tssw17x",
         "webcam": []
     },
     {
@@ -7441,7 +7441,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/7idn4f4rh8kkvz25806t2d9aqpph",
         "webcam": []
     },
     {
@@ -7507,7 +7507,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/tvwnhwqig9zzmuag4d8z6gpkrwa0",
         "webcam": []
     },
     {
@@ -7606,7 +7606,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/g45nw1qrf9f06mcd8h6c07ejhfc8",
         "webcam": []
     },
     {
@@ -7639,7 +7639,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/6o0p669i7tct6t1v7ul2iq8d5lll",
         "webcam": []
     },
     {
@@ -7705,7 +7705,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/nt4d0l0el9d7n6wf5qekj3fxu3lx",
         "webcam": []
     },
     {
@@ -7738,7 +7738,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/hpwed2svzqkalfdgmuab39qrbcj3",
         "webcam": []
     },
     {
@@ -7837,7 +7837,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/w15rfkcunsijvet9tdtvypaeqjgz",
         "webcam": []
     },
     {
@@ -7870,7 +7870,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/ctseruaioiz552berjafx8xsfold",
         "webcam": []
     },
     {
@@ -7903,7 +7903,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/kg2kpqn4oc1c0z5zxv5krv5qp6s3",
         "webcam": []
     },
     {
@@ -7969,7 +7969,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/xr378wpqv21ndnyos7w7kifimq7q",
         "webcam": []
     },
     {
@@ -8035,7 +8035,7 @@ var canadaData = [
             "wouldIGoBack": ""
         },
         "skiPass": [],
-        "mapLink": "",
+        "mapLink": "https://files.skimap.org/xnzdjr53usdzmz7uxxvfp72dl1cx",
         "webcam": []
     }
 ];

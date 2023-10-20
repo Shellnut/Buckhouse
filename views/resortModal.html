@@ -2,7 +2,7 @@
     <h3 class="modal-title">
         <div class="row">
             <div class="col-xs-11">
-                <a ng-href="modalData.website" target="_blank" title="Resort Website">{{modalData.resortName}}, {{modalData.state}}</a>
+                <a ng-href="{{modalData.website}}" target="_blank" title="Resort Website">{{modalData.resortName}}, {{modalData.state || modalData.country}}</a>
             </div>
             <div class="col-xs-1">
                 <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>

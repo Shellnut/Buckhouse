@@ -18,6 +18,7 @@ var bosniaAndHerzegovinaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ztl915iajesfz7b60utuzzknjno9"
     }
 ];

@@ -18,7 +18,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vqtzoq5nohzn12juchzgink6o6ty"
     },
     {
         "resortName": "Tindaöxl – Ólafsfjörður",
@@ -60,7 +61,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gr9u3nmbv012b981vr65tgn4k7y1"
     },
     {
         "resortName": "Hlíðarfjall",
@@ -81,7 +83,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mdat88qvu4za3fgqyujnsajc97hm"
     },
     {
         "resortName": "Skálafell",
@@ -102,7 +105,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/07wohgzl71cdbx06lb1mautnu0xb"
     },
     {
         "resortName": "Tindastóll",
@@ -123,7 +127,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rgsx26qd5cfep67m9cqbfl94dxl7"
     },
     {
         "resortName": "Siglufjordur",
@@ -144,7 +149,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eak2vip0qz57f6vjww57ou0idz2j"
     },
     {
         "resortName": "Oddsskarð",
@@ -165,7 +171,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pfckfxpwpnaph1xzp7lf2j6ock8b"
     },
     {
         "resortName": "Ísafjarðarbæjar ",
@@ -186,7 +193,8 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/3ken64a3mhuvvabwgc38i12kjb0h"
     },
     {
         "resortName": "Stafdalur",
@@ -207,6 +215,7 @@ var icelandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/34dus70n85glpqkmezmluolujwgq"
     }
 ];

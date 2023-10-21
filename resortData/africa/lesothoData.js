@@ -18,6 +18,7 @@ var lesothoData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7bhbmcspwzv3tjhjuch248h43ovo"
     }
 ];

@@ -18,7 +18,8 @@ var greenlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9tkujmdkcvhx6cqd0kxi4ybg68gr"
     },
     {
         "resortName": "Solbakken",
@@ -39,7 +40,8 @@ var greenlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/18x06bu6b1u30i33wtf6iirdn74k"
     },
     {
         "resortName": "Tosebakken",
@@ -60,6 +62,7 @@ var greenlandData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qanynn2x599qxopufi93uty4vviy"
     }
 ];

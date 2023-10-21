@@ -18,7 +18,8 @@ var iranData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qsmvte15g98hmn19874oex34a85d"
     },
     {
         "resortName": "Shemshak",
@@ -39,7 +40,8 @@ var iranData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qsmvte15g98hmn19874oex34a85d"
     },
     {
         "resortName": "Tochal",
@@ -60,7 +62,8 @@ var iranData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zme7bzm8x8bb1hd2t5epu6jzsc76"
     },
     {
         "resortName": "Abali",
@@ -102,7 +105,8 @@ var iranData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qsmvte15g98hmn19874oex34a85d"
     },
     {
         "resortName": "Khor",
@@ -270,7 +274,8 @@ var iranData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/e68e7r2t2ewbiatts1hzrwj6ksac"
     },
     {
         "resortName": "Nesar",
@@ -312,7 +317,8 @@ var iranData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sbnfqgpgfjupz07k9f0sj6u26k4j"
     },
     {
         "resortName": "Papaei",

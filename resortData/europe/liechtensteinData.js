@@ -18,6 +18,7 @@ var liechtensteinData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cl125glgv719ygddkk7ik4ktiwhv"
     }
 ];

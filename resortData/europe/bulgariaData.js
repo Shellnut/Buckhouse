@@ -18,7 +18,8 @@ var bulgariaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/n9k6s1anscsxb301twsn0nag4fgf"
     },
     {
         "resortName": "Borovets",
@@ -39,7 +40,8 @@ var bulgariaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sm67x78b07rk6v281iqlmvzl0a7j"
     },
     {
         "resortName": "Dobrinishte",
@@ -60,7 +62,8 @@ var bulgariaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cxnw462vhhal3sghpjc8q9q5cns1"
     },
     {
         "resortName": "Malyovista",
@@ -81,7 +84,8 @@ var bulgariaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fbilbfkrnpucb0amsbrhuc1rodti"
     },
     {
         "resortName": "Panichishte",

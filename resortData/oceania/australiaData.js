@@ -20,7 +20,8 @@ var australiaData = [
         },
         "skiPass": [
             "Ikon"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/tf47j6bas5w4bbbt9k1nv4fa9w3g"
     },
     {
         "resortName": "Falls Creek",
@@ -43,7 +44,8 @@ var australiaData = [
         },
         "skiPass": [
             "Epic"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/rss1nkcw6693uojundipiys76ej0"
     },
     {
         "resortName": "Mount Baw Baw",
@@ -64,7 +66,8 @@ var australiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/90d8x3pnm4v5o6hah1ldc8tw613p"
     },
     {
         "resortName": "Mount Buller",
@@ -88,7 +91,8 @@ var australiaData = [
         "skiPass": [
             "Ikon",
             "Mountain Collective"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/l1v0h9cas25i3nij7hvll4czf3qz"
     },
     {
         "resortName": "Mount Hotham",
@@ -111,7 +115,8 @@ var australiaData = [
         },
         "skiPass": [
             "Epic"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/nc73ecz5xnnbh6m5l9st6m7xyqgm"
     },
     {
         "resortName": "Charlotte Pass",
@@ -132,7 +137,8 @@ var australiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bnt9mzuxszt85egjywklhbxw1902"
     },
     {
         "resortName": "Perisher",
@@ -155,7 +161,8 @@ var australiaData = [
         },
         "skiPass": [
             "Epic"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/jenjddc5wjhh13fv5gccshs3k7cp"
     },
     {
         "resortName": "Selwyn snowfields",
@@ -176,7 +183,8 @@ var australiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/hl8wy7kmgujog5so0xgagxlla0nd"
     },
     {
         "resortName": "Ben Lomond",
@@ -197,7 +205,8 @@ var australiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/z9bsankyjk9kw91q0bixlawzaqb7"
     },
     {
         "resortName": "Mount Mawson",
@@ -218,7 +227,8 @@ var australiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/42yl26usaxtak3r6i3wa14fhpuj5"
     },
     {
         "resortName": "Mt St Bernard",
@@ -239,7 +249,8 @@ var australiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6llc5jvjq6hukcc7sjtojntj3uns"
     },
     {
         "resortName": "Cobungra Slope",
@@ -260,7 +271,8 @@ var australiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6mg4c5lkc6x681d7yaq5o8iyvcjs"
     },
     {
         "resortName": "Corin Forest",

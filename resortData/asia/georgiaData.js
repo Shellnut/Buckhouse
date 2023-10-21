@@ -18,7 +18,8 @@ var georgiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rdfm2xcod34bfur4gba0r0q8p7ax"
     },
     {
         "resortName": "Gudauri",
@@ -39,7 +40,8 @@ var georgiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/csy2pccycnoex2668214vc9e4f7o"
     },
     {
         "resortName": "Goderdzi",
@@ -60,7 +62,8 @@ var georgiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4iw20s03kkhu3rl0ayn7n1hqh0i6"
     },
     {
         "resortName": "Tetnuldi",
@@ -81,7 +84,8 @@ var georgiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rw63m16urmukitmfc7ws9enyyn4x"
     },
     {
         "resortName": "Hatsvali",
@@ -102,6 +106,7 @@ var georgiaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/27i7b2kawlxu0qoj4rdc4sp448fa"
     }
 ];

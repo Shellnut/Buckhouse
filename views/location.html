@@ -1,0 +1,149 @@
+<!-- Invalid path warning -->
+<div class="alert alert-danger" ng-show="myError">
+    <strong>Warning!</strong> {{myError}}. Navigating to path: /country/northAmerica
+</div>
+
+<!-- Leaflet map -->
+<leaflet defaults="defaults" lf-center="center" legend="legend" paths="paths" markers="markers" width="100%" height="480px"></leaflet>
+
+<!-- THE SEARCH BOX  -->
+<br>
+
+<!-- Progress -->
+<div>
+    <p>
+        Johnathan has visited {{visitedCount}} out of the {{skiResortCount | number:0}}<a class="disclaimer-count" ng-click="goToChangeLog()" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> 
+        {{myTitle}}
+        ski resorts so far! 
+        <i>last updated: {{lastUpdated}}</i>
+    </p>
+</div>
+
+
+<!-- Search column -->
+<div>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+        <input type="text" class="form-control" name="msg" placeholder="Monarch Ski Area" ng-model="search">
+    </div>
+</div>
+
+<br>
+<div class="pane">
+    <table class="table table-hover table-condensed">
+        <tr>
+            <th>
+                <a ng-click="myOrder('resortName'); reverseSort = !reverseSort">
+                <span>Resort Name (Map Link)</span> 
+                <span ng-show="orderByField == 'resortName'">
+                    <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                    <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                </span>
+                </a>
+            </th>
+            <th>
+                <a ng-click="myOrder('resortReview.score'); reverseSort = !reverseSort">
+                <span>Score</span> 
+                <span ng-show="orderByField == 'resortReview.score'">
+                    <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                    <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                </span>
+                </a>
+            </th>
+            <th>
+                <a ng-click="myOrder('skiPass'); reverseSort = !reverseSort">
+                <span title="See ski pass website for more information.">Ski Pass</span> 
+                <span ng-show="orderByField == 'skiPass'">
+                    <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                    <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                </span>
+                </a>
+            </th>
+            <th>
+                <a ng-click="myOrder('region'); reverseSort = !reverseSort">
+                <span>Region</span> 
+                <span ng-show="orderByField == 'region'">
+                    <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                    <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                </span>
+                </a>
+            </th>
+            <th>
+                <a ng-click="myOrder('state'); reverseSort = !reverseSort">
+                <span>State</span> 
+                <span ng-show="orderByField == 'state'">
+                    <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                    <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                </span>
+                </a>
+            </th>
+            <th>
+                <a ng-click="myOrder('city'); reverseSort = !reverseSort">
+                <span>City</span> 
+                <span ng-show="orderByField == 'city'">
+                    <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                    <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                </span>
+                </a>
+            </th>
+            <th>
+                <a ng-click="myOrder('videos.length'); reverseSort = !reverseSort">
+                <span>Videos</span> 
+                <span ng-show="orderByField == 'videos.length'">
+                    <span ng-show="!reverseSort"><i class="fa fa-caret-up"></i></span>
+                    <span ng-show="reverseSort"><i class="fa fa-caret-down"></i></span>
+                </span>
+                </a>
+            </th>
+        </tr>
+        <tr ng-repeat="data in allData | orderBy : orderByField : reverseSort | filter : search" ng-click="zoomToCoords(data.position)">
+            <td style="max-width:400px;">
+                <i ng-show="data.videos.length>0" class="fa fa-check-square"></i> 
+                <i ng-show="data.videos.length===0" class="fa fa-square"></i>
+                <span>
+                <a ng-show="!!data.mapLink" href="javascript:void(0);" ng-click="openModal(data, 'map')" title="Resort Map">{{data.resortName}}</a>
+                <span ng-show="!data.mapLink">{{data.resortName}}</span>
+                <span ng-show="data.webcam.length"><a ng-click="webcamModal(data)" onclick="return false;"><i class="fa fa-video-camera" aria-hidden="true"></i></a></span>
+                </span>
+            </td>
+            <td>
+                <span ng-show="!data.resortReview.score">N/A</span>
+                <span ng-show="data.resortReview.score && !data.resortReview.note">
+                    <a ng-click="openModal(data, 'resortReview')" onclick="return false;">{{data.resortReview.score}}/100</a>
+                </span>
+                <span ng-show="data.resortReview.score && data.resortReview.note">
+                    <a ng-click="openModal(data, 'resortReview')" onclick="return false;" uib-tooltip="{{data.resortReview.note}}">{{data.resortReview.score}}/100*</a>
+                </span>
+            </td>
+            <td>
+                <span ng-repeat="pass in data.skiPass track by $index">
+                <span ng-show="pass==='Epic'">
+                    <a target="_blank" href="https://www.epicpass.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                </span>
+                <span ng-show="pass==='Ikon'">
+                    <a target="_blank" href="https://www.ikonpass.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                </span>
+                <span ng-show="pass==='Mountain Collective'">
+                    <a target="_blank" href="https://www.mountaincollective.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                </span>
+                <span ng-show="pass==='Powder Alliance'">
+                    <a target="_blank" href="https://www.powderalliance.com">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                </span>
+                <span ng-show="pass==='Indy'">
+                    <a target="_blank" href="https://www.indyskipass.com/">{{pass}}</a><span ng-show="$index + 1 < data.skiPass.length">,</span>
+                </span>
+                </span>
+            </td>
+            <td>{{data.region}}</td>
+            <td>{{data.state}}</td>
+            <td>{{data.city}}</td>
+            <!-- <a ng-href="http://www.gravatar.com/avatar/{{hash}}">link1</a> -->
+            <td> 
+                <span ng-show="data.videos.length===0">{{data.videos.length}}</span>
+                <span ng-show="data.videos.length>0">
+                <a target="_blank" ng-href="https://www.youtube.com/watch_videos?video_ids={{data.videos.join(',')}}">{{data.videos.length}}</a>
+                </span>
+            </td>
+        </tr>
+    </table>
+</div>

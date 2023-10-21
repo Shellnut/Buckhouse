@@ -18,7 +18,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pb45b5v2hulmgkrwhrwqx26pdyh7"
     },
     {
         "resortName": "Gerlitzen",
@@ -39,7 +40,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/npep0x6r4zbvueog1jd2z7flbnk7"
     },
     {
         "resortName": "Heiligenblut",
@@ -60,7 +62,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0se9ivbvxxwjld57wkolpgltioq5"
     },
     {
         "resortName": "Innerkrems",
@@ -81,7 +84,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sxo7vrtlwiyasqkdvkh2j9ji6118"
     },
     {
         "resortName": "Katschberg",
@@ -102,7 +106,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fbr6i12jawkir8z9rgbek54pk178"
     },
     {
         "resortName": "Koralpe",
@@ -123,7 +128,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rpx4ivrrcopnd42t8xfz9be05pao"
     },
     {
         "resortName": "Kleinkirchheim",
@@ -144,7 +150,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4kp2qd69ud6ai54lpw5nchh9ttub"
     },
     {
         "resortName": "Nassfeld – Hermagor",
@@ -165,7 +172,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/iyxp9mtgvi5slqndw3q9n6l7jaxy"
     },
     {
         "resortName": "Petzen",
@@ -186,7 +194,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/n92l5z7c28igtwawoknfgrv74dsf"
     },
     {
         "resortName": "Simonhöhe",
@@ -207,7 +216,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1axhau57re5k109xj5o5nxogt93y"
     },
     {
         "resortName": "Turracher Höhe",
@@ -228,7 +238,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5us0qu5k9wovwys1ehoi0tfk7n2v"
     },
     {
         "resortName": "Hochkar",
@@ -249,7 +260,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/79217mbxxu5dwfp3cyxvvey4g1uy"
     },
     {
         "resortName": "Mitterbach-Gemeindealpe",
@@ -270,7 +282,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4emm1iqcrjmupb32f92qjuq08f4d"
     },
     {
         "resortName": "Schischaukel Mönichkirchen",
@@ -291,7 +304,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dye2quim1dmq7nzg1ve1pcgu5iox"
     },
     {
         "resortName": "Ötscher Lackenhof",
@@ -312,7 +326,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fsbgsqw454go0m9az96jyq7drcqt"
     },
     {
         "resortName": "Semmering",
@@ -333,7 +348,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cxtso4mtsda9u6p1040r7zseenlz"
     },
     {
         "resortName": "Annaberg",
@@ -354,7 +370,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/s0aadx1263ccq6mhej8n1yubjbaz"
     },
     {
         "resortName": "Ski Gastein (Bad Gastein, Sportgastein, Bad Hofgastein, Großarl, Dorfgastein)",
@@ -375,7 +392,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pw0o13vv1a02awzxyr0ohp8qtjkc"
     },
     {
         "resortName": "Mühlbach am Hochkönig",
@@ -396,7 +414,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/35qfhg7o76xm1kvcwc9a6yb8d5bp"
     },
     {
         "resortName": "Maria Alm (Hochkönig)",
@@ -438,7 +457,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/osjgap7o47c64gufaksoey11x1qq"
     },
     {
         "resortName": "Obertauern",
@@ -459,7 +479,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/a9au3oejc7lhav84sh2ydx6c30nv"
     },
     {
         "resortName": "Saalbach-Hinterglemm",
@@ -480,7 +501,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wvqksc5hq55sz6pyr2nfe4oqzbdy"
     },
     {
         "resortName": "Kleinarl",
@@ -501,7 +523,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6jnrj8lekuu6n6fs6bmhcun9atp8"
     },
     {
         "resortName": "Altenmarkt - Radstadt",
@@ -522,7 +545,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ochbcwakugo6rfmopqfy1ahwvc7b"
     },
     {
         "resortName": "Snow Space Salzburg (Flachau, Wagrain, Alpendorf)",
@@ -543,7 +567,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/m6kjtqu6oe7hy253v3njcyj938nd"
     },
     {
         "resortName": "Kitzsteinhorn (Kaprun, Zell am See)",
@@ -564,7 +589,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rmjksrs6z5gepvdopb4l0gwhoxwl"
     },
     {
         "resortName": "Dachstein West (Salzburg: Russbach, Zwieselalm)",
@@ -585,7 +611,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xs7pqclnc0i35f4q3t2xhwxui50z"
     },
     {
         "resortName": "Lachtal",
@@ -606,7 +633,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7tm4v8typ6pyhdmhe96tbrizu9d0"
     },
     {
         "resortName": "Schladming (Planai, Hauser Kaibling)",
@@ -627,7 +655,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ybgb4yg1r87vsckn2s9ivtxs9ljv"
     },
     {
         "resortName": "Stuhleck – Spital am Semmering",
@@ -648,7 +677,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/y7b8wldretygab5qjkm0a28l229r"
     },
     {
         "resortName": "Tauplitz",
@@ -669,7 +699,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/o9y30yiw0j0mta12g97qnojgj5hj"
     },
     {
         "resortName": "Alpbachtal Wildschönau Ski Juwel",
@@ -690,7 +721,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/tdj85xsn63pif5olxxnd5fss87go"
     },
     {
         "resortName": "Arlberg (St Anton, St Christoph, Stuben, Lech, ​Zürs, Warth, ​Schröcken)",
@@ -713,7 +745,8 @@ var austriaData = [
         },
         "skiPass": [
             "Epic"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/v2wm4pmjapr6otom3o1sgqk4stia"
     },
     {
         "resortName": "Axamer Lizum",
@@ -734,7 +767,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/g8g4iyuo1p18506c2x2657gaehip"
     },
     {
         "resortName": "Nordpark Seegrube (Nordketten Bahn Innsbruck)",
@@ -755,7 +789,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/29nadgeyjvvst2vcpgnh9o0g8td9"
     },
     {
         "resortName": "Silvretta Arena (Ischgl/Samnaun)",
@@ -776,7 +811,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/utz8kedwz16w5ykotcxdux0387mw"
     },
     {
         "resortName": "Kaunertal",
@@ -797,7 +833,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/o9wl21rtfs9kabxtwf2zy1ldk4fe"
     },
     {
         "resortName": "Kitzbuhel",
@@ -820,7 +857,8 @@ var austriaData = [
         },
         "skiPass": [
             "Ikon"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/k97bu2hiveqtadflpd7r2uv8prgg"
     },
     {
         "resortName": "Lienz",
@@ -841,7 +879,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/kbhkk738uxq5kjrml14ktzlkyfmn"
     },
     {
         "resortName": "Zillertal 3000 (Mayrhofen)",
@@ -862,7 +901,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mothh72eu6a7o4pqwb18fwkjwd4v"
     },
     {
         "resortName": "Otztal (Sölden)",
@@ -883,7 +923,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5fygdo06hi7vmh4nlrznuebrxdup"
     },
     {
         "resortName": "Pitztal (Hochzeiger, Jerzens)",
@@ -904,7 +945,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jdztedlrcuta71baov3rzh03xe8r"
     },
     {
         "resortName": "Sankt Jakob im Defereggental",
@@ -925,7 +967,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/hzj22ps98jjyq70w7pbwq9iordky"
     },
     {
         "resortName": "Sankt Johann im Tyrol",
@@ -946,7 +989,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/r4jb2r7b8iooopmufajih16i8s2n"
     },
     {
         "resortName": "Seefeld",
@@ -967,7 +1011,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/3fzs6jbw7a65p4zrbjohcr3fplg7"
     },
     {
         "resortName": "Stubaital (Stubaier Gletscher)",
@@ -988,7 +1033,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4vieateyjry336jjsvytzzr55235"
     },
     {
         "resortName": "SkiWelt (Wilder Kaiser – Gosau, Scheffau, Ellmau - Going, Söll, Brixen, Westendorf, Hopfgarten - Itter - Kelchsau)",
@@ -1009,7 +1055,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/lpne2y9pktqixvvez2pkv2ku9pui"
     },
     {
         "resortName": "Zillertal Arena (Zell, Gerlos, Königsleiten, Hochkrimml)",
@@ -1030,7 +1077,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jlcrphcrb3yjvo6iejbfrln2zad8"
     },
     {
         "resortName": "Hintertuxer Gletscher (Zillertal)",
@@ -1051,7 +1099,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/d16h9fcx854nrtj8vdlz38ovg2jm"
     },
     {
         "resortName": "Kasberg (Grünau im Almtal)",
@@ -1072,7 +1121,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6hsza37v3a6u2drukq4avajl79v1"
     },
     {
         "resortName": "Krippenstein (Dachstein Obertraun Freesports Arena)",
@@ -1093,7 +1143,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/80eyasah6cosh8vpu0bji2ohnyor"
     },
     {
         "resortName": "Postalm",
@@ -1114,7 +1165,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fv8xd3rbaxpl7seiqqk2beffjn1k"
     },
     {
         "resortName": "Loser",
@@ -1135,7 +1187,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/idb17c3w1qwshc5zwkonnvwmud56"
     },
     {
         "resortName": "Feuerkogel",
@@ -1156,7 +1209,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/elezxi6tkedpgyscbf10qhmzn19t"
     },
     {
         "resortName": "Hinterstoder",
@@ -1177,7 +1231,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/txvaw2vu80zkdegdrf3i0duu0hoc"
     },
     {
         "resortName": "Hochficht",
@@ -1198,7 +1253,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0keht7rm9r1bk1w2869wxglccbu9"
     },
     {
         "resortName": "Hohe-Wand-Wiese",
@@ -1219,7 +1275,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9a1n0h68lbuqfb09107witfpvigl"
     },
     {
         "resortName": "Rangger Köpfl",
@@ -1240,7 +1297,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/yaigwf4yg4ou6hlq3447dd2oy7m2"
     },
     {
         "resortName": "Kühtai",
@@ -1261,7 +1319,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7oubx6e0iwebj8z6gqhvpdscyqb6"
     },
     {
         "resortName": "Muttereralm",
@@ -1282,7 +1341,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cvhtobd7ny9zg28eulgzs49lejgu"
     },
     {
         "resortName": "Neustift (11ER Lifte)",
@@ -1303,7 +1363,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/duliirokjkt04ckbuy20jul6i2yx"
     },
     {
         "resortName": "Schlick 2000",
@@ -1324,7 +1385,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pyeep3x2bzmfz9ts676hijhn0t65"
     },
     {
         "resortName": "Patscherkofel",
@@ -1345,7 +1407,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pusghqi5l2lw2lknne52brxibdeg"
     },
     {
         "resortName": "Glungezer (Tulfes)",
@@ -1366,7 +1429,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ja56txvqai6v52ercvq5j5z3wpbx"
     },
     {
         "resortName": "Bergeralm",
@@ -1387,7 +1451,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/685z6ufne39at7sdusj99z3ailo3"
     },
     {
         "resortName": "Otztal (Obergurgl-Hochgurgl)",
@@ -1408,7 +1473,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/90t9bjzf6khirpwgy03bux4wdgkm"
     },
     {
         "resortName": "Pitztaler Gletscher (Rifflsee)",
@@ -1429,7 +1495,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/iba7e9md71h2zozo0hcmnswe9q8b"
     },
     {
         "resortName": "Wurzeralm",
@@ -1450,7 +1517,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/k1zvjv4zfyndgwcgzee6dbjdk4s2"
     },
     {
         "resortName": "Alberschwende im Bregenzerwald",
@@ -1471,7 +1539,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vo2o09bys2c60uxa6cgaaqjoq77j"
     },
     {
         "resortName": "Andelsbuch (Bezau)",
@@ -1492,7 +1561,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ybz9zgf81brydk4ea1w28z0swtix"
     },
     {
         "resortName": "Bödele (Schwarzenberg, Dornbirn)",
@@ -1513,7 +1583,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1jhx51ngrkug3fyhs7jz5wl6ponx"
     },
     {
         "resortName": "Brandnertal (Brand, Burserberg)",
@@ -1534,7 +1605,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eqfv21mxyr6fo5oeezjqhz1jjyha"
     },
     {
         "resortName": "Diedamskopf (Schoppernau)",
@@ -1555,7 +1627,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/l792t5973ij4587dbbgff1myvloi"
     },
     {
         "resortName": "Damüls-Mellau (Au, Damüls, Mellau)",
@@ -1576,7 +1649,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/f2yfdym2cw9ww9fpmn80hugfuspu"
     },
     {
         "resortName": "Fontanella-Faschina",
@@ -1597,7 +1671,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9t5n7hn05f1usvqlvrxpsbqbonz4"
     },
     {
         "resortName": "Gapfohl-Laterns (Innerlaterns)",
@@ -1618,7 +1693,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sz7eg2dg78vctps03hho5oqwu1sj"
     },
     {
         "resortName": "Gargellen",
@@ -1639,7 +1715,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9wfvvumughpg715jg4rihwnp2bbi"
     },
     {
         "resortName": "Golm (Tschagguns, Vandans, Matschwitz)",
@@ -1660,7 +1737,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ghplusar07xnv9qfjirow88jm2e0"
     },
     {
         "resortName": "Silvretta Montafon (Hochjoch, Nova)",
@@ -1681,7 +1759,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4f05y8vyjgsjnduna1y6p62p3ob9"
     },
     {
         "resortName": "Hochhäderich Alpenarena (Hittisau)",
@@ -1702,7 +1781,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vqeg8ad2jvlp29013bzdw0u6xt9s"
     },
     {
         "resortName": "Hochlitten Riefensberg",
@@ -1723,7 +1803,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wjun9pm933kc354z49mpcgx14qhl"
     },
     {
         "resortName": "Kristberg-Silbertal (Montafon)",
@@ -1744,7 +1825,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bwtj8zbi27khv55g2nvgytpqeo8b"
     },
     {
         "resortName": "Pfänder (Bregenz)",
@@ -1765,7 +1847,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/z59xaoch2vjwue5owu7d3lk3i8k2"
     },
     {
         "resortName": "Schetteregg (Egg im Bregenzerwald)",
@@ -1786,7 +1869,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4i4rwbtjsture3pkdp6tzp46x7g8"
     },
     {
         "resortName": "Sonnenkopf (Klösterle)",
@@ -1807,7 +1891,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/uo8fhyxp6qfjzf93g7n4lbiavapq"
     },
     {
         "resortName": "Sonntag Stein",
@@ -1828,7 +1913,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4ev5zhgg9nokyek4sg34on1s4w8f"
     },
     {
         "resortName": "Ankogel - Mallnitz",
@@ -1849,7 +1935,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8ujfolxk1qpgtq7j19chv98si5lw"
     },
     {
         "resortName": "Oetz - Hochötz",
@@ -1870,7 +1957,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dp44zo4okr0opi3l1lp2h4d9m5wz"
     },
     {
         "resortName": "Schneewinkel Tirol (St. Johann in Tirol, Fieberbrunn, Weißach-Hochkogel, Reit im Winkl - Winklmoos, Kirchdorf, Erpfendorf, Waidring - Steinplatte, Pillersee)",
@@ -1891,7 +1979,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ccz1j6atoy5x7tuz1wugcq6775x4"
     },
     {
         "resortName": "Hochalmlifte Christlum",
@@ -1912,7 +2001,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/yptc3cgpwr8adz2krxuyrtl2povw"
     },
     {
         "resortName": "Kals - GG Resorts Kals-Matrei",
@@ -1933,7 +2023,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6l86hp56npcpvl82rg4o1g3skzmf"
     },
     {
         "resortName": "Kreischberg",
@@ -1954,7 +2045,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/m9hpxeqcj79zqc2derolcdtcpkto"
     },
     {
         "resortName": "Zugspitz Arena",
@@ -1975,7 +2067,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/73pn2szdktgoxg0izalpy1o8u4x6"
     },
     {
         "resortName": "Serfaus Fiss Ladis",
@@ -1996,7 +2089,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xizokc2rdt1r7pjkb7p87p3fc53n"
     },
     {
         "resortName": "Mölltaler Gletscher",
@@ -2017,7 +2111,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/x798ibq463atwfpz596c7nz48aov"
     },
     {
         "resortName": "Rauris",
@@ -2038,7 +2133,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/u82iq45d7iqfj8u667qebdcf3w2q"
     },
     {
         "resortName": "Jungholz",
@@ -2059,7 +2155,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zso7drgr4rje1sqfh2tuf3t0nc2e"
     },
     {
         "resortName": "Hochzillertal / Hochfügen",
@@ -2080,7 +2177,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ukh8yay2k12blh1vpuzl2clmtkqw"
     },
     {
         "resortName": "Werfenweng",
@@ -2101,7 +2199,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9jg64clqzvub7qej3y93zlx891a9"
     },
     {
         "resortName": "Karkogel / Abtenau",
@@ -2122,7 +2221,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/92v1evfc04m4ftzezct4n9dlh7b3"
     },
     {
         "resortName": "Almenwelt Lofer",
@@ -2143,7 +2243,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ztv0rfqiey2wplhrq554jue5ehmx"
     },
     {
         "resortName": "Venet",
@@ -2164,7 +2265,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/q0enqodqro04cu1v26qbjsulruv3"
     },
     {
         "resortName": "Reuttener Seilbahnen",
@@ -2185,7 +2287,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6sqsio8dl460i55rd7qrsbt0fzt6"
     },
     {
         "resortName": "Grünberg Obsteig",
@@ -2206,7 +2309,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/r40wbv9s1c0t657drlev6xfc13cd"
     },
     {
         "resortName": "Kellerjoch Schwaz",
@@ -2227,7 +2331,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5n3mc3003ylb7kqe3w9tu3188zyw"
     },
     {
         "resortName": "Heutal",
@@ -2269,7 +2374,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/t4dr3unsofoy3mqojvsyxi5l92rv"
     },
     {
         "resortName": "Goldegg",
@@ -2311,7 +2417,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/yuqkkqayen84dv4i5spcrgf1x0y7"
     },
     {
         "resortName": "Otztal (Vent - Stablein)",
@@ -2332,7 +2439,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zbs671inrxd0wrzyiu6zprt71spg"
     },
     {
         "resortName": "Hochkössen (Unterberg)",
@@ -2353,7 +2461,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/j06edwkqxr3f83xnw1mwqzugitcx"
     },
     {
         "resortName": "Hochpustertal - Sillian",
@@ -2374,7 +2483,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2c8if80q43wvlzm2qvea9zebmx3z"
     },
     {
         "resortName": "Wildkogel Arena (Neukirchen - Bramberg)",
@@ -2395,7 +2505,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5a7l5y7mv8ob9qapl4vgardy84at"
     },
     {
         "resortName": "Zahmer Kaiser (Walchsee)",
@@ -2416,7 +2527,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eeqylnx9a4g23owiqx06glntv8p1"
     },
     {
         "resortName": "Riesneralm",
@@ -2437,7 +2549,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/d0cttbr1kcvhamywsq8izjztowfj"
     },
     {
         "resortName": "Planneralm",
@@ -2458,7 +2571,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/oac0ei8c18dbc2ydsyl8tx8e6b5k"
     },
     {
         "resortName": "Niederalpl",
@@ -2479,7 +2593,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xkffiewclu7rodxlcea7hwc6mbqw"
     },
     {
         "resortName": "Nauders (Reschenpass)",
@@ -2500,7 +2615,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/p4oraibwvegxdx1qluyle4yeaya0"
     },
     {
         "resortName": "Goldeck",
@@ -2521,7 +2637,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bud6sr2orj29kvtyzfkg45nmm0o4"
     },
     {
         "resortName": "Weissensee",
@@ -2542,7 +2659,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/kukcjkob620wnq6g74xawduo37sy"
     },
     {
         "resortName": "Weißbriach",
@@ -2563,7 +2681,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/go8n78dd2hi560cu5jguq5qytp99"
     },
     {
         "resortName": "Flattnitz",
@@ -2584,7 +2703,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ae3ekii382pk6jrscc93bu6xbpzw"
     },
     {
         "resortName": "Weinebene",
@@ -2605,7 +2725,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9d14v0wrbcniw53oisvcaq974xml"
     },
     {
         "resortName": "Klippitztörl",
@@ -2626,7 +2747,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0zpqnu1tonr81wy1ygffr6usa5l0"
     },
     {
         "resortName": "Heidi Alm",
@@ -2647,7 +2769,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/etl4jbo9lq6u8y4snbt7yj2k9wzn"
     },
     {
         "resortName": "Hochrindl",
@@ -2668,7 +2791,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/14f8xwja2xqv7whcjtnctu3b1d8n"
     },
     {
         "resortName": "Emberger Alm",
@@ -2689,7 +2813,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ibsy0c0sjdzina8fc9prfh2wprpn"
     },
     {
         "resortName": "Kötschach-Mauthen",
@@ -2710,7 +2835,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4lftfzft8s20zmz76xp09oynumbu"
     },
     {
         "resortName": "Fanningberg",
@@ -2731,7 +2857,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fgikbz9iw4jwrpmqjui9j43edqzy"
     },
     {
         "resortName": "Galsterberg",
@@ -2752,7 +2879,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/d7q5j44sj6yditjoyq11jgkqcje7"
     },
     {
         "resortName": "Zauchensee",
@@ -2773,7 +2901,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fzh9g4i64kvf0wbxqn6dipuyfrvv"
     },
     {
         "resortName": "Rofan Seilbahn",
@@ -2794,7 +2923,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/djmdkeleod1arle3n9qbs7mqgens"
     },
     {
         "resortName": "Zinkenlifte Bad Dürrnberg",
@@ -2815,7 +2945,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/879hoztyoktp0k557aby7uymat4g"
     },
     {
         "resortName": "Aflenz Bürgeralm",
@@ -2836,7 +2967,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/z59j28p4eeqdwcccbaaaf15azs1r"
     },
     {
         "resortName": "Karwendel Bergbahn",
@@ -2857,7 +2989,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/na98n8t7gq08ghd7fe8f3ddu9xod"
     },
     {
         "resortName": "Rohr Im Gebirge",
@@ -2878,7 +3011,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/m0il6rfw4786gmumiquawfnrvg66"
     },
     {
         "resortName": "Aichelberglifte Karlstift",
@@ -2899,7 +3033,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wex2akk4rr92pkciqjfklyg2yrlu"
     },
     {
         "resortName": "Harmannschlag",
@@ -2920,7 +3055,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cirllx0tc91gewm82s4n5cgz30ff"
     },
     {
         "resortName": "Göllerlifte",
@@ -2941,7 +3077,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/o4oj5w8zdviuefrtz43ux1xfelk3"
     },
     {
         "resortName": "Präbichl/Vordernberg",
@@ -2962,7 +3099,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ndb8kxs9byqe6mmnqvpmueysf1m7"
     },
     {
         "resortName": "Ramsau am Dachstein ",
@@ -2983,7 +3121,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/3f5du6l3qz9rakhxlgg1tvmjp4hf"
     },
     {
         "resortName": "Fageralm",
@@ -3004,7 +3143,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0utsddvf854ax8hy82v3027gg7i6"
     },
     {
         "resortName": "Grebenzen",
@@ -3025,7 +3165,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/h7ld4t381x5sr8fvfh8mq4y9k98a"
     },
     {
         "resortName": "Tirolina Hinterthiersee",
@@ -3046,7 +3187,8 @@ var austriaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/h5vdya528uqf760japyfzq9nc89a"
     },
     {
         "resortName": "Schneeberglifte Thiersee",

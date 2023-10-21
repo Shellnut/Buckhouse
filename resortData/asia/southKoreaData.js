@@ -18,7 +18,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cz30gnvn16mb80j8apcwqkp201o8"
     },
     {
         "resortName": "Daemyung Vivaldi Park",
@@ -39,7 +40,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cu0om5s225tfeqdr2nnvt2829xta"
     },
     {
         "resortName": "Elysian Gangchon",
@@ -60,7 +62,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fy2buors3g20nsjgruzaado7iz1m"
     },
     {
         "resortName": "Welli Hilli Park (Hyundai Sungwoo)",
@@ -81,7 +84,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fpp8islj0kk57rsfep8cwzx040dc"
     },
     {
         "resortName": "Jisan Forest",
@@ -102,7 +106,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4d1jm0cyfvhpgunaywhg8pua0b7n"
     },
     {
         "resortName": "Muju",
@@ -123,7 +128,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/q0bbnvff36ib6800d0ob7fmzchok"
     },
     {
         "resortName": "Bokwang Phoenix Park Resort (휘닉스 스노우파크)",
@@ -144,7 +150,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fg87nc2vjnf8aejjr73017nv4ept"
     },
     {
         "resortName": "Yongpyong",
@@ -165,7 +172,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/chslseksi18qf7qmysnnvqpcwcpg"
     },
     {
         "resortName": "High 1 or Gangwon Land",
@@ -186,7 +194,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/og7dqdhsfxke5ukg2mpwt9y70jw7"
     },
     {
         "resortName": "Starhill Resort",
@@ -207,7 +216,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/v3mp9sp1w1b7j3dwse403fig39aj"
     },
     {
         "resortName": "Alpensia",
@@ -228,7 +238,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/uyp1v2wb3cqjdjrauweyzmam9a0s"
     },
     {
         "resortName": "Yangji Pine Resort",
@@ -249,7 +260,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xw1pk0clwtxbkmneqbrqit815bwi"
     },
     {
         "resortName": "O2",
@@ -270,7 +282,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/g7h5jheqh0aotj30cw9ubfdp36o2"
     },
     {
         "resortName": "Konjiam",
@@ -291,7 +304,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9s73nnrzxa1oughjr904hb6n0rm6"
     },
     {
         "resortName": "Oak Valley",
@@ -312,7 +326,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/s09gzw67nijsvbzv913xz2sr0vsg"
     },
     {
         "resortName": "Gangwa Seaside Resort",
@@ -333,7 +348,8 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2ctf29to5vx1v0ig3iincwrg4rqv"
     },
     {
         "resortName": "Eden Valley",
@@ -354,6 +370,7 @@ var southKoreaData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/c5g7ie775sjru1np2xw6dpa43vif"
     }
 ];

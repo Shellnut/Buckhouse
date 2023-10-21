@@ -18,7 +18,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4ybx598cx6ah6xqrocv9uyrvuxt3"
     },
     {
         "resortName": "Hafjell",
@@ -39,7 +40,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ehc0g2zog7nues66zbnmtu83cb84"
     },
     {
         "resortName": "Hemsedal",
@@ -60,7 +62,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/e37eswk96vt6mpafzwbdk7af0cnf"
     },
     {
         "resortName": "Kvitfjell",
@@ -81,7 +84,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mntqeupmbglbzb1ms7efsd4vfzil"
     },
     {
         "resortName": "Narvik",
@@ -102,7 +106,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2hxi34bptocar8rjnjhc9cyt7wrr"
     },
     {
         "resortName": "Oppdal",
@@ -123,7 +128,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/upybmyui5fzkgfelagzxfvukosb5"
     },
     {
         "resortName": "Tromsø Alpinpark",
@@ -144,7 +150,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9nnudsckrkn3n2vlozqomel9tibt"
     },
     {
         "resortName": "Tryvann",
@@ -165,7 +172,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/j7ak8pp040o02lc790x5vh3xszsu"
     },
     {
         "resortName": "Trysil",
@@ -186,7 +194,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/it2azro81wz3456zqsohhv0sm100"
     },
     {
         "resortName": "Gaustablikk Skisenter",
@@ -207,7 +216,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/26lel3atodgtv4yiqejmqbn9veaf"
     },
     {
         "resortName": "Gaustablikk",
@@ -249,7 +259,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jkfkkmy9ynqmdtl1yvrcwsqdqjrs"
     },
     {
         "resortName": "Vassfjellet Skiheiser AS",
@@ -270,7 +281,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nuc6mfp0d94wm66tzwiafzeb3diw"
     },
     {
         "resortName": "Hovden",
@@ -291,7 +303,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9eik2tghrtfenss06qb6p5d6mxsq"
     },
     {
         "resortName": "Røldal Skisenter",
@@ -312,7 +325,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6s0yvxx3kr58sbi2vo7lwbjqv8xo"
     },
     {
         "resortName": "Grong Skisenter",
@@ -333,7 +347,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4zctfo0u6kc5oaook2uob2a6ss87"
     },
     {
         "resortName": "Sunnmørsalpene Skiarena",
@@ -354,7 +369,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bp9wxoobeszl0orzvo021tlhgsof"
     },
     {
         "resortName": "Bortelid",
@@ -375,7 +391,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/av7cn5ces21hnfh6pc8zi1exf4gu"
     },
     {
         "resortName": "Uvdal Alpinpark",
@@ -396,7 +413,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rpei2q127gznknju0vzqkenj2365"
     },
     {
         "resortName": "Al",
@@ -417,7 +435,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mwdi9t3a61jwewdb0zpcu05kyu1u"
     },
     {
         "resortName": "Storefjell Resort",
@@ -438,7 +457,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cq1oevi4dg31ua2qdldcw1kwz8qx"
     },
     {
         "resortName": "Vrådal Panorama",
@@ -459,7 +479,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pxvad5ejkrxmac4ljyxt2buisktj"
     },
     {
         "resortName": "Fidjeland",
@@ -480,7 +501,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5669vwgft1ljshpbkk4hocfur5sy"
     },
     {
         "resortName": "Fjellhaugen",
@@ -501,7 +523,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pxuj0hmxijy2avjqtnw4ngtar2oc"
     },
     {
         "resortName": "Raulandsfjell",
@@ -522,7 +545,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/hr7arnz4zhy11p28bfrw7yankorl"
     },
     {
         "resortName": "Rauland",
@@ -543,7 +567,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jl7sj8jmf60g7gy3476l8j8fsd4o"
     },
     {
         "resortName": "Vierli",
@@ -564,7 +589,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/c2fhwn02bcw5p8fccarb75kkdanr"
     },
     {
         "resortName": "Sysendalen",
@@ -585,7 +611,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bpsvg9b0rn2suovd2p1x97uczpt0"
     },
     {
         "resortName": "Breimsbygda",
@@ -606,7 +633,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/74tt909l8ms98wn6yzozya2wfo3s"
     },
     {
         "resortName": "Hornindal",
@@ -627,7 +655,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/myom3wulsy5mbrlwxwtqwx4hxge0"
     },
     {
         "resortName": "Sollifjellet",
@@ -648,7 +677,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/oo96juuhmxj06arkgdvt4k9z8d04"
     },
     {
         "resortName": "Glomfjord Alpinsenter",
@@ -669,7 +699,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/747q2cpafqi5b4ovdx4aww43z4aw"
     },
     {
         "resortName": "Fulufjellet",
@@ -690,7 +721,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/s7fpq2i1bcmz5u2uzxm8obtqobz2"
     },
     {
         "resortName": "Sulitjelma Fjellandsby",
@@ -711,7 +743,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4i5p38h4dlvjeow6skdxjd2pmo8f"
     },
     {
         "resortName": "Rauma",
@@ -732,7 +765,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/v8crb02uycl1r6fjln3jdma6zg7v"
     },
     {
         "resortName": "Skeikampen",
@@ -753,7 +787,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/vqypvc59gjs36zyzvkhylacevrtz"
     },
     {
         "resortName": "Solheisen",
@@ -774,7 +809,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/h1xhbbtxzzgkoqul9klts8zfyjel"
     },
     {
         "resortName": "Tyin-Filefjell",
@@ -795,7 +831,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mcmzogyb5ygxu170tiwv2kp4di7a"
     },
     {
         "resortName": "Tusten",
@@ -816,7 +853,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/g7wf2k1bcuteovi65wxwgp11h0jl"
     },
     {
         "resortName": "Sogndal",
@@ -837,7 +875,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/etkhetsda46n6f0r3p7tjd30u9pz"
     },
     {
         "resortName": "Orsta",
@@ -858,7 +897,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/u02i0niyt1g4mspavnd72w4tlwsf"
     },
     {
         "resortName": "Volda",
@@ -879,7 +919,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8vfuwr1s1sepxyjcog9cy7joxbrm"
     },
     {
         "resortName": "Sogn Skisenter",
@@ -900,7 +941,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2sszg1dk64wyk07mif3y45ddf29n"
     },
     {
         "resortName": "Galdhopiggen Sommerskisenter",
@@ -942,7 +984,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/p6h1beszqb9bb8kgcbb6dxftdfc5"
     },
     {
         "resortName": "Orskogfjell",
@@ -963,7 +1006,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/js9tnmrnczv71tcpu1shino04ogj"
     },
     {
         "resortName": "Arena Overoye",
@@ -984,7 +1028,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dqsd4u6erg2a16dc4k78q3nwaavb"
     },
     {
         "resortName": "Vaset",
@@ -1005,7 +1050,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bliopxcausiuzj8y1ivsn8336uo6"
     },
     {
         "resortName": "Vestvatn",
@@ -1026,7 +1072,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ftaqte95qxo4dkod3nu7yzxpym8x"
     },
     {
         "resortName": "Hummelfjell",
@@ -1047,7 +1094,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2d6pg4iv664iy9hamtpeuhplu534"
     },
     {
         "resortName": "Rena",
@@ -1068,7 +1116,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/drxksb3zm7k9al86xf95fim38sjp"
     },
     {
         "resortName": "Skaidi",
@@ -1089,7 +1138,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gem07zfw0mhw0fe19bd0fhjn9sco"
     },
     {
         "resortName": "Uvdal Skisenter",
@@ -1110,7 +1160,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eyqrl0uz4j4f3j8jfyasaspn241t"
     },
     {
         "resortName": "Spatind",
@@ -1131,7 +1182,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/4vy7wygnk1vz52ur46pdf5xsjsy2"
     },
     {
         "resortName": "Knaben",
@@ -1152,7 +1204,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7gs6ynii87pkztw02av9x7ptm3au"
     },
     {
         "resortName": "Skillevollen",
@@ -1194,7 +1247,8 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wu8qg7p0po9cp2lquwsodjjr7a3u"
     },
     {
         "resortName": "Skarslia",
@@ -1215,6 +1269,7 @@ var norwayData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/w1g7jx52t5ywzttuhxf9r311ndxw"
     }
 ];

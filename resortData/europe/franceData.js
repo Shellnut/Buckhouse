@@ -18,7 +18,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9xgc9hn1ytixebz4bkzufaf8makl"
     },
     {
         "resortName": "Le Grand Puy",
@@ -39,7 +40,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/crh45p9lu63k2v2mifb02ugs3jxw"
     },
     {
         "resortName": "Espace Lumière (Pra Loup, Val d'Allos, La Foux)",
@@ -60,7 +62,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qetx7lmao4uadvo6m4whxwqr1on0"
     },
     {
         "resortName": "Saint-Jean Montclar",
@@ -81,7 +84,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fy4hpo2oiwupdcz8abbapxb4rbb1"
     },
     {
         "resortName": "Sainte-Anne la Condamine",
@@ -102,7 +106,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fw9mj3uo6en9fifud4bla5yb32r0"
     },
     {
         "resortName": "Super Sauze",
@@ -123,7 +128,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/139eh0zy25cloe5iln3pcrehior7"
     },
     {
         "resortName": "Val d'Allos - Le Seignus",
@@ -144,7 +150,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/k3lma7v40b47c1n7r8batqej5tz1"
     },
     {
         "resortName": "Abriès-Ristolas",
@@ -165,7 +172,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8fupzilabzh18rxjztmufxvp19s9"
     },
     {
         "resortName": "Aiguilles",
@@ -186,7 +194,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zakvx8scr04llsflx4mm9yrlv2ki"
     },
     {
         "resortName": "Ancelle",
@@ -207,7 +216,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7ci0ued0c2tif13jenv3c0shapjl"
     },
     {
         "resortName": "Arvieux",
@@ -228,7 +238,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wbultptvafkisxyazf6jne15hxao"
     },
     {
         "resortName": "Ceillac",
@@ -249,7 +260,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mveb9g55hw97vmcm3jvwutjd87pd"
     },
     {
         "resortName": "Chaillol",
@@ -270,7 +282,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/m71lzzjdywtmy7jagkchg3ehucqd"
     },
     {
         "resortName": "Crévoux",
@@ -291,7 +304,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/lwi65qwt6f56lqk5ja4xatz7ajz0"
     },
     {
         "resortName": "Dévoluy",
@@ -312,7 +326,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/96b625xituxc61ms4m9pwddmb4bt"
     },
     {
         "resortName": "Laye",
@@ -333,7 +348,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dm05kq0a322vylfg5jym9mpm16va"
     },
     {
         "resortName": "Le Chazelet",
@@ -354,7 +370,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/obvdqwqqxf2d53y8p7ejee8xqgar"
     },
     {
         "resortName": "Les Orres",
@@ -375,7 +392,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8dmvp4mrfiduohwrppgdlbrmjm86"
     },
     {
         "resortName": "Montgenèvre",
@@ -396,7 +414,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/l57ujd3eywczmf9y7fo79innjnp6"
     },
     {
         "resortName": "Orcières",
@@ -417,7 +436,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/css0erha5x5x4tped1p4apxvv1aa"
     },
     {
         "resortName": "Pelvoux-Vallouise",
@@ -438,7 +458,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cptjji31c3t0juqb0aqox6mg2h5t"
     },
     {
         "resortName": "Puy Saint-Vincent",
@@ -459,7 +480,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rn82xn19cb0boz1sgdk57hk91oj5"
     },
     {
         "resortName": "Réallon",
@@ -480,7 +502,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5o423mh741ixi7kcl6vhl7m8417w"
     },
     {
         "resortName": "Saint-Léger-les-Mélèzes",
@@ -501,7 +524,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pkv1oqyii1s31yvi61xk670sbojm"
     },
     {
         "resortName": "Serre Chevalier Vallée",
@@ -522,7 +546,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pntxtz5b6lknsje1lnruurbxki30"
     },
     {
         "resortName": "Vars - Risoul",
@@ -543,7 +568,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/u890cf7fwan1x42w65n8avz44if9"
     },
     {
         "resortName": "Auron Saint-Etienne-de-Tinée",
@@ -564,7 +590,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/kqfytj3dj56lfuf9afm23fb5gkn7"
     },
     {
         "resortName": "Gréolières-les-Neiges",
@@ -585,7 +612,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nginsr0j8ms1marg1l5bog592b23"
     },
     {
         "resortName": "Isola 2000",
@@ -606,7 +634,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6ntkuxwi9wim3uklhq4kasx7l9q7"
     },
     {
         "resortName": "L'Audibergue",
@@ -627,7 +656,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/867sstvo7r2hxoqfi2s7ki5zevnj"
     },
     {
         "resortName": "Roubion-les-Buisses",
@@ -648,7 +678,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qyyvlz3sev677tfm7xjhtjjl5434"
     },
     {
         "resortName": "Turini-Camp-d'Argent",
@@ -669,7 +700,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/c0qcybqrbjpb6itltn6n5kvttp18"
     },
     {
         "resortName": "Valberg / Beuil Les Launes",
@@ -690,7 +722,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/c8g4v51gs98oykrcwo0ietn91okt"
     },
     {
         "resortName": "Val Pelens",
@@ -711,7 +744,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/pw0j7w27kplmwpq92ebg232rcg6f"
     },
     {
         "resortName": "Col de Rousset",
@@ -732,7 +766,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/97e3inufciklsh6iodz429f5ue51"
     },
     {
         "resortName": "La Jarjatte",
@@ -753,7 +788,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ekg2yzu2ewj7ckuo3f2pfpvr03oo"
     },
     {
         "resortName": "Autrans",
@@ -774,7 +810,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6rzcjtmwev1x7n0uni0un6bnvmn2"
     },
     {
         "resortName": "Chamrousse",
@@ -795,7 +832,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/s1fy0l0p7kpr18o5ozb37qx4kwj6"
     },
     {
         "resortName": "Col d'Ornon",
@@ -816,7 +854,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/81ta3qsdomerx4qtff1pu2suvxr0"
     },
     {
         "resortName": "Col de Porte",
@@ -837,7 +876,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/laxkbm8bqb2yy6bkmim9lgqqpffm"
     },
     {
         "resortName": "Col de Romeyère",
@@ -858,7 +898,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ctr5y7rh7cqtanlly4dxnwyepjm9"
     },
     {
         "resortName": "Gresse-en-Vercors",
@@ -879,7 +920,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5296myptiswbf5rwj3yxiq4ojwlb"
     },
     {
         "resortName": "La Grave La Meije",
@@ -900,7 +942,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xcybdul2oql7gk48bibtnbgxbffm"
     },
     {
         "resortName": "La Motte-d'Aveillans (Les Signaraux)",
@@ -921,7 +964,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/162r91z595co8d84hbgjmkll6pff"
     },
     {
         "resortName": "Lans-en-Vercors",
@@ -942,7 +986,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rq2l4yqvtpczhbrkt6tsrkfdcgqu"
     },
     {
         "resortName": "L'Alpe du Grand Serre",
@@ -963,7 +1008,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ul1p49i0tafds5ysn50zno2tdkmk"
     },
     {
         "resortName": "Alpe d'Huez (Grand Rousses)",
@@ -984,7 +1030,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7pyd7f7w03h9m45fg709z9dwycs2"
     },
     {
         "resortName": "Le Barioz",
@@ -1005,7 +1052,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/v31hpeoifrywmpdtsr38xorted49"
     },
     {
         "resortName": "Le Collet d'Allevard",
@@ -1026,7 +1074,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bqkx27njboyk33pjgibd1ynlrx8s"
     },
     {
         "resortName": "Les Deux Alpes",
@@ -1047,7 +1096,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qjfjvohk3mih3revhqgd8kznfcov"
     },
     {
         "resortName": "Les Sept-Laux",
@@ -1068,7 +1118,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0ego23i8sdnpvoesw45go3k9ilww"
     },
     {
         "resortName": "Méaudre",
@@ -1089,7 +1140,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/kkb10guhkun04upwp9dj2123hk4e"
     },
     {
         "resortName": "Saint Nizier du Moucherotte",
@@ -1110,7 +1162,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/te89116n2x10nje71cglhdxes3j8"
     },
     {
         "resortName": "Saint Pierre de Chartreuse – Le Planolet",
@@ -1131,7 +1184,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/bs28r2b72yez0tyqpqzd3rg0reap"
     },
     {
         "resortName": "Espace Villard de Lans / Corrençon en Vercors",
@@ -1152,7 +1206,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/jgpb4pb8hgnboq10dn5x4jvcap6i"
     },
     {
         "resortName": "Albiez",
@@ -1173,7 +1228,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/z4mmlnxlsg0csgcvqfj9vweamtcq"
     },
     {
         "resortName": "Arêches-Beaufort",
@@ -1194,7 +1250,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9ix7y1bie2yuw76p7nikyq1onke2"
     },
     {
         "resortName": "Aussois",
@@ -1215,7 +1272,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/oxqy5zhzcdvc0gacpioqj1y1a0yt"
     },
     {
         "resortName": "Bessans",
@@ -1236,7 +1294,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8o6butmgryzeurn925ygpuy5k08v"
     },
     {
         "resortName": "Bonneval sur Arc",
@@ -1257,7 +1316,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/htrwc21tdka7ahznzv3bibmdemt7"
     },
     {
         "resortName": "Savoie Grand Revard",
@@ -1278,7 +1338,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/wqfng7kn8b76rxo8d5rulvvgx39y"
     },
     {
         "resortName": "Granier",
@@ -1299,7 +1360,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/tg7efamvzjwg5l51vkq0cew36ylf"
     },
     {
         "resortName": "Les Rafforts - Hery-sur-Ugine",
@@ -1320,7 +1382,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0m69wco2jc5d0gvavzp8bstjfezb"
     },
     {
         "resortName": "La Norma",
@@ -1341,7 +1404,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ncux9ytvo3butyj1vdjtaw9qfv88"
     },
     {
         "resortName": "La Rosière",
@@ -1362,7 +1426,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/q5cw9aac2o9pjuqtmcyp7wnotwkb"
     },
     {
         "resortName": "Les Sybelles (Le Corbier, ​La Toussuire, Les Bottières, St Colomban des Villards, St Sorlin, St Jean d’Arves)",
@@ -1383,7 +1448,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/j9ef3pd5b65bstnbw6cqsglm9wls"
     },
     {
         "resortName": "Les Aillons",
@@ -1404,7 +1470,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rho6ldfanrikxu411bgvougi473f"
     },
     {
         "resortName": "Les Entremonts",
@@ -1425,7 +1492,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/lrc57ewevuqcnji0xfmppi7cywqu"
     },
     {
         "resortName": "Les Karellis",
@@ -1446,7 +1514,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7ae59bn40416yfr42tnhzedx5pf7"
     },
     {
         "resortName": "Espace Diamant (Les Saisies, Notre-Dame-de-Bellecombe, Praz sur Arly, Flumet, Crest-Voland)",
@@ -1467,7 +1536,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9aq8oqxjv6adivbdxrl0p1oygugh"
     },
     {
         "resortName": "Pralognan-la-Vanoise",
@@ -1488,7 +1558,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ct0lp6hhq63kg3d6hng725il80sl"
     },
     {
         "resortName": "Saint-François-Longchamp",
@@ -1509,7 +1580,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/amr7fydya93r6u4e1yssyst9x58w"
     },
     {
         "resortName": "Sainte-Foy Tarentaise",
@@ -1530,7 +1602,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6iy8txaw2kvhi3nq5htjzk91pppc"
     },
     {
         "resortName": "Val Cenis",
@@ -1551,7 +1624,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fhg6j6ecm8y6kznqy2xwoae612rp"
     },
     {
         "resortName": "Valfréjus",
@@ -1572,7 +1646,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gneq8p33oqvob82pqacjp56kx8lu"
     },
     {
         "resortName": "Espace Killy (Val D'Isere,  Tignes)",
@@ -1593,7 +1668,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1pfbtxyqanl2cwwri6l3midz2rf7"
     },
     {
         "resortName": "Galibier Thabor (Valmeinier/Valloire)",
@@ -1614,7 +1690,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dtmtrd494p0bbyf1vct0is9grbgl"
     },
     {
         "resortName": "Valmorel",
@@ -1635,7 +1712,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sgw3bmopa4lp6ngfnq1nt0eldax2"
     },
     {
         "resortName": "Argentière - Grands Montets",
@@ -1656,7 +1734,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/uy6gx9rl4ec1tqaiu12i0cxz2a79"
     },
     {
         "resortName": "Bernex",
@@ -1677,7 +1756,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/a430rn7gacw22zidwl1xboifrsx8"
     },
     {
         "resortName": "Chamonix",
@@ -1701,7 +1781,8 @@ var franceData = [
         "skiPass": [
             "Ikon",
             "Mountain Collective"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/3sspyj915x8y9db9vrrlnhrggsws"
     },
     {
         "resortName": "Chapelle d'Abondance",
@@ -1722,7 +1803,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/u1reuzhsfpyypbwbj2dbj6rr2jip"
     },
     {
         "resortName": "Cordon",
@@ -1743,7 +1825,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/k9yb4891n4c1u1nf98rcmu073o2p"
     },
     {
         "resortName": "Grand Massif (Flaine, Les Carroz, Morillon, Samoens, Sixt-Fer-À-Cheval)",
@@ -1764,7 +1847,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/k14w6own4wkoncyk9kal8ayrw78p"
     },
     {
         "resortName": "La Clusaz / Manigod",
@@ -1785,7 +1869,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xfe7lzl0i2edujyqv97ddgxx4c5g"
     },
     {
         "resortName": "Le Grand Bornand",
@@ -1806,7 +1891,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/72zf6ispu26iszfht0t6fmiakn1n"
     },
     {
         "resortName": "Le Semnoz",
@@ -1827,7 +1913,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/32mhwg817epwup0jhyps81iyez2z"
     },
     {
         "resortName": "Les Brasses",
@@ -1848,7 +1935,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/cbwpz92buk84pz84i73fxv9bk2lu"
     },
     {
         "resortName": "Les Contamines-Montjoie",
@@ -1869,7 +1957,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/91ppwof9ivpdu7ma066jpxn7xpp4"
     },
     {
         "resortName": "Les Houches",
@@ -1890,7 +1979,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/kxukt9odezvsyqpcuxseqd5a759y"
     },
     {
         "resortName": "Évasion Mont-Blanc (Combloux/​Megève (whithout Megève - Véry)/La Giettaz (Le Plan)/Cordon/Les Contamines Montjoie/Hauteluce Belleville/Saint Nicolas de Véroce/Demi-Quartier/Saint-Gervais Mont Blanc)",
@@ -1911,7 +2001,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/13cza2scadscnjn68mo1n6ymxhav"
     },
     {
         "resortName": "Montmin - Col de la Forclaz",
@@ -1932,7 +2023,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qsofi9jf6ssu9z0bzbvyxyej9fgd"
     },
     {
         "resortName": "Passy",
@@ -1953,7 +2045,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9pbu0x514nuah8r8utvvntvspccv"
     },
     {
         "resortName": "Praz de Lys",
@@ -1974,7 +2067,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/3m047gfc0w8e37f653v5vky7vgdo"
     },
     {
         "resortName": "Saint-Jean-de-Sixt",
@@ -1995,7 +2089,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/uil4mt4ttexrnmy9ke6forrv79z3"
     },
     {
         "resortName": "La Sambuy (Seythenex)",
@@ -2016,7 +2111,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/m0up05f5kupeukxsi7dq24t7fhwb"
     },
     {
         "resortName": "Sommand",
@@ -2058,7 +2154,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xeoyucw6bv0pbt3dvj1d0vj4lffe"
     },
     {
         "resortName": "Domaine de Balme (La Tour, Vallorcine)",
@@ -2079,7 +2176,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/x818hz96cehanquuaol90u04pqnn"
     },
     {
         "resortName": "Mont Serein",
@@ -2100,7 +2198,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5wnypyh0uoz7vmet5st34zhg0ael"
     },
     {
         "resortName": "Ghisoni",
@@ -2121,7 +2220,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/babt7nhktcdlcwfp40evnhitys8q"
     },
     {
         "resortName": "Vergio",
@@ -2142,7 +2242,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/89dq29ziuq1bbj0dvthouvupje6o"
     },
     {
         "resortName": "Val d'Ese",
@@ -2163,7 +2264,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/onicnwtej5usvas9ww2chv204v8n"
     },
     {
         "resortName": "Arette-La Pierre St. Martin",
@@ -2184,7 +2286,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8nr23ikmhz1fax9g490molnf2zre"
     },
     {
         "resortName": "Artouste",
@@ -2205,7 +2308,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mrjyhirp0n8n9vuon9eyjvgi8kvx"
     },
     {
         "resortName": "Ascou-Pailhères",
@@ -2226,7 +2330,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mx3odxijd1klwh2y0micvp47goib"
     },
     {
         "resortName": "Ax 3 Domaines",
@@ -2247,7 +2352,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0fues44ihhcgvs9pa5gaim0erile"
     },
     {
         "resortName": "Grand Tourmalet/​Pic du Midi – La Mongie/​Barèges",
@@ -2268,7 +2374,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/8yrmphemwc0eumunc5th2ki16yfd"
     },
     {
         "resortName": "Bourg d'oueil",
@@ -2289,7 +2396,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mvrk2q5jtiene9oos91373e7bful"
     },
     {
         "resortName": "Camurac",
@@ -2310,7 +2418,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/009ld73zyyyucmbdif1hvr0eejyo"
     },
     {
         "resortName": "Cauterets (Cirque du Lys, Pont d'Espagne)",
@@ -2331,7 +2440,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xp3b3vors0s6fjyp0fozli1pca22"
     },
     {
         "resortName": "Espace Cambre d'Aze",
@@ -2352,7 +2462,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/an7n0959771ldgncpybc8wtri44m"
     },
     {
         "resortName": "Font-Romeu",
@@ -2373,7 +2484,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qwp7pb7diyulraqm1ec6d06vp9qt"
     },
     {
         "resortName": "Formiguères",
@@ -2394,7 +2506,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/a67nio0po4ktnzunryp8jcviyuey"
     },
     {
         "resortName": "Gavarnie-Gèdre",
@@ -2415,7 +2528,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/hn0yjeb0t9d1dm9t94k3h1zc1xou"
     },
     {
         "resortName": "Goulier-Neige",
@@ -2436,7 +2550,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/luqzt6ho9c1e02tvzruotqllhttl"
     },
     {
         "resortName": "Gourette",
@@ -2457,7 +2572,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rybk4dsrd5oe6i80svwn7kg9g38u"
     },
     {
         "resortName": "Guzet-Neige",
@@ -2478,7 +2594,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6dypb4wm1rzydyt2gedtdrt4tdkm"
     },
     {
         "resortName": "Le Mourtis",
@@ -2499,7 +2616,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/kdiwqe2umqzs5n9h67insc6ub5tx"
     },
     {
         "resortName": "Les Angles",
@@ -2520,7 +2638,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nks3pba4zltbiri1rzzu3pe4hz68"
     },
     {
         "resortName": "Les Monts d'Olmes",
@@ -2541,7 +2660,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dcnyxoidc2f9z3vlsz0dl3qb5c1b"
     },
     {
         "resortName": "Luz Ardiden",
@@ -2562,7 +2682,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/dqj3dl2jzsrvux7xv7qo49z9c493"
     },
     {
         "resortName": "Mijanès-Donezan",
@@ -2583,7 +2704,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1ns1uxdsidpynhp8a7c0edx0xfo5"
     },
     {
         "resortName": "Peyragudes",
@@ -2604,7 +2726,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/r8dscurlcuxythuv91r08wmlnpkv"
     },
     {
         "resortName": "Piau-Engaly",
@@ -2625,7 +2748,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1sqkt1hgsfgd615s1nsv4tmo5c4y"
     },
     {
         "resortName": "Puyvalador Rieutord",
@@ -2646,7 +2770,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eji50v4at8i6jwij2txtcmxc7ia9"
     },
     {
         "resortName": "Saint Lary-Soulan",
@@ -2667,7 +2792,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/a98ud83qho4ess9bk0tx1wferip2"
     },
     {
         "resortName": "Val Louron",
@@ -2688,7 +2814,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/mxowfwr0dm7kq5jdvn5ft6lsillo"
     },
     {
         "resortName": "Ballon d'Alsace",
@@ -2709,7 +2836,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/hlk8lpx0v1cygzdz2z57qwi8crp2"
     },
     {
         "resortName": "Brabant",
@@ -2730,7 +2858,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/0nljxp0o7vonx294n8g98lc7gc7h"
     },
     {
         "resortName": "Bussang - Larcenaire",
@@ -2751,7 +2880,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gkln50gu40r53goc9mdawz3rszl1"
     },
     {
         "resortName": "Le Col des Bagenelles",
@@ -2772,7 +2902,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/nh7gve4gtjr066jljg34mxf7cj14"
     },
     {
         "resortName": "Gérardmer",
@@ -2793,7 +2924,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ih75jmek1mm2rt36lcz4ph00cauv"
     },
     {
         "resortName": "La Bresse Hohneck",
@@ -2814,7 +2946,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/2osfdhks9ynrnjnmo1gqe5jug4rj"
     },
     {
         "resortName": "La Planche-des-Belles-Filles",
@@ -2835,7 +2968,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xs0wcqmy1cu0dtdfw41gvxu9zj7o"
     },
     {
         "resortName": "La Schlucht",
@@ -2856,7 +2990,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/u0p4oua7s2z49f9jo9xvrsfmcdm8"
     },
     {
         "resortName": "Lac Blanc",
@@ -2877,7 +3012,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/eii4x0ohgs38xwwc5ia72m2xg16d"
     },
     {
         "resortName": "Le Champ du Feu",
@@ -2898,7 +3034,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qpwtr12c4a5fwazzjow1266wirtg"
     },
     {
         "resortName": "Le Gaschney",
@@ -2919,7 +3056,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qtu2ttw6i9i8peccb3j4if5qipi9"
     },
     {
         "resortName": "Le Grand Ballon",
@@ -2940,7 +3078,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/43fxhx3r94v78wrg1wla4oyvqkd9"
     },
     {
         "resortName": "Le Schnepfenried",
@@ -2961,7 +3100,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/3t85ped06vr90o9xwav5bwevr484"
     },
     {
         "resortName": "Le Tanet",
@@ -2982,7 +3122,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/gyc45u68fc1883zuiok9j9geuhum"
     },
     {
         "resortName": "Lispach",
@@ -3003,7 +3144,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/w2clo05cysg43rfpcypus9vtbkvj"
     },
     {
         "resortName": "Markstein",
@@ -3024,7 +3166,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/w565phs4yplr9bwwos1wxp9vssbr"
     },
     {
         "resortName": "Schlumpf",
@@ -3045,7 +3188,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/lk9krk5nofobe6v3wb14qz2kbepl"
     },
     {
         "resortName": "Ventron",
@@ -3066,7 +3210,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/p9u5mftuq13r0vafuno02lhvlai8"
     },
     {
         "resortName": "Xonrupt-Longemer",
@@ -3087,7 +3232,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6jwljftd720clm9img8u4ij0o6pl"
     },
     {
         "resortName": "Chaux-Neuve",
@@ -3192,7 +3338,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fcw91ranmcvu5dmk7oj2yuo2ecxa"
     },
     {
         "resortName": "Les Rousses (Les Tuffes, La Serra, Le Noirmont, La Dôle)",
@@ -3213,7 +3360,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/6lbjl75q4r5509k3h2gwachtcax2"
     },
     {
         "resortName": "Métabief Mont d'Or",
@@ -3234,7 +3382,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9q09qsy2rg278pxhkl9dk0lg3jxi"
     },
     {
         "resortName": "Monts Jura",
@@ -3255,7 +3404,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sw5t5dofcgalvjea25wh709672je"
     },
     {
         "resortName": "Val de Mouthe-Chapelle des Bois",
@@ -3318,7 +3468,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/fmygokuthmxxiegkc3ci59nnblc5"
     },
     {
         "resortName": "Chalmazel",
@@ -3339,7 +3490,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1xvccbwkzw7u6caehuyi7viet2bh"
     },
     {
         "resortName": "Chastreix",
@@ -3360,7 +3512,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/9mbgeojtuyrko4sqgbrmfa5yuow1"
     },
     {
         "resortName": "Laguiole",
@@ -3381,7 +3534,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/le6cj97eqsqr5oeiyzf2prxw5tex"
     },
     {
         "resortName": "Les Estables",
@@ -3402,7 +3556,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/p9lo0nl6uo3jtr54w9bvu340rbf2"
     },
     {
         "resortName": "Mont-Aigual",
@@ -3423,7 +3578,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/7hbht4srblw0spducqmchj5n71jq"
     },
     {
         "resortName": "Mont-Dore",
@@ -3444,7 +3600,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/28sz5o7uuecu4dgh650gsky91ynt"
     },
     {
         "resortName": "Mont Lozère",
@@ -3465,7 +3622,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/qbd9d5vwrzgt8o3pskwov5fksdwu"
     },
     {
         "resortName": "Super Besse",
@@ -3486,7 +3644,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/rcvyfik4djuopuv9wx37t844yk1q"
     },
     {
         "resortName": "Super Lioran",
@@ -3507,7 +3666,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/q45foizy323wsu6cg6w21maxry9q"
     },
     {
         "resortName": "Les Portes du Soleil (Morzine, Avoriaz, ​Les Gets, ​Châtel, ​Morgins, ​Champéry)",
@@ -3528,7 +3688,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/5o23r754m9rwmi21e9rniybbdw1w"
     },
     {
         "resortName": "Les 3 Vallées (Val Thorens, Les Menuires, St Martin De Belleville, Meribel, Brides-les-bains, La Tania, Courchevel)",
@@ -3551,7 +3712,8 @@ var franceData = [
         },
         "skiPass": [
             "Epic"
-        ]
+        ],
+        "mapLink": "https://files.skimap.org/r192ftxzvomvdp5jiauh1gk0c9mz"
     },
     {
         "resortName": "Paradiski (La Plagne, Les Arcs)",
@@ -3572,7 +3734,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/u23omjtl4ghxm5xjizsspssmfra6"
     },
     {
         "resortName": "Rouge Gazon",
@@ -3593,7 +3756,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/f8abdiacxwzap997d7iv5g1c6s29"
     },
     {
         "resortName": "Abondance",
@@ -3614,7 +3778,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ranka34cpxc8m5rphehku4qwwems"
     },
     {
         "resortName": "Luchon-Superbagnères",
@@ -3635,7 +3800,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ils8b532in2yhdnjbxsjzx1qnh6m"
     },
     {
         "resortName": "La Croix de Bauzon",
@@ -3656,7 +3822,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ngmf1zt223do3iho389nhd3ij3mm"
     },
     {
         "resortName": "Saint Hilaire du Touvet",
@@ -3677,7 +3844,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/ijj1s9oku4eigi9mqak1o338gpir"
     },
     {
         "resortName": "La Colmiane",
@@ -3698,7 +3866,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/xcsum6a6t2xxy5ns446y60t2a4yp"
     },
     {
         "resortName": "Asco",
@@ -3719,7 +3888,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/n1vnjvppwrdwq5c5nlktedvh8dco"
     },
     {
         "resortName": "Praz de Lys Sommand",
@@ -3761,7 +3931,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/e6enci1alutmukwpn1ah4u2bu8fl"
     },
     {
         "resortName": "Serre-Eyraud",
@@ -3782,7 +3953,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/sx4mya7o50qletyksmd1iwbpe0go"
     },
     {
         "resortName": "La Chazelet",
@@ -3824,7 +3996,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/1m4k6mooxmegdwur5pqmlkg7efts"
     },
     {
         "resortName": "La Combe Saint-Pierre",
@@ -3845,7 +4018,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/g8s31tulxntd8jzl33i8dmyv5dhq"
     },
     {
         "resortName": "Plateau d'Hauteville",
@@ -3866,7 +4040,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/oxrla984fx53aq74iiu2icxhnx43"
     },
     {
         "resortName": "Plateau de Retord (Les Plans d'Hotonnes)",
@@ -3887,7 +4062,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/j1z1xqlkpg4wu01yvwcla383n4pb"
     },
     {
         "resortName": "Montagne de Lure",
@@ -3908,7 +4084,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/zheqfna14fe7h2m7ddp6fyzbx21x"
     },
     {
         "resortName": "Hautacam",
@@ -3929,7 +4106,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/iu7mwlud60e19c95v15njy5bym53"
     },
     {
         "resortName": "La Quillane",
@@ -3950,7 +4128,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/usk02fcnke57cfaxlf5fh5gp6ljb"
     },
     {
         "resortName": "Notre Dame du Pré",
@@ -3971,7 +4150,8 @@ var franceData = [
             "link": "",
             "note": ""
         },
-        "skiPass": []
+        "skiPass": [],
+        "mapLink": "https://files.skimap.org/r1gmbjawo6i40f6vsiyj77oj3jtb"
     },
     {
         "resortName": "Noeux-les-Mines - Loisinord",

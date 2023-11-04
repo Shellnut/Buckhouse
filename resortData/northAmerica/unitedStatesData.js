@@ -1,4 +1,4 @@
-var lastUpdated = '10/19/2023';
+var lastUpdated = '11/03/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -14,7 +14,7 @@ var unitedStatesData = [
     "id": "493",
     "website": "http://www.mohawkmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -156,7 +156,7 @@ var unitedStatesData = [
     "id": "3216",
     "website": "https://www.facebook.com/Baker-Mt-Ski-Tow-Club-211892185489436/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -188,7 +188,7 @@ var unitedStatesData = [
     "id": "455",
     "website": "http://www.bigrockmaine.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -222,7 +222,7 @@ var unitedStatesData = [
     "id": "457",
     "website": "http://www.skibigsquaw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -254,7 +254,7 @@ var unitedStatesData = [
     "id": "454",
     "website": "http://www.skiblackmountain.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -288,7 +288,7 @@ var unitedStatesData = [
     "id": "452",
     "website": "http://www.camdensnowbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -320,7 +320,7 @@ var unitedStatesData = [
     "id": "451",
     "website": "http://www.eatonmountain.com/home.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -352,7 +352,7 @@ var unitedStatesData = [
     "id": "453",
     "website": "http://skihermonmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -384,7 +384,7 @@ var unitedStatesData = [
     "id": "3204",
     "website": "http://www.lonesomepines.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -416,7 +416,7 @@ var unitedStatesData = [
     "id": "449",
     "website": "http://www.lostvalleyski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -448,7 +448,7 @@ var unitedStatesData = [
     "id": "447",
     "website": "http://www.mtabram.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -480,7 +480,7 @@ var unitedStatesData = [
     "id": "450",
     "website": "http://www.skimtjefferson.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -512,7 +512,7 @@ var unitedStatesData = [
     "id": "3275",
     "website": "http://pinnacleskiclub.wordpress.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -544,7 +544,7 @@ var unitedStatesData = [
     "id": "3210",
     "website": "http://www.powderhousehill.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -576,7 +576,7 @@ var unitedStatesData = [
     "id": "3211",
     "website": "http://www.skiquoggyjo.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -608,7 +608,7 @@ var unitedStatesData = [
     "id": "446",
     "website": "http://www.saddlebackmaine.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -642,7 +642,7 @@ var unitedStatesData = [
     "id": "456",
     "website": "http://www.shawneepeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -674,7 +674,7 @@ var unitedStatesData = [
     "id": "448",
     "website": "http://www.sugarloaf.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -715,7 +715,7 @@ var unitedStatesData = [
     "id": "459",
     "website": "http://www.sundayriver.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -749,7 +749,7 @@ var unitedStatesData = [
     "id": "458",
     "website": "http://www.titcombmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -781,7 +781,7 @@ var unitedStatesData = [
     "id": "435",
     "website": "https://berkshireeast.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -815,7 +815,7 @@ var unitedStatesData = [
     "id": "440",
     "website": "https://www.bluehillsboston.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -849,7 +849,7 @@ var unitedStatesData = [
     "id": "444",
     "website": "https://bousquetmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -883,7 +883,7 @@ var unitedStatesData = [
     "id": "441",
     "website": "http://www.skibutternut.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -915,7 +915,7 @@ var unitedStatesData = [
     "id": "2997",
     "website": "http://www.eaglebrook.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -949,7 +949,7 @@ var unitedStatesData = [
     "id": "443",
     "website": "http://www.jiminypeak.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -981,7 +981,7 @@ var unitedStatesData = [
     "id": "3225",
     "website": "http://www.mtgreylockskiclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1013,7 +1013,7 @@ var unitedStatesData = [
     "id": "436",
     "website": "https://skinashoba.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1047,7 +1047,7 @@ var unitedStatesData = [
     "id": "434",
     "website": "http://www.otisridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1079,7 +1079,7 @@ var unitedStatesData = [
     "id": "439",
     "website": "https://skibradford.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1111,7 +1111,7 @@ var unitedStatesData = [
     "id": "442",
     "website": "https://www.skiward.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1143,7 +1143,7 @@ var unitedStatesData = [
     "id": "437",
     "website": "https://www.wachusett.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1175,7 +1175,7 @@ var unitedStatesData = [
     "id": "4091",
     "website": "http://www.wolfeboronh.us/abenaki-ski-area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1207,7 +1207,7 @@ var unitedStatesData = [
     "id": "15010",
     "website": "https://www.beavercreek.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1239,7 +1239,7 @@ var unitedStatesData = [
     "id": "349",
     "website": "https://www.attitash.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1273,7 +1273,7 @@ var unitedStatesData = [
     "id": "454",
     "website": "http://www.skiblackmountain.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1307,7 +1307,7 @@ var unitedStatesData = [
     "id": "346",
     "website": "https://www.brettonwoods.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1339,7 +1339,7 @@ var unitedStatesData = [
     "id": "347",
     "website": "http://www.cannonmt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1373,7 +1373,7 @@ var unitedStatesData = [
     "id": "3044",
     "website": "https://www.camptonmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1405,7 +1405,7 @@ var unitedStatesData = [
     "id": "344",
     "website": "http://www.cranmore.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1437,7 +1437,7 @@ var unitedStatesData = [
     "id": "343",
     "website": "https://www.crotchedmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1471,7 +1471,7 @@ var unitedStatesData = [
     "id": "345",
     "website": "https://sites.dartmouth.edu/skiway/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1503,7 +1503,7 @@ var unitedStatesData = [
     "id": "4092",
     "website": "http://www.franklinoutingclub.org/vmra.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1535,7 +1535,7 @@ var unitedStatesData = [
     "id": "1076",
     "website": "http://www.granitegorge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1567,7 +1567,7 @@ var unitedStatesData = [
     "id": 342,
     "website": "https://www.gunstock.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1599,7 +1599,7 @@ var unitedStatesData = [
     "id": "13097",
     "website": "https://www.lincolnnh.org/recreation",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1631,7 +1631,7 @@ var unitedStatesData = [
     "id": "354",
     "website": "https://www.kingpine.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1663,7 +1663,7 @@ var unitedStatesData = [
     "id": "352",
     "website": "https://www.loonmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1703,7 +1703,7 @@ var unitedStatesData = [
     "id": "3012",
     "website": "http://mcintyreskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1735,7 +1735,7 @@ var unitedStatesData = [
     "id": "2686",
     "website": "http://www.mteustis.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1767,7 +1767,7 @@ var unitedStatesData = [
     "id": "3224",
     "website": "http://www.skiprospect.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1799,7 +1799,7 @@ var unitedStatesData = [
     "id": "357",
     "website": "https://www.mountsunapee.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1833,7 +1833,7 @@ var unitedStatesData = [
     "id": "355",
     "website": "https://www.patspeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1867,7 +1867,7 @@ var unitedStatesData = [
     "id": "351",
     "website": "https://raggedmountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1899,7 +1899,7 @@ var unitedStatesData = [
     "id": "4158",
     "website": "http://www.redhillskiclub.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1931,7 +1931,7 @@ var unitedStatesData = [
     "id": "4118",
     "website": "http://www.storrshill.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1963,7 +1963,7 @@ var unitedStatesData = [
     "id": "1077",
     "website": "https://www.skitenney.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -1995,7 +1995,7 @@ var unitedStatesData = [
     "id": "350",
     "website": "https://thebalsamsresort.com/vision/ski-expansion/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2027,7 +2027,7 @@ var unitedStatesData = [
     "id": "353",
     "website": "https://www.waterville.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2061,7 +2061,7 @@ var unitedStatesData = [
     "id": "1078",
     "website": "https://www.whaleback.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2093,7 +2093,7 @@ var unitedStatesData = [
     "id": "356",
     "website": "https://www.skiwildcat.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2127,7 +2127,7 @@ var unitedStatesData = [
     "id": "236",
     "website": "http://www.yawgoo.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2159,7 +2159,7 @@ var unitedStatesData = [
     "id": "13027",
     "website": "https://www.facebook.com/Bellows-Falls-Rope-tow-191875957504078/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2191,7 +2191,7 @@ var unitedStatesData = [
     "id": "216",
     "website": "http://www.boltonvalley.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2227,7 +2227,7 @@ var unitedStatesData = [
     "id": "217",
     "website": "https://www.bromley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2259,7 +2259,7 @@ var unitedStatesData = [
     "id": "2247",
     "website": "https://skiburke.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2291,7 +2291,7 @@ var unitedStatesData = [
     "id": "207",
     "website": "http://www.cochranskiarea.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2322,7 +2322,7 @@ var unitedStatesData = [
     "officialSkiResort": true,
     "website": "https://www.newenglandskihistory.com/maps/mapsbyarea.php?filename=harringtonhill&state=vt",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2354,7 +2354,7 @@ var unitedStatesData = [
     "id": "12835",
     "website": "https://www.facebook.com/HardAckInc/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2386,7 +2386,7 @@ var unitedStatesData = [
     "id": "2133",
     "website": "http://hermitageclub.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2418,7 +2418,7 @@ var unitedStatesData = [
     "id": "202",
     "website": "http://jaypeakresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2489,7 +2489,7 @@ var unitedStatesData = [
     "officialSkiResort": false,
     "website": "http://darksidesnowboards.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2521,7 +2521,7 @@ var unitedStatesData = [
     "id": "4101",
     "website": "http://www.vtsnowsports.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2553,7 +2553,7 @@ var unitedStatesData = [
     "id": "3962",
     "website": "http://www.skilyndon.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2586,7 +2586,7 @@ var unitedStatesData = [
     "id": "200",
     "website": "http://www.madriverglen.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2618,7 +2618,7 @@ var unitedStatesData = [
     "id": "14790",
     "website": "https://magicmtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2652,7 +2652,7 @@ var unitedStatesData = [
     "id": "2907",
     "website": "https://www.middleburysnowbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2722,7 +2722,7 @@ var unitedStatesData = [
     "id": "3019",
     "website": "http://www.northeastslopes.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2754,7 +2754,7 @@ var unitedStatesData = [
     "id": "204",
     "website": "http://okemo.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2788,7 +2788,7 @@ var unitedStatesData = [
     "id": "1091",
     "website": "https://www.picomountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2822,7 +2822,7 @@ var unitedStatesData = [
     "id": "1090",
     "website": "http://www.skithenotch.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2854,7 +2854,7 @@ var unitedStatesData = [
     "id": "215",
     "website": "http://www.quecheeclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2886,7 +2886,7 @@ var unitedStatesData = [
     "id": "209",
     "website": "http://www.smuggs.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2918,7 +2918,7 @@ var unitedStatesData = [
     "id": "212",
     "website": "http://www.stowe.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2952,7 +2952,7 @@ var unitedStatesData = [
     "id": "213",
     "website": "https://www.stratton.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -2992,7 +2992,7 @@ var unitedStatesData = [
     "id": "205",
     "website": "https://www.sugarbush.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3026,7 +3026,7 @@ var unitedStatesData = [
     "id": "203",
     "website": "https://www.woodstockinn.com/ski-area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3060,7 +3060,7 @@ var unitedStatesData = [
     "id": "206",
     "website": "https://www.ascutneyoutdoors.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3092,7 +3092,7 @@ var unitedStatesData = [
     "id": "445",
     "website": "https://www.wispresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3219,7 +3219,7 @@ var unitedStatesData = [
     "id": "341",
     "website": "https://winter4kids.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3253,7 +3253,7 @@ var unitedStatesData = [
     "id": "339",
     "website": "http://www.mountaincreek.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3285,7 +3285,7 @@ var unitedStatesData = [
     "id": "3227",
     "website": "www.skibeartown.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3351,7 +3351,7 @@ var unitedStatesData = [
     "id": "2779",
     "website": "http://skibigtupper.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3383,7 +3383,7 @@ var unitedStatesData = [
     "id": "309",
     "website": "http://www.brantling.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3415,7 +3415,7 @@ var unitedStatesData = [
     "id": "313",
     "website": "http://www.bristolmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3447,7 +3447,7 @@ var unitedStatesData = [
     "id": "3228",
     "website": "http://www.bscskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3479,7 +3479,7 @@ var unitedStatesData = [
     "id": "323",
     "website": "http://www.catamountski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3513,7 +3513,7 @@ var unitedStatesData = [
     "id": "304",
     "website": "http://skidryhill.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3579,7 +3579,7 @@ var unitedStatesData = [
     "id": "297",
     "website": "http://www.greekpeak.net/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3613,7 +3613,7 @@ var unitedStatesData = [
     "id": "298",
     "website": "http://www.hickoryskicenter.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3645,7 +3645,7 @@ var unitedStatesData = [
     "id": "318",
     "website": "http://www.holidayvalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3677,7 +3677,7 @@ var unitedStatesData = [
     "id": "311",
     "website": "https://holidaymtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3709,7 +3709,7 @@ var unitedStatesData = [
     "id": "312",
     "website": "https://holimont.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3777,7 +3777,7 @@ var unitedStatesData = [
     "id": "292",
     "website": "https://www.kbski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3809,7 +3809,7 @@ var unitedStatesData = [
     "id": "306",
     "website": "https://www.skicny.com/labrador/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3875,7 +3875,7 @@ var unitedStatesData = [
     "id": "328",
     "website": "http://www.mccauleyny.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3907,7 +3907,7 @@ var unitedStatesData = [
     "id": "294",
     "website": "http://oakmountainski.com/oak/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3939,7 +3939,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.plattekill.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -3971,7 +3971,7 @@ var unitedStatesData = [
     "id": "291",
     "website": "https://www.royalmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4003,7 +4003,7 @@ var unitedStatesData = [
     "id": "308",
     "website": "https://www.skicny.com/song/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4035,7 +4035,7 @@ var unitedStatesData = [
     "id": "312",
     "website": "https://snowridge.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4069,7 +4069,7 @@ var unitedStatesData = [
     "id": "310",
     "website": "http://www.swain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4103,7 +4103,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.dec.ny.gov/lands/37446.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4169,7 +4169,7 @@ var unitedStatesData = [
     "id": "316",
     "website": "https://www.titusmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4203,7 +4203,7 @@ var unitedStatesData = [
     "id": "305",
     "website": "https://www.skitog.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4271,7 +4271,7 @@ var unitedStatesData = [
     "id": "326",
     "website": "http://www.willardmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4305,7 +4305,7 @@ var unitedStatesData = [
     "id": "295",
     "website": "http://www.whiteface.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4339,7 +4339,7 @@ var unitedStatesData = [
     "id": "330",
     "website": "https://www.windhammountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4373,7 +4373,7 @@ var unitedStatesData = [
     "id": "327",
     "website": "http://www.woodsvalleyskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4405,7 +4405,7 @@ var unitedStatesData = [
     "id": "302",
     "website": "http://www.pknpk.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4473,7 +4473,7 @@ var unitedStatesData = [
     "id": "314",
     "website": "https://www.saranaclake.com/alpine-skiing/mt-pisgah-recreation-center",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4505,7 +4505,7 @@ var unitedStatesData = [
     "id": "3235",
     "website": "http://mapleskiridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4537,7 +4537,7 @@ var unitedStatesData = [
     "id": "303",
     "website": "http://www.cockaigne.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4570,7 +4570,7 @@ var unitedStatesData = [
     "id": "321",
     "website": "http://fourseasonsgolfandski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4602,7 +4602,7 @@ var unitedStatesData = [
     "id": "322",
     "website": "http://www.villaroma.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4634,7 +4634,7 @@ var unitedStatesData = [
     "id": "325",
     "website": "http://www.villaroma.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4665,7 +4665,7 @@ var unitedStatesData = [
     "id": "256",
     "website": "https://www.bcmountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4697,7 +4697,7 @@ var unitedStatesData = [
     "id": "241",
     "website": "https://blueknob.com/resort/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4731,7 +4731,7 @@ var unitedStatesData = [
     "id": "258",
     "website": "https://www.skibluemt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4763,7 +4763,7 @@ var unitedStatesData = [
     "id": "259",
     "website": "https://alleghenycounty.us/special-events/boyce-park-skiing---snow-tubing.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4795,7 +4795,7 @@ var unitedStatesData = [
     "id": "238",
     "website": "https://www.camelbackresort.com/ski-tube/poconos-ski-resorts/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4827,7 +4827,7 @@ var unitedStatesData = [
     "id": "250",
     "website": "https://ddresorts.com/eagle-rock/on-property/snow-sports/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4859,7 +4859,7 @@ var unitedStatesData = [
     "id": "251",
     "website": "http://www.elkskier.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4891,7 +4891,7 @@ var unitedStatesData = [
     "id": "4115",
     "website": "http://www.hiddenvalleyresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4925,7 +4925,7 @@ var unitedStatesData = [
     "id": "254",
     "website": "http://www.jfbb.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4959,7 +4959,7 @@ var unitedStatesData = [
     "id": "252",
     "website": "http://www.jfbb.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -4993,7 +4993,7 @@ var unitedStatesData = [
     "id": "4114",
     "website": "http://www.skilaurelmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5027,7 +5027,7 @@ var unitedStatesData = [
     "id": "243",
     "website": "https://www.libertymountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5061,7 +5061,7 @@ var unitedStatesData = [
     "id": "240",
     "website": "https://www.7springs.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5095,7 +5095,7 @@ var unitedStatesData = [
     "id": "246",
     "website": "https://www.shawneemt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5129,7 +5129,7 @@ var unitedStatesData = [
     "id": "237",
     "website": "http://ski-bigbear.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5161,7 +5161,7 @@ var unitedStatesData = [
     "id": "242",
     "website": "https://www.skiroundtop.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5195,7 +5195,7 @@ var unitedStatesData = [
     "id": "261",
     "website": "https://springmountainadventures.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5227,7 +5227,7 @@ var unitedStatesData = [
     "id": "262",
     "website": "http://skisawmill.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5261,7 +5261,7 @@ var unitedStatesData = [
     "id": "248",
     "website": "http://montagemountainresorts.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5295,7 +5295,7 @@ var unitedStatesData = [
     "id": "257",
     "website": "https://www.tusseymountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5329,7 +5329,7 @@ var unitedStatesData = [
     "id": "260",
     "website": "https://www.tusseymountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5363,7 +5363,7 @@ var unitedStatesData = [
     "id": "245",
     "website": "https://www.skimountpleasant.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5395,7 +5395,7 @@ var unitedStatesData = [
     "id": "557",
     "website": "https://www.cloudmont.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5461,7 +5461,7 @@ var unitedStatesData = [
     "id": "288",
     "website": "http://cataloochee.com/index-home.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5495,7 +5495,7 @@ var unitedStatesData = [
     "id": "284",
     "website": "http://www.sapphirevalley.com/Sapphire_Ski_Area.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5595,7 +5595,7 @@ var unitedStatesData = [
     "id": "289",
     "website": "https://skiwolfridgenc.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5627,7 +5627,7 @@ var unitedStatesData = [
     "id": "232",
     "website": "https://obergatlinburg.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5661,7 +5661,7 @@ var unitedStatesData = [
     "id": "196",
     "website": "http://www.bryceresort.com/Home.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5695,7 +5695,7 @@ var unitedStatesData = [
     "id": "197",
     "website": "https://www.massresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5729,7 +5729,7 @@ var unitedStatesData = [
     "id": "198",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5761,7 +5761,7 @@ var unitedStatesData = [
     "id": "199",
     "website": "https://www.wintergreenresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5841,7 +5841,7 @@ var unitedStatesData = [
     "id": "180",
     "website": "http://www.canaanresort.com/winter/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5875,7 +5875,7 @@ var unitedStatesData = [
     "id": "3267",
     "website": "http://ski.oglebay-resort.com/index.cfm",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5907,7 +5907,7 @@ var unitedStatesData = [
     "id": "181",
     "website": "http://www.snowshoemtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5941,7 +5941,7 @@ var unitedStatesData = [
     "id": "5019",
     "website": "https://timberlinemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -5973,7 +5973,7 @@ var unitedStatesData = [
     "id": "182",
     "website": "https://www.winterplace.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6007,7 +6007,7 @@ var unitedStatesData = [
     "id": "3267",
     "website": "http://ski.oglebay-resort.com/index.cfm/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6110,7 +6110,7 @@ var unitedStatesData = [
     "id": "473",
     "website": "http://www.skisnowstar.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6176,7 +6176,7 @@ var unitedStatesData = [
     "id": "468",
     "website": "http://www.paolipeaks.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6210,7 +6210,7 @@ var unitedStatesData = [
     "id": "470",
     "website": "http://www.perfectnorth.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6242,7 +6242,7 @@ var unitedStatesData = [
     "id": "463",
     "website": "https://www.skicrescent.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6274,7 +6274,7 @@ var unitedStatesData = [
     "id": "465",
     "website": "https://sevenoaksrec.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6342,7 +6342,7 @@ var unitedStatesData = [
     "id": "5258",
     "website": "https://ishpemingcity.org/departments/parks-and-recreation/al-quaal-recreation-area-2/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6408,7 +6408,7 @@ var unitedStatesData = [
     "id": "420",
     "website": "https://bigpowderhorn.net/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6442,7 +6442,7 @@ var unitedStatesData = [
     "id": "400",
     "website": "https://www.skibittersweet.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6474,7 +6474,7 @@ var unitedStatesData = [
     "id": "394",
     "website": "https://www.bigsnow.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6506,7 +6506,7 @@ var unitedStatesData = [
     "id": "407",
     "website": "http://www.boyne.com/boynehighlands",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6540,7 +6540,7 @@ var unitedStatesData = [
     "id": "421",
     "website": "https://www.boynemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6574,7 +6574,7 @@ var unitedStatesData = [
     "id": "404",
     "website": "https://caberfaepeaks.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6608,7 +6608,7 @@ var unitedStatesData = [
     "id": "413",
     "website": "https://cannonsburg.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6640,7 +6640,7 @@ var unitedStatesData = [
     "id": "429",
     "website": "https://www.crystalmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6674,7 +6674,7 @@ var unitedStatesData = [
     "id": "398",
     "website": "https://www.traversecitymi.gov/hickory_hills.asp",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6706,7 +6706,7 @@ var unitedStatesData = [
     "id": "414",
     "website": "https://www.thehomesteadresort.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6738,7 +6738,7 @@ var unitedStatesData = [
     "id": "422",
     "website": "https://www.bigsnow.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6772,7 +6772,7 @@ var unitedStatesData = [
     "id": "419",
     "website": "https://marquettemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6806,7 +6806,7 @@ var unitedStatesData = [
     "id": "427",
     "website": "https://www.mtu.edu/mont-ripley/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6838,7 +6838,7 @@ var unitedStatesData = [
     "id": "428",
     "website": "http://www.mtbohemia.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6906,7 +6906,7 @@ var unitedStatesData = [
     "id": "411",
     "website": "http://mt-holiday.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -6972,7 +6972,7 @@ var unitedStatesData = [
     "id": "424",
     "website": "https://www.visitcharlevoix.com/Mt-McSauba-Recreational-Area",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7004,7 +7004,7 @@ var unitedStatesData = [
     "id": "396",
     "website": "https://www.gogebic.edu/Welcome/StudentLife/mtzion.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7036,7 +7036,7 @@ var unitedStatesData = [
     "id": "395",
     "website": "https://www.mulliganshollow.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7068,7 +7068,7 @@ var unitedStatesData = [
     "id": "406",
     "website": "http://www.nubsnob.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7102,7 +7102,7 @@ var unitedStatesData = [
     "id": "3272",
     "website": "http://otsegoclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7134,7 +7134,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.petoskey.us/winter/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7200,7 +7200,7 @@ var unitedStatesData = [
     "id": "433",
     "website": "https://www.pinemountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7234,7 +7234,7 @@ var unitedStatesData = [
     "id": "426",
     "website": "https://porkies.ski/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7266,7 +7266,7 @@ var unitedStatesData = [
     "id": "416",
     "website": "http://www.shantycreek.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7300,7 +7300,7 @@ var unitedStatesData = [
     "id": "399",
     "website": "https://skibrule.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7332,7 +7332,7 @@ var unitedStatesData = [
     "id": "409",
     "website": "https://snowsnake.net///",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7364,7 +7364,7 @@ var unitedStatesData = [
     "id": "401",
     "website": "http://skiswissvalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7398,7 +7398,7 @@ var unitedStatesData = [
     "id": "2173",
     "website": "https://www.facebook.com/pg/skitimberridge/about/?tab=page_info",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7430,7 +7430,7 @@ var unitedStatesData = [
     "id": "423",
     "website": "https://treetops.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7464,7 +7464,7 @@ var unitedStatesData = [
     "id": "397",
     "website": "http://www.gladstonemi.org/community/parks_and_recreation/sports_park.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7497,7 +7497,7 @@ var unitedStatesData = [
     "id": "418",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7529,7 +7529,7 @@ var unitedStatesData = [
     "id": "408",
     "website": "https://www.facebook.com/MissaukeeMountain",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7562,7 +7562,7 @@ var unitedStatesData = [
     "id": "393",
     "website": "https://www.aftonalps.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7596,7 +7596,7 @@ var unitedStatesData = [
     "id": "391",
     "website": "https://www.andestowerhills.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7664,7 +7664,7 @@ var unitedStatesData = [
     "id": "384",
     "website": "https://www.bvskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7698,7 +7698,7 @@ var unitedStatesData = [
     "id": "382",
     "website": "http://www.chesterbowl.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7730,7 +7730,7 @@ var unitedStatesData = [
     "id": "378",
     "website": "http://www.coffeemillski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7762,7 +7762,7 @@ var unitedStatesData = [
     "id": "4463",
     "website": "http://detroitmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7796,7 +7796,7 @@ var unitedStatesData = [
     "id": "388",
     "website": "http://www.giantsridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7872,7 +7872,7 @@ var unitedStatesData = [
     "id": "5246",
     "website": "https://www.threeriversparks.org/location/elm-creek-winter-recreation-area/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7904,7 +7904,7 @@ var unitedStatesData = [
     "id": "381",
     "website": "http://www.lutsen.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7938,7 +7938,7 @@ var unitedStatesData = [
     "id": "5026",
     "website": "http://www.mtitasca.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -7972,7 +7972,7 @@ var unitedStatesData = [
     "id": "387",
     "website": "https://www.mountkato.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8008,19 +8008,19 @@ var unitedStatesData = [
     "id": "492",
     "website": "http://www.powderridgepark.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 44, // must be a number
+      "link": "V4STSE3Y5Kk",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "3",
+      "terrainPark": "4",
+      "food": "6",
+      "employees": "6",
+      "views": "2",
+      "wouldIGoBack": "9"
     },
     "skiPass": [
       "Indy"
@@ -8044,7 +8044,7 @@ var unitedStatesData = [
     "id": "3031",
     "website": "http://skigull.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8078,19 +8078,19 @@ var unitedStatesData = [
     "id": "383",
     "website": "http://www.spiritmt.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 57, // must be a number
+      "link": "HMFxJ55NQvw",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "10",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "4",
+      "terrainPark": "7",
+      "food": "5",
+      "employees": "10",
+      "views": "5",
+      "wouldIGoBack": "7"
     },
     "skiPass": [
       "Indy"
@@ -8114,7 +8114,7 @@ var unitedStatesData = [
     "id": "379",
     "website": "http://www.welchvillage.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8148,7 +8148,7 @@ var unitedStatesData = [
     "id": "380",
     "website": "http://www.wildmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8185,7 +8185,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.canterburypark.com/events/extreme-horse-skijoring/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8218,7 +8218,7 @@ var unitedStatesData = [
     "id": "4728",
     "website": "https://www.stpaul.gov/departments/parks-recreation/activities/winter-spring-activities/downhill-skiing-snowboarding",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8249,7 +8249,7 @@ var unitedStatesData = [
     "id": "377",
     "website": "https://www.hiddenvalleyski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8283,7 +8283,7 @@ var unitedStatesData = [
     "id": "376",
     "website": "http://skisnowcreek.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8317,7 +8317,7 @@ var unitedStatesData = [
     "id": "280",
     "website": "http://skibwp.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8349,7 +8349,7 @@ var unitedStatesData = [
     "id": "283",
     "website": "http://frostfireskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8381,7 +8381,7 @@ var unitedStatesData = [
     "id": "282",
     "website": "https://www.huffhills.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8413,7 +8413,7 @@ var unitedStatesData = [
     "id": "277",
     "website": "https://www.alpinevalleyohio.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8447,7 +8447,7 @@ var unitedStatesData = [
     "id": "276",
     "website": "http://www.bmbw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8481,7 +8481,7 @@ var unitedStatesData = [
     "id": "278",
     "website": "https://www.skimadriver.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8515,7 +8515,7 @@ var unitedStatesData = [
     "id": "279",
     "website": "https://www.snowtrails.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8547,7 +8547,7 @@ var unitedStatesData = [
     "id": "3269",
     "website": "http://www.bigcreekski.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8579,7 +8579,7 @@ var unitedStatesData = [
     "id": "235",
     "website": "http://skimystic.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8613,7 +8613,7 @@ var unitedStatesData = [
     "id": "234",
     "website": "https://www.greatbearpark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8645,7 +8645,7 @@ var unitedStatesData = [
     "id": "233",
     "website": "https://terrypeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8713,7 +8713,7 @@ var unitedStatesData = [
     "id": "3279",
     "website": "http://www.ausblick.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8745,7 +8745,7 @@ var unitedStatesData = [
     "id": "4824",
     "website": "https://www.badlands-snopark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8777,7 +8777,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.batb.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8809,7 +8809,7 @@ var unitedStatesData = [
     "id": "164",
     "website": "http://clarkcountywi.org/visit-clark-county/outdoors/bruce-mound.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8841,7 +8841,7 @@ var unitedStatesData = [
     "id": "2990",
     "website": "http://www.camp10skiandsnowboard.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -8876,19 +8876,19 @@ var unitedStatesData = [
     "id": "4791",
     "website": "http://www.dcski.com/lostareas/viewlostprofile.php?id=8",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 31, // must be a number
+      "link": "6B-1aeSiSYg",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "4",
+      "easeOfAccess": "5",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "2",
+      "terrainPark": "2",
+      "food": "5",
+      "employees": "4",
+      "views": "2",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/c5haa5ago1xwyh4jygvrl349zxpx",
@@ -8910,7 +8910,7 @@ var unitedStatesData = [
     "id": "178",
     "website": "https://www.christiemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9046,7 +9046,7 @@ var unitedStatesData = [
     "id": "3281",
     "website": "http://www.foxhill.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9080,7 +9080,7 @@ var unitedStatesData = [
     "id": "170",
     "website": "https://www.skigranitepeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9114,7 +9114,7 @@ var unitedStatesData = [
     "id": "3282",
     "website": "http://www.hhskiclub.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9146,7 +9146,7 @@ var unitedStatesData = [
     "id": "3285",
     "website": "http://www.langladecounty.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9178,7 +9178,7 @@ var unitedStatesData = [
     "id": "3286",
     "website": "https://www.visitkewauneecounty.com/explore/parks-and-trails/winter-park-recreation/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9210,7 +9210,7 @@ var unitedStatesData = [
     "id": "177",
     "website": "https://www.florencecountywi.com/departments/page_18ec7c8fa753/?department=b911d343d487&subdepartment=f28c7bf9208f",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9280,7 +9280,7 @@ var unitedStatesData = [
     "id": "176",
     "website": "http://mdlresort.com/winter/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9348,7 +9348,7 @@ var unitedStatesData = [
     "id": "168",
     "website": "http://www.mtashwabay.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9380,7 +9380,7 @@ var unitedStatesData = [
     "id": "171",
     "website": "http://www.mtlacrosse.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9412,7 +9412,7 @@ var unitedStatesData = [
     "id": "3017",
     "website": "http://www.skinavarino.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9446,19 +9446,19 @@ var unitedStatesData = [
     "id": "157",
     "website": "https://www.nordicmountain.com/",
     "resortReview": {
-      "score": "",
-      "link": "",
+      "score": 37, // must be a number
+      "link": "0x0iNZFmEY0",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "1",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "6",
+      "views": "2",
+      "wouldIGoBack": "5"
     },
     "skiPass": [
       "Indy"
@@ -9480,7 +9480,7 @@ var unitedStatesData = [
     "id": "3287",
     "website": "http://www.ciplywi.com/citizen-info/parks-and-recreation/nutt-hill-ski-area/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9512,7 +9512,7 @@ var unitedStatesData = [
     "id": "3288",
     "website": "http://www.co.wood.wi.us/departments/parks/PowersBluff.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9544,7 +9544,7 @@ var unitedStatesData = [
     "id": "160",
     "website": "https://www.co.portage.wi.us/department/parks/standing-rocks-park",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9611,7 +9611,7 @@ var unitedStatesData = [
     "id": "3289",
     "website": "http://greenbaywi.gov/parks/recreation/winter-activities-2/321-2/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9648,7 +9648,7 @@ var unitedStatesData = [
     "id": "159",
     "website": "https://www.trollhaugen.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9684,7 +9684,7 @@ var unitedStatesData = [
     "id": "4984",
     "website": "https://tyrolbasin.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9752,7 +9752,7 @@ var unitedStatesData = [
     "id": "3290",
     "website": "https://www.skiwhitetail.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9820,7 +9820,7 @@ var unitedStatesData = [
     "id": "12871",
     "website": "http://www.pinehurstpark.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9852,7 +9852,7 @@ var unitedStatesData = [
     "id": "548",
     "website": "http://www.arizonasnowbowl.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9890,7 +9890,7 @@ var unitedStatesData = [
     "id": "550",
     "website": "https://www.skithelemmon.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9922,7 +9922,7 @@ var unitedStatesData = [
     "id": "549",
     "website": "https://www.sunriseskipark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -9948,6 +9948,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "KcpXyiBP06M",
+      "guHz9KSOEHw",
       "KAJHhKT7UZU",
       "MLN1ySMu6Nw",
       "ZJqWB3FTLSE",
@@ -10210,7 +10212,7 @@ var unitedStatesData = [
     "id": "1033",
     "website": "http://www.aspensnowmass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -10247,7 +10249,7 @@ var unitedStatesData = [
     "id": "1032",
     "website": "http://www.aspensnowmass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -10284,7 +10286,7 @@ var unitedStatesData = [
     "id": "1031",
     "website": "http://www.aspensnowmass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -10321,7 +10323,7 @@ var unitedStatesData = [
     "id": "504",
     "website": "http://www.buttermilkresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -10594,7 +10596,7 @@ var unitedStatesData = [
     "id": "3296",
     "website": "http://www.durangogov.org/index.aspx?NID=544",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -10901,6 +10903,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "uNQvPUbtGHM",
       "aETZy-xmSlY",
       "AJfQhj4Jpp8",
       "qHrzhfP1MPI",
@@ -10953,7 +10956,7 @@ var unitedStatesData = [
     "id": "1035",
     "website": "http://ski-hesperus.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -11021,7 +11024,7 @@ var unitedStatesData = [
     "id": "499",
     "website": "http://www.skikendall.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -11045,6 +11048,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "jfwRBzgcuPI",
       "qQd1I1EJoJw",
       "a6W8tfSsGKE",
       "uDttGZTcOxk",
@@ -11461,7 +11465,7 @@ var unitedStatesData = [
     "id": "3298",
     "website": "http://www.townoflakecity.co/lake-city-ski-hill.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -11621,7 +11625,7 @@ var unitedStatesData = [
     "id": "518",
     "website": "http://www.durangomountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -11772,7 +11776,7 @@ var unitedStatesData = [
     "id": "516",
     "website": "http://www.granbyranch.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -11858,7 +11862,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.steamboatpowdercats.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12172,7 +12176,7 @@ var unitedStatesData = [
       "lng": -105.8787492562817
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12210,7 +12214,7 @@ var unitedStatesData = [
     "id": "4663",
     "website": "https://www.facebook.com/stmarysglacierco/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12244,7 +12248,7 @@ var unitedStatesData = [
     "id": "",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12280,7 +12284,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://educationatelevation.com/2019/03/27/2019-cloud-city-rail-jam-results/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12314,7 +12318,7 @@ var unitedStatesData = [
     "id": "14835",
     "website": "http://www.coloradoskihistory.com/lost/hoosierpass.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12339,6 +12343,7 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "V_MiE4tyMp0",
       "7uBjLhl-Z7Q",
       "-GDJy3bjgsk",
       "Ex971DjeOls",
@@ -12413,7 +12418,7 @@ var unitedStatesData = [
     "id": "",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12449,7 +12454,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.rubyhilldenver.com/ruby-hill-park/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12489,7 +12494,7 @@ var unitedStatesData = [
     "id": "4904",
     "website": "https://www.townoffrisco.com/play/frisco-adventure-park-winter/general-info/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12522,7 +12527,7 @@ var unitedStatesData = [
       "lng": -106.14252201307508
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12562,7 +12567,7 @@ var unitedStatesData = [
       "lng": -106.21762991587998
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12596,7 +12601,7 @@ var unitedStatesData = [
       "lng": -106.55187298302228
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12631,7 +12636,7 @@ var unitedStatesData = [
       "lng": -105.60026518635749
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12665,7 +12670,7 @@ var unitedStatesData = [
       "lng": -106.3256659306812
     },
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12697,7 +12702,7 @@ var unitedStatesData = [
     "id": "2768",
     "website": "http://www.skibaldmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12733,7 +12738,7 @@ var unitedStatesData = [
     "id": "487",
     "website": "http://www.bogusbasin.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12767,7 +12772,7 @@ var unitedStatesData = [
     "id": "483",
     "website": "http://www.brundage.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12801,7 +12806,7 @@ var unitedStatesData = [
     "id": "484",
     "website": "https://www.cottonwoodbutte.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12833,7 +12838,7 @@ var unitedStatesData = [
     "id": "486",
     "website": "http://www.skikelly.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12867,7 +12872,7 @@ var unitedStatesData = [
     "id": "3009",
     "website": "http://www.littleskihill.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12899,7 +12904,7 @@ var unitedStatesData = [
     "id": "482",
     "website": "http://www.skilookout.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12931,7 +12936,7 @@ var unitedStatesData = [
     "id": "490",
     "website": "https://magicmountainresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12963,7 +12968,7 @@ var unitedStatesData = [
     "id": "478",
     "website": "http://www.pebblecreekskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -12995,7 +13000,7 @@ var unitedStatesData = [
     "id": "477",
     "website": "http://www.pomerelle-mtn.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13035,7 +13040,7 @@ var unitedStatesData = [
     "id": "3306",
     "website": "http://rotarunskiarea.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13067,7 +13072,7 @@ var unitedStatesData = [
     "id": "476",
     "website": "http://www.schweitzer.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13101,7 +13106,7 @@ var unitedStatesData = [
     "id": "479",
     "website": "https://silvermt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13136,7 +13141,7 @@ var unitedStatesData = [
     "id": "489",
     "website": "http://www.grangeville.us/idahocounty/snowhaven/index.htm",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13168,7 +13173,7 @@ var unitedStatesData = [
     "id": "485",
     "website": "http://www.soldiermountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13202,7 +13207,7 @@ var unitedStatesData = [
     "id": "480",
     "website": "http://www.skibaldmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13237,7 +13242,7 @@ var unitedStatesData = [
     "id": "488",
     "website": "https://tamarackidaho.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13271,7 +13276,7 @@ var unitedStatesData = [
     "id": "2982",
     "website": "http://skibearpaw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13303,7 +13308,7 @@ var unitedStatesData = [
     "id": "361",
     "website": "http://www.bigskyresort.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13352,7 +13357,7 @@ var unitedStatesData = [
     "id": "363",
     "website": "https://blacktailmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13386,7 +13391,7 @@ var unitedStatesData = [
     "id": "375",
     "website": "https://bridgerbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13418,7 +13423,7 @@ var unitedStatesData = [
     "id": "366",
     "website": "http://www.skidiscovery.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13450,7 +13455,7 @@ var unitedStatesData = [
     "id": "371",
     "website": "http://www.skigd.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13482,7 +13487,7 @@ var unitedStatesData = [
     "id": "4378",
     "website": "http://www.losttrail.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13516,7 +13521,7 @@ var unitedStatesData = [
     "id": "370",
     "website": "",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13548,7 +13553,7 @@ var unitedStatesData = [
     "id": "368",
     "website": "https://skimaverick.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13580,7 +13585,7 @@ var unitedStatesData = [
     "id": "373",
     "website": "http://www.moonlightbasin.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13612,7 +13617,7 @@ var unitedStatesData = [
     "id": "364",
     "website": "https://www.redlodgemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13646,7 +13651,7 @@ var unitedStatesData = [
     "id": "365",
     "website": "https://www.showdownmontana.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13678,7 +13683,7 @@ var unitedStatesData = [
     "id": "372",
     "website": "https://www.skitetonmt.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13710,7 +13715,7 @@ var unitedStatesData = [
     "id": "369",
     "website": "https://www.skiturner.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13742,7 +13747,7 @@ var unitedStatesData = [
     "id": "367",
     "website": "https://skiwhitefish.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13774,7 +13779,7 @@ var unitedStatesData = [
     "id": "1025",
     "website": "http://www.theyellowstoneclub.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -13912,7 +13917,7 @@ var unitedStatesData = [
     "id": "332",
     "website": "https://sandiapeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14120,7 +14125,7 @@ var unitedStatesData = [
     "id": "224",
     "website": "https://www.alta.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14155,7 +14160,7 @@ var unitedStatesData = [
     "id": "220",
     "website": "https://www.skithebeav.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14189,7 +14194,7 @@ var unitedStatesData = [
     "id": "227",
     "website": "https://www.brianhead.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14223,7 +14228,7 @@ var unitedStatesData = [
     "id": "222",
     "website": "https://www.skiutah.com/members/brighton",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14271,7 +14276,7 @@ var unitedStatesData = [
     "id": "4337",
     "website": "http://skicpr.com/index.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14304,7 +14309,7 @@ var unitedStatesData = [
     "id": "223",
     "website": "https://www.deervalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14338,7 +14343,7 @@ var unitedStatesData = [
     "id": "231",
     "website": "http://www.skieaglepoint.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14372,7 +14377,7 @@ var unitedStatesData = [
     "id": "221",
     "website": "http://nordicvalley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14521,7 +14526,7 @@ var unitedStatesData = [
     "id": "219",
     "website": "http://www.snowbasin.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14559,7 +14564,7 @@ var unitedStatesData = [
     "id": "226",
     "website": "http://www.snowbird.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14596,7 +14601,7 @@ var unitedStatesData = [
     "id": "225",
     "website": "https://solitudemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14644,7 +14649,7 @@ var unitedStatesData = [
     "id": "230",
     "website": "https://www.sundanceresort.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14676,7 +14681,7 @@ var unitedStatesData = [
     "id": "149",
     "website": "http://www.lodgesofthebighorns.com/meadowlark-ski-lodge-wyoming.php",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14710,7 +14715,7 @@ var unitedStatesData = [
     "id": "150",
     "website": "https://www.grandtarghee.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14750,7 +14755,7 @@ var unitedStatesData = [
     "id": "152",
     "website": "http://hogadon.net/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14785,7 +14790,7 @@ var unitedStatesData = [
     "id": "151",
     "website": "http://www.jacksonhole.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14826,7 +14831,7 @@ var unitedStatesData = [
     "id": "1038",
     "website": "https://www.facebook.com/PineCreekSkiResort/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14858,7 +14863,7 @@ var unitedStatesData = [
     "id": "154",
     "website": "https://www.skisg.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14890,7 +14895,7 @@ var unitedStatesData = [
     "id": "156",
     "website": "https://snowkingmountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14932,7 +14937,7 @@ var unitedStatesData = [
     "id": "155",
     "website": "https://www.snowyrangeski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -14964,7 +14969,7 @@ var unitedStatesData = [
     "id": "148",
     "website": "http://www.whitepineski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15035,7 +15040,7 @@ var unitedStatesData = [
     "id": "153",
     "website": "https://www.antelopebuttefoundation.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15071,7 +15076,7 @@ var unitedStatesData = [
     "id": "555",
     "website": "https://arcticvalley.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15115,7 +15120,7 @@ var unitedStatesData = [
     "id": "552",
     "website": "https://alyeskaresort.com/skiing-riding-at-alyeska/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15149,7 +15154,7 @@ var unitedStatesData = [
     "id": "553",
     "website": "http://www.skijuneau.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15184,7 +15189,7 @@ var unitedStatesData = [
     "id": "556",
     "website": "http://www.hilltopskiarea.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15217,7 +15222,7 @@ var unitedStatesData = [
     "id": "4695",
     "website": "https://majesticheliski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15249,7 +15254,7 @@ var unitedStatesData = [
     "id": "4936",
     "website": "https://shredthemoose.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15281,7 +15286,7 @@ var unitedStatesData = [
     "id": "554",
     "website": "https://www.mteyak.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15313,7 +15318,7 @@ var unitedStatesData = [
     "id": "2134",
     "website": "http://www.skiland.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15347,7 +15352,7 @@ var unitedStatesData = [
     "id": "3003",
     "website": "https://www.skihatcherpass.org",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15384,7 +15389,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://www.chugachpowderguides.com/experience/snowcat-skiing",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15418,7 +15423,7 @@ var unitedStatesData = [
     "id": "",
     "website": "https://goo.gl/maps/U3vyGzvtqMMPNPMm7",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15450,7 +15455,7 @@ var unitedStatesData = [
     "id": "522",
     "website": "https://www.squawalpine.com/explore/alpine-meadows-ski-resort",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15482,7 +15487,7 @@ var unitedStatesData = [
     "id": "528",
     "website": "https://www.altasierra.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15514,7 +15519,7 @@ var unitedStatesData = [
     "id": "547",
     "website": "http://www.travelyosemite.com/winter/yosemite-ski-snowboard-area/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15549,7 +15554,7 @@ var unitedStatesData = [
     "id": "536",
     "website": "http://www.bearmountain.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15583,7 +15588,7 @@ var unitedStatesData = [
     "id": "534",
     "website": "http://ww51.tiki.ne.jp/~bear-ski/index.html",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15615,7 +15620,7 @@ var unitedStatesData = [
     "id": "523",
     "website": "http://www.borealski.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15647,7 +15652,7 @@ var unitedStatesData = [
     "id": "2989",
     "website": "http://www.orgsites.com/ca/buckhorn/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15679,7 +15684,7 @@ var unitedStatesData = [
     "id": "527",
     "website": "http://www.skichinapeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15714,7 +15719,7 @@ var unitedStatesData = [
     "id": "533",
     "website": "http://www.dodgeridge.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15749,7 +15754,7 @@ var unitedStatesData = [
     "id": "542",
     "website": "http://www.donnerskiranch.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15781,7 +15786,7 @@ var unitedStatesData = [
     "id": "535",
     "website": "http://www.granlibakken.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15857,7 +15862,7 @@ var unitedStatesData = [
     "id": "545",
     "website": "http://www.skihomewood.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15889,7 +15894,7 @@ var unitedStatesData = [
     "id": "540",
     "website": "http://www.junemountain.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -15934,7 +15939,7 @@ var unitedStatesData = [
     "id": "537",
     "website": "http://www.kirkwood.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16034,7 +16039,7 @@ var unitedStatesData = [
     "id": "541",
     "website": "http://www.mtbaldy.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16066,7 +16071,7 @@ var unitedStatesData = [
     "id": "532",
     "website": "http://www.skipark.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16100,7 +16105,7 @@ var unitedStatesData = [
     "id": "1029",
     "website": "http://www.mtwaterman.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16215,7 +16220,7 @@ var unitedStatesData = [
     "id": "525",
     "website": "http://www.sierraattahoe.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16249,7 +16254,7 @@ var unitedStatesData = [
     "id": "546",
     "website": "http://www.snowsummit.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16283,7 +16288,7 @@ var unitedStatesData = [
     "id": "539",
     "website": "https://snow-valley.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16317,7 +16322,7 @@ var unitedStatesData = [
     "id": "524",
     "website": "http://www.skisodasprings.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16351,7 +16356,7 @@ var unitedStatesData = [
     "id": "538",
     "website": "http://www.squaw.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16385,7 +16390,7 @@ var unitedStatesData = [
     "id": "543",
     "website": "http://www.sugarbowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16419,7 +16424,7 @@ var unitedStatesData = [
     "id": "529",
     "website": "http://www.tahoedonner.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16451,7 +16456,7 @@ var unitedStatesData = [
     "id": "4837",
     "website": "https://www.lassencollege.edu/about/about-the-area/Pages/Coppervale-Ski-Area.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16483,7 +16488,7 @@ var unitedStatesData = [
     "id": "359",
     "website": "http://www.diamondpeak.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16551,7 +16556,7 @@ var unitedStatesData = [
     "id": "358",
     "website": "http://www.mtrose.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16583,7 +16588,7 @@ var unitedStatesData = [
     "id": "2260",
     "website": "http://www.skytavern.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16615,7 +16620,7 @@ var unitedStatesData = [
     "id": "2261",
     "website": "https://www.facebook.com/snobowl/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16647,7 +16652,7 @@ var unitedStatesData = [
     "id": "264",
     "website": "https://anthonylakes.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16679,7 +16684,7 @@ var unitedStatesData = [
     "id": "272",
     "website": "http://cooperspur.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16711,7 +16716,7 @@ var unitedStatesData = [
     "id": "265",
     "website": "https://www.skifergi.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16743,7 +16748,7 @@ var unitedStatesData = [
     "id": "268",
     "website": "https://skihoodoo.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16777,7 +16782,7 @@ var unitedStatesData = [
     "id": "274",
     "website": "https://www.mtashland.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16811,7 +16816,7 @@ var unitedStatesData = [
     "id": "270",
     "website": "https://www.mtbachelor.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16845,7 +16850,7 @@ var unitedStatesData = [
     "id": "271",
     "website": "https://www.skihood.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16879,7 +16884,7 @@ var unitedStatesData = [
     "id": "263",
     "website": "https://www.skibowl.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -16913,7 +16918,7 @@ var unitedStatesData = [
     "id": "269",
     "website": "http://www.spoutspringsskiarea.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17055,7 +17060,7 @@ var unitedStatesData = [
     "id": "2279",
     "website": "https://www.warnercanyonski.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17087,7 +17092,7 @@ var unitedStatesData = [
     "id": "267",
     "website": "http://www.willamettepass.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17119,7 +17124,7 @@ var unitedStatesData = [
     "id": "195",
     "website": "http://www.ski49n.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17153,7 +17158,7 @@ var unitedStatesData = [
     "id": "187",
     "website": "http://www.ci.waterville.wa.us/ski%20hill.htm",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17221,7 +17226,7 @@ var unitedStatesData = [
     "id": "3322",
     "website": "http://www.echovalley.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17253,7 +17258,7 @@ var unitedStatesData = [
     "id": "1024",
     "website": "http://hurricaneridge.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17287,7 +17292,7 @@ var unitedStatesData = [
     "id": "3323",
     "website": "http://www.skileavenworth.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17319,7 +17324,7 @@ var unitedStatesData = [
     "id": "192",
     "website": "http://www.skitheloup.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17351,7 +17356,7 @@ var unitedStatesData = [
     "id": "3324",
     "website": "https://www.mountaineers.org/locations-lodges/meany-lodge",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17383,7 +17388,7 @@ var unitedStatesData = [
     "id": "186",
     "website": "http://www.missionridge.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17418,7 +17423,7 @@ var unitedStatesData = [
     "id": "191",
     "website": "http://www.mtbaker.us",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17450,7 +17455,7 @@ var unitedStatesData = [
     "id": "189",
     "website": "https://www.mtspokane.com/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17482,7 +17487,7 @@ var unitedStatesData = [
     "id": "3325",
     "website": "http://www.sahalie.org/chair2/Home.aspx",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17514,7 +17519,7 @@ var unitedStatesData = [
     "id": "188",
     "website": "http://gositzmark.org/",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17546,7 +17551,7 @@ var unitedStatesData = [
     "id": "185",
     "website": "http://www.bluewood.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17580,7 +17585,7 @@ var unitedStatesData = [
     "id": "190",
     "website": "http://www.stevenspass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17616,7 +17621,7 @@ var unitedStatesData = [
     "id": "194",
     "website": "https://summitatsnoqualmie.com/summit-central",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17660,7 +17665,7 @@ var unitedStatesData = [
     "id": "194",
     "website": "https://summitatsnoqualmie.com/alpental",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17704,7 +17709,7 @@ var unitedStatesData = [
     "id": "184",
     "website": "http://www.skiwhitepass.com",
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",
@@ -17739,7 +17744,7 @@ var unitedStatesData = [
     },
     "officialSkiResort": false,
     "resortReview": {
-      "score": "",
+      "score": "", // must be a number
       "link": "",
       "note": "",
       "price": "",

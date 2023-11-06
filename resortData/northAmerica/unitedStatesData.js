@@ -1,4 +1,4 @@
-var lastUpdated = '11/03/2023';
+var lastUpdated = '11/05/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9948,6 +9948,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "kA50soSWxJg",
       "KcpXyiBP06M",
       "guHz9KSOEHw",
       "KAJHhKT7UZU",
@@ -11048,6 +11049,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "AEtsBtchVdY",
       "jfwRBzgcuPI",
       "qQd1I1EJoJw",
       "a6W8tfSsGKE",

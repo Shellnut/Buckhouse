@@ -66,12 +66,33 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 
 
 	// Marker click event. Open Modal
-	$scope.$on("leafletDirectiveMarker.click", function(event, args){
+	$scope.$on("leafletDirectiveMarker.click", function(event, args) {
 		var leafEvent = args.leafletEvent;
 		var myResortData = myData.filter(val => val.position.lat === leafEvent.latlng.lat && val.position.lng === leafEvent.latlng.lng)[0];
-		$scope.openModal(myResortData, 'videos');
+		leafletData.getMap().then(function(map) {
+			if (map.isFullscreen()) {
+				map.toggleFullscreen();
+			}
+			$scope.openModal(myResortData, 'videos');
+		});
 	});
 
+	$scope.$on("leafletDirectiveMarker.mouseover", (event, args) => {
+		var leafEvent = args.leafletEvent;
+		var myResortData = myData.filter(val => val.position.lat === leafEvent.latlng.lat && val.position.lng === leafEvent.latlng.lng)[0];
+		var popup = L.popup({ offset: L.point(0, -28)})
+			.setLatLng([args.model.lat, args.model.lng])
+			.setContent(myResortData.resortName);
+		leafletData.getMap().then(function(map) {
+			popup.openOn(map);
+		});
+	});
+
+	$scope.$on("leafletDirectiveMarker.mouseout", (event, args) => {
+		leafletData.getMap().then(function(map) {
+			map.closePopup();
+		});
+	});
 
 	var updateMap = function() {
 

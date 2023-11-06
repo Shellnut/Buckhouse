@@ -33,18 +33,6 @@ app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, 
     $scope.parking = modalData.resortReview.parking/2;
     $scope.wouldIGoBack = modalData.resortReview.wouldIGoBack/2;
 
-    // Get data from skimap API
-    $http({
-        method: 'GET',
-        url: `https://api.openskimap.org/features/${modalData.geoId}.geojson`,
-    }).then(function success(response) {
-        console.log('response is', response);
-        $scope.modalResortData = response;
-    }, function error(response) {
-        // this function will be called when the request returned error status
-        console.log(`I'm sorry. Something went wrong`, response);            
-    });
-
     // Close Modal
     $scope.ok = function () {
         $uibModalInstance.close();

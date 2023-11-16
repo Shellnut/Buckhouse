@@ -1,4 +1,4 @@
-var lastUpdated = '11/05/2023';
+var lastUpdated = '11/15/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9080,19 +9080,19 @@ var unitedStatesData = [
     "id": "170",
     "website": "https://www.skigranitepeak.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 39, // must be a number
+      "link": "i6NolURgK8Q",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "4",
+      "easeOfAccess": "5",
+      "lodging": "1",
+      "chairLifts": "4",
+      "runs": "4",
+      "terrainPark": "5",
+      "food": "5",
+      "employees": "5",
+      "views": "2",
+      "wouldIGoBack": "4"
     },
     "skiPass": [
       "Indy"
@@ -10621,6 +10621,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "cEnrPhtgRCg",
+      "fPQbhFjzqoQ",
       "24T68bqzuBw",
       "qpccOR4FyJE",
       "vBOpb8eDwxU",
@@ -11049,6 +11051,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "GbVm41yiX8Q",
+      "6czHDovg0jM",
       "AEtsBtchVdY",
       "jfwRBzgcuPI",
       "qQd1I1EJoJw",
@@ -11973,6 +11977,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Vail",
     "videos": [
+      "YqW7PaBG_ZM",
+      "rIFbYCfv404",
       "iwYhGCsLBsY",
       "7ZGr7BACcrU",
       "FZKVypyz5js",
@@ -12025,6 +12031,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "LPvkKKCPtXQ",
       "4azgAAvQdfg",
       "eW9W0T2oYCY",
       "qhxyEgG6fOs",

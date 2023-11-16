@@ -11,10 +11,30 @@
 
 <!-- Progress -->
 <div>
-    <p>
+    <p ng-show="myTitle!=='reviewed' && myTitle!=='not reviewed' && myTitle!=='visited' && myTitle!=='not visited'">
         Johnathan has visited {{visitedCount}} out of the {{skiResortCount | number:0}}<a class="disclaimer-count" ng-click="goToChangeLog()" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a> 
         {{myTitle}}
         ski resorts so far! 
+        <i>last updated: {{lastUpdated}}</i>
+    </p>
+    <p ng-show="myTitle==='reviewed'">
+        Johnathan has reviewed {{visitedCount}}
+        ski resorts so far!
+        <i>last updated: {{lastUpdated}}</i>
+    </p>
+    <p ng-show="myTitle==='not reviewed'">
+        Johnathan has not reviewed {{skiResortCount}} out of the {{usSkiResortCount | number:0}}<a class="disclaimer-count" ng-click="goToChangeLog()" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a>
+        U.S. ski resorts so far!
+        <i>last updated: {{lastUpdated}}</i>
+    </p>
+    <p ng-show="myTitle==='visited'">
+        Johnathan has visited {{skiResortCount}}
+        ski resorts so far! (and {{unofficialCount}} unofficial locations so far)
+        <i>last updated: {{lastUpdated}}</i>
+    </p>
+    <p ng-show="myTitle==='not visited'">
+        Johnathan has not visited {{skiResortCount}} out of the {{usSkiResortCount | number:0}}<a class="disclaimer-count" ng-click="goToChangeLog()" uib-tooltip="This number is subject to change. See 'Change Log' at the bottom of this page for more information.">*</a>
+        U.S. ski resorts so far!
         <i>last updated: {{lastUpdated}}</i>
     </p>
 </div>

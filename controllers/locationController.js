@@ -32,6 +32,8 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 
 	$scope.visitedCount = myData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
     $scope.skiResortCount = myData.filter(val => val.officialSkiResort).length;
+    $scope.unofficialCount = myData.filter(val => !val.officialSkiResort).length;
+    $scope.usSkiResortCount = unitedStatesData.filter(val => val.officialSkiResort).length;
     $scope.myTitle = myTitle;
 
 	$scope.lastUpdated = lastUpdated;

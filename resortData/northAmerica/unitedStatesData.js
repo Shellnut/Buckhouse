@@ -1,4 +1,4 @@
-var lastUpdated = '11/15/2023';
+var lastUpdated = '11/30/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -4305,19 +4305,19 @@ var unitedStatesData = [
     "id": "295",
     "website": "http://www.whiteface.com",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 58, // must be a number
+      "link": "2CsHUDYFIw0",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "1",
+      "chairLifts": "8",
+      "runs": "7",
+      "terrainPark": "6",
+      "food": "6",
+      "employees": "5",
+      "views": "6",
+      "wouldIGoBack": "9"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/b2d80n4b355uvmdww0m0vifagtzs",
@@ -8114,19 +8114,19 @@ var unitedStatesData = [
     "id": "379",
     "website": "http://www.welchvillage.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 38, // must be a number
+      "link": "Wd5fhFhiSNI",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "3",
+      "easeOfAccess": "6",
+      "lodging": "1",
+      "chairLifts": "5",
+      "runs": "3",
+      "terrainPark": "5",
+      "food": "4",
+      "employees": "6",
+      "views": "2",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/8eb6p3f9bv4n6faqpmdnxqbwj54v",
@@ -9839,6 +9839,38 @@ var unitedStatesData = [
     "country": "United States"
   },
   {    
+    "resortName": "Paul Bunyan Ski Hill",
+    "state": "Wisconsin",
+    "region": "Midwest",
+    "city": "",
+    "videos": [],
+    "position": {
+      "lat": 45.326149980398135,
+      "lng": -88.52421088465803
+    },
+    "officialSkiResort": true,
+    "id": "5010",
+    "website": "https://skipaulbunyan.com/",
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/x1kha772v6vpq0v164q5qycgofme.jpg",
+    "country": "United States"
+  },
+  {    
     "resortName": "Arizona Snowbowl",
     "state": "Arizona",
     "region": "Rocky Mountains",
@@ -9948,6 +9980,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "PnvEax9s4FI",
       "kA50soSWxJg",
       "KcpXyiBP06M",
       "guHz9KSOEHw",
@@ -10412,6 +10445,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "GmehR2YcCVs",
       "UnOowuPAdX8",
       "V9NuOgcIiks",
       "082ZrygU3Lc",
@@ -10906,6 +10940,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Eldora",
     "videos": [
+      "N7Ogzko19do",
       "uNQvPUbtGHM",
       "aETZy-xmSlY",
       "AJfQhj4Jpp8",
@@ -11051,6 +11086,14 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "lvAYpTEB7_4",
+      "PNXJLECogSY",
+      "qs-gTfdVxQk",
+      "D3HMbZz_pS4",
+      "hwzVHJEmhhs",
+      "Ogl_5ewkB34",
+      "T_WgqgAPFnE",
+      "nDH1Rqzft4k",
       "GbVm41yiX8Q",
       "6czHDovg0jM",
       "AEtsBtchVdY",

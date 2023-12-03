@@ -244,41 +244,6 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
         });
     }
 
-    $scope.webcamModal = function(modalData) {
-
-        var webcamModal = $uibModal.open({
-                animation: $scope.animationsEnabled,
-                template: `<div class="modal-header">
-                            <h3 class="modal-title">
-                                <div class="row">
-                                    <div class="col-xs-11">
-                                        <span><i class="fa fa-video-camera" aria-hidden="true"></i> ${modalData.resortName} Webcam</span>
-                                    </div>
-                                    <div class="col-xs-1">
-                                        <button class="btn btn-sm" style="float:right; clear:all;" ng-click="ok()">X</button>
-                                    </div>
-                                </div>
-                            </h3>
-                            </div>
-                            <div class="modal-body">
-                            ${modalData.webcam.map(val => {
-                                return '<h4>' + val.title + '</h4>' +
-                                        '<div class="embed-responsive embed-responsive-16by9">' +
-                                        '    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/' + val.link + '?&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' +
-                                        '</div>'
-                            }).join('<br>')}
-                            </div>
-                            <div class="modal-footer">
-                            <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>
-                            </div>`,
-                controller: 'WebcamModal'
-            });
-            webcamModal.result.then(function() {
-                // console.log('done!');
-            }, function () {
-        });
-    }
-
     $scope.toggleAnimation = function () {
         $scope.animationsEnabled = !$scope.animationsEnabled;
     };

@@ -696,7 +696,7 @@ var unitedStatesData = [
     "webcam": [
       {
         "title": "Sugarloaf Webcam - Beach Cam",
-        "link": "q30GjuSB_ls"
+        "link": "K77ahIkmPGw"
       }
     ],
     "country": "United States"
@@ -12008,10 +12008,6 @@ var unitedStatesData = [
       {
         "title": "Mountain Village",
         "link": "N-StEGiHtjw"
-      },
-      {
-        "title": "Downtown Telluride",
-        "link": "Y_TLxje5Qw4"
       }
     ],
     "country": "United States"
@@ -12132,7 +12128,7 @@ var unitedStatesData = [
       },
       {
         "title": "Snow Stake",
-        "link": "8rzBPS0DqGE"
+        "link": "_wOIgFEMypY"
       }
     ],
     "country": "United States"

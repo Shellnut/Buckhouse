@@ -123,7 +123,7 @@
                 <span>
                 <a ng-show="!!data.mapLink" href="javascript:void(0);" ng-click="openModal(data, 'map')" title="Resort Map">{{data.resortName}}</a>
                 <span ng-show="!data.mapLink">{{data.resortName}}</span>
-                <span ng-show="data.webcam.length"><a ng-click="webcamModal(data)" onclick="return false;"><i class="fa fa-video-camera" aria-hidden="true"></i></a></span>
+                <span ng-show="data.webcam.length"><a ng-click="openModal(data, 'webcam')" onclick="return false;"><i class="fa fa-video-camera" aria-hidden="true"></i></a></span>
                 </span>
             </td>
             <td>
@@ -161,7 +161,7 @@
             <td> 
                 <span ng-show="data.videos.length===0">{{data.videos.length}}</span>
                 <span ng-show="data.videos.length>0">
-                <a target="_blank" ng-href="https://www.youtube.com/watch_videos?video_ids={{data.videos.join(',')}}">{{data.videos.length}}</a>
+                <a onclick="return false;" ng-click="openModal(data, 'videos')">{{data.videos.length}}</a>
                 </span>
             </td>
         </tr>

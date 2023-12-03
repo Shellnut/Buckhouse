@@ -96,6 +96,18 @@
             </div>
 
         </uib-tab>
+        <uib-tab index="3" heading="Webcam" ng-show="modalData.webcam.length>0">
+            
+            <h4>Webcam</h4>
+
+            <div ng-repeat="web in modalData.webcam">
+                <h5>{{web.title}}</h5>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"  ng-src="{{'https://www.youtube.com/watch?v=' + web.link | trusted}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </uib-tab>
     </uib-tabset>
 
 </div>

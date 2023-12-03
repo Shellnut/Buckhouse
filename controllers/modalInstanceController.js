@@ -1,5 +1,5 @@
 // Modal controller      
-app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, modalData, modalType) {
+app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, modalData, modalType) {
 
     $scope.modalData = modalData;
     $scope.totalItems = modalData.videos.length;
@@ -13,6 +13,9 @@ app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, 
     }
     else if (modalType === 'map') {
         $scope.active = 2;
+    }
+    else if (modalType === 'webcam') {
+        $scope.active = 3;
     }
     // If there are no videos
     if (modalData.videos.length === 0 && modalData.mapLink) {

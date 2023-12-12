@@ -123,7 +123,7 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
                             <p>You can support Johnathan by joining his <a href="https://www.youtube.com/channel/UC_i8SQjQOrPUpD3tpjMEuAw/join" target="_blank">YouTube Membership</a> or his <a href="https://www.patreon.com/JohnathanBuckhouse" target="_blank">Patreon</a>.</p>
                             <br>                                 
                             <p><b>How can I help improve this website?</b></p>
-                            <p>Feedback is welcome and apperciated! Email Kenny <a href="mailto:shellnut@gmail.com?subject=Buckhouse Ski Map">shellnut@gmail.com</a> with any suggestions or questions. If you're a developer, check out the <a target="_blank" href="https://github.com/Shellnut/Buckhouse">Github</a>.</p>
+                            <p>Feedback is welcome and apperciated! Email Kenny <a href="mailto:resortskimaps@gmail.com?subject=Buckhouse Ski Map">resortskimaps@gmail.com</a> with any suggestions or questions. If you're a developer, check out the <a target="_blank" href="https://github.com/Shellnut/Buckhouse">Github</a>.</p>
                             </div>
                             <div class="modal-footer">
                             <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>

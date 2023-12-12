@@ -1,5 +1,5 @@
 // Modal controller      
-app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, modalData, modalType) {
+app.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, $http, modalData, modalType) {
 
     $scope.modalData = modalData;
     $scope.totalItems = modalData.videos.length;

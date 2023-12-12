@@ -1,4 +1,4 @@
-var lastUpdated = '12/02/2023';
+var lastUpdated = '12/12/2023';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -849,19 +849,19 @@ var unitedStatesData = [
     "id": "444",
     "website": "https://bousquetmountain.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 46, // must be a number
+      "link": "4G7wcGUsgKg",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "7",
+      "lodging": "1",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "4",
+      "food": "6",
+      "employees": "10",
+      "views": "5",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/7radclyue2xgisb670zmh531ylxh",
@@ -949,19 +949,19 @@ var unitedStatesData = [
     "id": "443",
     "website": "http://www.jiminypeak.com",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 55, // must be a number
+      "link": "xIN48gFUq5k",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "4",
+      "easeOfAccess": "6",
+      "lodging": "5",
+      "chairLifts": "5",
+      "runs": "5",
+      "terrainPark": "4",
+      "food": "10",
+      "employees": "7",
+      "views": "5",
+      "wouldIGoBack": "4"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/ysxzbvl4f189upbxy46yhuq3d6si",
@@ -8236,6 +8236,38 @@ var unitedStatesData = [
     "mapLink": ""
   },
   {    
+    "resortName": "Steeplechase",
+    "state": "Minnesota",
+    "region": "Midwest",
+    "country": "United States",
+    "city": "Mazeppa",
+    "videos": [],
+    "position": {
+      "lat": 44.245512453684356,
+      "lng": -92.51474473202735
+    },
+    "officialSkiResort": true,
+    "id": "4037",
+    "website": "https://www.steeplechaseevents.com/",
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/wgqsyng42j0y0agcb03lskg9cvuz"
+  },
+  {    
     "resortName": "Hidden Valley Ski Area",
     "state": "Missouri",
     "region": "Midwest",
@@ -10445,6 +10477,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "o231kpnGDMg",
       "GmehR2YcCVs",
       "UnOowuPAdX8",
       "V9NuOgcIiks",
@@ -11086,6 +11119,10 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "ZPvr3oNrrgs",
+      "gSddtrtmFLQ",
+      "ngXCKafOE0Y",
+      "lXdcHIaRXbA",
       "uG8Mnid-S2M",
       "rVo0YHgm5Dg",
       "lvAYpTEB7_4",

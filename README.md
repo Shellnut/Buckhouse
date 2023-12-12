@@ -44,4 +44,4 @@ var allData = [
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Suggestions are also welcome. Email [Kenny](mailto:shellnut@gmail.com?subject=Buckhouse) for any ideas to improve this site.
+Suggestions are also welcome. Email [Kenny](mailto:resortskimaps@gmail.com?subject=Buckhouse) for any ideas to improve this site.

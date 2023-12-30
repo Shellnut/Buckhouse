@@ -296,7 +296,7 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 	$scope.legend = {
 		position: 'bottomright',
 		colors: [ '#ff0000', '#28c9ff', '#0000ff', '#ecf386', '#ecf386', '#ecf386','#ecf386', '#ecf386', '#ecf386' ],
-		labels: [ '<b><i class="fa fa-trophy"></i> DREAMER Memberships</b>', 'Dan Da Man', 'Jeff Abbott', 'Dylan Crawford', 'Rick Kinser', 'Lee Bush', 'Nathan Chabot', 'BigAnt6493', 'Lee Miller' ]
+		labels: [ '<b><i class="fa fa-trophy"></i> DREAMERS</b>', 'Dan Da Man', 'Jeff Abbott', 'Dylan Crawford', 'Rick Kinser', 'Lee Bush', 'Nathan Chabot', 'BigAnt6493', 'Lee Miller' ]
 	}
 
 	$scope.selected = undefined;

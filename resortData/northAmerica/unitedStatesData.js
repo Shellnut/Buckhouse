@@ -1,4 +1,4 @@
-var lastUpdated = '12/12/2023';
+var lastUpdated = '01/02/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -1047,19 +1047,19 @@ var unitedStatesData = [
     "id": "434",
     "website": "http://www.otisridge.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 34, // must be a number
+      "link": "ksSy9Ow5yBs",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "2",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "8",
+      "views": "1",
+      "wouldIGoBack": "1"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/bqzm9d8of8c40gst2javtpep11mz",
@@ -7872,19 +7872,19 @@ var unitedStatesData = [
     "id": "5246",
     "website": "https://www.threeriversparks.org/location/elm-creek-winter-recreation-area/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 39, // must be a number
+      "link": "UEs9vshB49I",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "9",
+      "easeOfAccess": "9",
+      "lodging": "0",
+      "chairLifts": "1",
+      "runs": "1",
+      "terrainPark": "5",
+      "food": "5",
+      "employees": "5",
+      "views": "1",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/yh516720me0hfmei558z45k3hgdp",
@@ -8429,6 +8429,38 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/y7j2g0ifqbeon7zte7kyc71r2siq",
+    "country": "United States"
+  },
+  {    
+    "resortName": "Thrill Hills",
+    "state": "North Dakota",
+    "region": "Midwest",
+    "city": "Fort Ransom",
+    "videos": [],
+    "position": {
+      "lat": 46.53218476961613,
+      "lng": -97.93557724512064
+    },
+    "officialSkiResort": true,
+    "id": "281",
+    "website": "https://thrill-hills.square.site/",
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/qy6zh9beun1tfioruryera25aaxw.jpg",
     "country": "United States"
   },
   {    
@@ -10688,6 +10720,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "js6pZ8aSFdo",
       "cEnrPhtgRCg",
       "fPQbhFjzqoQ",
       "24T68bqzuBw",
@@ -11119,6 +11152,19 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "1QbHsmVj2WE",
+      "48ZrVb5JnEw",
+      "D_PvxbGbU14",
+      "LEvzehm2jx8",
+      "zirEk6GVCqo",
+      "zY3qDtN7xVY",
+      "ec9w-ncjEcg",
+      "0m_loi6Cbrc",
+      "OB2sIEIIIc8",
+      "9IljOvPcEKo",
+      "4zfFqSxLmfo",
+      "t6uzLnnISM0",
+      "FQF4lqGi-LA",
       "ZPvr3oNrrgs",
       "gSddtrtmFLQ",
       "ngXCKafOE0Y",
@@ -12109,6 +12155,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "zDhVzcL9RuQ",
       "LPvkKKCPtXQ",
       "4azgAAvQdfg",
       "eW9W0T2oYCY",
@@ -12219,6 +12266,7 @@ var unitedStatesData = [
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "HZNFdFMqN6U",
       "MwYdjlOEsZ8",
       "J_QWw5csLJw",
       "WCbFS6Qfhmg",

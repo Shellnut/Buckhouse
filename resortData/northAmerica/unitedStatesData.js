@@ -1,4 +1,4 @@
-var lastUpdated = '01/02/2024';
+var lastUpdated = '01/04/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -12687,6 +12687,7 @@ var unitedStatesData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "G6vExCJKK18",
       "PPa-FKLPAbo",
       "kQ7LsDGCqlQ",
       "qS4oMfF4AKw",
@@ -12803,6 +12804,40 @@ var unitedStatesData = [
     "position": {
       "lat": 38.49718365365078,
       "lng": -106.3256659306812
+    },
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "",
+    "country": "United States"
+  },
+  {    
+    "resortName": "Hoedown Hill",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Windsor",
+    "officialSkiResort": true,
+    "id": "",
+    "website": "",
+    "videos": [
+      "S5pnQDvUEXA"
+    ],
+    "position": {
+      "lat": 40.45225334541399,
+      "lng": -104.9312887165216
     },
     "resortReview": {
       "score": "", // must be a number

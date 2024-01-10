@@ -218,21 +218,28 @@
        
          <div>
             <hr>
-            <h3>Johnathan's Stats</h3>
+            <h3 ng-click="mySecretCount = mySecretCount+1">Johnathan's Stats</h3>
             <div class="row">
                   <my-progress-bar title="U.S. Ski Resorts" progress="{{(visitedCount / skiResortCount)*100}}"></my-progress-bar>
             </div>
             
             <!-- A bunch of graphs -->
-            <div id='StateVisitedHeatMap'></div>
-            <div id='RegionVisitedHeatMap'></div>
+            <div class="row">
+               <div class="col-md-6">
+                  <div id='StateVisitedHeatMap'></div>
+               </div>
+               <div class="col-md-6">
+                  <div id='RegionVisitedHeatMap'></div>
+               </div>
+            </div>
+
             <div id='newResortsBySeason'></div>
             <!-- <div id='daysTotalBySeason'></div> -->
-            <div id='viewsBySeason'></div>
-            <div id='videosBySeason'></div>
-            <div id='viewsTotalBySeason'></div>
-            <div id='videoViewsByMonth'></div>
-            <div id='totalViewsPerMonth'></div>
+            <div ng-show="mySecretCount>5" id='viewsBySeason'></div>
+            <div ng-show="mySecretCount>5" id='videosBySeason'></div>
+            <div ng-show="mySecretCount>5" id='viewsTotalBySeason'></div>
+            <div ng-show="mySecretCount>5" id='videoViewsByMonth'></div>
+            <div ng-show="mySecretCount>5" id='totalViewsPerMonth'></div>
 
             <p><b>Notes:</b></p>
             <ul>

@@ -1,4 +1,4 @@
-var lastUpdated = '01/04/2024';
+var lastUpdated = '01/10/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -883,19 +883,19 @@ var unitedStatesData = [
     "id": "441",
     "website": "http://www.skibutternut.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 41, // must be a number
+      "link": "2H1Pmyrzhno",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "6",
+      "lodging": "1",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "5",
+      "views": "3",
+      "wouldIGoBack": "4"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/z35w15sd138cw7aritnzb4gfbc4p",
@@ -11152,6 +11152,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "3kkznttswVM",
+      "fuB7MPJOCdQ",
+      "ZucxqeUfwBg",
       "1QbHsmVj2WE",
       "48ZrVb5JnEw",
       "D_PvxbGbU14",
@@ -11936,6 +11939,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "VnBeWU4iSRE",
       "3tg-4Rh26KQ",
       "PM_pVknNxto",
       "KQmhXgAR32g",

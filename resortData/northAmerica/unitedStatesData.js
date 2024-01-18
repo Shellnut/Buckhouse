@@ -1,4 +1,4 @@
-var lastUpdated = '01/10/2024';
+var lastUpdated = '01/18/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10310,19 +10310,19 @@ var unitedStatesData = [
     "id": "1033",
     "website": "http://www.aspensnowmass.com",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "score": 91, // must be a number
+      "link": "wIOtowCncGU",
+      "note": "Johnathan rated this 91/100 in the video, but the scores actually add up to 90.",
+      "price": "4",
+      "easeOfAccess": "10",
+      "lodging": "10",
+      "chairLifts": "9",
+      "runs": "10",
+      "terrainPark": "10",
+      "food": "10",
+      "employees": "7",
+      "views": "10",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Ikon",
@@ -10510,6 +10510,7 @@ var unitedStatesData = [
     "city": "Breckenridge",
     "videos": [
       "o231kpnGDMg",
+      "CmAxaGztVDs",
       "GmehR2YcCVs",
       "UnOowuPAdX8",
       "V9NuOgcIiks",
@@ -11152,6 +11153,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "VR7qC4jRFL4",
+      "kvN2qpDUvwI",
       "3kkznttswVM",
       "fuB7MPJOCdQ",
       "ZucxqeUfwBg",
@@ -11940,6 +11943,7 @@ var unitedStatesData = [
     "city": "Steamboat Springs",
     "videos": [
       "VnBeWU4iSRE",
+      "KZsfT1U4PfQ",
       "3tg-4Rh26KQ",
       "PM_pVknNxto",
       "KQmhXgAR32g",
@@ -12691,6 +12695,7 @@ var unitedStatesData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "ANANY6OTdmM",
       "G6vExCJKK18",
       "PPa-FKLPAbo",
       "kQ7LsDGCqlQ",
@@ -12834,7 +12839,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Windsor",
     "officialSkiResort": true,
-    "id": "",
+    "id": "16630",
     "website": "",
     "videos": [
       "S5pnQDvUEXA"
@@ -12859,7 +12864,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "",
+    "mapLink": "https://files.skimap.org/f1mv6ldfdcevptbs6jtfrexmyh9q.png",
     "country": "United States"
   },
   {    
@@ -16113,19 +16118,19 @@ var unitedStatesData = [
     "id": "537",
     "website": "http://www.kirkwood.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 64, // must be a number
+      "link": "5k_npcN_L70",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "3",
+      "lodging": "8",
+      "chairLifts": "4",
+      "runs": "10",
+      "terrainPark": "4",
+      "food": "8",
+      "employees": "5",
+      "views": "7",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Epic"

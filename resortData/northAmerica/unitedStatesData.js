@@ -16362,7 +16362,7 @@ var unitedStatesData = [
       "Powder Alliance",
       "Indy"
     ],
-    "mapLink": "https://files.skimap.org/6ycr5bqhpqqkm8emx72iul3o03pr",
+    "mapLink": "https://files.skimap.org/igfv4qnek2vvowvl5tqqysokqpk3.png",
     "country": "United States"
   },
   {    
@@ -16476,7 +16476,7 @@ var unitedStatesData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://files.skimap.org/jsr20rfd8vpti0znz9sygzdhsyja",
+    "mapLink": "https://files.skimap.org/yjgh28cfisbwzibz92ay9koartaa.jpg",
     "country": "United States"
   },
   {    

@@ -1,4 +1,4 @@
-var lastUpdated = '01/18/2024';
+var lastUpdated = '02/18/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9963,7 +9963,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "https://files.skimap.org/dzml91y9eravl1cnatnh7qzjoyu7",
+    "mapLink": "https://files.skimap.org/jcsussq40vn0jw9ba3yo2xlpni97.jpg",
     "webcam": [
       {
         "title": "Arizona Gondola",
@@ -9977,7 +9977,9 @@ var unitedStatesData = [
     "state": "Arizona",
     "region": "Rocky Mountains",
     "city": "Summerhaven",
-    "videos": [],
+    "videos": [
+      "ZExsNwMgng4"
+    ],
     "position": {
       "lat": 32.448513726767985,
       "lng": -110.78192422205908
@@ -10509,6 +10511,13 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "y_uTl_hAh4I",
+      "_QCLNtbjYVE",
+      "NwmPA_IkFFQ",
+      "Z-KhfLZen7o",
+      "5mbnX1JJZ3s",
+      "6bh9KE7FdyI",
+      "XAAnbMWusSM",
       "o231kpnGDMg",
       "CmAxaGztVDs",
       "GmehR2YcCVs",
@@ -10721,6 +10730,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "4nAIRSge-0o",
+      "MnfLw6LZWW4",
       "js6pZ8aSFdo",
       "cEnrPhtgRCg",
       "fPQbhFjzqoQ",
@@ -11153,6 +11164,13 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "r-cr7XM6wmE",
+      "b3kSTUNTfak",
+      "qrGBB097AnQ",
+      "-jE0wTShtCM",
+      "HAJGvkeSpoU",
+      "SVibscSA5Bw",
+      "6C5hajRcy_g",
       "VR7qC4jRFL4",
       "kvN2qpDUvwI",
       "3kkznttswVM",
@@ -11942,6 +11960,10 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "-7l5W4wCMX4",
+      "N_aYOWaFqBE",
+      "3fq421fgYd8",
+      "iWZ4oTiFoaA",
       "VnBeWU4iSRE",
       "KZsfT1U4PfQ",
       "3tg-4Rh26KQ",
@@ -12486,7 +12508,9 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "eoDKMRBRNQU",
       "V_MiE4tyMp0",
+      "jJSXwhUx7X0",
       "7uBjLhl-Z7Q",
       "-GDJy3bjgsk",
       "Ex971DjeOls",
@@ -12622,6 +12646,7 @@ var unitedStatesData = [
     "city": "Frisco",
     "officialSkiResort": true,
     "videos": [
+      "wpucU-pUWcM",
       "fakMsO21k6o",
       "OKw9zlhnrbw",
       "SDIMKBhCGE0",
@@ -12842,6 +12867,7 @@ var unitedStatesData = [
     "id": "16630",
     "website": "",
     "videos": [
+      "AMXw-FQ7QcE",
       "S5pnQDvUEXA"
     ],
     "position": {
@@ -14407,19 +14433,19 @@ var unitedStatesData = [
     "id": "222",
     "website": "https://www.skiutah.com/members/brighton",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 63, // must be a number
+      "link": "gr1Jhyj0aOw",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "6",
+      "lodging": "4",
+      "chairLifts": "5",
+      "runs": "8",
+      "terrainPark": "7",
+      "food": "6",
+      "employees": "5",
+      "views": "9",
+      "wouldIGoBack": "8"
     },
     "skiPass": [
       "Ikon"

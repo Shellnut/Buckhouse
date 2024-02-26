@@ -1,4 +1,4 @@
-var lastUpdated = '02/18/2024';
+var lastUpdated = '02/26/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9978,6 +9978,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Summerhaven",
     "videos": [
+      "KrQOJOeLgqw",
       "ZExsNwMgng4"
     ],
     "position": {
@@ -10011,7 +10012,9 @@ var unitedStatesData = [
     "state": "Arizona",
     "region": "Rocky Mountains",
     "city": "Greer",
-    "videos": [],
+    "videos": [
+      "dt9Y08uwwQ0"
+    ],
     "position": {
       "lat": 33.97418000932133,
       "lng": -109.56386338344488
@@ -10511,6 +10514,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "e-MXCjIJ9eQ",
       "y_uTl_hAh4I",
       "_QCLNtbjYVE",
       "NwmPA_IkFFQ",
@@ -11164,6 +11168,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "O60UFa1uavA",
+      "g09d-TXBAbA",
+      "2qlnwn19bfA",
       "r-cr7XM6wmE",
       "b3kSTUNTfak",
       "qrGBB097AnQ",
@@ -14769,19 +14776,19 @@ var unitedStatesData = [
     "id": "226",
     "website": "http://www.snowbird.com",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 68, // must be a number
+      "link": "7uUnHrO1ATM",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "3",
+      "easeOfAccess": "6",
+      "lodging": "8",
+      "chairLifts": "8",
+      "runs": "10",
+      "terrainPark": "2",
+      "food": "10",
+      "employees": "5",
+      "views": "9",
+      "wouldIGoBack": "7"
     },
     "skiPass": [
       "Ikon",

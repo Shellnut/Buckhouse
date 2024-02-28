@@ -1,4 +1,4 @@
-var lastUpdated = '02/26/2024';
+var lastUpdated = '02/28/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9939,7 +9939,10 @@ var unitedStatesData = [
     "state": "Arizona",
     "region": "Rocky Mountains",
     "city": "Flagstaff",
-    "videos": [],
+    "videos": [
+      "N7RB4y53rVk",
+      "mGIqP-O2QLw"
+    ],
     "position": {
       "lat": 35.331585910441106,
       "lng": -111.71008545227747

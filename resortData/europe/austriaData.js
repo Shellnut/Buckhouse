@@ -730,7 +730,9 @@ var austriaData = [
         "region": "Tyrol",
         "country": "Austria",
         "city": "",
-        "videos": [],
+        "videos": [
+            "JFc1WyTB3JI"
+        ],
         "position": {
             "lat": 47.20124197224789,
             "lng": 10.16615688800812
@@ -910,7 +912,9 @@ var austriaData = [
         "region": "Tyrol",
         "country": "Austria",
         "city": "",
-        "videos": [],
+        "videos": [
+            "AXh9OhOwe4o"
+        ],
         "position": {
             "lat": 46.975626071458,
             "lng": 10.9763717651367

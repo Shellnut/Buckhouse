@@ -349,7 +349,7 @@ var resortsBySeasonTrace = {
 var resortBySeasonData = [resortsBySeasonTrace];
 
 var resortBySeasonLayout = {
-  title: 'Number of New Resorts Traveled to by Season',
+  title: 'Number of New U.S. Resorts Traveled to by Season',
   yaxis: {
     title: '# of New Resorts',
     fixedrange: true

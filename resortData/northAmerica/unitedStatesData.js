@@ -1,4 +1,4 @@
-var lastUpdated = '02/28/2024';
+var lastUpdated = '03/04/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -17976,5 +17976,55 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": "",
     "country": "United States"
-}
+  },
+  {
+    "resortName": "Otztal (Sölden)",
+    "state": "",
+    "region": "Tyrol, Austria",
+    "country": "Austria",
+    "city": "",
+    "videos": [
+        "AXh9OhOwe4o"
+    ],
+    "position": {
+        "lat": 46.975626071458,
+        "lng": 10.9763717651367
+    },
+    "officialSkiResort": false,
+    "id": "635",
+    "website": "http://www.soelden.com",
+    "resortReview": {
+        "score": "",
+        "link": "",
+        "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/5fygdo06hi7vmh4nlrznuebrxdup"
+  },
+  {
+    "resortName": "Arlberg (St Anton, St Christoph, Stuben, Lech, ​Zürs, Warth, ​Schröcken)",
+    "state": "",
+    "region": "Tyrol",
+    "country": "Austria",
+    "city": "",
+    "videos": [
+        "JFc1WyTB3JI"
+    ],
+    "position": {
+        "lat": 47.20124197224789,
+        "lng": 10.16615688800812
+    },
+    "officialSkiResort": false,
+    "id": "627",
+    "website": "http://www.skiarlberg.at",
+    "resortReview": {
+        "score": "",
+        "link": "",
+        "note": ""
+    },
+    "skiPass": [
+        "Epic"
+    ],
+    "mapLink": "https://files.skimap.org/v2wm4pmjapr6otom3o1sgqk4stia"
+},
 ];

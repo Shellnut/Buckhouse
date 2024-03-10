@@ -1,4 +1,4 @@
-var lastUpdated = '03/04/2024';
+var lastUpdated = '03/10/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -11171,6 +11171,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "phsybhqVRGg",
       "O60UFa1uavA",
       "g09d-TXBAbA",
       "2qlnwn19bfA",
@@ -17984,19 +17985,31 @@ var unitedStatesData = [
     "country": "Austria",
     "city": "",
     "videos": [
-        "AXh9OhOwe4o"
+      "1vMl8rW3rMg",
+      "XCkudj9Q6Jw",
+      "AXh9OhOwe4o"
     ],
     "position": {
-        "lat": 46.975626071458,
-        "lng": 10.9763717651367
+      "lat": 46.975626071458,
+      "lng": 10.9763717651367
     },
     "officialSkiResort": false,
     "id": "635",
     "website": "http://www.soelden.com",
     "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/5fygdo06hi7vmh4nlrznuebrxdup"
@@ -18008,23 +18021,91 @@ var unitedStatesData = [
     "country": "Austria",
     "city": "",
     "videos": [
-        "JFc1WyTB3JI"
+      "JFc1WyTB3JI"
     ],
     "position": {
-        "lat": 47.20124197224789,
-        "lng": 10.16615688800812
+      "lat": 47.20124197224789,
+      "lng": 10.16615688800812
     },
     "officialSkiResort": false,
     "id": "627",
     "website": "http://www.skiarlberg.at",
     "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
         "Epic"
     ],
     "mapLink": "https://files.skimap.org/v2wm4pmjapr6otom3o1sgqk4stia"
-},
+  },
+  {
+    "resortName": "Alpenarena (Films, Laax, Falera)",
+    "state": "",
+    "region": "Graubünden",
+    "country": "Switzerland",
+    "city": "",
+    "videos": [
+      "SJ00yXqI_NY"
+    ],
+    "position": {
+      "lat": 46.84815834321463,
+      "lng": 9.217185974121096
+    },
+    "officialSkiResort": false,
+    "id": "1012",
+    "website": "http://www.alpenarena.ch",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/djegkipm44nghgyfeh4878s536kf"
+  },
+  {
+    "resortName": "Silvretta Montafon (Hochjoch, Nova)",
+    "state": "",
+    "region": "Vorarlberg",
+    "country": "Austria",
+    "city": "",
+    "videos": [
+      "qFAQCGYgXVc"
+    ],
+    "position": {
+      "lat": 47.021603887334,
+      "lng": 9.9646708011627
+    },
+    "officialSkiResort": false,
+    "id": "2709",
+    "website": "http://www.silvretta-montafon.at/",
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/4f05y8vyjgsjnduna1y6p62p3ob9"
+  }
 ];

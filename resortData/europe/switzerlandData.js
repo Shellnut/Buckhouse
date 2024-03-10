@@ -513,7 +513,9 @@ var switzerlandData = [
         "region": "Graubünden",
         "country": "Switzerland",
         "city": "",
-        "videos": [],
+        "videos": [
+            "SJ00yXqI_NY"
+        ],
         "position": {
             "lat": 46.84815834321463,
             "lng": 9.217185974121096

@@ -1750,7 +1750,9 @@ var austriaData = [
         "region": "Vorarlberg",
         "country": "Austria",
         "city": "",
-        "videos": [],
+        "videos": [
+            "qFAQCGYgXVc"
+        ],
         "position": {
             "lat": 47.021603887334,
             "lng": 9.9646708011627

@@ -1,4 +1,4 @@
-var lastUpdated = '03/10/2024';
+var lastUpdated = '03/15/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9992,19 +9992,19 @@ var unitedStatesData = [
     "id": "550",
     "website": "https://www.skithelemmon.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 45, // must be a number
+      "link": "T6YGtv2zWvo",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "1",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "4",
+      "terrainPark": "0",
+      "food": "6",
+      "employees": "7",
+      "views": "9",
+      "wouldIGoBack": "10"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/1wj6lu4b54a8l4p8ivlq0kemi7z6",
@@ -11171,6 +11171,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "FMtl9z_VxyU",
+      "AarZNmUUMsM",
       "phsybhqVRGg",
       "O60UFa1uavA",
       "g09d-TXBAbA",
@@ -12878,6 +12880,7 @@ var unitedStatesData = [
     "id": "16630",
     "website": "",
     "videos": [
+      "gDTkcRsqXyY",
       "AMXw-FQ7QcE",
       "S5pnQDvUEXA"
     ],

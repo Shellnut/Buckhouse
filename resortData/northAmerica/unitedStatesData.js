@@ -1,4 +1,4 @@
-var lastUpdated = '03/15/2024';
+var lastUpdated = '03/31/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9951,19 +9951,19 @@ var unitedStatesData = [
     "id": "548",
     "website": "http://www.arizonasnowbowl.com",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 67, // must be a number
+      "link": "6YQJ-o5Ger0",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "4",
+      "lodging": "6",
+      "chairLifts": "6",
+      "runs": "8",
+      "terrainPark": "6",
+      "food": "7",
+      "employees": "10",
+      "views": "5",
+      "wouldIGoBack": "8"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/jcsussq40vn0jw9ba3yo2xlpni97.jpg",
@@ -10026,19 +10026,19 @@ var unitedStatesData = [
     "id": "549",
     "website": "https://www.sunriseskipark.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 39, // must be a number
+      "link": "2ShVAk0ZJuw",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "3",
+      "lodging": "5",
+      "chairLifts": "1",
+      "runs": "4",
+      "terrainPark": "3",
+      "food": "7",
+      "employees": "4",
+      "views": "3",
+      "wouldIGoBack": "3"
     },
     "skiPass": [
       "Indy"
@@ -10737,6 +10737,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "0Wgxs6L7_K0",
       "4nAIRSge-0o",
       "MnfLw6LZWW4",
       "js6pZ8aSFdo",
@@ -11171,6 +11172,11 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "d1ZW6CO1nqc",
+      "3IjZXe14W8k",
+      "d2IgBvxImfY",
+      "hhf--35OMsA",
+      "QNO3q0JoW_g",
       "FMtl9z_VxyU",
       "AarZNmUUMsM",
       "phsybhqVRGg",
@@ -11627,7 +11633,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "9KzKqaK-0b4"
+    ],
     "position": {
       "lat": 38.01117334925097,
       "lng": -107.31165685959809
@@ -12521,6 +12529,9 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "VQyCY62_aEc",
+      "vG8Q3t2uk2U",
+      "eiVkDFals1k",
       "eoDKMRBRNQU",
       "V_MiE4tyMp0",
       "jJSXwhUx7X0",
@@ -12880,6 +12891,7 @@ var unitedStatesData = [
     "id": "16630",
     "website": "",
     "videos": [
+      "9_v37esJNgM",
       "gDTkcRsqXyY",
       "AMXw-FQ7QcE",
       "S5pnQDvUEXA"

@@ -178,6 +178,14 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 				iconAnchor: [12, 41],
 				popupAnchor: [1, -34],
 				shadowSize: [41, 41]
+			},
+			internationalIcon: {
+				iconUrl: `img/${iconPreference}/international.png`,
+				shadowUrl: 'img/marker_shadow.png',
+				iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
+				iconAnchor: [12, 41],
+				popupAnchor: [1, -34],
+				shadowSize: [41, 41]
 			}
 		};
 	
@@ -193,46 +201,38 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 	
 			// Assign the icon color (visited or not)   
 			var icon;
-			var circleColor;
 			if (myData[i].resortName === 'Backyard Parks in Summit County') {
 				icon = 'homeIcon'; // not yet visited for helicopter only resort
-				circleColor = 'black';
 			}
 			else if (!myData[i].officialSkiResort) {
 				icon = 'blackIcon'; // unofficial ski resort
-				circleColor = 'black';
 			}
 			else if (myData[i].skiOnly && myData[i].videos.length > 0) {
 				icon = 'greenSkiIcon'; // visited ski only resort
-				circleColor = 'green';
 			}
 			else if (myData[i].skiOnly && myData[i].videos.length === 0) {
 				icon = 'redSkiIcon'; // not yet visited for ski only resort
-				circleColor = 'red';
 			}
 			else if (myData[i].helicopterOnly && myData[i].videos.length > 0) {
 				icon = 'greenHelicopterIcon'; // visited helicopter only resort
-				circleColor = 'green';
 			}
 			else if (myData[i].helicopterOnly && myData[i].videos.length === 0) {
 				icon = 'redHelicopterIcon'; // not yet visited for helicopter only resort
-				circleColor = 'black';
 			}
 			else if (myData[i].snowcatOnly && myData[i].videos.length > 0) {
 				icon = 'greenSnowcatIcon'; // visited helicopter only resort
-				circleColor = 'green';
 			}
 			else if (myData[i].snowcatOnly && myData[i].videos.length === 0) {
 				icon = 'redSnowcatIcon'; // not yet visited for helicopter only resort
-				circleColor = 'red';
 			}
 			else if (myData[i].videos.length > 0) {
 				icon = 'greenIcon'; // visited
-				circleColor = 'green';
+			}
+			else if (myData[i].country !=="United States") {
+				icon = 'internationalIcon'; // visited
 			}
 			else {
 				icon = 'redIcon'; // not yet visited
-				circleColor = 'red';
 			}
 	
 			$scope.markers[`resort_${i}`] = {

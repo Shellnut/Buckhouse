@@ -112,7 +112,10 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
                                     <img src="img/snowboard_marker/not_visited.png" alt="plain marker" width="12" height="20"> Johnathan has not visited this location yet! Check back soon.
                                 </li>
                                 <li>
-                                    <img src="img/snowboard_marker/unofficial.png" alt="plain marker" width="12" height="20"> Johnathan has visited this location but it's either an international resort or not an official ski resort.
+                                    <img src="img/snowboard_marker/unofficial.png" alt="plain marker" width="12" height="20"> Johnathan has visited this location but it's not an official ski resort.
+                                </li>
+                                <li>
+                                    <img src="img/snowboard_marker/international.png" alt="plain marker" width="12" height="20"> Johnathan has visited this location and it's an international resort.
                                 </li>
                             </ul>
                             <br>                                                                 

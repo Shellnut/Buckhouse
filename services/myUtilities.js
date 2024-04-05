@@ -650,7 +650,7 @@ app.service('myUtilities', function() {
           },
           // STATUS OF JB
           "/status/reviewed": {
-               data: globalData.filter(val => val.resortReview.score),
+               data: globalData.filter(val => val.resortReview.score).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -659,7 +659,7 @@ app.service('myUtilities', function() {
                title: "reviewed"
           },
           "/status/notreviewed": {
-               data: unitedStatesData.filter(val => !val.resortReview.score),
+               data: unitedStatesData.filter(val => !val.resortReview.score).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -668,7 +668,7 @@ app.service('myUtilities', function() {
                title: "not reviewed"
           },
           "/status/visited": {
-               data: globalData.filter(val => val.videos.length > 0),
+               data: globalData.filter(val => val.videos.length > 0).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -677,7 +677,7 @@ app.service('myUtilities', function() {
                title: "visited"
           },
           "/status/notvisited": {
-               data: unitedStatesData.filter(val => val.videos.length < 1),
+               data: unitedStatesData.filter(val => val.videos.length < 1).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -687,7 +687,7 @@ app.service('myUtilities', function() {
           },
           // PASSES
           "/pass/epic": {
-               data: globalData.filter(val => val.skiPass.includes('Epic')),
+               data: globalData.filter(val => val.skiPass.includes('Epic')).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -696,7 +696,7 @@ app.service('myUtilities', function() {
                title: "Epic"
           },
           "/pass/ikon": {
-               data: globalData.filter(val => val.skiPass.includes('Ikon')),
+               data: globalData.filter(val => val.skiPass.includes('Ikon')).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -705,7 +705,7 @@ app.service('myUtilities', function() {
                title: "Ikon"
           },
           "/pass/mountaincollective": {
-               data: globalData.filter(val => val.skiPass.includes('Mountain Collective')),
+               data: globalData.filter(val => val.skiPass.includes('Mountain Collective')).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -714,7 +714,7 @@ app.service('myUtilities', function() {
                title: "Mountain Collective"
           },
           "/pass/indy": {
-               data: globalData.filter(val => val.skiPass.includes('Indy')),
+               data: globalData.filter(val => val.skiPass.includes('Indy')).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -723,7 +723,7 @@ app.service('myUtilities', function() {
                title: "Indy"
           },
           "/pass/powderalliance": {
-               data: globalData.filter(val => val.skiPass.includes('Powder Alliance')),
+               data: globalData.filter(val => val.skiPass.includes('Powder Alliance')).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,
@@ -732,7 +732,7 @@ app.service('myUtilities', function() {
                title: "Powder Alliance"
           },
           "/pass/nopassassociated": {
-               data: unitedStatesData.filter(val => val.skiPass.length === 0),
+               data: unitedStatesData.filter(val => val.skiPass.length === 0).filter(val => !val.international),
                center: {
                     lat: 39.485156977729474, 
                     lng: -106.05312809324181,

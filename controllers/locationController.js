@@ -204,10 +204,10 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 			if (myData[i].resortName === 'Backyard Parks in Summit County') {
 				icon = 'homeIcon'; // not yet visited for helicopter only resort
 			}
-			else if (myData[i].country !== "United States") {
+			else if (myData[i].international && myData[i].videos.length > 0) {
 				icon = 'internationalIcon'; // visited
 			}
-			else if (!myData[i].officialSkiResort) {
+			else if (!myData[i].officialSkiResort && myData[i].videos.length > 0) {
 				icon = 'blackIcon'; // unofficial ski resort
 			}
 			else if (myData[i].skiOnly && myData[i].videos.length > 0) {

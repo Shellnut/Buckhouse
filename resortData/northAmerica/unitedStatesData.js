@@ -18014,6 +18014,7 @@ var unitedStatesData = [
       "lng": 10.9763717651367
     },
     "officialSkiResort": false,
+    "international": true,
     "id": "635",
     "website": "http://www.soelden.com",
     "resortReview": {
@@ -18048,6 +18049,7 @@ var unitedStatesData = [
       "lng": 10.16615688800812
     },
     "officialSkiResort": false,
+    "international": true,
     "id": "627",
     "website": "http://www.skiarlberg.at",
     "resortReview": {
@@ -18084,6 +18086,7 @@ var unitedStatesData = [
       "lng": 9.217185974121096
     },
     "officialSkiResort": false,
+    "international": true,
     "id": "1012",
     "website": "http://www.alpenarena.ch",
     "resortReview": {
@@ -18108,6 +18111,7 @@ var unitedStatesData = [
       "lng": 9.9646708011627
     },
     "officialSkiResort": false,
+    "international": true,
     "id": "2709",
     "website": "http://www.silvretta-montafon.at/",
     "resortReview": {

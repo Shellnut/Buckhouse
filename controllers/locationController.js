@@ -182,7 +182,7 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 			internationalIcon: {
 				iconUrl: `img/${iconPreference}/international.png`,
 				shadowUrl: 'img/marker_shadow.png',
-				iconSize: !!localStorage.getItem('plainMarker') ? [25, 41] : [35, 57],
+				iconSize: [25, 41],
 				iconAnchor: [12, 41],
 				popupAnchor: [1, -34],
 				shadowSize: [41, 41]
@@ -203,6 +203,9 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 			var icon;
 			if (myData[i].resortName === 'Backyard Parks in Summit County') {
 				icon = 'homeIcon'; // not yet visited for helicopter only resort
+			}
+			else if (myData[i].country !== "United States") {
+				icon = 'internationalIcon'; // visited
 			}
 			else if (!myData[i].officialSkiResort) {
 				icon = 'blackIcon'; // unofficial ski resort
@@ -227,9 +230,6 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 			}
 			else if (myData[i].videos.length > 0) {
 				icon = 'greenIcon'; // visited
-			}
-			else if (myData[i].country !=="United States") {
-				icon = 'internationalIcon'; // visited
 			}
 			else {
 				icon = 'redIcon'; // not yet visited

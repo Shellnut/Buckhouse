@@ -1,4 +1,4 @@
-var lastUpdated = '03/31/2024';
+var lastUpdated = '04/05/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10704,7 +10704,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "",
-    "videos": [],
+    "videos": [
+      "U7yxQkLWzAw"
+    ],
     "position": {
       "lat": 37.35183938385472,
       "lng": -107.8641093536877
@@ -11795,7 +11797,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Durango",
-    "videos": [],
+    "videos": [
+      "7bBOWS4Qp28"
+    ],
     "position": {
       "lat": 37.63276792551556,
       "lng": -107.81421306654117
@@ -12274,6 +12278,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Pagosa Springs",
     "videos": [
+      "kt04or9W8w0",
       "kDJ9eyKGMB8",
       "9w2g01-aDZY",
       "IB9d-8ifzEw",

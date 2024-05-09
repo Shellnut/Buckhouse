@@ -1,4 +1,4 @@
-var lastUpdated = '04/05/2024';
+var lastUpdated = '05/08/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10052,6 +10052,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "vS5Ll8DWVFo",
+      "M4dj3dhwzMQ",
+      "KmvJSy69Vu4",
       "PnvEax9s4FI",
       "kA50soSWxJg",
       "KcpXyiBP06M",
@@ -10456,6 +10459,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Beaver Creek",
     "videos": [
+      "tvboX6JEvgc",
       "mekU-2NisLE",
       "0hf-ARZgGN4",
       "e9BtCjjshHk",
@@ -10517,6 +10521,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "folGFPK0dMQ",
+      "oxsmDhiYtsU",
+      "ALIhkPm_Qso",
       "e-MXCjIJ9eQ",
       "y_uTl_hAh4I",
       "_QCLNtbjYVE",
@@ -10739,6 +10746,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "q1SGcUeopqI",
+      "L3B60rDQ2a0",
+      "-unfnru7DeA",
       "0Wgxs6L7_K0",
       "4nAIRSge-0o",
       "MnfLw6LZWW4",
@@ -11174,6 +11184,10 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "3rwVznIUEGg",
+      "F_p9SepiW7U",
+      "DRVb4cAxTSk",
+      "YlMYQwKx2z0",
       "d1ZW6CO1nqc",
       "3IjZXe14W8k",
       "d2IgBvxImfY",
@@ -12535,6 +12549,7 @@ var unitedStatesData = [
     "officialSkiResort": false,
     "videos": [
       "VQyCY62_aEc",
+      "HK1HZo5o5VM",
       "vG8Q3t2uk2U",
       "eiVkDFals1k",
       "eoDKMRBRNQU",
@@ -12675,6 +12690,8 @@ var unitedStatesData = [
     "city": "Frisco",
     "officialSkiResort": true,
     "videos": [
+      "vZ6oIpp2zZ8",
+      "UUN0kiZSVow",
       "wpucU-pUWcM",
       "fakMsO21k6o",
       "OKw9zlhnrbw",
@@ -17077,7 +17094,9 @@ var unitedStatesData = [
     "state": "Oregon",
     "region": "West Coast",
     "city": "Government Camp",
-    "videos": [],
+    "videos": [
+      "4eV--zRM26w"
+    ],
     "position": {
       "lat": 45.33435933945589,
       "lng": -121.66515771574437
@@ -17178,6 +17197,9 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "yCXxPLEi_ao",
+      "FHE6pRIVNWY",
+      "dDzto9OQLNs",
       "YVdaubPCSgc",
       "8R0HgrcsC-Y",
       "zKinwsBlpHw",

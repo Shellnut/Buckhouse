@@ -1,4 +1,4 @@
-var lastUpdated = '05/08/2024';
+var lastUpdated = '06/04/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -9712,19 +9712,19 @@ var unitedStatesData = [
     "id": "159",
     "website": "https://www.trollhaugen.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 52, // must be a number
+      "link": "HYCYzWT32UY",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "3",
+      "terrainPark": "6",
+      "food": "6",
+      "employees": "10",
+      "views": "1",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Indy"
@@ -10052,6 +10052,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "zs1Wl_txO2w",
+      "MZf6ODb1RBA",
+      "PLM44F_Ql50",
       "vS5Ll8DWVFo",
       "M4dj3dhwzMQ",
       "KmvJSy69Vu4",
@@ -10521,6 +10524,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "FtEC9C0Yg8A",
+      "WWYmSH_Ro3w",
+      "BTeRemQLceg",
       "folGFPK0dMQ",
       "oxsmDhiYtsU",
       "ALIhkPm_Qso",
@@ -10722,19 +10728,19 @@ var unitedStatesData = [
     "id": "3296",
     "website": "http://www.durangogov.org/index.aspx?NID=544",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 37, // must be a number
+      "link": "r8nJU1kUw8o",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "9",
+      "easeOfAccess": "7",
+      "lodging": "0",
+      "chairLifts": "1",
+      "runs": "1",
+      "terrainPark": "2",
+      "food": "1",
+      "employees": "10",
+      "views": "6",
+      "wouldIGoBack": "0"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/efuz5zg6dxxgsr7o5u5xsm2aag0c",
@@ -10746,6 +10752,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "Sama7SKk_oc",
+      "F-Q6ZxTaxAY",
       "q1SGcUeopqI",
       "L3B60rDQ2a0",
       "-unfnru7DeA",
@@ -11822,19 +11830,19 @@ var unitedStatesData = [
     "id": "518",
     "website": "http://www.durangomountainresort.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 68, // must be a number
+      "link": "NWVjQXC8IlE",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "5",
+      "lodging": "10",
+      "chairLifts": "5",
+      "runs": "5",
+      "terrainPark": "7",
+      "food": "10",
+      "employees": "7",
+      "views": "7",
+      "wouldIGoBack": "5"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/erscsof5rr7nive69tpvk6znx3mu",
@@ -17105,19 +17113,19 @@ var unitedStatesData = [
     "id": "271",
     "website": "https://www.skihood.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 67, // must be a number
+      "link": "WJ5gEs2maz0",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "5",
+      "lodging": "2",
+      "chairLifts": "5",
+      "runs": "7",
+      "terrainPark": "8",
+      "food": "7",
+      "employees": "9",
+      "views": "8",
+      "wouldIGoBack": "10"
     },
     "skiPass": [
       "Indy"
@@ -17271,6 +17279,7 @@ var unitedStatesData = [
       "lBq2rJ2sHsk",
       "NKh8PTlizB0",
       "DnKdqp-cHK4",
+      "2AgHpI1Tab8",
       "sYBAQfbNTDY",
       "O1o94Nge7xA",
       "oazyWJFtK_g",
@@ -17285,16 +17294,16 @@ var unitedStatesData = [
     "website": "https://www.timberlinelodge.com",
     "resortReview": {
       "score": 71,
-      "link": "2AgHpI1Tab8",
-      "note": "This score reflects this resort in the summer.",
-      "price": "8",
-      "easeOfAccess": "7",
-      "lodging": "5",
+      "link": "kyLMkfW68jg",
+      "note": "Johnathan did a 'summer' version review here are the scores for that: Price 8, Ease of Access 7, Lodging 5, Lifts 5, Runs 5, Park 10, Food 6, Employees 5, Views 10, Would I go back 10. Total 71. https://www.youtube.com/watch?v=2AgHpI1Tab8",
+      "price": "7",
+      "easeOfAccess": "5",
+      "lodging": "7",
       "chairLifts": "5",
-      "runs": "5",
-      "terrainPark": "10",
-      "food": "6",
-      "employees": "5",
+      "runs": "4",
+      "terrainPark": "7",
+      "food": "9",
+      "employees": "7",
       "views": "10",
       "wouldIGoBack": "10"
     },
@@ -18027,6 +18036,7 @@ var unitedStatesData = [
     "country": "Austria",
     "city": "",
     "videos": [
+      "7FdWDpccoTY",
       "1vMl8rW3rMg",
       "XCkudj9Q6Jw",
       "AXh9OhOwe4o"

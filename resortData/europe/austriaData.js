@@ -913,6 +913,9 @@ var austriaData = [
         "country": "Austria",
         "city": "",
         "videos": [
+            "7FdWDpccoTY",
+            "1vMl8rW3rMg",
+            "XCkudj9Q6Jw",
             "AXh9OhOwe4o"
         ],
         "position": {

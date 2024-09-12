@@ -10016,7 +10016,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Greer",
     "videos": [
-      "dt9Y08uwwQ0"
+      "dt9Y08uwwQ0",
+      "Vr5cgd4kOpk",
+      "FFDtmA9m2vc"
     ],
     "position": {
       "lat": 33.97418000932133,
@@ -10052,6 +10054,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "nuFmZV4yX_M",
+      "aNCgFJKPK50",
+      "fV0TNxCHhG0",
       "zs1Wl_txO2w",
       "MZf6ODb1RBA",
       "PLM44F_Ql50",
@@ -10305,7 +10310,7 @@ var unitedStatesData = [
       "Ikon",
       "Mountain Collective"
     ],
-    "mapLink": "https://files.skimap.org/npm7kyh1hxn6cqowbo48d78d7b2n",
+    "mapLink": "https://files.skimap.org/ssbqg9v1uqi9pev5yokbf4wej4y2",
     "country": "United States"
   },
   {    
@@ -10524,6 +10529,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "VYmisgjzbOY",
+      "OcvYY6raZSM",
       "FtEC9C0Yg8A",
       "WWYmSH_Ro3w",
       "BTeRemQLceg",
@@ -10752,6 +10759,14 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "SkBeepop3jA",
+      "DcbAe9oqFQo",
+      "0qBCdfRowmk",
+      "C5F_KsaR9pc",
+      "k24PpoNax_s",
+      "yMg-sNSQglc",
+      "kMTonV5USvs",
+      "H0_hlnBMk5M",
       "Sama7SKk_oc",
       "F-Q6ZxTaxAY",
       "q1SGcUeopqI",
@@ -11668,19 +11683,19 @@ var unitedStatesData = [
     "id": "3298",
     "website": "http://www.townoflakecity.co/lake-city-ski-hill.html",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 20, // must be a number
+      "link": "l4EkkJMDZu0",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "3",
+      "easeOfAccess": "2",
+      "lodging": "0",
+      "chairLifts": "1",
+      "runs": "1",
+      "terrainPark": "1",
+      "food": "1",
+      "employees": "6",
+      "views": "4",
+      "wouldIGoBack": "1"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/51o28jna8xa5gqquz0m0zz4sdm01",
@@ -17205,6 +17220,16 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "MLlB4tOP5u8",
+      "vK3aPdLhAYk",
+      "JH987rSYjZ8",
+      "lPs1L-GbVMI",
+      "qXUsg3lWvLw",
+      "srl9QftF8Yk",
+      "7tC89qV6wcA",
+      "Wh-9aBOI0YY",
+      "gezGUFkLjBQ",
+      "4o2lNnK5uPQ",
       "yCXxPLEi_ao",
       "FHE6pRIVNWY",
       "dDzto9OQLNs",

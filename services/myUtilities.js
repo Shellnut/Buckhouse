@@ -740,6 +740,15 @@ app.service('myUtilities', function() {
                },
                title: "no pass associated"
           },
+          "/carpet/treadmills": {
+               data: carpetTreadmill,
+               center: {
+                    lat: 39.485156977729474, 
+                    lng: -106.05312809324181,
+                    zoom: 3
+               },
+               title: "Carpet Treadmills"
+          },
      };
      
      this.countriesWithFlags = [

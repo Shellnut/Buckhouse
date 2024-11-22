@@ -27,7 +27,11 @@ var finlandData = [
         "region": "Finland",
         "country": "Finland",
         "city": "",
-        "videos": [],
+        "videos": [
+            "P20ZmyeDmuY",
+            "JNQvKOpGhUQ",
+            "J2sD24bmGeE",
+        ],
         "position": {
             "lat": 66.16723776259131,
             "lng": 29.14117500185967

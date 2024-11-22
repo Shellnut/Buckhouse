@@ -53,6 +53,8 @@ var carpetTreadmill = [
         "country": "United States",
         "city": "Loveland",
         "videos": [
+            "rdKmrNCrte8",
+            "qz7lkya-oiY",
             "8hb4ypP4Kb8"
         ],
         "position": {

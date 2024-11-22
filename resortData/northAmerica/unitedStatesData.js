@@ -1,4 +1,4 @@
-var lastUpdated = '06/04/2024';
+var lastUpdated = '11/22/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5785,6 +5785,9 @@ var unitedStatesData = [
     "region": "Southeast",
     "city": "Lynchburg",
     "videos": [
+      "hEKf7bv2wms",
+      "jpzlFg8AMqg",
+      "EgI6HzkAiA4",
       "t0Wk_c4N6aM",
       "PsmDHxS8k1k",
       "B2_pMhAlPAo",
@@ -10016,9 +10019,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Greer",
     "videos": [
-      "dt9Y08uwwQ0",
       "Vr5cgd4kOpk",
-      "FFDtmA9m2vc"
+      "FFDtmA9m2vc",
+      "dt9Y08uwwQ0"
     ],
     "position": {
       "lat": 33.97418000932133,
@@ -10054,6 +10057,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "4b47oxEyZc0",
       "nuFmZV4yX_M",
       "aNCgFJKPK50",
       "fV0TNxCHhG0",
@@ -10759,6 +10763,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "PGFnlZs6RkQ",
       "SkBeepop3jA",
       "DcbAe9oqFQo",
       "0qBCdfRowmk",
@@ -11207,6 +11212,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "AiarB06ppGE",
+      "5k4LA3CY2Y4",
+      "g6_s922nYiw",
       "3rwVznIUEGg",
       "F_p9SepiW7U",
       "DRVb4cAxTSk",
@@ -12315,6 +12323,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Pagosa Springs",
     "videos": [
+      "Sp-jrogsqLU",
+      "jUq1GpFWyOk",
+      "3ctYRl9jc98",
       "kt04or9W8w0",
       "kDJ9eyKGMB8",
       "9w2g01-aDZY",
@@ -12327,8 +12338,8 @@ var unitedStatesData = [
       "xdAAzY77wjc"
     ],
     "position": {
-      "lat": 37.47244179734956,
-      "lng": -106.79304353077356
+      "lat": 37.47557247970742,
+      "lng": -106.79354973786235
     },
     "officialSkiResort": true,
     "id": "505",
@@ -12962,6 +12973,40 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/f1mv6ldfdcevptbs6jtfrexmyh9q.png",
+    "country": "United States"
+  },
+  {    
+    "resortName": "Wolf Creek Pass",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Pagosa Springs",
+    "videos": [
+      "kt04or9W8w0"
+    ],
+    "position": {
+      "lat": 37.48524923865859,
+      "lng": -106.80229693445368
+    },
+    "officialSkiResort": false,
+    "id": "",
+    "website": "",
+    "resortReview": {
+      "score": 0,
+      "link": "M0zvy8vcAjY",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "",
     "country": "United States"
   },
   {    
@@ -16241,6 +16286,7 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Mammoth Lakes",
     "videos": [
+      "Z5XLHp3M70g",
       "E1jKoF2sXOo",
       "n3aOPmsIUg0",
       "Ys5QcT4HicQ",
@@ -18188,5 +18234,42 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/4f05y8vyjgsjnduna1y6p62p3ob9"
+  },
+  {
+    "resortName": "Ruka",
+    "state": "",
+    "region": "Finland",
+    "country": "Finland",
+    "city": "",
+    "videos": [
+        "P20ZmyeDmuY",
+        "JNQvKOpGhUQ",
+        "J2sD24bmGeE",
+    ],
+    "position": {
+        "lat": 66.16723776259131,
+        "lng": 29.14117500185967
+    },
+    "officialSkiResort": false,
+    "international": true,
+    "id": "1833",
+    "website": "https://ski.ruka.fi",
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/aekru5wqy2vhmvas29l2ic7hpo2g"
   }
 ];

@@ -89,8 +89,20 @@
 
             <p ng-show="!modalData.mapLink">No map of this location found. Check back soon!</p>
 
-            <div ng-show="modalData.mapLink">
-                <a ng-href="{{modalData.mapLink}}"><img ng-src="{{modalData.mapLink}}" width="100%"></a>
+            <div ng-show="modalData.mapLink" style="position: relative; display: inline-block;">
+                <a ng-href="{{modalData.mapLink}}">
+                    <img ng-src="{{modalData.mapLink}}" width="100%">
+                </a>
+            
+                <!-- Dynamic Pins -->
+                <a ng-repeat="pin in modalData.runs" 
+                   ng-href="{{'https://www.youtube.com/watch?v=' + pin.link | trusted}}"
+                   target="_blank" 
+                   class="overlay-pin" 
+                   ng-style="{'top': pin.y + '%', 'left': pin.x + '%'}"
+                   title="{{pin.name}}">
+                </a>
+            
                 <hr>
                 <p><i>Map credit goes to skimap.org</i></p>
             </div>

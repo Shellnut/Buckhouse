@@ -133,3 +133,23 @@ a.disabled{
 .leaflet-popup-close-button {
     display: none;
 }
+
+.overlay-pin {
+    position: absolute;
+    width: 30px; /* Width of the pin icon */
+    height: 40px; /* Height of the pin icon */
+    background-image: url('/img/snowboard_marker/visited.png'); /* Path to the pin icon */
+    background-size: contain; /* Ensure the icon fits within the element */
+    background-repeat: no-repeat; /* Prevent tiling of the image */
+    border-radius: 50%; /* Rounded background for better aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.805); /* Add shadow for contrast */
+    transform: translate(-50%, -100%); /* Adjust to anchor the bottom center of the pin at the coordinates */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    display: block; /* Makes the anchor block-level for proper positioning */
+    text-decoration: none; /* Remove underline for the link */
+    padding: 4px; /* Add padding for background visibility */
+}
+.overlay-pin:hover {
+    filter: brightness(0.8); /* Darken the pin slightly for hover feedback */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); /* Increase shadow on hover */
+}

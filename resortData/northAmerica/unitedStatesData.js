@@ -1,4 +1,4 @@
-var lastUpdated = '11/22/2024';
+var lastUpdated = '12/16/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -11212,6 +11212,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "t3-96QfbInU",
+      "wHpsKIWrR8E",
+      "gcJgJ6CXXWM",
       "AiarB06ppGE",
       "5k4LA3CY2Y4",
       "g6_s922nYiw",
@@ -11673,7 +11676,21 @@ var unitedStatesData = [
     "skiPass": [
       "Epic"
     ],
-    "country": "United States"
+    "country": "United States",
+    "runs": [
+      {
+        "link": "t3-96QfbInU",
+        "name": "Mozart",
+        "x": 50,
+        "y": 38
+      },
+      {
+        "link": "wHpsKIWrR8E",
+        "name": "Spring Dipper",
+        "x": 35,
+        "y": 32.7
+      }
+    ]
   },
   {    
     "resortName": "Lake City Ski Hill",
@@ -12030,6 +12047,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "m_Ad0BQQioo",
       "-7l5W4wCMX4",
       "N_aYOWaFqBE",
       "3fq421fgYd8",
@@ -12255,6 +12273,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "OHnOJJn0XKI",
       "zDhVzcL9RuQ",
       "LPvkKKCPtXQ",
       "4azgAAvQdfg",
@@ -12582,6 +12601,10 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "IMk62W2S7JA",
+      "klQLl6VKatk",
+      "7IerYysLzDY",
+      "o9npuOzmUus",
       "VQyCY62_aEc",
       "HK1HZo5o5VM",
       "vG8Q3t2uk2U",
@@ -18242,9 +18265,10 @@ var unitedStatesData = [
     "country": "Finland",
     "city": "",
     "videos": [
-        "P20ZmyeDmuY",
-        "JNQvKOpGhUQ",
-        "J2sD24bmGeE",
+      "px5NKlEENFQ",
+      "P20ZmyeDmuY",
+      "JNQvKOpGhUQ",
+      "J2sD24bmGeE",
     ],
     "position": {
         "lat": 66.16723776259131,

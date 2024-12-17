@@ -11657,7 +11657,7 @@ var unitedStatesData = [
     "officialSkiResort": true,
     "id": "519",
     "website": "http://www.keystone.snow.com",
-    "mapLink": "https://files.skimap.org/jahxw22y04s0ntkyjje6dpmn482c.jpg",
+    "mapLink": "https://www.myskimaps.com/Ski-Maps/USA/Keystone-Ski-Trail-Map.jpg",
     "resortReview": {
       "score": 69,
       "link": "28gC3Ea-imo",

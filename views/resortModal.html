@@ -90,9 +90,8 @@
             <p ng-show="!modalData.mapLink">No map of this location found. Check back soon!</p>
 
             <div ng-show="modalData.mapLink" style="position: relative; display: inline-block;">
-                <a ng-href="{{modalData.mapLink}}">
-                    <img ng-src="{{modalData.mapLink}}" width="100%">
-                </a>
+     
+                <img ng-src="{{modalData.mapLink}}" width="100%">
             
                 <!-- Dynamic Pins -->
                 <a ng-repeat="pin in modalData.runs" 
@@ -104,6 +103,9 @@
                 </a>
             
                 <hr>
+                <a ng-href="{{modalData.mapLink}}" target="_blank">
+                    <p>Open map in new tab</p>
+                </a>
                 <p><i>Map credit goes to skimap.org</i></p>
             </div>
 

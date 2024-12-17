@@ -11682,13 +11682,13 @@ var unitedStatesData = [
         "link": "t3-96QfbInU",
         "name": "Mozart",
         "x": 50,
-        "y": 38
+        "y": 32
       },
       {
         "link": "wHpsKIWrR8E",
         "name": "Spring Dipper",
-        "x": 35,
-        "y": 32.7
+        "x": 32,
+        "y": 30
       }
     ]
   },

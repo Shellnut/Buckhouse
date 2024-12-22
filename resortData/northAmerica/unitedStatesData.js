@@ -1,4 +1,4 @@
-var lastUpdated = '12/19/2024';
+var lastUpdated = '12/21/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10533,6 +10533,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "cc859H6gcFA",
       "mc7LG1DO2Hk",
       "VYmisgjzbOY",
       "OcvYY6raZSM",
@@ -10772,6 +10773,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "FuOuQj5eYJA",
       "PGFnlZs6RkQ",
       "SkBeepop3jA",
       "DcbAe9oqFQo",
@@ -10957,8 +10959,16 @@ var unitedStatesData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://files.skimap.org/1ahjnhtj6bvspoqjnf5pro5os8qi",
-    "country": "United States"
+    "mapLink": "https://files.skimap.org/ay0sx9atb7kb8bpayowtdphjwddp",
+    "country": "United States",
+    "runs": [
+      {
+        "link": "FuOuQj5eYJA",
+        "name": "Windsong",
+        "x": 63,
+        "y": 44
+      }
+    ]
   },
   {    
     "resortName": "Cranor Ski Area",

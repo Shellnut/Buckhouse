@@ -1,4 +1,4 @@
-var lastUpdated = '12/22/2024';
+var lastUpdated = '1/6/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10533,6 +10533,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "a5LYaiWlO5A",
       "cc859H6gcFA",
       "mc7LG1DO2Hk",
       "VYmisgjzbOY",
@@ -10773,6 +10774,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "zkD88Pc_m2E",
+      "cbjAh5Y9se4",
       "FuOuQj5eYJA",
       "PGFnlZs6RkQ",
       "SkBeepop3jA",
@@ -10967,6 +10970,18 @@ var unitedStatesData = [
         "name": "Windsong",
         "x": 63,
         "y": 44
+      },
+      {
+        "name": "The Moz",
+        "link": "zkD88Pc_m2E",
+        "x": 61,
+        "y": 44
+      },
+      {
+        "name": "Main Vain",
+        "link": "cbjAh5Y9se4",
+        "x": 36,
+        "y": 47
       }
     ]
   },
@@ -11231,6 +11246,13 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "PoymkUN3pfc",
+      "W8RkExqm_I0",
+      "S9wk7KwRj8c",
+      "test",
+      "iS8hTYDHSME",
+      "W9E_6-UnTLQ",
+      "0yO3PzRYTY0",
       "na-azI2JCzs",
       "t3-96QfbInU",
       "wHpsKIWrR8E",
@@ -11715,6 +11737,36 @@ var unitedStatesData = [
         "name": "Paymaster",
         "x": 35,
         "y": 40
+      },
+      {
+        "name": "Silverspoon",
+        "link": "iS8hTYDHSME",
+        "x": 29,
+        "y": 42
+      },
+      {
+        "name": "The Last Alamo",
+        "link": "0yO3PzRYTY0",
+        "x": 64,
+        "y": 31
+      },
+      {
+        "name": "Schoolmarm",
+        "link": "S9wk7KwRj8c",
+        "x": 41,
+        "y": 30
+      },
+      {
+        "name": "Catdancer",
+        "link": "W9E_6-UnTLQ",
+        "x": 99,
+        "y": 99
+      },
+      {
+        "name": "Geronimo",
+        "link": "W8RkExqm_I0",
+        "x": 88,
+        "y": 77
       }
     ]
   },
@@ -12073,6 +12125,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "X5sKDhRuzRM",
       "m_Ad0BQQioo",
       "-7l5W4wCMX4",
       "N_aYOWaFqBE",

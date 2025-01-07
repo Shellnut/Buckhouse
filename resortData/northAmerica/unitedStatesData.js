@@ -11759,14 +11759,20 @@ var unitedStatesData = [
       {
         "name": "Catdancer",
         "link": "W9E_6-UnTLQ",
-        "x": 99,
-        "y": 99
+        "x": 73,
+        "y": 35
       },
       {
         "name": "Geronimo",
         "link": "W8RkExqm_I0",
-        "x": 88,
-        "y": 77
+        "x": 70,
+        "y": 31
+      },
+      {
+        "name": "Flying Dutchman",
+        "link": "xfptDQfmrHo",
+        "x": 25,
+        "y": 37
       }
     ]
   },

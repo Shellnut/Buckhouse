@@ -1,4 +1,4 @@
-var lastUpdated = '1/6/2024';
+var lastUpdated = '1/26/2024';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10057,6 +10057,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "8KyUgydzuFk",
       "4b47oxEyZc0",
       "nuFmZV4yX_M",
       "aNCgFJKPK50",
@@ -11246,10 +11247,10 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "sGxJz5o8owc",
       "PoymkUN3pfc",
       "W8RkExqm_I0",
       "S9wk7KwRj8c",
-      "test",
       "iS8hTYDHSME",
       "W9E_6-UnTLQ",
       "0yO3PzRYTY0",
@@ -11773,6 +11774,18 @@ var unitedStatesData = [
         "link": "xfptDQfmrHo",
         "x": 25,
         "y": 37
+      },
+      {
+        "name": "Batchelor",
+        "link": "C5B97uLSMYI",
+        "x": 30,
+        "y": 33
+      },
+      {
+        "name": "Last Hoot",
+        "link": "sGxJz5o8owc",
+        "x": 20,
+        "y": 50
       }
     ]
   },
@@ -12686,6 +12699,7 @@ var unitedStatesData = [
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "IQoDbCMZ3Hg",
       "IMk62W2S7JA",
       "klQLl6VKatk",
       "7IerYysLzDY",
@@ -12908,6 +12922,7 @@ var unitedStatesData = [
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "lc38OlmTaRA",
       "ANANY6OTdmM",
       "G6vExCJKK18",
       "PPa-FKLPAbo",

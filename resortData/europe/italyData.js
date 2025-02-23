@@ -249,7 +249,10 @@ var italyData = [
         "region": "Italy",
         "country": "Italy",
         "city": "",
-        "videos": [],
+        "videos": [
+            "UpwVjH1LVN8",
+            "PPLsnEbOImU"
+        ],
         "position": {
             "lat": 46.6974957568317,
             "lng": 12.35646888613701
@@ -494,7 +497,9 @@ var italyData = [
         "region": "Italy",
         "country": "Italy",
         "city": "",
-        "videos": [],
+        "videos": [
+            "q4CPHopVZhs"
+        ],
         "position": {
             "lat": 46.26193,
             "lng": 11.800518

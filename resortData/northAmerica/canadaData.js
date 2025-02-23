@@ -914,7 +914,11 @@ var canadaData = [
         "region": "British Columbia",
         "country": "Canada",
         "city": "",
-        "videos": [],
+        "videos": [
+            "RJ3WegV_1Ac",
+            "ipQPtA4u1Ws",
+            "yBGqqrWibMU",
+        ],
         "position": {
             "lat": 50.961585282842,
             "lng": -118.1256089504
@@ -941,8 +945,28 @@ var canadaData = [
             "Ikon",
             "Mountain Collective"
         ],
-        "mapLink": "https://files.skimap.org/ppzbmpq20tk391t828o1gtttk7d8",
-        "webcam": []
+        "mapLink": "https://files.skimap.org/98wexhg0pqt2tj9p58aa7kfu9e0b",
+        "webcam": [],
+        "runs": [
+            {
+                "link": "RJ3WegV_1Ac",
+                "name": "Devil's Club",
+                "x": 55,
+                "y": 30
+            },
+            {
+              "link": "ipQPtA4u1Ws",
+              "name": "Kill the Banker",
+              "x": 39,
+              "y": 51
+            },
+            {
+              "link": "yBGqqrWibMU",
+              "name": "The Last Spike",
+              "x": 50,
+              "y": 24
+            }
+        ]
     },
     {
         "resortName": "Salmo Ski Area",

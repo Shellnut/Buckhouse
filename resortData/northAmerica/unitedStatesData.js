@@ -1,4 +1,4 @@
-var lastUpdated = '1/26/2024';
+var lastUpdated = '2/21/2025';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10775,6 +10775,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "sF2c3EPrunA",
       "zkD88Pc_m2E",
       "cbjAh5Y9se4",
       "FuOuQj5eYJA",
@@ -10983,7 +10984,13 @@ var unitedStatesData = [
         "link": "cbjAh5Y9se4",
         "x": 36,
         "y": 47
-      }
+      },
+      {
+        "link": "sF2c3EPrunA",
+        "name": "Collage",
+        "x": 30,
+        "y": 44
+      },
     ]
   },
   {    
@@ -11247,6 +11254,13 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "NMO5XdjC8o0",
+      "GSJZGfZr7h8",
+      "239B33sWU9Q",
+      "VUf2pim7HHk",
+      "IhDnHctddjI",
+      "clPPJg8-XpI",
+      "OKjANzQpvPM",
       "sGxJz5o8owc",
       "PoymkUN3pfc",
       "W8RkExqm_I0",
@@ -11786,6 +11800,48 @@ var unitedStatesData = [
         "link": "sGxJz5o8owc",
         "x": 20,
         "y": 50
+      },
+      {
+        "name": "Black Jack",
+        "link": "NMO5XdjC8o0",
+        "x": 59,
+        "y": 25
+      },
+      {
+        "name": "Mine Shaft",
+        "link": "GSJZGfZr7h8",
+        "x": 52,
+        "y": 37
+      },
+      {
+        "name": "Starfire",
+        "link": "239B33sWU9Q",
+        "x": 65,
+        "y": 35
+      },
+      {
+        "name": "Diamond Back",
+        "link": "VUf2pim7HHk",
+        "x": 54,
+        "y": 41
+      },
+      {
+        "name": "Spillway",
+        "link": "IhDnHctddjI",
+        "x": 75,
+        "y": 29
+      },
+      {
+        "name": "Prospector",
+        "link": "clPPJg8-XpI",
+        "x": 64,
+        "y": 29
+      },
+      {
+        "name": "Go Devil",
+        "link": "OKjANzQpvPM",
+        "x": 21,
+        "y": 57
       }
     ]
   },
@@ -18395,5 +18451,117 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/aekru5wqy2vhmvas29l2ic7hpo2g"
-  }
+  },
+  {
+    "resortName": "San Martino di Castrozza (Passo Rolle)",
+    "state": "",
+    "region": "Italy",
+    "country": "Italy",
+    "city": "",
+    "videos": [
+        "q4CPHopVZhs"
+    ],
+    "position": {
+        "lat": 46.26193,
+        "lng": 11.800518
+    },
+    "officialSkiResort": true,
+    "international": true,
+    "id": "2082",
+    "website": "http://www.sanmartino.com/",
+    "resortReview": {
+        "score": "",
+        "link": "",
+        "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/3vj6um0g4mo8pjf86sqfkzbo8l3m"
+  },
+  {
+    "resortName": "Revelstoke Mountain Resort (Powder Springs)",
+    "state": "British Columbia",
+    "region": "British Columbia",
+    "country": "Canada",
+    "city": "",
+    "videos": [
+      "RJ3WegV_1Ac",
+      "ipQPtA4u1Ws",
+      "yBGqqrWibMU"
+    ],
+    "position": {
+        "lat": 50.961585282842,
+        "lng": -118.1256089504
+    },
+    "officialSkiResort": true,
+    "international": true,
+    "id": "32",
+    "website": "http://www.revelstokemountainresort.com",
+    "resortReview": {
+        "score": "",
+        "link": "",
+        "note": "",
+        "price": "",
+        "easeOfAccess": "",
+        "lodging": "",
+        "chairLifts": "",
+        "runs": "",
+        "terrainPark": "",
+        "food": "",
+        "employees": "",
+        "views": "",
+        "wouldIGoBack": ""
+    },
+    "skiPass": [
+        "Ikon",
+        "Mountain Collective"
+    ],
+    "mapLink": "https://files.skimap.org/98wexhg0pqt2tj9p58aa7kfu9e0b",
+    "webcam": [],
+    "runs": [
+      {
+        "link": "RJ3WegV_1Ac",
+        "name": "Devil's Club",
+        "x": 55,
+        "y": 30
+      },
+      {
+        "link": "ipQPtA4u1Ws",
+        "name": "Kill the Banker",
+        "x": 39,
+        "y": 51
+      },
+      {
+        "link": "yBGqqrWibMU",
+        "name": "The Last Spike",
+        "x": 50,
+        "y": 24
+      }
+    ]
+  },
+  {
+    "resortName": "3 Zinnen Dolomites (Dobbiaco - San Candido - Braies - Sesto - Alta Pusteria)",
+    "state": "",
+    "region": "Italy",
+    "country": "Italy",
+    "city": "",
+    "videos": [
+        "UpwVjH1LVN8",
+        "PPLsnEbOImU"
+    ],
+    "position": {
+        "lat": 46.6974957568317,
+        "lng": 12.35646888613701
+    },
+    "officialSkiResort": true,
+    "international": true,
+    "id": "2067",
+    "website": "https://www.dreizinnen.com/",
+    "resortReview": {
+        "score": "",
+        "link": "",
+        "note": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/is6mg48kj8or93xzttooth6w3mam"
+},
 ];

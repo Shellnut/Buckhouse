@@ -142,7 +142,7 @@ for (var i=0; i<videoDataSorted.length; i++) {
 
   // Get resort name of the official ski resorts
   var resortName;
-  var validResort = unitedStatesData.filter(val => val.officialSkiResort)
+  var validResort = unitedStatesData.filter(val => val.officialSkiResort && !val.international)
                            .filter(val => val.videos.includes(videoDataSorted[i].id));
 
   // Only count valid resorts

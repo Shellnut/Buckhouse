@@ -177,7 +177,7 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
         modalData = {'videoData': videoData, 'unitedStatesData': unitedStatesData}
 
         var myVideos = modalData.unitedStatesData
-            .filter(val => val.officialSkiResort && (val.videos.length > 0))
+            .filter(val => val.officialSkiResort && (val.videos.length > 0) && !val.international)
             .map(val => {
                 var myId = val.videos[val.videos.length-1]; 
                 var myInfo = modalData.videoData.filter(vidDataVal => vidDataVal.id === myId)[0];

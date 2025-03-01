@@ -1,4 +1,4 @@
-var lastUpdated = '2/21/2025';
+var lastUpdated = '2/28/2025';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10991,6 +10991,18 @@ var unitedStatesData = [
         "x": 30,
         "y": 44
       },
+      {
+        "link": "uHOTBwPkIlg",
+        "name": "Andy's Encore",
+        "x": 27,
+        "y": 41
+      },
+      {
+        "link": "ymFnDgNVPsk",
+        "name": "Bouncer",
+        "x": 37,
+        "y": 53
+      }
     ]
   },
   {    
@@ -12165,7 +12177,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Granby",
-    "videos": [],
+    "videos": [
+      "D8hXn--T8nk"
+    ],
     "position": {
       "lat": 40.04482957372014,
       "lng": -105.906321773046
@@ -18545,8 +18559,9 @@ var unitedStatesData = [
     "country": "Italy",
     "city": "",
     "videos": [
-        "UpwVjH1LVN8",
-        "PPLsnEbOImU"
+      "SOPSS-VAuf4",
+      "UpwVjH1LVN8",
+      "PPLsnEbOImU"
     ],
     "position": {
         "lat": 46.6974957568317,

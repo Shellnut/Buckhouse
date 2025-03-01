@@ -30,10 +30,10 @@ app.controller('LocationController', function($scope, $location, myUtilities, le
 		myCenter = myInfo.center;
 	}
 
-	$scope.visitedCount = myData.filter(val => val.videos.length > 0 && val.officialSkiResort).length;
-    $scope.skiResortCount = myData.filter(val => val.officialSkiResort).length;
-    $scope.unofficialCount = myData.filter(val => !val.officialSkiResort).length;
-    $scope.usSkiResortCount = unitedStatesData.filter(val => val.officialSkiResort).length;
+	$scope.visitedCount = myData.filter(val => val.videos.length > 0 && val.officialSkiResort && !val.international).length;
+    $scope.skiResortCount = myData.filter(val => val.officialSkiResort && !val.international).length;
+    $scope.unofficialCount = myData.filter(val => !val.officialSkiResort && !val.international).length;
+    $scope.usSkiResortCount = unitedStatesData.filter(val => val.officialSkiResort && !val.international).length;
     $scope.myTitle = myTitle;
 
 	$scope.lastUpdated = lastUpdated;

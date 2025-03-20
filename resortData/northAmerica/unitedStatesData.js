@@ -1,4 +1,4 @@
-var lastUpdated = '2/28/2025';
+var lastUpdated = '3/20/2025';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -13203,6 +13203,40 @@ var unitedStatesData = [
     "country": "United States"
   },
   {    
+    "resortName": "Cuchara Mountain Park",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "La Veta",
+    "officialSkiResort": true,
+    "id": "3198",
+    "website": "",
+    "videos": [
+      "mSJLHTE7lrs"
+    ],
+    "position": {
+      "lat": 37.350045371376744,
+      "lng": -105.12838197768859
+    },
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/vkytzzw5kdv19cvm8gyovbt8kqgx.webp",
+    "country": "United States"
+  },
+  {    
     "resortName": "Bald Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -18498,6 +18532,7 @@ var unitedStatesData = [
     "country": "Canada",
     "city": "",
     "videos": [
+      "zRm0Ojj8OXo",
       "RJ3WegV_1Ac",
       "ipQPtA4u1Ws",
       "yBGqqrWibMU"

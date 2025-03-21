@@ -11160,38 +11160,38 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ercixskkm4wcb79x8pa9146e45zd",
     "country": "United States"
   },
-  {    
-    "resortName": "Hesperus Ski Area",
-    "state": "Colorado",
-    "region": "Rocky Mountains",
-    "city": "Hesperus",
-    "videos": [],
-    "position": {
-      "lat": 37.2993294370566,
-      "lng": -108.0551289019413
-    },
-    "officialSkiResort": true,
-    "id": "1035",
-    "website": "http://ski-hesperus.com/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/icvb1g80y3t4w2q4zgm5nmhsmj7k",
-    "country": "United States"
-  },
+  // {    
+  //   "resortName": "Hesperus Ski Area",
+  //   "state": "Colorado",
+  //   "region": "Rocky Mountains",
+  //   "city": "Hesperus",
+  //   "videos": [],
+  //   "position": {
+  //     "lat": 37.2993294370566,
+  //     "lng": -108.0551289019413
+  //   },
+  //   "officialSkiResort": true,
+  //   "id": "1035",
+  //   "website": "http://ski-hesperus.com/",
+  //   "resortReview": {
+  //     "score": "", // must be a number
+  //     "link": "",
+  //     "note": "",
+  //     "price": "",
+  //     "easeOfAccess": "",
+  //     "lodging": "",
+  //     "chairLifts": "",
+  //     "runs": "",
+  //     "terrainPark": "",
+  //     "food": "",
+  //     "employees": "",
+  //     "views": "",
+  //     "wouldIGoBack": ""
+  //   },
+  //   "skiPass": [],
+  //   "mapLink": "https://files.skimap.org/icvb1g80y3t4w2q4zgm5nmhsmj7k",
+  //   "country": "United States"
+  // },
   {    
     "resortName": "Howelsen Hill Ski Area",
     "state": "Colorado",

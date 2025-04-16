@@ -11233,7 +11233,9 @@ var unitedStatesData = [
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Silverton",
-    "videos": [],
+    "videos": [
+      "JNpadEZzp9o"
+    ],
     "position": {
       "lat": 37.81137185503059,
       "lng": -107.65683023076646

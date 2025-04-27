@@ -1,4 +1,4 @@
-var lastUpdated = '3/20/2025';
+var lastUpdated = '4/27/2025';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -11719,7 +11719,21 @@ var unitedStatesData = [
       "5XoSHAJJEOs",
       "oz_x3xJCFHI",
       "GMreHOCf7MU",
-      "_pn4HWDGVFw"
+      "DYU9icjQMJc",
+      "rIQn-u4nYJU",
+      "zwvM1PwIvrw",
+      "a7Bn98xxOQU",
+      "f4bioLGTRLY",
+      "bgVJpOMf90c",
+      "jei893Z6gLI",
+      "w4CqBEPjJOQ",
+      "Aw-pe8YLhPA",
+      "ofP0KhVsQMM",
+      "QqJlyUgdfNw",
+      "z_Io0wI7psI",
+      "_pn4HWDGVFw",
+      "vqfRbs_UXm4",
+      "V1EjzJSbnfA"
     ],
     "position": {
       "lat": 39.60856586489557,
@@ -11856,6 +11870,84 @@ var unitedStatesData = [
         "link": "OKjANzQpvPM",
         "x": 21,
         "y": 57
+      },
+      {
+        "name": "Elk Run",
+        "link": "zwvM1PwIvrw",
+        "x": 88,
+        "y": 28
+      },
+      {
+        "name": "Porcupine",
+        "link": "a7Bn98xxOQU",
+        "x": 92,
+        "y": 28
+      },
+      {
+        "name": "Big Horn",
+        "link": "f4bioLGTRLY",
+        "x": 90,
+        "y": 28
+      },
+      {
+        "name": "Oh, Bob",
+        "link": "bgVJpOMf90c",
+        "x": 86,
+        "y": 26
+      },
+      {
+        "name": "Ambush",
+        "link": "jei893Z6gLI",
+        "x": 67,
+        "y": 30
+      },
+      {
+        "name": "Powder Cap",
+        "link": "w4CqBEPjJOQ",
+        "x": 62,
+        "y": 34
+      },
+      {
+        "name": "Blackhawk",
+        "link": "hCcqkZnDWd4",
+        "x": 67,
+        "y": 38
+      },
+      {
+        "name": "Anticipation",
+        "link": "Aw-pe8YLhPA",
+        "x": 77,
+        "y": 28
+      },
+      {
+        "name": "Timberwolf",
+        "link": "ofP0KhVsQMM",
+        "x": 81,
+        "y": 21
+      },
+      {
+        "name": "Bergman Bowl",
+        "link": "QqJlyUgdfNw",
+        "x": 66,
+        "y": 14
+      },
+      {
+        "name": "Pika Glades",
+        "link": "z_Io0wI7psI",
+        "x": 92,
+        "y": 24
+      },
+      {
+        "name": "Erickson Bowl",
+        "link": "vqfRbs_UXm4",
+        "x": 74,
+        "y": 13
+      },
+      {
+        "name": "Wolverine",
+        "link": "V1EjzJSbnfA",
+        "x": 93,
+        "y": 20
       }
     ]
   },
@@ -12108,7 +12200,8 @@ var unitedStatesData = [
       "et1kev7SItY",
       "0ko1FQgcUos",
       "sQodqgFFSlo",
-      "i-GmeOffDlo"
+      "i-GmeOffDlo",
+      "F315cADlvu0"
     ],
     "position": {
       "lat": 37.88476886631995,
@@ -12962,7 +13055,9 @@ var unitedStatesData = [
     "officialSkiResort": false,
     "videos": [
       "0sTfpQm9hVQ",
-      "eahz4Mo2zMk"
+      "eahz4Mo2zMk",
+      "gjxnPJ98eew",
+      "krpF679S5xI"
     ],
     "position": {
       "lat": 39.616663843391365,
@@ -18537,7 +18632,8 @@ var unitedStatesData = [
       "zRm0Ojj8OXo",
       "RJ3WegV_1Ac",
       "ipQPtA4u1Ws",
-      "yBGqqrWibMU"
+      "yBGqqrWibMU",
+      "0j74Wnuj8_4"
     ],
     "position": {
         "lat": 50.961585282842,

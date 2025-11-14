@@ -1,4 +1,4 @@
-var lastUpdated = '4/27/2025';
+var lastUpdated = '11/13/2025';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -5382,6 +5382,40 @@ var unitedStatesData = [
     "country": "United States"
   },
   {    
+    "resortName": "Gilson's Summer Snowday",
+    "state": "Pennsylvania",
+    "region": "Mid-Atlantic",
+    "city": "Selinsgrove",
+    "videos": [
+      "2yI628ZJ960"
+    ],
+    "position": {
+      "lat": 40.80622103196347,
+      "lng": -76.85748640695611
+    },
+    "officialSkiResort": false,
+    "id": "",
+    "website": "https://gilsonsnow.com/",
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://webbweekly.com/wp-content/uploads/2023/08/pic_20230809_Bellomo_Gilson_8_9_23.png",
+    "country": "United States"
+  },
+  {    
     "resortName": "Cloudmont Ski & Golf Resort",
     "state": "Alabama",
     "region": "Southeast",
@@ -10057,6 +10091,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "h3s99fjBOsQ",
+      "uVJD5ugoG-w",
+      "gOUrWW4DhvE",
       "8KyUgydzuFk",
       "4b47oxEyZc0",
       "nuFmZV4yX_M",
@@ -10534,6 +10571,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "3gbvaNTCrJY",
+      "VhRX1mc3Wnw",
       "a5LYaiWlO5A",
       "cc859H6gcFA",
       "mc7LG1DO2Hk",
@@ -10775,6 +10814,11 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "RBnsyQYs0q8",
+      "iKVyroAJqho",
+      "DLNE6QgWaOE",
+      "M6rl5B0U4xU",
+      "QohkvpE1TRo",
       "sF2c3EPrunA",
       "zkD88Pc_m2E",
       "cbjAh5Y9se4",
@@ -11268,6 +11312,12 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "1RDoOteQNNY",
+      "2mp1tHagCT4",
+      "2ytV5AdfV_g",
+      "IIDPwGnDSLA",
+      "crrspj0u4uU",
+      "D2no_0O3XlQ",
       "NMO5XdjC8o0",
       "GSJZGfZr7h8",
       "239B33sWU9Q",
@@ -11948,7 +11998,7 @@ var unitedStatesData = [
         "link": "V1EjzJSbnfA",
         "x": 93,
         "y": 20
-      }
+      },
     ]
   },
   {    
@@ -12188,6 +12238,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "LyRBt-VxH84",
+      "GWcY_Okh4vg",
       "pV5c48_xxgo",
       "-EDj2ndWE-c",
       "DY40K0B8Z1E",
@@ -12536,6 +12588,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "hDS4HIom5e8",
+      "nug-5xjTLMc",
       "OHnOJJn0XKI",
       "zDhVzcL9RuQ",
       "LPvkKKCPtXQ",
@@ -12652,6 +12706,7 @@ var unitedStatesData = [
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "jVEvxzMgeW8",
       "HZNFdFMqN6U",
       "MwYdjlOEsZ8",
       "J_QWw5csLJw",
@@ -12721,6 +12776,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Idaho Springs",
     "videos": [
+      "kal_SkkiQ7A",
       "51urfEQi_24",
       "dXumj0OC4Ng",
       "mdHYc_QblqU",
@@ -13331,6 +13387,40 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/vkytzzw5kdv19cvm8gyovbt8kqgx.webp",
+    "country": "United States"
+  },
+  {    
+    "resortName": "Peak 1",
+    "state": "Colorado",
+    "region": "Rocky Mountains",
+    "city": "Breckenridge",
+    "officialSkiResort": false,
+    "id": "",
+    "website": "",
+    "videos": [
+      "lCd6xC_INvM"
+    ],
+    "position": {
+      "lat": 39.543599543623955,
+      "lng": -106.11995858737878
+    },
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://upload.wikimedia.org/wikipedia/commons/4/45/Peak_1_in_Colorado.jpg",
     "country": "United States"
   },
   {    
@@ -17590,6 +17680,14 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "4SHFOc-iUvo",
+      "KorJOROnO4Y",
+      "mKdXqc3sijY",
+      "YoGFyc66-Dg",
+      "G0pHRMjOV40",
+      "GP0yRT39Flk",
+      "2sV2ib_s4Yc",
+      "vp3NxbJxvpo",
       "MLlB4tOP5u8",
       "vK3aPdLhAYk",
       "JH987rSYjZ8",

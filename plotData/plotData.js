@@ -119,7 +119,8 @@ var s6Start = '2021-10-14T22:45:12Z';
 var s7Start = '2022-10-23T10:00:00Z';
 var s8Start = '2023-10-17T00:00:00Z';
 var s9Start = '2024-10-22T00:00:00Z';
-var s10Start = '2025-10-15T00:00:00Z';
+var s10Start = '2025-10-24T00:00:00Z';
+var s11Start = '2026-10-23T00:00:00Z';
   
 // Season resorts
 var s0Resorts = [];
@@ -133,6 +134,7 @@ var s7Resorts = [];
 var s8Resorts = [];
 var s9Resorts = [];
 var s10Resorts = [];
+var s11Resorts = [];
 
 // Sort the video data
 var videoDataSorted = videoData.sort((a,b)=>new Date(a.date).getTime()-new Date(b.date).getTime());
@@ -211,13 +213,20 @@ for (var i=0; i<videoDataSorted.length; i++) {
         s8Resorts.push(resortName);
       }
     }
-      // Get new resorts traveled to for season 9
-      else if (new Date(videoDataSorted[i].date) >= new Date(s9Start) && new Date(videoDataSorted[i].date) < new Date(s10Start)) {
-        var visitedResorts = s0Resorts.concat(s1Resorts).concat(s2Resorts).concat(s3Resorts).concat(s4Resorts).concat(s5Resorts).concat(s6Resorts).concat(s7Resorts).concat(s8Resorts).concat(s9Resorts);
-        if (!visitedResorts.includes(resortName)) {
-          s9Resorts.push(resortName);
-        }
+    // Get new resorts traveled to for season 9
+    else if (new Date(videoDataSorted[i].date) >= new Date(s9Start) && new Date(videoDataSorted[i].date) < new Date(s10Start)) {
+      var visitedResorts = s0Resorts.concat(s1Resorts).concat(s2Resorts).concat(s3Resorts).concat(s4Resorts).concat(s5Resorts).concat(s6Resorts).concat(s7Resorts).concat(s8Resorts).concat(s9Resorts);
+      if (!visitedResorts.includes(resortName)) {
+        s9Resorts.push(resortName);
       }
+    }
+    // Get new resorts traveled to for season 10
+    else if (new Date(videoDataSorted[i].date) >= new Date(s10Start) && new Date(videoDataSorted[i].date) < new Date(s11Start)) {
+      var visitedResorts = s0Resorts.concat(s1Resorts).concat(s2Resorts).concat(s3Resorts).concat(s4Resorts).concat(s5Resorts).concat(s6Resorts).concat(s7Resorts).concat(s8Resorts).concat(s9Resorts).concat(s10Resorts);
+      if (!visitedResorts.includes(resortName)) {
+        s10Resorts.push(resortName);
+      }
+    }
   }
 
 }
@@ -233,6 +242,7 @@ var s6Views = [];
 var s7Views = [];
 var s8Views = [];
 var s9Views = [];
+var s10Views = [];
 
 // Mertics by season
 var s0Metrics = [];
@@ -245,6 +255,7 @@ var s6Metrics = [];
 var s7Metrics = [];
 var s8Metrics = [];
 var s9Metrics = [];
+var s10Metrics = [];
 
 // Get all new resorts for all seasons
 for (var i=0; i<videoDataSorted.length; i++) {
@@ -341,16 +352,26 @@ for (var i=0; i<videoDataSorted.length; i++) {
       title: videoDataSorted[i].title
     });
   }
-    // Get new resorts traveled to for season 9
-    else if (new Date(videoDataSorted[i].date) >= new Date(s9Start) && new Date(videoDataSorted[i].date) < new Date(s10Start)) {
-      s9Views.push(videoViews);
-      s9Metrics.push({
-        views: videoViews,
-        date: videoDataSorted[i].date,
-        id: videoDataSorted[i].id,
-        title: videoDataSorted[i].title
-      });
-    }
+  // Get new resorts traveled to for season 9
+  else if (new Date(videoDataSorted[i].date) >= new Date(s9Start) && new Date(videoDataSorted[i].date) < new Date(s10Start)) {
+    s9Views.push(videoViews);
+    s9Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
+  // Get new resorts traveled to for season 9
+  else if (new Date(videoDataSorted[i].date) >= new Date(s10Start) && new Date(videoDataSorted[i].date) < new Date(s11Start)) {
+    s10Views.push(videoViews);
+    s10Metrics.push({
+      views: videoViews,
+      date: videoDataSorted[i].date,
+      id: videoDataSorted[i].id,
+      title: videoDataSorted[i].title
+    });
+  }
 }
 
 // -------------------
@@ -362,8 +383,8 @@ var config = {responsive: true};
 
 // Resorts by season
 var resortsBySeasonTrace = {
-  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9"],
-  y: [s0Resorts.length, s1Resorts.length, s2Resorts.length, s3Resorts.length, s4Resorts.length, s5Resorts.length, s6Resorts.length, s7Resorts.length, s8Resorts.length, s9Resorts.length],
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9", "Season 10"],
+  y: [s0Resorts.length, s1Resorts.length, s2Resorts.length, s3Resorts.length, s4Resorts.length, s5Resorts.length, s6Resorts.length, s7Resorts.length, s8Resorts.length, s9Resorts.length, s10Resorts.length],
   type: 'bar'
 };
 
@@ -385,8 +406,8 @@ Plotly.newPlot('newResortsBySeason', resortBySeasonData, resortBySeasonLayout, c
 
 // Videos per season
 var videosBySeasonTraceAvg = {
-  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9"],
-  y: [s0Metrics.length, s1Metrics.length, s2Metrics.length, s3Metrics.length, s4Metrics.length, s5Metrics.length, s6Metrics.length, s7Metrics.length, s8Metrics.length, s9Metrics.length],
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9", "Season 10"],
+  y: [s0Metrics.length, s1Metrics.length, s2Metrics.length, s3Metrics.length, s4Metrics.length, s5Metrics.length, s6Metrics.length, s7Metrics.length, s8Metrics.length, s9Metrics.length, s10Metrics.length],
   type: 'bar'
 };
 
@@ -456,10 +477,13 @@ var s8Max = Math.max(...s8Views);
 var s9Avg = avg(s9Views);
 var s9Min = Math.min(...s9Views);
 var s9Max = Math.max(...s9Views);
+var s10Avg = avg(s10Views);
+var s10Min = Math.min(...s10Views);
+var s10Max = Math.max(...s10Views);
 
 var viewsBySeasonTraceAvg = {
-  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9"],
-  y: [s0Avg, s1Avg, s2Avg, s3Avg, s4Avg, s5Avg, s6Avg, s7Avg, s8Avg, s9Avg],
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9", "Season 10"],
+  y: [s0Avg, s1Avg, s2Avg, s3Avg, s4Avg, s5Avg, s6Avg, s7Avg, s8Avg, s9Avg, s10Avg],
   type: 'bar'
 };
 
@@ -491,10 +515,11 @@ var s6Tot = sum(s6Views);
 var s7Tot = sum(s7Views);
 var s8Tot = sum(s8Views);
 var s9Tot = sum(s9Views);
+var s10Tot = sum(s10Views);
 
 var viewsTotalBySeasonTrace = {
-  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9"],
-  y: [s0Tot, s1Tot, s2Tot, s3Tot, s4Tot, s5Tot, s6Tot, s7Tot, s8Tot, s9Tot],
+  x: ["Season 0", "Season 1", "Season 2", "Season 3", "Season 4", "Season 5", "Season 6", "Season 7", "Season 8", "Season 9", "Season 10"],
+  y: [s0Tot, s1Tot, s2Tot, s3Tot, s4Tot, s5Tot, s6Tot, s7Tot, s8Tot, s9Tot, s10Tot],
   type: 'bar'
 };
 
@@ -630,8 +655,14 @@ var viewsSeason9Trace = {
   type: 'scatter',
   name: 'Season 9'
 };
+var viewsSeason10Trace = {
+  x: monthsX,
+  y: getAvgViewsByMonth(s10Metrics),
+  type: 'scatter',
+  name: 'Season 10'
+};
 
-var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsSeason4Trace, viewsSeason5Trace, viewsSeason6Trace, viewsSeason7Trace, viewsSeason8Trace, viewsSeason9Trace];
+var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsSeason4Trace, viewsSeason5Trace, viewsSeason6Trace, viewsSeason7Trace, viewsSeason8Trace, viewsSeason9Trace, viewsSeason10Trace];
 
 var monthLayout = {
   title: 'Avg Views Per Video Per Month',
@@ -759,8 +790,14 @@ var viewsTotalSeason9Trace = {
   type: 'scatter',
   name: 'Season 9'
 };
+var viewsTotalSeason10Trace = {
+  x: monthsX,
+  y: getTotalViewsByMonth(s9Metrics),
+  type: 'scatter',
+  name: 'Season 10'
+};
 
-var monthTotalData = [viewsTotalSeason1Trace, viewsTotalSeason2Trace, viewsTotalSeason3Trace, viewsTotalSeason4Trace, viewsTotalSeason5Trace, viewsTotalSeason6Trace, viewsTotalSeason7Trace, viewsTotalSeason8Trace, viewsTotalSeason9Trace];
+var monthTotalData = [viewsTotalSeason1Trace, viewsTotalSeason2Trace, viewsTotalSeason3Trace, viewsTotalSeason4Trace, viewsTotalSeason5Trace, viewsTotalSeason6Trace, viewsTotalSeason7Trace, viewsTotalSeason8Trace, viewsTotalSeason9Trace, viewsTotalSeason10Trace];
 
 var monthTotalLayout = {
   title: 'Total Views Per Month',

@@ -1,4 +1,4 @@
-var lastUpdated = '11/13/2025';
+var lastUpdated = '1/28/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -34,7 +34,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/k7vzp9xymxigq8xmb878hebozv3n",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Southington",
     "state": "Connecticut",
     "region": "New England",
@@ -74,7 +74,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Powder Ridge Ski Area",
     "state": "Connecticut",
     "region": "New England",
@@ -108,7 +108,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/75u4ifuia9kahk1ilkey09djilxo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Sundown",
     "state": "Connecticut",
     "region": "New England",
@@ -142,7 +142,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hu4v50u2vosq1lisf026ot6676qo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Baker Mountain",
     "state": "Maine",
     "region": "New England",
@@ -174,7 +174,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7e6lrw6j3qyfb8f9cno3hwhkfoxa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Rock",
     "state": "Maine",
     "region": "New England",
@@ -208,7 +208,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/dk5ytmnwd827anzqjgyluq0aisf2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Squaw",
     "state": "Maine",
     "region": "New England",
@@ -240,7 +240,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/18rrf1qwc4fw2we111pjrn2jtlrp",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Black Mountain of Maine",
     "state": "Maine",
     "region": "New England",
@@ -274,7 +274,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lah8wdy34pu0x7sbp4is80nn03bh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Camden Snow Bowl",
     "state": "Maine",
     "region": "New England",
@@ -306,7 +306,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/gqzn64jq9q06wg216s45ipbcfqoj",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Eaton Mountain",
     "state": "Maine",
     "region": "New England",
@@ -338,7 +338,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/x8ezkaszgkfrn6fac6vls0wfvm01",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hermon Mountain",
     "state": "Maine",
     "region": "New England",
@@ -370,7 +370,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/b64t8ym429uo3mewkd53c5lv89cd",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Lonesome Pine Trails",
     "state": "Maine",
     "region": "New England",
@@ -402,7 +402,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/o4kfn6k7ejeaqv51yb24bsagbagr",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Lost Valley",
     "state": "Maine",
     "region": "New England",
@@ -434,7 +434,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3wqlrccrgoztalzwkw7fuh4skzcc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Abram",
     "state": "Maine",
     "region": "New England",
@@ -466,7 +466,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/a0ai8igf8u5031retkkar0f7iw9f",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Jefferson Ski Area",
     "state": "Maine",
     "region": "New England",
@@ -498,7 +498,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/yi2fleoq7iuddmbgjxui2fja7qyi",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pinnacle Ski Club",
     "state": "Maine",
     "region": "New England",
@@ -530,7 +530,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/m60ju3fjyhzms4dvpu52ix0sn0eo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Powderhouse Hill",
     "state": "Maine",
     "region": "New England",
@@ -562,7 +562,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/iwtd28pbxqn45diii5q29aazrzm0",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Quoggy Jo",
     "state": "Maine",
     "region": "New England",
@@ -594,7 +594,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Saddleback Maine",
     "state": "Maine",
     "region": "New England",
@@ -628,7 +628,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5p9dubavvwg8xs7st43cgwkw2efs",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Shawnee Peak",
     "state": "Maine",
     "region": "New England",
@@ -660,7 +660,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/kpebhk25zlcw1fy8ej0t1tuk0dt7",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sugarloaf",
     "state": "Maine",
     "region": "New England",
@@ -701,7 +701,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sunday River",
     "state": "Maine",
     "region": "New England",
@@ -735,7 +735,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8nz8sl0d15uwd15uzz0sy0wnxhgh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Titcomb Mountain",
     "state": "Maine",
     "region": "New England",
@@ -767,7 +767,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/tximyerrm9hch5y2x46ijhn28wna",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Berkshire East Ski Resort",
     "state": "Massachusetts",
     "region": "New England",
@@ -801,7 +801,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/b47decyjv9b22omyfjb8jd490au5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Blue Hills Ski Area",
     "state": "Massachusetts",
     "region": "New England",
@@ -833,7 +833,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qkcujivk5rbltifa2al2uknbaeqv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bousquet Ski Area",
     "state": "Massachusetts",
     "region": "New England",
@@ -867,7 +867,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7radclyue2xgisb670zmh531ylxh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Butternut",
     "state": "Massachusetts",
     "region": "New England",
@@ -901,7 +901,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/z35w15sd138cw7aritnzb4gfbc4p",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Easton Ski Area at Eaglebrook School (private)",
     "state": "Massachusetts",
     "region": "New England",
@@ -933,7 +933,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zf4acsg7afi3x37102j142gd61gu",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Jiminy Peak",
     "state": "Massachusetts",
     "region": "New England",
@@ -967,7 +967,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ysxzbvl4f189upbxy46yhuq3d6si",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Greylock Ski Club",
     "state": "Massachusetts",
     "region": "New England",
@@ -999,7 +999,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/n21kenidp1tsmxdfgzpvldpf3nsk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Nashoba Valley Ski Area",
     "state": "Massachusetts",
     "region": "New England",
@@ -1031,7 +1031,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/17mp2x9p1b83dh4vphaojl0pwmxh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Otis Ridge",
     "state": "Massachusetts",
     "region": "New England",
@@ -1065,7 +1065,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bqzm9d8of8c40gst2javtpep11mz",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Bradford",
     "state": "Massachusetts",
     "region": "New England",
@@ -1097,7 +1097,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/eaugfn5qd43ixxjutjknn4u71dsu",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Ward",
     "state": "Massachusetts",
     "region": "New England",
@@ -1129,7 +1129,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/mdtfrcjq8iedlw8qgetnp8ctjhs2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wachusett Mountain",
     "state": "Massachusetts",
     "region": "New England",
@@ -1161,7 +1161,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5z4zkhkehp12ttuazv1pa28hveju",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Abenaki Ski Area",
     "state": "New Hampshire",
     "region": "New England",
@@ -1193,7 +1193,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/nyhlqmfnyrh4wgfcc8fflhxu019b",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Arrowhead",
     "state": "New Hampshire",
     "region": "New England",
@@ -1225,7 +1225,7 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/2146/916/1335548315.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Attitash",
     "state": "New Hampshire",
     "region": "New England",
@@ -1259,7 +1259,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ghkjnnmot9gc83z1ybxf2zeamgey",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Black Mountain",
     "state": "New Hampshire",
     "region": "New England",
@@ -1293,7 +1293,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lah8wdy34pu0x7sbp4is80nn03bh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bretton Woods",
     "state": "New Hampshire",
     "region": "New England",
@@ -1325,7 +1325,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/z6zxouj9n62junsej3glljwlljos",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cannon Mountain",
     "state": "New Hampshire",
     "region": "New England",
@@ -1359,7 +1359,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3c0avxx8az4elfr9dkgdzevtv12f",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Campton Mountain",
     "state": "New Hampshire",
     "region": "New England",
@@ -1391,7 +1391,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ikra2tsl6zf142uiexocxv8shsna",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cranmore Mountain Resort",
     "state": "New Hampshire",
     "region": "New England",
@@ -1423,7 +1423,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vao2w387tzh4m8nba4lrfbmq6yo5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Crotched Mountain",
     "state": "New Hampshire",
     "region": "New England",
@@ -1457,7 +1457,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0zfo8vwicawn016ubn0maiwzpg8l",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Dartmouth Skiway",
     "state": "New Hampshire",
     "region": "New England",
@@ -1489,7 +1489,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/6ivuc0zdqdmcp6ujt9rd89izkxf3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Franklin Veterans Memorial Recreation Area",
     "state": "New Hampshire",
     "region": "New England",
@@ -1521,7 +1521,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8fq0fudfxbdhd2yxbgspwa43j62k",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Granite Gorge",
     "state": "New Hampshire",
     "region": "New England",
@@ -1553,7 +1553,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/6rf9dg6yw64af60ffervqgodx1tc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Gunstock Mountain Resort",
     "state": "New Hampshire",
     "region": "New England",
@@ -1585,7 +1585,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/egax5zks6t6quywhm1fv1ein14fa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Kanc Rec Area",
     "state": "New Hampshire",
     "region": "New England",
@@ -1617,7 +1617,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "King Pine",
     "state": "New Hampshire",
     "region": "New England",
@@ -1649,7 +1649,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0a7k6vr5p0zg4spwnu555hy9fw12",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Loon Mountain",
     "state": "New Hampshire",
     "region": "New England",
@@ -1689,7 +1689,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "McIntyre Ski Area",
     "state": "New Hampshire",
     "region": "New England",
@@ -1721,7 +1721,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ad1b78gdc33iblfhx6vcylh1mtjm",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Eustis - Littleton",
     "state": "New Hampshire",
     "region": "New England",
@@ -1753,7 +1753,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Prospect",
     "state": "New Hampshire",
     "region": "New England",
@@ -1785,7 +1785,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Sunapee Resort",
     "state": "New Hampshire",
     "region": "New England",
@@ -1819,7 +1819,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4m3mc78ejv8qffp17g5tiye5xbov",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pats Peak",
     "state": "New Hampshire",
     "region": "New England",
@@ -1853,7 +1853,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3ywrxlw76ho7bhfdckglv2ch51nq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ragged Mountain",
     "state": "New Hampshire",
     "region": "New England",
@@ -1885,7 +1885,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/mzge3aqafrcam6hggoyb8q3qubeh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Red Hill Ski Club",
     "state": "New Hampshire",
     "region": "New England",
@@ -1917,7 +1917,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8wxg1kx6gogmi7hm4xqiebkkg31a",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Storrs Hill",
     "state": "New Hampshire",
     "region": "New England",
@@ -1949,7 +1949,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/339id52u0m47sciq9c4m07djt4xk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Tenney Mountain Ski Resort",
     "state": "New Hampshire",
     "region": "New England",
@@ -1981,7 +1981,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/2vmlczpknq5x9aqfbtk324dhi12r",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "The Balsams Wilderness",
     "state": "New Hampshire",
     "region": "New England",
@@ -2013,7 +2013,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/fsx5v83j7wnz51hgnlnlvk4vqk5x",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Waterville Valley Resort",
     "state": "New Hampshire",
     "region": "New England",
@@ -2047,7 +2047,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/y7r7wpp2djkuqte489tf113qkhg5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Whaleback",
     "state": "New Hampshire",
     "region": "New England",
@@ -2079,7 +2079,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/r2xxzlsdcc0e8p8fc45sxff14gmb",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wildcat Mountain",
     "state": "New Hampshire",
     "region": "New England",
@@ -2113,7 +2113,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/k6x1ys7jzp96ezjzpsgwni9arb41",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Yawgoo Valley",
     "state": "Rhode Island",
     "region": "New England",
@@ -2145,7 +2145,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/al9zw6ww0v21kkkhcxrd4u0hnm7p",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bellows Falls Ski Tow",
     "state": "Vermont",
     "region": "New England",
@@ -2177,7 +2177,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bolton Valley Resort",
     "state": "Vermont",
     "region": "New England",
@@ -2211,7 +2211,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lnmwydbn22vxsczs4dvf66gnc9y9",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bromley Mountain",
     "state": "Vermont",
     "region": "New England",
@@ -2245,7 +2245,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/pbi2dq1nd2n9i2eyzk1f14shhxyo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Burke Mountain",
     "state": "Vermont",
     "region": "New England",
@@ -2277,7 +2277,7 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/208/3535/1573352974.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cochran's Ski Area",
     "state": "Vermont",
     "region": "New England",
@@ -2309,7 +2309,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ktisvx2tn6jynosamlnc2lot85cn",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Harrington Hill",
     "state": "Vermont",
     "region": "New England",
@@ -2340,7 +2340,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hard 'Ack",
     "state": "Vermont",
     "region": "New England",
@@ -2372,7 +2372,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/wlr2rl2h43q9itpfg3yiyymcapn2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hermitage Club (formerly Haystack)",
     "state": "Vermont",
     "region": "New England",
@@ -2404,7 +2404,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vx8vmmr9vluzewof2pf7ulhav32y",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Jay Peak Resort",
     "state": "Vermont",
     "region": "New England",
@@ -2438,7 +2438,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/dt07ns74rfacyfzu8aonv31afas3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Killington Ski Resort",
     "state": "Vermont",
     "region": "New England",
@@ -2474,7 +2474,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/wegu9p2txk3cl880726g71b9ot8s",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Dark Park at Darkside Snowboard Shop",
     "state": "Vermont",
     "region": "New England",
@@ -2507,7 +2507,7 @@ var unitedStatesData = [
     "mapLink": "https://unofficialnetworks.com/wp-content/uploads/sites/88/2022/10/Screen-Shot-2022-10-27-at-10.49.50-PM.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Living Memorial Park",
     "state": "Vermont",
     "region": "New England",
@@ -2539,7 +2539,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/v5efof3fa4gxh7kz54dr4z6mq4bh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Lyndon Outing Club",
     "state": "Vermont",
     "region": "New England",
@@ -2571,7 +2571,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ey7rkcq0jyiw6efhggagj2e7nlwd",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mad River Glen",
     "state": "Vermont",
     "region": "New England",
@@ -2604,7 +2604,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/svmztveaincvv0ys15lkbfwlq1i6",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Magic Mountain",
     "state": "Vermont",
     "region": "New England",
@@ -2638,7 +2638,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ml0oryv67ve13c663f5h2ba24auj",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Middlebury College Snow Bowl",
     "state": "Vermont",
     "region": "New England",
@@ -2670,7 +2670,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zn8z17uazho4ojvj7qv7m7znoo3i",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Snow",
     "state": "Vermont",
     "region": "New England",
@@ -2708,7 +2708,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/otxaauu3733qezco0vyy82oyzy3r",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Northeast Slopes",
     "state": "Vermont",
     "region": "New England",
@@ -2740,7 +2740,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/q6qp6p4ary0r1c9m6vfpfebkfggs",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Okemo Mountain",
     "state": "Vermont",
     "region": "New England",
@@ -2774,7 +2774,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bfmzp16mzhiwxygrypr1r4jq43t5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pico Mountain",
     "state": "Vermont",
     "region": "New England",
@@ -2808,7 +2808,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/yt5qrp3h4zygsb2hexg6wz4l5fy5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Plymouth Notch",
     "state": "Vermont",
     "region": "New England",
@@ -2840,7 +2840,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/opa0lptqwznl0anafe6nct7d2q1t",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Quechee Lakes Ski Area",
     "state": "Vermont",
     "region": "New England",
@@ -2872,7 +2872,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/89mos3e6sutf7hrxrn4agxl76j63",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Smugglers' Notch",
     "state": "Vermont",
     "region": "New England",
@@ -2904,7 +2904,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/d4o9uoc99b42dkb9psswoh8wb6oq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Stowe Mountain Resort",
     "state": "Vermont",
     "region": "New England",
@@ -2938,7 +2938,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bmox7bj7mw9u0gd92q3t1keex6kh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Stratton Mountain Resort",
     "state": "Vermont",
     "region": "New England",
@@ -2978,7 +2978,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sugarbush Resort",
     "state": "Vermont",
     "region": "New England",
@@ -3012,7 +3012,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1zxkeb9cnb3zidb1pjopqkhl6dpq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Saskadena Six",
     "state": "Vermont",
     "region": "New England",
@@ -3046,7 +3046,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/275pkibdmava8hkb9szsumtqxxbi",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ascutney Outdoors",
     "state": "Vermont",
     "region": "New England",
@@ -3078,7 +3078,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qhzdkz1fwmxhzc1rsy64pmsxz5uu",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wisp Ski Resort",
     "state": "Maryland",
     "region": "Mid-Atlantic",
@@ -3110,7 +3110,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ehwh4u20546qfhk6jpfo6uxhj4kt",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Snow American Dream",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
@@ -3171,7 +3171,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/fb18xxhj9yrmym6t93s7nza5xodf",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Campgaw Mountain",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
@@ -3205,7 +3205,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/t5ue03rarnkorfzt4bdsyvkfx42k",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "National Winter Activity Center",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
@@ -3237,7 +3237,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cdoymwrimzq86njgjmzc309hm8y1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mountain Creek",
     "state": "New Jersey",
     "region": "Mid-Atlantic",
@@ -3271,7 +3271,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hcbg8wslbosqeb64ljfbme2ogpzi",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Beartown Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3303,7 +3303,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ubgn8qbu8d9bszt9oegqzxkyfog9",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Belleayre Ski Center",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3337,7 +3337,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ub66gtj51dfhdq1a5npkggm67asp",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Tupper Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3369,7 +3369,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/n5cnlrp3zv3tkb8j768ocihmxeq0",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Brantling Ski Slopes",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3401,7 +3401,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/49qh9b6douxj9m2st5iuueycrbkt",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bristol Mountain Ski Resort",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3433,7 +3433,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/mhm6nxn40zg06bxy04t8ypzzu6gc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Buffalo Ski Club",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3465,7 +3465,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/salhogztslkd4xyoxj8aelqdi5bo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Catamount Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3499,7 +3499,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vkir2mo94qx2euo6fkuobuidw319",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Dry Hill Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3531,7 +3531,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/n3s8fybcu52kdfpembq52wz2vt72",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Gore Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3565,7 +3565,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/59uvwtezz4j5lnihn67iqhevi34d",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Greek Peak",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3599,7 +3599,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vex5shtlibe3bcczscoogwubmpmp",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hickory Ski Center",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3631,7 +3631,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/efvh01op2bji63b5udcm05ho6sql",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Holiday Valley",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3663,7 +3663,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/r3bmiy5qh77942k8kp3j0vfxaz5f",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Holiday Mountain Ski & Fun",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3695,7 +3695,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5cc84cnv8zmlfmsyqypc121h53kt",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Holimont",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3727,7 +3727,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/k05ypq2l5wi7cjr6vcinemx9707z",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hunter Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3763,7 +3763,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4g23mls6txsps13azq1chfi1db1b",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Kissing Bridge",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3795,7 +3795,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/v7jgj5tr5ktnb02ryr0saptq03h9",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Labrador Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3827,7 +3827,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/d3srkvmdja0voqsih5mdpxiom5df",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Peter Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3861,7 +3861,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7s9fji6nyewg9euu435b98cjg1kn",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "McCauley Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3893,7 +3893,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qq10bbd3esehk3m41zi6e2pvd51p",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Oak Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3925,7 +3925,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lm3ny7qh9c5cejvs6mxt27mfcn7o",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Plattekill Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3957,7 +3957,7 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/293/3535/1618775822.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Royal Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -3989,7 +3989,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ahd67km10k0ydyw6hlxlzhtvscms",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Song Mountain Resort",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4021,7 +4021,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/kinhrpucxmg2al25vgwdo8uwk57n",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snow Ridge Ski Resort",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4055,7 +4055,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/k05ypq2l5wi7cjr6vcinemx9707z",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Swain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4089,7 +4089,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qjbi5i3435ddepatm5pxl55bw0bb",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sugar Hill",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4121,7 +4121,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Thunder Ridge Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4155,7 +4155,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/d5rnc8erfohdvdnr4a2kdpx6wdzg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Titus Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4189,7 +4189,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/9h2yg1o1jh6192i8pu3c5pjfqs61",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Toggenburg Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4221,7 +4221,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vyvetjx36w35q02mwbbi023azr98",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "West Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4257,7 +4257,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/m9kvw50wrjtzexcfyiayee9diu70",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Willard Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4289,7 +4289,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/q5jcvbv46oplzx1yk79ujq9hrn2c",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Whiteface Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4323,7 +4323,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/b2d80n4b355uvmdww0m0vifagtzs",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Windham Mountain",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4359,7 +4359,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7evvvw0lhtu3zjca7qiucitc4ipc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Woods Valley Ski Resort",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4391,7 +4391,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3cc2ryd6y22qfbic4d7n18dzbkzq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Peek'n Peak Resort",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4425,7 +4425,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ok6lda0yj6cc4an5cn961t9nqdn8",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Victor Constant Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4459,7 +4459,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0k3gs02skh43m5v5jyk5e4pt4sb2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Pisgah",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4491,7 +4491,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ht43dq3mrwjokqmim3fdw6hmccut",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Maple Ski Ridge",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4523,7 +4523,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/v44rbspqq3ug5imaavmhrnc8y732",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cockaigne Ski Resort",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4555,7 +4555,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/h9oxqiik3qlvw36483cqrc3s63hc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Four Seasons Ski Center",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4587,7 +4587,7 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": "https://files.skimap.org/xpl9robx55o1431cr7ef2brxae9k"
   },
-  {    
+  {
     "resortName": "Villa Roma Ski Area",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4619,7 +4619,7 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": "https://files.skimap.org/6i9lr5tp0fmh78ph7h6wwu8gxo8j"
   },
-  {    
+  {
     "resortName": "Hunt Hollow Ski Club",
     "state": "New York",
     "region": "Mid-Atlantic",
@@ -4651,7 +4651,7 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": "https://files.skimap.org/gydzlzaji3tpfbjyx6ppzsbc5dsn"
   },
-  {    
+  {
     "resortName": "Bear Creek Mountain Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4683,7 +4683,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4pzf81vb7mw5uzytabanmjp35z04",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Blue Knob All Seasons Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4717,7 +4717,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0ryc26q5bfu4hoyhv9ct7dl27ppp",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Blue Mountain Ski Area",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4749,7 +4749,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7o0v1qcg9pdqs9au9qcqy9uf3619",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Boyce Park",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4781,7 +4781,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Camelback Ski Area",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4813,7 +4813,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/eizdfjxwrm2xmatyvxpzk5e30kv5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Eagle Rock Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4845,7 +4845,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ma91qnldpc6vrox7r5ty6aw6yme5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Elk Mountain",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4877,7 +4877,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/g52u49offtvrnulmv5hy7jqjgnjf",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hidden Valley Four Seasons Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4911,7 +4911,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3i3bgh2yz10s0wvugpvsxa2ojb41",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Jack Frost Ski Area",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4945,7 +4945,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0y4hmma9vdvdekep2ycgenvildlg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Boulder Mountain",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -4979,7 +4979,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/mqrhvklbh1a46ijs4tmkptm9hqx0",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Laurel Mountain Ski Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5013,7 +5013,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/14fr26k4oc7vc285qvc78ca8r63h",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Liberty Mountain Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5047,7 +5047,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/m4oo7pzg361odura4d0ye2otvko7",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Seven Springs Mountain Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5081,7 +5081,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hh75yrqm3clf46axdgkjkhr706vd",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Shawnee Mountain Ski Area",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5115,7 +5115,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8z0e2itwhu16l8sr6vtjfif5ahwg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Big Bear",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5147,7 +5147,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ri29ubt6v8alm3qgubf1a3yxl419",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Roundtop",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5181,7 +5181,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/byac2c8ljku9x4pk3vcxn537auq9",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Spring Mountain",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5213,7 +5213,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/brsl48ms7oi6squmhaky03sfwqbv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Sawmill",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5247,7 +5247,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/za3meocq1bkealyqgtig1fh77f0r",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Montage Mountain Ski Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5281,7 +5281,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zxr3rd2gcyzc1s5ekvf20vyl377m",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Tussey Mountain Ski Area",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5315,7 +5315,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cn8n067orrinrg51fhur42lub8fc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Whitetail Ski Resort",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5349,7 +5349,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qkeqoqrvgq264m8a3tyycos8wx0f",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Pleasant of Edinboro",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5381,7 +5381,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zskgw12wxtitk9730vy1flhmq8z1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Gilson's Summer Snowday",
     "state": "Pennsylvania",
     "region": "Mid-Atlantic",
@@ -5415,7 +5415,7 @@ var unitedStatesData = [
     "mapLink": "https://webbweekly.com/wp-content/uploads/2023/08/pic_20230809_Bellomo_Gilson_8_9_23.png",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cloudmont Ski & Golf Resort",
     "state": "Alabama",
     "region": "Southeast",
@@ -5447,7 +5447,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/slakkjmrnts33i00gguom9tqud7i",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Appalachian Ski Mountain",
     "state": "North Carolina",
     "region": "Southeast",
@@ -5481,7 +5481,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/6dq7papld9o5o5dhvyh7hg3hdseg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cataloochee Ski Area",
     "state": "North Carolina",
     "region": "Southeast",
@@ -5515,7 +5515,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/g85eq2utj5lwvjqh9xr425alck54",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sapphire Valley",
     "state": "North Carolina",
     "region": "Southeast",
@@ -5547,7 +5547,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/xpwo12pcf47u72e3p47sd930swqa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Beech Mountain Resort",
     "state": "North Carolina",
     "region": "Southeast",
@@ -5581,7 +5581,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/2gwgt3nm4jj1cz9nh4x58g7c6jbz",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sugar Mountain",
     "state": "North Carolina",
     "region": "Southeast",
@@ -5615,7 +5615,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/q2p4ami68pu7s7mmcxirike6dpz8",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wolf Ridge",
     "state": "North Carolina",
     "region": "Southeast",
@@ -5647,7 +5647,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/o6vis2lfarwb2qyiiciueanh4spj",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ober Gatlinburg",
     "state": "Tennessee",
     "region": "Southeast",
@@ -5681,7 +5681,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/9snvspwumv9vix8s4nib0p1cmw60",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bryce Resort",
     "state": "Virginia",
     "region": "Southeast",
@@ -5715,7 +5715,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4tm53w910oeulgv2nme9bnsbvpva",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Massanutten Ski Resort",
     "state": "Virginia",
     "region": "Southeast",
@@ -5749,7 +5749,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ubeti03zswvv9e4drkift3xkuewk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "The Homestead",
     "state": "Virginia",
     "region": "Southeast",
@@ -5781,7 +5781,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1jvd0l7spihktccb6p5zcbyuaz4h",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wintergreen Resort",
     "state": "Virginia",
     "region": "Southeast",
@@ -5813,7 +5813,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/poipm0b4qv3umyi1ubesq93bfor5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Liberty Snowflex",
     "state": "Virginia",
     "region": "Southeast",
@@ -5864,7 +5864,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/f78qesncfo6o96h65imnpmqoniez",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Canaan Valley Resort",
     "state": "West Virginia",
     "region": "Southeast",
@@ -5898,7 +5898,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/pebu5cc3m8bimm5j758l7zc93n64",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Oglebay Resort",
     "state": "West Virginia",
     "region": "Southeast",
@@ -5930,7 +5930,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snowshoe Mountain",
     "state": "West Virginia",
     "region": "Southeast",
@@ -5964,7 +5964,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/afvyxx8k8yn79ax47lrkqw0o2hq9",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Timberline Four Seasons Resort",
     "state": "West Virginia",
     "region": "Southeast",
@@ -5996,7 +5996,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vs3lkgyz26tyl4ftlmrov1dg4sfw",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Winterplace",
     "state": "West Virginia",
     "region": "Southeast",
@@ -6030,7 +6030,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/arp83foohviom0r4az1o7boa0x69",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Oglebay Ski Area (Nutting Winter Sports Area)",
     "state": "West Virginia",
     "region": "Southeast",
@@ -6062,7 +6062,7 @@ var unitedStatesData = [
     "mapLink": "https://snowcomparison.com/uploads/images/fb/65/fb65b2d526a7bfd7f6b60ae23dd1d356.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Chestnut Mountain Resort",
     "state": "Illinois",
     "region": "Midwest",
@@ -6099,7 +6099,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/xq6knq3g8euxz1055640qz34tj15",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Four Lakes",
     "state": "Illinois",
     "region": "Midwest",
@@ -6133,7 +6133,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qgp15jx6bvt83ywa6zyovh584w51",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Snowstar",
     "state": "Illinois",
     "region": "Midwest",
@@ -6165,7 +6165,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5pjlj3ytzbac2xf042otzv5qs3vs",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Villa Olivia",
     "state": "Illinois",
     "region": "Midwest",
@@ -6199,7 +6199,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/2vxh69kbtn1wumc57ayunhauyi8x",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Paoli Peaks",
     "state": "Indiana",
     "region": "Midwest",
@@ -6233,7 +6233,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4b2ezuzgc5l3bls4zqtv85bbgv20",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Perfect North Slopes",
     "state": "Indiana",
     "region": "Midwest",
@@ -6265,7 +6265,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/is9gwr0ad9mdf13rpo3iblpytord",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. Crescent Ski Area",
     "state": "Iowa",
     "region": "Midwest",
@@ -6297,7 +6297,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8fegjmdfmw214whn9zpeazywduvm",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Seven Oaks Snow Ski Area",
     "state": "Iowa",
     "region": "Midwest",
@@ -6329,7 +6329,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3lmeozficz3smzgtvjy79i5jzeh8",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sundown Mountain",
     "state": "Iowa",
     "region": "Midwest",
@@ -6365,7 +6365,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7ko5qsdwxhw1iqmbiwohtiidaxfe",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Al Quaal Recreation Ski Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -6397,7 +6397,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alpine Valley",
     "state": "Michigan",
     "region": "Midwest",
@@ -6431,7 +6431,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/gzcbgt02gopkjhbruj0x4d1onheq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Powderhorn Ski Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -6465,7 +6465,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/jzrsd00bn0ceqaig0b1qqrsuzymf",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bittersweet Ski Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6497,7 +6497,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bdomierexrrdwpjic9pc5tkpseos",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Blackjack Ski Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6529,7 +6529,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/e7otxnu8x8xo8dog1jvw3vyzudxk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Boyne Highlands Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6563,7 +6563,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hcbz26gt5psyn8atmqe7wjai0g4l",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Boyne Mountain",
     "state": "Michigan",
     "region": "Midwest",
@@ -6597,7 +6597,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/tnq8nw4m0qu3n2b9mzlxnrosqesc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Caberfae Peaks Ski & Golf Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6631,7 +6631,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5n0y5nmlje7tz385nhi0vxia9be4",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cannonsburg Ski Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -6663,7 +6663,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5x2z7qanq61xwmmfcoznmr4yy09g",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Crystal Mountain Resort & Spa",
     "state": "Michigan",
     "region": "Midwest",
@@ -6697,7 +6697,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/iy3tir951tld0zu2nrkpbhqffq6w",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hickory Hills Ski Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -6729,7 +6729,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hk2nqxbzdjduhal8it0h7cnlvge8",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "The Homestead",
     "state": "Michigan",
     "region": "Midwest",
@@ -6761,7 +6761,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/g37ikutffquwxp7h8w5f5txkz1dk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snowriver Mountain Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6795,7 +6795,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4hb1ks7ht8jtbd79omwubukwbpgc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Marquette Mountain",
     "state": "Michigan",
     "region": "Midwest",
@@ -6829,7 +6829,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0nkvayf5zt8b2mc6w4jw0vlp00gc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mont Ripley Ski Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6861,7 +6861,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/sg09n8bvteq2ueqomr4f7xqy90nn",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Bohemia",
     "state": "Michigan",
     "region": "Midwest",
@@ -6893,7 +6893,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/r5rtsx895dgqmtkcdzqyy7p7dmc6",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. Brighton Ski Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6929,7 +6929,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/fdg3y1hll2os71x26lrxf5oi0d2x",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. Holiday",
     "state": "Michigan",
     "region": "Midwest",
@@ -6961,7 +6961,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/h0hd7pi87e7ghz2ucqmwhpl3ci6l",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. Holly Ski and Snowboard Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -6995,7 +6995,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1t52ft6ep29aynn8glspueksxmpx",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. McSauba Recreation Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -7027,7 +7027,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. Zion Ski Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -7059,7 +7059,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ux70aoa5m0k4ca8419bzt6bifrpy",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mulligan's Hollow Ski Bowl",
     "state": "Michigan",
     "region": "Midwest",
@@ -7091,7 +7091,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/l1caskkdkx5wpc7qs9l94wygrep7",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Nub's Nob",
     "state": "Michigan",
     "region": "Midwest",
@@ -7125,7 +7125,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/dw43u1jp57gapc8sbdpal1wt7sk2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Otsego Club & Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -7157,7 +7157,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/r8pryk731nu2nec3544dc95cyoyd",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Petoskey Winter Sports Park",
     "state": "Michigan",
     "region": "Midwest",
@@ -7189,7 +7189,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pine Knob Ski Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -7223,7 +7223,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bygt0ow9qkz5hn7mrfccnox1t1x4",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pine Mountain Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -7257,7 +7257,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/j9v8r5sy09op49lmnj8od1rapbfc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Porcupine Mountains",
     "state": "Michigan",
     "region": "Midwest",
@@ -7289,7 +7289,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vwli5gen6qlq3kmko8pvrfm32prs",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Schuss Mountain at Shanty Creek",
     "state": "Michigan",
     "region": "Midwest",
@@ -7323,7 +7323,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/sx4ymnc26fo4f2yccpjo03roba0x",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Brule",
     "state": "Michigan",
     "region": "Midwest",
@@ -7355,7 +7355,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ukt68wqaanb7do94tdpiiq8ftb2h",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snow Snake Ski & Golf",
     "state": "Michigan",
     "region": "Midwest",
@@ -7387,7 +7387,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3qhmyta0g5ybnlz4j2zarnh5an64",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Swiss Valley Ski and Snowboard Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -7421,7 +7421,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bdn939afob2baxxt6xc1of037qr5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Timber Ridge Ski Area",
     "state": "Michigan",
     "region": "Midwest",
@@ -7453,7 +7453,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/g60luxpxbs50kics7h7vgr5ialv6",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Treetops Resort",
     "state": "Michigan",
     "region": "Midwest",
@@ -7487,7 +7487,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/mcj5wdbzevgmmsb10zbmym9czueh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Gladstone Sports Park",
     "state": "Michigan",
     "region": "Midwest",
@@ -7519,7 +7519,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7qkb5lk8ujqntdt4ue449udm9h4r",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hanson Hills",
     "state": "Michigan",
     "region": "Midwest",
@@ -7551,7 +7551,7 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": "https://files.skimap.org/7h88lbhis21zajgesskpftmcr87w"
   },
-  {    
+  {
     "resortName": "Missaukee Ski Mountain",
     "state": "Michigan",
     "region": "Midwest",
@@ -7583,7 +7583,7 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": "https://files.skimap.org/d1xc8yv23seasphmifich49dp4mz"
   },
-  {    
+  {
     "resortName": "Afton Alps",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7619,7 +7619,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/i5zz8dx9boxcs5rq52ajve0gwouv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Andes Tower Hills",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7651,7 +7651,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/45d0pp13s4gxtod7483q135btgbm",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Buck Hill",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7687,7 +7687,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3hg884gt2z1nqfonm8680a1otz5n",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Buena Vista Ski Area",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7719,7 +7719,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/nre29zqhqeo3jhc5f4p2cql2xrtw",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Chester Bowl Park",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7753,7 +7753,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/g9z5ukqo267g4yu7f8eefodt7pmv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Coffee Mill Ski Area",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7785,7 +7785,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/l9l37wuaef0nl8b9czmlepqqwjir",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Detroit Mountain",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7819,7 +7819,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ncin4task9uidy6vhypj9lpmfl50",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Giants Ridge",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7851,7 +7851,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/uj2eppk0gkgk4pfxrg7wsrftwbq3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hyland Ski and Snowboard Area",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7893,7 +7893,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Elm Creek Winter Recreation Area",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7927,7 +7927,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/yh516720me0hfmei558z45k3hgdp",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Lutsen Mountains",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7961,7 +7961,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/otkbhpfglq3fcabcfym0oreu0tz2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Itasca",
     "state": "Minnesota",
     "region": "Midwest",
@@ -7993,7 +7993,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/jbxyf22ezvk6oymx7z3y5tc4332l",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Kato",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8029,7 +8029,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/j9uyxvaiy4mliikti86npojj43lf",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Powder Ridge",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8065,7 +8065,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/75u4ifuia9kahk1ilkey09djilxo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Gull",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8099,7 +8099,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7w60ld088qozbwjxbtegbi19vkjq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Spirit Mountain",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8135,7 +8135,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/wcs5cmp25qvamohvk1x4sgdysfdj",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Welch Village",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8169,7 +8169,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8eb6p3f9bv4n6faqpmdnxqbwj54v",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wild Mountain",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8203,7 +8203,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/uxokt6vqe12fmv2xizw7nhxmqc1e",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Canterbury Park",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8240,7 +8240,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Como Park",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8272,7 +8272,7 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": ""
   },
-  {    
+  {
     "resortName": "Steeplechase",
     "state": "Minnesota",
     "region": "Midwest",
@@ -8304,7 +8304,7 @@ var unitedStatesData = [
     "skiPass": [],
     "mapLink": "https://files.skimap.org/wgqsyng42j0y0agcb03lskg9cvuz"
   },
-  {    
+  {
     "resortName": "Hidden Valley Ski Area",
     "state": "Missouri",
     "region": "Midwest",
@@ -8338,7 +8338,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/wzgf4ibvuwr96c1ysuqgyscicus3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snow Creek",
     "state": "Missouri",
     "region": "Midwest",
@@ -8372,7 +8372,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lg4dcb14ox5k1y06rbb2srutco2n",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bottineau Winter Park",
     "state": "North Dakota",
     "region": "Midwest",
@@ -8404,7 +8404,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/w2xfbtej2uy56ciw2s0ne3y0r0rm",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Frost Fire",
     "state": "North Dakota",
     "region": "Midwest",
@@ -8436,7 +8436,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/sfmgfzp23pno32g2ossei4nnil4w",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Huff Hills",
     "state": "North Dakota",
     "region": "Midwest",
@@ -8468,7 +8468,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/y7j2g0ifqbeon7zte7kyc71r2siq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Thrill Hills",
     "state": "North Dakota",
     "region": "Midwest",
@@ -8500,7 +8500,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qy6zh9beun1tfioruryera25aaxw.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alpine Valley Ski Area",
     "state": "Ohio",
     "region": "Midwest",
@@ -8534,7 +8534,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3wbthxtngep02pn7u2nlaft590j2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Boston Mills/Brandywine Ski Resort",
     "state": "Ohio",
     "region": "Midwest",
@@ -8568,7 +8568,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/r3kvr87x5ww1gmxl1eav31o7wqik",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mad River Mountain",
     "state": "Ohio",
     "region": "Midwest",
@@ -8602,7 +8602,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/9lpjjguej7lb1003i0e8sqjpquu6",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snow Trails Ski Resort",
     "state": "Ohio",
     "region": "Midwest",
@@ -8634,7 +8634,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1bxcbzgw4pxuy9ewhmssgqywgzx6",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Creek Ski Area",
     "state": "Ohio",
     "region": "Midwest",
@@ -8666,7 +8666,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zu3gvd1dgxhh476pk5r70u65p3qa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Deer Mountain",
     "state": "South Dakota",
     "region": "Midwest",
@@ -8698,7 +8698,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ijkzn1mvxui8x6z8qekjhatjy0ky",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Great Bear",
     "state": "South Dakota",
     "region": "Midwest",
@@ -8732,7 +8732,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/n8pwq1mr83o2nrsc7n64i5g6gjjz",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Terry Peak",
     "state": "South Dakota",
     "region": "Midwest",
@@ -8766,7 +8766,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/tr7qdbwdnz4m8w7kcobb92rj7hr3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alpine Valley Resort",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8800,7 +8800,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/17yp84l5ug0b4cuoqeoqc176h7hl",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ausblick Ski Club",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8832,7 +8832,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/j621nu1emhy5drwscadfthyr271v",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Badlands Sno-Park",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8864,7 +8864,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/rbdfqlv2mg1lum42n3xv2c4b5cca",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Book Across the Bay",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8896,7 +8896,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bruce Mound Winter Sports Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8928,7 +8928,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zeo7f7c9kh9q4kjv38qnxof51m9p",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Camp 10",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8960,7 +8960,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bydgztsosefufztk2o99vfdmgr9d",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cascade Mountain",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8995,7 +8995,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/c5haa5ago1xwyh4jygvrl349zxpx",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Christie Mountain",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9029,7 +9029,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/9guijblumq49da4wbmutb25qfnq8",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Christmas Mountain Village",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9063,7 +9063,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/gcjetwdfma4z5ffbbr0g3kmbhy6q",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Crystal Ridge (The Rock Snowpark)",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9099,7 +9099,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/26otmlkx3o5gspje6kl3mhf8di8k",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Devils Head Resort",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9133,7 +9133,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zqnbdbs4mnsb87pmrhblwmlgc4be",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Fox Hill Ski Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9165,7 +9165,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Granite Peak",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9201,7 +9201,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1pa834ksq4d17uwkgcg2tho4amy0",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Heiliger Huegel Ski Club",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9233,7 +9233,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Kettlebowl",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9265,7 +9265,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Kewaunee County Winter Park Ski Hill",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9297,7 +9297,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ves69snbtytm5vhq23ktsj405t9f",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Keyes Peak",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9329,7 +9329,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Little Switzerland Ski Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9365,7 +9365,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hcz0e6l4r1mvc6vfu28ulkqc0e6u",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mont Du Lac",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9399,7 +9399,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/fqidmdnzrhbtfadim9qbry39s2vi",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "The Mountain Top at Grand Geneva Resort",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9433,7 +9433,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ap522r02u78zqooa8360p598u7kd",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. Ashwabay",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9467,7 +9467,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/kxkzhmgtx72w7xoz08za7id3sd7y",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. LaCrosse",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9499,7 +9499,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vg4ywy85ysc0mqaush3ebadocajr",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Navarino Slopes",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9531,7 +9531,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/kvttlmm7pjtgfuob51w84g2n86mo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Nordic Mountain",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9567,7 +9567,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/61jyrjoh2r68tqu24j6zog6s5cjk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Nutt Hill",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9599,7 +9599,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Powers Bluff",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9631,7 +9631,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/v6c7xjudcgw3h1ljwfnaxh4gec52",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Standing Rocks",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9663,7 +9663,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vevr568fxtvmsn4g8x7otag677kc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sunburst Ski Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9698,7 +9698,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lhf0wyhz1p8f4hblzth66xw6zm23",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Triangle Sports Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9730,7 +9730,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Trollhaugen",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9769,7 +9769,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/g8988fu80ypx1sydm18ug4jbnfg7",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Tyrol Basin",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9805,7 +9805,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/67dbe6x73uigqg4opslwb4w10oap",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Whitecap Mountains",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9839,7 +9839,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3g7aaofah0v92jvuh7il53sx3qy2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Whitetail Ridge",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9871,7 +9871,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8dpwsd58t5959f984m2lq46xx38y",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wilmot Mountain",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9907,7 +9907,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/52by1858dr2zwlav0rbyoowf3c1r",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pinehurst",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9939,7 +9939,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/tcls0aaht2qul68suaazstrpss3b",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Paul Bunyan Ski Hill",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -9971,7 +9971,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/x1kha772v6vpq0v164q5qycgofme.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Arizona Snowbowl",
     "state": "Arizona",
     "region": "Rocky Mountains",
@@ -10012,7 +10012,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Lemmon Ski Valley",
     "state": "Arizona",
     "region": "Rocky Mountains",
@@ -10047,7 +10047,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1wj6lu4b54a8l4p8ivlq0kemi7z6",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sunrise Park Resort",
     "state": "Arizona",
     "region": "Rocky Mountains",
@@ -10085,12 +10085,17 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ynzkum2ikclhzf72pc5f3fb1ly2h",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Arapahoe Basin",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "4DLzPcRQyEw",
+      "h1yA7tgMrF0",
+      "8zij684ZbFQ",
+      "A-LNlJeOC6M",
+      "es-W0tUL_ww",
       "h3s99fjBOsQ",
       "uVJD5ugoG-w",
       "gOUrWW4DhvE",
@@ -10355,7 +10360,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ssbqg9v1uqi9pev5yokbf4wej4y2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Aspen/Snowmass",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -10392,7 +10397,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ekpgg5bzlre6di6wan7xv3ehz277",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Aspen Highlands",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -10429,7 +10434,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/uibnpbo31v76qb3qyb06gtuv5goe",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Aspen Mountain",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -10466,7 +10471,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/oofv5w41bx2ms2p0q6khtztn9pba",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Buttermilk",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -10503,7 +10508,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3b4kq73ds6nn6f0dc2odru4p4wfo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Beaver Creek Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -10565,7 +10570,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/alinyu8a5en401qrzy1ciburlpar",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Breckenridge Ski Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -10774,7 +10779,7 @@ var unitedStatesData = [
       }
     ]
   },
-  {    
+  {
     "resortName": "Chapman Hill Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -10808,12 +10813,13 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/efuz5zg6dxxgsr7o5u5xsm2aag0c",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Copper Mountain Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "ZPrnVh2xkCY",
       "RBnsyQYs0q8",
       "iKVyroAJqho",
       "DLNE6QgWaOE",
@@ -11049,7 +11055,7 @@ var unitedStatesData = [
       }
     ]
   },
-  {    
+  {
     "resortName": "Cranor Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -11084,7 +11090,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/u200gy5a4i6ecm2t16uyxln04kqr",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Crested Butte Mountain Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -11122,7 +11128,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lm7b8hebgjkufhc7kyrpnpce4lk3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Echo Mountain Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -11158,7 +11164,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/f9xkjn4ey8wzq2e1tb0jqogow80k",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Eldora Mountain Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -11236,7 +11242,7 @@ var unitedStatesData = [
   //   "mapLink": "https://files.skimap.org/icvb1g80y3t4w2q4zgm5nmhsmj7k",
   //   "country": "United States"
   // },
-  {    
+  {
     "resortName": "Howelsen Hill Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -11272,7 +11278,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/oeyi41if3udmqj30b3ybcnwpx4rh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Kendall Mountain Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -11306,12 +11312,35 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/p9czucnwfcwz8m67puaipwek1vhk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Keystone Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "O8y3CZrXvNg",
+      "q6GOApHM6QM",
+      "5Y4tbMy_iqw",
+      "j3lW2pRrahk",
+      "WnF7m_n2snM",
+      "qhX-JMEhcwY",
+      "Onqj8DKfAhg",
+      "R3XDQvOAY04",
+      "YK9TLl8ULss",
+      "rmoPviL1Gls",
+      "adjA5Zvx8Gw",
+      "ktr3LhGRURM",
+      "3MXslONj0II",
+      "maNyV2mOL2Y",
+      "fDA3EdDEGxU",
+      "iNJyV_Hdcgg",
+      "zfKXx6d1ves",
+      "j6EV-U1jOFU",
+      "-7FzasDckFw",
+      "Dr73VNwndbQ",
+      "k4UJXEo1MSw",
+      "AfRQGhYqwFA",
+      "bzgBzw1iczk",
       "1RDoOteQNNY",
       "2mp1tHagCT4",
       "2ytV5AdfV_g",
@@ -12001,7 +12030,7 @@ var unitedStatesData = [
       },
     ]
   },
-  {    
+  {
     "resortName": "Lake City Ski Hill",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12035,12 +12064,14 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/51o28jna8xa5gqquz0m0zz4sdm01",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Loveland Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Georgetown",
     "videos": [
+      "SfWccZRJZj4",
+      "UduOaU4t_Oc",
       "wkIKvR86gbA",
       "JmT7YT3PnLk",
       "9rZ_ICt7Zek",
@@ -12084,7 +12115,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/p7zelu5ucf10m1t23dbqni9gnugl",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Monarch Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12123,7 +12154,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/sxqjctzznwbsi6g7qa3tlm7qan51",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Powderhorn Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12163,7 +12194,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Purgatory Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12197,7 +12228,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/erscsof5rr7nive69tpvk6znx3mu",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Lee's Ski Hill",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12232,12 +12263,15 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cyxybvn545ixdth8ny1nmtl6w5xl",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Silverton Mountain",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Silverton",
     "videos": [
+      "ccjilPfXwmw",
+      "cBRqwyXSYXU",
+      "xhgPlHqP8zk",
       "LyRBt-VxH84",
       "GWcY_Okh4vg",
       "pV5c48_xxgo",
@@ -12282,7 +12316,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vktbkfx7997pwggj7b0jgn5fr4z7",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Cooper",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12319,12 +12353,13 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/gzapzmksri0g0tktc8n7mrk04fxl",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Granby Ranch",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Granby",
     "videos": [
+      "6iA4h93qs6c",
       "D8hXn--T8nk"
     ],
     "position": {
@@ -12355,12 +12390,14 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/r1qil04idakpqcu3mmm2r2fsguyb",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Steamboat Ski Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Steamboat Springs",
     "videos": [
+      "dqIU4Z89Kq0",
+      "rE3TfBC_GAY",
       "X5sKDhRuzRM",
       "m_Ad0BQQioo",
       "-7l5W4wCMX4",
@@ -12412,7 +12449,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hcwl603vfy9z1073zh8xc4mhq7cs",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Steamboat Powder Cats",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12447,7 +12484,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sunlight Ski Area",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12483,7 +12520,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ybrl8z0ar6npzapftitofcx7e0jo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Telluride Ski Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12528,7 +12565,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Vail Ski Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12582,7 +12619,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/gsb05jccxp5qj5mnlrgjrsptqmp2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Winter Park Resort",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12653,7 +12690,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wolf Creek ski area",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12699,13 +12736,14 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1a8i8ci70yybfxrtn7cwa1zy5kpj",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Loveland Pass",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Georgetown",
     "officialSkiResort": false,
     "videos": [
+      "IRDLfL6p4D0",
       "jVEvxzMgeW8",
       "HZNFdFMqN6U",
       "MwYdjlOEsZ8",
@@ -12770,7 +12808,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "St. Mary's Glacier",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12809,7 +12847,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/pwqnc4za8wtrhx63re5z1jphpg9v",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Farm in Colorado Springs",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12843,7 +12881,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Colorado Mountain College Rail Jam",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12879,7 +12917,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hoosier Pass",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -12913,13 +12951,16 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/koipuawpbu3cg2r39vtbbvql8nvq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Backyard Parks in Summit County",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Summit County",
     "officialSkiResort": false,
     "videos": [
+      "ytU8PODbeoY",
+      "tC3GCBdI-ZE",
+      "j-IG0cLM16g",
       "IQoDbCMZ3Hg",
       "IMk62W2S7JA",
       "klQLl6VKatk",
@@ -13024,7 +13065,7 @@ var unitedStatesData = [
     "mapLink": "https://pbs.twimg.com/media/FGivCwtUcAY2FtD?format=png&name=medium",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ruby Hill / Denver",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13060,7 +13101,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Frisco Adventure Park",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13103,7 +13144,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Buffalo Mountain",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13138,13 +13179,14 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Vail Pass",
     "state": "Colorado",
     "region": "Rocky Mountains",
     "city": "Silverthorne",
     "officialSkiResort": false,
     "videos": [
+      "GGR6MnCnvb0",
       "lc38OlmTaRA",
       "ANANY6OTdmM",
       "G6vExCJKK18",
@@ -13181,7 +13223,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bluebird Backcountry",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13215,7 +13257,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/50ldcs7vsewjk53wighviqfclaha",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Great Sand Dunes",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13250,7 +13292,7 @@ var unitedStatesData = [
     "mapLink": "https://www.nps.gov/grsa/planyourvisit/images/great-sand-dunes-npp-map.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Monarch Pass",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13284,7 +13326,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hoedown Hill",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13293,6 +13335,7 @@ var unitedStatesData = [
     "id": "16630",
     "website": "",
     "videos": [
+      "i-EM8bDvvgo",
       "9_v37esJNgM",
       "gDTkcRsqXyY",
       "AMXw-FQ7QcE",
@@ -13321,7 +13364,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/f1mv6ldfdcevptbs6jtfrexmyh9q.png",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Wolf Creek Pass",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13355,7 +13398,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cuchara Mountain Park",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13389,7 +13432,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vkytzzw5kdv19cvm8gyovbt8kqgx.webp",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Peak 1",
     "state": "Colorado",
     "region": "Rocky Mountains",
@@ -13423,7 +13466,7 @@ var unitedStatesData = [
     "mapLink": "https://upload.wikimedia.org/wikipedia/commons/4/45/Peak_1_in_Colorado.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bald Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13455,7 +13498,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/61pwu1ps3blpd7474v23tfmmxbxl",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bogus Basin",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13493,7 +13536,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/s1dpn661divqwbyfgn1s5ksnwftw",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Brundage Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13527,7 +13570,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/w3kz4rucjoajjhv55goo50k5njb3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cottonwood Butte",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13559,7 +13602,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/h26c8v7o9efagmtibdri8dyguc54",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Kelly Canyon",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13593,7 +13636,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ea0na23mhigvhaayvxau3fk1j4tk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Little Ski Hill",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13625,7 +13668,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/v97brja2wk2kg516xra8d7kcv4cm",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Lookout Pass",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13657,7 +13700,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/by7pats5j6m81yj9yo9295xyb2l0",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Magic Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13689,7 +13732,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/x4vi68jhy6dias2aa0xufi03hd1a",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pebble Creek",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13721,7 +13764,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/skfi9s98hg1jux3xw047vfol5xr2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pomerelle",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13761,7 +13804,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Rotarun",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13793,7 +13836,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/499b1ednylc0okwyepde8c2o2z6s",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Schweitzer Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13827,7 +13870,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/nyp9lh3i7bfopngwk2ypz08a4u6t",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Silver Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13862,7 +13905,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/k50v672vp4ibpba08wtnw0jgq4ru",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snowhaven",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13894,7 +13937,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/o7lh3ocljsd6j6y3shq6pu955l4o",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Soldier Mountain",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13928,7 +13971,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/anmxcvy3x2qa3jsyngl1gau6rxj1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sun Valley",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13963,7 +14006,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/o50bnd3v6mav6jthbgnxgcfxbei1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Tamarack",
     "state": "Idaho",
     "region": "Rocky Mountains",
@@ -13997,7 +14040,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/c1g8x4n5s9jcjon56x9e59ch3tiy",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bear Paw Ski Bowl",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14029,7 +14072,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5q8azq39lsrfhgyso6y0caiwtbod",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Sky",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14078,7 +14121,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Blacktail Mountain",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14112,7 +14155,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cx5x83t911411cb2cxl9ug20q7fg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bridger Bowl",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14144,7 +14187,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1gm0337ukx812o0q3hbxghiux3f1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Discovery",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14176,7 +14219,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/6xg4z0uisa91kxihjl04saxcvgnf",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Great Divide",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14208,7 +14251,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/11q4a4haeytnags5547642taxyeo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Lost Trail Powder Mountain",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14242,7 +14285,7 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/4378/221/1480628055.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Maverick Mountain",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14274,7 +14317,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cy7qhpy9z1yxahsmjbq5f4c52ekz",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Montana Snowbowl",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14306,7 +14349,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/a56lmc4da89mntlbaxm25405m215",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Moonlight Basin",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14338,7 +14381,7 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/373/7/1320030351.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Red Lodge Mountain",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14372,7 +14415,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qnd3124pdz7p9q0q05qtxqcaf8t3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Showdown",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14404,7 +14447,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/km3pgde7e1uob9xorwzne54qujr1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Teton Pass",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14436,7 +14479,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ntagjvixnnzfh70o2dd9gi0uh5ij",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Turner Mountain",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14468,7 +14511,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/klq0e1i9a0juckbcecmpetvw6498",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Whitefish Mountain Resort",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14500,7 +14543,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/2czcdlnve8hpqjsd862c6hzx7sab",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Yellowstone Club",
     "state": "Montana",
     "region": "Rocky Mountains",
@@ -14532,7 +14575,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/mt9mvynlshvgsqdc7lx2xhri6ox4",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Angel Fire Resort",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14568,7 +14611,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ih6vj8wuwca413dli5i21ohfad6j",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pajarito Mountain",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14602,7 +14645,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/wn8qj9xj0d5783yqr045tq1irgny",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Red River Ski Area",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14636,7 +14679,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/53osc84tvfefr5oy6ryg4czi3b4m",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sandia Peak",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14670,7 +14713,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/v1yvb7tdks7klfvvd2hh0mjtci90",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sipapu",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14704,7 +14747,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hk71i0okm9b24j67jb509locxux3",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Apache",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14739,7 +14782,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/h2z2wpufnlscfa1fsohiorpf1juh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Cloudcroft",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14773,7 +14816,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/rqrdar0vszafftrwl0p9yru3e4nq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Santa Fe",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14808,7 +14851,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/d9j12e42tc1qe15pp16ykdo73uzv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Taos Ski Valley",
     "state": "New Mexico",
     "region": "Rocky Mountains",
@@ -14845,7 +14888,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ruzyw0ql2dq0swycq3308hk0o8e1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alta",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -14881,7 +14924,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lj9ifnjp4k0d258r9qy9rhwf5agt",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Beaver Mountain",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -14915,7 +14958,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/r9mbg0oze97z1p5lu2xd7pv25ooa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Brian Head",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -14947,7 +14990,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/axa4ky4vb2ns19q2oe2hry3ke4kt",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Brighton",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -14997,7 +15040,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cherry Peak Resort",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15029,7 +15072,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ocy1570i3rktyg404icro3z2ja3l",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Deer Valley",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15064,7 +15107,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/wir117kj9wyoc1ozrvbdcnldgn0b",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Eagle Point Ski Resort",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15098,7 +15141,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/sk0jiy6xpifo47sspkqlgkh3eixk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Nordic Valley",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15130,7 +15173,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/6su5o8ionwnu8t454k00s5rcwq5e",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Park City Mountain Resort",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15174,7 +15217,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7qnj3h7krcyjgnetal1y4ho3srdf",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Woodward Park City",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15208,7 +15251,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/j4cljndieiz6ry0n6g5fpr4c9l9l",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Powder Mountain",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15245,7 +15288,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3f4fzsu96e4cxqp78my3mkt2d8wg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snowbasin",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15282,7 +15325,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/edvbcwkajk2wrgx0dankispitp9f",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snowbird",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15320,7 +15363,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/fuw5tymp5n0o0flc7kbea62jylks",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Solitude",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15370,7 +15413,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sundance",
     "state": "Utah",
     "region": "Rocky Mountains",
@@ -15402,7 +15445,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/1j84kgoyes5advtswhi7ix8kd9wb",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Big Horn (Meadowlark)",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15436,7 +15479,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3hjr46hf01rqleqzjsg6d7xqd67r",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Grand Targhee",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15476,7 +15519,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hogadon",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15508,7 +15551,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lcyeyt45cw4m2ndquadbtpdw30pw",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Jackson Hole",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15552,7 +15595,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Pine Creek",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15584,7 +15627,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/axld7jeehwnoe0ih8zx4dd641oz6",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sleeping Giant Ski Resort",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15616,7 +15659,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qlw1c49tmi8yndqa5w854oiw5y17",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snow King Mountain",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15656,7 +15699,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snowy Range",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15690,7 +15733,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cladxiq3gkuhsogsf61b1ttqwp6j",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "White Pine",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15724,7 +15767,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/3lp2jrej5wwgff6bn6ibu38sgy8n",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Beartooth Basin",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15761,7 +15804,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/lgn3yp0dfbpez0univdptx71x0zk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Antelope Butte",
     "state": "Wyoming",
     "region": "Rocky Mountains",
@@ -15795,7 +15838,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/gqnpuejbruuu2k0ggggmgknmoet5",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Arctic Valley",
     "state": "Alaska",
     "region": "West Coast",
@@ -15831,7 +15874,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/w7bi9w7ync8qg4e0hhyysizsc5do",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alyeska",
     "state": "Alaska",
     "region": "West Coast",
@@ -15875,7 +15918,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/t0o1wcyx98vqhxhyqhhm4hmhxtj1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Eaglecrest",
     "state": "Alaska",
     "region": "West Coast",
@@ -15910,7 +15953,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/esh5gsq63nk38ciigua5olm9gm3g",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hilltop",
     "state": "Alaska",
     "region": "West Coast",
@@ -15942,7 +15985,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7giks71xosp9y3ag8oyzn8l9c9my",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Majestic Heli Ski",
     "state": "Alaska",
     "region": "West Coast",
@@ -15975,7 +16018,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/d35zsv09em4g0kedzwtpno55o7jv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Moose Mountain",
     "state": "Alaska",
     "region": "West Coast",
@@ -16007,7 +16050,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/p77vw0jv9ua6o79nevfw8h4f1kl1",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Eyak",
     "state": "Alaska",
     "region": "West Coast",
@@ -16039,7 +16082,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/p3rvnrfoaam8296809qx4p51afxv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Skiland",
     "state": "Alaska",
     "region": "West Coast",
@@ -16071,7 +16114,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/axk09ycesffhbpgey49ohbfrpvpa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Skeetawk",
     "state": "Alaska",
     "region": "West Coast",
@@ -16105,12 +16148,13 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/wci1gnltpfuju5lqploju7yf2rvt",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Chugach Powder Guides",
     "state": "Alaska",
     "region": "West Coast",
     "city": "Girdwood",
     "videos": [
+      "2c3_V5vsBHw",
       "87R3Jq-bsUo",
       "ePiVb81woQs",
       "8bzZdAVtvuM"
@@ -16142,7 +16186,7 @@ var unitedStatesData = [
     "mapLink": "https://www.chugachpowderguides.com/wp-content/uploads/2022/05/hero-experince.png",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Bowl Road (Near Arctic Valley)",
     "state": "Alaska",
     "region": "West Coast",
@@ -16176,7 +16220,7 @@ var unitedStatesData = [
     "mapLink": "",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alpine Meadows",
     "state": "California",
     "region": "West Coast",
@@ -16208,7 +16252,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/v2iakaiyf1hl9gc40erbtc58e0po",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alta Sierra",
     "state": "California",
     "region": "West Coast",
@@ -16240,7 +16284,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/78386xxn2ji89n8n8xq6z361pkc4",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Badger Pass",
     "state": "California",
     "region": "West Coast",
@@ -16272,7 +16316,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8pxldcv38t3qf9hcdfchj3ltncly",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bear Mountain",
     "state": "California",
     "region": "West Coast",
@@ -16309,7 +16353,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/afy08amb1vb13kaqnciohkb5hqaw",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Bear Valley",
     "state": "California",
     "region": "West Coast",
@@ -16341,7 +16385,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/9my5l7w42hq7ydl9cf5smze7kbtz",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Boreal Mountain",
     "state": "California",
     "region": "West Coast",
@@ -16373,7 +16417,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/yvlydbr4uu82l1ablnal2n2yc560",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Buckhorn Ski Club",
     "state": "California",
     "region": "West Coast",
@@ -16405,7 +16449,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/69il7d14lw8po753yn92etmdltmb",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "China Peak",
     "state": "California",
     "region": "West Coast",
@@ -16440,7 +16484,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/g99akwohrgmphnuc3whczbja4j4n",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Dodge Ridge",
     "state": "California",
     "region": "West Coast",
@@ -16475,7 +16519,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/njbct5nu4kf50p410vhsvbdtaq3e",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Donner Ski Ranch",
     "state": "California",
     "region": "West Coast",
@@ -16507,7 +16551,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ucm6xjl84zie6gvtklr66pp6m0pp",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Granlibakken",
     "state": "California",
     "region": "West Coast",
@@ -16539,7 +16583,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/k6uaoa35a4etafb0oai10dbia231",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Heavenly Mountain",
     "state": "California",
     "region": "West Coast",
@@ -16583,7 +16627,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8qv7307p1bhcxcb00vyxg8aufqqg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Homewood Mountain",
     "state": "California",
     "region": "West Coast",
@@ -16615,7 +16659,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/7fx86c2s7inh25ozfy589qvatoop",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "June Mountain",
     "state": "California",
     "region": "West Coast",
@@ -16649,7 +16693,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0s9xe9gzyuqezmm0hptcg24et513",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Kirkwood Mountain",
     "state": "California",
     "region": "West Coast",
@@ -16694,7 +16738,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0odboxq4jmmtrk0kj4mnc01r8ibs",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mammoth Mountain",
     "state": "California",
     "region": "West Coast",
@@ -16761,7 +16805,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/t3jc6dqfvm4u4dxw4krsqhdnm8no",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Baldy Ski Lifts",
     "state": "California",
     "region": "West Coast",
@@ -16793,7 +16837,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/11qhnsjll5yw0kqjxfxxe4dvtnja",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Shasta Ski Park",
     "state": "California",
     "region": "West Coast",
@@ -16827,7 +16871,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cqds7m7otaqnrao5j0xdyyzo9nyg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Waterman",
     "state": "California",
     "region": "West Coast",
@@ -16859,7 +16903,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/sylz15qv238659xksppmpvyqjohr",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mountain High",
     "state": "California",
     "region": "West Coast",
@@ -16896,7 +16940,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/igfv4qnek2vvowvl5tqqysokqpk3.png",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Northstar California",
     "state": "California",
     "region": "West Coast",
@@ -16942,7 +16986,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/0r4uqwbeuyxlj70v2tx1xzh00d3s",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sierra at Tahoe",
     "state": "California",
     "region": "West Coast",
@@ -16976,7 +17020,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/03cvjultidq5v5czbycynht8v34o",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snow Summit",
     "state": "California",
     "region": "West Coast",
@@ -17010,7 +17054,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/yjgh28cfisbwzibz92ay9koartaa.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Snow Valley",
     "state": "California",
     "region": "West Coast",
@@ -17044,7 +17088,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/x6h74ye0jq8wu71mjr3qblyyw1p4",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Soda Springs",
     "state": "California",
     "region": "West Coast",
@@ -17076,7 +17120,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bsp28wj1ia4vwxgqvxk2blku3wkd",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Palisades Tahoe",
     "state": "California",
     "region": "West Coast",
@@ -17112,7 +17156,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zz6hjm4zcsa2b4liqzkrlrwo4y1a",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sugar Bowl",
     "state": "California",
     "region": "West Coast",
@@ -17146,7 +17190,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/5qwpux4496mv7fnvznp1ms98jll2",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Tahoe Donner Downhill",
     "state": "California",
     "region": "West Coast",
@@ -17178,7 +17222,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/25mvtx7vh8widn6gg7d1j3zp0sbg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Coppervale Ski Hill",
     "state": "California",
     "region": "West Coast",
@@ -17210,7 +17254,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/73u6kiafi1av0jv8ia31cwopptpt",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Diamond Peak",
     "state": "Nevada",
     "region": "West Coast",
@@ -17242,7 +17286,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/9bwg2f5tgfjpantyp8xaqgu1ip62",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Las Vegas Ski and Snowboard Resort (Lee Canyon)",
     "state": "Nevada",
     "region": "West Coast",
@@ -17278,7 +17322,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/gmhw3n5tcovftxuu6dmvxpcgxgfj",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Rose",
     "state": "Nevada",
     "region": "West Coast",
@@ -17310,7 +17354,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/jjyyndm80jhxhwlzi8e4c4dt2cql",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sky Tavern Ski Area",
     "state": "Nevada",
     "region": "West Coast",
@@ -17342,7 +17386,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/q6kjjz5bdfn90yk8bgfrgrgm7d2d",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Elko Snobowl Ski and Bike Park",
     "state": "Nevada",
     "region": "West Coast",
@@ -17374,7 +17418,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/avxrc4m6my6usr6931rcppnwp7aa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Anthony Lakes",
     "state": "Oregon",
     "region": "West Coast",
@@ -17406,7 +17450,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/6kqmfkr8h6uzqrl7esbvgyngua2x",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Cooper Spur",
     "state": "Oregon",
     "region": "West Coast",
@@ -17438,7 +17482,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4lnfj7dcf3ed9mxsk8zmhkd8fxw0",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ferguson Ridge",
     "state": "Oregon",
     "region": "West Coast",
@@ -17470,7 +17514,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/cv5f8kt4fw557gnvqwehwgj1eejq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hoodoo",
     "state": "Oregon",
     "region": "West Coast",
@@ -17504,7 +17548,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8oowpla0i28eyayd1gz0aukux3sa",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Ashland",
     "state": "Oregon",
     "region": "West Coast",
@@ -17538,7 +17582,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/b6pg0zjslkfnvhl9g4j1uxzlgovo",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Bachelor",
     "state": "Oregon",
     "region": "West Coast",
@@ -17572,7 +17616,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/yyjnrsk5pxkb3vmba7x6ahzlw9ke",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Hood Meadows",
     "state": "Oregon",
     "region": "West Coast",
@@ -17608,7 +17652,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/fcz500xynvyijo7w1rh47w3ojhtk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Hood Skibowl",
     "state": "Oregon",
     "region": "West Coast",
@@ -17642,7 +17686,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/zhqi4xyk9wvefc83p61yaan0dzeh",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Spout Springs",
     "state": "Oregon",
     "region": "West Coast",
@@ -17674,7 +17718,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8u8h9nwn74efj84pxt862p57k94p",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Timberline Lodge",
     "state": "Oregon",
     "region": "West Coast",
@@ -17806,7 +17850,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/50y3pz3s2021eumlccy6vrggzw09",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Warner Canyon",
     "state": "Oregon",
     "region": "West Coast",
@@ -17838,7 +17882,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/43e6vrqa2ejarqidpqitd68ioxkk",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Willamette Pass",
     "state": "Oregon",
     "region": "West Coast",
@@ -17870,7 +17914,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/hfx8aoqxebrv43uayexmogogwe0o",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "49 Degrees North",
     "state": "Washington",
     "region": "West Coast",
@@ -17904,7 +17948,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/yxxstbf4dvo2vmp8k4dmqe7h7xzw",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Badger Mountain",
     "state": "Washington",
     "region": "West Coast",
@@ -17936,7 +17980,7 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/187/1923/1582688238.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Crystal Mountain",
     "state": "Washington",
     "region": "West Coast",
@@ -17972,7 +18016,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/dhqkq1anzzqwqvbdsz3mnwckv9an",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Echo Valley",
     "state": "Washington",
     "region": "West Coast",
@@ -18004,7 +18048,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/iv2b21or7sjpo042nwji8epk7lrb",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Hurricane Ridge",
     "state": "Washington",
     "region": "West Coast",
@@ -18038,7 +18082,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/sm05lidxbauypq19ksi50w1dhgtw",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Leavenworth Ski Hill",
     "state": "Washington",
     "region": "West Coast",
@@ -18070,7 +18114,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/budioli17kz0zsouosevkfmdah2r",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Loup Loup Ski Bowl",
     "state": "Washington",
     "region": "West Coast",
@@ -18102,7 +18146,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/8tzutaty7poo9zrdfm9vzch0s2zf",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Meany Lodge",
     "state": "Washington",
     "region": "West Coast",
@@ -18134,7 +18178,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/pcx9fwcaveoa2wf1zjg5gyhdlv2t",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mission Ridge",
     "state": "Washington",
     "region": "West Coast",
@@ -18169,7 +18213,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/vny6nhn9wwf3z5ztoskoovmitopn",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mt. Baker",
     "state": "Washington",
     "region": "West Coast",
@@ -18201,7 +18245,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/s68yj6loaw33in9xty36o10ydmda",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Mount Spokane",
     "state": "Washington",
     "region": "West Coast",
@@ -18233,7 +18277,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/d37wttz8s7n1i6uo558whdx67y61",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sahalie Ski Club",
     "state": "Washington",
     "region": "West Coast",
@@ -18265,7 +18309,7 @@ var unitedStatesData = [
     "mapLink": "https://skimap.org/data/3325/4196/1636821670.jpg",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Sitzmark Lifts",
     "state": "Washington",
     "region": "West Coast",
@@ -18297,7 +18341,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/mukf95uj7kfyb90b925mzudivquv",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Ski Bluewood",
     "state": "Washington",
     "region": "West Coast",
@@ -18331,7 +18375,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/tew11jingq2f3wqh18bzwobv1n3j",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Stevens Pass",
     "state": "Washington",
     "region": "West Coast",
@@ -18365,7 +18409,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/jeu0ganhlpwdqxluxiqmlxlwhnbc",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "The Summit at Snoqualmie (Summit Central, East and West)",
     "state": "Washington",
     "region": "West Coast",
@@ -18411,7 +18455,7 @@ var unitedStatesData = [
     ],
     "country": "United States"
   },
-  {    
+  {
     "resortName": "Alpental",
     "state": "Washington",
     "region": "West Coast",
@@ -18455,7 +18499,7 @@ var unitedStatesData = [
       }
     ]
   },
-  {    
+  {
     "resortName": "White Pass",
     "state": "Washington",
     "region": "West Coast",
@@ -18490,7 +18534,7 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/qc96cdn349iffee4pyop1er94kiq",
     "country": "United States"
   },
-  {    
+  {
     "resortName": "McChord Skatepark",
     "state": "Washington",
     "region": "West Coast",
@@ -18593,7 +18637,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-        "Epic"
+      "Epic"
     ],
     "mapLink": "https://files.skimap.org/v2wm4pmjapr6otom3o1sgqk4stia"
   },
@@ -18670,8 +18714,8 @@ var unitedStatesData = [
       "J2sD24bmGeE",
     ],
     "position": {
-        "lat": 66.16723776259131,
-        "lng": 29.14117500185967
+      "lat": 66.16723776259131,
+      "lng": 29.14117500185967
     },
     "officialSkiResort": false,
     "international": true,
@@ -18702,20 +18746,20 @@ var unitedStatesData = [
     "country": "Italy",
     "city": "",
     "videos": [
-        "q4CPHopVZhs"
+      "q4CPHopVZhs"
     ],
     "position": {
-        "lat": 46.26193,
-        "lng": 11.800518
+      "lat": 46.26193,
+      "lng": 11.800518
     },
     "officialSkiResort": true,
     "international": true,
     "id": "2082",
     "website": "http://www.sanmartino.com/",
     "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
+      "score": "",
+      "link": "",
+      "note": ""
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/3vj6um0g4mo8pjf86sqfkzbo8l3m"
@@ -18734,31 +18778,31 @@ var unitedStatesData = [
       "0j74Wnuj8_4"
     ],
     "position": {
-        "lat": 50.961585282842,
-        "lng": -118.1256089504
+      "lat": 50.961585282842,
+      "lng": -118.1256089504
     },
     "officialSkiResort": true,
     "international": true,
     "id": "32",
     "website": "http://www.revelstokemountainresort.com",
     "resortReview": {
-        "score": "",
-        "link": "",
-        "note": "",
-        "price": "",
-        "easeOfAccess": "",
-        "lodging": "",
-        "chairLifts": "",
-        "runs": "",
-        "terrainPark": "",
-        "food": "",
-        "employees": "",
-        "views": "",
-        "wouldIGoBack": ""
+      "score": "",
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
     },
     "skiPass": [
-        "Ikon",
-        "Mountain Collective"
+      "Ikon",
+      "Mountain Collective"
     ],
     "mapLink": "https://files.skimap.org/98wexhg0pqt2tj9p58aa7kfu9e0b",
     "webcam": [],
@@ -18795,19 +18839,86 @@ var unitedStatesData = [
       "PPLsnEbOImU"
     ],
     "position": {
-        "lat": 46.6974957568317,
-        "lng": 12.35646888613701
+      "lat": 46.6974957568317,
+      "lng": 12.35646888613701
     },
     "officialSkiResort": true,
     "international": true,
     "id": "2067",
     "website": "https://www.dreizinnen.com/",
     "resortReview": {
-        "score": "",
-        "link": "",
-        "note": ""
+      "score": "",
+      "link": "",
+      "note": ""
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/is6mg48kj8or93xzttooth6w3mam"
-},
+  },
+  {
+    "resortName": "Boldface Valhalla Powder Ski Cats",
+    "state": "",
+    "region": "Canada",
+    "country": "Canada",
+    "city": "",
+    "videos": [
+      "ZY6km_SpaiU",
+    ],
+    "position": {
+      "lat": 49.54152768643655,
+      "lng": -117.64937849190015
+    },
+    "officialSkiResort": false,
+    "international": true,
+    "snowcatOnly": true,
+    "id": "",
+    "website": "https://baldface.com/valhalla-frontier/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": ""
+    },
+    "skiPass": [],
+    "mapLink": ""
+  },
+  {
+    "resortName": "Red Mountain Resort",
+    "state": "British Columbia",
+    "region": "British Columbia",
+    "country": "Canada",
+    "city": "",
+    "videos": [
+      "oLRJf0NXy9w",
+      "OQ-7wvMLx3M",
+      "PGBOjwVkJyE",
+      "bK9qz8uN8Os"
+    ],
+    "position": {
+      "lat": 49.101448269987,
+      "lng": -117.84124279161
+    },
+    "officialSkiResort": true,
+    "international": true,
+    "id": "41",
+    "website": "http://www.redresort.com",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [
+      "Ikon"
+    ],
+    "mapLink": "https://files.skimap.org/4kfio9enz1mv7spci4ys7sqjhshc",
+    "webcam": []
+  },
 ];

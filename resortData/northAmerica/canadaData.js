@@ -1211,7 +1211,12 @@ var canadaData = [
         "region": "British Columbia",
         "country": "Canada",
         "city": "",
-        "videos": [],
+        "videos": [
+            "oLRJf0NXy9w",
+            "OQ-7wvMLx3M",
+            "PGBOjwVkJyE",
+            "bK9qz8uN8Os"
+        ],
         "position": {
             "lat": 49.101448269987,
             "lng": -117.84124279161
@@ -8062,5 +8067,31 @@ var canadaData = [
         "skiPass": [],
         "mapLink": "https://files.skimap.org/xnzdjr53usdzmz7uxxvfp72dl1cx",
         "webcam": []
-    }
+    },
+    {
+        "resortName": "Boldface Valhalla Powder Ski Cats",
+        "state": "",
+        "region": "Canada",
+        "country": "Canada",
+        "city": "",
+        "videos": [
+            "ZY6km_SpaiU",
+        ],
+        "position": {
+            "lat": 49.54152768643655,
+            "lng": -117.64937849190015
+        },
+        "officialSkiResort": false,
+        "international": true,
+        "snowcatOnly": true,
+        "id": "",
+        "website": "https://baldface.com/valhalla-frontier/",
+        "resortReview": {
+            "score": "",
+            "link": "",
+            "note": ""
+        },
+        "skiPass": [],
+        "mapLink": ""
+  }
 ];

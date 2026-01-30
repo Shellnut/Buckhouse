@@ -18251,7 +18251,7 @@ var unitedStatesData = [
     "region": "West Coast",
     "city": "near Spokane",
     "videos": [
-      "CFVbt4xQ"
+      "Kt-CFVbt4xQ"
     ],
     "position": {
       "lat": 47.92197644886361,

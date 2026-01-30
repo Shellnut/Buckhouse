@@ -11344,5 +11344,11 @@ var videoData = [
         "views": "24123",
         "title": "Crystal Mountain WAshington Ski Resort Review",
         "date": "2021-10-27T00:15:11Z"
+    },
+    {
+        "id": "Kt-CFVbt4xQ",
+        "views": "3123",
+        "title": "Snowboarding Mount Spokane With Ski Patrol",
+        "date": "2026-01-29T00:15:11Z"
     }
 ];

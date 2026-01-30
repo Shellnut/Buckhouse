@@ -1,4 +1,4 @@
-var lastUpdated = '1/28/2026';
+var lastUpdated = '1/29/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -18250,7 +18250,9 @@ var unitedStatesData = [
     "state": "Washington",
     "region": "West Coast",
     "city": "near Spokane",
-    "videos": [],
+    "videos": [
+      "CFVbt4xQ"
+    ],
     "position": {
       "lat": 47.92197644886361,
       "lng": -117.09635016034551

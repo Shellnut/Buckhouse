@@ -1,4 +1,4 @@
-var lastUpdated = '1/29/2026';
+var lastUpdated = '2/16/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10819,6 +10819,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "7nRgNfwLbJ8",
       "ZPrnVh2xkCY",
       "RBnsyQYs0q8",
       "iKVyroAJqho",
@@ -13841,7 +13842,9 @@ var unitedStatesData = [
     "state": "Idaho",
     "region": "Rocky Mountains",
     "city": "Sandpoint",
-    "videos": [],
+    "videos": [
+      "xMJWRc5rETA"
+    ],
     "position": {
       "lat": 48.36811823181619,
       "lng": -116.6227655593482
@@ -17919,7 +17922,9 @@ var unitedStatesData = [
     "state": "Washington",
     "region": "West Coast",
     "city": "Chewelah",
-    "videos": [],
+    "videos": [
+      "c2loy5hQ870"
+    ],
     "position": {
       "lat": 48.30125419286336,
       "lng": -117.56291610167827

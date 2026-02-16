@@ -12286,9 +12286,9 @@ var unitedStatesData = [
       "gY7ZEkHocWU",
       "et1kev7SItY",
       "0ko1FQgcUos",
-      "sQodqgFFSlo",
       "i-GmeOffDlo",
-      "F315cADlvu0"
+      "F315cADlvu0",
+      "sQodqgFFSlo"
     ],
     "position": {
       "lat": 37.88476886631995,

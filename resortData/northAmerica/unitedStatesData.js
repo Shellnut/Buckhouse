@@ -1,4 +1,4 @@
-var lastUpdated = '2/16/2026';
+var lastUpdated = '2/28/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -7392,7 +7392,9 @@ var unitedStatesData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Jones",
-    "videos": [],
+    "videos": [
+      "inxRCIIFnh4"
+    ],
     "position": {
       "lat": 41.95346045143822,
       "lng": -85.8067961446197
@@ -11319,6 +11321,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "qpag7JcyZqM",
+      "UMSsDPn6m0k",
       "O8y3CZrXvNg",
       "q6GOApHM6QM",
       "5Y4tbMy_iqw",
@@ -13674,7 +13678,9 @@ var unitedStatesData = [
     "state": "Idaho",
     "region": "Rocky Mountains",
     "city": "Mullan",
-    "videos": [],
+    "videos": [
+      "tbaRUYQWEds"
+    ],
     "position": {
       "lat": 47.4562053380033,
       "lng": -115.69726263053664
@@ -13878,7 +13884,9 @@ var unitedStatesData = [
     "state": "Idaho",
     "region": "Rocky Mountains",
     "city": "Kellogg",
-    "videos": [],
+    "videos": [
+      "JJlwSyLY30Q"
+    ],
     "position": {
       "lat": 47.54083386182588,
       "lng": -116.1331173575192

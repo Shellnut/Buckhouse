@@ -1,4 +1,4 @@
-var lastUpdated = '2/28/2026';
+var lastUpdated = '3/17/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6470,7 +6470,9 @@ var unitedStatesData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Otsego",
-    "videos": [],
+    "videos": [
+      "0tPOzujfQ9Q"
+    ],
     "position": {
       "lat": 42.46788677653153,
       "lng": -85.75871902908267
@@ -6602,7 +6604,9 @@ var unitedStatesData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Cadillac",
-    "videos": [],
+    "videos": [
+      "ALcNyPwhsYw"
+    ],
     "position": {
       "lat": 44.2453233247079,
       "lng": -85.72052961304885
@@ -6668,7 +6672,9 @@ var unitedStatesData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Thompsonville",
-    "videos": [],
+    "videos": [
+      "zTIt4egeLz0"
+    ],
     "position": {
       "lat": 44.520151940847484,
       "lng": -85.99079109759751
@@ -7428,7 +7434,9 @@ var unitedStatesData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Gobles",
-    "videos": [],
+    "videos": [
+      "lo4Rx5zaWpw"
+    ],
     "position": {
       "lat": 42.392273850809,
       "lng": -85.78077786774368
@@ -7584,6 +7592,38 @@ var unitedStatesData = [
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/d1xc8yv23seasphmifich49dp4mz"
+  },
+  {
+    "resortName": "Norway Mountain Ski Resort",
+    "state": "Michigan",
+    "region": "Midwest",
+    "country": "United States",
+    "city": "Norway",
+    "videos": [],
+    "position": {
+      "lat": 45.78945739420906,
+      "lng": -87.86893268341235
+    },
+    "officialSkiResort": true,
+    "id": "410",
+    "website": "http://www.norwaymt.com/",
+    "resortReview": {
+      "score": "", // must be a number
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/kf2ckqyhh7y4d7o880tdxa4qwnwz.jpg"
   },
   {
     "resortName": "Afton Alps",

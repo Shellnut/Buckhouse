@@ -6562,7 +6562,7 @@ var unitedStatesData = [
     "skiPass": [
       "Ikon"
     ],
-    "mapLink": "https://files.skimap.org/hcbz26gt5psyn8atmqe7wjai0g4l",
+    "mapLink": "https://files.skimap.org/mrjut6not2rht30w6yqjm6ikuvbi",
     "country": "United States"
   },
   {
@@ -6702,7 +6702,7 @@ var unitedStatesData = [
     "skiPass": [
       "Indy"
     ],
-    "mapLink": "https://files.skimap.org/iy3tir951tld0zu2nrkpbhqffq6w",
+    "mapLink": "https://files.skimap.org/0xx7pktcpk7wb0q5lqyo24pr5tgh.jpg",
     "country": "United States"
   },
   {
@@ -7627,7 +7627,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [],
-    "mapLink": "https://files.skimap.org/kf2ckqyhh7y4d7o880tdxa4qwnwz.jpg"
+    "mapLink": "https://files.skimap.org/2yqtwpzlpnzbqhu3iyd323hm20w7"
   },
   {
     "resortName": "Afton Alps",

@@ -1,4 +1,4 @@
-var lastUpdated = '3/17/2026';
+var lastUpdated = '4/18/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6640,7 +6640,9 @@ var unitedStatesData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Cannonsburg",
-    "videos": [],
+    "videos": [
+      "hd6pRUyfnmQ"
+    ],
     "position": {
       "lat": 43.05483071088533,
       "lng": -85.5010777674894
@@ -7070,7 +7072,9 @@ var unitedStatesData = [
     "state": "Michigan",
     "region": "Midwest",
     "city": "Grand Haven",
-    "videos": [],
+    "videos": [
+      "SLOZ4v77ZJo"
+    ],
     "position": {
       "lat": 43.05851116759489,
       "lng": -86.2394184214621
@@ -10618,6 +10622,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "Iunuejv2mV0",
       "3gbvaNTCrJY",
       "VhRX1mc3Wnw",
       "a5LYaiWlO5A",
@@ -11361,6 +11366,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "IxW7gZ8emmY",
+      "2SEWo3CaDqg",
       "qpag7JcyZqM",
       "UMSsDPn6m0k",
       "O8y3CZrXvNg",
@@ -16276,7 +16283,9 @@ var unitedStatesData = [
     "state": "California",
     "region": "West Coast",
     "city": "Alpine Meadows",
-    "videos": [],
+    "videos": [
+      "FMQ8HyHZT44"
+    ],
     "position": {
       "lat": 39.16673818105613,
       "lng": -120.23869010841588
@@ -16441,7 +16450,9 @@ var unitedStatesData = [
     "state": "California",
     "region": "West Coast",
     "city": "Soda Springs",
-    "videos": [],
+    "videos": [
+      "efFur1Yqh9I"
+    ],
     "position": {
       "lat": 39.336710921417954,
       "lng": -120.34980673073355
@@ -16683,7 +16694,9 @@ var unitedStatesData = [
     "state": "California",
     "region": "West Coast",
     "city": "Homewood",
-    "videos": [],
+    "videos": [
+      "xL5OuCkfZkk"
+    ],
     "position": {
       "lat": 39.08571652384862,
       "lng": -120.16054983073911
@@ -17042,7 +17055,9 @@ var unitedStatesData = [
     "state": "California",
     "region": "West Coast",
     "city": "Twin Bridges",
-    "videos": [],
+    "videos": [
+      "Fak4km81pUc"
+    ],
     "position": {
       "lat": 38.80038532257699,
       "lng": -120.08036138656583
@@ -17212,7 +17227,9 @@ var unitedStatesData = [
     "state": "California",
     "region": "West Coast",
     "city": "Norden",
-    "videos": [],
+    "videos": [
+      "-dVoRbZ_G2U"
+    ],
     "position": {
       "lat": 39.30394242120659,
       "lng": -120.33433643364346

@@ -158,7 +158,7 @@ app.controller('myCtrl', function($scope, $uibModal, $location, myUtilities, Dat
                             <div class="alert alert-warning" role="alert">
                                 <i class="fa fa-exclamation-triangle"></i> Please note that none of these dates are 100% guaranteed and that travel is subject to change. Check Johnathan's social media accounts for realtime updates.
                             </div>
-                            <iframe src="https://calendar.google.com/calendar/embed?src=Y29keXB1bGwxOTk1QGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cmRrZDRzODR1dHVhaWRuMmZlamIzNmpuOG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" style="border:solid 1px #777" width="100%" height="70%" frameborder="0" scrolling="no"></iframe>
+                            <iframe src="https://calendar.google.com/calendar/embed?src=3cbd44ddf158fbb79f836d5ab9d7e373b2d9c42a1f4de93ef9ca4f24d6e353ad%40group.calendar.google.com&ctz=America%2FDenver" style="border:solid 1px #777" width="100%" height="70%" frameborder="0" scrolling="no"></iframe>
                             </div>
                             <div class="modal-footer">
                             <button class="btn btn-primary" type="button" ng-click="ok()">Close</button>

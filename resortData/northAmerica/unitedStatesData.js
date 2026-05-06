@@ -1,4 +1,4 @@
-var lastUpdated = '4/18/2026';
+var lastUpdated = '5/6/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -10137,6 +10137,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "TD86e39b7ZY",
       "4DLzPcRQyEw",
       "h1yA7tgMrF0",
       "8zij684ZbFQ",
@@ -10622,6 +10623,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "vPs081Wf1BU",
       "Iunuejv2mV0",
       "3gbvaNTCrJY",
       "VhRX1mc3Wnw",
@@ -10866,6 +10868,10 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "FysDPvQ_Glc",
+      "tl13lDVfs-Y",
+      "-VSDjdb3GVk",
+      "vfiPmYjyjn0",
       "7nRgNfwLbJ8",
       "ZPrnVh2xkCY",
       "RBnsyQYs0q8",

@@ -688,9 +688,9 @@ var viewsSeason10Trace = {
 };
 var viewsSeason11Trace = {
   x: monthsX,
-  y: getAvgViewsByMonth(s10Metrics),
+  y: getAvgViewsByMonth(s11Metrics),
   type: 'scatter',
-  name: 'Season 10'
+  name: 'Season 11'
 };
 
 var monthData = [viewsSeason1Trace, viewsSeason2Trace, viewsSeason3Trace, viewsSeason4Trace, viewsSeason5Trace, viewsSeason6Trace, viewsSeason7Trace, viewsSeason8Trace, viewsSeason9Trace, viewsSeason10Trace, viewsSeason11Trace];
@@ -834,7 +834,7 @@ var viewsTotalSeason11Trace = {
   name: 'Season 11'
 };
 
-var monthTotalData = [viewsTotalSeason1Trace, viewsTotalSeason2Trace, viewsTotalSeason3Trace, viewsTotalSeason4Trace, viewsTotalSeason5Trace, viewsTotalSeason6Trace, viewsTotalSeason7Trace, viewsTotalSeason8Trace, viewsTotalSeason9Trace, viewsTotalSeason10Trace];
+var monthTotalData = [viewsTotalSeason1Trace, viewsTotalSeason2Trace, viewsTotalSeason3Trace, viewsTotalSeason4Trace, viewsTotalSeason5Trace, viewsTotalSeason6Trace, viewsTotalSeason7Trace, viewsTotalSeason8Trace, viewsTotalSeason9Trace, viewsTotalSeason10Trace, viewsTotalSeason11Trace];
 
 var monthTotalLayout = {
   title: 'Total Views Per Month',

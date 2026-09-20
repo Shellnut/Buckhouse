@@ -1,4 +1,4 @@
-var lastUpdated = '5/6/2026';
+var lastUpdated = '9/20/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -104,7 +104,9 @@ var unitedStatesData = [
       "views": "2",
       "wouldIGoBack": "7"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/75u4ifuia9kahk1ilkey09djilxo",
     "country": "United States"
   },
@@ -302,7 +304,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/gqzn64jq9q06wg216s45ipbcfqoj",
     "country": "United States"
   },
@@ -430,7 +434,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/3wqlrccrgoztalzwkw7fuh4skzcc",
     "country": "United States"
   },
@@ -462,7 +468,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/a0ai8igf8u5031retkkar0f7iw9f",
     "country": "United States"
   },
@@ -730,7 +738,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Ikon"
+      "Ikon",
+      "Mountain Collective"
     ],
     "mapLink": "https://files.skimap.org/8nz8sl0d15uwd15uzz0sy0wnxhgh",
     "country": "United States"
@@ -863,7 +872,9 @@ var unitedStatesData = [
       "views": "5",
       "wouldIGoBack": "3"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/7radclyue2xgisb670zmh531ylxh",
     "country": "United States"
   },
@@ -897,7 +908,9 @@ var unitedStatesData = [
       "views": "3",
       "wouldIGoBack": "4"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/z35w15sd138cw7aritnzb4gfbc4p",
     "country": "United States"
   },
@@ -963,7 +976,9 @@ var unitedStatesData = [
       "views": "5",
       "wouldIGoBack": "4"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/ysxzbvl4f189upbxy46yhuq3d6si",
     "country": "United States"
   },
@@ -1419,7 +1434,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/vao2w387tzh4m8nba4lrfbmq6yo5",
     "country": "United States"
   },
@@ -1485,7 +1502,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/6ivuc0zdqdmcp6ujt9rd89izkxf3",
     "country": "United States"
   },
@@ -1517,7 +1536,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/8fq0fudfxbdhd2yxbgspwa43j62k",
     "country": "United States"
   },
@@ -1645,7 +1666,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/0a7k6vr5p0zg4spwnu555hy9fw12",
     "country": "United States"
   },
@@ -1717,7 +1740,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/ad1b78gdc33iblfhx6vcylh1mtjm",
     "country": "United States"
   },
@@ -1881,7 +1906,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/mzge3aqafrcam6hggoyb8q3qubeh",
     "country": "United States"
   },
@@ -1977,7 +2004,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/2vmlczpknq5x9aqfbtk324dhi12r",
     "country": "United States"
   },
@@ -2075,7 +2104,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/r2xxzlsdcc0e8p8fc45sxff14gmb",
     "country": "United States"
   },
@@ -2273,7 +2304,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://skimap.org/data/208/3535/1573352974.jpg",
     "country": "United States"
   },
@@ -2632,9 +2665,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/ml0oryv67ve13c663f5h2ba24auj",
     "country": "United States"
   },
@@ -2666,7 +2697,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/zn8z17uazho4ojvj7qv7m7znoo3i",
     "country": "United States"
   },
@@ -2900,7 +2933,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/d4o9uoc99b42dkb9psswoh8wb6oq",
     "country": "United States"
   },
@@ -3106,7 +3141,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/ehwh4u20546qfhk6jpfo6uxhj4kt",
     "country": "United States"
   },
@@ -3461,7 +3498,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/salhogztslkd4xyoxj8aelqdi5bo",
     "country": "United States"
   },
@@ -3527,7 +3566,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/n3s8fybcu52kdfpembq52wz2vt72",
     "country": "United States"
   },
@@ -4319,7 +4360,9 @@ var unitedStatesData = [
       "views": "6",
       "wouldIGoBack": "9"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Mountain Collective"
+    ],
     "mapLink": "https://files.skimap.org/b2d80n4b355uvmdww0m0vifagtzs",
     "country": "United States"
   },
@@ -4353,9 +4396,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Ikon"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/7evvvw0lhtu3zjca7qiucitc4ipc",
     "country": "United States"
   },
@@ -4487,7 +4528,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/ht43dq3mrwjokqmim3fdw6hmccut",
     "country": "United States"
   },
@@ -4519,42 +4562,44 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/v44rbspqq3ug5imaavmhrnc8y732",
     "country": "United States"
   },
-  {
-    "resortName": "Cockaigne Ski Resort",
-    "state": "New York",
-    "region": "Mid-Atlantic",
-    "city": "Cherry Creek",
-    "videos": [],
-    "position": {
-      "lat": 42.2644475136505,
-      "lng": -79.1664505004883
-    },
-    "officialSkiResort": true,
-    "id": "303",
-    "website": "http://www.cockaigne.com/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/h9oxqiik3qlvw36483cqrc3s63hc",
-    "country": "United States"
-  },
+  // {
+  //   "resortName": "Cockaigne Ski Resort",
+  //   "state": "New York",
+  //   "region": "Mid-Atlantic",
+  //   "city": "Cherry Creek",
+  //   "videos": [],
+  //   "position": {
+  //     "lat": 42.2644475136505,
+  //     "lng": -79.1664505004883
+  //   },
+  //   "officialSkiResort": true,
+  //   "id": "303",
+  //   "website": "http://www.cockaigne.com/",
+  //   "resortReview": {
+  //     "score": "", // must be a number
+  //     "link": "",
+  //     "note": "",
+  //     "price": "",
+  //     "easeOfAccess": "",
+  //     "lodging": "",
+  //     "chairLifts": "",
+  //     "runs": "",
+  //     "terrainPark": "",
+  //     "food": "",
+  //     "employees": "",
+  //     "views": "",
+  //     "wouldIGoBack": ""
+  //   },
+  //   "skiPass": [],
+  //   "mapLink": "https://files.skimap.org/h9oxqiik3qlvw36483cqrc3s63hc",
+  //   "country": "United States"
+  // },
   {
     "resortName": "Four Seasons Ski Center",
     "state": "New York",
@@ -4632,7 +4677,7 @@ var unitedStatesData = [
     },
     "officialSkiResort": true,
     "id": "325",
-    "website": "http://www.villaroma.com/",
+    "website": "https://hunthollow.com",
     "resortReview": {
       "score": "", // must be a number
       "link": "",
@@ -4648,7 +4693,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/gydzlzaji3tpfbjyx6ppzsbc5dsn"
   },
   {
@@ -4679,7 +4726,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/4pzf81vb7mw5uzytabanmjp35z04",
     "country": "United States"
   },
@@ -4745,7 +4794,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/7o0v1qcg9pdqs9au9qcqy9uf3619",
     "country": "United States"
   },
@@ -4809,7 +4860,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/eizdfjxwrm2xmatyvxpzk5e30kv5",
     "country": "United States"
   },
@@ -5143,7 +5196,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/ri29ubt6v8alm3qgubf1a3yxl419",
     "country": "United States"
   },
@@ -5616,7 +5671,7 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
-    "resortName": "Wolf Ridge",
+    "resortName": "Hatley Pointe Mountain Resort",
     "state": "North Carolina",
     "region": "Southeast",
     "city": "Mars Hill",
@@ -5643,7 +5698,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/o6vis2lfarwb2qyiiciueanh4spj",
     "country": "United States"
   },
@@ -5809,7 +5866,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/poipm0b4qv3umyi1ubesq93bfor5",
     "country": "United States"
   },
@@ -6161,7 +6220,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/5pjlj3ytzbac2xf042otzv5qs3vs",
     "country": "United States"
   },
@@ -6366,38 +6427,6 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
-    "resortName": "Al Quaal Recreation Ski Area",
-    "state": "Michigan",
-    "region": "Midwest",
-    "city": "Ishpeming",
-    "videos": [],
-    "position": {
-      "lat": 46.51289273591776,
-      "lng": -87.66038546086844
-    },
-    "officialSkiResort": true,
-    "id": "5258",
-    "website": "https://ishpemingcity.org/departments/parks-and-recreation/al-quaal-recreation-area-2/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "",
-    "country": "United States"
-  },
-  {
     "resortName": "Alpine Valley",
     "state": "Michigan",
     "region": "Midwest",
@@ -6499,38 +6528,38 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/bdomierexrrdwpjic9pc5tkpseos",
     "country": "United States"
   },
-  {
-    "resortName": "Blackjack Ski Resort",
-    "state": "Michigan",
-    "region": "Midwest",
-    "city": "Bessemer",
-    "videos": [],
-    "position": {
-      "lat": 46.50460771959755,
-      "lng": -89.99827780607735
-    },
-    "officialSkiResort": true,
-    "id": "394",
-    "website": "https://www.bigsnow.com/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/e7otxnu8x8xo8dog1jvw3vyzudxk",
-    "country": "United States"
-  },
+  // {
+  //   "resortName": "Blackjack Ski Resort",
+  //   "state": "Michigan",
+  //   "region": "Midwest",
+  //   "city": "Bessemer",
+  //   "videos": [],
+  //   "position": {
+  //     "lat": 46.50460771959755,
+  //     "lng": -89.99827780607735
+  //   },
+  //   "officialSkiResort": true,
+  //   "id": "394",
+  //   "website": "https://www.bigsnow.com/",
+  //   "resortReview": {
+  //     "score": "", // must be a number
+  //     "link": "",
+  //     "note": "",
+  //     "price": "",
+  //     "easeOfAccess": "",
+  //     "lodging": "",
+  //     "chairLifts": "",
+  //     "runs": "",
+  //     "terrainPark": "",
+  //     "food": "",
+  //     "employees": "",
+  //     "views": "",
+  //     "wouldIGoBack": ""
+  //   },
+  //   "skiPass": [],
+  //   "mapLink": "https://files.skimap.org/e7otxnu8x8xo8dog1jvw3vyzudxk",
+  //   "country": "United States"
+  // },
   {
     "resortName": "Boyne Highlands Resort",
     "state": "Michigan",
@@ -6630,6 +6659,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
+      "Ikon",
       "Indy"
     ],
     "mapLink": "https://files.skimap.org/5n0y5nmlje7tz385nhi0vxia9be4",
@@ -6798,7 +6828,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Indy"
+      "Ikon"
     ],
     "mapLink": "https://files.skimap.org/4hb1ks7ht8jtbd79omwubukwbpgc",
     "country": "United States"
@@ -6965,7 +6995,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/h0hd7pi87e7ghz2ucqmwhpl3ci6l",
     "country": "United States"
   },
@@ -7136,7 +7168,7 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
-    "resortName": "Otsego Club & Resort",
+    "resortName": "Otsego Resort",
     "state": "Michigan",
     "region": "Midwest",
     "city": "Gaylord",
@@ -7427,9 +7459,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/bdn939afob2baxxt6xc1of037qr5",
     "country": "United States"
   },
@@ -7626,7 +7656,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/2yqtwpzlpnzbqhu3iyd323hm20w7"
   },
   {
@@ -7693,7 +7725,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/45d0pp13s4gxtod7483q135btgbm",
     "country": "United States"
   },
@@ -7728,7 +7762,7 @@ var unitedStatesData = [
       "wouldIGoBack": "6"
     },
     "skiPass": [
-      "Indy"
+      "Ikon"
     ],
     "mapLink": "https://files.skimap.org/3hg884gt2z1nqfonm8680a1otz5n",
     "country": "United States"
@@ -7827,7 +7861,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/l9l37wuaef0nl8b9czmlepqqwjir",
     "country": "United States"
   },
@@ -7893,7 +7929,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/uj2eppk0gkgk4pfxrg7wsrftwbq3",
     "country": "United States"
   },
@@ -8002,7 +8040,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Indy"
+      "Ikon"
     ],
     "mapLink": "https://files.skimap.org/otkbhpfglq3fcabcfym0oreu0tz2",
     "country": "United States"
@@ -8245,7 +8283,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/uxokt6vqe12fmv2xizw7nhxmqc1e",
     "country": "United States"
   },
@@ -8446,7 +8486,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/w2xfbtej2uy56ciw2s0ne3y0r0rm",
     "country": "United States"
   },
@@ -8478,7 +8520,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/sfmgfzp23pno32g2ossei4nnil4w",
     "country": "United States"
   },
@@ -8510,7 +8554,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/y7j2g0ifqbeon7zte7kyc71r2siq",
     "country": "United States"
   },
@@ -8542,7 +8588,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/qy6zh9beun1tfioruryera25aaxw.jpg",
     "country": "United States"
   },
@@ -8774,7 +8822,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/n8pwq1mr83o2nrsc7n64i5g6gjjz",
     "country": "United States"
   },
@@ -8879,70 +8929,6 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
-    "resortName": "Badlands Sno-Park",
-    "state": "Wisconsin",
-    "region": "Midwest",
-    "city": "Hudson",
-    "videos": [],
-    "position": {
-      "lat": 44.97333986577322,
-      "lng": -92.64196777412545
-    },
-    "officialSkiResort": true,
-    "id": "4824",
-    "website": "https://www.badlands-snopark.com/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/rbdfqlv2mg1lum42n3xv2c4b5cca",
-    "country": "United States"
-  },
-  {
-    "resortName": "Book Across the Bay",
-    "state": "Wisconsin",
-    "region": "Midwest",
-    "city": "Ashland",
-    "videos": [],
-    "position": {
-      "lat": 46.79294206602874,
-      "lng": -90.89816974070875
-    },
-    "officialSkiResort": true,
-    "id": "",
-    "website": "https://www.batb.org/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "",
-    "country": "United States"
-  },
-  {
     "resortName": "Bruce Mound Winter Sports Area",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -8970,7 +8956,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/zeo7f7c9kh9q4kjv38qnxof51m9p",
     "country": "United States"
   },
@@ -9002,7 +8990,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/bydgztsosefufztk2o99vfdmgr9d",
     "country": "United States"
   },
@@ -9071,7 +9061,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/9guijblumq49da4wbmutb25qfnq8",
     "country": "United States"
   },
@@ -9110,7 +9102,7 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
-    "resortName": "Crystal Ridge (The Rock Snowpark)",
+    "resortName": "Crystal Ridge",
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Franklin",
@@ -9139,14 +9131,12 @@ var unitedStatesData = [
       "views": "4",
       "wouldIGoBack": "6"
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/26otmlkx3o5gspje6kl3mhf8di8k",
     "country": "United States"
   },
   {
-    "resortName": "Devils Head Resort",
+    "resortName": "Devil's Head Resort",
     "state": "Wisconsin",
     "region": "Midwest",
     "city": "Baraboo",
@@ -9175,7 +9165,9 @@ var unitedStatesData = [
       "views": "3",
       "wouldIGoBack": "3"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/zqnbdbs4mnsb87pmrhblwmlgc4be",
     "country": "United States"
   },
@@ -9242,7 +9234,7 @@ var unitedStatesData = [
       "wouldIGoBack": "4"
     },
     "skiPass": [
-      "Indy"
+      "Ikon"
     ],
     "mapLink": "https://files.skimap.org/1pa834ksq4d17uwkgcg2tho4amy0",
     "country": "United States"
@@ -9405,9 +9397,7 @@ var unitedStatesData = [
       "views": "2",
       "wouldIGoBack": "8"
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/hcz0e6l4r1mvc6vfu28ulkqc0e6u",
     "country": "United States"
   },
@@ -9541,40 +9531,10 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/vg4ywy85ysc0mqaush3ebadocajr",
-    "country": "United States"
-  },
-  {
-    "resortName": "Navarino Slopes",
-    "state": "Wisconsin",
-    "region": "Midwest",
-    "city": "Navarino",
-    "videos": [],
-    "position": {
-      "lat": 44.61105679207712,
-      "lng": -88.58547962529671
-    },
-    "officialSkiResort": true,
-    "id": "3017",
-    "website": "http://www.skinavarino.com/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/kvttlmm7pjtgfuob51w84g2n86mo",
     "country": "United States"
   },
   {
@@ -9607,9 +9567,7 @@ var unitedStatesData = [
       "views": "2",
       "wouldIGoBack": "5"
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/61jyrjoh2r68tqu24j6zog6s5cjk",
     "country": "United States"
   },
@@ -9641,7 +9599,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "",
     "country": "United States"
   },
@@ -9740,7 +9700,9 @@ var unitedStatesData = [
       "views": "2",
       "wouldIGoBack": "2"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/lhf0wyhz1p8f4hblzth66xw6zm23",
     "country": "United States"
   },
@@ -9881,7 +9843,9 @@ var unitedStatesData = [
       "views": "2",
       "wouldIGoBack": "3"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/3g7aaofah0v92jvuh7il53sx3qy2",
     "country": "United States"
   },
@@ -9954,38 +9918,6 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
-    "resortName": "Pinehurst",
-    "state": "Wisconsin",
-    "region": "Midwest",
-    "city": "",
-    "videos": [],
-    "position": {
-      "lat": 44.853769653067545,
-      "lng": -91.45300626754761
-    },
-    "officialSkiResort": true,
-    "id": "12871",
-    "website": "http://www.pinehurstpark.org/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/tcls0aaht2qul68suaazstrpss3b",
-    "country": "United States"
-  },
-  {
     "resortName": "Paul Bunyan Ski Hill",
     "state": "Wisconsin",
     "region": "Midwest",
@@ -10013,7 +9945,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/x1kha772v6vpq0v164q5qycgofme.jpg",
     "country": "United States"
   },
@@ -10125,9 +10059,7 @@ var unitedStatesData = [
       "views": "3",
       "wouldIGoBack": "3"
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/ynzkum2ikclhzf72pc5f3fb1ly2h",
     "country": "United States"
   },
@@ -10137,6 +10069,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "v6ajpYdfVtM",
       "TD86e39b7ZY",
       "4DLzPcRQyEw",
       "h1yA7tgMrF0",
@@ -10401,8 +10334,7 @@ var unitedStatesData = [
       "wouldIGoBack": "10"
     },
     "skiPass": [
-      "Ikon",
-      "Mountain Collective"
+      "Ikon"
     ],
     "mapLink": "https://files.skimap.org/ssbqg9v1uqi9pev5yokbf4wej4y2",
     "country": "United States"
@@ -10868,6 +10800,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "wcSnmc82hVI",
       "FysDPvQ_Glc",
       "tl13lDVfs-Y",
       "-VSDjdb3GVk",
@@ -11264,38 +11197,6 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/ercixskkm4wcb79x8pa9146e45zd",
     "country": "United States"
   },
-  // {    
-  //   "resortName": "Hesperus Ski Area",
-  //   "state": "Colorado",
-  //   "region": "Rocky Mountains",
-  //   "city": "Hesperus",
-  //   "videos": [],
-  //   "position": {
-  //     "lat": 37.2993294370566,
-  //     "lng": -108.0551289019413
-  //   },
-  //   "officialSkiResort": true,
-  //   "id": "1035",
-  //   "website": "http://ski-hesperus.com/",
-  //   "resortReview": {
-  //     "score": "", // must be a number
-  //     "link": "",
-  //     "note": "",
-  //     "price": "",
-  //     "easeOfAccess": "",
-  //     "lodging": "",
-  //     "chairLifts": "",
-  //     "runs": "",
-  //     "terrainPark": "",
-  //     "food": "",
-  //     "employees": "",
-  //     "views": "",
-  //     "wouldIGoBack": ""
-  //   },
-  //   "skiPass": [],
-  //   "mapLink": "https://files.skimap.org/icvb1g80y3t4w2q4zgm5nmhsmj7k",
-  //   "country": "United States"
-  // },
   {
     "resortName": "Howelsen Hill Ski Area",
     "state": "Colorado",
@@ -11312,7 +11213,7 @@ var unitedStatesData = [
     },
     "officialSkiResort": true,
     "id": "498",
-    "website": "http://steamboatsprings.net/departments/parks_recreation/facilities/howelsen_hill_ski_area",
+    "website": "https://www.co-steamboatsprings.civicplus.com/298/Lift-Tickets",
     "resortReview": {
       "score": 33,
       "link": "famqzfLIJ74",
@@ -11328,7 +11229,9 @@ var unitedStatesData = [
       "views": "3",
       "wouldIGoBack": "3"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/oeyi41if3udmqj30b3ybcnwpx4rh",
     "country": "United States"
   },
@@ -11362,7 +11265,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/p9czucnwfcwz8m67puaipwek1vhk",
     "country": "United States"
   },
@@ -12168,6 +12073,7 @@ var unitedStatesData = [
       "wouldIGoBack": "7"
     },
     "skiPass": [
+      "Indy",
       "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/p7zelu5ucf10m1t23dbqni9gnugl",
@@ -12242,7 +12148,9 @@ var unitedStatesData = [
       "views": "5",
       "wouldIGoBack": "8"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/6616qdzogyi573azji1tpa1pa2yt",
     "webcam": [
       {
@@ -12407,7 +12315,9 @@ var unitedStatesData = [
       "views": "5",
       "wouldIGoBack": "6"
     },
-    "skiPass": [],
+    "skiPass": [
+      "Powder Alliance"
+    ],
     "mapLink": "https://files.skimap.org/gzapzmksri0g0tktc8n7mrk04fxl",
     "country": "United States"
   },
@@ -13418,7 +13328,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/f1mv6ldfdcevptbs6jtfrexmyh9q.png",
     "country": "United States"
   },
@@ -13486,7 +13398,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/vkytzzw5kdv19cvm8gyovbt8kqgx.webp",
     "country": "United States"
   },
@@ -13722,7 +13636,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/v97brja2wk2kg516xra8d7kcv4cm",
     "country": "United States"
   },
@@ -13820,7 +13736,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/skfi9s98hg1jux3xw047vfol5xr2",
     "country": "United States"
   },
@@ -13963,8 +13881,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance",
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/k50v672vp4ibpba08wtnw0jgq4ru",
     "country": "United States"
@@ -14099,6 +14017,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
+      "Ikon",
       "Indy"
     ],
     "mapLink": "https://files.skimap.org/c1g8x4n5s9jcjon56x9e59ch3tiy",
@@ -14214,7 +14133,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Indy"
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/cx5x83t911411cb2cxl9ug20q7fg",
     "country": "United States"
@@ -14409,7 +14328,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/a56lmc4da89mntlbaxm25405m215",
     "country": "United States"
   },
@@ -15346,9 +15267,7 @@ var unitedStatesData = [
       "views": "5",
       "wouldIGoBack": "7"
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/3f4fzsu96e4cxqp78my3mkt2d8wg",
     "country": "United States"
   },
@@ -15537,9 +15456,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/3hjr46hf01rqleqzjsg6d7xqd67r",
     "country": "United States"
   },
@@ -15752,7 +15669,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/ml61e3rgzhrpai5mfspzek2uiylt",
     "webcam": [
@@ -15793,7 +15711,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Ikon"
+    ],
     "mapLink": "https://files.skimap.org/cladxiq3gkuhsogsf61b1ttqwp6j",
     "country": "United States"
   },
@@ -16011,8 +15931,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance",
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/esh5gsq63nk38ciigua5olm9gm3g",
     "country": "United States"
@@ -16045,7 +15965,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/7giks71xosp9y3ag8oyzn8l9c9my",
     "country": "United States"
   },
@@ -16110,7 +16032,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/p77vw0jv9ua6o79nevfw8h4f1kl1",
     "country": "United States"
   },
@@ -16142,7 +16066,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/p3rvnrfoaam8296809qx4p51afxv",
     "country": "United States"
   },
@@ -16174,7 +16100,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/axk09ycesffhbpgey49ohbfrpvpa",
     "country": "United States"
   },
@@ -16208,7 +16136,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/wci1gnltpfuju5lqploju7yf2rvt",
     "country": "United States"
   },
@@ -16227,7 +16157,7 @@ var unitedStatesData = [
       "lat": 61.00138875500095,
       "lng": -148.95336992515027
     },
-    "officialSkiResort": true,
+    "officialSkiResort": false,
     "snowcatOnly": true,
     "id": "",
     "website": "https://www.chugachpowderguides.com/experience/snowcat-skiing",
@@ -16330,7 +16260,7 @@ var unitedStatesData = [
     },
     "officialSkiResort": true,
     "id": "528",
-    "website": "https://www.altasierra.com/",
+    "website": "https://www.fs.usda.gov/r05/sequoia/recreation/alta-sierra-ski-resort",
     "resortReview": {
       "score": "", // must be a number
       "link": "",
@@ -16447,7 +16377,10 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy",
+      "Powder Alliance"
+    ],
     "mapLink": "https://files.skimap.org/9my5l7w42hq7ydl9cf5smze7kbtz",
     "country": "United States"
   },
@@ -16546,8 +16479,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance",
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/g99akwohrgmphnuc3whczbja4j4n",
     "country": "United States"
@@ -16581,8 +16514,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance",
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/njbct5nu4kf50p410vhsvbdtaq3e",
     "country": "United States"
@@ -16615,7 +16548,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/ucm6xjl84zie6gvtklr66pp6m0pp",
     "country": "United States"
   },
@@ -16936,7 +16871,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/cqds7m7otaqnrao5j0xdyyzo9nyg",
     "country": "United States"
@@ -17004,8 +16940,8 @@ var unitedStatesData = [
       "wouldIGoBack": "5"
     },
     "skiPass": [
-      "Powder Alliance",
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/igfv4qnek2vvowvl5tqqysokqpk3.png",
     "country": "United States"
@@ -17087,6 +17023,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
+      "Ikon",
       "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/03cvjultidq5v5czbycynht8v34o",
@@ -17552,7 +17489,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/4lnfj7dcf3ed9mxsk8zmhkd8fxw0",
     "country": "United States"
   },
@@ -17650,9 +17589,7 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [
-      "Indy"
-    ],
+    "skiPass": [],
     "mapLink": "https://files.skimap.org/b6pg0zjslkfnvhl9g4j1uxzlgovo",
     "country": "United States"
   },
@@ -17761,43 +17698,16 @@ var unitedStatesData = [
     "country": "United States"
   },
   {
-    "resortName": "Spout Springs",
-    "state": "Oregon",
-    "region": "West Coast",
-    "city": "Tollgate",
-    "videos": [],
-    "position": {
-      "lat": 45.75541465169294,
-      "lng": -118.05137808640121
-    },
-    "officialSkiResort": true,
-    "id": "269",
-    "website": "http://www.spoutspringsskiarea.com/",
-    "resortReview": {
-      "score": "", // must be a number
-      "link": "",
-      "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/8u8h9nwn74efj84pxt862p57k94p",
-    "country": "United States"
-  },
-  {
     "resortName": "Timberline Lodge",
     "state": "Oregon",
     "region": "West Coast",
     "city": "Government Camp",
     "videos": [
+      "05o0q8KM_bI",
+      "bseNkrg7LaY",
+      "m7tQFEty55s",
+      "NPYJpEm3n2I",
+      "ndoAbxvg5m4",
       "4SHFOc-iUvo",
       "KorJOROnO4Y",
       "mKdXqc3sijY",
@@ -18218,7 +18128,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/8tzutaty7poo9zrdfm9vzch0s2zf",
     "country": "United States"
   },
@@ -18283,8 +18195,7 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance",
-      "Indy"
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/vny6nhn9wwf3z5ztoskoovmitopn",
     "country": "United States"
@@ -18606,8 +18517,8 @@ var unitedStatesData = [
       "wouldIGoBack": ""
     },
     "skiPass": [
-      "Powder Alliance",
-      "Indy"
+      "Indy",
+      "Powder Alliance"
     ],
     "mapLink": "https://files.skimap.org/qc96cdn349iffee4pyop1er94kiq",
     "country": "United States"
@@ -18679,7 +18590,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Epic"
+    ],
     "mapLink": "https://files.skimap.org/5fygdo06hi7vmh4nlrznuebrxdup"
   },
   {
@@ -18776,7 +18689,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Epic"
+    ],
     "mapLink": "https://files.skimap.org/4f05y8vyjgsjnduna1y6p62p3ob9"
   },
   {
@@ -18814,7 +18729,9 @@ var unitedStatesData = [
       "views": "",
       "wouldIGoBack": ""
     },
-    "skiPass": [],
+    "skiPass": [
+      "Indy"
+    ],
     "mapLink": "https://files.skimap.org/aekru5wqy2vhmvas29l2ic7hpo2g"
   },
   {
@@ -18999,4 +18916,114 @@ var unitedStatesData = [
     "mapLink": "https://files.skimap.org/4kfio9enz1mv7spci4ys7sqjhshc",
     "webcam": []
   },
+  {
+    "resortName": "Southern Lakes Heliski",
+    "state": "New Zealand",
+    "region": "New Zealand",
+    "country": "New Zealand",
+    "city": "",
+    "videos": [
+      "Ko_AeMP_vfk",
+    ],
+    "position": {
+      "lat": -44.72316430598105,
+      "lng": 169.24401950000123
+    },
+    "officialSkiResort": false,
+    "international": true,
+    "id": "",
+    "website": "http://www.southernlakesheliski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMLN5p_a3TxnAH4sxQOaDAObVpArUgDSHya41sem7tQw&s=10",
+    "webcam": []
+  },
+  {
+    "resortName": "Cardrona",
+    "state": "New Zealand",
+    "region": "New Zealand",
+    "country": "New Zealand",
+    "city": "",
+    "videos": [
+      "rikqR-XpKNQ"
+    ],
+    "position": {
+      "lat": -44.8731079758319,
+      "lng": 168.94875377768344
+    },
+    "officialSkiResort": true,
+    "international": true,
+    "id": "",
+    "website": "https://cardrona-treblecone.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/5lp5xrlosa5nqnzju7zddp6qjyfk.webp",
+    "webcam": []
+  },
+  {
+    "resortName": "The Remarkables Ski Area",
+    "state": "New Zealand",
+    "region": "New Zealand",
+    "country": "New Zealand",
+    "city": "",
+    "videos": [
+      "OtXifQ8NrKg"
+    ],
+    "position": {
+      "lat": -45.05389511895968,
+      "lng": 168.8142933635219
+    },
+    "officialSkiResort": true,
+    "international": true,
+    "id": "",
+    "website": "https://www.theremarkables.co.nz/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [
+      "Ikon"
+    ],
+    "mapLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH6GFh-2GUFnhA3982BUFVwmbCyEhhgy6jaPEUnzCWig&s=10",
+    "webcam": []
+  }  
 ];

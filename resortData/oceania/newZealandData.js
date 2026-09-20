@@ -359,7 +359,9 @@ var newZealandData = [
         "region": "New Zealand",
         "country": "New Zealand",
         "city": "",
-        "videos": [],
+        "videos": [
+            "rikqR-XpKNQ"
+        ],
         "position": {
             "lat": -44.867359647194,
             "lng": 168.95141397595
@@ -403,7 +405,9 @@ var newZealandData = [
         "region": "New Zealand",
         "country": "New Zealand",
         "city": "",
-        "videos": [],
+        "videos": [
+            "OtXifQ8NrKg"
+        ],
         "position": {
             "lat": -45.055333653526745,
             "lng": 168.81415843963623
@@ -598,5 +602,40 @@ var newZealandData = [
         },
         "skiPass": [],
         "mapLink": "https://files.skimap.org/6q1j4dipfrcifp46fcztphv0ln15"
-    }
+    },
+    {
+    "resortName": "Southern Lakes Heliski",
+    "state": "New Zealand",
+    "region": "New Zealand",
+    "country": "New Zealand",
+    "city": "",
+    "videos": [
+      "Ko_AeMP_vfk",
+    ],
+    "position": {
+      "lat": -44.72316430598105,
+      "lng": 169.24401950000123
+    },
+    "officialSkiResort": false,
+    "id": "",
+    "website": "http://www.southernlakesheliski.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMLN5p_a3TxnAH4sxQOaDAObVpArUgDSHya41sem7tQw&s=10",
+    "webcam": []
+  }
 ];

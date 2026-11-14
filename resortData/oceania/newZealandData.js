@@ -456,7 +456,9 @@ var newZealandData = [
         "region": "New Zealand",
         "country": "New Zealand",
         "city": "",
-        "videos": [],
+        "videos": [
+            "fAiNHUGWPhs"
+        ],
         "position": {
             "lat": -44.631861496236,
             "lng": 168.88592789751

@@ -1,4 +1,4 @@
-var lastUpdated = '9/20/2026';
+var lastUpdated = '11/13/2026';
 var unitedStatesData = [
   {
     "resortName": "Mohawk Mountain Ski Area",
@@ -6510,19 +6510,19 @@ var unitedStatesData = [
     "id": "400",
     "website": "https://www.skibittersweet.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 36,
+      "link": "kTvfMlRorNo",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "2",
+      "terrainPark": "5",
+      "food": "5",
+      "employees": "5",
+      "views": "1",
+      "wouldIGoBack": "3"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/bdomierexrrdwpjic9pc5tkpseos",
@@ -6644,26 +6644,20 @@ var unitedStatesData = [
     "id": "404",
     "website": "https://caberfaepeaks.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 35,
+      "link": "5KGw05slpt8",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [
-      "Ikon",
-      "Indy"
-    ],
-    "mapLink": "https://files.skimap.org/5n0y5nmlje7tz385nhi0vxia9be4",
-    "country": "United States"
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "5",
+      "chairLifts": "2",
+      "runs": "5",
+      "terrainPark": "1",
+      "food": "5",
+      "employees": "5",
+      "views": "1",
+      "wouldIGoBack": "1"
+    }
   },
   {
     "resortName": "Cannonsburg Ski Area",
@@ -6681,19 +6675,19 @@ var unitedStatesData = [
     "id": "413",
     "website": "https://cannonsburg.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 44,
+      "link": "3w34ESeLgn0",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "7",
+      "lodging": "0",
+      "chairLifts": "4",
+      "runs": "2",
+      "terrainPark": "7",
+      "food": "6",
+      "employees": "4",
+      "views": "1",
+      "wouldIGoBack": "6"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/5x2z7qanq61xwmmfcoznmr4yy09g",
@@ -6715,19 +6709,19 @@ var unitedStatesData = [
     "id": "429",
     "website": "https://www.crystalmountain.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 52,
+      "link": "WucZUc0Brk4",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "10",
+      "chairLifts": "2",
+      "runs": "3",
+      "terrainPark": "3",
+      "food": "10",
+      "employees": "7",
+      "views": "1",
+      "wouldIGoBack": "6"
     },
     "skiPass": [
       "Indy"
@@ -7115,23 +7109,20 @@ var unitedStatesData = [
     "id": "395",
     "website": "https://www.mulliganshollow.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 37,
+      "link": "So5-aZE4Gvs",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
-    },
-    "skiPass": [],
-    "mapLink": "https://files.skimap.org/l1caskkdkx5wpc7qs9l94wygrep7",
-    "country": "United States"
+      "price": "10",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "1",
+      "terrainPark": "3",
+      "food": "1",
+      "employees": "8",
+      "views": "3",
+      "wouldIGoBack": "3"
+    }
   },
   {
     "resortName": "Nub's Nob",
@@ -7445,19 +7436,19 @@ var unitedStatesData = [
     "id": "401",
     "website": "http://skiswissvalley.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 32,
+      "link": "q6MNex9sPfY",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "4",
+      "lodging": "1",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "4",
+      "food": "5",
+      "employees": "7",
+      "views": "1",
+      "wouldIGoBack": "1"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/bdn939afob2baxxt6xc1of037qr5",
@@ -7479,19 +7470,19 @@ var unitedStatesData = [
     "id": "2173",
     "website": "https://www.facebook.com/pg/skitimberridge/about/?tab=page_info",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 29,
+      "link": "mrDu0NBegNU",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "6",
+      "lodging": "0",
+      "chairLifts": "2",
+      "runs": "2",
+      "terrainPark": "6",
+      "food": "3",
+      "employees": "3",
+      "views": "1",
+      "wouldIGoBack": "1"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/g60luxpxbs50kics7h7vgr5ialv6",
@@ -10069,6 +10060,9 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "hHz8KL4r25g",
+      "BrleBCb66ns",
+      "lOcyq0AUa9M",
       "v6ajpYdfVtM",
       "TD86e39b7ZY",
       "4DLzPcRQyEw",
@@ -10345,6 +10339,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Aspen and Snowmass Village",
     "videos": [
+      "fXHnLk_a4aQ",
+      "0iDMwpROAVA",
       "LswveD5U3As"
     ],
     "position": {
@@ -10555,6 +10551,8 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Breckenridge",
     "videos": [
+      "477N3Qs9yPI",
+      "EqecrgK4aTc",
       "vPs081Wf1BU",
       "Iunuejv2mV0",
       "3gbvaNTCrJY",
@@ -10800,6 +10798,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Copper Mountain",
     "videos": [
+      "kTbCfmORgNg",
       "wcSnmc82hVI",
       "FysDPvQ_Glc",
       "tl13lDVfs-Y",
@@ -11277,6 +11276,15 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Keystone",
     "videos": [
+      "oHEX07qZdm0",
+      "XledF5UZlcE",
+      "_-kslHZpSyA",
+      "y1dh0Wr11cw",
+      "5BtaLuhiQ8w",
+      "xkoGvT8zfME",
+      "XStBlRtjo40",
+      "QUik1cyOGKY",
+      "hFkreflDRSA",
       "IxW7gZ8emmY",
       "2SEWo3CaDqg",
       "qpag7JcyZqM",
@@ -12593,6 +12601,7 @@ var unitedStatesData = [
     "region": "Rocky Mountains",
     "city": "Winter Park",
     "videos": [
+      "7EvYvuFnPZc",
       "hDS4HIom5e8",
       "nug-5xjTLMc",
       "OHnOJJn0XKI",
@@ -13830,19 +13839,19 @@ var unitedStatesData = [
     "id": "476",
     "website": "http://www.schweitzer.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 59,
+      "link": "mxD54XlZRgE",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "5",
+      "easeOfAccess": "5",
+      "lodging": "10",
+      "chairLifts": "4",
+      "runs": "8",
+      "terrainPark": "4",
+      "food": "7",
+      "employees": "5",
+      "views": "7",
+      "wouldIGoBack": "4"
     },
     "skiPass": [
       "Ikon"
@@ -17914,19 +17923,19 @@ var unitedStatesData = [
     "id": "195",
     "website": "http://www.ski49n.com",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 61,
+      "link": "snDsnZImm2k",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "7",
+      "easeOfAccess": "5",
+      "lodging": "2",
+      "chairLifts": "6",
+      "runs": "8",
+      "terrainPark": "5",
+      "food": "6",
+      "employees": "10",
+      "views": "5",
+      "wouldIGoBack": "7"
     },
     "skiPass": [
       "Indy"
@@ -18248,19 +18257,19 @@ var unitedStatesData = [
     "id": "189",
     "website": "https://www.mtspokane.com/",
     "resortReview": {
-      "score": "", // must be a number
-      "link": "",
+      "score": 50,
+      "link": "XT1n2poVE3A",
       "note": "",
-      "price": "",
-      "easeOfAccess": "",
-      "lodging": "",
-      "chairLifts": "",
-      "runs": "",
-      "terrainPark": "",
-      "food": "",
-      "employees": "",
-      "views": "",
-      "wouldIGoBack": ""
+      "price": "6",
+      "easeOfAccess": "4",
+      "lodging": "0",
+      "chairLifts": "3",
+      "runs": "5",
+      "terrainPark": "6",
+      "food": "5",
+      "employees": "10",
+      "views": "5",
+      "wouldIGoBack": "6"
     },
     "skiPass": [],
     "mapLink": "https://files.skimap.org/d37wttz8s7n1i6uo558whdx67y61",
@@ -19025,5 +19034,40 @@ var unitedStatesData = [
     ],
     "mapLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH6GFh-2GUFnhA3982BUFVwmbCyEhhgy6jaPEUnzCWig&s=10",
     "webcam": []
-  }  
+  },
+  {
+    "resortName": "Treble Cone",
+    "state": "",
+    "region": "New Zealand",
+    "country": "New Zealand",
+    "city": "",
+    "videos": [
+      "fAiNHUGWPhs"
+    ],
+    "position": {
+      "lat": -44.631861496236,
+      "lng": 168.88592789751
+    },
+    "officialSkiResort": true,
+    "international": true,
+    "id": "2429",
+    "website": "http://www.treblecone.com/",
+    "resortReview": {
+      "score": "",
+      "link": "",
+      "note": "",
+      "price": "",
+      "easeOfAccess": "",
+      "lodging": "",
+      "chairLifts": "",
+      "runs": "",
+      "terrainPark": "",
+      "food": "",
+      "employees": "",
+      "views": "",
+      "wouldIGoBack": ""
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/srwpuh8lqisextnssrqb1tbwjc1n"
+    }
 ];

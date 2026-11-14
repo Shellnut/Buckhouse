@@ -6657,7 +6657,13 @@ var unitedStatesData = [
       "employees": "5",
       "views": "1",
       "wouldIGoBack": "1"
-    }
+    },
+    "skiPass": [
+      "Ikon",
+      "Indy"
+    ],
+    "mapLink": "https://files.skimap.org/5n0y5nmlje7tz385nhi0vxia9be4",
+    "country": "United States"
   },
   {
     "resortName": "Cannonsburg Ski Area",
@@ -7122,7 +7128,10 @@ var unitedStatesData = [
       "employees": "8",
       "views": "3",
       "wouldIGoBack": "3"
-    }
+    },
+    "skiPass": [],
+    "mapLink": "https://files.skimap.org/l1caskkdkx5wpc7qs9l94wygrep7",
+    "country": "United States"
   },
   {
     "resortName": "Nub's Nob",
